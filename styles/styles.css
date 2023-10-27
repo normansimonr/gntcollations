@@ -1,0 +1,84 @@
+/* css styles */
+
+.greek-word {
+}
+
+.greek-added {
+    color: #539c51;
+    font-weight: bold;
+}
+
+.greek-omitted {
+    color: #a6413a;
+    font-weight: bold;
+}
+
+.greek-supplied::before {
+    content: "[";
+    color: #a2a2a3;
+  }
+.greek-supplied::after {
+    content: "]";
+    color: #a2a2a3;
+  }
+
+.unclear {
+  position: relative;
+  text-align: center; /* To center-align the word horizontally */
+  background: #e8e9eb; /* Example word color */
+}
+
+/* Style for the question mark */
+.unclear::before {
+  content: "?"; /* Content for the question mark */
+  position: absolute;
+  top: -10px; /* Adjust the value to position the question mark as desired */
+  left: 50%; /* To center-align the question mark horizontally */
+  transform: translateX(-50%); /* To horizontally center-align the question mark */
+  font-size: 65%; /* Adjust the font size of the question mark as needed */
+}
+
+
+.greek-abbr{
+    text-decoration: overline;
+    text-decoration-color: #539c51;
+}
+
+
+.corr {
+    vertical-align: super;
+     font-size: smaller;
+     /* font-style: italic; */
+}
+
+.column-margin { /* To make the aside font larger */
+        font-size: 0.8em;
+      }
+
+
+.gap {
+  position: relative;
+  text-align: center; /* To center-align the word horizontally */
+  font-style: bold;
+}
+
+/* Style for the question mark */
+.gap::before {
+  content: "gap"; /* Content for the question mark */
+  position: absolute;
+  top: -10px; /* Adjust the value to position the question mark as desired */
+  left: 50%; /* To center-align the question mark horizontally */
+  transform: translateX(-50%); /* To horizontally center-align the question mark */
+  font-size: 65%; /* Adjust the font size of the mark as needed */
+}
+
+h2 {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.5em; /* You can adjust the font size as needed */
+}
+
+.lacunose {
+  background: #faf8cd;
+}
+
