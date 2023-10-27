@@ -15,4 +15,4 @@ The maintainer of this website is Norman Simon Rodriguez. To report an error, pl
 
 The Byzantine majority text is in the Public Domain. The transcriptions of the individual manuscripts have been created by the *Institut für Neutestamentliche Textforschung* and are under the Creative Commons Attribution 4.0 Unported Licence.
 
-The [code](https://github.com/normansimonr/greek-new-testament-collations/) to create the collations has been released to the Public Domain.
+The [code](https://github.com/normansimonr/gntcollations/) to create the collations has been released to the Public Domain.
