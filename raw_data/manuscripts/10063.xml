@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P63">P63</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Berlin</settlement>
+            <repository>Staatliche Museen zu Berlin Preußischer Kulturbesitz</repository>
+            <idno>P. 11914</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K3"><ab n="B04K3V14" part="F"><w part="F">καθ<unclear>ως</unclear></w> <w><unclear>μ</unclear>ωυσης</w> <w>υψω<lb break="no"/>σεν</w> <w>τον</w> <w>οφιν<unclear>εν</unclear></w> <w>τη</w> <w>ερ<unclear>η</unclear><lb break="no"/>μω</w> <w>ουτως</w> <w>υψωθηναι</w><lb/><w>δει</w> <w>τον</w> <w>υιον</w> <w>του</w> <w>αν<unclear>θρω</unclear><lb break="no"/>π<unclear>ου</unclear></w></ab> <ab n="B04K3V15"><w><unclear>ιν</unclear><supplied reason="unspecified">α</supplied></w> <w><unclear>πας</unclear></w> <w><unclear>ο</unclear></w> <w><unclear>π</unclear><supplied reason="unspecified">ιστευ</supplied><lb break="no"/><unclear>ων</unclear></w> <w><unclear>εις</unclear></w> <w><unclear>α</unclear>υτον</w> <w><unclear>μ</unclear>η</w> <w>απο<lb break="no"/>λ<unclear>η</unclear><supplied reason="unspecified">τα</supplied><unclear>ι</unclear></w> <w><unclear>αλλ</unclear></w> <w>ε<unclear>χη</unclear></w> <w>ζωην</w><lb/><w>αιωνιον</w><note type="local" xml:id="B04K3V15-P63-1">ερμηνια δοξα μεγαλη γινεται und koptische Text.</note></ab></div></div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K3"><ab n="B04K3V16"><w>ουτως</w> <w>γαρ</w> <w>η<unclear>γ</unclear>α<unclear>πη</unclear>σεν</w> <w>ο</w> <w>θε<lb break="no"/><unclear>ο</unclear>ς</w> <w>τον</w> <w>κοσμον</w> <w>ω<unclear>στ</unclear><supplied reason="unspecified">ε</supplied></w> <w><unclear>το</unclear>ν</w> <w>υι<lb break="no"/><unclear>ο</unclear>ν</w> <w>αυτου</w> <w>το<unclear>ν</unclear></w> <w><unclear>μον</unclear><supplied reason="unspecified">ο</supplied><unclear>γενη</unclear></w> <w>εδω<lb break="no"/>κεν</w> <w>εις</w> <w>το<unclear>ν</unclear></w> <w><supplied reason="unspecified">κοσμ</supplied>ον</w> <w><unclear>ι</unclear>ν<unclear>α</unclear></w> <w><unclear>ο</unclear></w> <w><unclear>π</unclear>ι<lb break="no"/>στευων</w> <w>εις</w> <w><supplied reason="unspecified">αυ</supplied><unclear>τον</unclear></w> <w><unclear>μ</unclear>η</w> <w>απολη<lb break="no"/>ται</w> <w><unclear>αλ</unclear>λ</w> <w>ε<unclear>χη</unclear></w> <w>ζ<unclear>ω</unclear><supplied reason="unspecified">ην</supplied></w> <w><unclear>α</unclear>ιωνιον</w><lb/></ab> <ab n="B04K3V17"><w><unclear>ου</unclear></w> <w><unclear>γαρ</unclear></w> <w><supplied reason="unspecified">α</supplied><unclear>π</unclear><supplied reason="unspecified">εσ</supplied><unclear>τ</unclear><supplied reason="unspecified">ειλε</supplied><unclear>ν</unclear></w> <w><unclear>ο</unclear></w> <w><unclear>θ</unclear>εος</w> <w><unclear>τ</unclear>ον</w><lb/><w>υιο<unclear>ν</unclear></w> <w>αυ<unclear>τ</unclear>ου</w> <w>εις</w> <w>τ<unclear>ο</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">κ</supplied><unclear>ο</unclear>σμ<supplied reason="unspecified">ον</supplied></w><lb/><w>αλλ</w> <w>ινα</w> <w><unclear>σ</unclear>ω<unclear>θη</unclear></w> <w><supplied reason="unspecified">ο</supplied></w> <w>κο<unclear>σμος</unclear></w> <w><unclear>δ</unclear>ι</w> <w>αυ<lb break="no"/>του</w></ab> <ab n="B04K3V18"><w>ο</w> <w>πισ<unclear>τευ</unclear>ων</w> <w>εις</w> <w>α<unclear>υ</unclear>τον</w> <w>ο<unclear>υ</unclear></w><lb/><w>κρινε<unclear>ται</unclear></w> <w>ο</w> <w><unclear>δ</unclear>ε</w> <w>μη</w> <w>πιστευων</w><lb/><w>η<unclear>δ</unclear>η</w> <w>και</w> <w><unclear>κρ</unclear><supplied reason="unspecified">ι</supplied>νετα<unclear>ι</unclear></w> <w>οτι</w> <w>μη</w> <w>π<unclear>ε</unclear><lb break="no"/>πισ<unclear>τ</unclear><supplied reason="unspecified">ε</supplied><unclear>υ</unclear>κεν</w> <w><unclear>ε</unclear>ις</w> <w>το</w> <w>ονομα</w> <w>τ<unclear>ου</unclear></w><lb/><w>μονογενο<unclear>υς</unclear></w> <w>υιου</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><note type="editorial" xml:id="B04K3V18-P63-1">ερμηνια περι ελεγξεως παυσει μη ποιηση und koptische Text. </note></ab></div></div>
+<pb n="2r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V9"><w>λεγει</w> <w>ουν</w> <w>αυτω</w> <w>η</w> <w>γυνη</w> <w>η</w> <w>σα<lb break="no"/>μα<unclear>ρ</unclear>ε<unclear>ιτις</unclear></w> <w>πως</w> <w>συ</w> <w>ιουδαιος</w><lb/><w>ων</w> <w>παρ</w> <w>εμου</w> <w>πειν</w> <w>αιτεις</w><lb/><w>γυναικος</w> <w>σαμαρι<unclear>τι</unclear>δος</w><lb/><w>ουσ<unclear>ης</unclear></w> <w>ου</w> <w>γαρ</w> <w>συνχρων<lb break="no"/>ται</w> <w>ιουδ<unclear>α</unclear>ιοι</w> <w>σαμαρει<lb break="no"/><unclear>τ</unclear>αις</w><note type="editorial" xml:id="B04K4V9-P63-1">ερμηνια το εχεις καμνε und koptischer Text. </note></ab></div></div>
+<pb n="2v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V10"><w>απεκριθη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ει<unclear>πεν</unclear></w> <w>αυ<unclear>τ</unclear><supplied reason="unspecified">η</supplied></w><lb/><w>ει</w> <w>ηδεις</w> <w>την</w> <w>δωρ<unclear>ε</unclear>αν</w> <w>του</w> <w><abbr type="nomSac"><unclear><hi rend="overline">θ</hi></unclear><hi rend="overline">υ</hi></abbr></w> <w><unclear>κ</unclear>αι</w><lb/><w>τις</w> <w>εστιν</w> <w>ο</w> <w>λεγων</w> <w>σο<unclear>ι</unclear></w> <w>δ<unclear>ο</unclear>ς</w> <w>μοι</w><lb/><w>πειν</w> <w>συ</w> <w>αν</w> <w>ητησα<unclear>ς</unclear></w> <w><unclear>α</unclear>υ<unclear>τ</unclear>ον</w> <w>κ<unclear>α</unclear>ι</w><lb/><w>εδω<unclear>κε</unclear>ν</w> <w>αν</w> <w>σοι</w> <app><rdg type="orig" hand="firsthand"><w>ζω</w></rdg><rdg type="corr" hand="corrector"></rdg></app> <w><unclear>υδ</unclear>ωρ</w><lb/><w>ζων</w><note type="editorial" xml:id="B04K4V10-P63-1">ερμηνια εαν πιστευσης χαρα σοι γινεται und koptischer Text. </note></ab></div></div></body></text></TEI>

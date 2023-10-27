@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P78">P78</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Oxford</settlement>
+            <repository>Sackler Library</repository>
+            <idno>P. Oxy. 2684</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="001r" type="folio"/><cb n="1"/><lb/><div type="book" n="B26"><div type="chapter" n="B26K1"><ab n="B26K1V4" part="F"><w part="F"><supplied reason="unspecified">ασελ</supplied><lb break="no"/>γιαν</w> <w>και</w> <w>τον</w> <w>μο<lb break="no"/>νον</w> <w>δ<unclear>εσ</unclear>ποτην</w><lb/><w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w> <w>ημων</w> <w><abbr type="nomSac"><hi rend="overline">ιην</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χρν</hi></abbr></w><lb/><w><supplied source="na28" reason="lacuna">αρνουμενοι</supplied></w></ab></div> </div>
+<pb n="001v" type="folio"/><cb n="1"/><lb/><div type="book" n="B26"><div type="chapter" n="B26K1"><ab n="B26K1V4" part="F"><w part="F">αρνουμενοι</w><pc>·</pc></ab> <ab n="B26K1V5" part="I"><w>υπο<lb break="no"/>μνησαι</w> <w>δε</w> <w>υμας</w><lb/><w>βουλομε</w> <w part="I">αδελφ<unclear>ο</unclear><supplied reason="unspecified">ι</supplied></w></ab></div> </div>
+<pb n="002r" type="folio"/><cb n="1"/><lb/><div type="book" n="B26"><div type="chapter" n="B26K1"><ab n="B26K1V7" part="F"><w part="F">αιωνιου</w> <w>δικην</w><lb/><w>επεχουσαι</w></ab> <ab n="B26K1V8" part="I"><w>ομοιως</w><lb/><w>μεντοι</w> <w>και</w> <w>αυτοι</w><lb/><w><unclear>ε</unclear>νυπνειαδομε<lb break="no"/>νοι</w><pc>·</pc></ab></div> </div>
+<pb n="002v" type="folio"/><cb n="1"/><lb/><div type="book" n="B26"><div type="chapter" n="B26K1"><ab n="B26K1V8" part="F"><w part="F">σαρκα</w> <w>μεν</w> <w>μι<lb break="no"/>αινουσιν</w> <w>κυρει<lb break="no"/>οτητα</w> <w>δε</w> <w>αθετου<lb break="no"/><unclear>σι</unclear>ν</w> <w>δοξα<unclear>ν</unclear></w> <w>δ<unclear>ε</unclear></w><lb/><w><supplied source="na28" reason="lacuna">βλασφημουσιν</supplied></w></ab></div> </div></body></text></TEI>

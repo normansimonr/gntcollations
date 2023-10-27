@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P23">P23</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>Urbana, IL</settlement>
+            <repository>Spurlock Museum of World Cultures at Illinois</repository>
+            <idno>1914.21.0025 (P.Oxy X 1229)</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="2" type="page"/><cb n="1"/><lb/><div type="book" n="B20"><div type="chapter" n="B20K1"><ab n="B20K1V10" part="F"><w part="F">τη</w> <app><rdg type="orig" hand="firsthand"><w>ταπεινουσι</w></rdg><rdg type="corr" hand="corrector"><w>ταπεινωσι</w></rdg></app> <w>αυτου</w> <w>οτι</w><lb/><w>ως</w> <w>ανθος</w> <w>χορτου</w> <w>παρε<lb break="no"/>λευσεται</w></ab> <ab n="B20K1V11"><w>ανετειλεν</w> <w>γαρ</w><lb/><w>ο</w> <w>ηλιος</w> <w>συν</w> <w>τω</w> <app><rdg type="orig" hand="firsthand"><w>καυσ<unclear>ο</unclear>νει</w></rdg><rdg type="corr" hand="corrector"><w>καυσωνει</w></rdg></app><lb/><w>και</w> <w>εξηρανεν</w> <w>τον</w> <w>χορτον</w><lb/><w>και</w> <w>το</w> <w>ανθος</w> <w>αυτου</w> <w>εξεπε<lb break="no"/>σεν</w> <app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="corrector"><w>και</w></rdg></app> <w>η</w> <w>ευπρεπε<unclear>ια</unclear></w> <w>του</w> <w>προσω<lb break="no"/>πο<unclear>υ</unclear></w> <w>αυτου</w> <w>απωλετο</w> <w>ου<lb break="no"/>τω<unclear>ς</unclear></w> <w>κ<unclear>α</unclear>ι</w> <w>ο</w> <w>πλουσιος</w> <w>εν</w> <w>ταις</w><lb/><w>πορειαις</w> <w>αυτου</w> <w>μαραν<lb break="no"/>θησεται</w></ab> <ab n="B20K1V12" part="I"><w>μακαριος</w> <w>ανη<lb break="no"/>ρ</w> <w>ος</w> <w>υπ<unclear>ο</unclear>μενει</w> <w>πειρα<lb break="no"/>σμον</w> <w>ο<unclear>τι</unclear></w> <w>δοκιμος</w> <w>γενο<lb break="no"/>μενος</w> <w>λημψεται</w> <w>τον</w><lb/><w>στεφανον</w> <w>τ<unclear>η</unclear>ς</w> <w part="I">ζωης</w></ab></div> </div>
+<pb n="3" type="page"/><cb n="1"/><lb/><div type="book" n="B20"><div type="chapter" n="B20K1"><ab n="B20K1V15" part="F"><w part="F">συλλαβουσα</w> <w>τικτει</w> <w>αμαρ<lb break="no"/>τιαν</w> <w>η</w> <w>δε</w> <w>αμαρτια</w> <w>αποτε<lb break="no"/>λεσθεισα</w> <w>αποκυει</w> <w>θανα<lb break="no"/>τον</w><pc>·</pc></ab> <ab n="B20K1V16"><w>μη</w> <w>πλανασθαι</w> <w>α<lb break="no"/>δελφοι</w> <w>μου</w> <w>αγαπητοι</w><lb/></ab> <ab n="B20K1V17"><w>πασα</w> <w>δοσις</w> <w>αγαθη</w> <w>και</w><lb/><w>παν</w> <w>δωρημα</w> <w>τελειον</w><lb/><w>ανωθεν</w> <w>εστιν</w> <w>κατα<lb break="no"/>βαινον</w> <w>απο</w> <w>του</w> <w>πατρος</w><lb/><w>των</w> <w>φωτων</w> <w>παρ</w> <w>ω</w> <w>ουκ</w> <w>ε<lb break="no"/>νι</w> <w>παραλλαγης</w> <w>η</w> <w>τρο<lb break="no"/>πης</w> <w>αποσκιασματος</w><lb/></ab> <ab n="B20K1V18" part="I"><w>βουληθεις</w> <w>απεκυησεν</w><lb/><w>ημας</w> <w>λο<unclear>γ</unclear>ω</w> <w>αληθειας</w><lb/><w>εις</w> <w>το</w> <w>ειναι</w> <w>η<unclear>μα</unclear><supplied reason="unspecified">ς</supplied></w> <w><supplied reason="unspecified">απ</supplied>αρ<lb break="no"/>χην</w> <w><unclear>τ</unclear><supplied reason="unspecified">ινα</supplied></w> <w><supplied reason="unspecified">των</supplied></w> <w part="I"><supplied reason="unspecified">αυτου</supplied></w></ab></div> </div></body></text></TEI>

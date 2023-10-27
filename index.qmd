@@ -1,0 +1,18 @@
+---
+title: "Greek New Testament Collations"
+author: ""
+---
+
+Welcome to the *Greek New Testament Collations* website (version {{< var version >}}, up to date as of {{< var listeupdated >}}).
+
+This website contains collations of all the Greek New Testament manuscripts for which the [Institute for New Testament Textual Research](https://ntvmr.uni-muenster.de/home) (*Institut für Neutestamentliche Textforschung*, INTF) has published transcriptions. The collations are all made against the [Byzantine majority text](https://byzantinetext.com/study/editions/robinson-pierpont/) as published by Maurice A. Robinson and William Pierpont [-@ntrp18]. This website is *not* an official resource of the INTF.
+
+To read the collations library, go to the [*Liste*](liste.qmd) and select a manuscript. You can alternatively see the manuscript attestation of a given chapter of the New Testament by visiting the [Chapters](chapters.qmd). To learn about the Byzantine majority text, you can read Maurice A. Robinson's [essay](byzantine_priority.qmd) on the subject [@rpi5:appendix]. The essay is also available in a [Spanish translation](byzantine_priority_es.qmd) [@superspa].
+
+The maintainer of this website is Norman Simon Rodriguez. To report an error, please open a [GitHub issue](https://github.com/normansimonr/greek-new-testament-collations/issues) or email the maintainer at nsrodriguezc\@unal.edu.co.
+
+## Licence
+
+The Byzantine majority text is in the Public Domain. The transcriptions of the individual manuscripts have been created by the *Institut für Neutestamentliche Textforschung* and are under the Creative Commons Attribution 4.0 Unported Licence.
+
+The [code](https://github.com/normansimonr/greek-new-testament-collations/) to create the collations has been released to the Public Domain.

@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="886">886</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Vatican City</country>
+            <settlement>Città del Vaticano</settlement>
+            <repository>Biblioteca Apostolica Vaticana</repository>
+            <idno>Reg. gr. 6</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="*"></witness>
+<witness xml:id="C1"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="10" type="page" />
+<div type="book" n="5" osisID="Acts">
+<div type="chapter" n="0" osisID="Acts">
+<ab n="B05K1V1" osisID="Acts"> πραξεις των απoστoλων
+</ab></div><div type="chapter" n="1" osisID="Acts.1"> <ab n="B05K1V1" osisID="Acts.1.1"> <note type="transcriber">Z 34</note>τoν μεν πρωτoν λoγoν επoιησαμην· περι παντων ω θεoφιλε ων ηρξατo o ις̅ πoιειν τε και διδασκειν·</ab> <ab n="B05K1V2" osisID="Acts.1.2"> αχρι ης ημερας εντειλαμενoς
+<lb />
+τoις απoστoλoις δια πν̅ς αγιoυ· oυς εξελεξατo, ανεληφθη·</ab> <ab n="B05K1V3" osisID="Acts.1.3"> oις και παρεστησεν εαυτoν ζωντα· μετα τo παθειν αυτoν εν πoλλoις
+<lb />
+τεκμηριoις δι ημερων τεσσαρακoντα· oπτανoμενoς αυτoις και λεγων τα περι της βασιλειας τoυ θυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div><pb n="185r" type="page" />
+<div type="book" n="5" osisID="Acts">
+<div type="chapter" n="0" osisID="Acts">
+<ab n="B05K1V1" osisID="Acts">πραξεις των απoστoλων
+</ab></div><div type="chapter" n="1" osisID="Acts.1"> <ab n="B05K1V1" osisID="Acts.1.1"><note type="transcriber">Z 34</note>τoν μεν πρωτoν λoγoν επoιησαμην· περι παντων ω θεoφιλε ων ηρξατo o ις̅ πoιειν τε και διδασκειν·</ab> <ab n="B05K1V2" osisID="Acts.1.2">αχρι ης ημερας εντειλαμενoς
+<lb />
+τoις απoστoλoις δια πν̅ς αγιoυ· oυς εξελεξατo, ανεληφθη·</ab> <ab n="B05K1V3" osisID="Acts.1.3">oις και παρεστησεν εαυτoν ζωντα· μετα τo παθειν αυτoν εν πoλλoις
+<lb />
+τεκμηριoις δι ημερων τεσσαρακoντα· oπτανoμενoς αυτoις και λεγων τα περι της βασιλειας τoυ θυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div><pb n="185r" type="page" />
+<div type="book" n="5" osisID="Acts">
+<div type="chapter" n="0" osisID="Acts">
+<ab n="B05K1V1" osisID="Acts">πραξεις των αποστολων
+</ab></div><div type="chapter" n="1" osisID="Acts.1"> <ab n="B05K1V1" osisID="Acts.1.1"><note type="transcriber">Z 34</note>τον μεν πρωτον λογον εποιησαμην· περι παντων ω θεοφιλε ων ηρξατο ο ις̅ ποιειν τε και διδασκειν·</ab> <ab n="B05K1V2" osisID="Acts.1.2">αχρι ης ημερας εντειλαμενος
+<lb />
+τοις αποστολοις δια πν̅ς αγιου· ους εξελεξατο, ανεληφθη·</ab> <ab n="B05K1V3" osisID="Acts.1.3">οις και παρεστησεν εαυτον ζωντα· μετα το παθειν αυτον εν πολλοις
+<lb />
+τεκμηριοις δι ημερων τεσσαρακοντα· οπτανομενος αυτοις και λεγων τα περι της βασιλειας του θυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="20" type="page" />
+<div type="book" n="5" osisID="Acts.1.4"><div type="chapter" n="1" osisID="Acts.1.4"><ab n="B05K1V4" osisID="Acts.1.4"><note type="transcriber">Z 37</note>και συναυλιζομενος παρηγγειλεν αυτοις
+<lb />
+απο ιεροσολυμων μη χωριζεσθαι· αλλα περιμενειν την επαγγελιαν του πρ̅ς ην ηκουσατε μου·</ab> <ab n="B05K1V5" osisID="Acts.1.5">οτι ιω̅ μεν εβαπτισεν
+<lb />
+υδατι· υμεις δε βαπτισθησεσθε εν πν̅ι αγιὼ ου μετα πολλας ταυτας ημερας· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="30" type="page" />
+<div type="book" n="5" osisID="Acts.1.6"><div type="chapter" n="1" osisID="Acts.1.6"><ab n="B05K1V6" osisID="Acts.1.6"><note type="transcriber">Z 41</note>οι μεν ουν συνελθοντες επιρωτησαν αυτον λεγοντες κε̅ ει εν τω χρονω τουτω αποκαθιστανεις την βασιλ(ειαν) τω ιη̅λ</ab> <ab n="B05K1V7" osisID="Acts.1.7">ειπε δε
+<lb />
+προς αυτους ουχ υμων εστι γνωναι χρονους η καιρους ους ο πη̅ρ εθετο εν τη ιδια εξουσια· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="40" type="page" />
+<div type="book" n="5" osisID="Acts.1.8"><div type="chapter" n="1" osisID="Acts.1.8"><ab n="B05K1V8" osisID="Acts.1.8"><note type="transcriber">Z 10</note>αλλα
+<lb />
+ληψεσθε δυναμιν επελθοντος του αγιου πν̅ς εφ υμας και εσεσθε μοι μαρτυρες εν τε ιλ̅ημ· και εν παση τη ιουδαια και σαμαρεια
+<lb />
+και εως εσχατου της γης· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K1V9" osisID="Acts.1.9"><note type="transcriber">Z 31</note>και ταυτα ειπων· βλεποντων αυτων,
+<lb />
+επηρθη· και νεφελη υπελαβεν αυτον απο των οφθαλμων αυτων</ab> <ab n="B05K1V10" osisID="Acts.1.10">και ως ατενιζοντες ησαν εις τον ου̅νον· πορευομενου αυτου
+<lb />
+και ιδου ανδρες δυο παρειστηκεισαν αυτοις εν <app><rdg type="orig">εσθητι λευκηι</rdg>[Κ]εσθησεσι λευκαις[\Κ]</app> <note type="transcriber">186v l 53-54</note></ab> <ab n="B05K1V11" osisID="Acts.1.11">οι και ειπον· ανδρες γαλιλαιοι· τι εστηκατε εμβλεποντες
+<lb />
+εις τον ου̅νον·  ουτος ο ις̅· ο αναληφθεις αφ υμων εις τον ου̅νον· ουτως ελευσεται ον τροπον εθεασασθε αυτον πορευομενον εις
+<lb />
+τον ου̅νον· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="50" type="page" />
+<div type="book" n="5" osisID="Acts.1.12"><div type="chapter" n="1" osisID="Acts.1.12"><ab n="B05K1V12" osisID="Acts.1.12"><note type="transcriber">Z 7</note>τοτε <app><rdg type="orig">επεστρεψαν</rdg><rdg type="corr" hand=""><unclear>υ</unclear>πεστρεψαν</rdg></app> εις ιλ̅ημ· απο ορους του καλουμενου ελαιωνος· ο εστιν εγγυς ιλ̅ημ σαββατου
+<lb />
+εχον οδον·</ab> <ab n="B05K1V13" osisID="Acts.1.13">και οτε εισηλθον, ανεβησαν εις υπερωον ου ησαν καταμενοντες. ο τε πετρος και ιακωβος και ιω̅· και ανδρεας και φιλιππος και
+<lb />
+θωμας βαρθολομαιος και ματθαιος· ιακωβος αλφαιου και σιμων ο ζηλωτης και ιουδας ιακωβου</ab> <ab n="B05K1V14" osisID="Acts.1.14">ουτοι παντες ησαν προσκαρτερουν
+<lb break="no" />
+τες ομοθυμαδον· τη προσευχη και τη δεησει· συν γυναιξι και μαρια τη μρ̅ι του ιυ̅· και συν τοις αδελφοις αυτου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K1V15" osisID="Acts.1.15"><note type="transcriber">Z 21</note>και εν ταις ημεραις ταυταις, αναστας πετρος εν μεσω των αδελφων ειπεν· ην τε οχλος ονοματων επι το αυτο
+<lb />
+ως εκατον εικοσιν·</ab> <ab n="B05K1V16" osisID="Acts.1.16">ανδρες αδελφοι· εδει πληρωθηναι την γραφην ταυτην· ην προειπε το πν̅α το αγιον δια στοματος δα̅δ
+<lb />
+περι ιουδα του γενομενου οδηγου· τοις συλλαβουσι τον ιν̅·</ab> <ab n="B05K1V17" osisID="Acts.1.17">οτι κατηριθμημενος ην συν ημιν· και ελαχε τον κληρον της διακονιας
+<lb />
+ταυτης</ab> <ab n="B05K1V18" osisID="Acts.1.18">ουτος μεν ουν εκτησατο χωριον εκ μισθου της αδικιας· και πρινης <note type="transcriber">l39</note> γενομενος· ελακησε <note type="transcriber">l 40</note>  μεσος και εξεχυθη παντα τα σπλαγχνα
+<lb />
+αυτου·</ab> <ab n="B05K1V19" osisID="Acts.1.19">και γνωστον εγενετο πασι τοις κατοικουσιν ιλ̅ημ· ωστε κληθηναι το χωριον εκεινο, τη ιδια διαλεκτω αυτων· ακελδαμα·
+<lb />
+τουτ εστι χωριον αιμ(α)τος·</ab> <ab n="B05K1V20" osisID="Acts.1.20">γεγραπται γαρ, εν βιβλω ψαλμων· γενηθητω η επαυλις αυτου· ερημος· και μη εστω ο κατοικων εν αυτη και την
+<lb />
+επισκοπην αυτου· λαβοι ετερος·</ab> <ab n="B05K1V21" osisID="Acts.1.21">δει ουν των συνελθοντων ημιν ανδρων· εν παντι χρονω εν ω εισηλθε και εξηλθεν εφ ημας ο
+<lb />
+κς̅ ις̅·</ab> <ab n="B05K1V22" osisID="Acts.1.22">αρξα<unclear>μ</unclear><unclear>ε</unclear><unclear>ν</unclear>ος απο του βαπτισματος ιω̅, εως της <app><rdg type="orig">ημερας ης ανεληφθη</rdg>[Κ]αυτου αναληψεως[\Κ]</app>  <note type="transcriber">l 10</note> αφ ημων· μαρτυρα της αναστασεως αυτου γενεσθαι συν
+<lb />
+ημιν ενα τ<unclear>ο</unclear><unclear>υ</unclear>των· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="60" type="page" />
+<div type="book" n="5" osisID="Acts.1.23"><div type="chapter" n="1" osisID="Acts.1.23"><ab n="B05K1V23" osisID="Acts.1.23"><note type="transcriber">Z 15</note>και εστησαν δυο ιωσην τον καλουμενον βαρσαβαν· ος επεκληθη ιουστος· και ματθιαν·</ab> <ab n="B05K1V24" osisID="Acts.1.24">και προσ
+<lb break="no" />
+ευξαμενοι ειπον συ κε̅ καρδιογνωστα παντων· αναδειξον ον εξελεξω εκ τουτων των δυο ενα·</ab> <ab n="B05K1V25" osisID="Acts.1.25">λαβειν τον κληρον της διακονιας
+<lb />
+ταυτης και αποστολης εξ ης παρεβη ιουδας πορευθηναι εις τον τοπον τον ιδιον·</ab> <ab n="B05K1V26" osisID="Acts.1.26">και εδωκαν κληρους αυτων· και επεσεν
+<lb />
+ο κληρος επι ματθιαν· και συγκατεψηφισθη μετα των ενδεκα αποστολων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="2" osisID="Acts.2"> <ab n="B05K2V1" osisID="Acts.2.1"><note type="transcriber">Z 54</note>και εν τω <app><rdg type="orig">πληρουσθαι</rdg><rdg type="corr" hand="">συμπληρουσθαι</rdg></app> την ημεραν της πεντηκοστης ησαν παντες ομοθυμαδον
+<lb />
+επι το αυτο</ab> <ab n="B05K2V2" osisID="Acts.2.2">και εγενετο αφνω εκ του ου̅νου ηχος ωσπερ φερομενης πνοης βιαιας· και επληρωσεν ολον τον οι<unclear>κ</unclear>ον ου ησαν κα
+<lb break="no" />
+θημενοι· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="70" type="page" />
+<div type="book" n="5" osisID="Acts.2.3"><div type="chapter" n="2" osisID="Acts.2.3"><ab n="B05K2V3" osisID="Acts.2.3"><note type="transcriber">Z 58</note>και ωφθησαν αυτοις διαμεριζομεναι
+<lb />
+γλωσσαι ωσει πυρος· εκαθισε τε εφ ενα εκαστον αυτων·</ab> <ab n="B05K2V4" osisID="Acts.2.4">και επλησθησαν απαντες πν̅ς αγιου και ηρξαντο λαλειν ετεραις
+<lb />
+</ab></div></div>
+<pb n="80" type="page" />
+γλωσσαις· καθως το πν̅α εδιδου αυτοις αποφθεγγεσθαι· <note type="transcriber">kommentar</note>
+<lb />
+<pb n="189r" type="page" />
+<div type="book" n="5" osisID="Acts.2.5"><div type="chapter" n="2" osisID="Acts.2.5"><ab n="B05K2V5" osisID="Acts.2.5"><note type="transcriber">Z 10</note>ησαν δε εν ιλ̅ημ κατοικουντες ιουδαιοι ανδρες ευλαβεις απο παντος εθνους των υπο τον ου̅νον
+<lb />
+</ab> <ab n="B05K2V6" osisID="Acts.2.6">γενομενης δε τ<unclear>η</unclear>ς φωνης ταυτης, συνηλθε το πληθος, και συνεχυθη· οτι ηκουον εις εκαστος τη ιδια διαλεκτω λαλουντων αυτων·
+<lb />
+</ab> <ab n="B05K2V7" osisID="Acts.2.7">εξισταντο δε παντες και εθαυμαζον λεγοντες προς αλληλους, ουκ ιδου παντες ουτοι εισιν οι λαλουντες γαλιλαιοι·</ab> <ab n="B05K2V8" osisID="Acts.2.8">και πως
+<lb />
+ημεις ακουομεν εκαστος τη ιδια διαλεκτω ημων εν η εγεννηθημεν·</ab> <ab n="B05K2V9" osisID="Acts.2.9">παρθοι και μηδοι και ελαμιται και οι κατοικουντες
+<lb />
+την μεσοποταμιαν ιουδαιαν τε και καππαδοκιαν· ποντον και την ασιαν·</ab> <ab n="B05K2V10" osisID="Acts.2.10">φρυγιαν τε και παμφυλιαν· αιγυπτον και τα μερη της λιβυης,
+<lb />
+της κατα κυρηνην· και οι επιδημουντες ρωμαιοι·</ab> <ab n="B05K2V11" osisID="Acts.2.11">ιουδαιοι τε και προσηλυτοι· κρητες και αραβες, ακουομεν λαλουντων αυτων ταις
+<lb />
+ημετεραις γλωσσαις τα μεγαλεια του θυ̅·</ab> <ab n="B05K2V12" osisID="Acts.2.12">εξισταντο δε παντες και διηπορουν αλλος προς αλλον λεγοντες· τι αν θελοι τουτο ειναι·</ab> <ab n="B05K2V13" osisID="Acts.2.13">ετεροι δε
+<lb />
+χλευαζοντες· ελεγ<unclear>ο</unclear><unclear>ν</unclear> οτι γλευκους μεμεστωμενοι εισιν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="90" type="page" />
+<div type="book" n="5" osisID="Acts.2.14"><div type="chapter" n="2" osisID="Acts.2.14"><ab n="B05K2V14" osisID="Acts.2.14"><note type="transcriber">Z 10</note>σταθεις δε πετρος συν τοις ενδεκα επηρε
+<lb />
+την φωνην αυτου· και απεφθεγξατο αυτοις· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 20</note>ανδρες ιουδαιοι και οι κατοικουν
+<lb break="no" />
+τες την ιλ̅ημ απαντες· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 24</note>τουτο υμιν γνωστον εστω· και ενωτισασθε τα ρηματα μου·</ab> <ab n="B05K2V15" osisID="Acts.2.15">ου γαρ ως υμεις υπολαμ
+<lb break="no" />
+βανετε ουτοι μεθυουσιν. εστι γαρ ωρα τριτη της ημερας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V16" osisID="Acts.2.16"><note type="transcriber">Z 29</note>αλλα τουτο εστι το ειρημενον δια
+<lb />
+του προφητου ιωηλ· </ab> <ab n="B05K2V17" osisID="Acts.2.17">και εσται εν ταις εσχαταις ημεραις λεγει <app><rdg type="orig">ο θς̅.</rdg>[Κ]κς̅ παντοκρατωρ.[\Κ]</app> εκχεω απο
+<lb />
+του πν̅ς μου επι πασαν σαρκα· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 36</note>και προφητευσουσιν οι υιοι υμων·
+<lb />
+και αι θυγατεραις υμων· και οι νεανισκοι υμων ορασεις οψονται· και οι πρεσβυτεροι υμων,
+<lb />
+ενυπνια ενυπνιασθησονται·</ab> <ab n="B05K2V18" osisID="Acts.2.18">και γε επι τους δουλους μου και επι τας δουλας μου εν ταις η
+<lb break="no" />
+μεραις εκειναις εκχεω απο του πν̅ς μου και προφητευσουσιν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="100" type="page" />
+<div type="book" n="5" osisID="Acts.2.19"><div type="chapter" n="2" osisID="Acts.2.19"><ab n="B05K2V19" osisID="Acts.2.19"><note type="transcriber">Z 5</note>και δωσω τερατα εν τω ου̅νω ανω· και σημεια επι της γης κατω· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 9</note>αιμα και πυρ και ατμιδα καπνου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V20" osisID="Acts.2.20"><note type="transcriber">Z 14</note>ο ηλιος μεταστραφη
+<lb break="no" />
+σεται εις σκοτος· και η σεληνη εις αιμα· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 18</note>πριν ελθειν την ημεραν κυ̅ την μεγαλην· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V21" osisID="Acts.2.21"><note type="transcriber">Z 21</note>και
+<lb />
+εσται πας ος αν επικαλεσηται το ονομα του κυ̅ σωθησεται· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V22" osisID="Acts.2.22"><note type="transcriber">Z 26</note>ανδρες ισραηλιται· ακουσατε τους λογους τουτους· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 32</note>ιν̅ τον ναζωραιον ανδρα <app><rdg type="orig">απο δ<unclear>ε</unclear> θυ̅ αποδεδειγμενον</rdg><rdg type="corr" hand="*">απο του θυ̅ αποδεδειγμενον</rdg>[Κ]αποδεδειγμενον απο του θυ̅[\Κ]</app> <note type="transcriber">l 35</note> <note type="transcriber">Schreiber wollte wohl erst  apodedeigmenon schreiben, Homoioarkton</note> εις υμας δυναμεσι και τερασι·
+<lb />
+και σημειοις οις εποιησε δι αυτου ο θς̅ εν μεσω υμων καθως αυτοι οιδατε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V23" osisID="Acts.2.23"><note type="transcriber">Z 41</note>τουτον τη ωρισμενη βουλη· και προγνωσει του θυ̅ εκδοτον λαβοντες
+<lb />
+δια χειρων ανομων. προσπηξαντες ανειλατε·</ab> <ab n="B05K2V24" osisID="Acts.2.24">ον ο θς̅ ανεστησεν εκ νεκρων· λυσας τας
+<lb />
+ωδινας του θανατου·
+<lb />
+</ab></div></div>
+<pb n="110" type="page" />
+<note type="transcriber">Z 16</note>καθοτι ουκ ην δυνατον κρατεισθαι αυτον υπ αυτου· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.2.25"><div type="chapter" n="2" osisID="Acts.2.25"><ab n="B05K2V25" osisID="Acts.2.25"><note type="transcriber">Z 26</note>δα̅δ γαρ λεγει εις αυτον, προωρωμην τον κν̅ ενω
+<lb break="no" />
+πιον μου δια παντος· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 37</note>οτι εκ δεξιων μου εστιν· ινα μη σαλευθω·
+<lb />
+</ab></div></div><pb n="191r" type="page" />
+<div type="book" n="5" osisID="Acts.2.26"><div type="chapter" n="2" osisID="Acts.2.26"><ab n="B05K2V26" osisID="Acts.2.26"><note type="transcriber">Z 13</note>δια τουτο ευ
+<lb break="no" />
+φρανθη η καρδια μου και ηγαλλιασατο η γλωσα μου. ετι δε και η σαρξ μου κατασκη
+<lb break="no" />
+νωσει επ ελπιδι.</ab> <ab n="B05K2V27" osisID="Acts.2.27">οτι ουκ εγκαταλειψεις την ψυχην μου εις <app><rdg type="orig">αδην·</rdg><rdg type="corr" hand="">αδου·</rdg></app> ουδε δωσεις τον οσιον σου ιδειν
+<lb />
+διαφθοραν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V28" osisID="Acts.2.28"><note type="transcriber">Z 28</note>εγνωρισας μοι οδους ζωης· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 30</note>πληρωσεις με ευφροσυνης μετα του προσωπου σου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V29" osisID="Acts.2.29"><note type="transcriber">Z 36</note>ανδρες αδελφοι <app><rdg type="orig">εξων</rdg><rdg type="corr" hand="">εξον</rdg></app> ειπειν μετα παρρησιας προς υμας περι του πρ̅ι
+<lb break="no" />
+αρχου δα̅δ· οτι και ετελευτησε και εταφη· και το μνημα αυτου εστιν εν υμιν αχρι της
+<lb />
+ημερας ταυτης· <note type="transcriber">kommmentar</note>
+<lb />
+</ab> <ab n="B05K2V30" osisID="Acts.2.30"><note type="transcriber">Z 45</note>προφητης ουν υπαρχων και ειδως οτι ορκω ωμοσεν αυτω,
+<lb />
+ο θς̅· εκ καρπου της οσφυος αυτου. το κατα σαρκα αναστησειν τον χν̅ καθισαι
+<lb />
+επι τον θρονον αυτου,</ab> <ab n="B05K2V31" osisID="Acts.2.31">προιδων ελαλησε, περι της αναστασεως του χυ̅·
+<lb />
+</ab></div></div>
+<pb n="120" type="page" />
+<note type="transcriber">Z 3</note>οτι ουτε κατελειφθη η ψυχη αυτου
+<lb />
+εις <app><rdg type="orig">αδ<unclear>η</unclear></rdg><rdg type="corr" hand="">αδου</rdg></app> ουδε η σαρξ αυτου ειδε διαφθοραν· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.2.32"><div type="chapter" n="2" osisID="Acts.2.32"><ab n="B05K2V32" osisID="Acts.2.32"><note type="transcriber">Z 12</note>τουτον τον ιν̅ ανεστησεν ο θς̅. ου παντες ημεις
+<lb />
+εσμεν μαρτυρες·</ab> <ab n="B05K2V33" osisID="Acts.2.33">τη δεξια ουν του θυ̅ υψωθεις, την τε επαγγελιαν του αγιου πν̅ς λαβων
+<lb />
+παρα του πρ̅ς,
+<lb />
+<note type="transcriber">Z 16</note>εξεχεεν τουτο ο νυν υμεις βλεπετε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V34" osisID="Acts.2.34"><note type="transcriber">Z 17</note>ου γαρ δα̅δ ανεβη εις τους ου̅νους· λεγει δε αυτος, ειπεν ο κς̅  τω κω̅ μου
+<lb />
+καθου εκ δεξιων μου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V35" osisID="Acts.2.35"><note type="transcriber">Z 23</note>εως αν θω τους εχθρους σου υποποδιον των ποδων σου·</ab> <ab n="B05K2V36" osisID="Acts.2.36">ασφαλως ουν γινωσκετω πας οικος ιη̅λ,
+<lb />
+οτι και χν̅ και κν̅ αυτον ο θς̅ εποιησεν τουτον τον ιν̅ ον υμεις εσταυρωσατε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V37" osisID="Acts.2.37"><note type="transcriber">Z 29</note>ακουσαντες δε κατενυγησαν τη καρδια·
+<lb />
+ειπον τε προς τον πετρον, και τους λοιπους αποστολους. τι ποιησωμεν ανδρες αδελφοι·</ab> <ab n="B05K2V38" osisID="Acts.2.38">πετρος δε
+<lb />
+εφη προς αυτους· μετανοησατε φησι· και βαπτισθητω εκαστος υμων επι τω ονοματι ιυ̅ χυ̅
+<lb />
+εις αφεσιν των αμαρτιων· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 35</note>και ληψεσθε την δωρεαν του αγιου πν̅ς.</ab> <ab n="B05K2V39" osisID="Acts.2.39">υμιν γαρ εστιν η επαγγελια
+<lb />
+και τοις τεκνοις υμων·
+<lb />
+<note type="transcriber">Z 39</note>και πασι τοις εις
+<lb />
+μακραν οσους αν προσκαλεσηται κς̅  ο θς̅ ημων·
+<lb />
+</ab> <ab n="B05K2V40" osisID="Acts.2.40"><note type="transcriber">Z 41</note>ετεροις τε λογοις πλειοσι διεμαρτυρετο και παρεκαλει· λεγων, σωθητε απο της γεννεας της σκολιας
+<lb />
+ταυτης.
+<lb />
+</ab></div></div>
+<pb n="130" type="page" />
+<div type="book" n="5" osisID="Acts.2.41"><div type="chapter" n="2" osisID="Acts.2.41"><ab n="B05K2V41" osisID="Acts.2.41"><note type="transcriber">Z 1</note>οι μεν ουν ασμενως
+<lb />
+αποδεξαμενοι τον λογον αυτου εβαπτισθησαν· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 3</note>και προσεταιθησαν
+<lb />
+τη ημερα εκεινη ψυχαι ωσει τρισχιλιαι· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V42" osisID="Acts.2.42"><note type="transcriber">Z 9</note>ησαν δε προσκαρτερουντες
+<lb />
+ομοθυμαδον τη διδαχη των αποστολων και τη κοινωνια. και τη κλασει του αρτου
+<lb />
+και ταις προσευχαις· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V43" osisID="Acts.2.43"><note type="transcriber">Z 15</note>εγενετο δε παση ψυχη φοβος; πολλα τε τερατα και σημεια
+<lb />
+δια των αποστολων εγινετο· εν ιλ̅ημ φοβος τε ην μεγας επι παντας αυτους. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V44" osisID="Acts.2.44"><note type="transcriber">Z 22</note>και παντες δε οι πιστευοντες ησαν επι το αυτο. και
+<lb />
+ειχον απαντα κοινα· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V45" osisID="Acts.2.45"><note type="transcriber">Z 27</note>και τα κτηματα και τας υπαρξεις επιπρασκον· και διεμεριζον αυτα πασι καθοτι αν τις
+<lb />
+χρειαν ειχεν. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K2V46" osisID="Acts.2.46"><note type="transcriber">Z 34</note>καθ ημεραν τε προσκαρτε
+<lb break="no" />
+ρουντες ομοθυμαδον εν τω ιερω.
+<lb />
+</ab></div></div>
+<pb n="140" type="page" />
+<note type="transcriber">Z 7</note>κλωντες τε κατ οικον αρτον μετελαμβανον τροφης.
+<lb />
+<note type="transcriber">Z 8</note>εν α
+<lb break="no" />
+γαλλιασει και αφελοτητι καρδιας <div type="book" n="5" osisID="Acts.2.47"><div type="chapter" n="2" osisID="Acts.2.47"><ab n="B05K2V47" osisID="Acts.2.47">αινουντες τον θν̅ και εχοντες χαριν προς ολον τον λαον·
+<lb />
+<note type="transcriber">Z 13</note> ο δε κς̅  προσε
+<lb break="no" />
+τιθει τους σωζωμενους καθ ημεραν τη εκκλησια επι το αυτο. <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="3" osisID="Acts.3"> <ab n="B05K3V1" osisID="Acts.3.1"><note type="transcriber">Z 25</note>επι το αυτο δε πετρος και ιω̅ης. ανεβαινον εις το ιερον
+<lb />
+επι την ωραν της προσευχης την ενατην·</ab> <ab n="B05K3V2" osisID="Acts.3.2">και τις ανηρ χωλος εκ κοιλιας μρ̅ς αυτου
+<lb />
+υπαρχων εβασταζετο· ον ετιθουν καθ ημεραν, προς την θυραν του ιερου την λεγομενην,
+<lb />
+ωραιαν· του αιτειν ελεημοσυνην· παρα των εισπορευομενων <app><rdg type="orig">επι</rdg><rdg type="corr" hand="">εις</rdg></app> το ιερον·
+<lb />
+</ab> <ab n="B05K3V3" osisID="Acts.3.3"><note type="transcriber">Z 34</note>ος ιδων πετρον και ιω̅ μελλοντας ει
+<lb break="no" />
+σιεναι εις το ιερον, ηρωτα ελεημοσυνην·</ab> <ab n="B05K3V4" osisID="Acts.3.4">ατενισας δε πετρος εις αυτον συν τω ιω̅ ειπεν
+<lb />
+βλεψον εις ημας·</ab> <ab n="B05K3V5" osisID="Acts.3.5">ο δε επειχεν αυτοις προσδοκων παρ αυτων τι λαβειν.
+<lb />
+</ab> <ab n="B05K3V6" osisID="Acts.3.6"><note type="transcriber">Z 39</note>ειπεν δε πετρος. αργυριον και χρυσιον,
+<lb />
+ουχ υπαρχει μοι· ο δε εχω, τουτο σοι διδωμι. εν τω ονοματι ιυ̅ χυ̅ του ναζωραιου, εγειρε
+<lb />
+</ab></div></div>
+<pb n="150" type="page" />
+και περιπατει· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.3.7"><div type="chapter" n="3" osisID="Acts.3.7"><ab n="B05K3V7" osisID="Acts.3.7"><note type="transcriber">Z 11</note>και πιασας αυτον της δεξιας χειρος,
+<lb />
+ηγειρεν· <app><rdg type="orig">παραχρημα δε</rdg>[Κ]και παραχρημα[\Κ]</app> <note type="transcriber">l 10-11</note> εστερεωθησαν αι βασεις αυτου και τα σφυρα. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V8" osisID="Acts.3.8"><note type="transcriber">Z 15</note>και εξαλλομενος εστη και περιεπατει· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 18</note>και εισηλθεν συν αυτοις εις το ιερον
+<lb />
+περιπατων. και <app><rdg type="orig">αλλωμενος</rdg><rdg type="corr" hand="">αλλομενος</rdg></app> και αινων τον θν̅·</ab> <ab n="B05K3V9" osisID="Acts.3.9">και οιδεν αυτον πας ο λαος περιπα
+<lb break="no" />
+τουντα και αινουντα τον θν̅·
+<lb />
+</ab> <ab n="B05K3V10" osisID="Acts.3.10"><note type="transcriber">Z 22</note>επεγινωσκον
+<lb />
+τε αυτον οτι ουτος ην ο προς την ελεημοσυνην καθημενος επι τη ωραια πυλη του ιερου·
+<lb />
+και επλησθησαν θαμβους και εκστασεως επι τω συμβεβηκοτι αυτω· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V11" osisID="Acts.3.11"><note type="transcriber">Z 27</note>κρατουντος δε του ιαθεντος χωλου τον πετρον; και ιω̅, συνεδραμε προς αυτους πας ο λαος
+<lb />
+επι τη στοα του σολομωντος εκθαμβοι· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V12" osisID="Acts.3.12"><note type="transcriber">Z 29</note>ιδων δε πετρος απεκρινατο προς τον λαον
+<lb />
+ανδρες <app><rdg type="orig">ισραηληται·</rdg><rdg type="corr" hand="">ισραηλιται·</rdg></app> τι θαυμαζετε επι τουτο· η ημιν τι <app><rdg type="orig">ατενιζεται·</rdg><rdg type="corr" hand="">ατενιζετε·</rdg></app>  ως ιδια δυναμει
+<lb />
+η ευσεβεια πεποιηκοσι του περιπατειν αυτον· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V13" osisID="Acts.3.13"><note type="transcriber">Z 38</note>ο θς̅ αβρααμ και ισαακ και ιακωβ ο θς̅ των πρ̅ων ημων, εδοξασε τον παι
+<lb break="no" />
+δα αυτου ιν̅· ον υμεις μεν παρεδωκατε και ηρνησασθε αυτον κατα προσωπον πιλατου· κριναντος
+<lb />
+εκεινου απολυειν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="160" type="page" />
+<div type="book" n="5" osisID="Acts.3.14"><div type="chapter" n="3" osisID="Acts.3.14"><ab n="B05K3V14" osisID="Acts.3.14"><note type="transcriber">Z 10</note>υμεις δε τον αγιον και δικαιον ηρνησασθε. και ητησασθε ανδρα φονεα χαρισθηναι
+<lb />
+υμιν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V15" osisID="Acts.3.15"><note type="transcriber">Z 18</note>τον δε αρχηγον της ζωης απεκτεινατε· ον ο θς̅ ηγειρεν εκ νεκρων· ου ημεις μαρτυρες εσμεν.</ab> <ab n="B05K3V16" osisID="Acts.3.16">και
+<lb />
+επι τη πιστει του ονοματος αυτου, τουτον ον θεωρειτε και οιδατε, εστερεωσεν το ονομα αυτου <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 25</note>και η πιστις η δι αυτου εδωκεν
+<lb />
+αυτω την ολοκληριαν ταυτην απεναντι παντων υμων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V17" osisID="Acts.3.17"><note type="transcriber">Z 28</note>και νυν αδελφοι οιδα, οτι κατα αγνοιαν επραξατε, ωσ
+<lb break="no" />
+περ και οι αρχοντες υμων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V18" osisID="Acts.3.18"><note type="transcriber">Z 31</note>ο δε θς̅ α προκατηγγειλε δια στοματος
+<lb />
+παντων των προφητων αυτου παθειν τον χν̅ επληρωσεν ουτως· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="170" type="page" />
+<div type="book" n="5" osisID="Acts.3.19"><div type="chapter" n="3" osisID="Acts.3.19"><ab n="B05K3V19" osisID="Acts.3.19"><note type="transcriber">Z 3</note>μετανοησατε ουν και επιστρεψατε, εις το εξαλη
+<lb break="no" />
+φθηναι υμων τας αμαρτιας,</ab> <ab n="B05K3V20" osisID="Acts.3.20">οπως αν ελθωσι καιροι αναψυξεως απο προσωπου του κυ̅
+<lb />
+και αποστειλη τον προκεχειρισμενον υμιν ιν̅ χν̅</ab> <ab n="B05K3V21" osisID="Acts.3.21">ον δει ου̅νον μεν δεξασθαι·
+<lb />
+<note type="transcriber">Z 10</note>αχρι χρονων αποκαλυψεως καταστασεως παντων ων ε
+<lb break="no" />
+λαλησεν ο θς̅ δια στοματος παντων των αγιων αυτου προφητων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V22" osisID="Acts.3.22"><note type="transcriber">Z 20</note>μωυσης μεν ειπεν οτι προφητην υμιν αναστησει κς̅  ο θς̅ υμων, εκ των αδελ
+<lb break="no" />
+φων υμων ως εμε  αυτου <app><rdg type="orig">ακουσεσθαι</rdg><rdg type="corr" hand="">ακουσεσθε</rdg></app> κατα παντα οσα αν λαληση προς υμας.</ab> <ab n="B05K3V23" osisID="Acts.3.23"><app>[Λ1]πασα δε[\Λ1][Λ2]εσται δε πασα[\Λ2]</app> ψυχη
+<lb />
+ητις εαν μη ακουση του προφητου εκεινου, εξολοθρευθησεται εκ του λαου· <note type="transcriber">kommentar</note><note type="transcriber">Ueberschneidung in V23 auf F 194a,b</note>
+<lb />
+</ab></div></div>
+<pb n="180" type="page" />
+<div type="book" n="5" osisID="Acts.3.24"><div type="chapter" n="3" osisID="Acts.3.24"><ab n="B05K3V24" osisID="Acts.3.24">και παν
+<lb break="no" />
+τες δε οι προφηται απο σαμουηλ και των καθεξης οσοι ελαλησαν και κατηγγειλαν
+<lb />
+τας ημερας ταυτας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V25" osisID="Acts.3.25"><note type="transcriber">Z 18</note>υμεις εστε υιοι των προφητων και της διαθηκης
+<lb />
+ης διεθετο ο θς̅ προς τους πατερας υμων, λεγων προς αβρααμ. και εν τω σπερ
+<lb break="no" />
+ματι σου ευλογηθησονται πασαι αι πρ̅ιαι της γης· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K3V26" osisID="Acts.3.26"><note type="transcriber">Z 29</note>υμιν πρωτον ο θς̅ αναστησας τον παιδα αυτου ιν̅· απεστειλεν αυτον ευλο
+<lb break="no" />
+γουντα υμας εν τω αποστρεφειν εκαστον απο των πονηριων υμων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="4" osisID="Acts.4"> <ab n="B05K4V1" osisID="Acts.4.1"><note type="transcriber">Z 37</note>λαλουντων δε αυτων προς τον <app><rdg type="orig"><unclear>θ</unclear><unclear>ν</unclear>̅</rdg><rdg type="corr" hand="">λαον,</rdg></app> <note type="transcriber">laon is also in the margin as a correction</note> επεστησαν
+<lb />
+αυτοις οι ιερεις· και στρατηγος του ιερου και οι σαδδουκαιοι</ab> <ab n="B05K4V2" osisID="Acts.4.2">διαπο
+<lb break="no" />
+νουμενοι δια το διδασκειν αυτους τον λαον· και καταγγελλειν εν τω
+<lb />
+ιυ̅ την αναστασιν των νεκρων</ab> <ab n="B05K4V3" osisID="Acts.4.3">και επεβαλον αυτοις τας χειρας·
+<lb />
+</ab></div></div>
+<pb n="190" type="page" />
+<note type="transcriber">Z 8</note>και εθεντο εις τηρησιν εις την αυριον. ην γαρ εσπερα ηδη· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.4.4"><div type="chapter" n="4" osisID="Acts.4.4"><ab n="B05K4V4" osisID="Acts.4.4"><note type="transcriber">Z 11</note>πολλοι δε των ακουσαντων,
+<lb />
+τον λογον επιστευσαν· και εγενηθη ο αριθμος των ανδρων ωσει χιλιαδες πεντε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V5" osisID="Acts.4.5"><note type="transcriber">Z 24</note>εγενετο δε επι την αυριον συναχθηναι αυτων τους αρχοντας και πρεσβυτερους και
+<lb />
+γραμματεις, εις ιλ̅ημ</ab> <ab n="B05K4V6" osisID="Acts.4.6">και ανναν τον αρχιερεα· και καιαφαν και αλεξανδρον
+<lb />
+και οσοι ησαν εκ γενους αρχιερατικου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V7" osisID="Acts.4.7"><note type="transcriber">Z 28</note>και στησαντες αυτους εν μεσω επυνθανοντο· εν ποια δυναμει η εν ποιω ονο
+<lb break="no" />
+ματι, εποιησατε τουτο υμεις· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V8" osisID="Acts.4.8"><note type="transcriber">Z 32</note>τοτε πετρος πλησθεις πν̅ς αγιου, ειπε προς αυτους. αρχοντες του λαου και
+<lb />
+πρεσβυτεροι του ιη̅λ·</ab> <ab n="B05K4V9" osisID="Acts.4.9">ει ημεις σημερον ανακρινομεθα επι ευεργεσια αν̅ου ασθενους
+<lb />
+εν τινι ουτος σεσωσται· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="200" type="page" />
+<div type="book" n="5" osisID="Acts.4.10"><div type="chapter" n="4" osisID="Acts.4.10"><ab n="B05K4V10" osisID="Acts.4.10"><note type="transcriber">Z 3</note>γνωστον εστω πα
+<lb break="no" />
+σιν υμιν και παντι τω λαω ιη̅λ· οτι εν τω ονοματι ιυ̅ χυ̅ του ναζωραιου ον υμεις
+<lb />
+εσ̅τρωσατε· ον ο θς̅ ηγειρεν εκ νεκρων· εν τουτω ουτος παρεστηκεν ενωπιον υμων
+<lb />
+υγιης· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V11" osisID="Acts.4.11"><note type="transcriber">Z 18</note>ουτος εστιν ο λιθος ο εξουθενηθεις υφ υμων
+<lb />
+των οικοδομουντων· ο γενομενος εις κεφαλην γωνιας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V12" osisID="Acts.4.12"><note type="transcriber">Z 24</note>και ου
+<lb break="no" />
+κ εστιν εν ουδενι αλλω η σρ̅ια· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 30</note> <app><rdg type="orig">ουτε</rdg>[Κ]ουδε[\Κ]</app> γαρ <app><rdg type="orig">ετερον ονομα</rdg>[Κ]ονομα ετερον[\Κ]</app> <note type="transcriber">l 22</note> εστιν
+<lb />
+υπο τον ου̅νον το δεδομενον εν αν̅οις, εν ω δει σωθηναι ημας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V13" osisID="Acts.4.13"><note type="transcriber">Z 38</note>θεωρουντες δε την του πετρου παρρη
+<lb break="no" />
+σιαν και ιω̅ου· και καταλαβομενοι οτι αν̅οι εισιν αγραμματοι· και ιδιωται
+<lb />
+εθαυμαζον· επεγινωσκον τε αυτους οτι συν τω ιυ̅ ησαν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="210" type="page" />
+<div type="book" n="5" osisID="Acts.4.14"><div type="chapter" n="4" osisID="Acts.4.14"><ab n="B05K4V14" osisID="Acts.4.14"><note type="transcriber">Z 3</note>τον τε αν̅ον βλεποντες συν αυτοις εστωτα τον θεραπευομενον. ουδεν ειχον
+<lb />
+αντειπειν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V15" osisID="Acts.4.15"><note type="transcriber">Z 5</note>κελευσαντες δε αυτους εξω του συνεδριου
+<lb />
+απελθειν, συνεβαλλον προς αλληλους</ab> <ab n="B05K4V16" osisID="Acts.4.16">λεγοντες· τι ποιησομεν, τοις αν̅οις τουτοις, οτι μεν
+<lb />
+γαρ γνωστον σημειον γεγονε δι αυτων πασι τοις κατοικουσιν ιλ̅ημ· φανερον· και ου δυνα
+<lb break="no" />
+μεθα αρνησασθαι· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V17" osisID="Acts.4.17"><note type="transcriber">Z 13</note>αλλ ινα μη επι πλειον διανεμηθη εις τον λαον, απειλη απει
+<lb break="no" />
+λησομεθα αυτοις μηκετι λαλειν επι τω ονοματι τουτω μηδενι αν̅ων.</ab> <ab n="B05K4V18" osisID="Acts.4.18">και καλε
+<lb break="no" />
+σαντες αυτους, παρηγγειλαν αυτοις το καθολου μη φθεγγεσθαι· μηδε διδασκειν
+<lb />
+επι τω ονοματι του ιυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V19" osisID="Acts.4.19"><note type="transcriber">Z 17</note>ο δε πετρος και ιω̅ης, αποκριθεντες ειπον προς αυτους. ου δικαιον
+<lb />
+εστιν ενωπιον του θυ̅· υμων ακουειν μαλλον, η του θυ̅· κρινατε·</ab> <ab n="B05K4V20" osisID="Acts.4.20">ου δυναμεθα γαρ ημεις
+<lb />
+α ειδομεν και ηκουσαμεν μη λαλειν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V21" osisID="Acts.4.21"><note type="transcriber">Z 21</note>οι δε <app><rdg type="orig">προσαπ<unclear>η</unclear>λησαμενοι</rdg><rdg type="corr" hand="">προσαπειλησαμενοι</rdg></app>
+<lb />
+απελυσαν αυτους· μηδεν ευρισκοντες το πως κολασονται αυτους δια τον λαον·
+<lb />
+οτι παντες εδοξαζον τον θν̅ επι τω γεγονοτι·</ab> <ab n="B05K4V22" osisID="Acts.4.22">ετων γαρ ην πλειονων τεσσαρακοντα
+<lb />
+αν̅ος εφ <app><rdg type="orig">ον</rdg><rdg type="corr" hand=""><unclear>ω</unclear>ν</rdg></app> εγεγονει το σημειον τουτο της ιασεως· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V23" osisID="Acts.4.23"><note type="transcriber">Z 30</note>απολυθεντες δε ηλθον προς τους ιδιους και απηγγειλαν οσα προς αυτους οι αρχιερεις
+<lb />
+και οι πρεσβυτεροι <app><rdg type="orig">του <unclear>λ</unclear></rdg><rdg type="corr" hand="*">ειπον·</rdg></app> <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V24" osisID="Acts.4.24"><note type="transcriber">Z 35</note>οι δε ακουσαντες ομοθυμαδον
+<lb />
+ηραν φωνην προς τον θν̅ και ειπαν·
+<lb />
+<note type="transcriber">Z 40</note>δεσποτα συ ο θς̅ ο ποιησας τον
+<lb />
+ου̅νον. <app><rdg type="orig">OM</rdg>[Κ]και την γην[\Κ]</app> <note type="transcriber">l 39-40</note> και την θαλασσαν και παντα τα εν αυτοις.</ab> <ab n="B05K4V25" osisID="Acts.4.25">ο δια στοματος δα̅δ παιδος σου·
+<lb />
+</ab></div></div>
+<pb n="220" type="page" />
+ινατι εφρυαξαν εθνη· <app><rdg type="orig">OM</rdg><rdg type="corr" hand="">και λαοι εμελετησαν κενα·</rdg></app> <note type="transcriber">apparently this last part was added later</note><note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.4.26"><div type="chapter" n="4" osisID="Acts.4.26"><ab n="B05K4V26" osisID="Acts.4.26"><note type="transcriber">Z 6</note>παρεστησαν οι βασιλεις της γης· και οι αρχοντες συνηχθησαν
+<lb />
+επι το αυτο <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 10</note>κατα του κυ̅ και κατα του χυ̅ αυτου·</ab> <ab n="B05K4V27" osisID="Acts.4.27">συνηχθησαν γαρ επ αληθειας επι τον
+<lb />
+αγιον παιδα σου ιν̅· ον εχρισας ηρωδης τε και ποντιος πιλατος συν εθνεσι
+<lb />
+και λαοις· ισραηλ</ab> <ab n="B05K4V28" osisID="Acts.4.28">ποιησαι οσα η χειρ σου και η βουλη σου προωρισε γενε
+<lb break="no" />
+σθαι· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V29" osisID="Acts.4.29"><note type="transcriber">Z 16</note>και τα νυν κε̅ επιδε επι τας απει
+<lb break="no" />
+λας αυτων· και δος τοις δουλοις σου μετα παρρησιας πασης λαλειν τον λογον σου
+<lb />
+</ab> <ab n="B05K4V30" osisID="Acts.4.30">εν τω την χειρα σου εκτεινειν σε εις ιασιν και σημεια και τερατα <app><rdg type="orig">γης</rdg><rdg type="corr" hand="*">γινεσθαι·</rdg></app> <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 21</note>δια του ονοματος του αγιου παιδος σου ιυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V31" osisID="Acts.4.31"><note type="transcriber">Z 22</note>και δεηθεντων αυτων εσαλευθη ο τοπος
+<lb />
+εν ω ησαν συνηγμενοι·
+<lb />
+<note type="transcriber">Z 29</note>και επλησθησαν απαντες πν̅ς αγιου· και ελαλουν τον λογον του θυ̅
+<lb />
+μετα παρρησιας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V32" osisID="Acts.4.32"><note type="transcriber">Z 31</note>του δε πληθους των πιστευοντων, ην <app><rdg type="orig">η</rdg>[Κ][\Κ]</app> <note type="transcriber"> l 35-36</note> καρδια και <app><rdg type="orig">η</rdg>[Κ][\Κ]</app> <note type="transcriber"> l 35-36</note> ψυχη μια· και ουδε εις
+<lb />
+τι των υπαρχοντων αυτων ελεγεν ιδιον ειναι· αλλ ην αυτοις απαντα κοινα.</ab> <ab n="B05K4V33" osisID="Acts.4.33">και
+<lb />
+δυναμει μεγαλη απεδιδουν το μαρτυριον οι αποστολοι της αναστασεως
+<lb />
+του κυ̅ ιυ̅ <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 38</note>χαρις τε μεγαλη ην επι παντας αυτους.</ab> <ab n="B05K4V34" osisID="Acts.4.34">ουδε γαρ ενδεης τις υπηρχ<unclear>ε</unclear><unclear>ν</unclear> εν αυτοις·
+<lb />
+οσοι γαρ κτητορες χωριων η οικιων υπηρχον, πωλουντες εφερον τας τιμας των
+<lb />
+πιπρασκομενων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="230" type="page" />
+<div type="book" n="5" osisID="Acts.4.35"><div type="chapter" n="4" osisID="Acts.4.35"><ab n="B05K4V35" osisID="Acts.4.35"><note type="transcriber">Z 3</note>και ετιθουν παρα τους ποδας των αποστολων. διεδιδοτο δε εκαστω, καθοτι
+<lb />
+αν τις χρειαν ειχεν. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V36" osisID="Acts.4.36"><note type="transcriber">Z 7</note>ιωαννης δε ο επικληθεις βαρναβας
+<lb />
+υπο των αποστολων ο εστι μεθερμηνευομενον υιος παρακλησεως λευιτης
+<lb />
+κυπριος τω γενει <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K4V37" osisID="Acts.4.37"><note type="transcriber">Z 14</note>υπαρχοντος αυτω αγρου, πωλησας ηνεγκε το χρημα και ε
+<lb break="no" />
+θηκε παρα τους ποδας των αποστολων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="5" osisID="Acts.5"> <ab n="B05K5V1" osisID="Acts.5.1"><note type="transcriber">Z 16</note>ανηρ δε τις
+<lb />
+ανανιας ονοματι συν σαπφειρη τη γυναικι αυτου επωλησε κτημα·</ab> <ab n="B05K5V2" osisID="Acts.5.2">και ενοσφισατο απο της
+<lb />
+τιμης· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 23</note>συνειδυιας και της γυναικος αυτου· και ενεγκας μερος τι παρα τους ποδας των αποστολων εθηκεν·
+<lb />
+</ab> <ab n="B05K5V3" osisID="Acts.5.3"><note type="transcriber">Z 24</note>ειπε δε πετρος· ανανια δια τι
+<lb />
+επληρωσεν ο σατανας την καρδιαν σου ψευσασθαι <app><rdg type="orig">OM</rdg><rdg type="corr" hand="">σε</rdg></app> το πν̅α το αγιον· και νοσφισασθαι σε απο της
+<lb />
+τιμης του χωριου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V4" osisID="Acts.5.4"><note type="transcriber">Z 35</note>ουχι μενον σοι εμενε και πραθεν εν τη ση εξουσια υπηρχε, τι οτι εθου εν τη καρδι
+<lb break="no" />
+α σου το πραγμα τουτο· ουκ εψευσω αν̅οις αλλα τω θω̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V5" osisID="Acts.5.5"><note type="transcriber">Z 37</note>ακουων δε
+<lb />
+ο ανανιας τους λογους τουτους, πεσων, εξεψυξεν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="240" type="page" />
+<note type="transcriber">Z 11</note>και εγενετο φοβος μεγας επι παντας τους ακουοντας.
+<lb />
+<div type="book" n="5" osisID="Acts.5.6"><div type="chapter" n="5" osisID="Acts.5.6"><ab n="B05K5V6" osisID="Acts.5.6">ανασταντες δε οι νεωτεροι συνεστειλαν αυτον και εξενεγκαντες εθαψαν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V7" osisID="Acts.5.7"><note type="transcriber">Z 16</note>εγενετο δε ως ωρων τριων δια
+<lb break="no" />
+στημα και η γυνη αυτου μη ειδυια το γεγονος εισηλθεν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V8" osisID="Acts.5.8"><note type="transcriber">Z 21</note>απεκριθη δε αυτη ο πετρος· ειπε μοι
+<lb />
+ει <app><rdg type="orig">τουτο</rdg><rdg type="corr" hand="">τοσουτου</rdg></app> το χωριον απεδοσθε· η δε ειπεν· ναι τοσουτου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V9" osisID="Acts.5.9"><note type="transcriber">Z 27</note>ο δε πετρος ειπε προς αυτην· τι οτι συνεφωνηθη υμιν
+<lb />
+πειρασαι το πν̅α κυριου· ιδου οι ποδες των θαψαντων τον ανδρα σου επι τη θυρα και
+<lb />
+εξοισουσι σε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V10" osisID="Acts.5.10"><note type="transcriber">Z 30</note>επεσε δε παραχρημα προς τους ποδας αυτου
+<lb />
+και εξεψυξεν· εισελθοντες δε οι <app><rdg type="orig">νηαν<unclear>η</unclear>σκοι,</rdg><rdg type="corr" hand="">νηανισκοι,</rdg></app> ευρον αυτην νεκραν· και εξενεγκαν
+<lb break="no" />
+τες, εθαψαν προς τον ανδρα αυτης· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V11" osisID="Acts.5.11"><note type="transcriber">Z 33</note>και εγενετο φοβος μεγας επι πα
+<lb break="no" />
+σαν την εκκλησιαν, και επι παντας τους ακουοντας ταυτα· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V12" osisID="Acts.5.12"><note type="transcriber">Z 35</note>δια δε των χειρων των αποστολων,
+<lb />
+εγινετο σημεια και τερατα πολλα εν τω λαω· και ησαν ομοθυμαδον απαντες
+<lb />
+εν τη στοα σολομωντος· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V13" osisID="Acts.5.13"><note type="transcriber">Z 39</note>των δε λοιπων ουδεις
+<lb />
+ετολμα κολλασθαι αυτοις αλλ εμεγαλυνεν αυτους ο λαος· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="250" type="page" />
+<div type="book" n="5" osisID="Acts.5.14"><div type="chapter" n="5" osisID="Acts.5.14"><ab n="B05K5V14" osisID="Acts.5.14"><note type="transcriber">Z 5</note>μαλλον δε προσετιθεντο πιστευοντες τω κω̅ πληθη ανδρων τε και γυ
+<lb break="no" />
+ναικων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V15" osisID="Acts.5.15"><note type="transcriber">Z 12</note>ωστε κατα τας πλατειας
+<lb />
+εκφερειν τους ασθενεις και τιθεναι επι <app><rdg type="orig">OM</rdg>[Κ]των[\Κ]</app> <note type="transcriber"> l 16</note> κλινων και κραβατων· ινα ερχομενου πετρου,
+<lb />
+καν η σκια επισκιασει τινι αυτων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V16" osisID="Acts.5.16"><note type="transcriber">Z 18</note>συνηρχετο δε και το πληθος των περιξ πολεων εις ιλ̅ημ φεροντες ασθενεις και οχλουμενους
+<lb />
+υπο πν̅ων ακαθαρτων. οιτινες εθεραπευοντο απαντες· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V17" osisID="Acts.5.17"><note type="transcriber">Z 21</note>αναστας δε ο αρχιερευς και παντες οι συν αυτω η ουσα αιρεσις των σαδ
+<lb break="no" />
+δουκαιων επλησθησαν ζηλου</ab> <ab n="B05K5V18" osisID="Acts.5.18">και επεβαλον τας χειρας επι τους αποστολους· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 23</note>και
+<lb />
+εθεντο αυτους εν τηρησει δημοσια· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V19" osisID="Acts.5.19"><note type="transcriber">Z 25</note>αγγελος δε
+<lb />
+κυ̅ δια της νυκτος ηνοιξε τας θυρας <app><rdg type="orig">δ</rdg><rdg type="corr" hand="*">της</rdg></app> φυλακης, εξαγαγων τε αυτους ειπε·
+<lb />
+</ab> <ab n="B05K5V20" osisID="Acts.5.20">πορευεσθε· και σταθεντες λαλειτε εν τω ιερω τω λαω τα ρηματα της ζωης ταυτης·
+<lb />
+</ab> <ab n="B05K5V21" osisID="Acts.5.21">ακουσαντες δε εισηλθον υπο τον ορθρον εις το ιερον, και εδιδασκον· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 32</note>παραγενομενος δε ο αρχιερευς, και οι συν αυτω, συνεκαλεσαν το συνε
+<lb break="no" />
+δριον και πασαν την γερουσιαν των υιων ιη̅λ· και απεστειλαν εις το δεσμωτηριον
+<lb />
+αχθηναι αυτους·</ab> <ab n="B05K5V22" osisID="Acts.5.22">οι δε υπηρεται παραγενομενοι, ουχ ευρον αυτους εν τη φυλακη·
+<lb />
+<note type="transcriber">Z 37</note>αναστρεψαντες δε απηγγειλαν</ab> <ab n="B05K5V23" osisID="Acts.5.23">λεγοντες. το μεν δεσμωτηριον ευρομεν κεκλεισμενον.
+<lb />
+εν παση ασφαλεια και τους φυλακας εστωτας επι των θυρων. ανοιξαντες δε εσω
+<lb />
+ουδενα ευρομεν·</ab> <ab n="B05K5V24" osisID="Acts.5.24">ως δε ηκουσαν τους λογους τουτους, ο τε ιερευς και ο στρατηγος
+<lb />
+του λαου· και οι αρχιερεις διηπορουν περι αυτων τι αν γενοιντο</ab> <ab n="B05K5V25" osisID="Acts.5.25">παραγενομενος
+<lb />
+δε τις απηγγειλεν αυτοις οτι ιδου οι ανδρες ους εθεσθε εν τη φυλακη, εισι εν τω
+<lb />
+ιερω εστωτες και διδασκοντες τον λαον.</ab> <ab n="B05K5V26" osisID="Acts.5.26">τοτε απελθων ο στρατηγος συν τοις
+<lb />
+</ab></div></div>
+<pb n="260" type="page" />
+υπηρεταις ηγαγεν αυτοις ου μετα βιας· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 5</note>εφοβουντο γαρ τον <app><rdg type="orig">λαον</rdg>[Κ]οχλον[\Κ]</app> <note type="transcriber">l l 7</note> ινα μη λιθασωσιν· <div type="book" n="5" osisID="Acts.5.27"><div type="chapter" n="5" osisID="Acts.5.27"><ab n="B05K5V27" osisID="Acts.5.27">αγαγοντες δε
+<lb />
+αυτους εστησαν εν τω συνεδριω· και επηρωτησεν αυτους ο αρχιερευς</ab> <ab n="B05K5V28" osisID="Acts.5.28">λεγων·
+<lb />
+<note type="transcriber">Z 8</note>ου παραγγελια παρηγγει
+<lb break="no" />
+λαμεν υμιν μη διδασκειν επι τω ονοματι τουτὼ και ιδου πεπληρωκατε την
+<lb />
+ιλ̅ημ της διδαχης υμων και βουλεσθε επαγαγειν εφ ημας το αιμα του αν̅ου
+<lb />
+τουτου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V29" osisID="Acts.5.29"><note type="transcriber">Z 13</note>αποκριθεις δε ο πετρος και οι αποστολοι ειπον· πειθαρχειν
+<lb />
+δει μαλλον θω̅ η αν̅οις· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V30" osisID="Acts.5.30"><note type="transcriber">Z 16</note>ο θς̅ των πρ̅ων
+<lb />
+ημων ηγειρεν ιν̅, ον υμεις διεχειρησασθε κρεμασαντες επι ξυλου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V31" osisID="Acts.5.31"><note type="transcriber">Z 19</note>τουτον ο θς̅ αρχηγον και σρ̅α υψωσε τη δεξια αυτου· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 20</note>δουναι μετανοιαν τω ιη̅λ και αφεσιν αμαρτιων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V32" osisID="Acts.5.32"><note type="transcriber">Z 22</note>και ημεις εσμεν μαρτυρες των ρηματων <app><rdg type="orig">αυτων·</rdg><rdg type="corr" hand="">τουτων·</rdg></app> <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 26</note>και το πν̅α δε το αγιον ο εδωκεν ο θς̅ τοις πειθαρχουσιν αυτω· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V33" osisID="Acts.5.33"><note type="transcriber">Z 33</note>οι δε ακουσαντες διεπριοντο· και εβουλευοντο ανελειν αυτους· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V34" osisID="Acts.5.34"><note type="transcriber">Z 37</note>αναστας δε τις εν τω συνεδριω φαρισαιος
+<lb />
+ονοματι γαμαλιηλ νομοδιδασκαλος τιμιος παντι τω λαω· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 40</note>εκελευσεν εξω
+<lb />
+βραχυ τι τους αποστολους ποιησαι·</ab> <ab n="B05K5V35" osisID="Acts.5.35">ειπεν τε προς αυτους· ανδρες ισραηλιται· προσεχετε
+<lb />
+</ab></div></div>
+<pb n="270" type="page" />
+εαυτοις επι τοις αν̅οις τουτοις τι μελλετε πρασσειν· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.5.36"><div type="chapter" n="5" osisID="Acts.5.36"><ab n="B05K5V36" osisID="Acts.5.36"><note type="transcriber">Z 4</note>προ γαρ τουτων των ημερων
+<lb />
+ανεστη θευδας λεγων ειναι τινα εαυτον. ω προσετεθη ανδρων αριθμος ωσι τε
+<lb break="no" />
+τρακοσιων· ος ανηρεθη· και παντες οσοι επειθοντο αυτω διελυθησαν και εγενοντο
+<lb />
+εις ουδεν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K5V37" osisID="Acts.5.37"><note type="transcriber">Z 18</note>μετα τουτο ανεστη ιουδας ο γαλιλαιος· εν ταις ημεραις της απογρα
+<lb break="no" />
+φης. και απεστησε λαον ικανον οπισω αυτου· κακεινος απωλετο· και παντες οσοι
+<lb />
+επειθοντο αυτω διεσκορπισθησαν.</ab> <ab n="B05K5V38" osisID="Acts.5.38">και τα νυν λεγω υμιν αποστητε απο των αν̅ων του
+<lb break="no" />
+των και εασατε αυτους·
+<lb />
+<note type="transcriber">Z 30</note>οτι εαν η εξ αν̅ων η βουλη αυτη η το εργον <app><rdg type="orig">καταλυθησεται·</rdg>[Κ]καταλυεται·[\Κ]</app> <note type="transcriber">l 33</note></ab> <ab n="B05K5V39" osisID="Acts.5.39"><app><rdg type="orig">ει δε εκ θυ̅ εστιν,</rdg>[Κ]εαν η εκ θυ̅[\Κ]</app>
+<lb />
+ου δυνησεσθε καταλυσαι <app><rdg type="orig">αυτους·</rdg>[Κ] αυτο[\Κ]</app> <note type="transcriber">202b l 8-9</note> <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 37</note>μηποτε και θεομαχοι
+<lb />
+ευρεθητε· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 43</note>επεισθησαν δε αυτω.</ab> <ab n="B05K5V40" osisID="Acts.5.40">και προσκαλεσαμενοι τους αποστολους, δειραντες παρηγγειλαν
+<lb />
+μη λαλειν επι τω ονοματι του ιυ̅ και απελυσαν αυτους· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="280" type="page" />
+<div type="book" n="5" osisID="Acts.5.41"><div type="chapter" n="5" osisID="Acts.5.41"><ab n="B05K5V41" osisID="Acts.5.41"><note type="transcriber">Z 4</note>οι μεν ουν επορευοντο χαιροντες απο προσωπου του συνεδριου
+<lb />
+οτι υπερ του ονοματος κατηξιωθησαν ατιμασθηναι</ab> <ab n="B05K5V42" osisID="Acts.5.42">πασαν τε ημεραν εν τω ιερω
+<lb />
+και κατ οικον ουκ επαυοντο διδασκοντες και ευαγγελιζομενοι ιν̅ τον χν̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="6" osisID="Acts.6"> <ab n="B05K6V1" osisID="Acts.6.1"><note type="transcriber">Z 21</note>εν δε ταις ημεραις ταυταις πληθυνοντων των μαθητων,
+<lb />
+εγενετο γογγυσμος των ελληνιστων προς τους εβραιους· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 25</note>οτι παρεθεωρουντο εν τη διακονια τη κα
+<lb break="no" />
+θημερινη αι χηραι αυτων.</ab> <ab n="B05K6V2" osisID="Acts.6.2">προσκαλεσαμενοι δε οι δωδεκα το πληθος των μαθη
+<lb break="no" />
+των ειπον· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 31</note>ουκ αρεστον
+<lb />
+εστιν ημας καταλειψαντας τον λογον του θυ̅ διακονειν τραπεζαις· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V3" osisID="Acts.6.3"><note type="transcriber">Z 40</note>επισκεψασθε ουν αδελφοι ανδρας εξ υμων
+<lb />
+μαρτυρουμενους επτα πληρεις πν̅ς αγιου και σοφιας ους καταστησομεν
+<lb />
+</ab></div></div>
+<pb n="290" type="page" />
+επι της χρειας ταυτης· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.6.4"><div type="chapter" n="6" osisID="Acts.6.4"><ab n="B05K6V4" osisID="Acts.6.4"><note type="transcriber">Z 4</note>ημεις δε τη προσευχη
+<lb />
+και τη διακονια του λογου προσκαρτερησομεν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V5" osisID="Acts.6.5"><note type="transcriber">Z 7</note>και ηρεσεν ο λογος ενωπιον παντος του πληθους· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 8</note>και εξελε
+<lb break="no" />
+ξαντο στεφανον ανδρα πληρης πιστεως και πν̅ς αγιου· και φιλιππον· και προχωρον·
+<lb />
+και νικανορα· και τιμωνα, και παρμεναν· και νικολαον προσηλυτον αντι
+<lb break="no" />
+οχεὰ <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V6" osisID="Acts.6.6"><note type="transcriber">Z 18</note>ους εστησαν ενωπιον των αποστολων· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 22</note>και προσευξαμε<unclear>ν</unclear>οι επεθηκαν
+<lb />
+αυτοις τας χειρας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V7" osisID="Acts.6.7"><note type="transcriber">Z 25</note>και ο λογος το<unclear>υ</unclear><w></w><unclear>θ</unclear><unclear>υ</unclear>̅ ηυξανεν
+<lb />
+και επληθυνετο ο αριμθος των μαθητων εν ιερουσαλημ σφοδρα· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 29</note>πολυς τε οχλος των ιουδαιων υπηκουον τη <app><rdg type="orig">πιστ<unclear>η</unclear>·</rdg><rdg type="corr" hand="">πιστει·</rdg></app> <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V8" osisID="Acts.6.8"><note type="transcriber">Z 39</note>στεφανος δε πληρης χαριτος και δυναμεως εποιη τερατα και σημεια μεγαλα
+<lb />
+εν τω λαω· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V9" osisID="Acts.6.9"><note type="transcriber">Z 44</note>ανεστησαν δε τινες
+<lb />
+εκ της συναγωγης της λεγομενης, λιβερτινων, και κυρηναιων· και αλεξαν
+<lb break="no" />
+δρεων· και των απο κιλικιας και ασιας συζητουντες τω στεφανω</ab> <ab n="B05K6V10" osisID="Acts.6.10">και ου
+<lb break="no" />
+κ ισχυον αντιστηναι τη σοφια και τω πν̅ι ω ελαλει· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="300" type="page" />
+<div type="book" n="5" osisID="Acts.6.11"><div type="chapter" n="6" osisID="Acts.6.11"><ab n="B05K6V11" osisID="Acts.6.11"><note type="transcriber">Z 5</note>τοτε υπεβαλον ανδρας λεγοντας· οτι ακηκοαμεν αυτου λαλουντος ρηματα
+<lb />
+βλασφημα εις μωσην και τον θν̅·</ab> <ab n="B05K6V12" osisID="Acts.6.12">συνεκινησαν τε τον λαον και τους πρεσβυτερους
+<lb />
+και τους γραμματεις· και επισταντες συνηρπασαν <app><rdg type="orig">αυτου<unclear>ς</unclear></rdg><rdg type="corr" hand="">αυτον</rdg></app> και ηγαγον εις το συνεδριον. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V13" osisID="Acts.6.13"><note type="transcriber">Z 15</note>εστησαν τε μαρτυρας ψευδεις λεγοντας
+<lb />
+ο αν̅ος ουτος ου παυεται ρηματα βλασφημα λαλων κατα  τοπου του αγιου και του νομου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V14" osisID="Acts.6.14"><note type="transcriber">Z 20</note> <app><rdg type="orig">ακηκοασεν</rdg><rdg type="corr" hand="">ακηκοαμεν</rdg></app> γαρ αυτου λεγοντος. οτι ις̅ ο ναζωραιος καταλυσει τον
+<lb />
+τοπον τουτον· και αλλαξει τα εθη α παρεδωκεν ημιν <rdg type="orig">μωσης·</rdg><rdg type="corr" hand="">μωυσης·</rdg> <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K6V15" osisID="Acts.6.15"><note type="transcriber">Z 25</note>και ατενισαντες εις αυτον απαντες οι καθεζομενοι
+<lb />
+εν τω συνεδριω· ειδον το προσωπον αυτου ωσει προσωπον αγγελου· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div><div type="chapter" n="7" osisID="Acts.7"> <ab n="B05K7V1" osisID="Acts.7.1"><note type="transcriber">Z 32</note>ειπε δε ο αρχιερευς· ει αρα ταυτα ουτως εχεὶ <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V2" osisID="Acts.7.2"><note type="transcriber">Z 34</note>ο δε εφη ανδρες αδελφοι και πατερες
+<lb />
+ακουσατε· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 39</note>ο θς̅ της δοξης ωφθη τω πρ̅ι ημων αβρααμ οντι εν τη
+<lb />
+μεσοποταμια πριν η κατοικισαι αυτον εν χαρραν·</ab> <ab n="B05K7V3" osisID="Acts.7.3">και ειπε προς αυτον. εξελθε
+<lb />
+εκ της γης σου. και εκ της συγγενειας σου και δευρο εις γην ην αν σοι δειξω. <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="310" type="page" />
+<div type="book" n="5" osisID="Acts.7.4"><div type="chapter" n="7" osisID="Acts.7.4"><ab n="B05K7V4" osisID="Acts.7.4"><note type="transcriber">Z 2</note>τοτε εξελθων εκ γης χαλδαιων, κατωκησεν εν χαρραν. και εκειθεν μετα το απο
+<lb break="no" />
+θανειν τον πατερα αυτου, μετωκισεν αυτον εις την γην ταυτην εις ην υμεις νυν,
+<lb />
+κατοικειτε·</ab> <ab n="B05K7V5" osisID="Acts.7.5">και ουκ εδωκεν αυτω κληρονομιαν εν αυτη ουδε βημα ποδος. και
+<lb />
+επηγγειλατο δουναι αυτω. εις κατασχεσιν αυτην και τω σπερματι αυτου μετ αυτον
+<lb />
+ουκ οντως αυτω τεκνου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V6" osisID="Acts.7.6"><note type="transcriber">Z 23</note>ελαλησε δε ο θς̅ ουτως ο λεγων οτι εσται το σπερμα αυτου παροικον εν γη αλλοτρια·
+<lb />
+και δουλωσουσιν αυτο. και κακωσουσιν ετη τετρακοσια·</ab> <ab n="B05K7V7" osisID="Acts.7.7">και το εθνος ω εαν δουλευσωσι,
+<lb />
+κρινω εγω ειπεν ο θς̅. και μετα ταυτα εξελευσονται και λατρευσουσι μοι εν τω τοπω τουτω· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V8" osisID="Acts.7.8"><note type="transcriber">Z 33</note>και εδωκεν αυτω διαθηκην περιτομης.
+<lb />
+και ουτως εγεννησε τον ισαακ· και περιετεμεν αυτον τη ημερα τη ογδοη· και ο ισαακ
+<lb />
+τον ιακωβ και ο ιακωβ τους δωδεκα πρ̅ιαρχας· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V9" osisID="Acts.7.9"><note type="transcriber">Z 46</note>και οι πατριαρχαι ζηλωσαντες
+<lb />
+</ab></div></div>
+<pb n="320" type="page" />
+τον ιωσηφ απεδοντο εις αιγυπτον· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 7</note>και ην ο θς̅ μετ αυτου· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.7.10"><div type="chapter" n="7" osisID="Acts.7.10"><ab n="B05K7V10" osisID="Acts.7.10"><note type="transcriber">Z 8</note>και εξειλετο αυτον εκ πασων των θλιψεων αυτου· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 9</note>και εδωκεν
+<lb />
+αυτω χαριν και σοφιαν εναντιον φαραω βασιλεως αιγυπτου· και κατεστησεν
+<lb />
+αυτον ηγουμενον επ αιγυπτον και ολον τον οικον αυτου· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V11" osisID="Acts.7.11"><note type="transcriber">Z 12</note>ηλθε δε
+<lb />
+λιμος εφ ολην την γην αιγυπτον και χανααν και θλιψις μεγαλη. και ουχ ηυρισκον χορτασματα
+<lb />
+οι πρ̅ες ημων.</ab> <ab n="B05K7V12" osisID="Acts.7.12">ακουσας δε ιακωβ οντα σιτα εν <app><rdg type="orig">εγυπτω,</rdg><rdg type="corr" hand="">αιγυπτω,</rdg></app> εξαπεστειλε τους πρ̅ας ημων πρω
+<lb break="no" />
+τον·</ab> <ab n="B05K7V13" osisID="Acts.7.13">και εν τω δευτερω ανεγνωρισθη ιωσηφ τοις αδελφοις αυτου· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 18</note>και φα
+<lb break="no" />
+νερον εγενετο τω φαραω το γενος του ιωσηφ.</ab> <ab n="B05K7V14" osisID="Acts.7.14">αποστειλας δε ιωσηφ μετεκαλεσατο τον
+<lb />
+πατερα αυτου ιακωβ και πασαν την συγγενειαν ψυχαις εν εβδομηκοντα πεντε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V15" osisID="Acts.7.15"><note type="transcriber">Z 23</note>και κατεβη <app><rdg type="orig">ιωσηφ</rdg><rdg type="corr" hand="">ιακωβ</rdg></app> εις αιγυπτον και ετελευτησεν αυτος και οι πατερες
+<lb />
+ημων</ab> <ab n="B05K7V16" osisID="Acts.7.16">και μετετεθησαν εν συχεμ· και μετετεθησαν εν τω μνηματι ο ωνησατο α
+<lb break="no" />
+βρααμ τιμης αργυριου. παρα των υιων εμμωρ του συχεμ· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V17" osisID="Acts.7.17"><note type="transcriber">Z 27</note>καθως δε ηγγιζ<unclear>ε</unclear>ν <app><rdg type="orig">εκει</rdg><rdg type="corr" hand="">OM</rdg></app> ο <app><rdg type="orig">θρονος,</rdg><rdg type="corr" hand="">χρονος,</rdg></app>
+<lb />
+της επαγγελιας ης ωμοσεν ο θς̅ τω αβρααμ. ηυξησεν ο λαος και επληθυνθη
+<lb />
+εν αιγυπτω</ab> <ab n="B05K7V18" osisID="Acts.7.18">αχρις ου ανεστη βασιλευς ετερος ος ουκ ηδει τον ιωσηφ. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V19" osisID="Acts.7.19"><note type="transcriber">Z 32</note>ουτος κατασοφισαμενος το γενος ημων εκακωσε τους πατερας ημων του ποιειν
+<lb />
+εκθετα  τα βρεφη αυτων εις το μη ζωογονεισθαι· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V20" osisID="Acts.7.20"><note type="transcriber">Z 36</note>εν ω καιρω εγεννηθη μωυσης. και ην αστειος τω θω̅ ος
+<lb />
+ανετραφη μηνας τρεις εν τω οικω του πρ̅ς· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="330" type="page" />
+<div type="book" n="5" osisID="Acts.7.21"><div type="chapter" n="7" osisID="Acts.7.21"><ab n="B05K7V21" osisID="Acts.7.21"><note type="transcriber">Z 17</note>εκτεθεντα δε αυτον ανειλετο αυτον η θυγατηρ φαραω και ανε
+<lb break="no" />
+θρεψατο αυτον εαυτη εις υν̅; <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V22" osisID="Acts.7.22"><note type="transcriber">Z 19</note>και επεδευθη μωυσης παση σοφια
+<lb />
+αιγυπτιων· ην δε δυνατος εν λογοις και εν εργοις·</ab> <ab n="B05K7V23" osisID="Acts.7.23">ως δε επληρουτο αυτω τεσσαρακοντα
+<lb break="no" />
+ετης χρονος ανεβη επι την καρδιαν αυτου επισκεψασθαι τους αδελφους αυτου τους υιους
+<lb />
+ιη̅λ· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V24" osisID="Acts.7.24"><note type="transcriber">Z 37</note>και ιδων τινα αδι
+<lb break="no" />
+κουμενον. ημυνατο και εποιησεν εκδικησιν τω καταπονουμενω παταξας τον αιγυπτιον.
+<lb />
+</ab> <ab n="B05K7V25" osisID="Acts.7.25">ενομιζεν δε συνιεναι τους αδελφους αυτου οτι ο θς̅ δια χειρος αυτου διδωσιν αυ
+<lb break="no" />
+τοις σρ̅ιαν· οι δε ου συνηκαν· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="340" type="page" />
+<div type="book" n="5" osisID="Acts.7.26"><div type="chapter" n="7" osisID="Acts.7.26"><ab n="B05K7V26" osisID="Acts.7.26"><note type="transcriber">Z 2</note>τη τε επιουση ημερα ωφθη αυτοις μαχομενοις· και συνηλασεν αυτους εις
+<lb />
+ειρηνην ειπων· ανδρες αδελφοι εσται υμεις· ινατι αδικειται αλληλους. <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V27" osisID="Acts.7.27"><note type="transcriber">Z 17</note>ο δε αδικων τον πλησιον, απω
+<lb break="no" />
+σατο αυτον ειπων· τις σε κατεστησεν αρχοντα και δικαστην εφ <app><rdg type="orig">ημ<unclear>α</unclear><unclear>ς</unclear>·</rdg><rdg type="corr" hand="">ημων·</rdg></app>
+<lb />
+</ab> <ab n="B05K7V28" osisID="Acts.7.28">μη ανελειν με συ θελεις ον τροπον ανειλες τον αιγυπτιον· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V29" osisID="Acts.7.29"><note type="transcriber">Z 23</note>εφυγε δε μωυσης εν τω λογω τουτω
+<lb />
+και εγενετο παροικος εν γη μαδιαμ ου εγεννησεν υιους δυο· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V30" osisID="Acts.7.30"><note type="transcriber">Z 30</note>και πληρωθεντων ετων τεσσαρακοντα ωφθη αυτω εν τη ερημω του ορους
+<lb />
+σινα αγγελος κυ̅· εν πυρι φλογος βατου·</ab> <ab n="B05K7V31" osisID="Acts.7.31">ο δε μωυσης ιδων εθαυμαζε το οραμα· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 35</note>προσερχομενου δε αυτου κατα
+<lb break="no" />
+νοησαι, εγενετο φωνη κυ̅ προς αυτον.</ab> <ab n="B05K7V32" osisID="Acts.7.32">εγω ο θς̅ των πρ̅ων σου· ο θς̅ αβρααμ
+<lb />
+και ο θς̅ ισαακ· και ο θς̅ ιακωβ· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 42</note>εντρομος δε γενομενος μωυσης ουκ ετολμα κατανοησαι· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="350" type="page" />
+<div type="book" n="5" osisID="Acts.7.33"><div type="chapter" n="7" osisID="Acts.7.33"><ab n="B05K7V33" osisID="Acts.7.33"><note type="transcriber">Z 4</note>ειπε δε αυτω ο κς̅  λυσον το υποδημα εκ των ποδων σου· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 9</note>ο γαρ τοπος εν ω εστηκας, γη αγια εστιν· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V34" osisID="Acts.7.34"><note type="transcriber">Z 12</note>ιδων ειδον την κακωσιν του λαου μου του εν αιγυπτω· και του στεναγμου
+<lb />
+αυτων ηκουσα· και κατεβην εξελεσθαι αυτους.  και νυν δευρο αποστελω σε εις
+<lb />
+αιγυπτον· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V35" osisID="Acts.7.35"><note type="transcriber">Z 24</note>τουτον ουν τον μωυσην ον <app><rdg type="orig">ηρνησαντ<unclear>ε</unclear>ς</rdg><rdg type="corr" hand="">ηρνησαντο</rdg></app> ειποντες τις σε κατεστησεν
+<lb />
+αρχοντα και δικαστην, τουτον ο θς̅ αρχοντα και λυτρωτην απεσταλεν εν χειρι αγ
+<lb break="no" />
+γελου· του οφθεντος αυτω εν τη βατω·</ab> <ab n="B05K7V36" osisID="Acts.7.36">ουτος εξηγαγεν αυτους, ποιησας
+<lb />
+τερατα και σημεια· εν τη αιγυπτω· και εν ερυθρα θαλασση. και εν τη ερημω, ε
+<lb break="no" />
+τη τεσσαρακοντα· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V37" osisID="Acts.7.37"><note type="transcriber">Z 30</note>ουτος εστιν ο μωυσης ο ειπων
+<lb />
+τοις υιοις ιη̅λ προφητην υμιν αναστησει κς̅ ο θς̅ ημων εκ των αδελφων υμων
+<lb />
+ως εμε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V38" osisID="Acts.7.38"><note type="transcriber">Z 37</note>ουτος εστιν
+<lb />
+ο γενομενος εν τη εκκλησια εν τη ερημω μετα του αγγελου του λαλουντος αυτω
+<lb />
+<app><rdg type="orig"><supplied rend="lacuna">1-2</supplied>ν</rdg><rdg type="corr" hand="">εν</rdg></app> τω ορει σινα και των πρ̅ων ημων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="360" type="page" />
+<note type="transcriber">Z 1</note>ος εδεξατο λογια ζωντα δουναι υμιν· <div type="book" n="5" osisID="Acts.7.39"><div type="chapter" n="7" osisID="Acts.7.39"><ab n="B05K7V39" osisID="Acts.7.39">ω ουκ ηθελησαν υπηκοοι γενεσθαι
+<lb />
+οι πατερες ημων αλλ απωσαντο· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 3</note>και εστραφησαν <app><rdg type="orig">τη καρδια</rdg>[Κ]ταις καρδιαις[\Κ]</app><note type="transcriber">203r l 3</note> αυτων εις αι
+<lb break="no" />
+γυπτον</ab> <ab n="B05K7V40" osisID="Acts.7.40">ειποντες τω ααρων <note type="transcriber">kommentar</note>ποι
+<lb break="no" />
+ησον ημιν θεους οι προπορευσονται ημων· ο γαρ μωυσης ουτος ος εξηγαγεν ημας
+<lb />
+εκ γης αιγυπτου, ουκ οιδαμεν τι γεγονεν αυτω·</ab> <ab n="B05K7V41" osisID="Acts.7.41">και εμοσχοποιησαν εν ταις ημεραις
+<lb />
+εκειναις· και ανηγαγον θυσιαν τω ειδωλω· και ευφραινοντο εν τοις εργοις των
+<lb />
+ρων αυτων· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V42" osisID="Acts.7.42"><note type="transcriber">Z 15</note>εστρεψε δε ο θς̅. και παρεδωκεν αυτους λατρευειν,
+<lb />
+τη στρατια του ου̅νου καθως γεγραπται εν τη βιβλω των προφητων· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="370" type="page" />
+<note type="transcriber">Z 2</note>μη σφαγια και θυσιας προσηνεγκατε μοι
+<lb />
+ετη τεσσαρακοντα εν τη ερημω οικος ιη̅λ. <div type="book" n="5" osisID="Acts.7.43"><div type="chapter" n="7" osisID="Acts.7.43"><ab n="B05K7V43" osisID="Acts.7.43">και ανελαβετε την σκηνην του μο
+<lb break="no" />
+λοχ και το αστρον του θυ̅ <app><rdg type="orig">OM</rdg>[Κ]υμων[\Κ]</app> <note type="transcriber">l 16-17</note> ρεφφαν <note type="transcriber">204r l 27</note> τους τυπους ους εποιησατε προσκυνειν αυτους· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 23</note>και μετοικιω υμας επεκεινα βαβυλωνος· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V44" osisID="Acts.7.44"><note type="transcriber">Z 26</note>η σκηνη του μαρτυριου ην
+<lb />
+εν τοις πατρασιν ημων εν τη ερημω·
+<lb />
+<note type="transcriber">Z 28</note>καθως διεταξατο ο λαλων τω μωυση ποιησαι αυτην κατα τον
+<lb />
+τυπον ον εωρακει·</ab> <ab n="B05K7V45" osisID="Acts.7.45">ην και εισηγαγον διαδεξαμενοι οι πρ̅ες ημων μετα ιυ̅ εν τη κατα
+<lb break="no" />
+σχεσει των εθνων ων εξωσεν ο θς̅ απο προσωπου των πρ̅ων <app><rdg type="orig">ημων</rdg>[Κ]υμων[\Κ]</app> <note type="transcriber">204b l 5</note> <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="380" type="page" />
+<note type="transcriber">Z 4</note>εως των ημερων δα̅δ <div type="book" n="5" osisID="Acts.7.46"><div type="chapter" n="7" osisID="Acts.7.46"><ab n="B05K7V46" osisID="Acts.7.46">ος ευρε χαριν ενωπιον του θυ̅· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 8</note>και ητησατο ευρειν σκηνωμα τω θω̅ ιακωβ· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V47" osisID="Acts.7.47"><note type="transcriber">Z 10</note>σολομων δε οικονομησεν αυτω οικον· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V48" osisID="Acts.7.48"><note type="transcriber">Z 14</note>αλλ ουχ ο υψιστος εν
+<lb />
+χειροποιητοις ναοις κατοικει καθως και ο προφητης λεγει· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V49" osisID="Acts.7.49"><note type="transcriber">Z 17</note>ο ου̅νος μοι θρονος· η δε γη υποποδιον των ποδων μου· ποιον οικον οικοδομη
+<lb break="no" />
+σετε μοι λεγει κς̅· η τις τοπος της καταπαυσεως μου·</ab> <ab n="B05K7V50" osisID="Acts.7.50">ουχι η χειρ μου εποιησε ταυτα
+<lb />
+παντα· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V51" osisID="Acts.7.51"><note type="transcriber">Z 29</note>σκληροτραχηλοι και απεριτμητοι τη καρδια και τοις ωσιν· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 33</note>υμεις αει τω πν̅ι τω αγιω αντιπιπτετε ως οι πρ̅ες υμων και υμεις· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V52" osisID="Acts.7.52"><note type="transcriber">Z 37</note>τινα των προφητων
+<lb />
+ουκ εδιωξαν οι πρ̅ες υμων  και απεκτειναν· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 42</note>τους προκαταγγειλαντας περι της ελευσεως του δικαιου. <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="390" type="page" />
+δυο αυτοις εγκαλει ου νυν υμεις προδοται και φονεις γεγενεισθε· <note type="transcriber">kommentar</note>
+<lb />
+<div type="book" n="5" osisID="Acts.7.53"><div type="chapter" n="7" osisID="Acts.7.53"><ab n="B05K7V53" osisID="Acts.7.53"><note type="transcriber">Z 3</note>οιτινες ελαβετε τον νομον εις διαταγας αγγελων και ουκ εφυλαξατε· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V54" osisID="Acts.7.54"><note type="transcriber">Z 8</note>ακουοντες δε
+<lb />
+ταυτα διεπριοντο ταις καρδιαις αυτων· και εβρυχον τους οδοντας επ αυτον· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V55" osisID="Acts.7.55"><note type="transcriber">Z 13</note>υπαρχων δε πληρης πν̅ς αγιου ατενισας εις
+<lb />
+τον ου̅νον, ειδε δοξαν θυ̅ και ιν̅ εστωτα εκ δεξιων του θυ̅</ab> <ab n="B05K7V56" osisID="Acts.7.56">και ειπεν· ιδου
+<lb />
+θεωρω τους ου̅νους ανεωγμενους· και τον υιον του αν̅ου, εκ δεξιων εστωτα
+<lb />
+του θυ̅· <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V57" osisID="Acts.7.57"><note type="transcriber">Z 26</note>κραξαντες δε φωνη μεγαλη συνεσχον τα ωτα αυτων και ωρμησαν
+<lb />
+ομοθυμαδον <app><rdg type="orig">επ<supplied rend="lacuna">1-2</supplied></rdg><rdg type="corr" hand="*">επ αυτον·</rdg></app> <note type="transcriber">kommentar</note>
+<lb />
+</ab> <ab n="B05K7V58" osisID="Acts.7.58"><note type="transcriber">Z 34</note>και εκβαλλοντες
+<lb />
+εξω της πολεως ελιθοβολουν· <note type="transcriber">kommentar</note>
+<lb />
+<note type="transcriber">Z 37</note>και οι μαρτυρες απεθοντο τα ιματια αυτων·
+<lb />
+παρα τους ποδας νεανιου καλουμενου σαυλου</ab> <ab n="B05K7V59" osisID="Acts.7.59">και ελιθοβολουν τον στεφανον· <note type="transcriber">kommentar</note>
+<lb />
+</ab></div></div>
+<pb n="20r" type="folio" />
+<note type="transcriber">Z 2</note>επικαλουμενον και λεγοντα. κε̅ ιυ̅ χε̅ δεξαι το <app><rdg type="orig">πν̅α</rdg><rdg type="corr" hand="*">πνευμα</rdg></app> μου· <note type="transcriber">kommentar</note>
+
+
+<pb n="185r" type="folio"/><div n="B05" type="book" part="I"><div type="incipit" n="B05incipit"><ab n="B05K0V0"><w>πραξεις</w> <w>των</w> <w>αποστολων</w>
+<cb n="1"/>
+<lb/></ab></div><div n="B05K1" type="chapter" part="I"><ab n="B05K1V1"><note type="local">Z 34</note> <w>τον</w> <w>μεν</w> <w>πρωτον</w> <w>λογον</w> <w>εποιησαμην</w><pc>·</pc> <w>περι</w> <w>παντων</w> <w>ω</w> <w>θεοφιλε</w> <w>ων</w> <w>ηρξατο</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ποιειν</w> <w>τε</w> <w>και</w> <w>διδασκειν</w><pc>·</pc></ab> <ab n="B05K1V2"><w>αχρι</w> <w>ης</w> <w>ημερας</w> <w>εντειλαμενος</w>
+<lb/><w>τοις</w> <w>αποστολοις</w> <w>δια</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w><pc>·</pc> <w>ους</w> <w>εξελεξατο</w><pc>,</pc> <w>ανεληφθη</w><pc>·</pc></ab> <ab n="B05K1V3"><w>οις</w> <w>και</w> <w>παρεστησεν</w> <w>εαυτον</w> <w>ζωντα</w><pc>·</pc> <w>μετα</w> <w>το</w> <w>παθειν</w> <w>αυτον</w> <w>εν</w> <w>πολλοις</w>
+<lb/><w>τεκμηριοις</w> <w>δι</w> <w>ημερων</w> <w>τεσσαρακοντα</w><pc>·</pc> <w>οπτανομενος</w> <w>αυτοις</w> <w>και</w> <w>λεγων</w> <w>τα</w> <w>περι</w> <w>της</w> <w>βασιλειας</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="185v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K1" type="chapter" part="M"><ab n="B05K1V4"><note type="local">Z 37</note> <w>και</w> <w>συναυλιζομενος</w> <w>παρηγγειλεν</w> <w>αυτοις</w>
+<lb/><w>απο</w> <w>ιεροσολυμων</w> <w>μη</w> <w>χωριζεσθαι</w><pc>·</pc> <w>αλλα</w> <w>περιμενειν</w> <w>την</w> <w>επαγγελιαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>ην</w> <w>ηκουσατε</w> <w>μου</w><pc>·</pc></ab> <ab n="B05K1V5"><w>οτι</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w> <w>μεν</w> <w>εβαπτισεν</w>
+<lb/><w>υδατι</w><pc>·</pc> <w>υμεις</w> <w>δε</w> <w>βαπτισθησεσθε</w> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w> <w>αγιω</w><pc>;</pc> <w>ου</w> <w>μετα</w> <w>πολλας</w> <w>ταυτας</w> <w>ημερας</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="186r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K1" type="chapter" part="M"><ab n="B05K1V6"><note type="local">Z 41</note> <w>οι</w> <w>μεν</w> <w>ουν</w> <w>συνελθοντες</w> <w>επιρωτησαν</w> <w>αυτον</w> <w>λεγοντες</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>ει</w> <w>εν</w> <w>τω</w> <w>χρονω</w> <w>τουτω</w> <w>αποκαθιστανεις</w> <w>την</w> <w>βασιλ<ex>ειαν</ex></w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w></ab> <ab n="B05K1V7"><w>ειπε</w> <w>δε</w>
+<lb/><w>προς</w> <w>αυτους</w> <w>ουχ</w> <w>υμων</w> <w>εστι</w> <w>γνωναι</w> <w>χρονους</w> <w>η</w> <w>καιρους</w> <w>ους</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w> <w>εθετο</w> <w>εν</w> <w>τη</w> <w>ιδια</w> <w>εξουσια</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="186v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K1" type="chapter" part="M"><ab n="B05K1V8"><note type="local">Z 10</note> <w>αλλα</w>
+<lb/><w>ληψεσθε</w> <w>δυναμιν</w> <w>επελθοντος</w> <w>του</w> <w>αγιου</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>εφ</w> <w>υμας</w> <w>και</w> <w>εσεσθε</w> <w>μοι</w> <w>μαρτυρες</w> <w>εν</w> <w>τε</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w><pc>·</pc> <w>και</w> <w>εν</w> <w>παση</w> <w>τη</w> <w>ιουδαια</w> <w>και</w> <w>σαμαρεια</w>
+<lb/><w>και</w> <w>εως</w> <w>εσχατου</w> <w>της</w> <w>γης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K1V9"><note type="local">Z 31</note> <w>και</w> <w>ταυτα</w> <w>ειπων</w><pc>·</pc> <w>βλεποντων</w> <w>αυτων</w><pc>,</pc>
+<lb/><w>επηρθη</w><pc>·</pc> <w>και</w> <w>νεφελη</w> <w>υπελαβεν</w> <w>αυτον</w> <w>απο</w> <w>των</w> <w>οφθαλμων</w> <w>αυτων</w></ab> <ab n="B05K1V10"><w>και</w> <w>ως</w> <w>ατενιζοντες</w> <w>ησαν</w> <w>εις</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>·</pc> <w>πορευομενου</w> <w>αυτου</w>
+<lb/><w>και</w> <w>ιδου</w> <w>ανδρες</w> <w>δυο</w> <w>παρειστηκεισαν</w> <w>αυτοις</w> <w>εν</w> <app><rdg type="orig" hand="firsthand"><w>εσθητι</w> <w>λευκηι</w></rdg><rdg type="comm" hand="firsthand"><w>εσθησεσι</w> <w>λευκαις</w></rdg></app><note type="local">186√ ¬ 53-54</note></ab> <ab n="B05K1V11"><w>οι</w> <w>και</w> <w>ειπον</w><pc>·</pc> <w>ανδρες</w> <w>γαλιλαιοι</w><pc>·</pc> <w>τι</w> <w>εστηκατε</w> <w>εμβλεποντες</w>
+<lb/><w>εις</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>·</pc> <w>ουτος</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><pc>·</pc> <w>ο</w> <w>αναληφθεις</w> <w>αφ</w> <w>υμων</w> <w>εις</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>·</pc> <w>ουτως</w> <w>ελευσεται</w> <w>ον</w> <w>τροπον</w> <w>εθεασασθε</w> <w>αυτον</w> <w>πορευομενον</w> <w>εις</w>
+<lb/><w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="187r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K1" type="chapter" part="M"><ab n="B05K1V12"><note type="local">Z 7</note> <w>τοτε</w> <app><rdg type="orig" hand="firsthand"><w>επεστρεψαν</w></rdg><rdg type="corr" hand="corrector"><w><unclear>υ</unclear>πεστρεψαν</w></rdg></app> <w>εις</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w><pc>·</pc> <w>απο</w> <w>ορους</w> <w>του</w> <w>καλουμενου</w> <w>ελαιωνος</w><pc>·</pc> <w>ο</w> <w>εστιν</w> <w>εγγυς</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>σαββατου</w>
+<lb/><w>εχον</w> <w>οδον</w><pc>·</pc></ab> <ab n="B05K1V13"><w>και</w> <w>οτε</w> <w>εισηλθον</w><pc>,</pc> <w>ανεβησαν</w> <w>εις</w> <w>υπερωον</w> <w>ου</w> <w>ησαν</w> <w>καταμενοντες</w><pc>.</pc> <w>ο</w> <w>τε</w> <w>πετρος</w> <w>και</w> <w>ιακωβος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w><pc>·</pc> <w>και</w> <w>ανδρεας</w> <w>και</w> <w>φιλιππος</w> <w>και</w>
+<lb/><w>θωμας</w> <w>βαρθολομαιος</w> <w>και</w> <w>ματθαιος</w><pc>·</pc> <w>ιακωβος</w> <w>αλφαιου</w> <w>και</w> <w>σιμων</w> <w>ο</w> <w>ζηλωτης</w> <w>και</w> <w>ιουδας</w> <w>ιακωβου</w></ab> <ab n="B05K1V14"><w>ουτοι</w> <w>παντες</w> <w>ησαν</w> <w>προσκαρτερουν
+<lb break="no"/>τες</w> <w>ομοθυμαδον</w><pc>·</pc> <w>τη</w> <w>προσευχη</w> <w>και</w> <w>τη</w> <w>δεησει</w><pc>·</pc> <w>συν</w> <w>γυναιξι</w> <w>και</w> <w>μαρια</w> <w>τη</w> <w><abbr type="nomSac"><hi rend="overline">μρι</hi></abbr></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><pc>·</pc> <w>και</w> <w>συν</w> <w>τοις</w> <w>αδελφοις</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K1V15"><note type="local">Z 21</note> <w>και</w> <w>εν</w> <w>ταις</w> <w>ημεραις</w> <w>ταυταις</w><pc>,</pc> <w>αναστας</w> <w>πετρος</w> <w>εν</w> <w>μεσω</w> <w>των</w> <w>αδελφων</w> <w>ειπεν</w><pc>·</pc> <w>ην</w> <w>τε</w> <w>οχλος</w> <w>ονοματων</w> <w>επι</w> <w>το</w> <w>αυτο</w>
+<lb/><w>ως</w> <w>εκατον</w> <w>εικοσιν</w><pc>·</pc></ab> <ab n="B05K1V16"><w>ανδρες</w> <w>αδελφοι</w><pc>·</pc> <w>εδει</w> <w>πληρωθηναι</w> <w>την</w> <w>γραφην</w> <w>ταυτην</w><pc>·</pc> <w>ην</w> <w>προειπε</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>το</w> <w>αγιον</w> <w>δια</w> <w>στοματος</w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w>
+<lb/><w>περι</w> <w>ιουδα</w> <w>του</w> <w>γενομενου</w> <w>οδηγου</w><pc>·</pc> <w>τοις</w> <w>συλλαβουσι</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>·</pc></ab> <ab n="B05K1V17"><w>οτι</w> <w>κατηριθμημενος</w> <w>ην</w> <w>συν</w> <w>ημιν</w><pc>·</pc> <w>και</w> <w>ελαχε</w> <w>τον</w> <w>κληρον</w> <w>της</w> <w>διακονιας</w>
+<lb/><w>ταυτης</w></ab> <ab n="B05K1V18"><w>ουτος</w> <w>μεν</w> <w>ουν</w> <w>εκτησατο</w> <w>χωριον</w> <w>εκ</w> <w>μισθου</w> <w>της</w> <w>αδικιας</w><pc>·</pc> <w>και</w> <w>πρινης</w><note type="local">¬39</note> <w>γενομενος</w><pc>·</pc> <w>ελακησε</w><note type="local">¬ 40</note> <w>μεσος</w> <w>και</w> <w>εξεχυθη</w> <w>παντα</w> <w>τα</w> <w>σπλαγχνα</w>
+<lb/><w>αυτου</w><pc>·</pc></ab> <ab n="B05K1V19"><w>και</w> <w>γνωστον</w> <w>εγενετο</w> <w>πασι</w> <w>τοις</w> <w>κατοικουσιν</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w><pc>·</pc> <w>ωστε</w> <w>κληθηναι</w> <w>το</w> <w>χωριον</w> <w>εκεινο</w><pc>,</pc> <w>τη</w> <w>ιδια</w> <w>διαλεκτω</w> <w>αυτων</w><pc>·</pc> <w>ακελδαμα</w><pc>·</pc>
+<lb/><w>τουτ</w> <w>εστι</w> <w>χωριον</w> <w>αιμ<ex>α</ex>τος</w><pc>·</pc></ab> <ab n="B05K1V20"><w>γεγραπται</w> <w>γαρ</w><pc>,</pc> <w>εν</w> <w>βιβλω</w> <w>ψαλμων</w><pc>·</pc> <w>γενηθητω</w> <w>η</w> <w>επαυλις</w> <w>αυτου</w><pc>·</pc> <w>ερημος</w><pc>·</pc> <w>και</w> <w>μη</w> <w>εστω</w> <w>ο</w> <w>κατοικων</w> <w>εν</w> <w>αυτη</w> <w>και</w> <w>την</w>
+<lb/><w>επισκοπην</w> <w>αυτου</w><pc>·</pc> <w>λαβοι</w> <w>ετερος</w><pc>·</pc></ab> <ab n="B05K1V21"><w>δει</w> <w>ουν</w> <w>των</w> <w>συνελθοντων</w> <w>ημιν</w> <w>ανδρων</w><pc>·</pc> <w>εν</w> <w>παντι</w> <w>χρονω</w> <w>εν</w> <w>ω</w> <w>εισηλθε</w> <w>και</w> <w>εξηλθεν</w> <w>εφ</w> <w>ημας</w> <w>ο</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><pc>·</pc></ab> <ab n="B05K1V22"><w>αρξα<unclear>μεν</unclear>ος</w> <w>απο</w> <w>του</w> <w>βαπτισματος</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w><pc>,</pc> <w>εως</w> <w>της</w> <app><rdg type="orig" hand="firsthand"><w>ημερας</w> <w>ης</w> <w>ανεληφθη</w></rdg><rdg type="comm" hand="firsthand"><w>αυτου</w> <w>αναληψεως</w></rdg></app><note type="local">¬ 10</note> <w>αφ</w> <w>ημων</w><pc>·</pc> <w>μαρτυρα</w> <w>της</w> <w>αναστασεως</w> <w>αυτου</w> <w>γενεσθαι</w> <w>συν</w>
+<lb/><w>ημιν</w> <w>ενα</w> <w>τ<unclear>ου</unclear>των</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="187v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K1" type="chapter" part="F"><ab n="B05K1V23"><note type="local">Z 15</note> <w>και</w> <w>εστησαν</w> <w>δυο</w> <w>ιωσην</w> <w>τον</w> <w>καλουμενον</w> <w>βαρσαβαν</w><pc>·</pc> <w>ος</w> <w>επεκληθη</w> <w>ιουστος</w><pc>·</pc> <w>και</w> <w>ματθιαν</w><pc>·</pc></ab> <ab n="B05K1V24"><w>και</w> <w>προσ
+<lb break="no"/>ευξαμενοι</w> <w>ειπον</w> <w>συ</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>καρδιογνωστα</w> <w>παντων</w><pc>·</pc> <w>αναδειξον</w> <w>ον</w> <w>εξελεξω</w> <w>εκ</w> <w>τουτων</w> <w>των</w> <w>δυο</w> <w>ενα</w><pc>·</pc></ab> <ab n="B05K1V25"><w>λαβειν</w> <w>τον</w> <w>κληρον</w> <w>της</w> <w>διακονιας</w>
+<lb/><w>ταυτης</w> <w>και</w> <w>αποστολης</w> <w>εξ</w> <w>ης</w> <w>παρεβη</w> <w>ιουδας</w> <w>πορευθηναι</w> <w>εις</w> <w>τον</w> <w>τοπον</w> <w>τον</w> <w>ιδιον</w><pc>·</pc></ab> <ab n="B05K1V26"><w>και</w> <w>εδωκαν</w> <w>κληρους</w> <w>αυτων</w><pc>·</pc> <w>και</w> <w>επεσεν</w>
+<lb/><w>ο</w> <w>κληρος</w> <w>επι</w> <w>ματθιαν</w><pc>·</pc> <w>και</w> <w>συγκατεψηφισθη</w> <w>μετα</w> <w>των</w> <w>ενδεκα</w> <w>αποστολων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K2" type="chapter" part="I"><ab n="B05K2V1"><note type="local">Z 54</note> <w>και</w> <w>εν</w> <w>τω</w> <app><rdg type="orig" hand="firsthand"><w>πληρουσθαι</w></rdg><rdg type="corr" hand="corrector"><w>συμπληρουσθαι</w></rdg></app> <w>την</w> <w>ημεραν</w> <w>της</w> <w>πεντηκοστης</w> <w>ησαν</w> <w>παντες</w> <w>ομοθυμαδον</w>
+<lb/><w>επι</w> <w>το</w> <w>αυτο</w></ab> <ab n="B05K2V2"><w>και</w> <w>εγενετο</w> <w>αφνω</w> <w>εκ</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w> <w>ηχος</w> <w>ωσπερ</w> <w>φερομενης</w> <w>πνοης</w> <w>βιαιας</w><pc>·</pc> <w>και</w> <w>επληρωσεν</w> <w>ολον</w> <w>τον</w> <w>οι<unclear>κ</unclear>ον</w> <w>ου</w> <w>ησαν</w> <w>κα
+<lb break="no"/>θημενοι</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="188r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V3"><note type="local">Z 58</note> <w>και</w> <w>ωφθησαν</w> <w>αυτοις</w> <w>διαμεριζομεναι</w>
+<lb/><w>γλωσσαι</w> <w>ωσει</w> <w>πυρος</w><pc>·</pc> <w>εκαθισε</w> <w>τε</w> <w>εφ</w> <w>ενα</w> <w>εκαστον</w> <w>αυτων</w><pc>·</pc></ab> <ab n="B05K2V4" part="I"><w>και</w> <w>επλησθησαν</w> <w>απαντες</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w> <w>και</w> <w>ηρξαντο</w> <w>λαλειν</w> <w>ετεραις</w>
+</ab></div></div>
+<pb n="188v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V4" part="M"><w>γλωσσαις</w><pc>·</pc> <w>καθως</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>εδιδου</w> <w>αυτοις</w> <w>αποφθεγγεσθαι</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="189r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V5"><note type="local">Z 10</note> <w>ησαν</w> <w>δε</w> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>κατοικουντες</w> <w>ιουδαιοι</w> <w>ανδρες</w> <w>ευλαβεις</w> <w>απο</w> <w>παντος</w> <w>εθνους</w> <w>των</w> <w>υπο</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w>
+<lb/></ab> <ab n="B05K2V6"><w>γενομενης</w> <w>δε</w> <w>τ<unclear>η</unclear>ς</w> <w>φωνης</w> <w>ταυτης</w><pc>,</pc> <w>συνηλθε</w> <w>το</w> <w>πληθος</w><pc>,</pc> <w>και</w> <w>συνεχυθη</w><pc>·</pc> <w>οτι</w> <w>ηκουον</w> <w>εις</w> <w>εκαστος</w> <w>τη</w> <w>ιδια</w> <w>διαλεκτω</w> <w>λαλουντων</w> <w>αυτων</w><pc>·</pc>
+<lb/></ab> <ab n="B05K2V7"><w>εξισταντο</w> <w>δε</w> <w>παντες</w> <w>και</w> <w>εθαυμαζον</w> <w>λεγοντες</w> <w>προς</w> <w>αλληλους</w><pc>,</pc> <w>ουκ</w> <w>ιδου</w> <w>παντες</w> <w>ουτοι</w> <w>εισιν</w> <w>οι</w> <w>λαλουντες</w> <w>γαλιλαιοι</w><pc>·</pc></ab> <ab n="B05K2V8"><w>και</w> <w>πως</w>
+<lb/><w>ημεις</w> <w>ακουομεν</w> <w>εκαστος</w> <w>τη</w> <w>ιδια</w> <w>διαλεκτω</w> <w>ημων</w> <w>εν</w> <w>η</w> <w>εγεννηθημεν</w><pc>·</pc></ab> <ab n="B05K2V9"><w>παρθοι</w> <w>και</w> <w>μηδοι</w> <w>και</w> <w>ελαμιται</w> <w>και</w> <w>οι</w> <w>κατοικουντες</w>
+<lb/><w>την</w> <w>μεσοποταμιαν</w> <w>ιουδαιαν</w> <w>τε</w> <w>και</w> <w>καππαδοκιαν</w><pc>·</pc> <w>ποντον</w> <w>και</w> <w>την</w> <w>ασιαν</w><pc>·</pc></ab> <ab n="B05K2V10"><w>φρυγιαν</w> <w>τε</w> <w>και</w> <w>παμφυλιαν</w><pc>·</pc> <w>αιγυπτον</w> <w>και</w> <w>τα</w> <w>μερη</w> <w>της</w> <w>λιβυης</w><pc>,</pc>
+<lb/><w>της</w> <w>κατα</w> <w>κυρηνην</w><pc>·</pc> <w>και</w> <w>οι</w> <w>επιδημουντες</w> <w>ρωμαιοι</w><pc>·</pc></ab> <ab n="B05K2V11"><w>ιουδαιοι</w> <w>τε</w> <w>και</w> <w>προσηλυτοι</w><pc>·</pc> <w>κρητες</w> <w>και</w> <w>αραβες</w><pc>,</pc> <w>ακουομεν</w> <w>λαλουντων</w> <w>αυτων</w> <w>ταις</w>
+<lb/><w>ημετεραις</w> <w>γλωσσαις</w> <w>τα</w> <w>μεγαλεια</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc></ab> <ab n="B05K2V12"><w>εξισταντο</w> <w>δε</w> <w>παντες</w> <w>και</w> <w>διηπορουν</w> <w>αλλος</w> <w>προς</w> <w>αλλον</w> <w>λεγοντες</w><pc>·</pc> <w>τι</w> <w>αν</w> <w>θελοι</w> <w>τουτο</w> <w>ειναι</w><pc>·</pc></ab> <ab n="B05K2V13"><w>ετεροι</w> <w>δε</w>
+<lb/><w>χλευαζοντες</w><pc>·</pc> <w>ελεγ<unclear>ον</unclear></w> <w>οτι</w> <w>γλευκους</w> <w>μεμεστωμενοι</w> <w>εισιν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="189v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V14"><note type="local">Z 10</note> <w>σταθεις</w> <w>δε</w> <w>πετρος</w> <w>συν</w> <w>τοις</w> <w>ενδεκα</w> <w>επηρε</w>
+<lb/><w>την</w> <w>φωνην</w> <w>αυτου</w><pc>·</pc> <w>και</w> <w>απεφθεγξατο</w> <w>αυτοις</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 20</note> <w>ανδρες</w> <w>ιουδαιοι</w> <w>και</w> <w>οι</w> <w>κατοικουν
+<lb break="no"/>τες</w> <w>την</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>απαντες</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 24</note> <w>τουτο</w> <w>υμιν</w> <w>γνωστον</w> <w>εστω</w><pc>·</pc> <w>και</w> <w>ενωτισασθε</w> <w>τα</w> <w>ρηματα</w> <w>μου</w><pc>·</pc></ab> <ab n="B05K2V15"><w>ου</w> <w>γαρ</w> <w>ως</w> <w>υμεις</w> <w>υπολαμ
+<lb break="no"/>βανετε</w> <w>ουτοι</w> <w>μεθυουσιν</w><pc>.</pc> <w>εστι</w> <w>γαρ</w> <w>ωρα</w> <w>τριτη</w> <w>της</w> <w>ημερας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V16"><note type="local">Z 29</note> <w>αλλα</w> <w>τουτο</w> <w>εστι</w> <w>το</w> <w>ειρημενον</w> <w>δια</w>
+<lb/><w>του</w> <w>προφητου</w> <w>ιωηλ</w><pc>·</pc></ab> <ab n="B05K2V17"><w>και</w> <w>εσται</w> <w>εν</w> <w>ταις</w> <w>εσχαταις</w> <w>ημεραις</w> <w>λεγει</w> <app><rdg type="orig" hand="firsthand"><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><pc>.</pc></rdg><rdg type="comm" hand="firsthand"><w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>παντοκρατωρ</w><pc>.</pc></rdg></app> <w>εκχεω</w> <w>απο</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>μου</w> <w>επι</w> <w>πασαν</w> <w>σαρκα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 36</note> <w>και</w> <w>προφητευσουσιν</w> <w>οι</w> <w>υιοι</w> <w>υμων</w><pc>·</pc>
+<lb/><w>και</w> <w>αι</w> <w>θυγατεραις</w> <w>υμων</w><pc>·</pc> <w>και</w> <w>οι</w> <w>νεανισκοι</w> <w>υμων</w> <w>ορασεις</w> <w>οψονται</w><pc>·</pc> <w>και</w> <w>οι</w> <w>πρεσβυτεροι</w> <w>υμων</w><pc>,</pc>
+<lb/><w>ενυπνια</w> <w>ενυπνιασθησονται</w><pc>·</pc></ab> <ab n="B05K2V18"><w>και</w> <w>γε</w> <w>επι</w> <w>τους</w> <w>δουλους</w> <w>μου</w> <w>και</w> <w>επι</w> <w>τας</w> <w>δουλας</w> <w>μου</w> <w>εν</w> <w>ταις</w> <w>η
+<lb break="no"/>μεραις</w> <w>εκειναις</w> <w>εκχεω</w> <w>απο</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>μου</w> <w>και</w> <w>προφητευσουσιν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="190r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V19"><note type="local">Z 5</note> <w>και</w> <w>δωσω</w> <w>τερατα</w> <w>εν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr></w> <w>ανω</w><pc>·</pc> <w>και</w> <w>σημεια</w> <w>επι</w> <w>της</w> <w>γης</w> <w>κατω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 9</note> <w>αιμα</w> <w>και</w> <w>πυρ</w> <w>και</w> <w>ατμιδα</w> <w>καπνου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V20"><note type="local">Z 14</note> <w>ο</w> <w>ηλιος</w> <w>μεταστραφη
+<lb break="no"/>σεται</w> <w>εις</w> <w>σκοτος</w><pc>·</pc> <w>και</w> <w>η</w> <w>σεληνη</w> <w>εις</w> <w>αιμα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 18</note> <w>πριν</w> <w>ελθειν</w> <w>την</w> <w>ημεραν</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>την</w> <w>μεγαλην</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V21"><note type="local">Z 21</note> <w>και</w>
+<lb/><w>εσται</w> <w>πας</w> <w>ος</w> <w>αν</w> <w>επικαλεσηται</w> <w>το</w> <w>ονομα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>σωθησεται</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V22"><note type="local">Z 26</note> <w>ανδρες</w> <w>ισραηλιται</w><pc>·</pc> <w>ακουσατε</w> <w>τους</w> <w>λογους</w> <w>τουτους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 32</note> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>τον</w> <w>ναζωραιον</w> <w>ανδρα</w> <app><rdg type="orig" hand="firsthand"><w>απο</w> <w>δ<unclear>ε</unclear></w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>αποδεδειγμενον</w></rdg><rdg type="corr" hand="firsthand"><w>απο</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>αποδεδειγμενον</w></rdg><rdg type="comm" hand="firsthand"><w>αποδεδειγμενον</w> <w>απο</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></rdg></app><note type="local">¬ 35</note><note type="local">Schreiber wollte wohl erst  apodedeigmenon schreiben, Homoioarkton</note> <w>εις</w> <w>υμας</w> <w>δυναμεσι</w> <w>και</w> <w>τερασι</w><pc>·</pc>
+<lb/><w>και</w> <w>σημειοις</w> <w>οις</w> <w>εποιησε</w> <w>δι</w> <w>αυτου</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>εν</w> <w>μεσω</w> <w>υμων</w> <w>καθως</w> <w>αυτοι</w> <w>οιδατε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V23"><note type="local">Z 41</note> <w>τουτον</w> <w>τη</w> <w>ωρισμενη</w> <w>βουλη</w><pc>·</pc> <w>και</w> <w>προγνωσει</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>εκδοτον</w> <w>λαβοντες</w>
+<lb/><w>δια</w> <w>χειρων</w> <w>ανομων</w><pc>.</pc> <w>προσπηξαντες</w> <w>ανειλατε</w><pc>·</pc></ab> <ab n="B05K2V24" part="I"><w>ον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ανεστησεν</w> <w>εκ</w> <w>νεκρων</w><pc>·</pc> <w>λυσας</w> <w>τας</w>
+<lb/><w>ωδινας</w> <w>του</w> <w>θανατου</w><pc>·</pc>
+</ab></div></div>
+<pb n="190v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V24" part="F"><note type="local">Z 16</note> <w>καθοτι</w> <w>ουκ</w> <w>ην</w> <w>δυνατον</w> <w>κρατεισθαι</w> <w>αυτον</w> <w>υπ</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V25"><note type="local">Z 26</note> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w> <w>γαρ</w> <w>λεγει</w> <w>εις</w> <w>αυτον</w><pc>,</pc> <w>προωρωμην</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w> <w>ενω
+<lb break="no"/>πιον</w> <w>μου</w> <w>δια</w> <w>παντος</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 37</note> <w>οτι</w> <w>εκ</w> <w>δεξιων</w> <w>μου</w> <w>εστιν</w><pc>·</pc> <w>ινα</w> <w>μη</w> <w>σαλευθω</w><pc>·</pc>
+</ab></div></div>
+<pb n="191r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V26"><note type="local">Z 13</note> <w>δια</w> <w>τουτο</w> <w>ευ
+<lb break="no"/>φρανθη</w> <w>η</w> <w>καρδια</w> <w>μου</w> <w>και</w> <w>ηγαλλιασατο</w> <w>η</w> <w>γλωσα</w> <w>μου</w><pc>.</pc> <w>ετι</w> <w>δε</w> <w>και</w> <w>η</w> <w>σαρξ</w> <w>μου</w> <w>κατασκη
+<lb break="no"/>νωσει</w> <w>επ</w> <w>ελπιδι</w><pc>.</pc></ab> <ab n="B05K2V27"><w>οτι</w> <w>ουκ</w> <w>εγκαταλειψεις</w> <w>την</w> <w>ψυχην</w> <w>μου</w> <w>εις</w> <app><rdg type="orig" hand="firsthand"><w>αδην</w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>αδου</w><pc>·</pc></rdg></app> <w>ουδε</w> <w>δωσεις</w> <w>τον</w> <w>οσιον</w> <w>σου</w> <w>ιδειν</w>
+<lb/><w>διαφθοραν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V28"><note type="local">Z 28</note> <w>εγνωρισας</w> <w>μοι</w> <w>οδους</w> <w>ζωης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 30</note> <w>πληρωσεις</w> <w>με</w> <w>ευφροσυνης</w> <w>μετα</w> <w>του</w> <w>προσωπου</w> <w>σου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V29"><note type="local">Z 36</note> <w>ανδρες</w> <w>αδελφοι</w> <app><rdg type="orig" hand="firsthand"><w>εξων</w></rdg><rdg type="corr" hand="corrector"><w>εξον</w></rdg></app> <w>ειπειν</w> <w>μετα</w> <w>παρρησιας</w> <w>προς</w> <w>υμας</w> <w>περι</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρι
+<lb break="no"/>αρχου</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w><pc>·</pc> <w>οτι</w> <w>και</w> <w>ετελευτησε</w> <w>και</w> <w>εταφη</w><pc>·</pc> <w>και</w> <w>το</w> <w>μνημα</w> <w>αυτου</w> <w>εστιν</w> <w>εν</w> <w>υμιν</w> <w>αχρι</w> <w>της</w>
+<lb/><w>ημερας</w> <w>ταυτης</w><pc>·</pc><note type="local">kommmentar</note>
+<lb/></ab> <ab n="B05K2V30"><note type="local">Z 45</note> <w>προφητης</w> <w>ουν</w> <w>υπαρχων</w> <w>και</w> <w>ειδως</w> <w>οτι</w> <w>ορκω</w> <w>ωμοσεν</w> <w>αυτω</w><pc>,</pc>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><pc>·</pc> <w>εκ</w> <w>καρπου</w> <w>της</w> <w>οσφυος</w> <w>αυτου</w><pc>.</pc> <w>το</w> <w>κατα</w> <w>σαρκα</w> <w>αναστησειν</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w> <w>καθισαι</w>
+<lb/><w>επι</w> <w>τον</w> <w>θρονον</w> <w>αυτου</w><pc>,</pc></ab> <ab n="B05K2V31" part="I"><w>προιδων</w> <w>ελαλησε</w><pc>,</pc> <w>περι</w> <w>της</w> <w>αναστασεως</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><pc>·</pc>
+</ab></div></div>
+<pb n="191v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V31" part="F"><note type="local">Z 3</note> <w>οτι</w> <w>ουτε</w> <w>κατελειφθη</w> <w>η</w> <w>ψυχη</w> <w>αυτου</w>
+<lb/><w>εις</w> <app><rdg type="orig" hand="firsthand"><w>αδ<unclear>η</unclear></w></rdg><rdg type="corr" hand="corrector"><w>αδου</w></rdg></app> <w>ουδε</w> <w>η</w> <w>σαρξ</w> <w>αυτου</w> <w>ειδε</w> <w>διαφθοραν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V32"><note type="local">Z 12</note> <w>τουτον</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>ανεστησεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><pc>.</pc> <w>ου</w> <w>παντες</w> <w>ημεις</w>
+<lb/><w>εσμεν</w> <w>μαρτυρες</w><pc>·</pc></ab> <ab n="B05K2V33"><w>τη</w> <w>δεξια</w> <w>ουν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>υψωθεις</w><pc>,</pc> <w>την</w> <w>τε</w> <w>επαγγελιαν</w> <w>του</w> <w>αγιου</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>λαβων</w>
+<lb/><w>παρα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><pc>,</pc>
+<lb/><note type="local">Z 16</note> <w>εξεχεεν</w> <w>τουτο</w> <w>ο</w> <w>νυν</w> <w>υμεις</w> <w>βλεπετε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V34"><note type="local">Z 17</note> <w>ου</w> <w>γαρ</w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w> <w>ανεβη</w> <w>εις</w> <w>τους</w> <w><abbr type="nomSac"><hi rend="overline">ουνους</hi></abbr></w><pc>·</pc> <w>λεγει</w> <w>δε</w> <w>αυτος</w><pc>,</pc> <w>ειπεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">κω</hi></abbr></w> <w>μου</w>
+<lb/><w>καθου</w> <w>εκ</w> <w>δεξιων</w> <w>μου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V35"><note type="local">Z 23</note> <w>εως</w> <w>αν</w> <w>θω</w> <w>τους</w> <w>εχθρους</w> <w>σου</w> <w>υποποδιον</w> <w>των</w> <w>ποδων</w> <w>σου</w><pc>·</pc></ab> <ab n="B05K2V36"><w>ασφαλως</w> <w>ουν</w> <w>γινωσκετω</w> <w>πας</w> <w>οικος</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>,</pc>
+<lb/><w>οτι</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w> <w>αυτον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>εποιησεν</w> <w>τουτον</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>ον</w> <w>υμεις</w> <w>εσταυρωσατε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V37"><note type="local">Z 29</note> <w>ακουσαντες</w> <w>δε</w> <w>κατενυγησαν</w> <w>τη</w> <w>καρδια</w><pc>·</pc>
+<lb/><w>ειπον</w> <w>τε</w> <w>προς</w> <w>τον</w> <w>πετρον</w><pc>,</pc> <w>και</w> <w>τους</w> <w>λοιπους</w> <w>αποστολους</w><pc>.</pc> <w>τι</w> <w>ποιησωμεν</w> <w>ανδρες</w> <w>αδελφοι</w><pc>·</pc></ab> <ab n="B05K2V38"><w>πετρος</w> <w>δε</w>
+<lb/><w>εφη</w> <w>προς</w> <w>αυτους</w><pc>·</pc> <w>μετανοησατε</w> <w>φησι</w><pc>·</pc> <w>και</w> <w>βαπτισθητω</w> <w>εκαστος</w> <w>υμων</w> <w>επι</w> <w>τω</w> <w>ονοματι</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w>
+<lb/><w>εις</w> <w>αφεσιν</w> <w>των</w> <w>αμαρτιων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 35</note> <w>και</w> <w>ληψεσθε</w> <w>την</w> <w>δωρεαν</w> <w>του</w> <w>αγιου</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w><pc>.</pc></ab> <ab n="B05K2V39"><w>υμιν</w> <w>γαρ</w> <w>εστιν</w> <w>η</w> <w>επαγγελια</w>
+<lb/><w>και</w> <w>τοις</w> <w>τεκνοις</w> <w>υμων</w><pc>·</pc>
+<lb/><note type="local">Z 39</note> <w>και</w> <w>πασι</w> <w>τοις</w> <w>εις</w>
+<lb/><w>μακραν</w> <w>οσους</w> <w>αν</w> <w>προσκαλεσηται</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ημων</w><pc>·</pc>
+<lb/></ab> <ab n="B05K2V40"><note type="local">Z 41</note> <w>ετεροις</w> <w>τε</w> <w>λογοις</w> <w>πλειοσι</w> <w>διεμαρτυρετο</w> <w>και</w> <w>παρεκαλει</w><pc>·</pc> <w>λεγων</w><pc>,</pc> <w>σωθητε</w> <w>απο</w> <w>της</w> <w>γεννεας</w> <w>της</w> <w>σκολιας</w>
+<lb/><w>ταυτης</w><pc>.</pc>
+</ab></div></div>
+<pb n="192r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="M"><ab n="B05K2V41"><note type="local">Z 1</note> <w>οι</w> <w>μεν</w> <w>ουν</w> <w>ασμενως</w>
+<lb/><w>αποδεξαμενοι</w> <w>τον</w> <w>λογον</w> <w>αυτου</w> <w>εβαπτισθησαν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 3</note> <w>και</w> <w>προσεταιθησαν</w>
+<lb/><w>τη</w> <w>ημερα</w> <w>εκεινη</w> <w>ψυχαι</w> <w>ωσει</w> <w>τρισχιλιαι</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V42"><note type="local">Z 9</note> <w>ησαν</w> <w>δε</w> <w>προσκαρτερουντες</w>
+<lb/><w>ομοθυμαδον</w> <w>τη</w> <w>διδαχη</w> <w>των</w> <w>αποστολων</w> <w>και</w> <w>τη</w> <w>κοινωνια</w><pc>.</pc> <w>και</w> <w>τη</w> <w>κλασει</w> <w>του</w> <w>αρτου</w>
+<lb/><w>και</w> <w>ταις</w> <w>προσευχαις</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V43"><note type="local">Z 15</note> <w>εγενετο</w> <w>δε</w> <w>παση</w> <w>ψυχη</w> <w>φοβος</w><pc>;</pc> <w>πολλα</w> <w>τε</w> <w>τερατα</w> <w>και</w> <w>σημεια</w>
+<lb/><w>δια</w> <w>των</w> <w>αποστολων</w> <w>εγινετο</w><pc>·</pc> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>φοβος</w> <w>τε</w> <w>ην</w> <w>μεγας</w> <w>επι</w> <w>παντας</w> <w>αυτους</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V44"><note type="local">Z 22</note> <w>και</w> <w>παντες</w> <w>δε</w> <w>οι</w> <w>πιστευοντες</w> <w>ησαν</w> <w>επι</w> <w>το</w> <w>αυτο</w><pc>.</pc> <w>και</w>
+<lb/><w>ειχον</w> <w>απαντα</w> <w>κοινα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V45"><note type="local">Z 27</note> <w>και</w> <w>τα</w> <w>κτηματα</w> <w>και</w> <w>τας</w> <w>υπαρξεις</w> <w>επιπρασκον</w><pc>·</pc> <w>και</w> <w>διεμεριζον</w> <w>αυτα</w> <w>πασι</w> <w>καθοτι</w> <w>αν</w> <w>τις</w>
+<lb/><w>χρειαν</w> <w>ειχεν</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K2V46" part="I"><note type="local">Z 34</note> <w>καθ</w> <w>ημεραν</w> <w>τε</w> <w>προσκαρτε
+<lb break="no"/>ρουντες</w> <w>ομοθυμαδον</w> <w>εν</w> <w>τω</w> <w>ιερω</w><pc>.</pc>
+</ab></div></div>
+<pb n="192v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K2" type="chapter" part="F"><ab n="B05K2V46" part="F"><note type="local">Z 7</note> <w>κλωντες</w> <w>τε</w> <w>κατ</w> <w>οικον</w> <w>αρτον</w> <w>μετελαμβανον</w> <w>τροφης</w><pc>.</pc>
+<lb/><note type="local">Z 8</note> <w>εν</w> <w>α
+<lb break="no"/>γαλλιασει</w> <w>και</w> <w>αφελοτητι</w> <w>καρδιας</w></ab> <ab n="B05K2V47"><w>αινουντες</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>και</w> <w>εχοντες</w> <w>χαριν</w> <w>προς</w> <w>ολον</w> <w>τον</w> <w>λαον</w><pc>·</pc>
+<lb/><note type="local">Z 13</note> <w>ο</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>προσε
+<lb break="no"/>τιθει</w> <w>τους</w> <w>σωζωμενους</w> <w>καθ</w> <w>ημεραν</w> <w>τη</w> <w>εκκλησια</w> <w>επι</w> <w>το</w> <w>αυτο</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K3" type="chapter" part="I"><ab n="B05K3V1"><note type="local">Z 25</note> <w>επι</w> <w>το</w> <w>αυτο</w> <w>δε</w> <w>πετρος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιωης</hi></abbr></w><pc>.</pc> <w>ανεβαινον</w> <w>εις</w> <w>το</w> <w>ιερον</w>
+<lb/><w>επι</w> <w>την</w> <w>ωραν</w> <w>της</w> <w>προσευχης</w> <w>την</w> <w>ενατην</w><pc>·</pc></ab> <ab n="B05K3V2"><w>και</w> <w>τις</w> <w>ανηρ</w> <w>χωλος</w> <w>εκ</w> <w>κοιλιας</w> <w><abbr type="nomSac"><hi rend="overline">μρς</hi></abbr></w> <w>αυτου</w>
+<lb/><w>υπαρχων</w> <w>εβασταζετο</w><pc>·</pc> <w>ον</w> <w>ετιθουν</w> <w>καθ</w> <w>ημεραν</w><pc>,</pc> <w>προς</w> <w>την</w> <w>θυραν</w> <w>του</w> <w>ιερου</w> <w>την</w> <w>λεγομενην</w><pc>,</pc>
+<lb/><w>ωραιαν</w><pc>·</pc> <w>του</w> <w>αιτειν</w> <w>ελεημοσυνην</w><pc>·</pc> <w>παρα</w> <w>των</w> <w>εισπορευομενων</w> <app><rdg type="orig" hand="firsthand"><w>επι</w></rdg><rdg type="corr" hand="corrector"><w>εις</w></rdg></app> <w>το</w> <w>ιερον</w><pc>·</pc>
+<lb/></ab> <ab n="B05K3V3"><note type="local">Z 34</note> <w>ος</w> <w>ιδων</w> <w>πετρον</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w> <w>μελλοντας</w> <w>ει
+<lb break="no"/>σιεναι</w> <w>εις</w> <w>το</w> <w>ιερον</w><pc>,</pc> <w>ηρωτα</w> <w>ελεημοσυνην</w><pc>·</pc></ab> <ab n="B05K3V4"><w>ατενισας</w> <w>δε</w> <w>πετρος</w> <w>εις</w> <w>αυτον</w> <w>συν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w> <w>ειπεν</w>
+<lb/><w>βλεψον</w> <w>εις</w> <w>ημας</w><pc>·</pc></ab> <ab n="B05K3V5"><w>ο</w> <w>δε</w> <w>επειχεν</w> <w>αυτοις</w> <w>προσδοκων</w> <w>παρ</w> <w>αυτων</w> <w>τι</w> <w>λαβειν</w><pc>.</pc>
+<lb/></ab> <ab n="B05K3V6" part="I"><note type="local">Z 39</note> <w>ειπεν</w> <w>δε</w> <w>πετρος</w><pc>.</pc> <w>αργυριον</w> <w>και</w> <w>χρυσιον</w><pc>,</pc>
+<lb/><w>ουχ</w> <w>υπαρχει</w> <w>μοι</w><pc>·</pc> <w>ο</w> <w>δε</w> <w>εχω</w><pc>,</pc> <w>τουτο</w> <w>σοι</w> <w>διδωμι</w><pc>.</pc> <w>εν</w> <w>τω</w> <w>ονοματι</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>του</w> <w>ναζωραιου</w><pc>,</pc> <w>εγειρε</w>
+</ab></div></div>
+<pb n="193r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K3" type="chapter" part="M"><ab n="B05K3V6" part="F"><w>και</w> <w>περιπατει</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V7"><note type="local">Z 11</note> <w>και</w> <w>πιασας</w> <w>αυτον</w> <w>της</w> <w>δεξιας</w> <w>χειρος</w><pc>,</pc>
+<lb/><w>ηγειρεν</w><pc>·</pc> <app><rdg type="orig" hand="firsthand"><w>παραχρημα</w> <w>δε</w></rdg><rdg type="comm" hand="firsthand"><w>και</w> <w>παραχρημα</w></rdg></app><note type="local">¬ 10-11</note> <w>εστερεωθησαν</w> <w>αι</w> <w>βασεις</w> <w>αυτου</w> <w>και</w> <w>τα</w> <w>σφυρα</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V8"><note type="local">Z 15</note> <w>και</w> <w>εξαλλομενος</w> <w>εστη</w> <w>και</w> <w>περιεπατει</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 18</note> <w>και</w> <w>εισηλθεν</w> <w>συν</w> <w>αυτοις</w> <w>εις</w> <w>το</w> <w>ιερον</w>
+<lb/><w>περιπατων</w><pc>.</pc> <w>και</w> <app><rdg type="orig" hand="firsthand"><w>αλλωμενος</w></rdg><rdg type="corr" hand="corrector"><w>αλλομενος</w></rdg></app> <w>και</w> <w>αινων</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><pc>·</pc></ab> <ab n="B05K3V9"><w>και</w> <w>οιδεν</w> <w>αυτον</w> <w>πας</w> <w>ο</w> <w>λαος</w> <w>περιπα
+<lb break="no"/>τουντα</w> <w>και</w> <w>αινουντα</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><pc>·</pc>
+<lb/></ab> <ab n="B05K3V10"><note type="local">Z 22</note> <w>επεγινωσκον</w>
+<lb/><w>τε</w> <w>αυτον</w> <w>οτι</w> <w>ουτος</w> <w>ην</w> <w>ο</w> <w>προς</w> <w>την</w> <w>ελεημοσυνην</w> <w>καθημενος</w> <w>επι</w> <w>τη</w> <w>ωραια</w> <w>πυλη</w> <w>του</w> <w>ιερου</w><pc>·</pc>
+<lb/><w>και</w> <w>επλησθησαν</w> <w>θαμβους</w> <w>και</w> <w>εκστασεως</w> <w>επι</w> <w>τω</w> <w>συμβεβηκοτι</w> <w>αυτω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V11"><note type="local">Z 27</note> <w>κρατουντος</w> <w>δε</w> <w>του</w> <w>ιαθεντος</w> <w>χωλου</w> <w>τον</w> <w>πετρον</w><pc>;</pc> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιω</hi></abbr></w><pc>,</pc> <w>συνεδραμε</w> <w>προς</w> <w>αυτους</w> <w>πας</w> <w>ο</w> <w>λαος</w>
+<lb/><w>επι</w> <w>τη</w> <w>στοα</w> <w>του</w> <w>σολομωντος</w> <w>εκθαμβοι</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V12"><note type="local">Z 29</note> <w>ιδων</w> <w>δε</w> <w>πετρος</w> <w>απεκρινατο</w> <w>προς</w> <w>τον</w> <w>λαον</w>
+<lb/><w>ανδρες</w> <app><rdg type="orig" hand="firsthand"><w>ισραηληται</w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>ισραηλιται</w><pc>·</pc></rdg></app> <w>τι</w> <w>θαυμαζετε</w> <w>επι</w> <w>τουτο</w><pc>·</pc> <w>η</w> <w>ημιν</w> <w>τι</w> <app><rdg type="orig" hand="firsthand"><w>ατενιζεται</w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>ατενιζετε</w><pc>·</pc></rdg></app> <w>ως</w> <w>ιδια</w> <w>δυναμει</w>
+<lb/><w>η</w> <w>ευσεβεια</w> <w>πεποιηκοσι</w> <w>του</w> <w>περιπατειν</w> <w>αυτον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V13"><note type="local">Z 38</note> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>αβρααμ</w> <w>και</w> <w>ισαακ</w> <w>και</w> <w>ιακωβ</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">πρων</hi></abbr></w> <w>ημων</w><pc>,</pc> <w>εδοξασε</w> <w>τον</w> <w>παι
+<lb break="no"/>δα</w> <w>αυτου</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>·</pc> <w>ον</w> <w>υμεις</w> <w>μεν</w> <w>παρεδωκατε</w> <w>και</w> <w>ηρνησασθε</w> <w>αυτον</w> <w>κατα</w> <w>προσωπον</w> <w>πιλατου</w><pc>·</pc> <w>κριναντος</w>
+<lb/><w>εκεινου</w> <w>απολυειν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="193v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K3" type="chapter" part="M"><ab n="B05K3V14"><note type="local">Z 10</note> <w>υμεις</w> <w>δε</w> <w>τον</w> <w>αγιον</w> <w>και</w> <w>δικαιον</w> <w>ηρνησασθε</w><pc>.</pc> <w>και</w> <w>ητησασθε</w> <w>ανδρα</w> <w>φονεα</w> <w>χαρισθηναι</w>
+<lb/><w>υμιν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V15"><note type="local">Z 18</note> <w>τον</w> <w>δε</w> <w>αρχηγον</w> <w>της</w> <w>ζωης</w> <w>απεκτεινατε</w><pc>·</pc> <w>ον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ηγειρεν</w> <w>εκ</w> <w>νεκρων</w><pc>·</pc> <w>ου</w> <w>ημεις</w> <w>μαρτυρες</w> <w>εσμεν</w><pc>.</pc></ab> <ab n="B05K3V16"><w>και</w>
+<lb/><w>επι</w> <w>τη</w> <w>πιστει</w> <w>του</w> <w>ονοματος</w> <w>αυτου</w><pc>,</pc> <w>τουτον</w> <w>ον</w> <w>θεωρειτε</w> <w>και</w> <w>οιδατε</w><pc>,</pc> <w>εστερεωσεν</w> <w>το</w> <w>ονομα</w> <w>αυτου</w><note type="local">kommentar</note>
+<lb/><note type="local">Z 25</note> <w>και</w> <w>η</w> <w>πιστις</w> <w>η</w> <w>δι</w> <w>αυτου</w> <w>εδωκεν</w>
+<lb/><w>αυτω</w> <w>την</w> <w>ολοκληριαν</w> <w>ταυτην</w> <w>απεναντι</w> <w>παντων</w> <w>υμων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V17"><note type="local">Z 28</note> <w>και</w> <w>νυν</w> <w>αδελφοι</w> <w>οιδα</w><pc>,</pc> <w>οτι</w> <w>κατα</w> <w>αγνοιαν</w> <w>επραξατε</w><pc>,</pc> <w>ωσ
+<lb break="no"/>περ</w> <w>και</w> <w>οι</w> <w>αρχοντες</w> <w>υμων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V18"><note type="local">Z 31</note> <w>ο</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>α</w> <w>προκατηγγειλε</w> <w>δια</w> <w>στοματος</w>
+<lb/><w>παντων</w> <w>των</w> <w>προφητων</w> <w>αυτου</w> <w>παθειν</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w> <w>επληρωσεν</w> <w>ουτως</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="194r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K3" type="chapter" part="M"><ab n="B05K3V19"><note type="local">Z 3</note> <w>μετανοησατε</w> <w>ουν</w> <w>και</w> <w>επιστρεψατε</w><pc>,</pc> <w>εις</w> <w>το</w> <w>εξαλη
+<lb break="no"/>φθηναι</w> <w>υμων</w> <w>τας</w> <w>αμαρτιας</w><pc>,</pc></ab> <ab n="B05K3V20"><w>οπως</w> <w>αν</w> <w>ελθωσι</w> <w>καιροι</w> <w>αναψυξεως</w> <w>απο</w> <w>προσωπου</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w>
+<lb/><w>και</w> <w>αποστειλη</w> <w>τον</w> <w>προκεχειρισμενον</w> <w>υμιν</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w></ab> <ab n="B05K3V21"><w>ον</w> <w>δει</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w> <w>μεν</w> <w>δεξασθαι</w><pc>·</pc>
+<lb/><note type="local">Z 10</note> <w>αχρι</w> <w>χρονων</w> <w>αποκαλυψεως</w> <w>καταστασεως</w> <w>παντων</w> <w>ων</w> <w>ε
+<lb break="no"/>λαλησεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>δια</w> <w>στοματος</w> <w>παντων</w> <w>των</w> <w>αγιων</w> <w>αυτου</w> <w>προφητων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V22"><note type="local">Z 20</note> <w>μωυσης</w> <w>μεν</w> <w>ειπεν</w> <w>οτι</w> <w>προφητην</w> <w>υμιν</w> <w>αναστησει</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>υμων</w><pc>,</pc> <w>εκ</w> <w>των</w> <w>αδελ
+<lb break="no"/>φων</w> <w>υμων</w> <w>ως</w> <w>εμε</w> <w>αυτου</w> <app><rdg type="orig" hand="firsthand"><w>ακουσεσθαι</w></rdg><rdg type="corr" hand="corrector"><w>ακουσεσθε</w></rdg></app> <w>κατα</w> <w>παντα</w> <w>οσα</w> <w>αν</w> <w>λαληση</w> <w>προς</w> <w>υμας</w><pc>.</pc></ab> <ab n="B05K3V23"><app><rdg type="corr" hand="T1"><w>πασα</w> <w>δε</w></rdg><rdg type="corr" hand="T2"><w>εσται</w> <w>δε</w> <w>πασα</w></rdg></app> <w>ψυχη</w>
+<lb/><w>ητις</w> <w>εαν</w> <w>μη</w> <w>ακουση</w> <w>του</w> <w>προφητου</w> <w>εκεινου</w><pc>,</pc> <w>εξολοθρευθησεται</w> <w>εκ</w> <w>του</w> <w>λαου</w><pc>·</pc><note type="local">kommentar</note><note type="local">Ueberschneidung in ◊23 auf Ï 194a,b</note>
+</ab></div></div>
+<pb n="194v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K3" type="chapter" part="F"><ab n="B05K3V24"><w>και</w> <w>παν
+<lb break="no"/>τες</w> <w>δε</w> <w>οι</w> <w>προφηται</w> <w>απο</w> <w>σαμουηλ</w> <w>και</w> <w>των</w> <w>καθεξης</w> <w>οσοι</w> <w>ελαλησαν</w> <w>και</w> <w>κατηγγειλαν</w>
+<lb/><w>τας</w> <w>ημερας</w> <w>ταυτας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V25"><note type="local">Z 18</note> <w>υμεις</w> <w>εστε</w> <w>υιοι</w> <w>των</w> <w>προφητων</w> <w>και</w> <w>της</w> <w>διαθηκης</w>
+<lb/><w>ης</w> <w>διεθετο</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>προς</w> <w>τους</w> <w>πατερας</w> <w>υμων</w><pc>,</pc> <w>λεγων</w> <w>προς</w> <w>αβρααμ</w><pc>.</pc> <w>και</w> <w>εν</w> <w>τω</w> <w>σπερ
+<lb break="no"/>ματι</w> <w>σου</w> <w>ευλογηθησονται</w> <w>πασαι</w> <w>αι</w> <w><abbr type="nomSac"><hi rend="overline">πριαι</hi></abbr></w> <w>της</w> <w>γης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K3V26"><note type="local">Z 29</note> <w>υμιν</w> <w>πρωτον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>αναστησας</w> <w>τον</w> <w>παιδα</w> <w>αυτου</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>·</pc> <w>απεστειλεν</w> <w>αυτον</w> <w>ευλο
+<lb break="no"/>γουντα</w> <w>υμας</w> <w>εν</w> <w>τω</w> <w>αποστρεφειν</w> <w>εκαστον</w> <w>απο</w> <w>των</w> <w>πονηριων</w> <w>υμων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K4" type="chapter" part="I"><ab n="B05K4V1"><note type="local">Z 37</note> <w>λαλουντων</w> <w>δε</w> <w>αυτων</w> <w>προς</w> <w>τον</w> <app><rdg type="orig" hand="firsthand"><w><abbr type="nomSac"><unclear><hi rend="overline">θν</hi></unclear></abbr></w></rdg><rdg type="corr" hand="corrector"><w>λαον</w><pc>,</pc></rdg></app><note type="local">laon is also in the margin as a correction</note> <w>επεστησαν</w>
+<lb/><w>αυτοις</w> <w>οι</w> <w>ιερεις</w><pc>·</pc> <w>και</w> <w>στρατηγος</w> <w>του</w> <w>ιερου</w> <w>και</w> <w>οι</w> <w>σαδδουκαιοι</w></ab> <ab n="B05K4V2"><w>διαπο
+<lb break="no"/>νουμενοι</w> <w>δια</w> <w>το</w> <w>διδασκειν</w> <w>αυτους</w> <w>τον</w> <w>λαον</w><pc>·</pc> <w>και</w> <w>καταγγελλειν</w> <w>εν</w> <w>τω</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>την</w> <w>αναστασιν</w> <w>των</w> <w>νεκρων</w></ab> <ab n="B05K4V3" part="I"><w>και</w> <w>επεβαλον</w> <w>αυτοις</w> <w>τας</w> <w>χειρας</w><pc>·</pc>
+</ab></div></div>
+<pb n="195r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K4" type="chapter" part="M"><ab n="B05K4V3" part="F"><note type="local">Z 8</note> <w>και</w> <w>εθεντο</w> <w>εις</w> <w>τηρησιν</w> <w>εις</w> <w>την</w> <w>αυριον</w><pc>.</pc> <w>ην</w> <w>γαρ</w> <w>εσπερα</w> <w>ηδη</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V4"><note type="local">Z 11</note> <w>πολλοι</w> <w>δε</w> <w>των</w> <w>ακουσαντων</w><pc>,</pc>
+<lb/><w>τον</w> <w>λογον</w> <w>επιστευσαν</w><pc>·</pc> <w>και</w> <w>εγενηθη</w> <w>ο</w> <w>αριθμος</w> <w>των</w> <w>ανδρων</w> <w>ωσει</w> <w>χιλιαδες</w> <w>πεντε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V5"><note type="local">Z 24</note> <w>εγενετο</w> <w>δε</w> <w>επι</w> <w>την</w> <w>αυριον</w> <w>συναχθηναι</w> <w>αυτων</w> <w>τους</w> <w>αρχοντας</w> <w>και</w> <w>πρεσβυτερους</w> <w>και</w>
+<lb/><w>γραμματεις</w><pc>,</pc> <w>εις</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w></ab> <ab n="B05K4V6"><w>και</w> <w>ανναν</w> <w>τον</w> <w>αρχιερεα</w><pc>·</pc> <w>και</w> <w>καιαφαν</w> <w>και</w> <w>αλεξανδρον</w>
+<lb/><w>και</w> <w>οσοι</w> <w>ησαν</w> <w>εκ</w> <w>γενους</w> <w>αρχιερατικου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V7"><note type="local">Z 28</note> <w>και</w> <w>στησαντες</w> <w>αυτους</w> <w>εν</w> <w>μεσω</w> <w>επυνθανοντο</w><pc>·</pc> <w>εν</w> <w>ποια</w> <w>δυναμει</w> <w>η</w> <w>εν</w> <w>ποιω</w> <w>ονο
+<lb break="no"/>ματι</w><pc>,</pc> <w>εποιησατε</w> <w>τουτο</w> <w>υμεις</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V8"><note type="local">Z 32</note> <w>τοτε</w> <w>πετρος</w> <w>πλησθεις</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w><pc>,</pc> <w>ειπε</w> <w>προς</w> <w>αυτους</w><pc>.</pc> <w>αρχοντες</w> <w>του</w> <w>λαου</w> <w>και</w>
+<lb/><w>πρεσβυτεροι</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc></ab> <ab n="B05K4V9"><w>ει</w> <w>ημεις</w> <w>σημερον</w> <w>ανακρινομεθα</w> <w>επι</w> <w>ευεργεσια</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w> <w>ασθενους</w>
+<lb/><w>εν</w> <w>τινι</w> <w>ουτος</w> <w>σεσωσται</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="195v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K4" type="chapter" part="M"><ab n="B05K4V10"><note type="local">Z 3</note> <w>γνωστον</w> <w>εστω</w> <w>πα
+<lb break="no"/>σιν</w> <w>υμιν</w> <w>και</w> <w>παντι</w> <w>τω</w> <w>λαω</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc> <w>οτι</w> <w>εν</w> <w>τω</w> <w>ονοματι</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>του</w> <w>ναζωραιου</w> <w>ον</w> <w>υμεις</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">εστρωσατε</hi></abbr></w><pc>·</pc> <w>ον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ηγειρεν</w> <w>εκ</w> <w>νεκρων</w><pc>·</pc> <w>εν</w> <w>τουτω</w> <w>ουτος</w> <w>παρεστηκεν</w> <w>ενωπιον</w> <w>υμων</w>
+<lb/><w>υγιης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V11"><note type="local">Z 18</note> <w>ουτος</w> <w>εστιν</w> <w>ο</w> <w>λιθος</w> <w>ο</w> <w>εξουθενηθεις</w> <w>υφ</w> <w>υμων</w>
+<lb/><w>των</w> <w>οικοδομουντων</w><pc>·</pc> <w>ο</w> <w>γενομενος</w> <w>εις</w> <w>κεφαλην</w> <w>γωνιας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V12"><note type="local">Z 24</note> <w>και</w> <w>ου
+<lb break="no"/>κ</w> <w>εστιν</w> <w>εν</w> <w>ουδενι</w> <w>αλλω</w> <w>η</w> <w><abbr type="nomSac"><hi rend="overline">σρια</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 30</note> <app><rdg type="orig" hand="firsthand"><w>ουτε</w></rdg><rdg type="comm" hand="firsthand"><w>ουδε</w></rdg></app> <w>γαρ</w> <app><rdg type="orig" hand="firsthand"><w>ετερον</w> <w>ονομα</w></rdg><rdg type="comm" hand="firsthand"><w>ονομα</w> <w>ετερον</w></rdg></app><note type="local">¬ 22</note> <w>εστιν</w>
+<lb/><w>υπο</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w> <w>το</w> <w>δεδομενον</w> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w><pc>,</pc> <w>εν</w> <w>ω</w> <w>δει</w> <w>σωθηναι</w> <w>ημας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V13"><note type="local">Z 38</note> <w>θεωρουντες</w> <w>δε</w> <w>την</w> <w>του</w> <w>πετρου</w> <w>παρρη
+<lb break="no"/>σιαν</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιωου</hi></abbr></w><pc>·</pc> <w>και</w> <w>καταλαβομενοι</w> <w>οτι</w> <w><abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr></w> <w>εισιν</w> <w>αγραμματοι</w><pc>·</pc> <w>και</w> <w>ιδιωται</w>
+<lb/><w>εθαυμαζον</w><pc>·</pc> <w>επεγινωσκον</w> <w>τε</w> <w>αυτους</w> <w>οτι</w> <w>συν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>ησαν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="196r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K4" type="chapter" part="M"><ab n="B05K4V14"><note type="local">Z 3</note> <w>τον</w> <w>τε</w> <w><abbr type="nomSac"><hi rend="overline">ανον</hi></abbr></w> <w>βλεποντες</w> <w>συν</w> <w>αυτοις</w> <w>εστωτα</w> <w>τον</w> <w>θεραπευομενον</w><pc>.</pc> <w>ουδεν</w> <w>ειχον</w>
+<lb/><w>αντειπειν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V15"><note type="local">Z 5</note> <w>κελευσαντες</w> <w>δε</w> <w>αυτους</w> <w>εξω</w> <w>του</w> <w>συνεδριου</w>
+<lb/><w>απελθειν</w><pc>,</pc> <w>συνεβαλλον</w> <w>προς</w> <w>αλληλους</w></ab> <ab n="B05K4V16"><w>λεγοντες</w><pc>·</pc> <w>τι</w> <w>ποιησομεν</w><pc>,</pc> <w>τοις</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w> <w>τουτοις</w><pc>,</pc> <w>οτι</w> <w>μεν</w>
+<lb/><w>γαρ</w> <w>γνωστον</w> <w>σημειον</w> <w>γεγονε</w> <w>δι</w> <w>αυτων</w> <w>πασι</w> <w>τοις</w> <w>κατοικουσιν</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w><pc>·</pc> <w>φανερον</w><pc>·</pc> <w>και</w> <w>ου</w> <w>δυνα
+<lb break="no"/>μεθα</w> <w>αρνησασθαι</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V17"><note type="local">Z 13</note> <w>αλλ</w> <w>ινα</w> <w>μη</w> <w>επι</w> <w>πλειον</w> <w>διανεμηθη</w> <w>εις</w> <w>τον</w> <w>λαον</w><pc>,</pc> <w>απειλη</w> <w>απει
+<lb break="no"/>λησομεθα</w> <w>αυτοις</w> <w>μηκετι</w> <w>λαλειν</w> <w>επι</w> <w>τω</w> <w>ονοματι</w> <w>τουτω</w> <w>μηδενι</w> <w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w><pc>.</pc></ab> <ab n="B05K4V18"><w>και</w> <w>καλε
+<lb break="no"/>σαντες</w> <w>αυτους</w><pc>,</pc> <w>παρηγγειλαν</w> <w>αυτοις</w> <w>το</w> <w>καθολου</w> <w>μη</w> <w>φθεγγεσθαι</w><pc>·</pc> <w>μηδε</w> <w>διδασκειν</w>
+<lb/><w>επι</w> <w>τω</w> <w>ονοματι</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V19"><note type="local">Z 17</note> <w>ο</w> <w>δε</w> <w>πετρος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιωης</hi></abbr></w><pc>,</pc> <w>αποκριθεντες</w> <w>ειπον</w> <w>προς</w> <w>αυτους</w><pc>.</pc> <w>ου</w> <w>δικαιον</w>
+<lb/><w>εστιν</w> <w>ενωπιον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc> <w>υμων</w> <w>ακουειν</w> <w>μαλλον</w><pc>,</pc> <w>η</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc> <w>κρινατε</w><pc>·</pc></ab> <ab n="B05K4V20"><w>ου</w> <w>δυναμεθα</w> <w>γαρ</w> <w>ημεις</w>
+<lb/><w>α</w> <w>ειδομεν</w> <w>και</w> <w>ηκουσαμεν</w> <w>μη</w> <w>λαλειν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V21"><note type="local">Z 21</note> <w>οι</w> <w>δε</w> <app><rdg type="orig" hand="firsthand"><w>προσαπ<unclear>η</unclear>λησαμενοι</w></rdg><rdg type="corr" hand="corrector"><w>προσαπειλησαμενοι</w></rdg></app>
+<lb/><w>απελυσαν</w> <w>αυτους</w><pc>·</pc> <w>μηδεν</w> <w>ευρισκοντες</w> <w>το</w> <w>πως</w> <w>κολασονται</w> <w>αυτους</w> <w>δια</w> <w>τον</w> <w>λαον</w><pc>·</pc>
+<lb/><w>οτι</w> <w>παντες</w> <w>εδοξαζον</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>επι</w> <w>τω</w> <w>γεγονοτι</w><pc>·</pc></ab> <ab n="B05K4V22"><w>ετων</w> <w>γαρ</w> <w>ην</w> <w>πλειονων</w> <w>τεσσαρακοντα</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>εφ</w> <app><rdg type="orig" hand="firsthand"><w>ον</w></rdg><rdg type="corr" hand="corrector"><w><unclear>ω</unclear>ν</w></rdg></app> <w>εγεγονει</w> <w>το</w> <w>σημειον</w> <w>τουτο</w> <w>της</w> <w>ιασεως</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V23"><note type="local">Z 30</note> <w>απολυθεντες</w> <w>δε</w> <w>ηλθον</w> <w>προς</w> <w>τους</w> <w>ιδιους</w> <w>και</w> <w>απηγγειλαν</w> <w>οσα</w> <w>προς</w> <w>αυτους</w> <w>οι</w> <w>αρχιερεις</w>
+<lb/><w>και</w> <w>οι</w> <w>πρεσβυτεροι</w> <app><rdg type="orig" hand="firsthand"><w>του</w> <w><unclear>λ</unclear></w></rdg><rdg type="corr" hand="firsthand"><w>ειπον</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V24"><note type="local">Z 35</note> <w>οι</w> <w>δε</w> <w>ακουσαντες</w> <w>ομοθυμαδον</w>
+<lb/><w>ηραν</w> <w>φωνην</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>και</w> <w>ειπαν</w><pc>·</pc>
+<lb/><note type="local">Z 40</note> <w>δεσποτα</w> <w>συ</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ο</w> <w>ποιησας</w> <w>τον</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>.</pc> <app><rdg type="orig" hand="firsthand"/><rdg type="comm" hand="firsthand"><w>και</w> <w>την</w> <w>γην</w></rdg></app><note type="local">¬ 39-40</note> <w>και</w> <w>την</w> <w>θαλασσαν</w> <w>και</w> <w>παντα</w> <w>τα</w> <w>εν</w> <w>αυτοις</w><pc>.</pc></ab> <ab n="B05K4V25" part="I"><w>ο</w> <w>δια</w> <w>στοματος</w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w> <w>παιδος</w> <w>σου</w><pc>·</pc>
+</ab></div></div>
+<pb n=" 196v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K4" type="chapter" part="M"><ab n="B05K4V25" part="F"><w>ινατι</w> <w>εφρυαξαν</w> <w>εθνη</w><pc>·</pc> <app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>και</w> <w>λαοι</w> <w>εμελετησαν</w> <w>κενα</w><pc>·</pc></rdg></app><note type="local">apparently this last part was added later</note><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V26"><note type="local">Z 6</note> <w>παρεστησαν</w> <w>οι</w> <w>βασιλεις</w> <w>της</w> <w>γης</w><pc>·</pc> <w>και</w> <w>οι</w> <w>αρχοντες</w> <w>συνηχθησαν</w>
+<lb/><w>επι</w> <w>το</w> <w>αυτο</w><note type="local">kommentar</note>
+<lb/><note type="local">Z 10</note> <w>κατα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>και</w> <w>κατα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>αυτου</w><pc>·</pc></ab> <ab n="B05K4V27"><w>συνηχθησαν</w> <w>γαρ</w> <w>επ</w> <w>αληθειας</w> <w>επι</w> <w>τον</w>
+<lb/><w>αγιον</w> <w>παιδα</w> <w>σου</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>·</pc> <w>ον</w> <w>εχρισας</w> <w>ηρωδης</w> <w>τε</w> <w>και</w> <w>ποντιος</w> <w>πιλατος</w> <w>συν</w> <w>εθνεσι</w>
+<lb/><w>και</w> <w>λαοις</w><pc>·</pc> <w>ισραηλ</w></ab> <ab n="B05K4V28"><w>ποιησαι</w> <w>οσα</w> <w>η</w> <w>χειρ</w> <w>σου</w> <w>και</w> <w>η</w> <w>βουλη</w> <w>σου</w> <w>προωρισε</w> <w>γενε
+<lb break="no"/>σθαι</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V29"><note type="local">Z 16</note> <w>και</w> <w>τα</w> <w>νυν</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>επιδε</w> <w>επι</w> <w>τας</w> <w>απει
+<lb break="no"/>λας</w> <w>αυτων</w><pc>·</pc> <w>και</w> <w>δος</w> <w>τοις</w> <w>δουλοις</w> <w>σου</w> <w>μετα</w> <w>παρρησιας</w> <w>πασης</w> <w>λαλειν</w> <w>τον</w> <w>λογον</w> <w>σου</w>
+<lb/></ab> <ab n="B05K4V30"><w>εν</w> <w>τω</w> <w>την</w> <w>χειρα</w> <w>σου</w> <w>εκτεινειν</w> <w>σε</w> <w>εις</w> <w>ιασιν</w> <w>και</w> <w>σημεια</w> <w>και</w> <w>τερατα</w> <app><rdg type="orig" hand="firsthand"><w>γης</w></rdg><rdg type="corr" hand="firsthand"><w>γινεσθαι</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/><note type="local">Z 21</note> <w>δια</w> <w>του</w> <w>ονοματος</w> <w>του</w> <w>αγιου</w> <w>παιδος</w> <w>σου</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V31"><note type="local">Z 22</note> <w>και</w> <w>δεηθεντων</w> <w>αυτων</w> <w>εσαλευθη</w> <w>ο</w> <w>τοπος</w>
+<lb/><w>εν</w> <w>ω</w> <w>ησαν</w> <w>συνηγμενοι</w><pc>·</pc>
+<lb/><note type="local">Z 29</note> <w>και</w> <w>επλησθησαν</w> <w>απαντες</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w><pc>·</pc> <w>και</w> <w>ελαλουν</w> <w>τον</w> <w>λογον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb/><w>μετα</w> <w>παρρησιας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V32"><note type="local">Z 31</note> <w>του</w> <w>δε</w> <w>πληθους</w> <w>των</w> <w>πιστευοντων</w><pc>,</pc> <w>ην</w> <app><rdg type="orig" hand="firsthand"><w>η</w></rdg><rdg type="comm" hand="firsthand"/></app><note type="local"> ¬ 35-36</note> <w>καρδια</w> <w>και</w> <app><rdg type="orig" hand="firsthand"><w>η</w></rdg><rdg type="comm" hand="firsthand"/></app><note type="local"> ¬ 35-36</note> <w>ψυχη</w> <w>μια</w><pc>·</pc> <w>και</w> <w>ουδε</w> <w>εις</w>
+<lb/><w>τι</w> <w>των</w> <w>υπαρχοντων</w> <w>αυτων</w> <w>ελεγεν</w> <w>ιδιον</w> <w>ειναι</w><pc>·</pc> <w>αλλ</w> <w>ην</w> <w>αυτοις</w> <w>απαντα</w> <w>κοινα</w><pc>.</pc></ab> <ab n="B05K4V33"><w>και</w>
+<lb/><w>δυναμει</w> <w>μεγαλη</w> <w>απεδιδουν</w> <w>το</w> <w>μαρτυριον</w> <w>οι</w> <w>αποστολοι</w> <w>της</w> <w>αναστασεως</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><note type="local">kommentar</note>
+<lb/><note type="local">Z 38</note> <w>χαρις</w> <w>τε</w> <w>μεγαλη</w> <w>ην</w> <w>επι</w> <w>παντας</w> <w>αυτους</w><pc>.</pc></ab> <ab n="B05K4V34"><w>ουδε</w> <w>γαρ</w> <w>ενδεης</w> <w>τις</w> <w>υπηρχ<unclear>εν</unclear></w> <w>εν</w> <w>αυτοις</w><pc>·</pc>
+<lb/><w>οσοι</w> <w>γαρ</w> <w>κτητορες</w> <w>χωριων</w> <w>η</w> <w>οικιων</w> <w>υπηρχον</w><pc>,</pc> <w>πωλουντες</w> <w>εφερον</w> <w>τας</w> <w>τιμας</w> <w>των</w>
+<lb/><w>πιπρασκομενων</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="197r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K4" type="chapter" part="F"><ab n="B05K4V35"><note type="local">Z 3</note> <w>και</w> <w>ετιθουν</w> <w>παρα</w> <w>τους</w> <w>ποδας</w> <w>των</w> <w>αποστολων</w><pc>.</pc> <w>διεδιδοτο</w> <w>δε</w> <w>εκαστω</w><pc>,</pc> <w>καθοτι</w>
+<lb/><w>αν</w> <w>τις</w> <w>χρειαν</w> <w>ειχεν</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V36"><note type="local">Z 7</note> <w>ιωαννης</w> <w>δε</w> <w>ο</w> <w>επικληθεις</w> <w>βαρναβας</w>
+<lb/><w>υπο</w> <w>των</w> <w>αποστολων</w> <w>ο</w> <w>εστι</w> <w>μεθερμηνευομενον</w> <w>υιος</w> <w>παρακλησεως</w> <w>λευιτης</w>
+<lb/><w>κυπριος</w> <w>τω</w> <w>γενει</w><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K4V37"><note type="local">Z 14</note> <w>υπαρχοντος</w> <w>αυτω</w> <w>αγρου</w><pc>,</pc> <w>πωλησας</w> <w>ηνεγκε</w> <w>το</w> <w>χρημα</w> <w>και</w> <w>ε
+<lb break="no"/>θηκε</w> <w>παρα</w> <w>τους</w> <w>ποδας</w> <w>των</w> <w>αποστολων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K5" type="chapter" part="I"><ab n="B05K5V1"><note type="local">Z 16</note> <w>ανηρ</w> <w>δε</w> <w>τις</w>
+<lb/><w>ανανιας</w> <w>ονοματι</w> <w>συν</w> <w>σαπφειρη</w> <w>τη</w> <w>γυναικι</w> <w>αυτου</w> <w>επωλησε</w> <w>κτημα</w><pc>·</pc></ab> <ab n="B05K5V2"><w>και</w> <w>ενοσφισατο</w> <w>απο</w> <w>της</w>
+<lb/><w>τιμης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 23</note> <w>συνειδυιας</w> <w>και</w> <w>της</w> <w>γυναικος</w> <w>αυτου</w><pc>·</pc> <w>και</w> <w>ενεγκας</w> <w>μερος</w> <w>τι</w> <w>παρα</w> <w>τους</w> <w>ποδας</w> <w>των</w> <w>αποστολων</w> <w>εθηκεν</w><pc>·</pc>
+<lb/></ab> <ab n="B05K5V3"><note type="local">Z 24</note> <w>ειπε</w> <w>δε</w> <w>πετρος</w><pc>·</pc> <w>ανανια</w> <w>δια</w> <w>τι</w>
+<lb/><w>επληρωσεν</w> <w>ο</w> <w>σατανας</w> <w>την</w> <w>καρδιαν</w> <w>σου</w> <w>ψευσασθαι</w> <app><rdg type="orig" hand="firsthand"/><rdg type="corr" hand="corrector"><w>σε</w></rdg></app> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>το</w> <w>αγιον</w><pc>·</pc> <w>και</w> <w>νοσφισασθαι</w> <w>σε</w> <w>απο</w> <w>της</w>
+<lb/><w>τιμης</w> <w>του</w> <w>χωριου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V4"><note type="local">Z 35</note> <w>ουχι</w> <w>μενον</w> <w>σοι</w> <w>εμενε</w> <w>και</w> <w>πραθεν</w> <w>εν</w> <w>τη</w> <w>ση</w> <w>εξουσια</w> <w>υπηρχε</w><pc>,</pc> <w>τι</w> <w>οτι</w> <w>εθου</w> <w>εν</w> <w>τη</w> <w>καρδι
+<lb break="no"/>α</w> <w>σου</w> <w>το</w> <w>πραγμα</w> <w>τουτο</w><pc>·</pc> <w>ουκ</w> <w>εψευσω</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w> <w>αλλα</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V5" part="I"><note type="local">Z 37</note> <w>ακουων</w> <w>δε</w>
+<lb/><w>ο</w> <w>ανανιας</w> <w>τους</w> <w>λογους</w> <w>τουτους</w><pc>,</pc> <w>πεσων</w><pc>,</pc> <w>εξεψυξεν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="197v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K5" type="chapter" part="M"><ab n="B05K5V5" part="F"><note type="local">Z 11</note> <w>και</w> <w>εγενετο</w> <w>φοβος</w> <w>μεγας</w> <w>επι</w> <w>παντας</w> <w>τους</w> <w>ακουοντας</w><pc>.</pc>
+<lb/></ab> <ab n="B05K5V6"><w>ανασταντες</w> <w>δε</w> <w>οι</w> <w>νεωτεροι</w> <w>συνεστειλαν</w> <w>αυτον</w> <w>και</w> <w>εξενεγκαντες</w> <w>εθαψαν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V7"><note type="local">Z 16</note> <w>εγενετο</w> <w>δε</w> <w>ως</w> <w>ωρων</w> <w>τριων</w> <w>δια
+<lb break="no"/>στημα</w> <w>και</w> <w>η</w> <w>γυνη</w> <w>αυτου</w> <w>μη</w> <w>ειδυια</w> <w>το</w> <w>γεγονος</w> <w>εισηλθεν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V8"><note type="local">Z 21</note> <w>απεκριθη</w> <w>δε</w> <w>αυτη</w> <w>ο</w> <w>πετρος</w><pc>·</pc> <w>ειπε</w> <w>μοι</w>
+<lb/><w>ει</w> <app><rdg type="orig" hand="firsthand"><w>τουτο</w></rdg><rdg type="corr" hand="corrector"><w>τοσουτου</w></rdg></app> <w>το</w> <w>χωριον</w> <w>απεδοσθε</w><pc>·</pc> <w>η</w> <w>δε</w> <w>ειπεν</w><pc>·</pc> <w>ναι</w> <w>τοσουτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V9"><note type="local">Z 27</note> <w>ο</w> <w>δε</w> <w>πετρος</w> <w>ειπε</w> <w>προς</w> <w>αυτην</w><pc>·</pc> <w>τι</w> <w>οτι</w> <w>συνεφωνηθη</w> <w>υμιν</w>
+<lb/><w>πειρασαι</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>κυριου</w><pc>·</pc> <w>ιδου</w> <w>οι</w> <w>ποδες</w> <w>των</w> <w>θαψαντων</w> <w>τον</w> <w>ανδρα</w> <w>σου</w> <w>επι</w> <w>τη</w> <w>θυρα</w> <w>και</w>
+<lb/><w>εξοισουσι</w> <w>σε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V10"><note type="local">Z 30</note> <w>επεσε</w> <w>δε</w> <w>παραχρημα</w> <w>προς</w> <w>τους</w> <w>ποδας</w> <w>αυτου</w>
+<lb/><w>και</w> <w>εξεψυξεν</w><pc>·</pc> <w>εισελθοντες</w> <w>δε</w> <w>οι</w> <app><rdg type="orig" hand="firsthand"><w>νηαν<unclear>η</unclear>σκοι</w><pc>,</pc></rdg><rdg type="corr" hand="corrector"><w>νηανισκοι</w><pc>,</pc></rdg></app> <w>ευρον</w> <w>αυτην</w> <w>νεκραν</w><pc>·</pc> <w>και</w> <w>εξενεγκαν
+<lb break="no"/>τες</w><pc>,</pc> <w>εθαψαν</w> <w>προς</w> <w>τον</w> <w>ανδρα</w> <w>αυτης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V11"><note type="local">Z 33</note> <w>και</w> <w>εγενετο</w> <w>φοβος</w> <w>μεγας</w> <w>επι</w> <w>πα
+<lb break="no"/>σαν</w> <w>την</w> <w>εκκλησιαν</w><pc>,</pc> <w>και</w> <w>επι</w> <w>παντας</w> <w>τους</w> <w>ακουοντας</w> <w>ταυτα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V12"><note type="local">Z 35</note> <w>δια</w> <w>δε</w> <w>των</w> <w>χειρων</w> <w>των</w> <w>αποστολων</w><pc>,</pc>
+<lb/><w>εγινετο</w> <w>σημεια</w> <w>και</w> <w>τερατα</w> <w>πολλα</w> <w>εν</w> <w>τω</w> <w>λαω</w><pc>·</pc> <w>και</w> <w>ησαν</w> <w>ομοθυμαδον</w> <w>απαντες</w>
+<lb/><w>εν</w> <w>τη</w> <w>στοα</w> <w>σολομωντος</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V13"><note type="local">Z 39</note> <w>των</w> <w>δε</w> <w>λοιπων</w> <w>ουδεις</w>
+<lb/><w>ετολμα</w> <w>κολλασθαι</w> <w>αυτοις</w> <w>αλλ</w> <w>εμεγαλυνεν</w> <w>αυτους</w> <w>ο</w> <w>λαος</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n=" 198r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K5" type="chapter" part="M"><ab n="B05K5V14"><note type="local">Z 5</note> <w>μαλλον</w> <w>δε</w> <w>προσετιθεντο</w> <w>πιστευοντες</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">κω</hi></abbr></w> <w>πληθη</w> <w>ανδρων</w> <w>τε</w> <w>και</w> <w>γυ
+<lb break="no"/>ναικων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V15"><note type="local">Z 12</note> <w>ωστε</w> <w>κατα</w> <w>τας</w> <w>πλατειας</w>
+<lb/><w>εκφερειν</w> <w>τους</w> <w>ασθενεις</w> <w>και</w> <w>τιθεναι</w> <w>επι</w> <app><rdg type="orig" hand="firsthand"/><rdg type="comm" hand="firsthand"><w>των</w></rdg></app><note type="local"> ¬ 16</note> <w>κλινων</w> <w>και</w> <w>κραβατων</w><pc>·</pc> <w>ινα</w> <w>ερχομενου</w> <w>πετρου</w><pc>,</pc>
+<lb/><w>καν</w> <w>η</w> <w>σκια</w> <w>επισκιασει</w> <w>τινι</w> <w>αυτων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V16"><note type="local">Z 18</note> <w>συνηρχετο</w> <w>δε</w> <w>και</w> <w>το</w> <w>πληθος</w> <w>των</w> <w>περιξ</w> <w>πολεων</w> <w>εις</w> <w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>φεροντες</w> <w>ασθενεις</w> <w>και</w> <w>οχλουμενους</w>
+<lb/><w>υπο</w> <w><abbr type="nomSac"><hi rend="overline">πνων</hi></abbr></w> <w>ακαθαρτων</w><pc>.</pc> <w>οιτινες</w> <w>εθεραπευοντο</w> <w>απαντες</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V17"><note type="local">Z 21</note> <w>αναστας</w> <w>δε</w> <w>ο</w> <w>αρχιερευς</w> <w>και</w> <w>παντες</w> <w>οι</w> <w>συν</w> <w>αυτω</w> <w>η</w> <w>ουσα</w> <w>αιρεσις</w> <w>των</w> <w>σαδ
+<lb break="no"/>δουκαιων</w> <w>επλησθησαν</w> <w>ζηλου</w></ab> <ab n="B05K5V18"><w>και</w> <w>επεβαλον</w> <w>τας</w> <w>χειρας</w> <w>επι</w> <w>τους</w> <w>αποστολους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 23</note> <w>και</w>
+<lb/><w>εθεντο</w> <w>αυτους</w> <w>εν</w> <w>τηρησει</w> <w>δημοσια</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V19"><note type="local">Z 25</note> <w>αγγελος</w> <w>δε</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>δια</w> <w>της</w> <w>νυκτος</w> <w>ηνοιξε</w> <w>τας</w> <w>θυρας</w> <app><rdg type="orig" hand="firsthand"><w>δ</w></rdg><rdg type="corr" hand="firsthand"><w>της</w></rdg></app> <w>φυλακης</w><pc>,</pc> <w>εξαγαγων</w> <w>τε</w> <w>αυτους</w> <w>ειπε</w><pc>·</pc>
+<lb/></ab> <ab n="B05K5V20"><w>πορευεσθε</w><pc>·</pc> <w>και</w> <w>σταθεντες</w> <w>λαλειτε</w> <w>εν</w> <w>τω</w> <w>ιερω</w> <w>τω</w> <w>λαω</w> <w>τα</w> <w>ρηματα</w> <w>της</w> <w>ζωης</w> <w>ταυτης</w><pc>·</pc>
+<lb/></ab> <ab n="B05K5V21"><w>ακουσαντες</w> <w>δε</w> <w>εισηλθον</w> <w>υπο</w> <w>τον</w> <w>ορθρον</w> <w>εις</w> <w>το</w> <w>ιερον</w><pc>,</pc> <w>και</w> <w>εδιδασκον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 32</note> <w>παραγενομενος</w> <w>δε</w> <w>ο</w> <w>αρχιερευς</w><pc>,</pc> <w>και</w> <w>οι</w> <w>συν</w> <w>αυτω</w><pc>,</pc> <w>συνεκαλεσαν</w> <w>το</w> <w>συνε
+<lb break="no"/>δριον</w> <w>και</w> <w>πασαν</w> <w>την</w> <w>γερουσιαν</w> <w>των</w> <w>υιων</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc> <w>και</w> <w>απεστειλαν</w> <w>εις</w> <w>το</w> <w>δεσμωτηριον</w>
+<lb/><w>αχθηναι</w> <w>αυτους</w><pc>·</pc></ab> <ab n="B05K5V22"><w>οι</w> <w>δε</w> <w>υπηρεται</w> <w>παραγενομενοι</w><pc>,</pc> <w>ουχ</w> <w>ευρον</w> <w>αυτους</w> <w>εν</w> <w>τη</w> <w>φυλακη</w><pc>·</pc>
+<lb/><note type="local">Z 37</note> <w>αναστρεψαντες</w> <w>δε</w> <w>απηγγειλαν</w></ab> <ab n="B05K5V23"><w>λεγοντες</w><pc>.</pc> <w>το</w> <w>μεν</w> <w>δεσμωτηριον</w> <w>ευρομεν</w> <w>κεκλεισμενον</w><pc>.</pc>
+<lb/><w>εν</w> <w>παση</w> <w>ασφαλεια</w> <w>και</w> <w>τους</w> <w>φυλακας</w> <w>εστωτας</w> <w>επι</w> <w>των</w> <w>θυρων</w><pc>.</pc> <w>ανοιξαντες</w> <w>δε</w> <w>εσω</w>
+<lb/><w>ουδενα</w> <w>ευρομεν</w><pc>·</pc></ab> <ab n="B05K5V24"><w>ως</w> <w>δε</w> <w>ηκουσαν</w> <w>τους</w> <w>λογους</w> <w>τουτους</w><pc>,</pc> <w>ο</w> <w>τε</w> <w>ιερευς</w> <w>και</w> <w>ο</w> <w>στρατηγος</w>
+<lb/><w>του</w> <w>λαου</w><pc>·</pc> <w>και</w> <w>οι</w> <w>αρχιερεις</w> <w>διηπορουν</w> <w>περι</w> <w>αυτων</w> <w>τι</w> <w>αν</w> <w>γενοιντο</w></ab> <ab n="B05K5V25"><w>παραγενομενος</w>
+<lb/><w>δε</w> <w>τις</w> <w>απηγγειλεν</w> <w>αυτοις</w> <w>οτι</w> <w>ιδου</w> <w>οι</w> <w>ανδρες</w> <w>ους</w> <w>εθεσθε</w> <w>εν</w> <w>τη</w> <w>φυλακη</w><pc>,</pc> <w>εισι</w> <w>εν</w> <w>τω</w>
+<lb/><w>ιερω</w> <w>εστωτες</w> <w>και</w> <w>διδασκοντες</w> <w>τον</w> <w>λαον</w><pc>.</pc></ab> <ab n="B05K5V26" part="I"><w>τοτε</w> <w>απελθων</w> <w>ο</w> <w>στρατηγος</w> <w>συν</w> <w>τοις</w>
+</ab></div></div>
+<pb n="198v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K5" type="chapter" part="M"><ab n="B05K5V26" part="F"><w>υπηρεταις</w> <w>ηγαγεν</w> <w>αυτοις</w> <w>ου</w> <w>μετα</w> <w>βιας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 5</note> <w>εφοβουντο</w> <w>γαρ</w> <w>τον</w> <app><rdg type="orig" hand="firsthand"><w>λαον</w></rdg><rdg type="comm" hand="firsthand"><w>οχλον</w></rdg></app><note type="local">¬ ¬ 7</note> <w>ινα</w> <w>μη</w> <w>λιθασωσιν</w><pc>·</pc></ab> <ab n="B05K5V27"><w>αγαγοντες</w> <w>δε</w>
+<lb/><w>αυτους</w> <w>εστησαν</w> <w>εν</w> <w>τω</w> <w>συνεδριω</w><pc>·</pc> <w>και</w> <w>επηρωτησεν</w> <w>αυτους</w> <w>ο</w> <w>αρχιερευς</w></ab> <ab n="B05K5V28"><w>λεγων</w><pc>·</pc>
+<lb/><note type="local">Z 8</note> <w>ου</w> <w>παραγγελια</w> <w>παρηγγει
+<lb break="no"/>λαμεν</w> <w>υμιν</w> <w>μη</w> <w>διδασκειν</w> <w>επι</w> <w>τω</w> <w>ονοματι</w> <w>τουτω</w><pc>;</pc> <w>και</w> <w>ιδου</w> <w>πεπληρωκατε</w> <w>την</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr></w> <w>της</w> <w>διδαχης</w> <w>υμων</w> <w>και</w> <w>βουλεσθε</w> <w>επαγαγειν</w> <w>εφ</w> <w>ημας</w> <w>το</w> <w>αιμα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w>
+<lb/><w>τουτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V29"><note type="local">Z 13</note> <w>αποκριθεις</w> <w>δε</w> <w>ο</w> <w>πετρος</w> <w>και</w> <w>οι</w> <w>αποστολοι</w> <w>ειπον</w><pc>·</pc> <w>πειθαρχειν</w>
+<lb/><w>δει</w> <w>μαλλον</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w> <w>η</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V30"><note type="local">Z 16</note> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">πρων</hi></abbr></w>
+<lb/><w>ημων</w> <w>ηγειρεν</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>,</pc> <w>ον</w> <w>υμεις</w> <w>διεχειρησασθε</w> <w>κρεμασαντες</w> <w>επι</w> <w>ξυλου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V31"><note type="local">Z 19</note> <w>τουτον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>αρχηγον</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">σρα</hi></abbr></w> <w>υψωσε</w> <w>τη</w> <w>δεξια</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 20</note> <w>δουναι</w> <w>μετανοιαν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w> <w>και</w> <w>αφεσιν</w> <w>αμαρτιων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V32"><note type="local">Z 22</note> <w>και</w> <w>ημεις</w> <w>εσμεν</w> <w>μαρτυρες</w> <w>των</w> <w>ρηματων</w> <app><rdg type="orig" hand="firsthand"><w>αυτων</w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>τουτων</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/><note type="local">Z 26</note> <w>και</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>δε</w> <w>το</w> <w>αγιον</w> <w>ο</w> <w>εδωκεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>τοις</w> <w>πειθαρχουσιν</w> <w>αυτω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V33"><note type="local">Z 33</note> <w>οι</w> <w>δε</w> <w>ακουσαντες</w> <w>διεπριοντο</w><pc>·</pc> <w>και</w> <w>εβουλευοντο</w> <w>ανελειν</w> <w>αυτους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V34"><note type="local">Z 37</note> <w>αναστας</w> <w>δε</w> <w>τις</w> <w>εν</w> <w>τω</w> <w>συνεδριω</w> <w>φαρισαιος</w>
+<lb/><w>ονοματι</w> <w>γαμαλιηλ</w> <w>νομοδιδασκαλος</w> <w>τιμιος</w> <w>παντι</w> <w>τω</w> <w>λαω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 40</note> <w>εκελευσεν</w> <w>εξω</w>
+<lb/><w>βραχυ</w> <w>τι</w> <w>τους</w> <w>αποστολους</w> <w>ποιησαι</w><pc>·</pc></ab> <ab n="B05K5V35" part="I"><w>ειπεν</w> <w>τε</w> <w>προς</w> <w>αυτους</w><pc>·</pc> <w>ανδρες</w> <w>ισραηλιται</w><pc>·</pc> <w>προσεχετε</w>
+</ab></div></div>
+<pb n=" 199r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K5" type="chapter" part="M"><ab n="B05K5V35" part="F"><w>εαυτοις</w> <w>επι</w> <w>τοις</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w> <w>τουτοις</w> <w>τι</w> <w>μελλετε</w> <w>πρασσειν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V36"><note type="local">Z 4</note> <w>προ</w> <w>γαρ</w> <w>τουτων</w> <w>των</w> <w>ημερων</w>
+<lb/><w>ανεστη</w> <w>θευδας</w> <w>λεγων</w> <w>ειναι</w> <w>τινα</w> <w>εαυτον</w><pc>.</pc> <w>ω</w> <w>προσετεθη</w> <w>ανδρων</w> <w>αριθμος</w> <w>ωσι</w> <w>τε
+<lb break="no"/>τρακοσιων</w><pc>·</pc> <w>ος</w> <w>ανηρεθη</w><pc>·</pc> <w>και</w> <w>παντες</w> <w>οσοι</w> <w>επειθοντο</w> <w>αυτω</w> <w>διελυθησαν</w> <w>και</w> <w>εγενοντο</w>
+<lb/><w>εις</w> <w>ουδεν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K5V37"><note type="local">Z 18</note> <w>μετα</w> <w>τουτο</w> <w>ανεστη</w> <w>ιουδας</w> <w>ο</w> <w>γαλιλαιος</w><pc>·</pc> <w>εν</w> <w>ταις</w> <w>ημεραις</w> <w>της</w> <w>απογρα
+<lb break="no"/>φης</w><pc>.</pc> <w>και</w> <w>απεστησε</w> <w>λαον</w> <w>ικανον</w> <w>οπισω</w> <w>αυτου</w><pc>·</pc> <w>κακεινος</w> <w>απωλετο</w><pc>·</pc> <w>και</w> <w>παντες</w> <w>οσοι</w>
+<lb/><w>επειθοντο</w> <w>αυτω</w> <w>διεσκορπισθησαν</w><pc>.</pc></ab> <ab n="B05K5V38"><w>και</w> <w>τα</w> <w>νυν</w> <w>λεγω</w> <w>υμιν</w> <w>αποστητε</w> <w>απο</w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w> <w>του
+<lb break="no"/>των</w> <w>και</w> <w>εασατε</w> <w>αυτους</w><pc>·</pc>
+<lb/><note type="local">Z 30</note> <w>οτι</w> <w>εαν</w> <w>η</w> <w>εξ</w> <w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w> <w>η</w> <w>βουλη</w> <w>αυτη</w> <w>η</w> <w>το</w> <w>εργον</w> <app><rdg type="orig" hand="firsthand"><w>καταλυθησεται</w><pc>·</pc></rdg><rdg type="comm" hand="firsthand"><w>καταλυεται</w><pc>·</pc></rdg></app><note type="local">¬ 33</note></ab> <ab n="B05K5V39"><app><rdg type="orig" hand="firsthand"><w>ει</w> <w>δε</w> <w>εκ</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>εστιν</w><pc>,</pc></rdg><rdg type="comm" hand="firsthand"><w>εαν</w> <w>η</w> <w>εκ</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></rdg></app>
+<lb/><w>ου</w> <w>δυνησεσθε</w> <w>καταλυσαι</w> <app><rdg type="orig" hand="firsthand"><w>αυτους</w><pc>·</pc></rdg><rdg type="comm" hand="firsthand"><w>αυτο</w></rdg></app><note type="local">202b ¬ 8-9</note><note type="local">kommentar</note>
+<lb/><note type="local">Z 37</note> <w>μηποτε</w> <w>και</w> <w>θεομαχοι</w>
+<lb/><w>ευρεθητε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 43</note> <w>επεισθησαν</w> <w>δε</w> <w>αυτω</w><pc>.</pc></ab> <ab n="B05K5V40"><w>και</w> <w>προσκαλεσαμενοι</w> <w>τους</w> <w>αποστολους</w><pc>,</pc> <w>δειραντες</w> <w>παρηγγειλαν</w>
+<lb/><w>μη</w> <w>λαλειν</w> <w>επι</w> <w>τω</w> <w>ονοματι</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>και</w> <w>απελυσαν</w> <w>αυτους</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="199v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K5" type="chapter" part="F"><ab n="B05K5V41"><note type="local">Z 4</note> <w>οι</w> <w>μεν</w> <w>ουν</w> <w>επορευοντο</w> <w>χαιροντες</w> <w>απο</w> <w>προσωπου</w> <w>του</w> <w>συνεδριου</w>
+<lb/><w>οτι</w> <w>υπερ</w> <w>του</w> <w>ονοματος</w> <w>κατηξιωθησαν</w> <w>ατιμασθηναι</w></ab> <ab n="B05K5V42"><w>πασαν</w> <w>τε</w> <w>ημεραν</w> <w>εν</w> <w>τω</w> <w>ιερω</w>
+<lb/><w>και</w> <w>κατ</w> <w>οικον</w> <w>ουκ</w> <w>επαυοντο</w> <w>διδασκοντες</w> <w>και</w> <w>ευαγγελιζομενοι</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K6" type="chapter" part="I"><ab n="B05K6V1"><note type="local">Z 21</note> <w>εν</w> <w>δε</w> <w>ταις</w> <w>ημεραις</w> <w>ταυταις</w> <w>πληθυνοντων</w> <w>των</w> <w>μαθητων</w><pc>,</pc>
+<lb/><w>εγενετο</w> <w>γογγυσμος</w> <w>των</w> <w>ελληνιστων</w> <w>προς</w> <w>τους</w> <w>εβραιους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 25</note> <w>οτι</w> <w>παρεθεωρουντο</w> <w>εν</w> <w>τη</w> <w>διακονια</w> <w>τη</w> <w>κα
+<lb break="no"/>θημερινη</w> <w>αι</w> <w>χηραι</w> <w>αυτων</w><pc>.</pc></ab> <ab n="B05K6V2"><w>προσκαλεσαμενοι</w> <w>δε</w> <w>οι</w> <w>δωδεκα</w> <w>το</w> <w>πληθος</w> <w>των</w> <w>μαθη
+<lb break="no"/>των</w> <w>ειπον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 31</note> <w>ουκ</w> <w>αρεστον</w>
+<lb/><w>εστιν</w> <w>ημας</w> <w>καταλειψαντας</w> <w>τον</w> <w>λογον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>διακονειν</w> <w>τραπεζαις</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V3" part="I"><note type="local">Z 40</note> <w>επισκεψασθε</w> <w>ουν</w> <w>αδελφοι</w> <w>ανδρας</w> <w>εξ</w> <w>υμων</w>
+<lb/><w>μαρτυρουμενους</w> <w>επτα</w> <w>πληρεις</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w> <w>και</w> <w>σοφιας</w> <w>ους</w> <w>καταστησομεν</w>
+</ab></div></div>
+<pb n=" 200r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K6" type="chapter" part="M"><ab n="B05K6V3" part="F"><w>επι</w> <w>της</w> <w>χρειας</w> <w>ταυτης</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V4"><note type="local">Z 4</note> <w>ημεις</w> <w>δε</w> <w>τη</w> <w>προσευχη</w>
+<lb/><w>και</w> <w>τη</w> <w>διακονια</w> <w>του</w> <w>λογου</w> <w>προσκαρτερησομεν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V5"><note type="local">Z 7</note> <w>και</w> <w>ηρεσεν</w> <w>ο</w> <w>λογος</w> <w>ενωπιον</w> <w>παντος</w> <w>του</w> <w>πληθους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 8</note> <w>και</w> <w>εξελε
+<lb break="no"/>ξαντο</w> <w>στεφανον</w> <w>ανδρα</w> <w>πληρης</w> <w>πιστεως</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w><pc>·</pc> <w>και</w> <w>φιλιππον</w><pc>·</pc> <w>και</w> <w>προχωρον</w><pc>·</pc>
+<lb/><w>και</w> <w>νικανορα</w><pc>·</pc> <w>και</w> <w>τιμωνα</w><pc>,</pc> <w>και</w> <w>παρμεναν</w><pc>·</pc> <w>και</w> <w>νικολαον</w> <w>προσηλυτον</w> <w>αντι
+<lb break="no"/>οχεα</w><pc>;</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V6"><note type="local">Z 18</note> <w>ους</w> <w>εστησαν</w> <w>ενωπιον</w> <w>των</w> <w>αποστολων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 22</note> <w>και</w> <w>προσευξαμε<unclear>ν</unclear>οι</w> <w>επεθηκαν</w>
+<lb/><w>αυτοις</w> <w>τας</w> <w>χειρας</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V7"><note type="local">Z 25</note> <w>και</w> <w>ο</w> <w>λογος</w> <w>το<unclear>υ</unclear></w> <w><abbr type="nomSac"><unclear><hi rend="overline">θυ</hi></unclear></abbr></w> <w>ηυξανεν</w>
+<lb/><w>και</w> <w>επληθυνετο</w> <w>ο</w> <w>αριμθος</w> <w>των</w> <w>μαθητων</w> <w>εν</w> <w>ιερουσαλημ</w> <w>σφοδρα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 29</note> <w>πολυς</w> <w>τε</w> <w>οχλος</w> <w>των</w> <w>ιουδαιων</w> <w>υπηκουον</w> <w>τη</w> <app><rdg type="orig" hand="firsthand"><w>πιστ<unclear>η</unclear></w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>πιστει</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V8"><note type="local">Z 39</note> <w>στεφανος</w> <w>δε</w> <w>πληρης</w> <w>χαριτος</w> <w>και</w> <w>δυναμεως</w> <w>εποιη</w> <w>τερατα</w> <w>και</w> <w>σημεια</w> <w>μεγαλα</w>
+<lb/><w>εν</w> <w>τω</w> <w>λαω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V9"><note type="local">Z 44</note> <w>ανεστησαν</w> <w>δε</w> <w>τινες</w>
+<lb/><w>εκ</w> <w>της</w> <w>συναγωγης</w> <w>της</w> <w>λεγομενης</w><pc>,</pc> <w>λιβερτινων</w><pc>,</pc> <w>και</w> <w>κυρηναιων</w><pc>·</pc> <w>και</w> <w>αλεξαν
+<lb break="no"/>δρεων</w><pc>·</pc> <w>και</w> <w>των</w> <w>απο</w> <w>κιλικιας</w> <w>και</w> <w>ασιας</w> <w>συζητουντες</w> <w>τω</w> <w>στεφανω</w></ab> <ab n="B05K6V10"><w>και</w> <w>ου
+<lb break="no"/>κ</w> <w>ισχυον</w> <w>αντιστηναι</w> <w>τη</w> <w>σοφια</w> <w>και</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w> <w>ω</w> <w>ελαλει</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="200v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K6" type="chapter" part="F"><ab n="B05K6V11"><note type="local">Z 5</note> <w>τοτε</w> <w>υπεβαλον</w> <w>ανδρας</w> <w>λεγοντας</w><pc>·</pc> <w>οτι</w> <w>ακηκοαμεν</w> <w>αυτου</w> <w>λαλουντος</w> <w>ρηματα</w>
+<lb/><w>βλασφημα</w> <w>εις</w> <w>μωσην</w> <w>και</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><pc>·</pc></ab> <ab n="B05K6V12"><w>συνεκινησαν</w> <w>τε</w> <w>τον</w> <w>λαον</w> <w>και</w> <w>τους</w> <w>πρεσβυτερους</w>
+<lb/><w>και</w> <w>τους</w> <w>γραμματεις</w><pc>·</pc> <w>και</w> <w>επισταντες</w> <w>συνηρπασαν</w> <app><rdg type="orig" hand="firsthand"><w>αυτου<unclear>ς</unclear></w></rdg><rdg type="corr" hand="corrector"><w>αυτον</w></rdg></app> <w>και</w> <w>ηγαγον</w> <w>εις</w> <w>το</w> <w>συνεδριον</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V13"><note type="local">Z 15</note> <w>εστησαν</w> <w>τε</w> <w>μαρτυρας</w> <w>ψευδεις</w> <w>λεγοντας</w>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>ουτος</w> <w>ου</w> <w>παυεται</w> <w>ρηματα</w> <w>βλασφημα</w> <w>λαλων</w> <w>κατα</w> <w>τοπου</w> <w>του</w> <w>αγιου</w> <w>και</w> <w>του</w> <w>νομου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V14"><note type="local">Z 20</note> <app><rdg type="orig" hand="firsthand"><w>ακηκοασεν</w></rdg><rdg type="corr" hand="corrector"><w>ακηκοαμεν</w></rdg></app> <w>γαρ</w> <w>αυτου</w> <w>λεγοντος</w><pc>.</pc> <w>οτι</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ο</w> <w>ναζωραιος</w> <w>καταλυσει</w> <w>τον</w>
+<lb/><w>τοπον</w> <w>τουτον</w><pc>·</pc> <w>και</w> <w>αλλαξει</w> <w>τα</w> <w>εθη</w> <w>α</w> <w>παρεδωκεν</w> <w>ημιν</w> <app><rdg type="orig" hand="firsthand"><w>μωσης</w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>μωυσης</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K6V15"><note type="local">Z 25</note> <w>και</w> <w>ατενισαντες</w> <w>εις</w> <w>αυτον</w> <w>απαντες</w> <w>οι</w> <w>καθεζομενοι</w>
+<lb/><w>εν</w> <w>τω</w> <w>συνεδριω</w><pc>·</pc> <w>ειδον</w> <w>το</w> <w>προσωπον</w> <w>αυτου</w> <w>ωσει</w> <w>προσωπον</w> <w>αγγελου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab></div><div n="B05K7" type="chapter" part="I"><ab n="B05K7V1"><note type="local">Z 32</note> <w>ειπε</w> <w>δε</w> <w>ο</w> <w>αρχιερευς</w><pc>·</pc> <w>ει</w> <w>αρα</w> <w>ταυτα</w> <w>ουτως</w> <w>εχει</w><pc>;</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V2"><note type="local">Z 34</note> <w>ο</w> <w>δε</w> <w>εφη</w> <w>ανδρες</w> <w>αδελφοι</w> <w>και</w> <w>πατερες</w>
+<lb/><w>ακουσατε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 39</note> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>της</w> <w>δοξης</w> <w>ωφθη</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">πρι</hi></abbr></w> <w>ημων</w> <w>αβρααμ</w> <w>οντι</w> <w>εν</w> <w>τη</w>
+<lb/><w>μεσοποταμια</w> <w>πριν</w> <w>η</w> <w>κατοικισαι</w> <w>αυτον</w> <w>εν</w> <w>χαρραν</w><pc>·</pc></ab> <ab n="B05K7V3"><w>και</w> <w>ειπε</w> <w>προς</w> <w>αυτον</w><pc>.</pc> <w>εξελθε</w>
+<lb/><w>εκ</w> <w>της</w> <w>γης</w> <w>σου</w><pc>.</pc> <w>και</w> <w>εκ</w> <w>της</w> <w>συγγενειας</w> <w>σου</w> <w>και</w> <w>δευρο</w> <w>εις</w> <w>γην</w> <w>ην</w> <w>αν</w> <w>σοι</w> <w>δειξω</w><pc>.</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n=" 201r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V4"><note type="local">Z 2</note> <w>τοτε</w> <w>εξελθων</w> <w>εκ</w> <w>γης</w> <w>χαλδαιων</w><pc>,</pc> <w>κατωκησεν</w> <w>εν</w> <w>χαρραν</w><pc>.</pc> <w>και</w> <w>εκειθεν</w> <w>μετα</w> <w>το</w> <w>απο
+<lb break="no"/>θανειν</w> <w>τον</w> <w>πατερα</w> <w>αυτου</w><pc>,</pc> <w>μετωκισεν</w> <w>αυτον</w> <w>εις</w> <w>την</w> <w>γην</w> <w>ταυτην</w> <w>εις</w> <w>ην</w> <w>υμεις</w> <w>νυν</w><pc>,</pc>
+<lb/><w>κατοικειτε</w><pc>·</pc></ab> <ab n="B05K7V5"><w>και</w> <w>ουκ</w> <w>εδωκεν</w> <w>αυτω</w> <w>κληρονομιαν</w> <w>εν</w> <w>αυτη</w> <w>ουδε</w> <w>βημα</w> <w>ποδος</w><pc>.</pc> <w>και</w>
+<lb/><w>επηγγειλατο</w> <w>δουναι</w> <w>αυτω</w><pc>.</pc> <w>εις</w> <w>κατασχεσιν</w> <w>αυτην</w> <w>και</w> <w>τω</w> <w>σπερματι</w> <w>αυτου</w> <w>μετ</w> <w>αυτον</w>
+<lb/><w>ουκ</w> <w>οντως</w> <w>αυτω</w> <w>τεκνου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V6"><note type="local">Z 23</note> <w>ελαλησε</w> <w>δε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ουτως</w> <w>ο</w> <w>λεγων</w> <w>οτι</w> <w>εσται</w> <w>το</w> <w>σπερμα</w> <w>αυτου</w> <w>παροικον</w> <w>εν</w> <w>γη</w> <w>αλλοτρια</w><pc>·</pc>
+<lb/><w>και</w> <w>δουλωσουσιν</w> <w>αυτο</w><pc>.</pc> <w>και</w> <w>κακωσουσιν</w> <w>ετη</w> <w>τετρακοσια</w><pc>·</pc></ab> <ab n="B05K7V7"><w>και</w> <w>το</w> <w>εθνος</w> <w>ω</w> <w>εαν</w> <w>δουλευσωσι</w><pc>,</pc>
+<lb/><w>κρινω</w> <w>εγω</w> <w>ειπεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><pc>.</pc> <w>και</w> <w>μετα</w> <w>ταυτα</w> <w>εξελευσονται</w> <w>και</w> <w>λατρευσουσι</w> <w>μοι</w> <w>εν</w> <w>τω</w> <w>τοπω</w> <w>τουτω</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V8"><note type="local">Z 33</note> <w>και</w> <w>εδωκεν</w> <w>αυτω</w> <w>διαθηκην</w> <w>περιτομης</w><pc>.</pc>
+<lb/><w>και</w> <w>ουτως</w> <w>εγεννησε</w> <w>τον</w> <w>ισαακ</w><pc>·</pc> <w>και</w> <w>περιετεμεν</w> <w>αυτον</w> <w>τη</w> <w>ημερα</w> <w>τη</w> <w>ογδοη</w><pc>·</pc> <w>και</w> <w>ο</w> <w>ισαακ</w>
+<lb/><w>τον</w> <w>ιακωβ</w> <w>και</w> <w>ο</w> <w>ιακωβ</w> <w>τους</w> <w>δωδεκα</w> <w><abbr type="nomSac"><hi rend="overline">πριαρχας</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V9" part="I"><note type="local">Z 46</note> <w>και</w> <w>οι</w> <w>πατριαρχαι</w> <w>ζηλωσαντες</w>
+</ab></div></div>
+<pb n="201v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V9" part="F"><w>τον</w> <w>ιωσηφ</w> <w>απεδοντο</w> <w>εις</w> <w>αιγυπτον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 7</note> <w>και</w> <w>ην</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>μετ</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V10"><note type="local">Z 8</note> <w>και</w> <w>εξειλετο</w> <w>αυτον</w> <w>εκ</w> <w>πασων</w> <w>των</w> <w>θλιψεων</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 9</note> <w>και</w> <w>εδωκεν</w>
+<lb/><w>αυτω</w> <w>χαριν</w> <w>και</w> <w>σοφιαν</w> <w>εναντιον</w> <w>φαραω</w> <w>βασιλεως</w> <w>αιγυπτου</w><pc>·</pc> <w>και</w> <w>κατεστησεν</w>
+<lb/><w>αυτον</w> <w>ηγουμενον</w> <w>επ</w> <w>αιγυπτον</w> <w>και</w> <w>ολον</w> <w>τον</w> <w>οικον</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V11"><note type="local">Z 12</note> <w>ηλθε</w> <w>δε</w>
+<lb/><w>λιμος</w> <w>εφ</w> <w>ολην</w> <w>την</w> <w>γην</w> <w>αιγυπτον</w> <w>και</w> <w>χανααν</w> <w>και</w> <w>θλιψις</w> <w>μεγαλη</w><pc>.</pc> <w>και</w> <w>ουχ</w> <w>ηυρισκον</w> <w>χορτασματα</w>
+<lb/><w>οι</w> <w><abbr type="nomSac"><hi rend="overline">πρες</hi></abbr></w> <w>ημων</w><pc>.</pc></ab> <ab n="B05K7V12"><w>ακουσας</w> <w>δε</w> <w>ιακωβ</w> <w>οντα</w> <w>σιτα</w> <w>εν</w> <app><rdg type="orig" hand="firsthand"><w>εγυπτω</w><pc>,</pc></rdg><rdg type="corr" hand="corrector"><w>αιγυπτω</w><pc>,</pc></rdg></app> <w>εξαπεστειλε</w> <w>τους</w> <w><abbr type="nomSac"><hi rend="overline">πρας</hi></abbr></w> <w>ημων</w> <w>πρω
+<lb break="no"/>τον</w><pc>·</pc></ab> <ab n="B05K7V13"><w>και</w> <w>εν</w> <w>τω</w> <w>δευτερω</w> <w>ανεγνωρισθη</w> <w>ιωσηφ</w> <w>τοις</w> <w>αδελφοις</w> <w>αυτου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 18</note> <w>και</w> <w>φα
+<lb break="no"/>νερον</w> <w>εγενετο</w> <w>τω</w> <w>φαραω</w> <w>το</w> <w>γενος</w> <w>του</w> <w>ιωσηφ</w><pc>.</pc></ab> <ab n="B05K7V14"><w>αποστειλας</w> <w>δε</w> <w>ιωσηφ</w> <w>μετεκαλεσατο</w> <w>τον</w>
+<lb/><w>πατερα</w> <w>αυτου</w> <w>ιακωβ</w> <w>και</w> <w>πασαν</w> <w>την</w> <w>συγγενειαν</w> <w>ψυχαις</w> <w>εν</w> <w>εβδομηκοντα</w> <w>πεντε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V15"><note type="local">Z 23</note> <w>και</w> <w>κατεβη</w> <app><rdg type="orig" hand="firsthand"><w>ιωσηφ</w></rdg><rdg type="corr" hand="corrector"><w>ιακωβ</w></rdg></app> <w>εις</w> <w>αιγυπτον</w> <w>και</w> <w>ετελευτησεν</w> <w>αυτος</w> <w>και</w> <w>οι</w> <w>πατερες</w>
+<lb/><w>ημων</w></ab> <ab n="B05K7V16"><w>και</w> <w>μετετεθησαν</w> <w>εν</w> <w>συχεμ</w><pc>·</pc> <w>και</w> <w>μετετεθησαν</w> <w>εν</w> <w>τω</w> <w>μνηματι</w> <w>ο</w> <w>ωνησατο</w> <w>α
+<lb break="no"/>βρααμ</w> <w>τιμης</w> <w>αργυριου</w><pc>.</pc> <w>παρα</w> <w>των</w> <w>υιων</w> <w>εμμωρ</w> <w>του</w> <w>συχεμ</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V17"><note type="local">Z 27</note> <w>καθως</w> <w>δε</w> <w>ηγγιζ<unclear>ε</unclear>ν</w> <app><rdg type="orig" hand="firsthand"><w>εκει</w></rdg><rdg type="corr" hand="corrector"/></app> <w>ο</w> <app><rdg type="orig" hand="firsthand"><w>θρονος</w><pc>,</pc></rdg><rdg type="corr" hand="corrector"><w>χρονος</w><pc>,</pc></rdg></app>
+<lb/><w>της</w> <w>επαγγελιας</w> <w>ης</w> <w>ωμοσεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>τω</w> <w>αβρααμ</w><pc>.</pc> <w>ηυξησεν</w> <w>ο</w> <w>λαος</w> <w>και</w> <w>επληθυνθη</w>
+<lb/><w>εν</w> <w>αιγυπτω</w></ab> <ab n="B05K7V18"><w>αχρις</w> <w>ου</w> <w>ανεστη</w> <w>βασιλευς</w> <w>ετερος</w> <w>ος</w> <w>ουκ</w> <w>ηδει</w> <w>τον</w> <w>ιωσηφ</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V19"><note type="local">Z 32</note> <w>ουτος</w> <w>κατασοφισαμενος</w> <w>το</w> <w>γενος</w> <w>ημων</w> <w>εκακωσε</w> <w>τους</w> <w>πατερας</w> <w>ημων</w> <w>του</w> <w>ποιειν</w>
+<lb/><w>εκθετα</w> <w>τα</w> <w>βρεφη</w> <w>αυτων</w> <w>εις</w> <w>το</w> <w>μη</w> <w>ζωογονεισθαι</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V20"><note type="local">Z 36</note> <w>εν</w> <w>ω</w> <w>καιρω</w> <w>εγεννηθη</w> <w>μωυσης</w><pc>.</pc> <w>και</w> <w>ην</w> <w>αστειος</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w> <w>ος</w>
+<lb/><w>ανετραφη</w> <w>μηνας</w> <w>τρεις</w> <w>εν</w> <w>τω</w> <w>οικω</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="202r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V21"><note type="local">Z 17</note> <w>εκτεθεντα</w> <w>δε</w> <w>αυτον</w> <w>ανειλετο</w> <w>αυτον</w> <w>η</w> <w>θυγατηρ</w> <w>φαραω</w> <w>και</w> <w>ανε
+<lb break="no"/>θρεψατο</w> <w>αυτον</w> <w>εαυτη</w> <w>εις</w> <w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><pc>;</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V22"><note type="local">Z 19</note> <w>και</w> <w>επεδευθη</w> <w>μωυσης</w> <w>παση</w> <w>σοφια</w>
+<lb/><w>αιγυπτιων</w><pc>·</pc> <w>ην</w> <w>δε</w> <w>δυνατος</w> <w>εν</w> <w>λογοις</w> <w>και</w> <w>εν</w> <w>εργοις</w><pc>·</pc></ab> <ab n="B05K7V23"><w>ως</w> <w>δε</w> <w>επληρουτο</w> <w>αυτω</w> <w>τεσσαρακοντα
+<lb break="no"/>ετης</w> <w>χρονος</w> <w>ανεβη</w> <w>επι</w> <w>την</w> <w>καρδιαν</w> <w>αυτου</w> <w>επισκεψασθαι</w> <w>τους</w> <w>αδελφους</w> <w>αυτου</w> <w>τους</w> <w>υιους</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V24"><note type="local">Z 37</note> <w>και</w> <w>ιδων</w> <w>τινα</w> <w>αδι
+<lb break="no"/>κουμενον</w><pc>.</pc> <w>ημυνατο</w> <w>και</w> <w>εποιησεν</w> <w>εκδικησιν</w> <w>τω</w> <w>καταπονουμενω</w> <w>παταξας</w> <w>τον</w> <w>αιγυπτιον</w><pc>.</pc>
+<lb/></ab> <ab n="B05K7V25"><w>ενομιζεν</w> <w>δε</w> <w>συνιεναι</w> <w>τους</w> <w>αδελφους</w> <w>αυτου</w> <w>οτι</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>δια</w> <w>χειρος</w> <w>αυτου</w> <w>διδωσιν</w> <w>αυ
+<lb break="no"/>τοις</w> <w><abbr type="nomSac"><hi rend="overline">σριαν</hi></abbr></w><pc>·</pc> <w>οι</w> <w>δε</w> <w>ου</w> <w>συνηκαν</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="202v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V26"><note type="local">Z 2</note> <w>τη</w> <w>τε</w> <w>επιουση</w> <w>ημερα</w> <w>ωφθη</w> <w>αυτοις</w> <w>μαχομενοις</w><pc>·</pc> <w>και</w> <w>συνηλασεν</w> <w>αυτους</w> <w>εις</w>
+<lb/><w>ειρηνην</w> <w>ειπων</w><pc>·</pc> <w>ανδρες</w> <w>αδελφοι</w> <w>εσται</w> <w>υμεις</w><pc>·</pc> <w>ινατι</w> <w>αδικειται</w> <w>αλληλους</w><pc>.</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V27"><note type="local">Z 17</note> <w>ο</w> <w>δε</w> <w>αδικων</w> <w>τον</w> <w>πλησιον</w><pc>,</pc> <w>απω
+<lb break="no"/>σατο</w> <w>αυτον</w> <w>ειπων</w><pc>·</pc> <w>τις</w> <w>σε</w> <w>κατεστησεν</w> <w>αρχοντα</w> <w>και</w> <w>δικαστην</w> <w>εφ</w> <app><rdg type="orig" hand="firsthand"><w>ημ<unclear>ας</unclear></w><pc>·</pc></rdg><rdg type="corr" hand="corrector"><w>ημων</w><pc>·</pc></rdg></app>
+<lb/></ab> <ab n="B05K7V28"><w>μη</w> <w>ανελειν</w> <w>με</w> <w>συ</w> <w>θελεις</w> <w>ον</w> <w>τροπον</w> <w>ανειλες</w> <w>τον</w> <w>αιγυπτιον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V29"><note type="local">Z 23</note> <w>εφυγε</w> <w>δε</w> <w>μωυσης</w> <w>εν</w> <w>τω</w> <w>λογω</w> <w>τουτω</w>
+<lb/><w>και</w> <w>εγενετο</w> <w>παροικος</w> <w>εν</w> <w>γη</w> <w>μαδιαμ</w> <w>ου</w> <w>εγεννησεν</w> <w>υιους</w> <w>δυο</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V30"><note type="local">Z 30</note> <w>και</w> <w>πληρωθεντων</w> <w>ετων</w> <w>τεσσαρακοντα</w> <w>ωφθη</w> <w>αυτω</w> <w>εν</w> <w>τη</w> <w>ερημω</w> <w>του</w> <w>ορους</w>
+<lb/><w>σινα</w> <w>αγγελος</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><pc>·</pc> <w>εν</w> <w>πυρι</w> <w>φλογος</w> <w>βατου</w><pc>·</pc></ab> <ab n="B05K7V31"><w>ο</w> <w>δε</w> <w>μωυσης</w> <w>ιδων</w> <w>εθαυμαζε</w> <w>το</w> <w>οραμα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 35</note> <w>προσερχομενου</w> <w>δε</w> <w>αυτου</w> <w>κατα
+<lb break="no"/>νοησαι</w><pc>,</pc> <w>εγενετο</w> <w>φωνη</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>προς</w> <w>αυτον</w><pc>.</pc></ab> <ab n="B05K7V32"><w>εγω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">πρων</hi></abbr></w> <w>σου</w><pc>·</pc> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>αβρααμ</w>
+<lb/><w>και</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ισαακ</w><pc>·</pc> <w>και</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ιακωβ</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 42</note> <w>εντρομος</w> <w>δε</w> <w>γενομενος</w> <w>μωυσης</w> <w>ουκ</w> <w>ετολμα</w> <w>κατανοησαι</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="203r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V33"><note type="local">Z 4</note> <w>ειπε</w> <w>δε</w> <w>αυτω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>λυσον</w> <w>το</w> <w>υποδημα</w> <w>εκ</w> <w>των</w> <w>ποδων</w> <w>σου</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 9</note> <w>ο</w> <w>γαρ</w> <w>τοπος</w> <w>εν</w> <w>ω</w> <w>εστηκας</w><pc>,</pc> <w>γη</w> <w>αγια</w> <w>εστιν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V34"><note type="local">Z 12</note> <w>ιδων</w> <w>ειδον</w> <w>την</w> <w>κακωσιν</w> <w>του</w> <w>λαου</w> <w>μου</w> <w>του</w> <w>εν</w> <w>αιγυπτω</w><pc>·</pc> <w>και</w> <w>του</w> <w>στεναγμου</w>
+<lb/><w>αυτων</w> <w>ηκουσα</w><pc>·</pc> <w>και</w> <w>κατεβην</w> <w>εξελεσθαι</w> <w>αυτους</w><pc>.</pc> <w>και</w> <w>νυν</w> <w>δευρο</w> <w>αποστελω</w> <w>σε</w> <w>εις</w>
+<lb/><w>αιγυπτον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V35"><note type="local">Z 24</note> <w>τουτον</w> <w>ουν</w> <w>τον</w> <w>μωυσην</w> <w>ον</w> <app><rdg type="orig" hand="firsthand"><w>ηρνησαντ<unclear>ε</unclear>ς</w></rdg><rdg type="corr" hand="corrector"><w>ηρνησαντο</w></rdg></app> <w>ειποντες</w> <w>τις</w> <w>σε</w> <w>κατεστησεν</w>
+<lb/><w>αρχοντα</w> <w>και</w> <w>δικαστην</w><pc>,</pc> <w>τουτον</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>αρχοντα</w> <w>και</w> <w>λυτρωτην</w> <w>απεσταλεν</w> <w>εν</w> <w>χειρι</w> <w>αγ
+<lb break="no"/>γελου</w><pc>·</pc> <w>του</w> <w>οφθεντος</w> <w>αυτω</w> <w>εν</w> <w>τη</w> <w>βατω</w><pc>·</pc></ab> <ab n="B05K7V36"><w>ουτος</w> <w>εξηγαγεν</w> <w>αυτους</w><pc>,</pc> <w>ποιησας</w>
+<lb/><w>τερατα</w> <w>και</w> <w>σημεια</w><pc>·</pc> <w>εν</w> <w>τη</w> <w>αιγυπτω</w><pc>·</pc> <w>και</w> <w>εν</w> <w>ερυθρα</w> <w>θαλασση</w><pc>.</pc> <w>και</w> <w>εν</w> <w>τη</w> <w>ερημω</w><pc>,</pc> <w>ε
+<lb break="no"/>τη</w> <w>τεσσαρακοντα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V37"><note type="local">Z 30</note> <w>ουτος</w> <w>εστιν</w> <w>ο</w> <w>μωυσης</w> <w>ο</w> <w>ειπων</w>
+<lb/><w>τοις</w> <w>υιοις</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w> <w>προφητην</w> <w>υμιν</w> <w>αναστησει</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ημων</w> <w>εκ</w> <w>των</w> <w>αδελφων</w> <w>υμων</w>
+<lb/><w>ως</w> <w>εμε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V38" part="I"><note type="local">Z 37</note> <w>ουτος</w> <w>εστιν</w>
+<lb/><w>ο</w> <w>γενομενος</w> <w>εν</w> <w>τη</w> <w>εκκλησια</w> <w>εν</w> <w>τη</w> <w>ερημω</w> <w>μετα</w> <w>του</w> <w>αγγελου</w> <w>του</w> <w>λαλουντος</w> <w>αυτω</w>
+<lb/><app><rdg type="orig" hand="firsthand"><w><gap extent="1-2" unit="char" reason="unspecified"/>ν</w></rdg><rdg type="corr" hand="corrector"><w>εν</w></rdg></app> <w>τω</w> <w>ορει</w> <w>σινα</w> <w>και</w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">πρων</hi></abbr></w> <w>ημων</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="203v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V38" part="F"><note type="local">Z 1</note> <w>ος</w> <w>εδεξατο</w> <w>λογια</w> <w>ζωντα</w> <w>δουναι</w> <w>υμιν</w><pc>·</pc></ab> <ab n="B05K7V39"><w>ω</w> <w>ουκ</w> <w>ηθελησαν</w> <w>υπηκοοι</w> <w>γενεσθαι</w>
+<lb/><w>οι</w> <w>πατερες</w> <w>ημων</w> <w>αλλ</w> <w>απωσαντο</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 3</note> <w>και</w> <w>εστραφησαν</w> <app><rdg type="orig" hand="firsthand"><w>τη</w> <w>καρδια</w></rdg><rdg type="comm" hand="firsthand"><w>ταις</w> <w>καρδιαις</w></rdg></app><note type="local">203® ¬ 3</note> <w>αυτων</w> <w>εις</w> <w>αι
+<lb break="no"/>γυπτον</w></ab> <ab n="B05K7V40"><w>ειποντες</w> <w>τω</w> <w>ααρων</w><note type="local">kommentar</note> <w>ποι
+<lb break="no"/>ησον</w> <w>ημιν</w> <w>θεους</w> <w>οι</w> <w>προπορευσονται</w> <w>ημων</w><pc>·</pc> <w>ο</w> <w>γαρ</w> <w>μωυσης</w> <w>ουτος</w> <w>ος</w> <w>εξηγαγεν</w> <w>ημας</w>
+<lb/><w>εκ</w> <w>γης</w> <w>αιγυπτου</w><pc>,</pc> <w>ουκ</w> <w>οιδαμεν</w> <w>τι</w> <w>γεγονεν</w> <w>αυτω</w><pc>·</pc></ab> <ab n="B05K7V41"><w>και</w> <w>εμοσχοποιησαν</w> <w>εν</w> <w>ταις</w> <w>ημεραις</w>
+<lb/><w>εκειναις</w><pc>·</pc> <w>και</w> <w>ανηγαγον</w> <w>θυσιαν</w> <w>τω</w> <w>ειδωλω</w><pc>·</pc> <w>και</w> <w>ευφραινοντο</w> <w>εν</w> <w>τοις</w> <w>εργοις</w> <w>των</w>
+<lb/><w>ρων</w> <w>αυτων</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V42" part="I"><note type="local">Z 15</note> <w>εστρεψε</w> <w>δε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w><pc>.</pc> <w>και</w> <w>παρεδωκεν</w> <w>αυτους</w> <w>λατρευειν</w><pc>,</pc>
+<lb/><w>τη</w> <w>στρατια</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w> <w>καθως</w> <w>γεγραπται</w> <w>εν</w> <w>τη</w> <w>βιβλω</w> <w>των</w> <w>προφητων</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="204r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V42" part="F"><note type="local">Z 2</note> <w>μη</w> <w>σφαγια</w> <w>και</w> <w>θυσιας</w> <w>προσηνεγκατε</w> <w>μοι</w>
+<lb/><w>ετη</w> <w>τεσσαρακοντα</w> <w>εν</w> <w>τη</w> <w>ερημω</w> <w>οικος</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>.</pc></ab> <ab n="B05K7V43"><w>και</w> <w>ανελαβετε</w> <w>την</w> <w>σκηνην</w> <w>του</w> <w>μο
+<lb break="no"/>λοχ</w> <w>και</w> <w>το</w> <w>αστρον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <app><rdg type="orig" hand="firsthand"/><rdg type="comm" hand="firsthand"><w>υμων</w></rdg></app><note type="local">¬ 16-17</note> <w>ρεφφαν</w><note type="local">204® ¬ 27</note> <w>τους</w> <w>τυπους</w> <w>ους</w> <w>εποιησατε</w> <w>προσκυνειν</w> <w>αυτους</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 23</note> <w>και</w> <w>μετοικιω</w> <w>υμας</w> <w>επεκεινα</w> <w>βαβυλωνος</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V44"><note type="local">Z 26</note> <w>η</w> <w>σκηνη</w> <w>του</w> <w>μαρτυριου</w> <w>ην</w>
+<lb/><w>εν</w> <w>τοις</w> <w>πατρασιν</w> <w>ημων</w> <w>εν</w> <w>τη</w> <w>ερημω</w><pc>·</pc>
+<lb/><note type="local">Z 28</note> <w>καθως</w> <w>διεταξατο</w> <w>ο</w> <w>λαλων</w> <w>τω</w> <w>μωυση</w> <w>ποιησαι</w> <w>αυτην</w> <w>κατα</w> <w>τον</w>
+<lb/><w>τυπον</w> <w>ον</w> <w>εωρακει</w><pc>·</pc></ab> <ab n="B05K7V45" part="I"><w>ην</w> <w>και</w> <w>εισηγαγον</w> <w>διαδεξαμενοι</w> <w>οι</w> <w><abbr type="nomSac"><hi rend="overline">πρες</hi></abbr></w> <w>ημων</w> <w>μετα</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>εν</w> <w>τη</w> <w>κατα
+<lb break="no"/>σχεσει</w> <w>των</w> <w>εθνων</w> <w>ων</w> <w>εξωσεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>απο</w> <w>προσωπου</w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">πρων</hi></abbr></w> <app><rdg type="orig" hand="firsthand"><w>ημων</w></rdg><rdg type="comm" hand="firsthand"><w>υμων</w></rdg></app><note type="local">204b ¬ 5</note><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="204v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V45" part="F"><note type="local">Z 4</note> <w>εως</w> <w>των</w> <w>ημερων</w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w></ab> <ab n="B05K7V46"><w>ος</w> <w>ευρε</w> <w>χαριν</w> <w>ενωπιον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 8</note> <w>και</w> <w>ητησατο</w> <w>ευρειν</w> <w>σκηνωμα</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w> <w>ιακωβ</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V47"><note type="local">Z 10</note> <w>σολομων</w> <w>δε</w> <w>οικονομησεν</w> <w>αυτω</w> <w>οικον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V48"><note type="local">Z 14</note> <w>αλλ</w> <w>ουχ</w> <w>ο</w> <w>υψιστος</w> <w>εν</w>
+<lb/><w>χειροποιητοις</w> <w>ναοις</w> <w>κατοικει</w> <w>καθως</w> <w>και</w> <w>ο</w> <w>προφητης</w> <w>λεγει</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V49"><note type="local">Z 17</note> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ουνος</hi></abbr></w> <w>μοι</w> <w>θρονος</w><pc>·</pc> <w>η</w> <w>δε</w> <w>γη</w> <w>υποποδιον</w> <w>των</w> <w>ποδων</w> <w>μου</w><pc>·</pc> <w>ποιον</w> <w>οικον</w> <w>οικοδομη
+<lb break="no"/>σετε</w> <w>μοι</w> <w>λεγει</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w><pc>·</pc> <w>η</w> <w>τις</w> <w>τοπος</w> <w>της</w> <w>καταπαυσεως</w> <w>μου</w><pc>·</pc></ab> <ab n="B05K7V50"><w>ουχι</w> <w>η</w> <w>χειρ</w> <w>μου</w> <w>εποιησε</w> <w>ταυτα</w>
+<lb/><w>παντα</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V51"><note type="local">Z 29</note> <w>σκληροτραχηλοι</w> <w>και</w> <w>απεριτμητοι</w> <w>τη</w> <w>καρδια</w> <w>και</w> <w>τοις</w> <w>ωσιν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 33</note> <w>υμεις</w> <w>αει</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w> <w>τω</w> <w>αγιω</w> <w>αντιπιπτετε</w> <w>ως</w> <w>οι</w> <w><abbr type="nomSac"><hi rend="overline">πρες</hi></abbr></w> <w>υμων</w> <w>και</w> <w>υμεις</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V52" part="I"><note type="local">Z 37</note> <w>τινα</w> <w>των</w> <w>προφητων</w>
+<lb/><w>ουκ</w> <w>εδιωξαν</w> <w>οι</w> <w><abbr type="nomSac"><hi rend="overline">πρες</hi></abbr></w> <w>υμων</w> <w>και</w> <w>απεκτειναν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 42</note> <w>τους</w> <w>προκαταγγειλαντας</w> <w>περι</w> <w>της</w> <w>ελευσεως</w> <w>του</w> <w>δικαιου</w><pc>.</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="205r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="M"><div n="B05K7" type="chapter" part="M"><ab n="B05K7V52" part="F"><w>δυο</w> <w>αυτοις</w> <w>εγκαλει</w> <w>ου</w> <w>νυν</w> <w>υμεις</w> <w>προδοται</w> <w>και</w> <w>φονεις</w> <w>γεγενεισθε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V53"><note type="local">Z 3</note> <w>οιτινες</w> <w>ελαβετε</w> <w>τον</w> <w>νομον</w> <w>εις</w> <w>διαταγας</w> <w>αγγελων</w> <w>και</w> <w>ουκ</w> <w>εφυλαξατε</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V54"><note type="local">Z 8</note> <w>ακουοντες</w> <w>δε</w>
+<lb/><w>ταυτα</w> <w>διεπριοντο</w> <w>ταις</w> <w>καρδιαις</w> <w>αυτων</w><pc>·</pc> <w>και</w> <w>εβρυχον</w> <w>τους</w> <w>οδοντας</w> <w>επ</w> <w>αυτον</w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V55"><note type="local">Z 13</note> <w>υπαρχων</w> <w>δε</w> <w>πληρης</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>αγιου</w> <w>ατενισας</w> <w>εις</w>
+<lb/><w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><pc>,</pc> <w>ειδε</w> <w>δοξαν</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>εστωτα</w> <w>εκ</w> <w>δεξιων</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab> <ab n="B05K7V56"><w>και</w> <w>ειπεν</w><pc>·</pc> <w>ιδου</w>
+<lb/><w>θεωρω</w> <w>τους</w> <w><abbr type="nomSac"><hi rend="overline">ουνους</hi></abbr></w> <w>ανεωγμενους</w><pc>·</pc> <w>και</w> <w>τον</w> <w>υιον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><pc>,</pc> <w>εκ</w> <w>δεξιων</w> <w>εστωτα</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V57"><note type="local">Z 26</note> <w>κραξαντες</w> <w>δε</w> <w>φωνη</w> <w>μεγαλη</w> <w>συνεσχον</w> <w>τα</w> <w>ωτα</w> <w>αυτων</w> <w>και</w> <w>ωρμησαν</w>
+<lb/><w>ομοθυμαδον</w> <app><rdg type="orig" hand="firsthand"><w>επ<gap extent="1-2" unit="char" reason="unspecified"/></w></rdg><rdg type="corr" hand="firsthand"><w>επ</w> <w>αυτον</w><pc>·</pc></rdg></app><note type="local">kommentar</note>
+<lb/></ab> <ab n="B05K7V58"><note type="local">Z 34</note> <w>και</w> <w>εκβαλλοντες</w>
+<lb/><w>εξω</w> <w>της</w> <w>πολεως</w> <w>ελιθοβολουν</w><pc>·</pc><note type="local">kommentar</note>
+<lb/><note type="local">Z 37</note> <w>και</w> <w>οι</w> <w>μαρτυρες</w> <w>απεθοντο</w> <w>τα</w> <w>ιματια</w> <w>αυτων</w><pc>·</pc>
+<lb/><w>παρα</w> <w>τους</w> <w>ποδας</w> <w>νεανιου</w> <w>καλουμενου</w> <w>σαυλου</w></ab> <ab n="B05K7V59" part="I"><w>και</w> <w>ελιθοβολουν</w> <w>τον</w> <w>στεφανον</w><pc>·</pc><note type="local">kommentar</note>
+</ab></div></div>
+<pb n="205v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B05" type="book" part="F"><div n="B05K7" type="chapter" part="F"><ab n="B05K7V59" part="F"><note type="local">Z 2</note> <w>επικαλουμενον</w> <w>και</w> <w>λεγοντα</w><pc>.</pc> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χε</hi></abbr></w> <w>δεξαι</w> <w>το</w> <app><rdg type="orig" hand="firsthand"><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w></rdg><rdg type="corr" hand="firsthand"><w>πνευμα</w></rdg></app> <w>μου</w><pc>·</pc><note type="local">kommentar</note></ab></div></div>
+</body></text></TEI>

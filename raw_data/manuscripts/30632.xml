@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="632">632</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Rome</settlement>
+            <repository>Biblioteca Vallicelliana</repository>
+            <idno>B. 86</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+<witness xml:id="firsthandV"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="4880" type="page"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K6"><ab n="B27K6V6" part="F"><w>χοινιξ</w> <w>σιτου</w> <w>δηναριου</w><pc>·</pc> <w>και</w> <w>τρεις</w> <w>χοινικες</w> <w>κριθης</w> <w>δηναριου</w><pc>·</pc><lb/><w>και</w> <w>το</w> <w>ελαιον</w> <w>και</w> <w>τον</w> <w>οινον</w> <w>μη</w> <w>αδικησης</w><pc>·</pc><lb rend="hang"/></ab> <ab n="B27K6V7"><w><hi rend="cap" height="2">κ</hi>αι</w> <w>οτε</w> <w>ηνοιξε</w> <w>την</w> <w>σφραγιδα</w> <w>την</w> <w>τεταρτην</w><pc>,</pc><lb/><w>ηκουσα</w> <w>του</w> <w>τεταρτου</w> <w>ζωου</w> <w>λεγοντος</w><pc>·</pc> <w>ερχου</w><pc>·</pc><lb/></ab> <ab n="B27K6V8"><w>και</w> <w>ειδον</w> <w>και</w> <w>ιδου</w> <w>ιππος</w> <w>χλωρος</w><pc>·</pc> <w>και</w> <w>ο</w> <w>κα<lb break="no"/>θημενος</w> <w>επανω</w> <w>αυτου</w><pc>,</pc> <w>ονομα</w> <w>αυτω</w> <w>ο</w> <w>θα<lb break="no"/>νατος</w><pc>·</pc> <w>και</w> <w>ο</w> <w>αδης</w> <w>ηκολουθει</w> <w>αυτω</w><pc>·</pc> <w>και</w><lb/><w>εδοθη</w> <w>αυτω</w> <w>εξουσια</w> <w>επι</w> <w>το</w> <w>τεταρτον</w> <w>της</w><lb/><w>γης</w><pc>,</pc> <w>αποκτειναι</w> <w>εν</w> <w>ρομφαια</w> <w>και</w> <w>εν</w> <w>λιμω</w><lb/><w>και</w> <w>εν</w> <w>θανατω</w> <w>και</w> <w>υπο</w> <w>των</w> <w>θηριων</w> <w>της</w><lb/><w>γης</w><pc>·</pc></ab> <ab n="B27K6V9"><w>και</w> <w>οτε</w> <w>ηνοιξε</w> <w>την</w> <w>πεμπτην</w> <w>σφραγι<lb rend="hang" break="no"/><hi rend="cap" height="3">δ</hi>α</w> <w>ειδον</w> <w>υποκατω</w> <w>του</w> <w>θυσιαστηριου</w> <w>τας</w><lb/><w>ψυχας</w> <w>των</w> <w>εσφαγμενων</w> <w>δια</w> <w>τον</w> <w>λογον</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc> <w>και</w> <w>δια</w> <w>την</w> <w>μαρτυριαν</w> <app><rdg type="orig" hand="firsthand"><w>του</w> <w>αρνιου</w></rdg><rdg type="corr" hand="corrector" rend="other"></rdg></app> <w>ην</w><lb/><w>ειχον</w><pc>·</pc></ab> <ab n="B27K6V10"><w>και</w> <app><rdg type="orig" hand="firsthandV"><w>εκραξον</w></rdg><rdg type="corr" hand="corrector" rend="erased"><seg type="line" subtype="overwritten" n="@P4CL-632"><w>εκραζον</w></seg></rdg></app><app><rdg type="orig" hand="firsthandV"><w>φωνην</w> <w>μεγαλην</w></rdg><rdg type="corr" hand="corrector" rend="erased"><w>φωνη</w> <w>μεγαλη</w></rdg></app> <w>λε<lb break="no"/>γοντες</w><pc>·</pc> <w>εως</w> <w>ποτε</w> <w>ο</w> <w>δεσποτης</w> <w>ο</w> <w>αγιος</w> <w>και</w><lb/><w>αληθινος</w><pc>·</pc> <w>ου</w> <w>κρινεις</w> <w>και</w> <w>εκδικεις</w> <w>το</w> <w>αι<lb break="no"/>μα</w> <w>ημων</w> <w>εκ</w> <w>των</w> <w>κατοικουντων</w> <w>επι</w> <w>της</w> <w>γης</w><pc>·</pc><lb/></ab> <ab n="B27K6V11"><w>και</w> <w>εδοθη</w> <w>αυτοις</w> <app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="corrector"><seg type="line" subtype="above" n="@P4CL-632"><w>εκαστω</w></seg></rdg></app> <w>στολη</w> <w>λευκη</w><pc>·</pc> <w>και</w> <w>ερρεθη</w> <app><rdg type="orig" hand="firsthand"></rdg><rdg type="corr" hand="corrector"><seg type="margin" subtype="pageright" n="@P4-632"><w>μικρον</w></seg></rdg></app><lb/><w>αυτοις</w> <w>ινα</w> <w>αναπαυσωνται</w> <w>ετι</w> <w>χρονον</w><pc>·</pc><lb/><w>εως</w> <w>πληρωσουσι</w> <w>και</w> <w>οι</w> <w>συνδουλοι</w> <w>αυτων</w><pc>·</pc><lb/><w>και</w> <w>οι</w> <w>αδελφοι</w> <w>αυτων</w><pc>·</pc> <w>και</w> <w>οι</w> <w>μελλοντες</w><lb/><w>αποκτενεσθαι</w> <w>ως</w> <w>και</w> <w>αυτοι</w><pc>·</pc></ab> <ab n="B27K6V12"><w>και</w> <w>ειδον</w><lb rend="hang"/><w><hi rend="cap" height="2">ο</hi>τε</w> <w>ηνοιξε</w> <w>την</w> <w>σφραγιδα</w> <w>την</w> <w>εκτην</w><pc>·</pc> <w>και</w> <w>σεισμος</w><lb/><w>μεγας</w> <w>εγενετο</w><pc>·</pc> <w>και</w> <w>ο</w> <w>ηλιος</w> <w>μελας</w> <w>εγενετο</w> <w>ως</w><lb/><w>σακκος</w> <w>τριχινος</w><pc>·</pc> <w>και</w> <w>η</w> <w>σεληνη</w> <w>ολη</w> <w>εγενετο</w><lb/><w>ως</w> <w>αιμα</w><pc>·</pc></ab> <ab n="B27K6V13" part="I"><w>και</w> <w>οι</w> <w>αστερες</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w><pc>,</pc> <w>επεσον</w> <w>επι</w><lb/><w>την</w> <w>γην</w><pc>·</pc> <w>ως</w> <w>συκη</w> <w>βαλουσα</w> <w>τους</w> <w>ολυνθους</w></ab></div> </div></body></text></TEI>

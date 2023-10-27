@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0140">0140</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Egypt</country>
+            <settlement>Sinai</settlement>
+            <repository>Saint Catherine's Monastery</repository>
+            <idno>Harris App. 41</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V34"><w>αναστας</w> <w>τις</w> <w>εν</w> <w>τω</w> <w>συνεδριω</w> <w>φαρισαιος</w><lb/><w><unclear>ον</unclear>οματι</w> <w>γαμαλιηλ</w><pc>.</pc><lb/><w><unclear>ν</unclear>ομοδιδασκαλος</w><pc>·</pc> <w>τι<lb break="no"/>μιος</w> <w>παντι</w> <w>τω</w> <w>λαω</w><lb/><w>εκελευσεν</w> <w>εξω</w> <w>βρα<lb break="no"/>χυ</w> <w>τους</w> <w>αποστολους</w><lb/><w>ποιησαι</w><pc>·</pc></ab> <ab n="B05K5V35"><w>ειπεν</w> <w>τε</w> <w>προς</w><lb/><w>αυτους</w><pc>·</pc> <w>ανδρες</w> <w>ισ<lb break="no"/>ραηλιται</w> <w>προσεχεται</w><lb/><app><rdg type="orig" hand="firsthand"><w>αυτοις</w></rdg><rdg type="corr" hand="corrector"><w>εαυτοις</w></rdg></app> <w>επι</w> <w>τοις</w> <w><abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></w><lb/><w>τουτοις</w><pc>·</pc> <w>τι</w> <w>μελλε<lb break="no"/>τε</w> <w>πρασσειν</w><pc>·</pc></ab> <ab n="B05K5V36" part="I"><w>προ</w> <w>γαρ</w><lb/><w>τουτων</w> <w>των</w> <w>η<lb break="no"/>μερων</w><pc>·</pc> <w>ανεστι</w> <w>θευ<lb break="no"/>δας</w> <w>λεγων</w> <w>ειναι</w> <w>τι<lb break="no"/>να</w> <w>εαυτον</w> <w>ω</w> <w part="I">προσε<lb break="no"/></w></ab></div> </div>
+<pb n="1v" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V36" part="F"><w part="F">κλιθησαν</w> <w>ανδρων</w><lb/><w>αριθμος</w> <w>ως</w> <w>τερακο<lb break="no"/>σιων</w><pc>·</pc> <w>ος</w> <w>ανηρεθη</w><pc>·</pc> <w>και</w><lb/><w>παντες</w> <w>οσοι</w> <w>επειθον<lb break="no"/>το</w> <w>αυτω</w> <w>διελυθησαν</w><lb/><w>και</w> <w>εγενοντο</w> <w>εις</w> <w>ουθεν</w><lb/></ab> <ab n="B05K5V37"><w>μετα</w> <w>τουτον</w> <w>ανεστη</w><lb/><w>ιουδας</w> <w>ο</w> <w>γαλιλαιος</w> <w>εν</w><lb/><w>ταις</w> <w>ημεραις</w> <w>της</w> <w>α<lb break="no"/>πογραφης</w> <w>και</w> <w>απεσ<lb break="no"/>τησεν</w> <w>λαον</w> <w>ικανον</w><lb/><w>οπισω</w> <w>αυτου</w><pc>·</pc> <w>κακεινος</w><lb/><w>απωλετο</w> <w>και</w> <w>παντες</w><lb/><w>οσοι</w> <w>επιθοντο</w> <w>αυτω</w><lb/><w>διεσκορπισθησαν</w><pc>·</pc></ab> <ab n="B05K5V38" part="I"><w>και</w> <w>τα</w><lb/><w>νυν</w> <w>λεγω</w> <w>υμιν</w><pc>·</pc> <w>αποστη<lb break="no"/>τε</w> <w>απο</w> <w>των</w> <w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w> <w>του<lb break="no"/>των</w> <w>και</w> <w>εασατε</w> <w>αυτους</w><lb/><w><unclear>ο</unclear>τι</w> <w>εαν</w> <w><unclear>η</unclear></w> <w>εξ</w> <w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w><pc>·</pc></ab></div> </div></body></text></TEI>

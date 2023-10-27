@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0245">0245</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Birmingham</settlement>
+            <repository>University of Birmingham Cadbury Research Library</repository>
+            <idno>Mingana Georg. 7</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B23"><div type="chapter" n="B23K3"><ab n="B23K3V23" part="F"><w part="F"><supplied reason="unspecified">ινα</supplied></w> <w><supplied reason="unspecified">πισ</supplied>τευομεν</w> <w>τω</w> <w>ονο<lb break="no"/><supplied reason="unspecified">ματι</supplied></w> <w>του</w> <w>υιου</w> <w>αυτου</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><lb/><w><unclear>και</unclear></w> <w>αγαπωμεν</w> <w>αλληλους</w><lb/><w>καθως</w> <w>εδωκεν</w> <w>εντολην</w><lb/><w>ημιν</w></ab> <ab n="B23K3V24"><w>και</w> <w>ο</w> <w>τηρων</w> <w>τα<unclear>ς</unclear></w> <w>εν<lb break="no"/>τολας</w> <w>αυτου</w> <w>εν</w> <w>αυτω</w> <w>με<lb break="no"/>νει</w> <w>και</w> <w>αυτος</w> <w>εν</w> <w>αυτω</w><pc>·</pc><lb/><w>και</w> <w>εν</w> <w>τουτω</w> <w>γεινωσκο<lb break="no"/>μεν</w> <w>οτι</w> <w>μενει</w> <w>εν</w> <w>ημιν</w><lb/><w>εκ</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>ου</w> <w>ημιν</w> <w>εδω<lb break="no"/>κεν</w><pc>·</pc></ab></div> <div type="chapter" n="B23K4"><ab n="B23K4V1" part="I"><w>αγαπητοι</w> <w>μη</w> <w>παν<lb break="no"/>τι</w> <w><abbr type="nomSac"><hi rend="overline">π</hi><supplied source="na28" reason="unspecified"><hi rend="overline">νι</hi></supplied></abbr></w> <w><supplied reason="unspecified">πιστευ</supplied><unclear>ε</unclear>ται</w> <w part="I">α<supplied reason="unspecified">λλα</supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B23"><div type="chapter" n="B23K4"><ab n="B23K4V3" part="F"><w part="F">το</w> <w>του</w> <w>αντιχριστο<supplied reason="unspecified">υ</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">ακη</supplied><lb break="no"/>κοαται</w> <w>ο<unclear>τι</unclear></w> <w>ερχεται</w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">νυν</supplied></w><lb/><w>εν</w> <w>τω</w> <w>κοσμω</w> <w>εστιν</w> <w><supplied reason="unspecified">ηδη</supplied></w><lb/></ab> <ab n="B23K4V4"><w>υμεις</w> <w>ε<unclear>κ</unclear></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>εσται</w> <w>τε<lb break="no"/>κνια</w><pc>·</pc> <w>κ<supplied reason="unspecified">αι</supplied></w> <w>ενεικησατε</w> <w>αυ<lb break="no"/>τους</w><pc>·</pc> <w>οτι</w> <w>μειζων</w> <w>εστιν</w><lb/><w>ο</w> <w>εν</w> <w>υμιν</w> <w>η</w> <w>ο</w> <w>εν</w> <w>τω</w> <w>κοσ<lb break="no"/>μω</w></ab> <ab n="B23K4V5"><w>αυτοι</w> <w>εκ</w> <w>του</w> <w><supplied reason="unspecified">κοσμου</supplied></w><lb/><w>εισιν</w><pc>·</pc> <w>δια</w> <w>του<unclear>το</unclear></w> <w>ε<unclear>κ</unclear></w> <w>του</w><lb/><w>κοσμου</w> <w>λαλουσι<supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">και</supplied></w><lb/><w>ο</w> <w>κοσμος</w> <w>αυτων</w> <w>ακου<lb break="no"/><unclear>ει</unclear></w></ab> <ab n="B23K4V6" part="I"><w><supplied reason="unspecified">η</supplied>μεις</w> <w><supplied reason="unspecified">εκ</supplied></w> <w><unclear>τ</unclear>ο<supplied reason="unspecified">υ</supplied></w> <w><supplied source="na28" reason="unspecified" ext="inabbr"><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></supplied></w> <w>εσμεν</w><lb/><w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">γινωσκων</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><abbr type="nomSac"><supplied source="na28" reason="unspecified"><hi rend="overline">θ</hi></supplied><hi rend="overline">ν</hi></abbr></w> <w part="I">α<supplied reason="unspecified">κου</supplied><lb break="no"/><supplied reason="unspecified">ει</supplied></w></ab></div> </div></body></text></TEI>

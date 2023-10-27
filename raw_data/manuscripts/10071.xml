@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P71">P71</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Oxford</settlement>
+            <repository>Sackler Library</repository>
+            <idno>P. Oxy. 2385</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="001r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K19"><ab n="B01K19V10"><w><supplied reason="unspecified">λε</supplied><lb break="no"/><supplied reason="unspecified">γο</supplied><unclear>υ</unclear><supplied reason="unspecified">σιν</supplied></w> <w><unclear>αυτ</unclear><supplied reason="unspecified">ω</supplied></w> <w><unclear>οι</unclear></w> <w><unclear>μα</unclear><supplied reason="unspecified">θηται</supplied></w><lb/><w>ει</w> <w>ουτως</w> <w>εστιν</w> <w>αιτια</w> <w><unclear>το</unclear><supplied reason="unspecified">υ</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ανου</hi></supplied></abbr></w><lb/><w><supplied reason="unspecified">μετα</supplied></w> <w><unclear>τ</unclear>ης</w> <w>γυναικος</w> <w><supplied reason="unspecified">ου</supplied></w> <w><supplied reason="unspecified">συμ</supplied><lb break="no"/><supplied reason="unspecified">φε</supplied><unclear>ρει</unclear></w> <w><unclear>γ</unclear>αμησαι</w></ab> <ab n="B01K19V11" part="I"><w>ο</w> <w>δε</w> <w><supplied reason="unspecified">ειπεν</supplied></w><lb/><w><supplied reason="unspecified">α</supplied><unclear>υτ</unclear>οις</w> <w>ου</w> <w>π<unclear>α</unclear>ντες</w> <w>χ<unclear>ω</unclear><supplied source="na28" reason="lacuna">ρουσιν</supplied></w></ab></div> </div>
+<pb n="001v" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K19"><ab n="B01K19V17" part="F"><w><unclear>θε</unclear><supplied reason="unspecified">λε</supplied><unclear>ις</unclear></w> <w><unclear>ε</unclear><supplied reason="unspecified">ι</supplied><unclear>ς</unclear></w> <w><unclear>τη</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">ζωην</supplied></w><lb/><w><unclear>εισε</unclear>λθειν</w> <w>τ<unclear>η</unclear><supplied reason="unspecified">ρ</supplied><unclear>ε</unclear><supplied reason="unspecified">ι</supplied></w> <w><supplied reason="unspecified">τας</supplied></w> <w><supplied reason="unspecified">εν</supplied><lb break="no"/><unclear>τ</unclear>ολας</w></ab> <ab n="B01K19V18" part="I"><w>λεγει</w> <w>α<unclear>υτ</unclear><supplied reason="unspecified">ω</supplied></w> <w><supplied reason="unspecified">ποιας</supplied></w><lb/><w>ο</w> <w>δ<unclear>ε</unclear></w> <w>εφη</w> <w><unclear>τ</unclear>ο</w> <w>ο<unclear>υ</unclear></w> <w><unclear>φ</unclear><supplied reason="unspecified">ονευ</supplied><lb break="no"/>σ<unclear>η</unclear>ς</w> <w>ου</w> <w><unclear>μοι</unclear>χευσ<unclear>ει</unclear><supplied source="na28" reason="lacuna">ς</supplied></w> <w><supplied source="na28" reason="lacuna">ου</supplied></w></ab></div> </div></body></text></TEI>

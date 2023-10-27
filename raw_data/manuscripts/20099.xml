@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="099">099</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque Nationale</repository>
+            <idno>Copt. 129,8, fol. 162</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<note type="local" xml:id="BKV-099-1">Die Verso-Seite ist nach dem Photo im Majuskel-Ordner gemacht, die Recto-Seite nach den Photos im Haenger. Da aber diese Seite stark druchscheint und kaum zu lesen ist, ist das Transkript nach der Ed.princ. von Amelineau gemacht, mit den Korrekturen von Franz Schmitz</note><pb n="161" type="page"/><note type="editorial" xml:id="BKV-099-2">Papyrological verso</note><cb n="1"/><lb/><div type="book" n="B02"><div type="chapter" n="B02K16"><ab n="B02K16V6"><w><supplied source="na28" reason="illegible">εστιν</supplied></w> <w>ωδε</w> <w>ιδε</w><lb/><w>ο</w> <w>τοπος</w> <w>οπου</w><lb/><w>εθηκαν</w> <w>αυτον</w><lb/></ab> <ab n="B02K16V7"><w>αλλ</w> <w>υπαγετε</w><lb/><w>ειπατε</w> <w>τοις</w> <w>μα<lb break="no"/>θηταις</w> <w>αυτου</w><lb/><w>και</w> <w>τω</w> <w>πετρω</w><lb/><w>οτι</w> <w>προαγει</w> <w>υ<lb break="no"/>μας</w> <w>εις</w> <w>την</w> <w>γα<lb break="no"/>λιλαιαν</w> <w>εκει</w><lb/><w>αυτον</w> <w>οψεσθε</w><lb/><w>καθως</w> <w>ειπεν</w><lb/><w>υμιν</w></ab> <ab n="B02K16V8"><w>και</w> <w>ακου<lb break="no"/>σασαι</w> <w>εξηλθον</w><lb/><w>απο</w> <w>του</w> <w>μνη<lb break="no"/>μειου</w> <w>και</w> <w>εφυ<lb break="no"/>γον</w> <w>ειχεν</w><lb/><w>γαρ</w> <w>αυτας</w> <w>τρο<lb break="no"/>μος</w> <w>και</w> <w>εκστα<lb break="no"/>σις</w> <w>και</w> <w>ουδενι</w><lb/><w>ουδεν</w> <w>ειπον</w><lb/><w>εφοβουντο</w><lb/><w>γαρ</w> <gap reason="illegible" unit="line" extent="6"/><lb/><w><supplied reason="unspecified">π</supplied>αντα</w> <w>δε</w> <w>τα</w> <w>π<supplied reason="unspecified">αρ</supplied><lb break="no"/>αγγελμεν<supplied reason="unspecified">α</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied>οις</w> <w>περι</w> <w><supplied reason="unspecified">το</supplied>ν</w><cb n="2"/><lb/><w><supplied reason="unspecified">πετ</supplied>ρον</w> <w>συν<lb break="no"/>τομως</w> <w>εξηγ<lb break="no"/>γειλαν</w><lb/><w>μετα</w> <w>δε</w> <w>ταυτα</w><lb/><w>και</w> <w>αυτος</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>εφανη</w> <w>αυτοις</w><lb/><w>απ</w> <w>ανατολης</w><lb/><w>ηλιου</w> <w>και</w> <w>αχρι</w><lb/><w>δυσεως</w> <w>εξαπε<lb break="no"/>στειλεν</w> <w>δι</w> <w>αυ<lb break="no"/>των</w> <w>το</w> <w>ιερον</w><lb/><w>και</w> <w>αφθαρτον</w><lb/><w>κηρυγμα</w> <w>της</w><lb/><w>αιωνιου</w> <w>σωτη<lb break="no"/>ριας</w> <w>αμην</w> <gap reason="illegible" unit="line" extent="6"/><lb/><w>ειχεν</w> <w>γαρ</w> <w>αυτας</w><lb/><w>τρομος</w> <w>και</w> <w>εκ<lb break="no"/>στασις</w> <w>και</w> <w>ου<lb break="no"/>δενι</w> <w>ουδεν</w> <w>ει<lb break="no"/>πον</w> <w>εφοβουν<lb break="no"/>το</w> <w>γαρ</w><lb/></ab> <ab n="B02K16V9" part="I"><w>αναστας</w> <w>δε</w> <w>πρωι</w><lb/><w>πρωτη</w> <w>σαββα<lb break="no"/>του</w> <w>εφανη</w> <w>πρω<lb break="no"/>τον</w> <w>μαρια</w> <w>τη</w><lb/><w>μαγδαληνη</w></ab></div> </div>
+<pb n="162" type="page"/><cb n="1"/><lb/><div type="book" n="B02"><div type="chapter" n="B02K16"><ab n="B02K16V9" part="F"><w part="F"><supplied reason="unspecified">α</supplied><unclear>φ</unclear></w> <w>ης</w> <w>εκ<unclear>β</unclear>εβλ<unclear>η</unclear><lb break="no"/>κει</w> <w>επτα</w> <w>δαι<unclear>μ</unclear>ο<lb break="no"/>νεια</w></ab> <ab n="B02K16V10"><w><unclear>εκ</unclear>ει<lb break="no"/><unclear>ν</unclear>η</w> <w>π<unclear>ο</unclear>ρευθεισα</w><lb/><w><unclear>απηγγ</unclear>ειλεν</w><lb/><w>τοις</w> <w>μετ</w> <w>αυτ<unclear>ου</unclear></w><lb/><w>γενομενοις</w><lb/><w>πενθουσι</w> <w>και</w><lb/><w>κλαιουσιν</w><lb/></ab> <ab n="B02K16V11"><w>εκεινοι</w> <w>ακου<lb break="no"/>σαντες</w> <w>οτι</w> <w>ζη</w><lb/><w>και</w> <w>εθεαθ<unclear>η</unclear></w> <w>υ<unclear>π</unclear></w><lb/><w>αυτης</w> <w>ηπιστη<lb break="no"/>σαν</w></ab> <ab n="B02K16V12"><w>μετα</w><lb/><w>δε</w> <w>ταυτα</w> <w>δυσιν</w><lb/><w>ε<unclear>ξ</unclear></w> <w>α<unclear>υ</unclear>των</w> <w>πε<lb break="no"/>ρι<unclear>π</unclear>ατ<unclear>ο</unclear>υσιν</w><lb/><w>εφαν<unclear>ερ</unclear>ωθη</w><lb/><w>εν</w> <w>ετ<unclear>ερα</unclear></w> <w><unclear>μ</unclear>ορ<lb break="no"/>φη</w> <w>πορευο<unclear>μ</unclear>ε<lb break="no"/>νοις</w> <w>εις</w> <w>αγρον</w><lb/></ab> <ab n="B02K16V13"><w>κακεινοι</w> <w>απελ<lb break="no"/>θοντες</w> <w>απηγ<lb break="no"/>γειλαν</w> <w>τοις</w><lb/><w>λυποις</w> <w>ου<lb break="no"/>δε</w> <w>εκεινοις</w><lb/><w>επιστευσαν</w><lb/></ab> <ab n="B02K16V14"><w>υστε<unclear>ρ</unclear>ον</w> <w>ανα<lb break="no"/>κει<supplied reason="unspecified">μ</supplied>ε<unclear>νο</unclear>ις</w> <w>αυ<lb break="no"/>τοις</w> <w>τοις</w> <w>εν<lb break="no"/>δεκα</w> <w>εφανε<lb break="no"/><supplied reason="unspecified">ρ</supplied>ωθη</w> <w>και</w><cb n="2"/><lb/><w>ωνειδισ<unclear>ε</unclear><supplied reason="unspecified">ν</supplied></w> <w>τ<supplied reason="unspecified">ην</supplied></w><lb/><w>απιστιαν</w> <w>αυ<unclear>των</unclear></w><lb/><w>και</w> <w>σκληροκαρ<lb break="no"/>διαν</w> <w>οτι</w> <w>τοις</w><lb/><w>θεασαμενοι<unclear>ς</unclear></w><lb/><w><unclear>α</unclear>υτον</w> <w>εγηγερ<lb break="no"/>μενον</w> <w>ουκ</w> <w>ε<lb break="no"/>πιστευσαν</w><lb/></ab> <ab n="B02K16V15"><w>και</w> <w>ειπε<unclear>ν</unclear></w> <w>αυτοις</w><lb/><w>πορευθεντες</w><lb/><w>εις</w> <w>τον</w> <w>κοσ<lb break="no"/>μον</w> <w>απαντα</w><lb/><w>κηριξατε</w> <w>το</w><lb/><w><unclear>ε</unclear>υαγγελιον</w><lb/><w>παση</w> <w>τη</w> <w>κτι<lb break="no"/>σει</w></ab> <ab n="B02K16V16"><w>ο</w> <w>πισ<unclear>τε</unclear>υ<lb break="no"/>σας</w> <w>και</w> <w>βαπτισ<lb break="no"/>θεις</w> <w>σωθησε<lb break="no"/>ται</w> <w>ο</w> <w>δε</w> <w>απισ<lb break="no"/>τησας</w> <w>κατακρι<lb break="no"/>θησεται</w></ab> <ab n="B02K16V17"><w>ση<lb break="no"/>μεια</w> <w>δε</w> <w>τοις</w><lb/><w>π<unclear>ι</unclear>στευσασιν</w><lb/><w><unclear>π</unclear><supplied reason="unspecified">αρ</supplied><unclear>α</unclear>κολουθη<lb break="no"/>σ<unclear>ε</unclear>ι</w> <w>ταυτα</w> <w>εν</w><lb/><w>τ<unclear>ω</unclear></w> <w>ονοματι</w><lb/><w><unclear>μου</unclear></w> <w>δαιμονια</w><lb/><w><unclear>ε</unclear>κβα<unclear>λ</unclear>ουσιν</w><lb/></ab> <ab n="B02K16V18" part="I"><w><supplied reason="unspecified">κ</supplied><unclear>α</unclear><supplied reason="unspecified">ι</supplied></w> <w>εν</w> <w>ταις</w> <w>χε<supplied reason="unspecified">ρ</supplied><lb break="no"/><supplied reason="unspecified">σ</supplied><unclear>ι</unclear>ν</w> <w>οφεις</w> <w>α<unclear>ρ</unclear><supplied reason="unspecified">ου</supplied><lb break="no"/><supplied reason="unspecified">σ</supplied>ιν</w> <w>καν</w> <w>θα<unclear>ν</unclear><supplied reason="unspecified">α</supplied><lb break="no"/><supplied reason="unspecified">σ</supplied><unclear>ι</unclear>μον</w> <w>τι</w> <w part="I">πιω<supplied reason="unspecified">σιν</supplied></w></ab></div> </div></body></text></TEI>

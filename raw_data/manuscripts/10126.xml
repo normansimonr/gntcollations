@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P126">P126</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Istituto Papirologico </repository>
+            <idno>PSI inv. 1497</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B19"><div type="chapter" n="B19K13"><ab n="B19K13V12" part="F"><w part="F"><supplied reason="unspecified">αιματος</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">λαον</supplied></w> <w>εξω</w> <w>τη<unclear>ς</unclear></w> <w>πυλης</w> <w><unclear>τ</unclear>ης</w> <w>πα<lb break="no"/><supplied reason="unspecified">ρεμβολης</supplied></w> <w><supplied reason="unspecified">επαθεν</supplied></w></ab> <ab n="B19K13V13" part="I"><w><supplied reason="unspecified">τοιν</supplied><unclear>υν</unclear></w> <w>εξερχω<supplied reason="unspecified">μ</supplied>εθα</w><lb/><w><supplied reason="unspecified">προς</supplied></w> <w><supplied reason="unspecified">αυτον</supplied></w> <w><supplied reason="unspecified">εξω</supplied></w> <w><supplied reason="unspecified">της</supplied></w> <w><supplied reason="unspecified">παρεμβολης</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w part="I"><supplied reason="unspecified">ο</supplied><unclear>νει</unclear><lb break="no"/><supplied reason="unspecified">δισμον</supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B19"><div type="chapter" n="B19K13"><ab n="B19K13V19" part="F"><w part="F">απ<unclear>οκα</unclear>τασταθω</w> <w>υμιν</w></ab> <ab n="B19K13V20" part="I"><w><unclear>ο</unclear></w> <w><unclear>δ</unclear><supplied reason="unspecified">ε</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θς</hi></supplied></abbr></w> <w><supplied reason="unspecified">της</supplied></w> <w><supplied reason="unspecified">ειρηνης</supplied></w><lb/><w>ο</w> <w>α<unclear>να</unclear>γαγων</w> <w>ε<unclear>κ</unclear></w> <w><unclear>ν</unclear><supplied reason="unspecified">εκρων</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">ποιμενα</supplied></w> <w><supplied reason="unspecified">των</supplied></w><lb/><w><unclear>πρ</unclear><supplied reason="unspecified">οβατων</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">μεγαν</supplied></w> <w><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">αιματι</supplied></w> <w part="I"><supplied reason="unspecified">διαθηκης</supplied></w></ab></div> </div></body></text></TEI>

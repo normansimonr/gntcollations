@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0309">0309</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Köln</settlement>
+            <repository>Institut für Altertumskunde</repository>
+            <idno>P. Köln, Inv. 806</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K20"><ab n="B04K20V22" part="F"><w part="F"><supplied source="na28" reason="lacuna">αγι</supplied>ον</w></ab> <ab n="B04K20V23"><w>αν</w> <w>τιν<unclear>ων</unclear></w> <w><supplied source="na28" reason="lacuna">αφητε</supplied></w> <w><supplied source="na28" reason="lacuna">τας</supplied></w><lb/><w><supplied source="na28" reason="lacuna">αμαρ</supplied>τιας</w> <w>αφιεντ<supplied source="na28" reason="lacuna">αι</supplied></w> <w><supplied source="na28" reason="lacuna">αυτοις</supplied></w><lb/><w><supplied source="na28" reason="lacuna">αν</supplied></w> <w><supplied source="na28" reason="lacuna">τιν</supplied>ων</w> <w>κρατητ<unclear>ε</unclear></w> <w><supplied source="na28" reason="lacuna">κεκρατηνται</supplied></w><lb/></ab> <ab n="B04K20V24"><w><supplied source="na28" reason="lacuna">θωμα</supplied><unclear>ς</unclear></w> <w>δε</w> <w>εις</w> <w>εκ</w> <w>τ<unclear>ω</unclear><supplied source="na28" reason="lacuna">ν</supplied></w> <w><supplied source="na28" reason="lacuna">δωδεκα</supplied></w><lb/><w><supplied source="na28" reason="lacuna">ο</supplied></w> <w><supplied source="na28" reason="lacuna">λεγο</supplied>μενος</w> <w>δι<unclear>δ</unclear><supplied source="na28" reason="lacuna">υμος</supplied></w> <w><supplied source="na28" reason="lacuna">ουκ</supplied></w> <w><supplied source="na28" reason="lacuna">ην</supplied></w><lb/><w><supplied source="na28" reason="lacuna">μετ</supplied></w> <w><supplied source="na28" reason="lacuna">αυτ</supplied>ων</w> <w>ο<unclear>τ</unclear><supplied source="na28" reason="lacuna">ε</supplied></w> <w><supplied source="na28" reason="lacuna">ηλθεν</supplied></w> <w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K20"><ab n="B04K20V28"><w><supplied source="na28" reason="lacuna">απεκριθη</supplied></w> <w><supplied source="na28" reason="lacuna">θ</supplied>ωμας</w> <w>και</w> <w>ει<unclear>π</unclear><supplied source="na28" reason="lacuna">εν</supplied></w><lb/><w><supplied source="na28" reason="lacuna">αυτω</supplied></w> <w><supplied source="na28" reason="lacuna">ο</supplied></w> <w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></supplied></w> <w><supplied source="na28" reason="lacuna">μ</supplied><unclear>ο</unclear>υ</w> <w>και</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>μο<unclear>υ</unclear></w><lb/></ab> <ab n="B04K20V29"><w><supplied source="na28" reason="lacuna">λεγει</supplied></w> <w><unclear>α</unclear>υτω</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>οτι</w> <w>εορακ<supplied source="na28" reason="lacuna">ας</supplied></w><lb/><w><supplied source="na28" reason="lacuna">με</supplied></w> <w><supplied source="na28" reason="lacuna">πεπι</supplied>στευκας</w> <w>μακαρ<unclear>ι</unclear><supplied source="na28" reason="lacuna">οι</supplied></w> <w><supplied source="na28" reason="lacuna">οι</supplied></w><lb/><w><supplied source="na28" reason="lacuna">μη</supplied></w> <w><supplied source="na28" reason="lacuna">ιδοντ</supplied><unclear>ε</unclear>ς</w> <w>και</w> <w>πιστευσ<supplied source="na28" reason="lacuna">αντες</supplied></w><lb/></ab> <ab n="B04K20V30" part="I"><w><supplied source="na28" reason="lacuna">πολλα</supplied></w> <w><supplied source="na28" reason="lacuna">μεν</supplied></w> <w><supplied source="na28" reason="lacuna">ο</supplied>υν</w> <w>και</w> <w><supplied source="na28" reason="lacuna">αλλα</supplied></w><lb/><w><supplied source="na28" reason="lacuna">σημεια</supplied></w> <w><supplied source="na28" reason="lacuna">εποιησεν</supplied></w> <w><unclear>ο</unclear></w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w part="I"><unclear>εν</unclear><supplied source="na28" reason="lacuna">ωπιον</supplied></w></ab></div> </div></body></text></TEI>

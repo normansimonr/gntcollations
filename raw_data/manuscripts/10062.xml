@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P62">P62</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Norway</country>
+            <settlement>Oslo</settlement>
+            <repository>University of Oslo Library </repository>
+            <idno>P. Osloensis 1661</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="g-k"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="incipit" n="B01incipit"><ab><w>ευα<supplied source="na28" reason="lacuna">γ</supplied><unclear>γ</unclear>ελ<supplied source="na28" reason="illegible">ι</supplied>ον</w><lb/><w><supplied source="na28" reason="illegible">κα</supplied><unclear>τ</unclear>α</w> <w>μαθαιος</w><note type="editorial" xml:id="B01KInscriptioV-P62-1">Es folgt koptischer Titel?</note></ab></div></div>
+<pb n="2r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V25" part="I"><w>εν</w> <w>εκεινω</w><lb/><w>τω</w> <w>καιρ<unclear>ω</unclear></w> <w>α<lb break="no"/>ποκριθει<unclear>ς</unclear></w><lb/><w>ειπεν</w> <w>ο</w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><lb/><w><unclear>ε</unclear><supplied reason="unspecified">ξομολογο</supplied><lb break="no"/>υ<supplied reason="unspecified">μαι</supplied></w> <w><supplied reason="unspecified">σοι</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πρ</hi></supplied></abbr></w><lb/><w><abbr type="nomSac"><hi rend="overline">κ</hi><supplied reason="unspecified"><hi rend="overline">ε</hi></supplied></abbr></w> <w><supplied reason="unspecified">του</supplied></w> <w part="I"><supplied reason="unspecified">ουρα</supplied><lb break="no"/></w></ab></div> </div>
+<pb n="2v" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V25" part="M"><w part="F">νου</w> <w>και</w> <w>της</w><lb/><w><unclear>γη</unclear>ς</w> <w>οτι</w> <w>εγ<lb break="no"/><unclear>ρυ</unclear>ψας</w> <w>ταυ<lb break="no"/><supplied reason="unspecified">τ</supplied><unclear>α</unclear></w> <w>απο</w> <w>σο<supplied reason="unspecified">φ</supplied><lb break="no"/><supplied reason="unspecified">ων</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">συ</supplied><unclear>ν</unclear><lb break="no"/><supplied reason="unspecified">ετων</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w>απ<lb break="no"/><supplied source="na28" reason="illegible">εκαλυψας</supplied></w></ab></div> </div>
+<pb n="3r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V25" part="F"><w part="F">αυτα</w> <w>νηπ<lb break="no"/>ιοις</w></ab> <ab n="B01K11V26" part="I"><w>ναι</w> <w>ο</w><lb/><w><abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr></w> <w>οτι</w> <w>ου<lb break="no"/>τως</w> <w part="I">ευδοκ<unclear>ι</unclear><lb break="no"/><supplied reason="unspecified">α</supplied></w></ab></div> </div>
+<pb n="3v" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V27" part="I"><w>παντα</w> <w>μοι</w><lb/><w>παρεδοθη</w><lb/><w>υπ<unclear>ο</unclear></w> <w>του</w> <w><unclear>πα</unclear><lb break="no"/><unclear>τ</unclear><supplied reason="unspecified">ρ</supplied><unclear>ος</unclear></w> <w><unclear>μου</unclear></w><lb/><w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">ουδεις</supplied></w> <w><supplied source="na28" reason="illegible">επιγινωσκει</supplied></w> <w><supplied source="na28" reason="illegible">τον</supplied></w> <w part="I"><supplied source="na28" reason="illegible">υι</supplied><lb break="no"/></w></ab></div> </div>
+<pb n="4r" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V27" part="M"><w part="F">ον</w> <w>ει</w> <w>μη</w> <w>ο</w> <w>πα<lb break="no"/>τηρ</w> <w>ουδε</w> <w>το<lb break="no"/><supplied reason="unspecified">ν</supplied></w> <w>πατερα</w> <w>τ<supplied reason="unspecified">ι</supplied><lb break="no"/><supplied reason="unspecified">ς</supplied></w> <w><supplied reason="unspecified">ε</supplied><unclear>π</unclear>ιγινω<supplied reason="unspecified">σ</supplied><lb break="no"/><supplied source="na28" reason="illegible">κει</supplied></w> <w><supplied source="na28" reason="illegible">ει</supplied></w> <w><supplied source="na28" reason="illegible">μη</supplied></w> <w><supplied source="na28" reason="illegible">ο</supplied></w> <w><supplied source="na28" reason="illegible">υι<lb break="no"/>ος</supplied></w> <w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">ω</supplied></w> <w><supplied source="na28" reason="illegible">εαν</supplied></w><lb/><w><supplied source="na28" reason="illegible">βουληται</supplied></w> <w><supplied source="na28" reason="illegible">ο</supplied></w><lb/><w><supplied source="na28" reason="illegible">υιος</supplied></w></ab></div> </div>
+<pb n="4v" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V27" part="F"><w part="F">αποκαλυψαι</w><lb/></ab> <ab n="B01K11V28" part="I"><w><unclear>δε</unclear>υτε</w> <w>προς</w><lb/><w><unclear>μ</unclear>ε</w> <w>παντε<supplied reason="unspecified">ς</supplied></w><lb/><w><supplied reason="unspecified">οι</supplied></w> <w>κοπιο<unclear>ν</unclear><supplied reason="unspecified">τ</supplied><lb break="no"/><supplied reason="unspecified">ες</supplied></w> <w part="I">αναπα</w></ab></div> </div>
+<pb n="5r" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V28" part="F"><w part="F">υσω</w> <w>υμας</w></ab> <ab n="B01K11V29" part="I"><w><unclear>α</unclear><lb break="no"/>ρατε</w> <w>τον</w> <w><unclear>ζυ</unclear><lb break="no"/><supplied reason="unspecified">γο</supplied>ν</w> <w>μου</w> <w>ε<unclear>φ</unclear></w><lb/><w><supplied reason="unspecified">υμ</supplied><unclear>ας</unclear></w> <w>και</w> <w><unclear>μ</unclear>α<lb break="no"/><supplied source="na28" reason="illegible">θετε</supplied></w> <gap reason="illegible"/><w part="I"><supplied source="na28" reason="illegible">τα</supplied><lb break="no"/></w></ab></div> </div>
+<pb n="5v" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V29" part="F"><w part="F">πεινος</w> <w><unclear>τ</unclear>η</w> <w>κ<lb break="no"/><supplied reason="unspecified">αρ</supplied><unclear>δ</unclear>ια</w> <w>και</w> <w>ευ<lb break="no"/><supplied reason="unspecified">ρ</supplied><unclear>ησε</unclear>τε</w> <w>α<unclear>ν</unclear><supplied reason="unspecified">α</supplied><lb break="no"/><supplied reason="unspecified">πα</supplied><unclear>υ</unclear>σιν</w> <w>ταις</w><lb/><w><supplied source="na28" reason="illegible">ψυχαις</supplied></w> <w><supplied source="na28" reason="illegible">υμων</supplied></w></ab></div> </div>
+<pb n="6r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V30" part="F"><w part="F">και</w> <w><unclear>τ</unclear>ο</w> <w>φορτι<lb break="no"/>ον</w> <w>μου</w> <w>ελ<unclear>α</unclear><supplied reason="unspecified">φ</supplied><lb break="no"/><supplied reason="unspecified">ρο</supplied>ν</w> <w>εστιν</w><note type="editorial" xml:id="B01K11V30-P62-1">Beginn des koptischen Textes.</note></ab></div></div>
+<pb n="6v" type="folio" /><note type="transcriber">rr</note>
+ον ει μη ο πα
+<lb break="no" />
+τηρ ουδε το
+<lb break="no" />
+<supplied rend="lacuna">ν</supplied> πατερα τ<supplied rend="lacuna">ι
+<lb break="no" />
+ς ε</supplied><unclear>π</unclear>ιγινω<supplied rend="lacuna">σ
+<lb break="no" />
+κει</supplied> <gap reason="" />
+<lb />
+</body></text></TEI>

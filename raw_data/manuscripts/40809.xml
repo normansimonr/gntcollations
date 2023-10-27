@@ -1,0 +1,8848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="L809">L809</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Egypt</country>
+            <settlement>Sinai</settlement>
+            <repository>Saint Catherine's Monastery</repository>
+            <idno>Gr. 286</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="C1"></witness>
+<witness xml:id="L1"></witness>
+<witness xml:id="L2"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="10" type="page"/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05">
+<note type="transcriber">LA</note><note type="transcriber">TH AGIA KAI MG IS TOU PASCA·</note><note type="transcriber">O APO</note><note type="transcriber">PRAXEWN·</note><div type="chapter" n="B05K1"> <ab n="B05K1V1">τον μεν πρωτον
+<lb/>
+λογον εποιησαμην
+<lb/>
+περι παντων·
+<lb/>
+ω θεοφιλε, ων ηρ
+<lb break="no" />
+ξατο ο <abbr type="nomSac"><hi rend="overline">ις</hi></abbr> ποιειν
+<lb/>
+τε και διδασκειν·
+<lb/>
+</ab> <ab n="B05K1V2">αχρι ης ημερας
+<lb/>
+εντειλαμενος τοις
+<lb/>
+αποστολοις· δια
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγιου· ους εξε
+<lb break="no" />
+λεξατο· ανελη
+<lb break="no" />
+φθη,</ab> <ab n="B05K1V3">οις και παρε
+<lb break="no" />
+στησεν εαυτον ζων
+<lb break="no" />
+τα μετα το παθειν
+<lb/>
+<cb n="2" />
+<lb/>
+αυτον εν πολλοις
+<lb/>
+τεκμηριοις δι η
+<lb break="no" />
+μερων τεσσαρα
+<lb break="no" />
+κοντα· οπτανο
+<lb break="no" />
+μενος αυτοις και
+<lb/>
+λεγων τα περι
+<lb/>
+της βασιλειας του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K1V4">και συναλιζο
+<lb break="no" />
+μενος· παρηγγελ
+<lb break="no" />
+λεν αυτοις· απο
+<lb/>
+ιεροσολυμων μη
+<lb/>
+χωριζεσθαι, αλλα
+<lb/>
+περιμενειν την
+<lb/>
+επαγγελιαν του <abbr type="nomSac"><hi rend="overline">πρς</hi></abbr>
+<lb/>
+ην ηκουσατε μου
+<lb/>
+</ab> <ab n="B05K1V5">οτι ιωαννης μεν εβα
+<lb break="no" />
+πτισεν υδατι· υ
+<lb break="no" />
+μεις δε βαπτισθη
+<lb break="no" />
+σεσθε εν <abbr type="nomSac"><hi rend="overline">πνι</hi></abbr> αγιω
+<lb/>
+ου μετα πολλας
+<lb/>
+ταυτας ημερας
+<lb/>
+</ab> <ab n="B05K1V6">οι μεν ουν συνελθον
+<lb break="no" />
+τες <note type="transcriber">ueberhang</note>
+<lb/>
+</ab></div></div>
+<pb n="1r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+επηρωτων αυτον
+<lb/>
+λεγοντες· <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>· ει εν
+<lb/>
+τω χρονω τουτω·
+<lb/>
+αποκαθιστανεις
+<lb/>
+την βασιλειαν τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K1"><ab n="B05K1V7">ειπε δε προς
+<lb/>
+αυτους ουχ υμων ε
+<lb break="no" />
+στι γνωναι χρονους
+<lb/>
+η καιρους· ους ο <abbr type="nomSac"><hi rend="overline">πηρ</hi></abbr>
+<lb/>
+εθετο· εν τη ιδια
+<lb/>
+εξουσια</ab> <ab n="B05K1V8">αλλα λη
+<lb break="no" />
+ψεσθε δυναμιν, ε
+<lb break="no" />
+πελθοντος του α
+<lb break="no" />
+γιου <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> εφ υμας
+<lb/>
+και εσεσθε μοι μαρ
+<lb break="no" />
+τυρες· εν τε <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>·
+<lb/>
+και εν παση τη ι
+<lb break="no" />
+ουδαια και σαμα
+<lb break="no" />
+ρεια και εως εσχα
+<lb break="no" />
+του, της γης, <note type="transcriber">LA</note>
+<lb/>
+</ab> <ab n="B05K1V9">και ταυτα ειπων·
+<lb/>
+βλεποντων αυτων
+<lb/>
+<cb n="2" />
+<lb/>
+επηρθη· και νεφε
+<lb break="no" />
+λη υπελαβεν αυ
+<lb break="no" />
+τον απο των οφθαλ
+<lb break="no" />
+μων αυτων</ab> <ab n="B05K1V10">και ως
+<lb/>
+ατενιζοντες ησαν
+<lb/>
+εις τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>· πο
+<lb break="no" />
+ρευομενου αυτου
+<lb/>
+και ιδου· ανδρες δυο·
+<lb/>
+παρειστηκεισαν αυ
+<lb break="no" />
+τοις· εν εσθητι λευκη,
+<lb/>
+</ab> <ab n="B05K1V11">οι και ειπον ανδρες
+<lb/>
+γαλιλαιοι· τι εστηκα
+<lb break="no" />
+τε εμβλεποντες εις
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr> ουτος ο <abbr type="nomSac"><hi rend="overline">ις</hi></abbr>·
+<lb/>
+ο αναληφθης αφ υμων
+<lb/>
+εις τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>· ουτος
+<lb/>
+ελευσεται· ον τρο
+<lb break="no" />
+πον εθεασασθε·
+<lb/>
+αυτον· πορευομε
+<lb break="no" />
+νον εις τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr> <note type="transcriber">ueberschneidung von 1,12 auf F 1b-2a</note>
+<lb/>
+</ab> <ab n="B05K1V12"><app><rdg type="corr" hand="L1">τοτε</rdg><rdg type="corr" hand="L2">εν ταις ημεραις <lb/>
+εκειναις·</rdg></app> υπεστρεψαν <app><rdg type="corr" hand="L1">
+OM</rdg><rdg type="corr" hand="L2">οι αποστολοι</rdg></app>
+<lb/>
+εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>· απο ορους
+<lb/>
+</ab></div></div>
+<pb n="1v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K1"><ab n="B05K1V13">και οτε εισηλ
+<lb break="no" />
+θον· ανεβησαν εις
+<lb/>
+το υπερωον· ου η
+<lb break="no" />
+σαν καταμενοντες
+<lb/>
+ο τε πετρος· και ια
+<lb break="no" />
+κωβος και ιωαννης
+<lb/>
+και ανδρεας· φι
+<lb break="no" />
+λιππος και θωμας·
+<lb/>
+βαρθολομαιος και
+<lb/>
+ματθαιος· ιακω
+<lb break="no" />
+βος αλφαιου· και
+<lb/>
+σιμων ο ζηλωτης.
+<lb/>
+και ιουδας ιακω
+<lb break="no" />
+βου</ab> <ab n="B05K1V14">ουτοι παντες·
+<lb/>
+ησαν προσκαρτε
+<lb break="no" />
+ρουντες ομοθυμα
+<lb break="no" />
+δων· τη προσευχη
+<lb/>
+και τη δεησει, συν γυ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ναιξι και μαρια τη
+<lb/>
+<abbr type="nomSac"><hi rend="overline">μρι</hi></abbr> του <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>, και συν
+<lb/>
+τοις αδελφοις αυτου
+<lb/>
+</ab> <ab n="B05K1V15">και εν ταις ημεραις
+<lb/>
+ταυταις· αναστας
+<lb/>
+πετρος εν μεσω των
+<lb/>
+μαθητων ειπεν
+<lb/>
+ην τε οχλος ονομα
+<lb break="no" />
+των επι το αυτο, ως
+<lb/>
+εκατον εικοσι</ab> <ab n="B05K1V16">αν
+<lb break="no" />
+δρες αδελφοι· εδει
+<lb/>
+πληρωθηναι την
+<lb/>
+γραφην ταυτην· ην
+<lb/>
+προειπε το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το
+<lb/>
+αγιον· δια στοματος
+<lb/>
+<abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr>· περι ιουδα·
+<lb/>
+του γενομενου οδη
+<lb break="no" />
+γου· τοις συλλαβου
+<lb break="no" />
+σι τον <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>,</ab> <ab n="B05K1V17">οτι κατηρι
+<lb break="no" />
+θμημενος ην συν η
+<lb break="no" />
+μιν· και ελαχε τον
+<lb/>
+κληρον της διακο
+<lb break="no" />
+</ab></div></div>
+<pb n="2r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+νιας ταυτης <div type="book" n="B05"><div type="chapter" n="B05K1"><ab n="B05K1V21">δει ουν
+<lb/>
+των συνελθοντων
+<lb/>
+ημιν ανδρων, εν
+<lb/>
+παντι χρονω· εν ω
+<lb/>
+εισηλθε και εξηλ
+<lb break="no" />
+θεν εφ ημας. ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ις</hi></abbr>·</ab> <ab n="B05K1V22">αρξαμενος α
+<lb break="no" />
+πο του βαπτισματος
+<lb/>
+ιωαννου· εως της
+<lb/>
+ημερας· ης ανελη
+<lb break="no" />
+φθη αφ ημων· μαρ
+<lb break="no" />
+τυρα της αναστα
+<lb break="no" />
+σεως αυτου γενεσθαι
+<lb/>
+συν ημιν ενα του
+<lb break="no" />
+των</ab> <ab n="B05K1V23">και εστησαν
+<lb/>
+δυο ιωσηφ τον κα
+<lb break="no" />
+λουμενον βαρσα
+<lb break="no" />
+βαν· ος επεκληθη
+<lb/>
+ιουστος και ματθιαν
+<lb/>
+</ab> <ab n="B05K1V24">και προσευξαμε
+<lb break="no" />
+νοι ειπον συ <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>
+<lb/>
+καρδιογνωστα παντων
+<lb/>
+<cb n="2" />
+<lb/>
+αναδειξον ον εξε
+<lb break="no" />
+λεξω εκ τουτων
+<lb/>
+των δυο ενα</ab> <ab n="B05K1V25">λαβειν
+<lb/>
+τον κληρον της δια
+<lb break="no" />
+κονιας ταυτης και
+<lb/>
+αποστολης· εξ ης
+<lb/>
+παρεβη ιουδας
+<lb/>
+πορευθηναι εις τον
+<lb/>
+τοπον τον ιδιον</ab> <ab n="B05K1V26">και
+<lb/>
+εδωκαν κληρους
+<lb/>
+αυτων και επεσεν
+<lb/>
+ο κληρος επι ματθι
+<lb break="no" />
+αν· και συνκατεψι
+<lb break="no" />
+φισθη· μετα των εν
+<lb break="no" />
+δεκα αποστολων <note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="2v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K2"> <ab n="B05K2V1">εν τω συμπληρου
+<lb break="no" />
+σθαι την ημεραν
+<lb/>
+της πεντηκοστης·
+<lb/>
+ησαν παντες οι α
+<lb break="no" />
+ποστολοι ομοθυμα
+δων επι το αυτο</ab> <ab n="B05K2V2">και
+<lb break="no" />
+εγενετο αφνω· εκ
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr> ηχος,
+<lb/>
+ωσπερ φερομενης
+<lb/>
+πνοης βιαιας· και
+<lb/>
+επληρωσεν ολον τον
+<lb/>
+οικον· ου ησαν κα
+<lb break="no" />
+θημενοι</ab> <ab n="B05K2V3">και ω
+<lb break="no" />
+φθησαν αυτοις δι
+<lb break="no" />
+αμεριζομεναι
+<lb/>
+γλωσσαι ωσει πυρος
+<lb/>
+<cb n="2" />
+<lb/>
+εκαθισε τε· εφ ενα
+<lb/>
+εκαστον αυτων,</ab> <ab n="B05K2V4">και
+<lb/>
+επλησθησαν απαν
+<lb break="no" />
+τες <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγιου· και
+<lb/>
+ηρξαντο λαλειν ε
+<lb break="no" />
+ταιραις γλωσσαις·
+<lb/>
+καθως το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>· ε
+<lb break="no" />
+διδου αυτοις απο
+<lb break="no" />
+φθεγγεσθαι</ab> <ab n="B05K2V5">ησαν
+<lb/>
+δε εν <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>. κατοι
+<lb break="no" />
+κουντες ιουδαιοι,
+<lb/>
+ανδρες ευλαβεις
+<lb/>
+απο παντος εθνους
+<lb/>
+των υπο των <abbr type="nomSac"><hi rend="overline">ουνων</hi></abbr>
+<lb/>
+</ab> <ab n="B05K2V6">γενομενης δε της
+<lb/>
+φωνης ταυτης· συ
+<lb break="no" />
+νηλθε το πληθος
+<lb/>
+και συνεχυθη, οτι η
+<lb break="no" />
+κουον εις εκαστος
+<lb/>
+τη ιδια διαλεκτω·
+<lb/>
+λαλουντων αυτων
+<lb/>
+</ab> <ab n="B05K2V7">εξισταντο δε και ε
+<lb break="no" />
+</ab></div></div>
+<pb n="3r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+θαυμαζον. λεγον
+<lb break="no" />
+τες προς αλληλους
+<lb/>
+ουκ <app><rdg type="orig"><unclear>ε</unclear>ιδου</rdg><rdg type="corr" hand="">ιδου</rdg></app> παντες·
+<lb/>
+ουτοι εισιν· οι λα
+<lb break="no" />
+λουντες γαλιλαιοὶ
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V8">και πως ημεις ακου
+<lb break="no" />
+ομεν εκαστος τη ιδι
+<lb break="no" />
+α διαλεκτω ημων·
+<lb/>
+εν η εγενηθημεν
+<lb/>
+</ab> <ab n="B05K2V9">παρθοι· και μηδοι·
+<lb/>
+και ελαμιται, και
+<lb/>
+οι κατοικουντες την
+<lb/>
+μεσοποταμιαν
+<lb/>
+ιουδαιαν τε και καπ
+<lb break="no" />
+παδοκιαν· ποντον
+<lb/>
+και την ασιαν·</ab> <ab n="B05K2V10">φρυ
+<lb break="no" />
+γιαν τε και παμ
+<lb break="no" />
+φυλιαν· αιγυπτον·
+<lb/>
+και τα μερη της
+<lb/>
+λιβυης της κατα
+<lb/>
+κυρηνην, και οι επι
+<lb break="no" />
+δημουντες ρωμαιοι
+<lb/>
+<cb n="2" />
+<lb/>
+</ab> <ab n="B05K2V11">ιουδαιοι τε και προ
+<lb break="no" />
+σηλυτοι· κρητες
+<lb/>
+και αραβες· ακου
+<lb break="no" />
+ομεν λαλουντων
+<lb/>
+αυτων ταις ημετε
+<lb break="no" />
+ραις γλωσσαις τα
+<lb/>
+μεγαλεια του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>,
+<lb/>
+</ab></div></div>
+<pb n="3v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH G[ns][\ns]  THS DIAKINHS I</note><note type="transcriber">PRAXEWN·</note><div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V14">εν ταις ημεραις
+<lb/>
+εκειναις· σταθεις
+<lb/>
+πετρος συν τοις εν
+<lb break="no" />
+δεκα· επηρε την
+<lb/>
+φωνην αυτου· και
+<lb/>
+απεφθεγξατο αυ
+<lb break="no" />
+τοις ανδρες ιου
+<lb break="no" />
+δαιοι· και οι κατοι
+<lb break="no" />
+κουντες <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> α
+<lb break="no" />
+παντες· τουτο υμιν
+<lb/>
+γνωστον εστω, και
+<lb/>
+ενωτισασθε τα
+<lb/>
+ρηματα μου</ab> <ab n="B05K2V15">ου γαρ
+<lb/>
+ως υμεις υπολαμ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+βανετε· ουτοι με
+<lb break="no" />
+θυουσιν εστι γαρ ω
+<lb break="no" />
+ρα τριτη της ημε
+<lb break="no" />
+ρας</ab> <ab n="B05K2V16">αλλα τουτο ε
+<lb break="no" />
+στι το ειρημενον· δι
+<lb break="no" />
+α του προφητου
+<lb/>
+ιωηλ</ab> <ab n="B05K2V17">και εσται εν
+<lb/>
+ταις εσχαταις η
+<lb break="no" />
+μεραις· λεγει ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>·
+<lb/>
+εκχεω απο του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> μου· επι πα
+<lb break="no" />
+σαν σαρκα, και προ
+<lb break="no" />
+φητευσουσιν οι υιοι
+<lb/>
+υμων· και αι θυγα
+<lb break="no" />
+τερες υμων, και οι
+<lb/>
+νεανισκοι υμων·
+<lb/>
+ορασεις οψονται·
+<lb/>
+και οι πρεσβυτεροι
+<lb/>
+υμων, ενυπνια ε
+<lb break="no" />
+νυπνιασθησονται
+<lb/>
+</ab> <ab n="B05K2V18">και γε επι τους δου
+<lb break="no" />
+λους μου και επι
+<lb/>
+</ab></div></div>
+<pb n="4r" type="folio"/><note type="transcriber">Foto 80</note>
+<lb/>
+<cb n="1" />
+<lb/>
+τας δουλας μου· εν
+<lb/>
+ταις ημεραις εκει
+<lb break="no" />
+ναις, εκχεω απο
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> μου και
+<lb/>
+προφητευσουσι <div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V19">και
+<lb/>
+δωσω τερατα εν
+<lb/>
+τω <abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr> ανω. και
+<lb/>
+σημεια επι της
+<lb/>
+γης κατω αιμα.
+<lb/>
+και πυρ, και ατμη
+<lb break="no" />
+δα καπνου</ab> <ab n="B05K2V20">ο ηλι
+<lb break="no" />
+ος· μεταστραφησε
+<lb break="no" />
+ται εις σκοτος, και
+<lb/>
+η σεληνη εις αιμα
+<lb/>
+πριν η ελθειν την
+<lb/>
+ημεραν <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> την με
+<lb break="no" />
+γαλην και επιφα
+<lb break="no" />
+νη</ab> <ab n="B05K2V21">και εσται πας
+<lb/>
+ος αν επικαλεση
+<lb break="no" />
+ται· το ονομα <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+σωθησεται <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH D[ns][\ns] THS DIAK</note><note type="transcriber">PRAXEWN TWN APO(stol)WN</note></ab> <ab n="B05K2V22">εν ταις ημεραις εκει(ναις)
+<lb/>
+ειπε πετρος προς
+<lb/>
+τον λαον ανδρες ισ
+<lb break="no" />
+ραηλιται ακουσα
+<lb break="no" />
+τε τους λογους του
+<lb break="no" />
+τους <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> τον ναζω
+<lb break="no" />
+ραιον· ανδρα απο
+<lb/>
+</ab></div></div>
+<pb n="4v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· αποδεδει
+<lb break="no" />
+γμενον εις υμας.
+<lb/>
+δυναμεσι και τερα
+<lb break="no" />
+σι και σημειοις· οις
+<lb/>
+εποιησε δι αυτου ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>·
+<lb/>
+εν μεσω υμων. κα
+<lb break="no" />
+θως και αυτοι οιδατε
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V23">τουτον τη ωρισμενη
+<lb/>
+βουλη και προγνω
+<lb break="no" />
+σει του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>. εκδοτον
+<lb/>
+λαβοντες· δια χει
+<lb break="no" />
+ρων ανομων· προσ
+<lb break="no" />
+πηξαντες ανειλετε
+<lb/>
+</ab> <ab n="B05K2V24">ον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ανεστησε· λυ
+<lb break="no" />
+σας τας ωδυνας του
+<lb/>
+θανατου καθοτι ου
+<lb break="no" />
+κ ην δυνατον· κρατει
+<lb break="no" />
+σθαι αυτον υπ αυτου
+<lb/>
+</ab> <ab n="B05K2V25"><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr> γαρ λεγει εις αυτον
+<lb/>
+προωρωμην τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr>
+<lb/>
+ενωπιον μου δια παν
+<lb break="no" />
+τος, οτι εκ δεξιων μου
+<lb/>
+<cb n="2" />
+<lb/>
+εστιν ινα μη σαλευθω
+<lb/>
+</ab> <ab n="B05K2V26">δια τουτο ευφρανθη
+<lb/>
+η καρδια μου· και η
+<lb break="no" />
+γαλλιασατο η γλωσσα
+<lb/>
+μου, ετι δε και η σαρξ
+<lb/>
+μου, κατασκηνωσει
+<lb/>
+επ ελπιδι</ab> <ab n="B05K2V27">οτι ουκ εγ
+<lb break="no" />
+καταλειψεις την
+<lb/>
+ψυχην μου εις αδου,
+<lb/>
+ουδε δωσεις τον οσιον
+<lb/>
+σου· ιδειν διαφθοραν
+<lb/>
+</ab> <ab n="B05K2V28">εγνωρισας μοι οδους
+<lb/>
+ζωης πληρωσεις με
+<lb/>
+ευφροσυνης μετα του
+<lb/>
+προσωπου σου</ab> <ab n="B05K2V29">ανδρες
+<lb/>
+αδελφοι· εξον ειπειν
+<lb/>
+μετα παρρησιας προ
+<lb/>
+υμας· περι του πα
+<lb break="no" />
+τριαρχου <abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr>, οτι και
+<lb/>
+ετελευτησε και εταφη,
+<lb/>
+και το μνημα αυτου
+<lb/>
+εστιν εν ημιν· αχρι της
+<lb/>
+</ab></div></div>
+<pb n="5r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ημερας ταυτης <div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V30">προ
+<lb break="no" />
+φητης ουν υπαρχων·
+<lb/>
+και ειδως· οτι ορκω ω
+<lb break="no" />
+μωσεν αυτω ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>· εκ
+<lb/>
+καρπου της οσφυος
+<lb/>
+αυτου, το κατα σαρκα
+<lb/>
+αναστησειν τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr>
+<lb/>
+καθισαι επι του θρο
+<lb break="no" />
+νου αυτου·</ab> <ab n="B05K2V31">προιδων
+<lb/>
+ελαλησε περι της
+<lb/>
+αναστασεως του <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>
+<lb/>
+οτι ου κατελειφθη η ψυ
+<lb break="no" />
+χη αυτου εις αδου, ου
+<lb break="no" />
+δε η σαρξ αυτου· ειδεν
+<lb/>
+διαφθοραν</ab> <ab n="B05K2V32">τουτον
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> ανεστησεν ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>,
+<lb/>
+ου παντες ημεις ε
+<lb break="no" />
+σμεν μαρτυρες</ab> <ab n="B05K2V33">τη δε
+<lb break="no" />
+ξια ουν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> υψω
+<lb break="no" />
+θεις την τε επαγγε
+<lb break="no" />
+λιαν του αγιου <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr>· λα
+<lb break="no" />
+βων παρα του <abbr type="nomSac"><hi rend="overline">πρς</hi></abbr>·
+<lb/>
+<cb n="2" />
+<lb/>
+εξεχεε, τουτο ουν υ
+<lb break="no" />
+μεις βλεπετε και α
+<lb break="no" />
+κουετε</ab> <ab n="B05K2V34">ου γαρ <abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr> α
+<lb break="no" />
+νεβη εις τους <abbr type="nomSac"><hi rend="overline">ουνους</hi></abbr>
+<lb/>
+λεγει δε αυτος ειπεν
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr> μου. καθου
+<lb/>
+εκ δεξιων μου,</ab> <ab n="B05K2V35">εως αν
+<lb/>
+θω τους εχθρους σου·
+<lb/>
+υποποδιον των πο
+<lb break="no" />
+δων σου</ab> <ab n="B05K2V36">ασφαλως
+<lb/>
+ουν γινωσκετω· πας
+<lb/>
+οικος <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>· οτι και <abbr type="nomSac"><hi rend="overline">κν</hi></abbr>
+<lb/>
+και <abbr type="nomSac"><hi rend="overline">χν</hi></abbr> αυτον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> εποι
+<lb break="no" />
+ησε τουτον τον <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>· ον
+<lb/>
+υμεις εσταυρωσατε <note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="5v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH E[ns][\ns] THS DIAKINISI·</note><note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V38">εν ταις ημεραις εκειναις
+<lb/>
+<cb n="2" />
+<lb/>
+ειπε πετρος προς
+<lb/>
+τον λαον μετανοησα
+<lb break="no" />
+τε και βαπτισθητω ε
+<lb break="no" />
+καστος υμων· επι τω
+<lb/>
+ονοματι <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>· εις α
+<lb break="no" />
+φεσιν αμαρτιων, και
+<lb/>
+ληψεσθε την δωρε
+<lb break="no" />
+αν του αγιου <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></ab> <ab n="B05K2V39">υ
+<lb break="no" />
+μιν γαρ εστιν η επαγγε
+<lb break="no" />
+λια και τοις τεκνοις
+<lb/>
+υμων, και πασι τοις
+<lb/>
+εις μακραν· οσους αν
+<lb/>
+προσκαλεσητε· <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ημων</ab> <ab n="B05K2V40">ετεροις
+<lb/>
+τε λογοις πλειοσι δι
+<lb break="no" />
+εμαρτυρετο, και πα
+<lb break="no" />
+ρεκαλει λεγων σω
+<lb break="no" />
+θητε απο της γενε
+<lb break="no" />
+ας της σκολιας ταυ
+<lb break="no" />
+της</ab> <ab n="B05K2V41">οι μεν ουν ασμε
+<lb break="no" />
+νως αποδεξαμενοι
+<lb/>
+τον λογον αυτου· εβα
+<lb break="no" />
+</ab></div></div>
+<pb n="6r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πτισθησαν· και προ
+<lb break="no" />
+σετεθησαν· τη ημε
+<lb break="no" />
+ρα εκεινη ψυχαι ω
+<lb break="no" />
+σει τρισχιλιαι <div type="book" n="B05"><div type="chapter" n="B05K2"><ab n="B05K2V42">ησαν
+<lb/>
+δε προσκαρτερουν
+<lb break="no" />
+τες· τη διδαχη των
+<lb/>
+αποστολων· και τη
+<lb/>
+κοινωνια· και τη
+<lb/>
+κλασει του αρτου και
+<lb/>
+ταις προσευχαις
+<lb/>
+</ab> <ab n="B05K2V43">εγενετο δε παση ψυχη
+<lb/>
+φοβος· πολλα τε
+<lb/>
+τερατα και σημεια·
+<lb/>
+δια των αποστολων
+<lb/>
+εγινετο <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH PAR THS DIAK</note><note type="transcriber">PRAXEWN·</note></ab></div><div type="chapter" n="B05K3"> <ab n="B05K3V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+πετρος και ιωαννης
+<lb/>
+ανεβαινον εις το
+<lb/>
+ιερον, επι την ω
+<lb break="no" />
+ραν της προσευχης
+<lb/>
+την ενατην</ab> <ab n="B05K3V2">και
+<lb/>
+τις ανηρ χωλος εκ
+<lb/>
+κοιλιας <abbr type="nomSac"><hi rend="overline">μρς</hi></abbr> αυτου
+<lb/>
+υπαρχων· εβαστα
+<lb break="no" />
+ζετο, ον ετιθουν κα
+<lb break="no" />
+θ ημεραν προς την
+<lb/>
+</ab></div></div>
+<pb n="6v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+θυραν του ιερου την
+<lb/>
+λεγομενην ωραιαν,
+<lb/>
+του αιτειν ελεημο
+<lb break="no" />
+συνην, παρα των
+<lb/>
+εισπορευομενων εις
+<lb/>
+το ιερον <div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V3">ος ιδων πε
+<lb break="no" />
+τρον και ιωαννην
+<lb/>
+μελλοντας εισιεναι
+<lb/>
+εις το ιερον· ηρωτα
+<lb/>
+ελεημοσυνην</ab> <ab n="B05K3V4">ατε
+<lb break="no" />
+νισας δε πετρος εις
+<lb/>
+αυτον συν τω ιωαν
+<lb break="no" />
+νη· ειπε βλεψον εις
+<lb/>
+ημας</ab> <ab n="B05K3V5">ο δε επει
+<lb break="no" />
+χεν αυτοις προσδο
+<lb break="no" />
+κων τι παρ αυτων
+<lb/>
+λαβειν</ab> <ab n="B05K3V6">ειπε δε
+<lb/>
+πετρος αργυριον και
+<lb/>
+χρυσιον ουχ υπαρ
+<lb break="no" />
+χει μοι· ο δε εχω του
+<lb break="no" />
+το σοι διδωμι εν τω
+<lb/>
+ονοματι <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr> του να
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ζωραιου· εγειραι και
+<lb/>
+περιπατει</ab> <ab n="B05K3V7">και
+<lb/>
+πιασας αυτον της
+<lb/>
+δεξιας χειρως· ηγει
+<lb break="no" />
+ρε· παραχρημα δε
+<lb/>
+εστερεωθησαν αυτου·
+<lb/>
+αι βασεις· και τα σφυ
+<lb break="no" />
+ρα,</ab> <ab n="B05K3V8">και εξαλλομενος
+<lb/>
+εστη και περιεπατει
+<lb/>
+και εισηλθε συν αυτοις
+<lb/>
+εις το ιερον· περι
+<lb break="no" />
+πατων και αλλομε
+<lb break="no" />
+νος· και αινων τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>·
+<lb/>
+</ab></div></div>
+<pb n="7r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TW SA THS DIAK</note><note type="transcriber">PRAXEWN·</note><div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V11">εν ταις ημεραις εκει(ναις)
+<lb/>
+κρατουντος του ια
+<lb break="no" />
+θεντος χωλου. τον πε
+<lb break="no" />
+τρον και ιωαννην, συ
+<lb break="no" />
+νεδραμε προς αυτους
+<lb/>
+πας ο λαος, επι τη στο
+<lb break="no" />
+α τη καλουμενη σο
+<lb break="no" />
+λομωντος εκθαμ
+<lb break="no" />
+βοι</ab> <ab n="B05K3V12">ιδων δε πετρος
+<lb/>
+απεκρινατο προς
+<lb/>
+τον λαον ανδρες ισρα
+<lb break="no" />
+ηλιται· τι θαυμα
+<lb break="no" />
+ζετε επι τουτω η
+<lb/>
+ημιν τι ατενιζετε
+<lb/>
+<cb n="2" />
+<lb/>
+ως ιδια δυναμει·
+<lb/>
+η ευσεβεια· πεποι
+<lb break="no" />
+ηκοσι του περιπα
+<lb break="no" />
+τειν αυτον·</ab> <ab n="B05K3V13">ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> αβρα
+<lb break="no" />
+αμ και ισαακ και
+<lb/>
+ιακωβ· ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> των <abbr type="nomSac"><hi rend="overline">πρων</hi></abbr>
+<lb/>
+ημων· εδοξασε τον
+<lb/>
+παιδα αυτου <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> ον
+<lb/>
+υμεις παρεδωκατε
+<lb/>
+και ηρνησασθε αυ
+<lb break="no" />
+τον· κατα προσω
+<lb break="no" />
+πον πιλατου, κρι
+<lb break="no" />
+ναντος εκεινου απο
+<lb break="no" />
+λυειν</ab> <ab n="B05K3V14">υμεις δε τον
+<lb/>
+αγιον και δικαιον ηρ
+<lb break="no" />
+νησασθε· και ητη
+<lb break="no" />
+σασθε ανδρα φονεα·
+<lb/>
+χαρισθηναι υμιν</ab> <ab n="B05K3V15">τον
+<lb/>
+δε αρχιγον της ζω
+<lb break="no" />
+ης· απεκτεινατε
+<lb/>
+ον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ηγειρεν εκ νε
+<lb break="no" />
+κρων· ου ημεις μαρ
+<lb break="no" />
+</ab></div></div>
+<pb n="7v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+τυρες εσμεν <div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V16">και
+<lb/>
+επι τη πιστει του ο
+<lb break="no" />
+νοματος αυτου· του
+<lb break="no" />
+τον ον θεωρειτε
+<lb/>
+και οιδατε. εστερε
+<lb break="no" />
+ωσε το ονομα αυ
+<lb break="no" />
+του και η πιστις η δι
+<lb/>
+αυτου· εδωκεν αυ
+<lb break="no" />
+τω την ολοκληρι
+<lb break="no" />
+αν ταυτην· απε
+<lb break="no" />
+ναντι παντων
+<lb/>
+υμων <note type="transcriber">LA</note>
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">KURIAKH B[ns][\ns] TOU AN</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note>
+<lb/>
+</ab></div></div><pb n="9r" type="folio" xml:id="l_809-150"/>
+<lb/>
+<cb n="3" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">PRAXEWN TWN APO(stol)WN·</note><div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V19"><note type="transcriber">PRAXEWN TWN APO(stol)WN</note>εν ταις ημεραις εκειναις.
+<lb/>
+ειπε πετρος προς τον
+<lb/>
+λαον μετανοησατε
+<lb/>
+και επιστρεψατε εις
+<lb/>
+το εξαλειφθηναι υμων
+<lb/>
+τας αμαρτιας</ab> <ab n="B05K3V20">οπως
+<lb/>
+αν ελθωσι καιροι α
+<lb break="no" />
+ναψυξεως· απο προ
+<lb break="no" />
+σωπου <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>, και απο
+<lb break="no" />
+στειλη τον προκεχει
+<lb break="no" />
+ρισμενον υμιν <abbr type="nomSac"><hi rend="overline">χν</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>
+<lb/>
+</ab> <ab n="B05K3V21">ον δει· <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr> μεν δε
+<lb break="no" />
+ξασθαι, αχρι χρο
+<lb break="no" />
+νων αποκαταστα
+<lb break="no" />
+<cb n="4" />
+<lb/>
+σεως παντων· ων
+<lb/>
+ελαλησεν ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> δια
+<lb/>
+στοματος παντων
+<lb/>
+των αγιων αυτου προ
+<lb break="no" />
+φητων απ αιωνος
+<lb/>
+</ab> <ab n="B05K3V22">μωσης μεν γαρ προς
+<lb/>
+τους <abbr type="nomSac"><hi rend="overline">πρας</hi></abbr> ειπεν οτι
+<lb/>
+προφητην υμιν ανα
+<lb break="no" />
+στησει <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> υμων εκ
+<lb/>
+των αδελφων υμων
+<lb/>
+ως εμε αυτου ακου
+<lb break="no" />
+σεσθε. κατα παντα
+<lb/>
+οσα αν λαληση προς
+<lb/>
+υμας</ab> <ab n="B05K3V23">εσται δε πασα
+<lb/>
+ψυχη· ητις εαν μη α
+<lb break="no" />
+κουση· του προφητου
+<lb/>
+εκεινου· εξολοθρευ
+<lb break="no" />
+θησεται εκ του λαου
+<lb/>
+</ab> <ab n="B05K3V24">και παντες δε οι προ
+<lb break="no" />
+φηται απο σαμου
+<lb break="no" />
+ηλ και των καθεξης
+<lb/>
+οσοι ελαλησαν και
+<lb/>
+</ab></div></div>
+<pb n="8r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+κατηγγειλαν τας ημε
+<lb break="no" />
+ρας ταυτας· <div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V25">υμεις
+<lb/>
+εστε υιοι των προφη
+<lb break="no" />
+των· και της διαθη
+<lb break="no" />
+κης ης διεθετο ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+προς τους <abbr type="nomSac"><hi rend="overline">πρας</hi></abbr> η
+<lb break="no" />
+μων λεγων· προς α
+<lb break="no" />
+βρααμ, και εν τω
+<lb/>
+σπερματι σου ενευ
+<lb break="no" />
+λογηθησονται πα
+<lb break="no" />
+σαι αι πατριαι της
+<lb/>
+γης</ab> <ab n="B05K3V26">υμιν πρωτον
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>· αναστησας τον
+<lb/>
+παιδα αυτου <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>· απε
+<lb break="no" />
+στειλεν αυτον ευλογουν
+<lb break="no" />
+τα υμας· εν τω απο
+<lb break="no" />
+στρεφειν εκαστον απο
+<lb/>
+των πονηριων υμων <note type="transcriber">LA</note><note type="transcriber">TH G[ns][\ns] THS B[ns][\ns] EBD· MA·</note><note type="transcriber">PRAXEWN TWN APO(stol)WN</note>
+<lb/>
+<cb n="2" />
+<lb/>
+</ab></div><div type="chapter" n="B05K4"> <ab n="B05K4V1">εν ταις ημεραις εκειναις·
+<lb/>
+λαλουντων των απο
+<lb break="no" />
+στολων προς τον λαον·
+<lb/>
+επεστησαν αυτοις οι ι
+<lb break="no" />
+ερεις· και ο στρατηγος
+<lb/>
+του ιερου· και οι σαδ
+<lb break="no" />
+δουκαιοι</ab> <ab n="B05K4V2">διαπονου
+<lb break="no" />
+μενοι δια το διδα
+<lb break="no" />
+σκειν αυτους τον λαον,
+<lb/>
+και καταγγελλειν εν
+<lb/>
+τω <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> την αναστασιν
+<lb/>
+των νεκρων</ab> <ab n="B05K4V3">και επε
+<lb break="no" />
+βαλον αυτοις τας χει
+<lb break="no" />
+ρας, και εθεντο εις τη
+<lb break="no" />
+ρησιν εις την αυριον
+<lb/>
+ην γαρ εσπερα ηδη
+<lb/>
+</ab> <ab n="B05K4V4">πολλοι δε των ακου
+<lb break="no" />
+σαντων τον λογον· ε
+<lb break="no" />
+πιστευσαν· και εγενηθη
+<lb/>
+ο αριθμος των ανδρων
+<lb/>
+ωσει χιλιαδες πεντε
+<lb/>
+</ab> <ab n="B05K4V5">εγενετο δε επι την αυ
+<lb break="no" />
+</ab></div></div>
+<pb n="8v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ριον, συναχθηναι αυ
+τον τους αρχοντας
+<lb break="no" />
+και τους πρεσβυτε
+<lb break="no" />
+ρους· και γραμμα
+<lb break="no" />
+τεις εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>, <div type="book" n="B05"><div type="chapter" n="B05K4"><ab n="B05K4V6">και
+<lb/>
+ανναν τον αρχιερε
+<lb break="no" />
+α· και καιαφαν· και
+<lb/>
+ιωαννην· και αλε
+<lb break="no" />
+ξανδρον, και οσοι η
+<lb break="no" />
+σαν εκ γενους αρχι
+<lb break="no" />
+ερατικου</ab> <ab n="B05K4V7">και στησαν
+<lb break="no" />
+τες αυτους εν μεσω·
+<lb/>
+επυνθανοντο· εν
+<lb/>
+ποια δυναμει, η εν
+<lb/>
+ποιω ονοματι εποι
+<lb break="no" />
+ησατε τουτο υμεις
+<lb/>
+</ab> <ab n="B05K4V8">τοτε πετρος πλησθεις
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγιου ειπε προς
+<lb/>
+αυτους αρχοντες του
+<lb/>
+λαου και πρεσβυτε
+<lb break="no" />
+ροι του <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>·</ab> <ab n="B05K4V9">ει ημεις
+<lb/>
+σημερον ανακρινο
+<lb break="no" />
+<cb n="2" />
+<lb/>
+μεθα· επι ευεργεσια
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ανου</hi></abbr> ασθενους εν τι
+<lb break="no" />
+νι ουτος σεσωσται</ab> <ab n="B05K4V10">γνω
+<lb break="no" />
+στον εστω πασιν υμιν
+<lb/>
+και παντι τω λαω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>, οτι εν τω ονομα
+<lb break="no" />
+τι <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr> του ναζωραι
+<lb break="no" />
+ου ον υμεις εσταυρω
+<lb break="no" />
+σατε· ον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ηγειρεν
+<lb/>
+εκ νεκρων εν τουτω
+<lb/>
+<app><rdg type="orig">ουτος</rdg><rdg type="corr" hand="">OM</rdg></app> ουτως παρεστη
+<lb break="no" />
+κεν· ενωπιον υμων
+<lb/>
+υγιης
+<lb/>
+<note type="transcriber">PRAXEWN TWN APO(stol)WN·</note></ab> <ab n="B05K4V13">εν ταις ημεραις εκει(ναις)
+<lb/>
+θεωρουντες οι ιου
+<lb break="no" />
+δαιοι την του πετρου
+<lb/>
+παρρησιαν και ιω
+<lb break="no" />
+αννου· και καταλα
+<lb break="no" />
+βομενοι· οτι <abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr> α
+<lb break="no" />
+γραμματοι εισι και
+<lb/>
+ιδιωται· εθαυμα
+<lb break="no" />
+ζον <note type="transcriber">ueberhang</note>
+<lb/>
+</ab></div></div>
+<pb n="9r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+επεγινωσκον τε αυτους,
+<lb/>
+οτι συν τω <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> ησαν <div type="book" n="B05"><div type="chapter" n="B05K4"><ab n="B05K4V14">τον
+<lb/>
+δε <abbr type="nomSac"><hi rend="overline">ανον</hi></abbr> βλεποντες
+<lb/>
+συν αυτοις εστωτα τον
+<lb/>
+τεθεραπευμενον·
+<lb/>
+ουδεν ειχον αντιπειν
+<lb/>
+</ab> <ab n="B05K4V15">κελευσαντες δε αυ
+<lb break="no" />
+τους, εξω του συνεδρι
+<lb break="no" />
+ου απελθειν· συνε
+<lb break="no" />
+βαλλον προς αλληλους
+<lb/>
+</ab> <ab n="B05K4V16">λεγοντες τι ποιησω
+<lb break="no" />
+μεν τοις <abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr> τουτοις
+<lb/>
+οτι μεν γαρ γνωστον
+<lb/>
+σημειον· γεγονε δι αυ
+<lb break="no" />
+των, πασι τοις κα
+<lb break="no" />
+τοικουσιν <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>· φα
+<lb break="no" />
+νερον, και ου δυναμε
+<lb break="no" />
+θα αρνησασθαι</ab> <ab n="B05K4V17">αλλ ι
+<lb break="no" />
+να μη επι πλειον δι
+<lb break="no" />
+ανεμηθη εις τον λαον·
+<lb/>
+απειλη απειλησομε
+<lb break="no" />
+θα αυτοις, μηκετι λα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λειν επι τω ονοματι
+<lb/>
+τουτω· μηδενι <abbr type="nomSac"><hi rend="overline">ανω</hi></abbr>
+<lb/>
+</ab> <ab n="B05K4V18">και καλεσαντες αυτους
+<lb/>
+παρηγγειλαν αυτοις·
+<lb/>
+το καθολου μη φθεγγε
+<lb break="no" />
+σθαι, μηδε διδασκειν
+<lb/>
+επι τω ονοματι του <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K4V19">ο δε πετρος και ιωαννης
+<lb/>
+αποκριθεντες προς
+<lb/>
+αυτους· ειπον· ει δι
+<lb break="no" />
+καιον εστιν ενωπιον
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· υμων ακουειν
+<lb/>
+μαλλον, η του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> κρι
+<lb break="no" />
+νατε</ab> <ab n="B05K4V20">ου δυναμεθα
+<lb/>
+γαρ ημεις α ειδομεν
+<lb/>
+και ηκουσαμεν μη λα
+<lb break="no" />
+λειν</ab> <ab n="B05K4V21">οι δε προσαπει
+<lb break="no" />
+λησαμενοι· απελυ
+<lb break="no" />
+σαν αυτους, μηδεν ευ
+<lb break="no" />
+ρισκοντες το πως
+<lb/>
+κολασονται αυτους
+<lb/>
+δια τον λαον. οτι παν
+<lb break="no" />
+</ab></div></div>
+<pb n="9v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+τες εδοξαζον τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>
+<lb/>
+επι τω γεγονοτι <div type="book" n="B05"><div type="chapter" n="B05K4"><ab n="B05K4V22">ετων
+<lb/>
+γαρ ην πλειονων
+<lb/>
+τεσσαρακοντα ο αν
+<lb break="no" />
+θρωπος· εφ ον εγεγο
+<lb break="no" />
+νει· το σημειον· τουτο
+<lb/>
+της ιασεως
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab> <ab n="B05K4V23">εν ταις ημεραις εκει(ναις)
+<lb/>
+απολυθεντες οι α
+<lb break="no" />
+ποστολοι ηλθον προς
+<lb/>
+τους ιδιους, και απηγ
+<lb break="no" />
+γειλαν οσα προς αυ
+<lb break="no" />
+τους οι αρχιερεις και
+<lb/>
+οι πρεσβυτεροι ειπον
+<lb/>
+</ab> <ab n="B05K4V24">οι δε ακουσαντες ο
+<lb break="no" />
+μοθυμαδον· ηραν
+<lb/>
+φωνην προς τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>
+<lb/>
+και ειπον δεσποτα
+<lb/>
+συ ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>· ο ποιησας τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr> και την γην
+<lb/>
+και την θαλασσαν
+<lb/>
+<cb n="2" />
+<lb/>
+και παντα τα εν αυ
+<lb break="no" />
+τοις·</ab> <ab n="B05K4V25">ο δια στοματος
+<lb/>
+<abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr>, παιδος σου ει
+<lb break="no" />
+πων· ινατι εφρυα
+<lb break="no" />
+ξαν εθνη και λαοι ε
+<lb break="no" />
+μελετησαν κενα·
+<lb/>
+</ab> <ab n="B05K4V26">παρεστησαν οι βασι
+<lb break="no" />
+λεις της γης· και οι αρ
+<lb break="no" />
+χοντες συνηχθησαν
+<lb/>
+επι το αυτο· κατα του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> και κατα του <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>
+<lb/>
+αυτου</ab> <ab n="B05K4V27">συνηχθησαν
+<lb/>
+γαρ επ αληθειας ε
+<lb break="no" />
+πι τον αγιον παιδα σου
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> ον εχρησας· ηρω
+<lb break="no" />
+δης τε και ποντιος
+<lb/>
+πιλατος. συν εθνε
+<lb break="no" />
+σι και λαοις <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></ab> <ab n="B05K4V28">ποι
+<lb break="no" />
+ησαι οσα η χειρ σου
+<lb/>
+και η βουλη σου· προ
+<lb break="no" />
+ωρισε γενεσθαι</ab> <ab n="B05K4V29">και
+<lb/>
+τα νυν <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>· επιδε ε
+<lb break="no" />
+</ab></div></div>
+<pb n="10r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πι τας απειλας
+<lb/>
+αυτων· και δος τοις
+<lb/>
+δουλοις σου μετα παρ
+<lb break="no" />
+ρησιας πασης λα
+<lb break="no" />
+λειν τον λογον σου·
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K4"><ab n="B05K4V30">εν τω την χειρα σου
+<lb/>
+εκτεινειν σε εις ιασιν
+<lb/>
+και σημεια και τε
+<lb break="no" />
+ρατα γινεσθαι· δια
+<lb/>
+του ονοματος του αγι
+<lb break="no" />
+ου παιδος σου <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></ab> <ab n="B05K4V31">και
+<lb/>
+δεηθεντων αυτων
+<lb/>
+εσαλευθη ο τοπος
+<lb/>
+εν ω ησαν συνηγμε
+<lb break="no" />
+νοι και επλησθη
+<lb break="no" />
+σαν απαντες <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr>
+<lb/>
+αγιου και ελαλουν
+<lb/>
+τον λογον αυτου με
+<lb break="no" />
+τα παρρησιας
+<lb/>
+<note type="transcriber">PRAXEWN TWN AP</note></ab></div><div type="chapter" n="B05K5"> <ab n="B05K5V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+ανηρ τις ανανιας
+<lb/>
+<cb n="2" />
+<lb/>
+ονοματι, συν σαπφει
+<lb break="no" />
+ρη τη γυναικι αυτου
+<lb/>
+επωλησε κτημα
+<lb/>
+</ab> <ab n="B05K5V2">και ενοσφισατο απο
+<lb/>
+της τιμης· συνειδυι
+<lb break="no" />
+ας και της γυναικος
+<lb/>
+αυτου και ενεγκας
+<lb/>
+μερος τι· παρα τους
+<lb/>
+ποδας των αποστο
+<lb break="no" />
+λων εθηκεν</ab> <ab n="B05K5V3">ειπεν
+<lb/>
+δε πετρος ανανια·
+<lb/>
+δια τι επληρωσεν ο
+<lb/>
+σατανας την καρδι
+<lb break="no" />
+αν σου· ψευσασθαι σε
+<lb/>
+το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον· και
+<lb/>
+νοσφισασθαι σε α
+<lb break="no" />
+πο της τιμης του χω
+<lb break="no" />
+ριου</ab> <ab n="B05K5V4">ουχι μενον σοι ε
+<lb break="no" />
+μενε· και πραθεν
+<lb/>
+εν τη ση εξουσια υ
+<lb break="no" />
+πηρχε τι οτι εθου
+<lb/>
+εν τη καρδια σου· το
+<lb/>
+</ab></div></div>
+<pb n="10v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πραγμα τουτο ουκ ε
+<lb break="no" />
+ψευσω <abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr> αλλα τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θω</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V5">ακουων δε ο α
+<lb break="no" />
+νανιας τους λογους
+<lb/>
+τουτους· πεσων ε
+<lb break="no" />
+ξεψυξε και εγενετο
+<lb/>
+φοβος μεγας. επι
+<lb/>
+παντας τους ακου
+<lb break="no" />
+οντας ταυτα</ab> <ab n="B05K5V6">ανα
+<lb break="no" />
+σταντες δε οι νεωτε
+<lb break="no" />
+ροι· συνεστειλαν αυ
+<lb break="no" />
+τον, και εξενεγκαν
+<lb break="no" />
+τες εθαψαν</ab> <ab n="B05K5V7">εγενε
+<lb break="no" />
+το δε ως ωρων τριων
+<lb/>
+διαστημα και η γυ
+<lb break="no" />
+νη αυτου· μη ειδυια
+<lb/>
+το γεγονος εισηλθεν
+<lb/>
+</ab> <ab n="B05K5V8">απεκριθη δε αυτη
+<lb/>
+ο πετρος ειπε
+<lb/>
+μοι ει τοσουτου το
+<lb/>
+χωριον απεδοσθε
+<lb/>
+η δε ειπεν ναι το
+<lb break="no" />
+<cb n="2" />
+<lb/>
+σουτου</ab> <ab n="B05K5V9">ο δε πετρος
+<lb/>
+ειπε προς αυτην
+<lb/>
+τι οτι συνεφωνηθη
+<lb/>
+υμιν· πειρασαι το
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> ιδου οι πο
+<lb break="no" />
+δες των θαψαντων
+<lb/>
+τον ανδρα σου επι τη
+<lb/>
+θυρα· και εξοισουσι
+<lb/>
+σε</ab> <ab n="B05K5V10">επεσε δε παρα
+<lb break="no" />
+χρημα παρα τους
+<lb/>
+ποδας αυτου και εξε
+<lb break="no" />
+ψυξεν εισελθον
+<lb break="no" />
+τες δε οι νεανισκοι
+<lb/>
+ευρον αυτην νεκραν,
+<lb/>
+και εξενεγκαντες
+<lb/>
+εθαψαν προς τον
+<lb/>
+ανδρα αυτης</ab> <ab n="B05K5V11">και ε
+<lb break="no" />
+γενετο φοβος μεγας
+<lb/>
+εφ ολην την εκκλη
+<lb break="no" />
+σιαν· και επι παν
+<lb break="no" />
+τας τους ακουοντας
+<lb/>
+ταυτα
+<lb/>
+</ab></div></div>
+<pb n="11r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V12">εν ταις ημεραις εκει(ναις)
+<lb/>
+δια των χειρων των
+<lb/>
+αποστολων· εγενετο
+<lb/>
+σημεια και τερατα
+<lb/>
+εν τω λαω πολλα
+<lb/>
+και ησαν ομοθυμα
+<lb break="no" />
+δων απαντες εν τη
+<lb/>
+στοα σολομωνος</ab> <ab n="B05K5V13">των
+<lb/>
+δε λοιπων· ουδεις ε
+<lb break="no" />
+τολμα· κολλασθαι
+<lb/>
+<cb n="2" />
+<lb/>
+αυτοις, αλλ εμεγαλυ
+<lb break="no" />
+νεν αυτους ο λαος
+<lb/>
+</ab> <ab n="B05K5V14">μαλλον δε· προσετι
+<lb break="no" />
+θεντο πιστευοντες
+<lb/>
+τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr>· πληθει αν
+<lb break="no" />
+δρων τε και γυναικων
+<lb/>
+</ab> <ab n="B05K5V15">ωστε κατα τας
+<lb/>
+πλατειας εκφερειν
+<lb/>
+τους ασθενεις· και τι
+<lb break="no" />
+θεναι επι κλινων,
+<lb/>
+και κραβαττων ι
+<lb break="no" />
+να ερχομενου πετρου
+<lb/>
+καν η σκια· επισκι
+<lb break="no" />
+αση τινι αυτων</ab> <ab n="B05K5V16">συ
+<lb break="no" />
+νηρχετο δε και το πλη
+<lb break="no" />
+θος των περιξ πο
+<lb break="no" />
+λεων εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>, φε
+<lb break="no" />
+ροντες ασθενεις·
+<lb/>
+και οχλουμενους
+<lb/>
+υπο πνευματων α
+<lb break="no" />
+καθαρτων· οιτινες
+<lb/>
+εθεραπευοντο α
+<lb break="no" />
+</ab></div></div>
+<pb n="11v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+παντες <div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V17">αναστας
+<lb/>
+δε ο αρχιερευς· και
+<lb/>
+παντες οι συν αυτω·
+<lb/>
+η ουσα αιρεσις των
+<lb/>
+σαδδουκαιων επλη
+<lb break="no" />
+σθησαν ζηλου.</ab> <ab n="B05K5V18">και
+<lb/>
+επεβαλον τας χει
+<lb break="no" />
+ρας αυτων επι τους
+<lb/>
+αποστολους· και ε
+<lb break="no" />
+θεντο αυτους εν τη
+<lb break="no" />
+ρησει δημοσια</ab> <ab n="B05K5V19">αγγε
+<lb break="no" />
+λος δε <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> δια της νυ
+<lb break="no" />
+κτος, ηνυξε τας θυ
+<lb break="no" />
+ρας της φυλακης
+<lb/>
+εξαγαγων τε αυτους ει
+<lb break="no" />
+πε</ab> <ab n="B05K5V20">πορευεσθαι. και
+<lb/>
+σταθεντες· λαλειτε
+<lb/>
+εν τω ιερω τω λαω
+<lb/>
+παντα τα ρηματα
+<lb/>
+της ζωης ταυτης <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="12r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">PRAXEWN TWN</note><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V21">εν ταις ημεραις εκει(ναις)
+<lb/>
+εισηλθον οι απο
+<lb break="no" />
+στολοι εις το ιερον και
+<lb/>
+εδιδασκον παρα
+<lb break="no" />
+γενομενος δε ο αρχι
+<lb break="no" />
+ερευς και οι συν αυτω·
+<lb/>
+συνεκαλεσαν το συ
+<lb break="no" />
+νεδριον και πασαν
+<lb/>
+την γερουσιαν των
+<lb/>
+υιων <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr> και απε
+<lb break="no" />
+στειλαν εις το δεσμω
+<lb break="no" />
+τηριον· αχθηναι αυ
+<lb break="no" />
+τους</ab> <ab n="B05K5V22">οι δε υπηρεται
+<lb/>
+παραγενομενοι· ου
+<lb break="no" />
+χ ευρον αυτους εν τη
+<lb/>
+φυλακη αναστρε
+<lb break="no" />
+ψαντες δε· απηγγει
+<lb break="no" />
+λαν</ab> <ab n="B05K5V23">λεγοντες οτι το
+<lb/>
+μεν δεσμωτηριον
+<lb/>
+ευρομεν κεκλησμε
+<lb break="no" />
+νον εν παση ασφα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λεια· και τους φυ
+<lb break="no" />
+λακας εστωτας προ
+<lb/>
+των θυρων ανοιξαν
+<lb break="no" />
+τες δε εσω. ουδενα
+<lb/>
+ευρομεν</ab> <ab n="B05K5V24">ως δε ηκου
+<lb break="no" />
+σαν τους λογους του
+<lb break="no" />
+τους· ο τε ιερευς και
+<lb/>
+ο στρατηγος του ιερου
+<lb/>
+και οι αρχιερεις· δι
+<lb break="no" />
+ηπορουν περι αυτων
+<lb/>
+τι αν γενοιτο τουτο
+<lb/>
+</ab> <ab n="B05K5V25">παραγενομενος δε τις
+<lb/>
+απηγγειλεν αυτοις
+<lb/>
+οτι ιδου οι ανδρες
+<lb/>
+ους εθεσθε εν τη φυ
+<lb break="no" />
+λακη· εισιν εν τω
+<lb/>
+ιερω, εστωτες και
+<lb/>
+διδασκοντες τον
+<lb/>
+λαον</ab> <ab n="B05K5V26">τοτε απελ
+<lb break="no" />
+θων ο στρατηγος συν
+<lb/>
+τοις υπηρεταις· η
+<lb break="no" />
+γαγεν αυτους ου μετα
+<lb/>
+</ab></div></div>
+<pb n="12v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+βιας. εφοβουντο γαρ
+<lb/>
+τον λαον· ινα μη λι
+<lb break="no" />
+θασθωσιν <div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V27">αγαγοντες
+<lb/>
+δε αυτους· εστησαν
+<lb/>
+εν τω συνεδριω και
+<lb/>
+επηρωτησεν αυτους
+<lb/>
+ο αρχιερευς</ab> <ab n="B05K5V28">λεγων
+<lb/>
+ου παραγγελια πα
+<lb break="no" />
+ρηγγειλαμεν υμιν·
+<lb/>
+μη διδασκειν επι
+<lb/>
+τω ονοματι τουτὸ
+<lb/>
+και ιδου πεπληρω
+<lb break="no" />
+κατε την <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>
+<lb/>
+της διδαχης υμων
+<lb/>
+και βουλεσθαι επα
+<lb break="no" />
+γαγειν εφ ημας το αι
+<lb break="no" />
+μα του <abbr type="nomSac"><hi rend="overline">ανου</hi></abbr> τουτου
+<lb/>
+</ab> <ab n="B05K5V29">αποκριθεις δε πε
+<lb break="no" />
+τρος και οι αποστο
+<lb break="no" />
+λοι ειπον πειθαρ
+<lb break="no" />
+χειν δει <abbr type="nomSac"><hi rend="overline">θω</hi></abbr> μαλλον·
+<lb/>
+η <abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr></ab> <ab n="B05K5V30">ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> των
+<lb/>
+<cb n="2" />
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πρων</hi></abbr> ημων· ηγειρεν
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> ον υμεις διεχειρισα
+<lb break="no" />
+σθε· κρεμασαντες
+<lb/>
+επι ξυλου</ab> <ab n="B05K5V31">τουτον ο
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θς</hi></abbr> αρχηγον και <abbr type="nomSac"><hi rend="overline">σρα</hi></abbr>·
+<lb/>
+υψωσε τη δεξια αυτου,
+<lb/>
+δουναι μετανοιαν τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>· και αφεσιν αμαρ
+<lb break="no" />
+τιων</ab> <ab n="B05K5V32">και ημεις εσμεν
+<lb/>
+αυτου μαρτυρες των
+<lb/>
+ρηματων τουτων·
+<lb/>
+και το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> δε το αγι
+<lb break="no" />
+ον· ο εδωκεν ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>·
+<lb/>
+τοις πειθαρχουσιν
+<lb/>
+αυτω
+<lb/>
+</ab></div></div>
+<pb n="13r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">PRAXEWN TWN APO(stol)WN</note><div type="book" n="B05"><div type="chapter" n="B05K6"> <ab n="B05K6V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+πληθυνοντων των
+<lb/>
+μαθητων, εγενετο
+<lb/>
+γογγυσμος των ελλη
+<lb break="no" />
+νιστων προς τους
+<lb/>
+εβραιους, οτι πα
+<lb break="no" />
+ρεθεωρουντο εν τη
+<lb/>
+διακονια τη καθη
+<lb break="no" />
+μερινη· αι <app><rdg type="orig">χειραι</rdg><rdg type="corr" hand="">χηραι</rdg></app>
+<lb/>
+αυτων</ab> <ab n="B05K6V2">προσκαλε
+<lb break="no" />
+</ab></div></div>
+<pb n="13v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+σαμενοι δε οι δω
+<lb break="no" />
+δεκα· το πληθος
+<lb/>
+των μαθητων ειπον·
+<lb/>
+ουκ αρεστον εστιν ημας
+<lb/>
+καταλιποντας
+<lb/>
+τον λογον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· δι
+<lb break="no" />
+ακονειν τραπε
+<lb break="no" />
+ζαις <div type="book" n="B05"><div type="chapter" n="B05K6"><ab n="B05K6V3">επισκεψα
+<lb break="no" />
+σθε ουν αδελφοι·
+<lb/>
+ανδρας εξ υμων· μαρ
+<lb break="no" />
+τυρουμενους επτα,
+<lb/>
+πληρεις <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγιου
+<lb/>
+και σοφιας· ους κα
+<lb break="no" />
+ταστησομεν· επι
+<lb/>
+της χρειας ταυτης
+<lb/>
+</ab> <ab n="B05K6V4">ημεις δε τη προ
+<lb break="no" />
+σευχη και τη διακο
+<lb break="no" />
+νια του λογου προσ
+<lb break="no" />
+καρτερησωμεν
+<lb/>
+</ab> <ab n="B05K6V5">και ηρεσεν ο λογος
+<lb/>
+ενωπιον παντος
+<lb/>
+του πληθους και
+<lb/>
+<cb n="2" />
+<lb/>
+εξελεξαντο στεφα
+<lb break="no" />
+νον ανδρα πληρης
+<lb/>
+πιστεως και <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> α
+<lb break="no" />
+γιου και φιλιππον·
+<lb/>
+και προχωρον· και
+<lb/>
+νικανορα· και τιμω
+<lb break="no" />
+να· και παρμεναν·
+<lb/>
+και νικολαον προ
+<lb break="no" />
+σηλυτον αντιοχεα
+<lb/>
+</ab> <ab n="B05K6V6">ους εστησαν ενωπιον
+<lb/>
+των αποστολων και
+<lb/>
+προσευξαμενοι,
+<lb/>
+επεθηκαν αυτοις
+<lb/>
+τας χειρας</ab> <ab n="B05K6V7">και ο λο
+<lb break="no" />
+γος του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> ηυξανε·
+<lb/>
+και επληθυνετο ο
+<lb/>
+αριθμος των μαθη
+<lb break="no" />
+των εν <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> σφοδρα
+<lb/>
+πολυς τε οχλος των
+<lb/>
+ιερεων· υπηκουον
+<lb/>
+τη πιστει <note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="14r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH B[ns][\ns] THS G[ns][\ns] EBDMAD·</note><note type="transcriber">PRAXEWN·</note><div type="book" n="B05"><div type="chapter" n="B05K6"><ab n="B05K6V8">εν ταις ημεραις εκει(ναις)
+<lb/>
+στεφανος πληρης
+<lb/>
+πιστεως και δυνα
+<lb break="no" />
+μεως· εποιει τερα
+<lb break="no" />
+τα και σημεια· με
+<lb break="no" />
+γαλα εν τω λαω</ab> <ab n="B05K6V9">α
+<lb break="no" />
+νεστησαν δε τινες των
+<lb/>
+εκ της συναγωγης·
+<lb/>
+της λεγομενης λιβερ
+<lb break="no" />
+τινων· και κυρηναι
+<lb break="no" />
+ων· και αλεξανδρε
+<lb break="no" />
+ων· και των απο κι
+<lb break="no" />
+λικιας· και ασιας,
+<lb/>
+συζητουντες τω στε
+<lb break="no" />
+φανω</ab> <ab n="B05K6V10">και ουκ ισχυ
+<lb break="no" />
+ον αντιστηναι τη σο
+<lb break="no" />
+<cb n="2" />
+<lb/>
+φια· και τω <abbr type="nomSac"><hi rend="overline">πνι</hi></abbr> ω
+<lb/>
+ελαλει</ab> <ab n="B05K6V11">τοτε υπε
+<lb break="no" />
+βαλον ανδρας λε
+<lb break="no" />
+γοντας οτι ακηκο
+<lb break="no" />
+αμεν αυτου λαλουν
+<lb break="no" />
+τος ρηματα βλα
+<lb break="no" />
+σφημα· εις μωσην
+<lb/>
+και τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr></ab> <ab n="B05K6V12">συνε
+<lb break="no" />
+κινησαν τε τον λαον
+<lb/>
+και τους πρεσβυ
+<lb break="no" />
+τερους, και τους γραμ
+<lb break="no" />
+ματεις· και επι
+<lb break="no" />
+σταντες συνηρπα
+<lb break="no" />
+σαν αυτον· και ηγα
+<lb break="no" />
+γον εις το συνεδριον
+<lb/>
+</ab> <ab n="B05K6V13">εστησαν τε μαρτυρας
+<lb/>
+ψευδεις λεγοντας
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">ανος</hi></abbr> ουτος, ου παυ
+<lb break="no" />
+εται ρηματα βλασφη
+<lb break="no" />
+μα λαλων κατα του
+<lb/>
+τοπου του αγιου και
+<lb/>
+του νομου</ab> <ab n="B05K6V14">ακηκο
+<lb break="no" />
+</ab></div></div>
+<pb n="14v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αμεν γαρ αυτου λε
+<lb break="no" />
+γοντος οτι <abbr type="nomSac"><hi rend="overline">ις</hi></abbr> ο να
+<lb break="no" />
+ζωραιος· ουτος
+<lb/>
+καταλυσει τον το
+<lb break="no" />
+πον τουτον· και
+<lb/>
+αλλαξει τα εθη. α
+<lb/>
+παρεδωκεν μω
+<lb break="no" />
+σης <div type="book" n="B05"><div type="chapter" n="B05K6"><ab n="B05K6V15">και ατενι
+<lb break="no" />
+σαντες εις αυτον·
+<lb/>
+απαντες οι καθε
+<lb break="no" />
+ζομενοι εν τω συ
+<lb break="no" />
+νεδριω· ειδον το
+<lb/>
+προσωπον αυτου
+<lb/>
+ωσει προσωπον
+<lb/>
+αγγελου </ab></div><div type="chapter" n="B05K7"> <ab n="B05K7V1">ειπε δε ο
+<lb/>
+αρχιερευς ει αρα
+<lb/>
+ταυτα ουτως εχεὶ
+<lb/>
+</ab> <ab n="B05K7V2">ο δε εφη ανδρες
+<lb/>
+αδελφοι και <abbr type="nomSac"><hi rend="overline">πρες</hi></abbr>·
+<lb/>
+ακουσατε· ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+της δοξης· ωφθη
+<lb/>
+τω <abbr type="nomSac"><hi rend="overline">πρι</hi></abbr> ημων αβρα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+αμ· οντι εν τη μεσο
+<lb break="no" />
+ποταμια· πριν η
+<lb/>
+κατοικησαι αυτον
+<lb/>
+εν χαρραν</ab> <ab n="B05K7V3">και ειπε
+<lb/>
+προς αυτον εξελ
+<lb break="no" />
+θε εκ της γης σου και
+<lb/>
+εκ της συγγενειας
+<lb/>
+σου· και δευρο εις γην
+<lb/>
+ην αν σοι δειξω</ab> <ab n="B05K7V4">το
+<lb break="no" />
+τε εξελθων εκ γης
+<lb/>
+χαλδαιων· κατω
+<lb break="no" />
+κησεν εις χαρραν κα
+<lb break="no" />
+κειθεν μετα το απο
+<lb break="no" />
+θανειν τον <abbr type="nomSac"><hi rend="overline">πρα</hi></abbr> αυ
+<lb break="no" />
+του· μετωκησεν αυ
+<lb break="no" />
+τον εις την γην ταυ
+<lb break="no" />
+την· εις ην υμεις νυν
+<lb/>
+κατοικειτε</ab> <ab n="B05K7V5">και ου
+<lb break="no" />
+κ εδωκεν αυτω κλη
+<lb break="no" />
+ρονομιαν εν αυτη·
+<lb/>
+ουδε βημα ποδος
+<lb/>
+</ab> <ab n="B05K7V47">σολομων δε· ωκοδο
+<lb break="no" />
+</ab></div></div>
+<pb n="15r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+μησεν εαυτω οικον
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K7"><ab n="B05K7V48">αλλ ουχ ο υψιστος εν
+<lb/>
+χειροποιητοις να
+<lb break="no" />
+οις κατοικει καθως
+<lb/>
+ο προφητης λεγει
+<lb/>
+</ab> <ab n="B05K7V49">ο <abbr type="nomSac"><hi rend="overline">ουνος</hi></abbr> μοι θρονος
+<lb/>
+η δε γη υποποδιον
+<lb/>
+των ποδων μου ποι
+<lb break="no" />
+ον οικον οικοδομησε
+<lb break="no" />
+τε μοι· λεγει <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> η τις
+<lb/>
+τοπος της καταπαυ
+<lb break="no" />
+σεως μου</ab> <ab n="B05K7V50">ουχι η χειρ
+<lb/>
+μου εποιησε ταυτα
+<lb/>
+παντὰ</ab> <ab n="B05K7V51">σκληροτρα
+<lb break="no" />
+χηλοι και απεριτμη
+<lb break="no" />
+τοι τη καρδια και τοις
+<lb/>
+ωσιν υμεις αει τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνι</hi></abbr> τω αγιω αντιπι
+<lb break="no" />
+πτεται· ως οι <abbr type="nomSac"><hi rend="overline">πρες</hi></abbr> υ
+<lb break="no" />
+μων και υμεις</ab> <ab n="B05K7V52">τινα
+<lb/>
+των προφητων ουκ ε
+<lb break="no" />
+διωξαν οι <abbr type="nomSac"><hi rend="overline">πρες</hi></abbr> υμων
+<lb/>
+<cb n="2" />
+<lb/>
+και απεκτειναν
+<lb/>
+τους προκαταγγει
+<lb break="no" />
+λαντας περι της
+<lb/>
+ελευσεως του δι
+<lb break="no" />
+καιου· ου νυν υμεις
+<lb/>
+προδοται και <app><rdg type="orig">φω
+<lb break="no" />
+νεις</rdg><rdg type="corr" hand="">φονεις</rdg></app> γεγενησθε</ab> <ab n="B05K7V53">οιτι
+<lb break="no" />
+νες ελαβετε τον
+<lb/>
+νομον εις διαταγας
+<lb/>
+αγγελων και ουκ εφυ
+<lb break="no" />
+λαξατε</ab> <ab n="B05K7V54">ακουον
+<lb break="no" />
+τες δε ταυτα· διε
+<lb break="no" />
+πριοντο ταις καρ
+<lb break="no" />
+διαις αυτων. και ε
+<lb break="no" />
+βρυχον τους οδοντας
+<lb/>
+επ αυτον</ab> <ab n="B05K7V55">υπαρχων
+<lb/>
+δε πληρης <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγι
+<lb break="no" />
+ου· ατενισας εις
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>· ειδε δο
+<lb break="no" />
+ξαν <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> και <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> εστω
+<lb break="no" />
+τα εκ δεξιων του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K7V56">και ειπεν ιδου
+<lb/>
+</ab></div></div>
+<pb n="15v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+θεωρω τους <abbr type="nomSac"><hi rend="overline">ουνους</hi></abbr>
+<lb/>
+ανεωγμενους. και
+<lb/>
+τον υιον του <abbr type="nomSac"><hi rend="overline">ανου</hi></abbr> εκ
+<lb/>
+δεξιων εστωτα του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K7"><ab n="B05K7V57">κραξαντες δε
+<lb/>
+φωνη μεγαλη· συνε
+<lb break="no" />
+σχον τα ωτα αυτων,
+<lb/>
+και ωρμησαν ομοθυ
+<lb break="no" />
+μαδων επ αυτον</ab> <ab n="B05K7V58">και
+<lb/>
+εκβαλοντες εξω
+<lb/>
+της πολεως· ελιθο
+<lb break="no" />
+βολουν· και οι μαρ
+<lb break="no" />
+τυρες· απεθεντο
+<lb/>
+τα ιματια παρα
+<lb/>
+τους ποδας νεα
+<lb break="no" />
+νιου καλουμενου
+<lb/>
+σαυλου,</ab> <ab n="B05K7V59">και ελιθο
+<lb break="no" />
+βολουν τον στεφα
+<lb break="no" />
+νον επικαλουμε
+<lb break="no" />
+νον και λεγοντα
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κε</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>· δεξαι το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>
+<lb/>
+μου</ab> <ab n="B05K7V60">θεις δε τα γο
+<lb break="no" />
+<cb n="2" />
+<lb/>
+νατα· εκραξε φω
+<lb break="no" />
+νη μεγαλη <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>· μη
+<lb/>
+στησης αυτοις την
+<lb/>
+αμαρτιαν ταυτην
+<lb/>
+και τουτο· ειπων
+<lb/>
+εκοιμηθη
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K8"> <ab n="B05K8V5">εν ταις ημεραις εκει(ναις)
+<lb/>
+φιλιππος κατελ
+<lb break="no" />
+θων εις πολιν της
+<lb/>
+σαμαρειας, εκη
+<lb break="no" />
+ρυσσεν αυτοις τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr>
+<lb/>
+</ab> <ab n="B05K8V6">προσειχον τε οι ο
+<lb break="no" />
+χλοι τοις λεγομενοις
+<lb/>
+υπο του φιλιππου
+<lb/>
+ομοθυμαδων, εν
+<lb/>
+τω ακουειν αυτους
+<lb/>
+και βλεπειν τα ση
+<lb break="no" />
+μεια α εποιει</ab> <ab n="B05K8V7">πολ
+<lb break="no" />
+λων γαρ των εχοντων
+<lb/>
+πνευματα ακα
+<lb break="no" />
+θαρτα· βοωντα
+<lb/>
+</ab></div></div>
+<pb n="16r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+φωνη μεγαλη εξηρ
+<lb break="no" />
+χετο πολλοι δε πα
+<lb break="no" />
+ραλελυμενοι και
+<lb/>
+χωλοι εθεραπευ
+<lb break="no" />
+θησαν <div type="book" n="B05"><div type="chapter" n="B05K8"><ab n="B05K8V8">και εγενετο
+<lb/>
+χαρα μεγαλη, εν τη
+<lb/>
+πολει εκεινη</ab> <ab n="B05K8V9">α
+<lb break="no" />
+νηρ δε τις ονοματι
+<lb/>
+σιμων· προυπηρ
+<lb break="no" />
+χεν εν τη πολει,
+<lb/>
+μαγευων και εξιστων
+<lb/>
+το εθνος της σαμα
+<lb break="no" />
+ρειας· λεγων ειναι
+<lb/>
+τινα εαυτον μεγαν
+<lb/>
+</ab> <ab n="B05K8V10">ω προσειχον απο
+<lb/>
+μικρου εως μεγαλου
+<lb/>
+λεγοντες ουτος εστιν
+<lb/>
+η δυναμις του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+η μεγαλη</ab> <ab n="B05K8V11">προσει
+<lb break="no" />
+χον δε αυτω· δια το
+<lb/>
+ικανω χρονω·
+<lb/>
+ταις μαγειαις εξιστα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+κεναι αυτους</ab> <ab n="B05K8V12">οτε δε
+<lb/>
+επιστευσαν τω φιλιπ
+<lb break="no" />
+πω· ευαγγελιζομε
+<lb break="no" />
+νω τα περι της βα
+<lb break="no" />
+σιλειας του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· και
+<lb/>
+του ονοματος <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>·
+<lb/>
+εβαπτιζοντο ανδρες
+<lb/>
+τε και γυναικες</ab> <ab n="B05K8V13">ο δε
+<lb/>
+σιμων και αυτος επι
+<lb break="no" />
+στευσε, και βαπτισθεις
+<lb/>
+ην· προσκαρτερων
+<lb/>
+τω φιλιππω θεω
+<lb break="no" />
+ρων τε δυναμεις και
+<lb/>
+σημεια γινομενα
+<lb/>
+εξιστατο·</ab> <ab n="B05K8V14">ακουσαν
+<lb break="no" />
+τες δε οι εν ιεροσολυ
+<lb break="no" />
+μοις αποστολοι· ο
+<lb break="no" />
+τι δεδεκται η σαμα
+<lb break="no" />
+ρεια τον λογον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+απεστειλαν προς
+<lb/>
+αυτους τον πετρον
+<lb/>
+και ιωαννην·</ab> <ab n="B05K8V15">οιτινες
+<lb/>
+</ab></div></div>
+<pb n="16v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+καταβαντες προ
+<lb break="no" />
+σηυξαντο περι αυ
+<lb break="no" />
+των· οπως λαβω
+<lb break="no" />
+σι <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> αγιον <div type="book" n="B05"><div type="chapter" n="B05K8"><ab n="B05K8V16">ουπω
+<lb/>
+γαρ ην· επ ουδενι
+<lb/>
+αυτων επιπεπτω
+<lb break="no" />
+κος μονον δε βεβα
+<lb break="no" />
+πτισμενοι υπηρχον·
+<lb/>
+εις το ονομα του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></ab> <ab n="B05K8V17">τοτε επετιθουν
+<lb/>
+τας χειρας επ αυ
+<lb break="no" />
+τους· και ελαμβα
+<lb break="no" />
+νον· <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> αγιον
+<lb/>
+<note type="transcriber">PRAXEWN·</note></ab> <ab n="B05K8V18">εν ταις ημεραις εκει(ναις)
+<lb/>
+ιδων ο σιμων· οτι δι
+<lb break="no" />
+α της επιθεσεως
+<lb/>
+των χειρων των α
+<lb break="no" />
+ποστολων· διδοται
+<lb/>
+το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον·
+<lb/>
+προσηνεγκεν αυτοις
+<lb/>
+χρηματα</ab> <ab n="B05K8V19">λεγων.
+<lb/>
+<cb n="2" />
+<lb/>
+δοτε καμοι· την
+<lb/>
+εξουσιαν ταυτην
+<lb/>
+ινα ω εαν· επιθω
+<lb/>
+τας χειρας, λαμ
+<lb break="no" />
+βανει <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> αγιον
+<lb/>
+</ab> <ab n="B05K8V20">πετρος δε· ειπε προς
+<lb/>
+αυτον το αργυριον
+<lb/>
+σου συν σοι εις απω
+<lb break="no" />
+λειαν· οτι την δω
+<lb break="no" />
+ρεαν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· ενομι
+<lb break="no" />
+σας δια χρηματων
+<lb/>
+κτασθαι</ab> <ab n="B05K8V21">ουκ εστι
+<lb/>
+σοι <app><rdg type="orig">μερος·</rdg><rdg type="corr" hand="">μερις·</rdg></app> ουδε κλη
+<lb break="no" />
+ρος· εν τω λογω του
+<lb break="no" />
+τω, η γαρ καρδια
+<lb/>
+σου ουκ εστιν ευθεια
+<lb/>
+ενωπιον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K8V22">μετανοησον ουν· α
+<lb break="no" />
+πο της κακιας σου
+<lb/>
+ταυτης, και δεηθητι
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· ει αρα αφε
+<lb break="no" />
+θησεται σοι· η επι
+<lb break="no" />
+</ab></div></div>
+<pb n="17r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+νοια της καρδιας σου
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K8"><ab n="B05K8V23">εις γαρ χολην πι
+<lb break="no" />
+κριας και συνδε
+<lb break="no" />
+σμον αδικιας· ορω
+<lb/>
+σε οντα</ab> <ab n="B05K8V24">αποκρι
+<lb break="no" />
+θεις δε ο σιμων ει
+<lb break="no" />
+πεν δεηθητε υ
+<lb break="no" />
+μεις υπερ εμου προ <note type="transcriber">sic</note>
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>. οπως μη
+<lb break="no" />
+δεν επελθη επ ε
+<lb break="no" />
+με· ων ειρηκατε
+<lb/>
+</ab> <ab n="B05K8V25">οι μεν ουν διαμαρ
+<lb break="no" />
+τυραμενοι και λα
+<lb break="no" />
+λησαντες τον λο
+<lb break="no" />
+γον του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> υπεστρε
+<lb break="no" />
+ψαν εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> πολ
+<lb break="no" />
+λας τε κωμας· των
+<lb/>
+σαμαρειτων ευη
+<lb break="no" />
+γγελισαντο
+<lb/>
+<note type="transcriber">PRAXEWN TWN AP·</note></ab> <ab n="B05K8V26">εν ταις ημεραις εκει(ναις)
+<lb/>
+αγγελος <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>· ελαλησε
+<lb/>
+<cb n="2" />
+<lb/>
+προς φιλιππον λεγων
+<lb/>
+αναστηθι, και πο
+<lb break="no" />
+ρευου κατα μεσημ
+<lb break="no" />
+βριαν επι την οδον
+<lb/>
+την καταβαινουσαν.
+<lb/>
+απο <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> εις γα
+<lb break="no" />
+ζαν, αυτη εστιν ερη
+<lb break="no" />
+μος</ab> <ab n="B05K8V27">και αναστας
+<lb/>
+επορευθη και ιδου
+<lb/>
+ανηρ· αιθιοψ· ευ
+<lb break="no" />
+νουχος· δυναστης
+<lb/>
+κανδακης της βα
+<lb break="no" />
+σιλισσης αιθιοπων·
+<lb/>
+ος ην· επι πασης
+<lb/>
+της γαζης αυτης
+<lb/>
+ος εληλυθει προσκυ
+<lb break="no" />
+νησων εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K8V28">ην τε υποστρεφων
+<lb/>
+και καθημενος επι
+<lb/>
+του αρματος αυτου,
+<lb/>
+και ανεγινωσκε τον
+<lb/>
+προφητην ησαιαν
+<lb/>
+</ab></div></div>
+<pb n="17v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K8"><ab n="B05K8V29">ειπε δε το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> τω
+<lb/>
+φιλιππω προσελ
+<lb break="no" />
+θε, και κολληθητι
+<lb/>
+τω αρματι τουτω
+<lb/>
+</ab> <ab n="B05K8V30">προσδραμων δε ο φι
+<lb break="no" />
+λιππος· ηκουσεν
+<lb/>
+αυτου αναγινωσκον
+<lb break="no" />
+τος τον προφητην
+<lb/>
+ησαιαν, και ειπεν
+<lb/>
+αρα γε γινωσκεις·
+<lb/>
+α αναγινωσκεις;
+<lb/>
+</ab> <ab n="B05K8V31">ο δε ειπεν πως
+<lb/>
+γαρ αν δυναιμην·
+<lb/>
+εαν μη τις οδηγη
+<lb break="no" />
+ση με παρεκαλε
+<lb break="no" />
+σε τε τον φιλιππον,
+<lb/>
+αναβαντα καθι
+<lb break="no" />
+σαι συν αυτω</ab> <ab n="B05K8V32">η δε
+<lb/>
+περιοχη της γρα
+<lb break="no" />
+φης· ην ανεγινω
+<lb break="no" />
+σκεν ην αυτη· ως
+<lb/>
+προβατον επι σφα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+γην ηχθη και ως α
+<lb break="no" />
+μνος <note type="transcriber">a auf darunterliegeder seite durch loch sichtbar</note> ακακος
+<lb/>
+εναντιον του κειρον
+<lb break="no" />
+τος αυτον· αφωνος,
+<lb/>
+ουτως ουκ ανοιγει·
+<lb/>
+το στομα αυτου</ab> <ab n="B05K8V33">εν
+<lb/>
+τη ταπεινωσει αυ
+<lb break="no" />
+του· <unclear>η</unclear><w></w><unclear>κ</unclear>ρισις αυτου
+<lb/>
+ηρθη την δε γενε
+<lb break="no" />
+αν αυτου, τις διηγη
+<lb break="no" />
+σεται οτι αιρεται α
+<lb break="no" />
+πο της γης η ζωη
+<lb/>
+αυτου</ab> <ab n="B05K8V34">αποκριθεις
+<lb/>
+δε ο ευνουχος τω φι
+<lb break="no" />
+λιππω ειπε
+<lb/>
+δεομαι σου· περι
+<lb/>
+τινος ο προφητης·
+<lb/>
+λεγει τουτο  περι ε
+<lb break="no" />
+αυτου, η περι ετε
+<lb break="no" />
+ρου τινος</ab> <ab n="B05K8V35">ανοιξας
+<lb/>
+δε ο φιλιππος· το
+<lb/>
+στομα αυτου· και
+<lb/>
+</ab></div></div>
+<pb n="18r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αρξαμενος απο
+<lb/>
+της γραφης <note type="transcriber">loch zwischen gra-fh"</note> ταυ
+<lb break="no" />
+της· ευηγγελισατο
+<lb/>
+αυτω τον <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K8"><ab n="B05K8V36">ως δε
+<lb/>
+επορευοντο κατα
+<lb/>
+την οδον· ηλθον
+<lb/>
+επι τι υδωρ. και
+<lb/>
+φησιν ο ευνουχος
+<lb/>
+ιδου υδωρ  τι κω
+<lb break="no" />
+λυει με βαπτισθη
+<lb break="no" />
+ναι</ab> <ab n="B05K8V37"><note type="transcriber">omissio</note></ab> <ab n="B05K8V38">και εκελευσε
+<lb/>
+στηναι το αρμα και
+<lb/>
+κατεβησαν αμφο
+<lb break="no" />
+τεροι εις το υδωρ·
+<lb/>
+ο τε φιλιππος και
+<lb/>
+ο ευνουχος, και εβα
+<lb break="no" />
+πτησεν αυτον</ab> <ab n="B05K8V39">οτε
+<lb/>
+δε ανεβησαν εκ
+<lb/>
+του υδατος· <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>· ηρπασε τον
+<lb/>
+φιλιππον και ου
+<lb break="no" />
+κ ειδεν αυτον· ουκετι
+<lb/>
+<cb n="2" />
+<lb/>
+ο ευνουχος επο
+<lb break="no" />
+ρευετο γαρ την ο
+<lb break="no" />
+δον αυτου χαιρων
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab> <ab n="B05K8V40">εν ταις ημεραις εκει(ναις)
+<lb/>
+φιλιππος ευρεθη
+<lb/>
+εις αζωτον, και
+<lb/>
+διερχομενος ευη
+<lb break="no" />
+γγελιζετο τας πο
+<lb break="no" />
+λεις πασας· εως
+<lb/>
+του ελθειν αυτον
+<lb/>
+εις καισαρειαν
+<lb/>
+</ab></div><div type="chapter" n="B05K9"> <ab n="B05K9V1">ο δε σαυλος·
+<lb/>
+ετι εμπνεων απειλης
+<lb/>
+και φονου· εις τους
+<lb/>
+μαθητας του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>·
+<lb/>
+προσελθων τω
+<lb/>
+αρχιερει,</ab> <ab n="B05K9V2">ητησατο
+<lb/>
+παρ αυτου επιστο
+<lb break="no" />
+λας εις δαμασκον.
+<lb/>
+προς τας συναγω
+<lb break="no" />
+γας, οπως εαν τι
+<lb break="no" />
+</ab></div></div>
+<pb n="18v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+νας ευρη της οδου
+<lb/>
+οντας· ανδρας τε
+<lb/>
+και γυναικας, δε
+<lb break="no" />
+δεμενους αγαγη εις
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V3">εν δε τω πο
+<lb break="no" />
+ρευεσθαι· εγενετο
+<lb/>
+αυτον εγγιζειν τη
+<lb/>
+δαμασκω και ε
+<lb break="no" />
+ξαιφνης· περιη
+<lb break="no" />
+στραψεν αυτον φως
+<lb/>
+απο του <abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr>,</ab> <ab n="B05K9V4">και
+<lb/>
+πεσων επι την
+<lb/>
+γην· ηκουσεν φω
+<lb break="no" />
+νην λεγουσαν αυτω
+<lb/>
+σαουλ σαουλ τι
+<lb/>
+με διωκεις</ab> <ab n="B05K9V5">ειπε
+<lb/>
+δε τις ει <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>  ο δε
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κς</hi></abbr> ειπεν εγω ειμι
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ις</hi></abbr>· ον συ διωκεις
+<lb/>
+</ab> <ab n="B05K9V6">αλλα αναστηθι και
+<lb/>
+εισελθε εις την πο
+<lb break="no" />
+λιν, και λαληθησε
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ται σοι· τι σε δει ποι
+<lb break="no" />
+ειν</ab> <ab n="B05K9V7">οι δε ανδρες οι
+<lb/>
+συνοδευοντες αυτω
+<lb/>
+ειστηκεισαν ενεοι,
+<lb/>
+ακουοντες μεν της
+<lb/>
+φωνης μηδενα δε
+<lb/>
+θεωρουντες</ab> <ab n="B05K9V8">ηγερ
+<lb break="no" />
+θη δε ο σαυλος απο
+<lb/>
+της γης ανεωγμε
+<lb break="no" />
+νων τε των οφθαλ
+<lb break="no" />
+μων αυτου ουδε
+<lb break="no" />
+να εβλεπε χειρα
+<lb break="no" />
+γωγουντες δε αυτον·
+<lb/>
+εισηγαγον εις δαμα
+<lb break="no" />
+σκον</ab> <ab n="B05K9V9">και ην ημε
+<lb break="no" />
+ρας τρεις μη βλε
+<lb break="no" />
+πον. και ουκ εφα
+<lb break="no" />
+γεν ουδε επιεν</ab> <ab n="B05K9V10">ην
+<lb/>
+δε τις μαθητης εν
+<lb/>
+δαμασκω, ονομα
+<lb break="no" />
+τι ανανιας και
+<lb/>
+ειπε προς αυτον.
+<lb/>
+</ab></div></div>
+<pb n="19r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> εν οραματι α
+<lb break="no" />
+νανια· ο δε ειπεν
+<lb/>
+ιδου εγω <abbr type="nomSac"><hi rend="overline">κε</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V11">ο δε <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>
+<lb/>
+προς αυτον ανα
+<lb break="no" />
+στας πορευθητι ε
+<lb break="no" />
+πι την ρυμην την
+<lb/>
+καλουμενην ευθει
+<lb break="no" />
+αν, και ζητησον
+<lb/>
+εν οικια ιουδα
+<lb/>
+σαυλον ονοματι
+<lb/>
+ταρσεα  ιδου γαρ
+<lb/>
+προσευχεται,</ab> <ab n="B05K9V12">και
+<lb/>
+ειδεν εν οραμα
+<lb break="no" />
+τι· ανδρα· ονομα
+<lb break="no" />
+τι ανανιαν, εισελ
+<lb break="no" />
+θοντα και επιθεν
+<lb break="no" />
+τα αυτω χειρα, ο
+<lb break="no" />
+πως αναβλεψη
+<lb/>
+</ab> <ab n="B05K9V13">απεκριθη δε ανα
+<lb break="no" />
+νιας <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>· ακηκοα
+<lb/>
+απο πολλων πε
+<lb break="no" />
+ρι του ανδρος τουτου·
+<lb/>
+<cb n="2" />
+<lb/>
+οσα κακα εποιη
+<lb break="no" />
+σ<unclear>ε</unclear> τοις αγιοις σου εν
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>·</ab> <ab n="B05K9V14">και ωδε εχει
+<lb/>
+εξουσιαν παρα των
+<lb/>
+αρχιερεων· δησαι
+<lb/>
+παντας τους επι
+<lb break="no" />
+καλουμενους το ο
+<lb break="no" />
+νομα σου</ab> <ab n="B05K9V15">ειπε δε
+<lb/>
+προς αυτον ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> πο
+<lb break="no" />
+ρευου· οτι σκευος
+<lb/>
+εκλογης μοι εστιν ου
+<lb break="no" />
+τος, του βαστασαι
+<lb/>
+το ονομα μου· ενω
+<lb break="no" />
+πιον εθνων και
+<lb/>
+βασιλεων, υιων τε
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></ab> <ab n="B05K9V16">εγω γαρ υπο
+<lb break="no" />
+δειξω αυτω, οσα δει
+<lb/>
+αυτον· υπερ του ονο
+<lb break="no" />
+ματος μου παθειν
+<lb/>
+</ab> <ab n="B05K9V17">απηλθε δε ανανι
+<lb break="no" />
+ας, και εισηλθεν
+<lb/>
+εις την οικιαν
+<lb/>
+</ab></div></div>
+<pb n="19v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+και επιθεις επ αυ
+<lb break="no" />
+τον τας χειρας· ει
+<lb break="no" />
+πε· σαουλ αδελ
+<lb break="no" />
+φε· ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>  απεσταλ
+<lb break="no" />
+κε με· ο οφθεις σοι
+<lb/>
+εν τη οδω· η ηρχου,
+<lb/>
+οπως αναβλεψης
+<lb/>
+και πλησθεις <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr>
+<lb/>
+αγιου· <div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V18">και ευθεως α
+<lb break="no" />
+πεπεσον απο των
+<lb/>
+οφθαλμων αυτου
+<lb/>
+ωσει λεπιδες α
+<lb break="no" />
+νεβλεψε τε· και α
+<lb break="no" />
+ναστας εβαπτισθη,
+<lb/>
+</ab> <ab n="B05K9V19">και λαβων· τρο
+<lb break="no" />
+φην ενισχυσε
+<lb/>
+<note type="transcriber">PRAXEWN TWN APO(stol)WN</note>εν ταις ημεραις εκει(ναις)
+<lb/>
+εγενετο ο σαυλος· με
+<lb break="no" />
+τα των οντων εν
+<lb/>
+δαμασκω μαθη
+<lb break="no" />
+των· ημερας τινας
+<lb/>
+<cb n="2" />
+<lb/>
+</ab> <ab n="B05K9V20">και ευθεως εν ταις
+<lb/>
+συναγωγαις· εκηρυσ
+<lb break="no" />
+σε τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr> οτι ουτος
+<lb/>
+εστιν ο υιος του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K9V21">ε
+<lb break="no" />
+ξισταντο δε παντες
+<lb/>
+οι ακουοντες και ε
+<lb break="no" />
+λεγον ουχ ουτος εστιν
+<lb/>
+ο πορθησας εν ι
+<lb break="no" />
+<abbr type="nomSac"><hi rend="overline">λημ</hi></abbr>· τους επικα
+<lb break="no" />
+λουμενους το ονο
+<lb break="no" />
+μα τουτὸ και ωδε
+<lb/>
+εις τουτο εληλυθεν,
+<lb/>
+ινα δεδεμενους αυ
+<lb break="no" />
+τους αγαγη επι τους
+<lb/>
+αρχιερεις</ab> <ab n="B05K9V22">σαυλος
+<lb/>
+δε μαλλον ενεδυνα
+<lb break="no" />
+μουτο, και συνεχυνε
+<lb/>
+τους ιουδαιους· τους
+<lb/>
+κατοικουντας εν
+<lb/>
+δαμασκω, συμβι
+<lb break="no" />
+βαζων οτι ουτος
+<lb/>
+εστιν ο <abbr type="nomSac"><hi rend="overline">χς</hi></abbr></ab> <ab n="B05K9V23">ως δε ε
+<lb break="no" />
+</ab></div></div>
+<pb n="20r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πληρουντο ημεραι
+<lb/>
+ικαναι· συνεβου
+<lb break="no" />
+λευσαντο οι ιουδαι
+<lb break="no" />
+οι ανελειν αυτον
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V24">εγνωσθη δε τω σαυ
+<lb break="no" />
+λω η επιβουλη αυ
+<lb break="no" />
+των  παρετηρουν
+<lb/>
+τε τας πυλας· η
+<lb break="no" />
+μερας τε και νυκτος.
+<lb/>
+οπως αυτον ανε
+<lb break="no" />
+λωσι</ab> <ab n="B05K9V25">λαβοντες
+<lb/>
+δε αυτον οι μαθηται
+<lb/>
+νυκτος· καθηκαν
+<lb/>
+δια του τειχους, χα
+<lb break="no" />
+λασαντες εν σπυρι
+<lb break="no" />
+δι</ab> <ab n="B05K9V26">παραγενομενος
+<lb/>
+δε ο σαυλος εν <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>·
+<lb/>
+επειρατο κολλασθαι
+<lb/>
+τοις μαθηταις και
+<lb/>
+παντες εφοβουν
+<lb break="no" />
+το αυτον· μη πιστευ
+<lb break="no" />
+οντες οτι εστι μαθη
+<lb break="no" />
+<cb n="2" />
+<lb/>
+της</ab> <ab n="B05K9V27">βαρναβας
+<lb/>
+δε επιλαβομενος
+<lb/>
+αυτον· ηγαγε προς
+<lb/>
+τους αποστολους, και
+<lb/>
+διηγησατο αυτοις
+<lb/>
+πως εν τη οδω ειδε
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr> και οτι ελαλη
+<lb break="no" />
+σεν αυτω· και πως
+<lb/>
+εν δαμασκω επαρ
+<lb break="no" />
+ρησιασατο εν τω ο
+<lb break="no" />
+νοματι του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></ab> <ab n="B05K9V28">και
+<lb/>
+ην μετ αυτων· εισπο
+<lb break="no" />
+ρευομενος εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>,
+<lb/>
+και παρρησιαζο
+<lb break="no" />
+μενος εν τω ονομα
+<lb break="no" />
+τι του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></ab> <ab n="B05K9V29">ελαλει
+<lb/>
+τε και συνεζητει
+<lb/>
+προς τους ελληνιστας
+<lb/>
+οι δε· επεχειρουν αυ
+<lb break="no" />
+τον ανελειν</ab> <ab n="B05K9V30">επι
+<lb break="no" />
+γνοντες δε οι αδελ
+<lb break="no" />
+φοι· κατηγαγον αυτον
+<lb/>
+</ab></div></div>
+<pb n="20v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+εις καισαρειαν, και
+<lb/>
+εξαπεστειλαν αυ
+<lb break="no" />
+τον εις ταρσον <div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V31">αι
+<lb/>
+μεν ουν εκκλησιαι
+<lb/>
+καθ ολης της ιου
+<lb break="no" />
+δαιας και γαλιλαι
+<lb break="no" />
+ας και σαμαρειας·
+<lb/>
+ειχον ειρηνην· οικο
+<lb break="no" />
+δομουμεναι· και
+<lb/>
+πορευομεναι τω φο
+<lb break="no" />
+βω του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>· και τη πα
+<lb break="no" />
+ρακλησει· του αγιου·
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> επληθυνοντο
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">KU D[ns][\ns] TOU PARALUT</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab> <ab n="B05K9V32">εν ταις ημεραις εκει(ναις)
+<lb/>
+εγενετο πετρον· διερ
+<lb break="no" />
+χομενον δια παντων
+<lb/>
+κατελθειν και προς
+<lb/>
+τους αγιους· τους κα
+<lb break="no" />
+τοικουντας λυδδα
+<lb/>
+</ab> <ab n="B05K9V33">ευρε δε εκει· <abbr type="nomSac"><hi rend="overline">ανον</hi></abbr> τι
+<lb break="no" />
+να, αινεαν ονοματι
+<lb/>
+εξ ετων οκτω· κατα
+<lb break="no" />
+κειμενον επι κρα
+<lb break="no" />
+βαττω, ος ην παρα
+<lb break="no" />
+</ab></div></div>
+<pb n="21r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+λελυμενος <div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V34">και ει
+<lb break="no" />
+πεν αυτω ο πετρος
+<lb/>
+αινεα ιαται σε ο
+<lb/>
+<abbr type="nomSac"><hi rend="overline">χς</hi></abbr> αναστηθι και
+<lb/>
+στρωσον σεαυτω
+<lb/>
+και ευθεως ανεστη
+<lb/>
+</ab> <ab n="B05K9V35">και ειδον αυτον παν
+<lb break="no" />
+τες οι κατοικουν
+<lb break="no" />
+τες λυδδα και τον
+<lb/>
+σαρωνα, οιτινες ε
+<lb break="no" />
+πεστρεψαν επι τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κν</hi></abbr></ab> <ab n="B05K9V36">εν ιοππη δε τις
+<lb/>
+ην μαθητρια· ονο
+<lb break="no" />
+ματι ταβηθα, η δι
+<lb break="no" />
+ερμηνευομενη· λε
+<lb break="no" />
+γεται δορκας αυτη
+<lb/>
+ην πληρης αγαθων
+<lb/>
+εργων και ελεημο
+<lb break="no" />
+συνων ων εποιει</ab> <ab n="B05K9V37">ε
+<lb break="no" />
+γενετο δε εν ταις ημε
+<lb break="no" />
+ραις εκειναις· ασθε
+<lb break="no" />
+νησασαν αυτην α
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ποθανειν λουσαν
+<lb break="no" />
+τες δε αυτην. εθη
+<lb break="no" />
+καν εν υπερωω
+<lb/>
+</ab> <ab n="B05K9V38">εγγυς δε ουσης λυδ
+<lb break="no" />
+δης τη ιοππη· οι μα
+<lb break="no" />
+θηται ακουσαντες
+<lb/>
+οτι πετρος εστιν εν
+<lb/>
+αυτη· απεστειλαν
+<lb/>
+προς αυτον· πα
+<lb break="no" />
+ρακαλουντες, μη ο
+<lb break="no" />
+κνησαι διελθειν· ε
+<lb break="no" />
+ως αυτων</ab> <ab n="B05K9V39">αναστας
+<lb/>
+δε πετρος, συνηλθεν
+<lb/>
+αυτοις ον παραγε
+<lb break="no" />
+νομενον ανηγαγον
+<lb/>
+εις το υπερωον και
+<lb/>
+παρεστησαν αυτω
+<lb/>
+πασαι αι χηραι κλε
+<lb break="no" />
+ουσαι· και επιδεικνυ
+<lb break="no" />
+μεναι χιτωνας και
+<lb/>
+ιματια· οσα εποιει
+<lb/>
+μετ αυτων ουσα η δορ
+<lb break="no" />
+κας <note type="transcriber">ueberhang</note>
+<lb/>
+</ab></div></div>
+<pb n="21v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K9"><ab n="B05K9V40">εκβαλων δε εξω παν
+<lb break="no" />
+τας ο πετρος, θεις
+<lb/>
+τα γονατα προσηυ
+<lb break="no" />
+ξατο· και επιστρε
+<lb break="no" />
+ψας προς το σω
+<lb break="no" />
+μα ειπε ταβηθα·
+<lb/>
+αναστηθι· η δε η
+<lb break="no" />
+νοιξε τους οφθαλ
+<lb break="no" />
+μους αυτης· και ι
+<lb break="no" />
+δουσα τον πετρον
+<lb/>
+ανεκαθισε</ab> <ab n="B05K9V41">δους δε
+<lb/>
+αυτη χειρα· ανεστησεν
+<lb/>
+αυτην φωνησας
+<lb/>
+δε τους αγιους και τας
+<lb/>
+χειρας· παρεστησεν
+<lb/>
+αυτην ζωσαν</ab> <ab n="B05K9V42">γνω
+<lb break="no" />
+στον δε εγενετο καθ ο
+<lb break="no" />
+λης της ιοππης· και
+<lb/>
+πολλοι· επιστευσαν
+<lb/>
+επι τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr> <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH B[ns][\ns] THS EBD</note><note type="transcriber">PRAXEWN·</note></ab></div><div type="chapter" n="B05K10"> <ab n="B05K10V1">εν ταις ημεραις εκει(ναις)·
+<lb/>
+ανηρ τις ην <unclear>ε</unclear>ν και
+<lb break="no" />
+σαρεια· ονοματι κορ
+<lb break="no" />
+νηλιος, εκατονταρ
+<lb break="no" />
+χης· εκ σπειρης της
+<lb/>
+καλουμενης ιταλι
+<lb break="no" />
+κης</ab> <ab n="B05K10V2">ευσεβης και φο
+<lb break="no" />
+βουμενος τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>·
+<lb/>
+συν παντι τω οικω
+<lb/>
+αυτου ποιων τε ελε
+<lb break="no" />
+ημοσυνας πολλας
+<lb/>
+τω λαω, και δεομενος
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> δια παντος
+<lb/>
+</ab> <ab n="B05K10V3">ειδεν εν οραματι φα
+<lb break="no" />
+νερως, ωσει ωραν
+<lb/>
+εννατην της ημε
+<lb break="no" />
+ρας αγγελον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+εισελθοντα. προς
+<lb/>
+</ab></div></div>
+<pb n="22r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αυτον. και ειποντα
+<lb/>
+αυτω κορνηλιε <div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V4">ο δε
+<lb/>
+ατενισας αυτω· και
+<lb/>
+εμφοβος γενομενος
+<lb/>
+ειπε τι εστι <abbr type="nomSac"><hi rend="overline">κε</hi></abbr> ειπεν
+<lb/>
+δε αυτω αι προσευ
+<lb break="no" />
+χαι σου· και αι ελεη
+<lb break="no" />
+μοσυναι σου· ανεβη
+<lb break="no" />
+σαν εις μνημοσυνον
+<lb/>
+ενωπιον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K10V5">και
+<lb/>
+νυν· πεμψον εις ιο
+<lb break="no" />
+ππην ανδρας, και
+<lb/>
+μεταπεμψαι σιμω
+<lb break="no" />
+να τον επικαλουμε
+<lb break="no" />
+νον πετρον</ab> <ab n="B05K10V6">ουτος ξε
+<lb break="no" />
+νιζεται παρα τινι
+<lb/>
+σιμωνα βυρσει, ω
+<lb/>
+εστιν οικια παρα
+<lb/>
+θαλασσαν</ab> <ab n="B05K10V7">ως δε α
+<lb break="no" />
+πηλθεν ο αγγελος ο
+<lb/>
+λαλων τω κορνηλιω·
+<lb/>
+φωνησας δυο των
+<lb/>
+οικετων αυτου, και
+<lb/>
+<cb n="2" />
+<lb/>
+στρατιωτην ευσεβη
+<lb/>
+των προσκαρτερουν
+<lb break="no" />
+των αυτω</ab> <ab n="B05K10V8">και εξηγη
+<lb break="no" />
+σαμενος αυτοις α
+<lb break="no" />
+παντα· απεστει
+<lb break="no" />
+λεν αυτους εις την
+<lb/>
+ιοππην</ab> <ab n="B05K10V9">τη δε επαυ
+<lb break="no" />
+ριον· οδοιπορουν
+<lb break="no" />
+των εκεινων· και
+<lb/>
+τη πολει εγγιζοντων
+<lb/>
+ανεβη πετρος· επι
+<lb/>
+το δωμα προσευξα
+<lb break="no" />
+σθε περι ωραν εκτην
+<lb/>
+</ab> <ab n="B05K10V10">εγενετο δε προσπει
+<lb break="no" />
+νος, και ηθελε γευ
+<lb break="no" />
+σασθαι παρασκευ
+<lb break="no" />
+αζοντων δε εκεινων
+<lb/>
+επεπεσεν εκστα
+<lb break="no" />
+σις</ab> <ab n="B05K10V11">και θεωρει τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr> ανεωγμενον
+<lb/>
+και καταβαινον ε
+<lb break="no" />
+π αυτον· σκευος τι
+<lb/>
+</ab></div></div>
+<pb n="22v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ως οθονην μεγαλην,
+<lb/>
+τεσσαρσιν αρχαις
+<lb/>
+δεδεμενον· και κα
+<lb break="no" />
+θιεμενον επι της
+<lb/>
+γης· <div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V12">εν ω υπηρχε
+<lb/>
+παντα τα τετρα
+<lb break="no" />
+ποδα της γης και
+<lb/>
+τα θηρια· και τα ερ
+<lb break="no" />
+πετα και τα πετει
+<lb break="no" />
+να του <abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></ab> <ab n="B05K10V13">και εγε
+<lb break="no" />
+νετο φωνη προς αυτον
+<lb/>
+αναστας πετρε· θυ
+<lb break="no" />
+σον και φαγε</ab> <ab n="B05K10V14">ο δε πε
+<lb break="no" />
+τρος ειπε μηδαμως
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κε</hi></abbr> οτι ουδεποτε ε
+<lb break="no" />
+φαγον παν κοινον η
+<lb/>
+ακαθαρτον·</ab> <ab n="B05K10V15">και φω
+<lb break="no" />
+νη παλιν εκ δευτερου
+<lb/>
+προς αυτον α ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+εκαθαρισε· συ μη κοι
+<lb break="no" />
+νου</ab> <ab n="B05K10V16">τουτο δε εγενετο
+<lb/>
+επι τρις· και παλιν
+<lb/>
+ανεληφθη· το σκευος
+<lb/>
+<cb n="2" />
+<lb/>
+εις τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab> <ab n="B05K10V21">εν ταις ημεραις εκει(ναις)
+<lb/>
+καταβας ο πετρος
+<lb/>
+προς τους ανδρας
+<lb/>
+τους απεσταλμενους
+<lb/>
+υπο κορνηλιου· ειπεν.
+<lb/>
+ιδου εγω ειμι ον ζητει
+<lb break="no" />
+τε, τις η αιτια· δι ην
+<lb/>
+παρεστε</ab> <ab n="B05K10V22">οι δε ειπον
+<lb/>
+κορνηλιος εκατονταρ
+<lb break="no" />
+χης, ανηρ δικαιος
+<lb/>
+και φοβουμενος τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θν</hi></abbr>· μαρτυρουμενος
+<lb/>
+τε υπο ολου του εθνους
+<lb/>
+των ιουδαιων· εχρη
+<lb break="no" />
+ματισθη υπο αγγελου
+<lb/>
+αγιου, μεταπεμψα
+<lb break="no" />
+σθαι σε εις τον οικον
+<lb/>
+αυτου και ακουσαι
+<lb/>
+ρηματα παρα σου
+<lb/>
+</ab> <ab n="B05K10V23">εισκαλεσαμενος ουν
+<lb/>
+</ab></div></div>
+<pb n="23r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αυτους εξενισε τη
+<lb/>
+δε επαυριον· ο πε
+<lb break="no" />
+τρος εξηλθε συν
+<lb/>
+αυτοις· και τινες των
+<lb/>
+αδελφων των α
+<lb break="no" />
+πο ιοππης· συνηλ
+<lb break="no" />
+θον αυτω <div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V24">και τη ε
+<lb break="no" />
+παυριον· εισηλθεν
+<lb/>
+εις την καισαρειαν
+<lb/>
+ο δε κορνηλιος· ην
+<lb/>
+προσδοκων αυτους·
+<lb/>
+συγκαλεσαμενος
+<lb/>
+τους συγγενεις αυτου
+<lb/>
+και τους αναγκαιους
+<lb/>
+φιλους</ab> <ab n="B05K10V25">ως δε εγενε
+<lb break="no" />
+το του εισελθειν τον
+<lb/>
+πετρον· συναντη
+<lb break="no" />
+σας αυτω ο κορνη
+<lb break="no" />
+λιος· πεσων επι
+<lb/>
+τους ποδας προ
+<lb break="no" />
+σεκυνησεν</ab> <ab n="B05K10V26">ο δε
+<lb/>
+πετρος αυτον ηγειρε
+<lb/>
+<cb n="2" />
+<lb/>
+λεγων· αναστηθι·
+<lb/>
+καγω αυτος <abbr type="nomSac"><hi rend="overline">ανος</hi></abbr> ει
+<lb break="no" />
+μι</ab> <ab n="B05K10V27">και συνομιλων
+<lb/>
+αυτω εισηλθε, και
+<lb/>
+ευρισκει συνεληλυ
+<lb break="no" />
+θοτας πολλους</ab> <ab n="B05K10V28">ε
+<lb break="no" />
+φη τε προς αυτους
+<lb/>
+υμεις επιστασθε·
+<lb/>
+ως αθεμιτον εστιν·
+<lb/>
+ανδρι ιουδαιω κολ
+<lb break="no" />
+λασθε, η προσερ
+<lb break="no" />
+χεσθαι αλλοφυλω
+<lb/>
+και εμοι· ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> εδει
+<lb break="no" />
+ξε, μηδενα κοινον η
+<lb/>
+ακαθαρτον· λεγειν
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ανον</hi></abbr></ab> <ab n="B05K10V29">διο· και αναν
+<lb break="no" />
+τιρρητως ηλθον με
+<lb break="no" />
+ταπεμφθεις πυν
+<lb break="no" />
+θανομαι ουν, τινι λο
+<lb break="no" />
+γω· μετεπεμψασθε
+<lb/>
+με</ab> <ab n="B05K10V30">και ο κορνηλιος
+<lb/>
+εφη απο τεταρτης
+<lb/>
+ημερας· μεχρι ταυτης
+<lb/>
+</ab></div></div>
+<pb n="23v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+της ωρας· ημην νη
+<lb break="no" />
+στευων, και την εν
+<lb break="no" />
+νατην ωραν προ
+<lb break="no" />
+σευχομενος εν τω
+<lb/>
+οικω μου και ιδου
+<lb/>
+ανηρ εστη ενωπιον
+<lb/>
+μου, εν εσθητι λαμ
+<lb break="no" />
+πρα <div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V31">και φησι·
+<lb/>
+κορνηλιε· εισηκου
+<lb break="no" />
+σθη σου η προσευχη
+<lb/>
+και αι ελεημοσυ
+<lb break="no" />
+ναι σου· εμνησθη
+<lb break="no" />
+σαν ενωπιον του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K10V32">πεμψον ουν· εις
+<lb/>
+ιοππην· και μετα
+<lb break="no" />
+καλεσαι σιμωνα,
+<lb/>
+ος επικαλειται
+<lb/>
+πετρος ουτος ξενι
+<lb break="no" />
+ζεται εν οικια, σι
+<lb break="no" />
+μωνος βυρσεως
+<lb/>
+παρα θαλασσαν
+<lb/>
+ος παραγενομενος
+<lb/>
+<cb n="2" />
+<lb/>
+λαλησει σοι·</ab> <ab n="B05K10V33">εξαυ
+<lb break="no" />
+της ουν επεμψα
+<lb/>
+προς σε, συ τε κα
+<lb break="no" />
+λως εποιησας πα
+<lb break="no" />
+ραγενομενος νυν
+<lb/>
+ουν παντες ημεις·
+<lb/>
+ενωπιον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+παρεσμεν· ακου
+<lb break="no" />
+σαι παντα· τα
+<lb/>
+προστεταγμενα
+<lb/>
+σοι υπο του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+</ab></div></div>
+<pb n="24r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH E[ns][\ns] THS D[ns][\ns] EB</note><note type="transcriber">PRAXEWN·</note><div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V34">εν ταις ημεραις εκει(ναις)
+<lb/>
+ανοιξας πετρος το
+<lb/>
+στομα ειπεν· επ α
+<lb break="no" />
+ληθειας καταλαμ
+<lb break="no" />
+βανομαι· οτι ουκ ε
+<lb break="no" />
+στι προσωποληπτης
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr></ab> <ab n="B05K10V35">αλλ εν παντι
+<lb/>
+εθνη· ο φοβουμενος
+<lb/>
+αυτον· και εργαζο
+<lb break="no" />
+μενος δικαιοσυνην,
+<lb/>
+δεκτος αυτω εστι</ab> <ab n="B05K10V36">τον
+<lb/>
+λογον ον απεστειλε
+<lb/>
+τοις υιοις <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>· ευαγγε
+<lb break="no" />
+λιζομενος ειρηνην·
+<lb/>
+δια <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>, ουτος εστι
+<lb/>
+παντων <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>·</ab> <ab n="B05K10V37">υμεις
+<lb/>
+</ab></div></div><pb n="25v" type="folio" xml:id="l_809-640"/>
+<lb/>
+<cb n="2" />
+<lb/>
+οδοις αυτων <div type="book" n="B05"><div type="chapter" n="B05K14"><ab n="B05K14V17">και
+<lb break="no" />
+τοι γε· ουκ αμαρτυ
+<lb break="no" />
+ρον εαυτων αφηκεν
+<lb/>
+αγαθοποιων ου
+<lb break="no" />
+ρανοθεν ημιν υετους
+<lb/>
+διδους· και καιρους
+<lb/>
+καρποφορους. εμ
+<lb break="no" />
+πιπλων τροφης
+<lb/>
+και ευφροσυνης τας
+<lb/>
+καρδιας υμων</ab> <ab n="B05K14V18">και
+<lb/>
+ταυτα λεγοντες·
+<lb/>
+μολις κατεπαυ
+<lb break="no" />
+σαν τους οχλους
+<lb/>
+του μη θυειν αυτοις <note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="24v" type="folio"/>
+<cb n="1" /><lb/>
+οιδατε το γενομενον
+<lb/>
+ρημα καθ ολης της
+<lb/>
+ιουδαιας, αρξαμε
+<lb break="no" />
+νον απο της γαλι
+<lb break="no" />
+λαιας μετα το βα
+<lb break="no" />
+πτισμα ο εκηρυξεν
+<lb/>
+ιωαννης <div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V38"><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> τον α
+<lb break="no" />
+πο ναζαρετ· ως
+<lb/>
+εχρησεν αυτον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>.
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνι</hi></abbr> αγιω και δυνα
+<lb break="no" />
+μει ος διηλθεν ευ
+<lb break="no" />
+εργετων· και ιωμε
+<lb break="no" />
+νος παντας τους
+<lb/>
+καταδυναστευομε
+<lb break="no" />
+νους υπο του διαβο
+<lb break="no" />
+λου· οτι ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ην με
+<lb break="no" />
+τ αυτου·</ab> <ab n="B05K10V39">και ημεις
+<lb/>
+εσμεν μαρτυρες
+<lb/>
+εν τε τη χωρα των
+<lb/>
+ιουδαιων· και εν ι
+<lb break="no" />
+<abbr type="nomSac"><hi rend="overline">λημ</hi></abbr>, ον και ανειλον
+<lb/>
+κρεμασαντες επι
+<lb/>
+<cb n="2" />
+<lb/>
+ξυλου</ab> <ab n="B05K10V40">τουτον ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> η
+<lb break="no" />
+γειρε· τη τριτη ημε
+<lb break="no" />
+ρα, και εδωκεν αυ
+<lb break="no" />
+τον εμφανη γενεσθαι·
+<lb/>
+</ab> <ab n="B05K10V41">ου παντι τω λαω, αλ
+<lb break="no" />
+λα μαρτυσι τοις προ
+<lb break="no" />
+κεχειροτονημενοις
+<lb/>
+υπο του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> ημιν
+<lb/>
+οιτινες συνεφαγομεν
+<lb/>
+και συνεπιομεν αυ
+<lb break="no" />
+τω· μετα το αναστη
+<lb break="no" />
+ναι αυτον εκ νεκρων
+<lb/>
+</ab> <ab n="B05K10V42">και παρηγγειλεν η
+<lb break="no" />
+μιν κηρυξαι τω λαω
+<lb/>
+και διαμαρτυρα
+<lb break="no" />
+σθαι, οτι αυτος εστιν
+<lb/>
+ο ορισμενος υπο του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> κριτης ζωντων
+<lb/>
+και νεκρων</ab> <ab n="B05K10V43">τουτω
+<lb/>
+παντες οι προφη
+<lb break="no" />
+ται μαρτυρουσιν
+<lb/>
+αφεσιν αμαρτιων
+<lb/>
+</ab></div></div>
+<pb n="25r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+λαβειν· δια του ονο
+<lb break="no" />
+ματος αυτου· τον πι
+<lb break="no" />
+στευοντα εις αυτον
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K10"><ab n="B05K10V44">εν ταις ημεραις εκει(ναις)
+<lb/>
+λαλουντος του πε
+<lb break="no" />
+τρου τα ρηματα ταυ
+<lb break="no" />
+τα· επεπεσε το
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον· επι
+<lb/>
+παντας τους ακου
+<lb break="no" />
+οντας τον λογον</ab> <ab n="B05K10V45">και
+<lb/>
+εξεστησαν οι εκ πε
+<lb break="no" />
+ριτομης πιστοι, οσοι
+<lb/>
+συνηλθον τω πε
+<lb break="no" />
+τρω οτι και επι τα
+<lb/>
+εθνη η δωρεα του αγι
+<lb break="no" />
+ου <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> εκκεχυται
+<lb/>
+</ab> <ab n="B05K10V46">ηκουον γαρ αυτων
+<lb/>
+λαλουντων γλωσ
+<lb break="no" />
+σαις και μεγαλυνον
+<lb break="no" />
+των τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> τοτε
+<lb/>
+απεκριθη ο πετρο(ς)
+<lb/>
+<cb n="2" />
+<lb/>
+</ab> <ab n="B05K10V47">μητι το υδωρ κωλυ
+<lb break="no" />
+σαι δυναται τις·
+<lb/>
+του μη βαπτισθη
+<lb break="no" />
+ναι τουτους; οιτι
+<lb break="no" />
+νες το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον
+<lb/>
+ελαβον καθως
+<lb/>
+και ημεις</ab> <ab n="B05K10V48">προσε
+<lb break="no" />
+ταξε τε αυτους βα
+<lb break="no" />
+πτισθηναι, εν τω ο
+<lb break="no" />
+νοματι του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>
+<lb/>
+τοτε ηρωτησαν
+<lb/>
+αυτον· επιμειναι η
+<lb break="no" />
+μερας τινας </ab></div><div type="chapter" n="B05K11"> <ab n="B05K11V1">ηκου
+<lb break="no" />
+σαν δε οι αποστολοι·
+<lb/>
+και οι αδελφοι οι
+<lb/>
+οντες· κατα την
+<lb/>
+ιουδαιαν, οτι και
+<lb/>
+τα εθνη εδεξαντο
+<lb/>
+τον λογον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K11V2">και οτε ανεβη πε
+<lb break="no" />
+τρος εις ιεροσολυ
+<lb break="no" />
+μα· διεκρινοντο
+<lb/>
+</ab></div></div>
+<pb n="25v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+προς αυτον οι εκ πε
+<lb break="no" />
+ριτομης <div type="book" n="B05"><div type="chapter" n="B05K11"><ab n="B05K11V3">λεγοντες
+<lb/>
+οτι προς ανδρας
+<lb/>
+ακροβυστιας εχοντας·
+<lb/>
+εισηλθε και συνε
+<lb break="no" />
+φαγεν αυτοις</ab> <ab n="B05K11V4">αρξα
+<lb break="no" />
+μενος δε ο πετρος
+<lb/>
+εξετιθετο αυτοις κα
+<lb break="no" />
+θεξης λεγων·</ab> <ab n="B05K11V5">εγω
+<lb/>
+ημην εν πολει ιοπ
+<lb break="no" />
+πη· προσευχομε
+<lb break="no" />
+νος, και ειδον εν εκ
+<lb break="no" />
+στασει οραμα· κα
+<lb break="no" />
+ταβαινον· σκευος
+<lb/>
+τι· ως οθονην μεγα
+<lb break="no" />
+λην, τεσσαρσιν αρ
+<lb break="no" />
+χαις καθιεμενην
+<lb/>
+εκ του <abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr>· και ηλ
+<lb break="no" />
+θεν αχρις εμου</ab> <ab n="B05K11V6">εις
+<lb/>
+ην ατενισας· κατε
+<lb break="no" />
+νοουν· και ειδον τα
+<lb/>
+τετραποδα της γης
+<lb/>
+<cb n="2" />
+<lb/>
+και τα θηρια· και τα
+<lb/>
+ερπετα, και τα πε
+<lb break="no" />
+τεινα του <abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></ab> <ab n="B05K11V7">ηκου
+<lb break="no" />
+σα δε φωνης λεγου
+<lb break="no" />
+σης μοι αναστας πε
+<lb break="no" />
+τρε· θυσον και φαγε
+<lb/>
+</ab> <ab n="B05K11V8">ειπε δε μηδαμως
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κε</hi></abbr> οτι παν κοινον
+<lb/>
+η ακαθαρτον· ουδε
+<lb break="no" />
+ποτε εισηλθεν εις
+<lb/>
+το στομα μου</ab> <ab n="B05K11V9">απε
+<lb break="no" />
+κριθη δε μοι φωνη
+<lb/>
+εκ δευτερου εκ του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr> α ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> εκα
+<lb break="no" />
+θαρισε· συ μη κοινου
+<lb/>
+</ab> <ab n="B05K11V10">τουτο δε εγενετο· επι
+<lb/>
+τρις· και παλιν
+<lb/>
+ανεσπασθη· απαν
+<lb break="no" />
+τα εις τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>
+<lb/>
+</ab></div></div><pb n="27r" type="folio" xml:id="l_809-530"/>
+<lb/>
+<cb n="3" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K12"> <ab n="B05K12V1">κατ εκεινον τον και
+<lb break="no" />
+ρον· επεβαλεν η
+<lb break="no" />
+</ab></div></div>
+<pb n="26r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">K E[ns][\ns] THES SAMAREITIDOS·</note><note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K11"><ab n="B05K11V19">εν ταις ημεραις εκει(ναις)
+<lb/>
+διασπαρεντες οι
+<lb/>
+αποστολοι· απο
+<lb/>
+της θλιψεως της
+<lb/>
+γενομενης επι στε
+<lb break="no" />
+φανω· διηλθον ε
+<lb break="no" />
+ως φοινικης· και κυ
+<lb break="no" />
+πρου και αντιοχει
+<lb break="no" />
+ας, μηδενι λαλουν
+<lb break="no" />
+τες τον λογον· ει μη
+<lb/>
+<cb n="2" />
+<lb/>
+μονον ιουδαιοις
+<lb/>
+</ab> <ab n="B05K11V20">ησαν δε τινες εξ αυ
+<lb break="no" />
+των· ανδρες κυπρι
+<lb break="no" />
+οι και κυρηναιοι,
+<lb/>
+οιτινες εισελθον
+<lb break="no" />
+τες εις αντιοχειαν·
+<lb/>
+ελαλουν προς τους
+<lb/>
+ελληνιστας· ευαγγε
+<lb break="no" />
+λιζομενοι τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></ab> <ab n="B05K11V21">και ην χειρ <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+μετ αυτων πολυς
+<lb/>
+τε αριθμος πιστευ
+<lb break="no" />
+σας· επεστρεψεν ε
+<lb break="no" />
+πι τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr></ab> <ab n="B05K11V22">ηκουσθη
+<lb/>
+δε ο λογος εις τα ω
+<lb break="no" />
+τα της εκκλησιας
+<lb/>
+της εν ιεροσολυμοις·
+<lb/>
+περι αυτων, και ε
+<lb break="no" />
+ξαπεστειλαν βαρ
+<lb break="no" />
+ναβαν· διελθειν
+<lb/>
+εως αντιοχειας
+<lb/>
+</ab></div></div>
+<pb n="26v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K11"><ab n="B05K11V23">ος παραγενομενος
+<lb/>
+και ιδων την χα
+<lb break="no" />
+ριν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> εχαρη,
+<lb/>
+και παρεκαλει παν
+<lb break="no" />
+τας· τη προθεσει
+<lb/>
+της καρδιας· προσ
+<lb break="no" />
+μενειν τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr>,</ab> <ab n="B05K11V24">οτι
+<lb/>
+ην ανηρ αγαθος·
+<lb/>
+και πληρης <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> αγι
+<lb break="no" />
+ου και πιστεως και
+<lb/>
+προσετεθει οχλος,
+<lb/>
+ικανος τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr></ab> <ab n="B05K11V25">ε
+<lb break="no" />
+ξηλθε δε εις ταρσον
+<lb/>
+ο βαρναβας, ανα
+<lb break="no" />
+ζητησαι σαυλον
+<lb/>
+</ab> <ab n="B05K11V26">και ευρων αυτον,
+<lb/>
+ηγαγεν αυτον εις αν
+<lb break="no" />
+τιοχειαν εγενετο δε
+<lb/>
+αυτους ενιαυτον ολον
+<lb/>
+συναχθηναι τη εκ
+<lb break="no" />
+κλησια, και διδα
+<lb break="no" />
+ξαι οχλον ικανον
+<lb/>
+<cb n="2" />
+<lb/>
+χρηματισαι τε πρω
+<lb break="no" />
+τον εν αντιοχεια· τους
+<lb/>
+μαθητας χριστιανους
+<lb/>
+</ab> <ab n="B05K11V29">των δε μαθητων κα
+<lb break="no" />
+θως ηυπορειτο τις·
+<lb/>
+ωρισαν εκαστος αυ
+<lb break="no" />
+των εις διακονιαν
+<lb/>
+πεμψαι, τοις κατοι
+<lb break="no" />
+κουσιν εν τη ιουδαι
+<lb break="no" />
+α αδελφοις</ab> <ab n="B05K11V30">ο και ε
+<lb break="no" />
+ποιησαν· αποστει
+<lb break="no" />
+λαντες προς τους
+<lb/>
+πρεσβυτερους· δι
+<lb break="no" />
+α χειρος· βαρναβα
+<lb/>
+και σαυλου
+<lb/>
+</ab></div></div><pb n="29r" type="folio" xml:id="l_809-550"/>
+<lb/>
+<cb n="3" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH B[ns][\ns] THS EBDMAD·</note><note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K12"><ab n="B05K12V12">εν ταις ημεραις εκει(ναις)
+<lb/>
+συνιδων ο πετρος ,
+<lb/>
+ηλθεν εις την οικιαν
+<lb/>
+</ab></div></div>
+<pb n="27r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ρωδης ο βασιλευς
+<lb/>
+τας χειρας, κακω
+<lb break="no" />
+σαι τινας των απο
+<lb/>
+της εκκλησιας <div type="book" n="B05"><div type="chapter" n="B05K12"><ab n="B05K12V2">α
+<lb break="no" />
+νειλε δε ιακωβον
+<lb/>
+τον αδελφον ιω
+<lb break="no" />
+αννου μαχαιρα
+<lb/>
+</ab> <ab n="B05K12V3">και ιδων· οτι αρε
+<lb break="no" />
+στον εστι τοις ιουδαι
+<lb break="no" />
+οις· προσεθετο συλ
+<lb break="no" />
+λαβειν και πετρον
+<lb/>
+ησαν δε, αι ημεραι
+<lb/>
+των αζυμων</ab> <ab n="B05K12V4">ον
+<lb/>
+και πιασας· εθε
+<lb break="no" />
+το εις φυλακην, πα
+<lb break="no" />
+ραδους τεσσαρσιν
+<lb/>
+τετραδιοις στρατι
+<lb break="no" />
+ωτων· φυλασσειν
+<lb/>
+αυτον, βουλομενος
+<lb/>
+μετα το πασχα,
+<lb/>
+αναγαγειν αυτον τω
+<lb/>
+λαω</ab> <ab n="B05K12V5">ο μεν ουν πετρος
+<lb/>
+<cb n="2" />
+<lb/>
+ετηρειτο εν τη φυλα
+<lb break="no" />
+κη  προσευχη δε ην
+<lb/>
+εκτενης γινομενη
+<lb/>
+υπο της εκκλησιας
+<lb/>
+προς τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> υπερ
+<lb/>
+αυτου</ab> <ab n="B05K12V6">οτε δε εμελ
+<lb break="no" />
+λεν αυτον· προαγειν
+<lb/>
+ο ηρωδης· τη νυκτι
+<lb/>
+εκεινη, ην ο πετρο(ς)
+<lb/>
+κοιμωμενος· μετα
+<lb break="no" />
+ξυ δυο στρατιωτων,
+<lb/>
+δεδεμενος αλυσε
+<lb break="no" />
+σι δυσι φυλακες τε
+<lb/>
+προ της θυρας ετη
+<lb break="no" />
+ρουν την φυλακην
+<lb/>
+</ab> <ab n="B05K12V7">και ιδου αγγελος <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>.
+<lb/>
+επεστη. και φως ελαμ
+<lb break="no" />
+ψεν εν τω οικηματι
+<lb/>
+παταξας δε την
+<lb/>
+πλευραν του πετρου·
+<lb/>
+ηγειρεν αυτον λεγων
+<lb/>
+αναστα εν ταχει
+<lb/>
+</ab></div></div>
+<pb n="27v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+και εξεπεσον αυτου
+<lb/>
+αι αλυσεις εκ των
+<lb/>
+χειρων <div type="book" n="B05"><div type="chapter" n="B05K12"><ab n="B05K12V8">ειπεν τε
+<lb/>
+ο αγγελος προς αυ
+<lb break="no" />
+τον περιζωσαι,
+<lb/>
+και υποδησαι τα
+<lb/>
+σανδαλια σου
+<lb/>
+εποιησε δε ουτως
+<lb/>
+και λεγει αυτω πε
+<lb break="no" />
+ριβαλου το ιματι
+<lb break="no" />
+ον σου και ακολου
+<lb break="no" />
+θει μοι</ab> <ab n="B05K12V9">και εξελ
+<lb break="no" />
+θων, ηκολουθει
+<lb/>
+αυτω και ουκ ηδει
+<lb/>
+οτι αληθες εστι· το
+<lb/>
+γινομενον δια του
+<lb/>
+αγγελου  εδοκει δε.
+<lb/>
+οραμα βλεπειν
+<lb/>
+</ab> <ab n="B05K12V10">διελθοντες δε
+<lb/>
+πρωτην φυλακην
+<lb/>
+και δευτεραν· ηλ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+θον επι την πυλην
+<lb/>
+την σιδηραν την
+<lb/>
+φερουσαν εις την
+<lb/>
+πολιν, ητις αυτο
+<lb break="no" />
+ματη· ηνοιχθη αυ
+<lb break="no" />
+τοις και εξελθον
+<lb break="no" />
+τες· προσηλθον
+<lb/>
+ρυμην μιαν, και ευ
+<lb break="no" />
+θεως απεστη ο αγγε
+<lb break="no" />
+λος απ αυτου</ab> <ab n="B05K12V11">και
+<lb/>
+ο πετρος γενομενος
+<lb/>
+εν εαυτω· ειπε· νυν
+<lb/>
+οιδα αληθως οτι ε
+<lb break="no" />
+ξαπεστειλε <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>  τον
+<lb/>
+αγγελον αυτου· και
+<lb/>
+ερρυσατο με· εκ χει
+<lb break="no" />
+ρος ηρωδου· και
+<lb/>
+πασης της προσ
+<lb break="no" />
+δοκιας· του λαου
+<lb/>
+των ιου
+<lb break="no" />
+δαιων
+<lb/>
+</ab></div></div>
+<pb n="28r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+μαριας· της <abbr type="nomSac"><hi rend="overline">μρς</hi></abbr> ι
+<lb break="no" />
+ωαννου· του επικα
+<lb break="no" />
+λουμενου μαρκου,
+<lb/>
+ου ησαν ικανοι συνη
+<lb break="no" />
+θροισμενοι <div type="book" n="B05"><div type="chapter" n="B05K12"><ab n="B05K12V13">κρουσαν
+<lb break="no" />
+τος δε του πετρου,
+<lb/>
+την θυραν του πυ
+<lb break="no" />
+λωνος· προσηλθε
+<lb/>
+παιδισκη υπακου
+<lb break="no" />
+σαι, ονοματι ροδη
+<lb/>
+</ab> <ab n="B05K12V14">και επιγνουσα την
+<lb/>
+φωνην του πετρου·
+<lb/>
+απο της χαρας,
+<lb/>
+ουκ ηνοιξε τον πυλω
+<lb break="no" />
+να εισδραμουσα
+<lb/>
+δε, απηγγειλεν ε
+<lb break="no" />
+σταναι τον πετρον
+<lb/>
+προ του πυλωνος
+<lb/>
+</ab> <ab n="B05K12V15">οι δε προς αυτον ει
+<lb break="no" />
+πον μαινη· η δε δι
+<lb break="no" />
+ισχυριζετο, ουτως ε
+<lb break="no" />
+χειν οι δε ελεγον ο
+<lb/>
+<cb n="2" />
+<lb/>
+αγγελος αυτου εστιν</ab> <ab n="B05K12V16">ο
+<lb/>
+δε πετρος, επεμε
+<lb break="no" />
+νε κρουων ανοιξαν
+<lb break="no" />
+τες δε· ειδον αυτον
+<lb/>
+και εξεστησαν</ab> <ab n="B05K12V17">κα
+<lb break="no" />
+τασεισας δε αυτοις
+<lb/>
+τη χειρι σιγαν· διη
+<lb break="no" />
+γησατο αυτοις, πως
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> αυτον· εξηγαγεν
+<lb/>
+εκ της φυλακης ει
+<lb break="no" />
+πε δε απαγγειλα
+<lb break="no" />
+τε ιακωβω· και
+<lb/>
+τοις αδελφοις ταυ
+<lb break="no" />
+τα και εξελθων
+<lb/>
+επορευθη εις ετε
+<lb break="no" />
+ρον τοπον
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab> <ab n="B05K12V25">εν ταις ημεραις εκει(ναις)
+<lb/>
+βαρναβας και σαυ
+<lb break="no" />
+λος υπεστρεψαν
+<lb/>
+απο <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>, πληρω
+<lb break="no" />
+σαντες την δια
+<lb break="no" />
+</ab></div></div>
+<pb n="28v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+κονιαν· συμπαρα
+<lb break="no" />
+λαβοντες και ιωαν
+<lb break="no" />
+νην· τον επικληθεν
+<lb break="no" />
+τα μαρκον <div type="book" n="B05"><div type="chapter" n="B05K13"> <ab n="B05K13V1">ησαν
+<lb/>
+δε τινες εν αντιοχει
+<lb break="no" />
+α· κατα την ου
+<lb break="no" />
+σαν εκκλησιαν προ
+<lb break="no" />
+φηται και διδασκα
+<lb break="no" />
+λοι ο τε βαρναβας
+<lb/>
+και συμεων· ο κα
+<lb break="no" />
+λουμενος νιγερ,
+<lb/>
+και λουκιος ο κυρη
+<lb break="no" />
+ναιος· μαναην τε
+<lb/>
+ηρωδου του τετραρ
+<lb break="no" />
+χου συντροφος και
+<lb/>
+σαυλος</ab> <ab n="B05K13V2">λειτουργουν
+<lb break="no" />
+των δε αυτων τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr>
+<lb/>
+και νηστευοντων, ει
+<lb break="no" />
+πε το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον
+<lb/>
+αφορισατε δη μοι
+<lb/>
+τον βαρναβαν και
+<lb/>
+τον σαυλον, εις το ερ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+γον ο προσκεκλη
+<lb break="no" />
+μαι αυτους</ab> <ab n="B05K13V3">τοτε
+<lb/>
+νηστευσαντες και
+<lb/>
+προσευξαμενοι·
+<lb/>
+και επιθεντες τας
+<lb/>
+χειρας αυτοις· απε
+<lb break="no" />
+λυσαν</ab> <ab n="B05K13V4">ουτοι μεν ουν
+<lb/>
+εκπεμφθεντες·
+<lb/>
+υπο του  <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr> του αγι
+<lb break="no" />
+ου κατηλθον εις την
+<lb/>
+σελευκειαν εκει
+<lb break="no" />
+θεν δε απεπλευ
+<lb break="no" />
+σαν εις κυπρον</ab> <ab n="B05K13V5">και
+<lb/>
+γενομενοι εν σαλα
+<lb break="no" />
+μινι, κατηγγελον
+<lb/>
+τον λογον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> εν
+<lb/>
+ταις συναγωγαις των
+<lb/>
+ιουδαιων ειχον δε
+<lb/>
+και ιωαννην υπηρε
+<lb break="no" />
+την</ab> <ab n="B05K13V6">διελθοντες δε
+<lb/>
+την νησον αχρι πα
+<lb break="no" />
+φου· ευρον τινα μαγον
+<lb/>
+</ab></div></div>
+<pb n="29r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ψευδοπροφητην
+<lb/>
+ιουδαιον· ω ονομα
+<lb/>
+βαριησους, <div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V7">ος ην
+<lb/>
+συν τω ανθυπα
+<lb break="no" />
+τω σεργιω παυλω
+<lb/>
+ανδρι συνετω ουτος
+<lb/>
+προσκαλεσαμενος
+<lb/>
+βαρναβαν και σαυ
+<lb break="no" />
+λον· επεζητησεν
+<lb/>
+ακουσαι τον λογον
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></ab> <ab n="B05K13V8">ανθιστα
+<lb break="no" />
+το δε αυτοις, ελυμας
+<lb/>
+ο μαγος ουτως γαρ
+<lb/>
+μεθερμηνευεται
+<lb/>
+το ονομα αυτου ζη
+<lb break="no" />
+των διαστρεψαι
+<lb/>
+τον ανθυπατον α
+<lb break="no" />
+πο της πιστεως
+<lb/>
+</ab> <ab n="B05K13V9">σαυλος δε ο και παυ
+<lb break="no" />
+λος, πλησθεις <abbr type="nomSac"><hi rend="overline">πνς</hi></abbr>
+<lb/>
+αγιου· και ατενισας
+<lb/>
+εις αυτον</ab> <ab n="B05K13V10">ειπεν·
+<lb/>
+<cb n="2" />
+<lb/>
+ω πληρης παντος
+<lb/>
+δολου και πασης ρα
+<lb break="no" />
+διουργιας υιε διαβο
+<lb break="no" />
+λου· εχθρε πασης δι
+<lb break="no" />
+καιοσυνης ου παυη
+<lb/>
+διαστρεφων· τας ο
+<lb break="no" />
+δους <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> τας ευθειας·
+<lb/>
+</ab> <ab n="B05K13V11">και νυν ιδου χειρ <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+επι σε· και εση τυφλος
+<lb/>
+μη βλεπων τον ηλιον
+<lb/>
+αχρι καιρου παρα
+<lb break="no" />
+χρημα δε επεπε
+<lb break="no" />
+σεν επ αυτον αχλυς·
+<lb/>
+και σκοτος, και πε
+<lb break="no" />
+ριαγων εζητει χει
+<lb break="no" />
+ραγωγους</ab> <ab n="B05K13V12">τοτε ιδων
+<lb/>
+ο ανθυπατος το γεγο
+<lb break="no" />
+νος· επιστευσεν εκ
+<lb break="no" />
+πλησσομενος· επι
+<lb/>
+τη διδαχη του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K13V13"><note type="transcriber">PRAXEWN</note>εν ταις ημεραις εκει(ναις)
+<lb/>
+</ab></div></div>
+<pb n="29v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αναχθεντες απο
+<lb/>
+της παφου οι περι
+<lb/>
+τον παυλον· ηλθον
+<lb/>
+εις περγην της
+<lb/>
+παμφυλιας  ιω
+<lb break="no" />
+αννης δε αποχωρη
+<lb break="no" />
+σας απ αυτων· υπε
+<lb break="no" />
+στρεψεν εις ιεροσολυ
+<lb break="no" />
+μα <div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V14">αυτοι δε διελ
+<lb break="no" />
+θοντες απο της
+<lb/>
+περγης· παρεγε
+<lb break="no" />
+νοντο εις αντιοχει
+<lb break="no" />
+αν της πισιδιας
+<lb/>
+και εισελθοντες εις
+<lb/>
+την συναγωγην τη
+<lb/>
+ημερα των σαββα
+<lb break="no" />
+των· εκαθισαν·</ab> <ab n="B05K13V15">με
+<lb break="no" />
+τα δε την αναγνω
+<lb break="no" />
+σιν του νομου και των
+<lb/>
+προφητων, απε
+<lb break="no" />
+στειλαν οι αρχισυνα
+<lb break="no" />
+γωγοι, προς αυτους
+<lb/>
+<cb n="2" />
+<lb/>
+λεγοντες ανδρες α
+<lb break="no" />
+δελφοι· ει εστι λογος
+<lb/>
+υμιν παρακλησε
+<lb break="no" />
+ως προς τον λαον· λε
+<lb break="no" />
+γετε·</ab> <ab n="B05K13V16">αναστας δε παυ
+<lb break="no" />
+λος και κατασεισας
+<lb/>
+τη χειρι ειπεν· ανδρες
+<lb/>
+ισραηλιται, και οι φο
+<lb break="no" />
+βουμενοι τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>, ακου
+<lb break="no" />
+σατε·</ab> <ab n="B05K13V17">ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> του λαου του
+<lb break="no" />
+του· εξελεξατο τους
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πρας</hi></abbr> ημων· και τον
+<lb/>
+λαον υψωσεν εν τη
+<lb/>
+παροικια· εν γη αι
+<lb break="no" />
+γυπτω και μετα βρα
+<lb break="no" />
+χιονος υψηλου, εξηγα
+<lb break="no" />
+γεν αυτους εξ αυτης,
+<lb/>
+</ab> <ab n="B05K13V18">και ως τεσσαρακον
+<lb break="no" />
+ταετη χρονον· ετρο
+<lb break="no" />
+φοφορησεν αυτους εν
+<lb/>
+τη ερημω</ab> <ab n="B05K13V19">και καθε
+<lb break="no" />
+λων εθνη επτα· εν γη
+<lb/>
+</ab></div></div>
+<pb n="30r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+χανααν· κατεκλη
+<lb break="no" />
+ρορονομησεν αυτοις
+<lb/>
+την γην αυτων <div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V20">και
+<lb/>
+μετα ταυτα· ως ετε
+<lb break="no" />
+σι τετρακοσιοις και
+<lb/>
+πεντηκοντα, εδω
+<lb break="no" />
+κε κριτας· εως σα
+<lb break="no" />
+μουηλ του προφητου
+<lb/>
+</ab> <ab n="B05K13V21">κακειθεν ητησαντο
+<lb/>
+βασιλεα· και εδω
+<lb break="no" />
+κεν αυτοις ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> τον
+<lb/>
+σαουλ· υιον κις· αν
+<lb break="no" />
+δρα εκ φυλης βενια
+<lb break="no" />
+μιν, ετη τεσσαρακον
+<lb break="no" />
+τα</ab> <ab n="B05K13V22">και μεταστησας
+<lb/>
+αυτον· ηγειρεν αυτοις
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr>· εις βασιλε
+<lb break="no" />
+α, ω και ειπε μαρ
+<lb break="no" />
+τυρησας ευρον <abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr>
+<lb/>
+τον του ιεσσαι, αν
+<lb break="no" />
+δρα κατα την καρ
+<lb break="no" />
+διαν μου ος ποιησει
+<lb/>
+<cb n="2" />
+<lb/>
+παντα τα θελημα
+<lb break="no" />
+τα μου</ab> <ab n="B05K13V23">τουτου ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+απο του σπερματος
+<lb/>
+κατ επαγγελιαν ηγα
+<lb break="no" />
+γε τω <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr> <abbr type="nomSac"><hi rend="overline">σριαν</hi></abbr>
+<lb/>
+</ab> <ab n="B05K13V24">προκηρυξαντος ι
+<lb break="no" />
+ωαννου· προ προ
+<lb break="no" />
+σωπου της εισοδου
+<lb/>
+αυτου· βαπτισμα με
+<lb break="no" />
+τανοιας· παντι
+<lb/>
+τω λαω <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>
+<lb/>
+</ab></div></div><pb n="31v" type="folio" xml:id="l_809-480"/>
+<lb/>
+<cb n="3" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K14"><ab n="B05K14V20">εν ταις ημεραις εκει(ναις)
+<lb/>
+εισηλθεν ο παυλος
+<lb/>
+συν τω βαρναβα εις
+<lb/>
+δερβην·</ab> <ab n="B05K14V21">ευαγγελισα
+<lb break="no" />
+μενοι τε την πολιν
+<lb/>
+εκεινην· και μαθη
+<lb break="no" />
+τευσαντες ικανους·
+<lb/>
+υπεστρεψαν εις την
+<lb/>
+λυστραν και ικονιον
+<lb/>
+και αντιοχειαν,</ab> <ab n="B05K14V22">επι
+<lb break="no" />
+</ab></div></div>
+<pb n="30v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V25">εν ταις ημεραις εκει(ναις)
+<lb/>
+ως επληρου ο ιωαννης
+<lb/>
+τον δρομον ελεγε τινα
+<lb/>
+με υπονοειτε ειναι ου
+<lb break="no" />
+κ ειμι εγω αλλ ιδου ερ
+<lb break="no" />
+χεται μετ εμε ου ουκ ει
+<lb break="no" />
+μι αξιος το υποδημα
+<lb/>
+των ποδων λυσαι
+<lb/>
+</ab> <ab n="B05K13V26">ανδρες αδελφοι υιοι γε
+<lb break="no" />
+νους αβρααμ και οι
+<lb/>
+εν υμιν φοβουμενοι τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θν</hi></abbr> υμιν ο λογος της <abbr type="nomSac"><hi rend="overline">σρι</hi></abbr>
+<lb break="no" />
+ας ταυτης απεσταλλη
+<lb/>
+</ab> <ab n="B05K13V27">οι γαρ κατοικουντες <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>
+<lb/>
+και οι αρχοντες αυτων
+<lb/>
+τουτον αγνοησαντες
+<lb/>
+και τας φωνας των
+<lb/>
+προφητων τας κατα
+<lb/>
+παν σαββατον αναγινω
+<lb break="no" />
+</ab></div></div>
+<pb n="31r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+νωσκομενας κριναντες
+<lb/>
+επληρωσαν <div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V28">και μηδε
+<lb break="no" />
+μιαν αιτιαν θανατου
+<lb/>
+ευροντες ητησαντο πι
+<lb break="no" />
+λατον αναιρεθηναι αυ
+<lb break="no" />
+τον</ab> <ab n="B05K13V29">ως δε ετελεσαν α
+<lb break="no" />
+παντα τα περι αυτου
+<lb/>
+γεγραμμενα καθελον
+<lb break="no" />
+τες απο του ξυλου εθηκαν
+<lb/>
+εις μνημειον</ab> <ab n="B05K13V30">ο δε <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ηγει
+<lb break="no" />
+ρεν αυτον εκ νεκρων</ab> <ab n="B05K13V31">ος
+<lb/>
+ωφθη επι ημερας πλει
+<lb break="no" />
+ους τοις συναναβασιν
+<lb/>
+αυτω απο της γαλιλαι
+<lb break="no" />
+ας εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> οιτινες ει
+<lb break="no" />
+σι μαρτυρες αυτου προς
+<lb/>
+τον λαον</ab> <ab n="B05K13V32">και ημεις υμας
+<lb/>
+ευαγγελιζομεθα την
+<lb/>
+προς τους <abbr type="nomSac"><hi rend="overline">πρας</hi></abbr> επαγγε
+<lb break="no" />
+λιαν γενομενην</ab> <ab n="B05K13V33">οτι
+<lb/>
+ταυτην ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> εκπεπλη
+<lb break="no" />
+ρωκε τοις τεκνοις αυτων
+<lb/>
+ημιν αναστησας <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>
+<lb/>
+</ab></div></div>
+<pb n="31v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K14"> <ab n="B05K14V6">εν ταις ημεραις εκει(ναις)
+<lb/>
+κατεφυγον οι απο
+<lb break="no" />
+στολοι· βαρναβας
+<lb/>
+<cb n="2" />
+<lb/>
+και παυλος· εις τας
+<lb/>
+πολεις της λυκα
+<lb break="no" />
+ονιας· λυστραν και
+<lb/>
+δερβην και την πε
+<lb break="no" />
+ριχωρον,</ab> <ab n="B05K14V7">κακει η
+<lb break="no" />
+σαν ευαγγελιζομε
+<lb break="no" />
+νοι</ab> <ab n="B05K14V8">και τις ανηρ
+<lb/>
+εν ληστροις· αδυνα
+<lb break="no" />
+τος τοις ποσιν· ε
+<lb break="no" />
+καθητο, χωλος εκ
+<lb/>
+κοιλιας <abbr type="nomSac"><hi rend="overline">μρς</hi></abbr> αυτου
+<lb/>
+υπαρχων· ος ου
+<lb break="no" />
+δεποτε περιπε
+<lb break="no" />
+πατηκει</ab> <ab n="B05K14V9">ουτος
+<lb/>
+ηκουε του παυλου
+<lb/>
+λαλουντος· ος α
+<lb break="no" />
+τενισας αυτω· και
+<lb/>
+ιδων οτι πιστιν εχει
+<lb/>
+του σωθηναι·</ab> <ab n="B05K14V10">ειπε
+<lb/>
+μεγαλη τη φωνη α
+<lb break="no" />
+ναστηθι επι τους
+<lb/>
+ποδας σου ορθως
+<lb/>
+</ab></div></div>
+<pb n="32r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+και ηλατο και περι
+<lb break="no" />
+επατει <div type="book" n="B05"><div type="chapter" n="B05K14"><ab n="B05K14V11">οι δε οχλοι
+<lb/>
+ιδοντες ο εποιησεν
+<lb/>
+ο παυλος· επηραν
+<lb/>
+την φωνην αυτων
+<lb/>
+λυκαονιστι λεγον
+<lb break="no" />
+τες· οι θεοι· ομοιω
+<lb break="no" />
+θεντες <abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr>· κατε
+<lb break="no" />
+βησαν προς ημας
+<lb/>
+</ab> <ab n="B05K14V12">εκαλουν τε· τον μεν
+<lb/>
+βαρναβαν δια τον
+<lb/>
+δε παυλον ερμην
+<lb/>
+επειδη αυτος ην ο η
+<lb break="no" />
+γουμενος του λογου
+<lb/>
+</ab> <ab n="B05K14V13">ο δε ιερευς του διος·
+<lb/>
+του οντος προ της
+<lb/>
+πολεως αυτων· ταυ
+<lb break="no" />
+ρους και στεμματα
+<lb/>
+επι τους πυλωνας
+<lb/>
+ενεγκας. συν τοις ο
+<lb break="no" />
+χλοις ηθελον θυειν
+<lb/>
+</ab> <ab n="B05K14V14">ακουσαντες δε οι α
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ποστολοι βαρναβας
+<lb/>
+και παυλος· διαρρη
+<lb break="no" />
+ξαντες τα ιματια
+<lb/>
+αυτων, εισεπηδησαν
+<lb/>
+εις τον οχλον κρα
+<lb break="no" />
+ζοντες</ab> <ab n="B05K14V15">και λεγοντες
+<lb/>
+ανδρες· τι ταυτα
+<lb/>
+ποιειτε και ημεις
+<lb/>
+ομοιοπαθεις εσμεν
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr>, ευαγγελιζομε
+<lb break="no" />
+νοι υμας· απο του
+<lb break="no" />
+των των ματαιων
+<lb/>
+επιστρεφειν επι τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θν</hi></abbr> τον ζωντα· ος
+<lb/>
+εποιησε τον <abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr>
+<lb/>
+και την γην και την
+<lb/>
+θαλασσαν· και παν
+<lb break="no" />
+τα τα εν αυτοις</ab> <ab n="B05K14V16">ος
+<lb/>
+εν ταις παρωχη
+<lb break="no" />
+μεναις γενεαις· ει
+<lb break="no" />
+ασε παντα τα ε
+<lb break="no" />
+θνη, πορευεσθαι ταις
+<lb/>
+</ab></div></div>
+<pb n="32v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+στηριζοντες τας ψυ
+<lb break="no" />
+χας των μαθητων
+<lb/>
+παρακαλουντες
+<lb/>
+εμμενειν τη πιστει
+<lb/>
+και οτι δια πολλων
+<lb/>
+θλιψεων· δει ημας
+<lb/>
+εισελθειν εις την
+<lb/>
+βασιλειαν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K14"><ab n="B05K14V23">χειροτονησαντες δε
+<lb/>
+αυτοις πρεσβυτε
+<lb break="no" />
+ρους κατ εκκλησιαν
+<lb/>
+προσευξαμενοι
+<lb/>
+μετα νηστειων, πα
+<lb break="no" />
+ρεθεντο αυτους τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κω</hi></abbr>· εις ον πεπιστευ
+<lb break="no" />
+κεισαν</ab> <ab n="B05K14V24">και διελ
+<lb break="no" />
+θοντες την πισι
+<lb break="no" />
+διαν· ηλθον εις παμ
+<lb break="no" />
+φυλιαν·</ab> <ab n="B05K14V25">και λαλη
+<lb break="no" />
+σαντες εν περγη
+<lb/>
+τον λογον· κατεβη
+<lb break="no" />
+σαν εις αταλειαν
+<lb/>
+<cb n="2" />
+<lb/>
+</ab> <ab n="B05K14V26">κακειθεν απεπλευ
+<lb break="no" />
+σαν εις αντιοχειαν
+<lb/>
+οθεν ησαν παραδε
+<lb break="no" />
+δομενοι τη χαριτι του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· εις το εργον ο ε
+<lb break="no" />
+πληρωσαν</ab> <ab n="B05K14V27">παρα
+<lb break="no" />
+γενομενοι δε, και συ
+<lb break="no" />
+ναγαγοντες την εκ
+<lb break="no" />
+κλησιαν· ανηγγειλαν
+<lb/>
+οσα εποιησεν ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+μετ αυτων· και οτι ηνυ
+<lb break="no" />
+ξε τοις εθνεσι· θυ
+<lb break="no" />
+ραν πιστεως</ab> <ab n="B05K14V28">διε
+<lb break="no" />
+τριβον δε εκει χρονον
+<lb/>
+ουκ ολιγον συν τοις
+<lb/>
+μαθηταις </ab></div><div type="chapter" n="B05K15"> <ab n="B05K15V1">και τι
+<lb break="no" />
+νες κατελθοντες α
+<lb break="no" />
+πο της ιουδαιας ε
+<lb break="no" />
+διδασκον τους αδελ
+<lb break="no" />
+φους οτι εαν μη πε
+<lb break="no" />
+ριτεμνησθε τω εθει
+<lb/>
+</ab></div></div>
+<pb n="33r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+μωυσεως· ου δυνα
+<lb break="no" />
+σθε σωθηναι <div type="book" n="B05"><div type="chapter" n="B05K15"><ab n="B05K15V2">γενο
+<lb break="no" />
+μενης ουν στασεως·
+<lb/>
+και ζητησεως ουκ ο
+<lb break="no" />
+λιγης· τω παυλω
+<lb/>
+και τω βαρναβα
+<lb/>
+προς αυτους· εταξαν
+<lb/>
+αναβαινειν παυλον
+<lb/>
+και βαρναβαν· και
+<lb/>
+τινας αλλους εξ αυτων
+<lb/>
+προς τους αποστο
+<lb break="no" />
+λους· και πρεσβυτε
+<lb break="no" />
+ρους εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>, περι
+<lb/>
+του ζητηματος του
+<lb break="no" />
+του</ab> <ab n="B05K15V3">οι μεν ουν προ
+<lb break="no" />
+πεμφθεντες υπο
+<lb/>
+της εκκλησιας διηρ
+<lb break="no" />
+χοντο την φοινικην
+<lb/>
+και σαμαρειαν. εκδι
+<lb break="no" />
+ηγουμενοι την επι
+<lb break="no" />
+στροφην των εθνων
+<lb/>
+<cb n="2" />
+<lb/>
+και εποιουν χαραν με
+<lb break="no" />
+γαλην· πασι τοις α
+<lb break="no" />
+δελφοις</ab> <ab n="B05K15V4">παραγενομε
+<lb break="no" />
+νοι δε εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>· απε
+<lb break="no" />
+δεχθησαν υπο της εκ
+<lb break="no" />
+κλησιας και των α
+<lb break="no" />
+ποστολων και των πρεσ
+<lb break="no" />
+βυτερων ανηγγειλαν
+<lb/>
+τε· οσα ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> εποιησε
+<lb/>
+μετ αυτων· και οτι ηνυ
+<lb break="no" />
+ξε τοις εθνεσι θυραν
+<lb/>
+πιστεως <note type="transcriber">einfluss aus 14,27</note>
+<lb/>
+<note type="transcriber">PRAX̣EẈṆ</note></ab> <ab n="B05K15V5">εν ταις ημεραις εκει(ναις)
+<lb/>
+εξανεστησαν τινες των
+<lb/>
+απο της αιρεσεως
+<lb/>
+των φαρισαιων, πε
+<lb break="no" />
+πιστευκοτες λεγον
+<lb break="no" />
+τες οτι δει περιτε
+<lb break="no" />
+μνειν αυτους· παρα
+<lb break="no" />
+γγελλειν τε τηρειν· τον
+<lb/>
+νομον μωσεως</ab> <ab n="B05K15V6">συνη
+<lb break="no" />
+χθησαν δε οι αποστολοι·
+<lb/>
+</ab></div></div>
+<pb n="33v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+και οι πρεσβυτεροι
+<lb/>
+ιδειν περι του λογου
+<lb/>
+τουτου <div type="book" n="B05"><div type="chapter" n="B05K15"><ab n="B05K15V7">πολλης δε
+<lb/>
+συζητησεως γενο
+<lb break="no" />
+μενης· αναστας
+<lb/>
+πετρος, ειπε προς
+<lb/>
+αυτους ανδρες α
+<lb break="no" />
+δελφοι· υμεις επι
+<lb break="no" />
+στασθε, οτι αφ ημε
+<lb break="no" />
+ρων αρχαιων· ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+εν ημιν εξελεξα
+<lb break="no" />
+το· δια του στομα
+<lb break="no" />
+τος μου, ακουσαι
+<lb/>
+τα εθνη τω λογω
+<lb/>
+του ευαγγελιου και
+<lb/>
+πιστευσαι</ab> <ab n="B05K15V8">και ο καρ
+<lb break="no" />
+διογνωστης <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>· ε
+<lb break="no" />
+μαρτυρησεν αυτοις
+<lb/>
+δους αυτοις το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>
+<lb/>
+το αγιον· καθως και
+<lb/>
+ημιν</ab> <ab n="B05K15V9">και ουθεν δι
+<lb break="no" />
+εκρινε· μεταξυ η
+<lb break="no" />
+<cb n="2" />
+<lb/>
+μων τε και αυτων,
+<lb/>
+τη πιστει καθαρι
+<lb break="no" />
+σας· τας καρδιας
+<lb/>
+αυτων</ab> <ab n="B05K15V10">νυν ουν τι πει
+<lb break="no" />
+ραζετε τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr>· ε
+<lb break="no" />
+πιθηναι ζυγον ε
+<lb break="no" />
+πι τον τραχηλον
+<lb/>
+των μαθητων· ον
+<lb/>
+ουτε οι <abbr type="nomSac"><hi rend="overline">πρες</hi></abbr> ημων
+<lb/>
+ουτε ημεις ισχυσα
+<lb break="no" />
+μεν βαστασαι</ab> <ab n="B05K15V11">αλ
+<lb break="no" />
+λα δια της χαριτος
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>· πιστευο
+<lb break="no" />
+μεν σωθηναι, κα
+<lb break="no" />
+θ ον τροπον κακει
+<lb break="no" />
+νοι</ab> <ab n="B05K15V12">εσιγησε δε· παν
+<lb/>
+το πληθος· και η
+<lb break="no" />
+κουον βαρναβα
+<lb/>
+και παυλου εξηγου
+<lb break="no" />
+μενων· οσα εποι
+<lb break="no" />
+ησεν ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> σημεια
+<lb/>
+και τερατα εν τοις
+<lb/>
+</ab></div></div>
+<pb n="34r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+εθνεσι δι αυτων
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K15"><ab n="B05K15V35">εν ταις ημεραις εκει(ναις)·
+<lb/>
+παυλος και βαρ
+<lb break="no" />
+ναβας· διετριβον
+<lb/>
+εν αντιοχεια, δι
+<lb break="no" />
+δασκοντες και ευ
+<lb break="no" />
+αγγελιζομενοι· με
+<lb break="no" />
+τα και ετερων πολ
+<lb break="no" />
+λων τον λογον του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></ab> <ab n="B05K15V36">μετα δε τινας
+<lb/>
+ημερας· ειπε παυ
+<lb break="no" />
+λος προς βαρνα
+<lb break="no" />
+βαν επιστρεψαν
+<lb break="no" />
+τες δη· επισκεψω
+<lb break="no" />
+μεθα τους αδελ
+<lb break="no" />
+φους ημων κατα
+<lb/>
+πασαν πολιν·
+<lb/>
+εν αις κατηγγειλα
+<lb break="no" />
+μεν τον λογον του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>· πως εχουσι
+<lb/>
+</ab> <ab n="B05K15V37">βαρναβας δε εβου
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λευσατο συμπαρα
+<lb break="no" />
+λαβειν τον ιωαν
+<lb break="no" />
+νην τον καλουμε
+<lb break="no" />
+νον μαρκον</ab> <ab n="B05K15V38">παυλος
+<lb/>
+δε ηξιου τον απο
+<lb break="no" />
+σταντα απ αυτων
+<lb/>
+απο παμφυλιας·
+<lb/>
+και μη συνελθον
+<lb break="no" />
+τα αυτοις εις το ερ
+<lb break="no" />
+γον μη συμπαραλα
+<lb break="no" />
+βειν τουτον</ab> <ab n="B05K15V39">εγενε
+<lb break="no" />
+το ουν παροξυσμος,
+<lb/>
+ωστε αποχωρισθη
+<lb break="no" />
+ναι αυτους απ αλλη
+<lb break="no" />
+λων τον τε βαρνα
+<lb break="no" />
+βαν παραλαβον
+<lb break="no" />
+τα τον μαρκον· εκ
+<lb break="no" />
+πλευσαι εις κυπρον
+<lb/>
+</ab> <ab n="B05K15V40">παυλος δε επιλε
+<lb break="no" />
+ξαμενος σιλαν·
+<lb/>
+εξηλθε παραδο
+<lb break="no" />
+θεις τη χαριτι του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>.
+<lb/>
+</ab></div></div>
+<pb n="34v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+υπο των αδελφων
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K15"><ab n="B05K15V41">διηρχοντο δε την
+<lb/>
+συριαν και κιλικι
+<lb break="no" />
+αν· επιστηριζοντες
+<lb/>
+τας εκκλησιας <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K16"> <ab n="B05K16V16">εν ταις ημεραις εκει(ναις)
+<lb/>
+εγενετο πορευομενων
+<lb/>
+των αποστολων εις
+<lb/>
+προσευχην· παιδι
+<lb break="no" />
+σκην τινα· εχουσαν
+<lb/>
+πνευμα πυθωνος
+<lb/>
+απαντησαι αυτοις,
+<lb/>
+ητις εργασιαν πολ
+<lb break="no" />
+λην παρειχε τοις
+<lb/>
+κυριοις αυτης μαν
+<lb break="no" />
+τευομενη</ab> <ab n="B05K16V17">αυτη κα
+<lb break="no" />
+τακολουθησασα·
+<lb/>
+τω παυλω και τω
+<lb/>
+σιλα· εκραζε λεγου
+<lb break="no" />
+σα ουτοι οι <abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr>·
+<lb/>
+δουλοι του υψιστου
+<lb/>
+εισιν· οιτινες κατα
+<lb break="no" />
+</ab></div></div>
+<pb n="35r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+γγελλουσιν ημιν· ο
+<lb break="no" />
+δον <abbr type="nomSac"><hi rend="overline">σριας</hi></abbr> <div type="book" n="B05"><div type="chapter" n="B05K16"><ab n="B05K16V18">τουτο δε
+<lb/>
+εποιει, επι πολλας
+<lb/>
+ημερας διαπονη
+<lb break="no" />
+θεις δε ο παυλος και
+<lb/>
+επιστρεψας· τω <abbr type="nomSac"><hi rend="overline">πνι</hi></abbr>
+<lb/>
+ειπε παραγγελλω
+<lb/>
+σοι εν τω ονοματι <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>, εξελθειν απ αυ
+<lb break="no" />
+της και εξηλθεν
+<lb/>
+αυτη τη ωρα</ab> <ab n="B05K16V19">ιδοντες
+<lb/>
+δε οι κυριοι αυτης, ο
+<lb break="no" />
+τι εξηλθεν η ελπις
+<lb/>
+της εργασιας αυτων
+<lb/>
+επιλαβομενοι τον
+<lb/>
+παυλον και τον σι
+<lb break="no" />
+λαν, ειλκυσαν εις
+<lb/>
+την αγοραν επι τους
+<lb/>
+αρχοντας</ab> <ab n="B05K16V20">και προσ
+<lb break="no" />
+αγαγοντες αυτους τοις
+<lb/>
+στρατηγοις ειπον·
+<lb/>
+ουτοι οι <abbr type="nomSac"><hi rend="overline">ανοι</hi></abbr> εκτα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ρασσουσιν ημων την
+<lb/>
+πολιν, ιουδαιοι υ
+<lb break="no" />
+παρχοντες</ab> <ab n="B05K16V21">και
+<lb/>
+καταγγελλουσιν εθη,
+<lb/>
+α ουκ εξεστιν ημιν
+<lb/>
+παραδεχεσθαι
+<lb/>
+ουδε ποιειν ρωμαι
+<lb break="no" />
+οις ουσι</ab> <ab n="B05K16V22">και συνε
+<lb break="no" />
+πεστη ο οχλος κα
+<lb break="no" />
+τ αυτων και οι στρα
+<lb break="no" />
+τηγοι περιρρηξαν
+<lb break="no" />
+τες αυτων τα ιμα
+<lb break="no" />
+τια· εκελευον ρα
+<lb break="no" />
+βδιζειν</ab> <ab n="B05K16V23">πολλας
+<lb/>
+τε επιθεντες αυτοις
+<lb/>
+πληγας· εβαλον εις
+<lb/>
+φυλακην· παραγγει
+<lb break="no" />
+λαντες τω δεσμω
+<lb break="no" />
+φυλακι· ασφαλως
+<lb/>
+τηρειν αυτους</ab> <ab n="B05K16V24">ος πα
+<lb break="no" />
+ραγγελιαν τοιαυτην
+<lb/>
+ειληφως· εβαλεν
+<lb/>
+</ab></div></div>
+<pb n="35v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αυτους εις την εσω
+<lb break="no" />
+τεραν φυλακην. και
+<lb/>
+τους ποδας αυτων·
+<lb/>
+ησφαλισατο εις το
+<lb/>
+ξυλον <div type="book" n="B05"><div type="chapter" n="B05K16"><ab n="B05K16V25">κατα δε το
+<lb/>
+μεσονυκτιον· παυ
+<lb break="no" />
+λος και σιλας προ
+<lb break="no" />
+σευχομενοι, υμνουν
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> επικροων
+<lb break="no" />
+το δε αυτων οι δεσμι
+<lb break="no" />
+οι</ab> <ab n="B05K16V26">αφνω δε· σεισμος
+<lb/>
+εγενετο μεγας, ωστε
+<lb/>
+σαλευθηναι τα θε
+<lb break="no" />
+μελια του δεσμωτη
+<lb break="no" />
+ριου ανεωχθησαν
+<lb/>
+τε παραχρημα
+<lb/>
+αι θυραι πασαι,
+<lb/>
+και παντων τα δε
+<lb break="no" />
+μα ανεθη</ab> <ab n="B05K16V27">εξυπνος
+<lb/>
+δε γενομενος ο δε
+<lb break="no" />
+σμοφυλαξ· και ιδων
+<lb/>
+ανεωγμενας τας
+<lb/>
+<cb n="2" />
+<lb/>
+θυρας της φυλακης·
+<lb/>
+σπασαμενος μα
+<lb break="no" />
+χαιραν, εμελλεν ε
+<lb break="no" />
+αυτον αναιρειν· νο
+<lb break="no" />
+μιζων εκπεφευ
+<lb break="no" />
+γεναι τους δεσμιους
+<lb/>
+</ab> <ab n="B05K16V28">εφωνησε δε φωνη με
+<lb break="no" />
+γαλη ο παυλος λε
+<lb break="no" />
+γων· μηδεν πρα
+<lb break="no" />
+ξεις· σεαυτω κακον
+<lb/>
+απαντες γαρ εσμεν
+<lb/>
+ενθαδε</ab> <ab n="B05K16V29">αιτησας
+<lb/>
+δε φωτα· εισεπηδη
+<lb break="no" />
+σε και εντρομος γε
+<lb break="no" />
+νομενος· προσε
+<lb break="no" />
+πεσε τω παυλω
+<lb/>
+και τω σιλα</ab> <ab n="B05K16V30">και
+<lb/>
+προαγαγων αυτους
+<lb/>
+εξω εφη· κυριοι·
+<lb/>
+τι με δει ποιειν ι
+<lb break="no" />
+να σωθω</ab> <ab n="B05K16V31">οι δε ει
+<lb break="no" />
+πον πιστευσον ε
+<lb break="no" />
+</ab></div></div>
+<pb n="36r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πι τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr>· <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> <abbr type="nomSac"><hi rend="overline">χν</hi></abbr>, και
+<lb/>
+σωθηση συ και ο οι
+<lb break="no" />
+κος σου <div type="book" n="B05"><div type="chapter" n="B05K16"><ab n="B05K16V32">και ελα
+<lb break="no" />
+λησαν αυτω τον λο
+<lb break="no" />
+γον του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>. και πα
+<lb break="no" />
+σι τοις εν τη οικια
+<lb/>
+αυτου</ab> <ab n="B05K16V33">και παρα
+<lb break="no" />
+λαβων αυτους ε
+<lb break="no" />
+ν εκεινη τη ωρα της
+<lb/>
+νυκτος· ελουσεν
+<lb/>
+απο των πληγων
+<lb/>
+και εβαπτισθη αυ
+<lb break="no" />
+τος· και οι αυτου παν
+<lb break="no" />
+τες παραχρημα
+<lb/>
+</ab> <ab n="B05K16V34">αναγαγων τε αυτους εις
+<lb/>
+τον οικον· παρεθη
+<lb break="no" />
+κε τραπεζαν. και
+<lb/>
+ηγαλλιατο πανοι
+<lb break="no" />
+κι· πεπιστευκως
+<lb/>
+τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr> <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH B[ns][\ns] THS Ṣ[ns][\ns] EBDMAD·</note><note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K17"> <ab n="B05K17V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+διοδευσαντες οι α
+<lb break="no" />
+ποστολοι· την αμφι
+<lb break="no" />
+πολιν και απολ
+<lb break="no" />
+λωνιαν· ηλθον εις
+<lb/>
+θεσσαλονικην, οπου
+<lb/>
+ην η συναγωγη των
+<lb/>
+ιουδαιων</ab> <ab n="B05K17V2">κατα δε
+<lb/>
+το ειωθος τω παυ
+<lb break="no" />
+λω· εισηλθε προς
+<lb/>
+αυτους και επι σαβ
+<lb break="no" />
+βατα τρια· διελεγε
+<lb break="no" />
+το αυτοις απο των
+<lb/>
+γραφων·</ab> <ab n="B05K17V3">διανοιγων
+<lb/>
+και παρατιθεμε
+<lb break="no" />
+νος· οτι τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr> εδει
+<lb/>
+παθειν· και ανα
+<lb break="no" />
+στηναι εκ νεκρων
+<lb/>
+και οτι ουτος εστιν
+<lb/>
+ο <abbr type="nomSac"><hi rend="overline">χς</hi></abbr> <abbr type="nomSac"><hi rend="overline">ις</hi></abbr>· ον εγω κατα
+<lb break="no" />
+</ab></div></div>
+<pb n="36v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+γγελλω υμιν <div type="book" n="B05"><div type="chapter" n="B05K17"><ab n="B05K17V4">και
+<lb/>
+τινες εξ αυτων ε
+<lb break="no" />
+πεισθησαν· και
+<lb/>
+προσεκληρωθη
+<lb break="no" />
+σαν τω παυλω
+<lb/>
+και τω σιλα των
+<lb/>
+τε σεβομενων ελ
+<lb break="no" />
+ληνων· πολυ πλη
+<lb break="no" />
+θος· γυναικων τε
+<lb/>
+των πρωτον ου
+<lb break="no" />
+κ ολιγαι</ab> <ab n="B05K17V5">προσλα
+<lb break="no" />
+βομενοι δε οι ιου
+<lb break="no" />
+δαιοι οι απειθουν
+<lb break="no" />
+τες· των αγοραιων
+<lb/>
+τινας· ανδρας πο
+<lb break="no" />
+νηρους· και οχλο
+<lb break="no" />
+ποιησαντες εθο
+<lb break="no" />
+ρυβουν την πο
+<lb break="no" />
+λιν επισταντες
+<lb/>
+τε· τη οικια ιασω
+<lb break="no" />
+νος· εζητουν αυ
+<lb break="no" />
+τους· αναγαγειν εις τον
+<lb/>
+<cb n="2" />
+<lb/>
+δημον</ab> <ab n="B05K17V6">μη ευροντες
+<lb/>
+δε αυτους· εσυρον τον
+<lb/>
+ιασωνα· και τι
+<lb break="no" />
+νας αδελφους· ε
+<lb break="no" />
+πι τους πολιταρ
+<lb break="no" />
+χας βοωντες οτι
+<lb/>
+οι την οικουμενην
+<lb/>
+αναστατωσαντες
+<lb/>
+ουτοι και ενθαδε
+<lb/>
+παρεισιν,</ab> <ab n="B05K17V7">ους υπο
+<lb break="no" />
+δεδεκται ιασων
+<lb/>
+και ουτοι παντες
+<lb/>
+απεναντι των
+<lb/>
+δογματων καισα
+<lb break="no" />
+ρος πρασσουσι· βα
+<lb break="no" />
+σιλεα λεγοντες ε
+<lb break="no" />
+τερον ειναι <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></ab> <ab n="B05K17V8">ετα
+<lb break="no" />
+ραξαν δε τον οχλον
+<lb/>
+και τους πολιταρ
+<lb break="no" />
+χας, ακουοντας
+<lb/>
+ταυτα</ab> <ab n="B05K17V9">και λαβον
+<lb break="no" />
+τες το ικανον πα
+<lb break="no" />
+</ab></div></div>
+<pb n="37r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K17"><ab n="B05K17V16">εν ταις ημεραις εκεινες
+<lb/>
+εν ταις αθηναις εκδε
+<lb break="no" />
+χομενου του παυλου
+<lb/>
+τον σιλαν και τιμοθε
+<lb break="no" />
+ον παρωξυνετο το
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> αυτου εν αυτω
+<lb/>
+θεωρουντος κατειδω
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λον ουσαν την πολιν
+<lb/>
+</ab> <ab n="B05K17V17">διελεγετο μεν ουν εν τη
+<lb/>
+συναγωγη τοις ιουδαι
+<lb break="no" />
+οις και τοις σεβομενοις
+<lb/>
+και εν τη αγορα κατα
+<lb/>
+πασαν ημεραν προς
+<lb/>
+τους παρατυγχανον
+<lb break="no" />
+τας</ab> <ab n="B05K17V18">τινες δε και των
+<lb/>
+επικουριων και των
+<lb/>
+στοικων φιλοσοφων
+<lb/>
+συνεβαλον αυτω και
+<lb/>
+τινες ελεγον τι αν θε
+<lb break="no" />
+λει ο σπερμολογος ου
+<lb break="no" />
+τος λεγειν οι δε ξενων
+<lb/>
+δαιμονιων δοκει κα
+<lb break="no" />
+ταγγελευς ειναι οτι τον
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> και την αναστασιν
+<lb/>
+ευηγγελιζετο αυτοις
+<lb/>
+</ab></div></div>
+<pb n="37v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ρα του ιασωνος
+<lb/>
+και των λοιπων
+<lb/>
+απελυσαν αυτους
+<lb/>
+<pb n="36v" type="folio" xml:id="l_809-740"/>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K17"><ab n="B05K17V19"><app><rdg type="corr" hand="L1">εν ταις ημεραις εκει(ναις)</rdg><rdg type="corr" hand="L2">OM</rdg></app>
+<lb/>
+επιλαβομενοι <app><rdg type="corr" hand="L1">οι
+<lb/>
+ιουδαιοι</rdg><rdg type="corr" hand="L2">OM</rdg></app> <app><rdg type="corr" hand="L1">του παυ
+<lb break="no" />
+λου</rdg><rdg type="corr" hand="L2">τε αυτου</rdg></app> επι τον αρειον
+<lb/>
+παγον ηγαγον λεγον
+<lb break="no" />
+τες· δυναμεθα
+<lb/>
+γνωναι· τις η και
+<lb break="no" />
+νη αυτη· η υπο σου
+<lb/>
+λαλουμενη διδα
+<lb break="no" />
+χὴ</ab> <ab n="B05K17V20">ξενιζοντα γαρ
+<lb/>
+τινα εισφερεις εις
+<lb/>
+τας ακοας ημων
+<lb/>
+βουλομεθα ουν γνω
+<lb break="no" />
+ναι· τι αν θελοι·
+<lb/>
+ταυτα ειναι</ab> <ab n="B05K17V21">αθη
+<lb break="no" />
+ναιοι δε παντες·
+<lb/>
+και οι επιδημουν
+<lb break="no" />
+τες ξενοι· εις ουδεν
+<lb/>
+<cb n="3" />
+<lb/>
+ετερον ευκαιρουν,
+<lb/>
+η λεγειν τι· και α
+<lb break="no" />
+κουειν καινοτερον
+<lb/>
+</ab> <ab n="B05K17V22">σταθεις δε ο παυλος
+<lb/>
+εν μεσω του αρειου
+<lb/>
+παγου· εφη· ανδρες
+<lb/>
+αθηναιοι· κατα παν
+<lb break="no" />
+τα, ως δεισιδαιμο
+<lb break="no" />
+νεστερους υμας θε
+<lb break="no" />
+ωρω</ab> <ab n="B05K17V23">διερχομενος
+<lb/>
+γαρ, και αναθεωρων
+<lb/>
+τα σεβασματα υ
+<lb break="no" />
+μων, ευρον και βω
+<lb break="no" />
+μον· εν ω επεγεγρα
+<lb break="no" />
+πτω, αγνωστω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>
+<lb/>
+ον ουν αγνοουντες ευ
+<lb break="no" />
+σεβειτε, τουτον εγω
+<lb/>
+καταγγελλω υμιν
+<lb/>
+</ab> <ab n="B05K17V24">ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr> ο ποιησας τον
+<lb/>
+κοσμον και παντα
+<lb/>
+τα εν αυτω· ουτος
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr> και γης  <abbr type="nomSac"><hi rend="overline">κς</hi></abbr>
+<lb/>
+</ab></div></div>
+<pb n="38r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+υπαρχων· ουκ εν
+<lb/>
+χειροποιητοις να
+<lb break="no" />
+οις κατοικει· <div type="book" n="B05"><div type="chapter" n="B05K17"><ab n="B05K17V25">ουδε
+<lb/>
+υπο χειρων <abbr type="nomSac"><hi rend="overline">ανων</hi></abbr>
+<lb/>
+θεραπευεται προσ
+<lb break="no" />
+δεομενος τινος
+<lb/>
+αυτος διδους πασι,
+<lb/>
+ζωην και πνοην
+<lb/>
+κατα παντα</ab> <ab n="B05K17V26">ε
+<lb break="no" />
+ποιησε τε εξ ενος
+<lb/>
+αιματος παν εθνος
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ανων</hi></abbr>, κατοικειν
+<lb/>
+επι παν το προσω
+<lb break="no" />
+πον της γης ορισας
+<lb/>
+προστεταγμενους
+<lb/>
+καιρους· και τας ο
+<lb break="no" />
+ροθεσιας της κατοι
+<lb break="no" />
+κιας αυτων,</ab> <ab n="B05K17V27">ζητειν
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">κν</hi></abbr> ει αρα γε ψη
+<lb break="no" />
+λαφησειαν αυτον και
+<lb/>
+ευροιε και γε ου μα
+<lb break="no" />
+κραν απο ενος εκαστου
+<lb/>
+<cb n="2" />
+<lb/>
+ημων υπαρχοντα
+<lb/>
+</ab> <ab n="B05K17V28">εν αυτω γαρ ζωμεν·
+<lb/>
+και κινουμεθα και
+<lb/>
+εσμεν
+<lb/>
+</ab></div></div><pb n="37r" type="folio" xml:id="l_809-790"/>
+<lb/>
+<cb n="3" />
+<lb/>
+<note type="transcriber">PRAXEWN·</note><div type="book" n="B05"><div type="chapter" n="B05K18"><ab n="B05K18V22">εν ταις ημεραις εκει(ναις)
+<lb/>
+κατελθων ο παυ
+<lb break="no" />
+λος εις καισαρειαν·
+<lb/>
+αναβας και ασπα
+<lb break="no" />
+σαμενος την εκ
+<lb break="no" />
+κλησιαν, κατεβη
+<lb/>
+εις αντιοχειαν</ab> <ab n="B05K18V23">και
+<lb/>
+ποιησας χρονον
+<lb/>
+τινα· εξηλθε διερ
+<lb break="no" />
+χομενος καθεξης
+<lb/>
+την γαλατικην
+<lb/>
+χωραν· και φρυγιαν
+<lb/>
+επιστηριζων παν
+<lb break="no" />
+τας τους μαθητας
+<lb/>
+</ab> <ab n="B05K18V24">ιουδαιος δε τις απολ
+<lb break="no" />
+λως ονοματι· αλε
+<lb break="no" />
+ξανδρευς τω γενει
+<lb/>
+ανηρ λογιος· κατην
+<lb break="no" />
+</ab></div></div>
+<pb n="38v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K17"><ab n="B05K17V30">τους
+<lb/>
+μεν ουν χρονους της
+<lb/>
+αγνοιας υπεριδων ο
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θς</hi></abbr> τα νυν παραγγελ
+<lb break="no" />
+λει τοις <abbr type="nomSac"><hi rend="overline">ανοις</hi></abbr> πασι
+<lb/>
+πανταχου μετανο
+<lb break="no" />
+ειν</ab> <ab n="B05K17V31">διοτι εστησεν ημε
+<lb break="no" />
+ραν εν η μελλει κρινειν
+<lb/>
+την οικουμενην εν δι
+<lb break="no" />
+καιοσυνη ενι ανδρι
+<lb/>
+ω ωρισε πιστιν πα
+<lb break="no" />
+ρασχων πασιν ανα
+<lb break="no" />
+στησας αυτον εκ νεκρων
+<lb/>
+</ab> <ab n="B05K17V32">οι μεν εχλευαζον οι
+<lb/>
+δε ειπον ακουσομε
+<lb break="no" />
+θα σου παλιν περι
+<lb/>
+τουτου</ab> <ab n="B05K17V33">και ουτως ο
+<lb/>
+παυλος εξηλθεν εκ
+<lb/>
+μεσου αυτων</ab> <ab n="B05K17V34">τινες δε
+<lb/>
+ανδρες κολληθεντες
+<lb/>
+αυτω επιστευσαν εν οις
+<lb/>
+</ab></div></div>
+<pb n="39r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K18"> <ab n="B05K18V1">εν ταις ημεραις εκει(ναις) χω
+<lb break="no" />
+ρισθεις ο παυλος εκ των
+<lb/>
+αθηνων ηλθεν εις κο
+<lb break="no" />
+ρινθον</ab> <ab n="B05K18V4">διελεγετο δε εν τη
+<lb/>
+συναγωγη κατα παν
+<lb/>
+σαββατον επειθεν τε
+<lb/>
+ιουδαιους και ελληνας
+<lb/>
+</ab> <ab n="B05K18V8">κρισπος δε ο αρχισυναγω
+<lb break="no" />
+γος επιστευσε τω <abbr type="nomSac"><hi rend="overline">κω</hi></abbr>
+<lb/>
+συν ολω τω οικω αυτου
+<lb/>
+και πολλοι των κορινθι
+<lb break="no" />
+ων ακουσαντες επιστευ
+<lb break="no" />
+ον και εβαπτιζοντο</ab> <ab n="B05K18V9">ει
+<lb break="no" />
+πεν δε ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> δι οραματος
+<lb/>
+εν νυκτι τω παυλω
+<lb/>
+μη φοβου αλλα λαλει
+<lb/>
+και μη σιωπησης</ab> <ab n="B05K18V10">διοτι
+<lb/>
+εγω ειμι μετα σου και ου
+<lb break="no" />
+δεις επιθησεται σοι του
+<lb/>
+κακωσαι σε διοτι λαος
+<lb/>
+</ab></div></div>
+<pb n="39v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+εσται μοι πολυς εν τη πο
+<lb break="no" />
+λει ταυτη <div type="book" n="B05"><div type="chapter" n="B05K18"><ab n="B05K18V11">εκαθισε τε
+<lb/>
+ενιαυτον και μηνας εξ
+<lb/>
+διδασκων εν αυτοις
+<lb/>
+τον λογον του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+</ab></div></div><pb n="37v" type="folio" xml:id="l_809-760"/>
+<lb/>
+<cb n="2" />
+<lb/>
+τισεν εις εφεσον· δυ
+<lb break="no" />
+νατος ων εν ταις
+<lb/>
+γραφαις <div type="book" n="B05"><div type="chapter" n="B05K18"><ab n="B05K18V25">ουτος
+<lb/>
+ην κατηχημενος
+<lb/>
+την οδον του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>·
+<lb/>
+και ζεων τω <abbr type="nomSac"><hi rend="overline">πνι</hi></abbr>,
+<lb/>
+ελαλει και εδιδα
+<lb break="no" />
+σκεν ακριβως τα
+<lb/>
+περι του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>· επι
+<lb break="no" />
+σταμενος μονον το
+<lb/>
+βαπτισμα ιωαν
+<lb break="no" />
+νου</ab> <ab n="B05K18V26">ουτος τε ηρξα
+<lb break="no" />
+το παρρησιαζε
+<lb break="no" />
+σθαι εν τη συναγωγη
+<lb/>
+ακουσαντες δε
+<lb/>
+αυτου· ακυλας
+<lb/>
+και πρισκιλλα·
+<lb/>
+προσελαβοντο
+<lb/>
+αυτον, και ακριβε
+<lb break="no" />
+στερον αυτω εξεθεν
+<lb break="no" />
+το· την του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> οδον
+<lb/>
+</ab> <ab n="B05K18V27">βουλομενου δε αυτου
+<lb/>
+<cb n="3" />
+<lb/>
+διελθειν εις την α
+<lb break="no" />
+χαιαν· προτρε
+<lb break="no" />
+ψαμενοι οι αδελ
+<lb break="no" />
+φοι, εγραψαν τοις
+<lb/>
+μαθηταις αποδε
+<lb break="no" />
+ξασθαι αυτον ος
+<lb/>
+παραγενομενος, συ
+<lb break="no" />
+νεβαλετο πολυ τοις
+<lb/>
+πεπιστευκοσι δια
+<lb/>
+της χαριτος</ab> <ab n="B05K18V28">ευτο
+<lb break="no" />
+νως γαρ τοις ιουδαι
+<lb break="no" />
+οις· διακατηλεγ
+<lb break="no" />
+χετο δημοσια· επι
+<lb break="no" />
+δεικνυς δια των γρα
+<lb break="no" />
+φων· ειναι· τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr>
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ιν</hi></abbr> <note type="transcriber">ueberhang</note>
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH E[ns][\ns] THS Ṣ[ns][\ns] EBD</note><note type="transcriber">LA</note>
+<lb/>
+</ab></div></div>
+<pb n="40r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<note type="transcriber">LA</note><note type="transcriber">TH PAR THS Ṣ[ns][\ns] EBD</note><note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K19"> <ab n="B05K19V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+εγενετο εν τω τον α
+<lb break="no" />
+πολλω ειναι εν κο
+<lb break="no" />
+ρινθω· παυλον δι
+<lb break="no" />
+ελθοντα· τα ανω
+<lb break="no" />
+τερικα μερη, ελ
+<lb break="no" />
+θειν εις εφεσον και
+<lb/>
+ευρων τινας μα
+<lb break="no" />
+θητας·</ab> <ab n="B05K19V2">ειπε προς
+<lb/>
+αυτους ει <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>
+<lb/>
+αγιον ελαβετε πι
+<lb break="no" />
+στευσαντες· οι δε
+<lb/>
+ειπον προς αυτον
+<lb/>
+αλλ ουδε ει <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> αγιον
+<lb/>
+εστιν ηκουσαμεν
+<lb/>
+<cb n="2" />
+<lb/>
+</ab> <ab n="B05K19V3">ειπε τε προς αυτους
+<lb/>
+εις τι ουν εβαπτι
+<lb break="no" />
+σθητε οι δε ειπον
+<lb/>
+εις το ιωαννου βα
+<lb break="no" />
+πτισμα</ab> <ab n="B05K19V4">ειπε δε
+<lb/>
+παυλος ιωαννης
+<lb/>
+μεν εβαπτισε βα
+<lb break="no" />
+πτισμα μετανοιας
+<lb/>
+τω λαω λεγων, εις τον
+<lb/>
+ερχομενον μετ αυτων
+<lb/>
+ινα πιστευσωσι του
+<lb break="no" />
+τ εστιν εις τον <abbr type="nomSac"><hi rend="overline">χν</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιν</hi></abbr>
+<lb/>
+</ab> <ab n="B05K19V5">ακουσαντες δε ε
+<lb break="no" />
+βαπτισθησαν εις
+<lb/>
+το ονομα του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K19V6">και επιθεντος αυ
+<lb break="no" />
+τοις του παυλου
+<lb/>
+τας χειρας· ηλθε
+<lb/>
+το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον ε
+<lb break="no" />
+π αυτους ελαλουν
+<lb/>
+τε γλωσσαις και προ
+<lb break="no" />
+εφητευον</ab> <ab n="B05K19V7">ησαν δε
+<lb/>
+</ab></div></div>
+<pb n="40v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+οι παντες· ανδρες
+<lb/>
+ωσει δεκαδυο <div type="book" n="B05"><div type="chapter" n="B05K19"><ab n="B05K19V8">ει
+<lb break="no" />
+σελθων δε εις την
+<lb/>
+συναγωγην· επαρ
+<lb break="no" />
+ρησιαζετο επι μη
+<lb break="no" />
+νας τρεις· διαλεγο
+<lb break="no" />
+μενος και πειθων
+<lb/>
+τα περι της βα
+<lb break="no" />
+σιλειας του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>
+<lb/>
+</ab></div></div><pb n="39r" type="folio" xml:id="l_809-810"/>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K20"> <ab n="B05K20V7">εν ταις ημεραις εκει(ναις)·
+<lb/>
+συνηγμενων των
+<lb/>
+μαθητων· κλασαι
+<lb/>
+αρτον· ο παυλος δι
+<lb break="no" />
+ελεγετο αυτοις· μελ
+<lb break="no" />
+λων εξιεναι τη επαυ
+<lb break="no" />
+ριον παρετεινε τε τον
+<lb/>
+λογον μεχρι μεσονυκτι
+<lb break="no" />
+ου</ab> <ab n="B05K20V8">ησαν δε λαμπα
+<lb break="no" />
+δες ικαναι εν τω υ
+<lb break="no" />
+περωω· ου ημεν
+<lb/>
+συνηγμενοι</ab> <ab n="B05K20V9">καθη
+<lb break="no" />
+<cb n="3" />
+<lb/>
+μενος δε τις νεανιας
+<lb/>
+ονοματι ευτυχος·
+<lb/>
+επι της θυριδος κα
+<lb break="no" />
+ταφερομενος, υ
+<lb break="no" />
+πνω βαθει διαλε
+<lb break="no" />
+γομενου του παυ
+<lb break="no" />
+λου επι πλειον κα
+<lb break="no" />
+τενεχθεις απο του
+<lb/>
+υπνου· επεσεν α
+<lb break="no" />
+πο του τριστεγου κα
+<lb break="no" />
+τω και ηρθη νεκρο(ς)
+<lb/>
+</ab> <ab n="B05K20V10">καταβας δε ο παυ
+<lb break="no" />
+λος· επεπεσεν ε
+<lb break="no" />
+π αυτω· και συμ
+<lb break="no" />
+περιλαβων ειπε
+<lb/>
+μη θορυβεισθε· η γαρ
+<lb/>
+ψυχη αυτου εν αυτω
+<lb/>
+εστιν</ab> <ab n="B05K20V11">αναβας δε
+<lb/>
+και κλασας αρτον
+<lb/>
+και γευσαμενος· ε
+<lb break="no" />
+φ ικανον τε ομιλη
+<lb break="no" />
+σας· αχρις αυγης
+<lb/>
+</ab></div></div>
+<pb n="41r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ουτως εξηλθεν
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K20"><ab n="B05K20V12">ηγαγον δε τον παιδα
+<lb/>
+ζωντα· και παρε
+<lb break="no" />
+κληθησαν ου με
+<lb break="no" />
+τριως <note type="transcriber">LA</note>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">LA</note></ab> <ab n="B05K20V16">εν ταις ημεραις εκει(ναις)
+<lb/>
+εκρινεν ο παυλος
+<lb/>
+παραπλευσαι την
+<lb/>
+εφεσον, οπως μη
+<lb/>
+γενηται αυτω χρο
+<lb break="no" />
+</ab></div></div>
+<pb n="41v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+νοτριβησαι εν τη
+<lb/>
+ασια εσπευδε γαρ·
+<lb/>
+ει δυνατον ην αυτω
+<lb/>
+την ημεραν της
+<lb/>
+πεντηκοστης γε
+<lb break="no" />
+νεσθαι εις ιεροσο
+<lb break="no" />
+λυμα <div type="book" n="B05"><div type="chapter" n="B05K20"><ab n="B05K20V17">απο δε της
+<lb/>
+μιλιτου πεμψας
+<lb/>
+εις εφεσον· μετεκα
+<lb break="no" />
+λεσατο τους πρεσ
+<lb break="no" />
+βυτερους της εκ
+<lb break="no" />
+κλησιας</ab> <ab n="B05K20V18">ως δε
+<lb/>
+παρεγενοντο προ(ς)
+<lb/>
+αυτον· ειπεν αυτοις <note type="transcriber">omissio</note></ab> <ab n="B05K20V19"><note type="transcriber">omissio</note></ab> <ab n="B05K20V20"><note type="transcriber">omissio</note></ab> <ab n="B05K20V21"><note type="transcriber">omissio</note></ab> <ab n="B05K20V22"><note type="transcriber">omissio</note></ab> <ab n="B05K20V23"><note type="transcriber">omissio</note></ab> <ab n="B05K20V24"><note type="transcriber">omissio</note></ab> <ab n="B05K20V25"><note type="transcriber">omissio</note></ab> <ab n="B05K20V26"><note type="transcriber">omissio</note></ab> <ab n="B05K20V27"><note type="transcriber">omissio</note>
+<lb/>
+</ab> <ab n="B05K20V28">προσεχετε εαυτοις
+<lb/>
+και παντι τω ποι
+<lb break="no" />
+μνιω· εν ω υμας
+<lb/>
+το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον ε
+<lb break="no" />
+θετο επισκοπους
+<lb/>
+ποιμαινειν την
+<lb/>
+εκκλησιαν του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr>
+<lb/>
+και <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· ην περιε
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ποιησατο· δια του
+<lb/>
+ιδιου αιματος</ab> <ab n="B05K20V29">εγω
+<lb/>
+γαρ οιδα το οτι ει
+<lb break="no" />
+σελευσονται μετα
+<lb/>
+την αφηξιν μου λυ
+<lb break="no" />
+κοι βαρεις εις υμας,
+<lb/>
+μη φειδομενοι του
+<lb/>
+ποιμνιου</ab> <ab n="B05K20V30">και εξ υ
+<lb break="no" />
+μων αυτων· αναστη
+<lb break="no" />
+σονται ανδρες· λα
+<lb break="no" />
+λουντες διεστραμμε
+<lb break="no" />
+να, του αποσπαν
+<lb/>
+τους μαθητας· ο
+<lb break="no" />
+πισω αυτων</ab> <ab n="B05K20V31">διο
+<lb/>
+γρηγορειτε· μνημο
+<lb break="no" />
+νευοντες, οτι τριε
+<lb break="no" />
+τιαν νυκτα· και η
+<lb break="no" />
+μεραν· ουκ επαυ
+<lb break="no" />
+σαμην μετα δακρυ
+<lb break="no" />
+ων νουθετων· ενα
+<lb/>
+εκαστον</ab> <ab n="B05K20V32">και τα νυν·
+<lb/>
+παρατιθεμαι υμας
+<lb/>
+</ab></div></div>
+<pb n="42r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+αδελφοι τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>· και
+<lb/>
+τω λογω της χαριτος
+<lb/>
+αυτου τω δυναμε
+<lb break="no" />
+νω εποικοδομησαι
+<lb/>
+και δουναι υμιν κλη
+<lb break="no" />
+ρονομιαν· εν τοις
+<lb/>
+ηγιασμενοις πα
+<lb break="no" />
+σιν <div type="book" n="B05"><div type="chapter" n="B05K20"><ab n="B05K20V33"><app><rdg type="orig">αργ<unclear>ε</unclear>ριου</rdg><rdg type="corr" hand="">αργιριου</rdg></app> η χρυ
+<lb break="no" />
+σιου η ιματισμου
+<lb/>
+ουδενος επεθυμη
+<lb break="no" />
+σα</ab> <ab n="B05K20V34">αυτοι γινωσκε
+<lb break="no" />
+τε οτι ταις χρει
+<lb break="no" />
+αις μου και τοις ουσι
+<lb/>
+μετ εμου· υπηρετη
+<lb break="no" />
+σαν αι χειρες αυται
+<lb/>
+</ab> <ab n="B05K20V35">παντα υπεδειξα
+<lb/>
+<app><rdg type="orig">υμην·</rdg><rdg type="corr" hand="">υμιν·</rdg></app> οτι ουτως κο
+<lb break="no" />
+πιωντας δει αντι
+<lb break="no" />
+λαμβανεσθαι των
+<lb/>
+ασθενουντων μνη
+<lb break="no" />
+μονευειν τε τον λογον
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>· οτι αυτος
+<lb/>
+<cb n="2" />
+<lb/>
+ειπε μακαριον εστιν
+<lb/>
+μαλλον διδοναι, η λαμ
+<lb break="no" />
+βανειν</ab> <ab n="B05K20V36">και ταυτα
+<lb/>
+ειπων· θεις τα γο
+<lb break="no" />
+νατα αυτου· συν πα
+<lb break="no" />
+σιν αυτοις προσηυ
+<lb break="no" />
+ξατο <note type="transcriber">LA</note>
+<lb/>
+<note type="transcriber">TH B[ns][\ns] THS H[ns][\ns]</note><note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K21"> <ab n="B05K21V8">εν ταις ημεραις εκει(ναις)
+<lb/>
+εξελθοντες οι απο
+<lb break="no" />
+στολοι απο τυρου· ηλ
+<lb break="no" />
+θον εις καισαρειαν
+<lb/>
+και εισελθοντες εις
+<lb/>
+τον οικον φιλιππου
+<lb/>
+</ab></div></div>
+<pb n="42v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+του ευαγγελιστου· ον
+<lb break="no" />
+τως εκ των επτα,
+<lb/>
+εμειναμεν παρ αυ
+<lb break="no" />
+τω <div type="book" n="B05"><div type="chapter" n="B05K21"><ab n="B05K21V9">τουτω δε ησαν
+<lb/>
+θυγατερες παρθε
+<lb break="no" />
+νοι τεσσαρες προφη
+<lb break="no" />
+τευουσαι</ab> <ab n="B05K21V10">επιμε
+<lb break="no" />
+νοντων δε ημων· η
+<lb break="no" />
+μερας πλειους· κα
+<lb break="no" />
+τηλθε τις απο της
+<lb/>
+ιουδαιας· προφη
+<lb break="no" />
+της, ονοματι αγα
+<lb break="no" />
+βος</ab> <ab n="B05K21V11">και ελθων προ(ς)
+<lb/>
+ημας· και αρας την
+<lb/>
+ζωνην του παυλου
+<lb/>
+δησας τε αυτου τους
+<lb/>
+ποδας και τας χει
+<lb break="no" />
+ρας· ειπε· ταδε λε
+<lb break="no" />
+γει το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον·
+<lb/>
+τον ανδρα ου εστιν η
+<lb/>
+ζωνη αυτη ουτως δη
+<lb break="no" />
+σουσιν εν <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr> οι ιου
+<lb break="no" />
+<cb n="2" />
+<lb/>
+δαιοι, και παραδω
+<lb break="no" />
+σουσιν εις χειρας ε
+<lb break="no" />
+θνων</ab> <ab n="B05K21V12">ως δε ηκουσα
+<lb break="no" />
+μεν ταυτα· παρεκα
+<lb break="no" />
+λουμεν ημεις τε και
+<lb/>
+οι εντοπιοι· του μη
+<lb/>
+αναβαινειν αυτον εις
+<lb/>
+ιερουσαλημ</ab> <ab n="B05K21V13">απε
+<lb break="no" />
+κριθη τε ο παυλος
+<lb/>
+τι ποιειτε κλεοντες·
+<lb/>
+και συνθρυπτοντες
+<lb/>
+μου την καρδιαν
+<lb/>
+εγω γαρ ου μονον δε
+<lb break="no" />
+θηναι· αλλα και απο
+<lb break="no" />
+θανειν εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>· ε
+<lb break="no" />
+τοιμως εχω, υπερ του
+<lb/>
+ονοματος του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K21V14">μη πειθομενου δε
+<lb/>
+αυτου· ησυχασαμεν
+<lb/>
+ειποντες· το θελη
+<lb break="no" />
+μα του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> γινεσθω <note type="transcriber">PRAXEWN</note>
+<lb/>
+</ab></div></div>
+<pb n="43r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K21"><ab n="B05K21V26">εν ταις ημεραις εκει(ναις)
+<lb/>
+παραλαβων ο παυ
+<lb break="no" />
+λος τους ανδρας συν
+<lb/>
+αυτοις αγνισθεις ειση
+<lb break="no" />
+ει εις το ιερον, διαγγελ
+<lb break="no" />
+λων την εκπληρω
+<lb break="no" />
+σιν των ημερων του
+<lb/>
+αγνισμου· εως ου προ
+<lb break="no" />
+σηνεχθη· υπερ ε
+<lb break="no" />
+νος εκαστου αυτων
+<lb/>
+η προσφορα</ab> <ab n="B05K21V27">ως
+<lb/>
+δε εμελλον αι επτα
+<lb/>
+ημεραι συντελει
+<lb break="no" />
+σθαι· οι απο της ασι
+<lb break="no" />
+ας ιουδαιοι· θεασα
+<lb break="no" />
+μενοι αυτον εν τω ι
+<lb break="no" />
+ερω, συνεχεον παν
+<lb break="no" />
+τα τον οχλον και ε
+<lb break="no" />
+πεβαλον τας χει
+<lb break="no" />
+ρας επ αυτον</ab> <ab n="B05K21V28">κρα
+<lb break="no" />
+ζοντες ανδρες ισ
+<lb break="no" />
+ραηλιται· βοηθητε·
+<lb/>
+<cb n="2" />
+<lb/>
+ουτος εστιν ο <abbr type="nomSac"><hi rend="overline">ανος</hi></abbr> ο
+<lb/>
+κατα του λαου και
+<lb/>
+του νομου· και του
+<lb/>
+τοπου του αγιου,
+<lb/>
+παντας παντα
+<lb break="no" />
+χου διδασκων ετι
+<lb/>
+τε και ελληνας· ει
+<lb break="no" />
+σηγαγεν εις το ιερον,
+<lb/>
+και <app><rdg type="orig">κεκοινωνηκε</rdg><rdg type="corr" hand="">κεκοινωκεν</rdg></app>
+<lb/>
+τον αγιον τοπον του
+<lb break="no" />
+τον</ab> <ab n="B05K21V29">ησαν γαρ εω
+<lb break="no" />
+ρακοτες· τροφιμον
+<lb/>
+τον εφεσιον· εν τη
+<lb/>
+πολει συν αυτω,
+<lb/>
+ον ενομιζον· οτι εις
+<lb/>
+το ιερον εισηγαγεν ο
+<lb/>
+παυλος</ab> <ab n="B05K21V30">εκινηθη
+<lb/>
+τε η πολις ολη· και
+<lb/>
+εγενετο συνδρομη του
+<lb/>
+λαου και επιλαβο
+<lb break="no" />
+μενοι του παυλου,
+<lb/>
+ειλκον αυτον· εξω
+<lb/>
+</ab></div></div>
+<pb n="43v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+του ιερου, και ευθε
+<lb break="no" />
+ως εκλεισθησαν
+<lb/>
+αι θυραι <div type="book" n="B05"><div type="chapter" n="B05K21"><ab n="B05K21V31">ζητουν
+<lb break="no" />
+των δε αυτων απο
+<lb break="no" />
+κτειναι· ανεβη φα
+<lb break="no" />
+σις τω χιλιαρχω
+<lb/>
+της σπειρης, οτι ολη
+<lb/>
+συγκεχυται <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>
+<lb/>
+</ab> <ab n="B05K21V32">ος εξαυτης· παρα
+<lb break="no" />
+λαβων στρατιωτας
+<lb/>
+και εκατονταρχας·
+<lb/>
+κατεδραμεν επ αυ
+<lb break="no" />
+τους οι δε ιδοντες
+<lb/>
+τον χιλιαρχον και
+<lb/>
+τους στρατιωτας· ε
+<lb break="no" />
+παυσαντο· τυπτον
+<lb break="no" />
+τες τον παυλον
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K23"> <ab n="B05K23V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+ατενισας ο παυλος
+<lb/>
+τω συνεδριω· ειπεν
+<lb/>
+ανδρες αδελφοι· εγω
+<lb/>
+<cb n="2" />
+<lb/>
+παση συνειδησει
+<lb/>
+αγαθη· πεπολιτευ
+<lb break="no" />
+μαι τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>, αχρι
+<lb/>
+ταυτης της ημερας
+<lb/>
+</ab> <ab n="B05K23V2">ο δε αρχιερευς ανα
+<lb break="no" />
+νιας· επεταξε τοις
+<lb/>
+παρεστωσιν αυτω
+<lb/>
+τυπτειν αυτου το
+<lb/>
+στομα</ab> <ab n="B05K23V3">τοτε ο παυ
+<lb break="no" />
+λος προς αυτον ει
+<lb break="no" />
+πε τυπτειν σε μελ
+<lb break="no" />
+λει ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>· τοιχε κε
+<lb break="no" />
+κονιαμενε και συ,
+<lb/>
+καθη κρινον με κα
+<lb break="no" />
+τα τον νομον· και
+<lb/>
+παρανομων· κε
+<lb break="no" />
+λευεις με τυπτεσθαὶ
+<lb/>
+</ab> <ab n="B05K23V4">οι δε παρεστωτες
+<lb/>
+ειπον τον αρχιε
+<lb break="no" />
+ρεα του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> λοιδορεις;
+<lb/>
+</ab> <ab n="B05K23V5">εφη τε ο παυλος
+<lb/>
+ουκ ηδειν αδελφοι·
+<lb/>
+</ab></div></div>
+<pb n="44r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+οτι εστιν αρχιερευς
+<lb/>
+γεγραπται γαρ αρ
+<lb break="no" />
+χοντα του λαου σου
+<lb/>
+ουκ ερεις κακως
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K23"><ab n="B05K23V6">γνους δε ο παυλος·
+<lb/>
+οτι το εν μερος εστι
+<lb/>
+σαδδουκαιων το
+<lb/>
+δε ετερον φαρισαι
+<lb break="no" />
+ων· εκραξεν εν τω
+<lb/>
+συνεδριω ανδρες
+<lb/>
+αδελφοι εγω φαρι
+<lb break="no" />
+σαιος ειμι υιος φα
+<lb break="no" />
+ρισαιου περι ελπι
+<lb break="no" />
+δος και αναστασε
+<lb break="no" />
+ως νεκρων· εγω κρι
+<lb break="no" />
+νομαι</ab> <ab n="B05K23V7">τουτο δε αυ
+<lb break="no" />
+του λαλησαντος· ε
+<lb break="no" />
+γενετο στασις των
+<lb/>
+φαρισαιων, και ε
+<lb break="no" />
+σχισθη το πληθος
+<lb/>
+</ab> <ab n="B05K23V8">σαδδουκαιοι μεν
+<lb/>
+γαρ· λεγουσι· μη ειναι
+<lb/>
+<cb n="2" />
+<lb/>
+αναστασιν, μηδε
+<lb/>
+αγγελον μητε <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr>
+<lb/>
+φαρισαιοι δε ομολο
+<lb break="no" />
+γουσι τα αμφοτερα
+<lb/>
+</ab> <ab n="B05K23V9">εγενετο δε κραυγη με
+<lb break="no" />
+γαλη, και ανασταν
+<lb break="no" />
+τες γραμματεις του
+<lb/>
+μερους των φαρισαι
+<lb break="no" />
+ων· διεμαχοντο λε
+<lb break="no" />
+γοντες ουδεν κακον
+<lb/>
+ευρισκομεν εν τω
+<lb/>
+<abbr type="nomSac"><hi rend="overline">ανω</hi></abbr> τουτω  ει δε
+<lb/>
+<abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> ελαλησεν αυτω
+<lb/>
+η αγγελος· μη θεομα
+<lb break="no" />
+χωμεν·</ab> <ab n="B05K23V10">πολλης δε
+<lb/>
+γενομενης στασεως
+<lb/>
+ευλαβηθεις ο χιλιαρ
+<lb break="no" />
+χος· μη διασπασθη
+<lb/>
+ο παυλος υπ αυτων
+<lb/>
+εκελευσαι το στρατευ
+<lb break="no" />
+μα καταβηναι· και
+<lb/>
+αρπασαι αυτον εκ
+<lb/>
+</ab></div></div>
+<pb n="44v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+μεσου αυτων· αγειν
+<lb/>
+τε· εις την παρεμ
+<lb break="no" />
+βολην <div type="book" n="B05"><div type="chapter" n="B05K23"><ab n="B05K23V11">τη δε επιου
+<lb break="no" />
+ση νυκτι· επιστας
+<lb/>
+αυτω ο <abbr type="nomSac"><hi rend="overline">κς</hi></abbr> ειπεν θαρ
+<lb break="no" />
+σει παυλε ως γαρ
+<lb/>
+διεμαρτυρω τα πε
+<lb break="no" />
+ρι εμου εις <abbr type="nomSac"><hi rend="overline">ιλημ</hi></abbr>· ου
+<lb break="no" />
+τω σε δει· και εις ρω
+<lb break="no" />
+μην μαρτυρησαι
+<lb/>
+<note type="transcriber">PRAXEWN</note></ab></div><div type="chapter" n="B05K25"> <ab n="B05K25V13">εν ταις ημεραις εκει(ναις)
+<lb/>
+αγριππας ο βασιλευς
+<lb/>
+και βερνικη, κατην
+<lb break="no" />
+τησαν εις καισαρειαν·
+<lb/>
+ασπασαμενοι τον
+<lb/>
+φηστον</ab> <ab n="B05K25V14">ως δε πλει
+<lb break="no" />
+ους ημερας διετρι
+<lb break="no" />
+βον εκει· ο φηστος τω
+<lb/>
+βασιλει, ανεθετο κα
+<lb break="no" />
+τα τον παυλον λεγων
+<lb/>
+ανηρ τις εστι καταλε
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λειμμενος· υπο φη
+<lb break="no" />
+λικος δεσμιος,</ab> <ab n="B05K25V15">πε
+<lb break="no" />
+ρι ου γενομενου μου
+<lb/>
+εις ιεροσολυμα· ε
+<lb break="no" />
+νεφανισαν οι αρχι
+<lb break="no" />
+ερεις και οι πρεσβυ
+<lb break="no" />
+τεροι των ιουδαιων·
+<lb/>
+αιτουμενοι κατ αυ
+<lb break="no" />
+του δικην</ab> <ab n="B05K25V16">προς ους
+<lb/>
+απεκριθην οτι ου
+<lb break="no" />
+κ εστιν εθος ρωμαι
+<lb break="no" />
+οις χαριζεσθαι τι
+<lb break="no" />
+να <abbr type="nomSac"><hi rend="overline">ανον</hi></abbr>· εις απω
+<lb break="no" />
+λειαν, πριν η ο κα
+<lb break="no" />
+τηγορουμενος κα
+<lb break="no" />
+τα προσωπον ε
+<lb break="no" />
+χοι τους κατηγορους
+<lb/>
+τοπον τε απολογι
+<lb break="no" />
+ας· λαβοι περι του
+<lb/>
+εγκληματος</ab> <ab n="B05K25V17">συνελ
+<lb break="no" />
+θοντων ουν αυτων
+<lb/>
+ενθαδε· αναβολην
+<lb/>
+</ab></div></div>
+<pb n="45r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+μηδεμιαν ποιησα
+<lb break="no" />
+μενος· τη εξης κα
+<lb break="no" />
+θισας επι του βη
+<lb break="no" />
+ματος. εκελευσα
+<lb/>
+αχθηναι τον ανδρα
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K25"><ab n="B05K25V18">περι ου σταθεντες
+<lb/>
+οι κατηγοροι· ουδε
+<lb break="no" />
+μιαν αιτιαν επε
+<lb break="no" />
+φερον· ον υπενο
+<lb break="no" />
+ουν εγω</ab> <ab n="B05K25V19">ζητημα
+<lb break="no" />
+τα δε τινα περι
+<lb/>
+της ιδιας δησιδαι
+<lb break="no" />
+μονιας, ειχον προ(ς)
+<lb/>
+αυτον και περι τι
+<lb break="no" />
+νος <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> τεθνηκοτος
+<lb/>
+ον εφασκεν ο παυ
+<lb break="no" />
+λος ζην
+<lb/>
+</ab></div></div><pb n="43v" type="folio" xml:id="l_809-920"/>
+<lb/>
+<cb n="2" />
+<lb/>
+<note type="transcriber">PRAXEWN</note><div type="book" n="B05"><div type="chapter" n="B05K27"> <ab n="B05K27V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+ως εκριθη του α
+<lb break="no" />
+ποπλειν· τους
+<lb/>
+περι τον παυλον εις
+<lb/>
+<cb n="3" />
+<lb/>
+την ιταλιαν· πα
+<lb break="no" />
+ρεδιδουν τον τε
+<lb/>
+παυλον· και τινας
+<lb/>
+ετερους δεσμωτας·
+<lb/>
+εκατονταρχη· ο
+<lb break="no" />
+νοματι ιουλιω,
+<lb/>
+σπειρης σεβαστης
+<lb/>
+</ab> <ab n="B05K27V2">επιβαντες δε πλοι
+<lb break="no" />
+ω αδραμυττινω·
+<lb/>
+μελλοντες πλειν
+<lb/>
+τους κατα την α
+<lb break="no" />
+σιαν τοπους· ανη
+<lb break="no" />
+χθημεν οντως συν
+<lb/>
+ημιν· αρισταρχου
+<lb/>
+μακεδονος θεσσα
+<lb break="no" />
+λονικεως</ab> <ab n="B05K27V3">τη τε ε
+<lb break="no" />
+τερα κατηχθημεν
+<lb/>
+εις σιδωνα φιλαν
+<lb break="no" />
+θρωπως τε ο ιου
+<lb break="no" />
+λιος· τω παυλω χρη
+<lb break="no" />
+σαμενος· επετρε
+<lb break="no" />
+ψε προς τους φιλους
+<lb/>
+</ab></div></div>
+<pb n="45v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K26"> <ab n="B05K26V1">εν ταις ημεραις εκει(ναις)
+<lb/>
+αγριππας ο βασιλευς
+<lb/>
+τω παυλω εφη επι
+<lb break="no" />
+τρεπεται σοι υπερ
+<lb/>
+σεαυτου λεγειν τοτε ο
+<lb/>
+παυλος εκτεινας την
+<lb/>
+χειρα απελογειτο</ab> <ab n="B05K26V12">πο
+<lb break="no" />
+ρευομενος εις την δα
+<lb break="no" />
+μασκον μετ εξουσιας
+<lb/>
+<cb n="2" />
+<lb/>
+και επιτροπης της πα
+<lb break="no" />
+ρα των αρχιερεων</ab> <ab n="B05K26V13">ημε
+<lb break="no" />
+ρας μεσης κατα την ο
+<lb break="no" />
+δον ειδον βασιλευ <abbr type="nomSac"><hi rend="overline">ουνοθεν</hi></abbr>
+<lb/>
+υπερ την λαμπροτητα
+<lb/>
+του ηλιου περιλαμψαν με
+<lb/>
+φως και τους συν εμοι πο
+<lb break="no" />
+ρευομενους</ab> <ab n="B05K26V14">παντων δε
+<lb/>
+καταπεσοντων ημων
+<lb/>
+εις την γην ηκουσα φω
+<lb break="no" />
+νην λεγουσαν προς με
+<lb/>
+τη εβραιδι διαλεκτω
+<lb/>
+σαουλ σαουλ τι με διω
+<lb break="no" />
+κεις σκληρον σοι προς
+<lb/>
+κεντρα λακτιζειν
+<lb/>
+</ab> <ab n="B05K26V15">εγω δε ειπον τις ει <abbr type="nomSac"><hi rend="overline">κε</hi></abbr>
+<lb/>
+ο δε ειπεν εγω ειμι <abbr type="nomSac"><hi rend="overline">ις</hi></abbr>
+<lb/>
+ον συ διωκεις</ab> <ab n="B05K26V16">αλλα α
+<lb break="no" />
+ναστηθι και στηθι επι
+<lb/>
+τους ποδας σου εις του
+<lb break="no" />
+το γαρ ωφθην σοι προ
+<lb break="no" />
+χειρισασθαι σε υπηρε
+<lb break="no" />
+την και μαρτυρα ων τε
+<lb/>
+</ab></div></div>
+<pb n="46r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ειδες ων τε οφθησομαι
+<lb/>
+σοι <div type="book" n="B05"><div type="chapter" n="B05K26"><ab n="B05K26V17">εξαιρουμενος σε εκ
+<lb/>
+του λαου και των εθνων
+<lb/>
+εις ους εγω σε αποστελω
+<lb/>
+</ab> <ab n="B05K26V18">ανοιξαι οφθαλμους αυ
+<lb break="no" />
+των του υποστρεψαι απο
+<lb/>
+σκοτους εις φως και της
+<lb/>
+εξουσιας του σατανα
+<lb/>
+επι τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> του λαβειν
+<lb/>
+αυτους αφεσιν αμαρτι
+<lb break="no" />
+ων και κληρον εν τοις
+<lb/>
+ηγιασμενοις πιστει
+<lb/>
+τη εις εμε</ab> <ab n="B05K26V19">οθεν βασι
+<lb break="no" />
+λευ αγριππα ουκ εγενο
+<lb break="no" />
+μην απειθης τη <abbr type="nomSac"><hi rend="overline">ουνιω</hi></abbr>
+<lb/>
+οπτασια</ab> <ab n="B05K26V20">αλλα τοις εν
+<lb/>
+δαμασκω πρωτον
+<lb/>
+και εν ιεροσολυμοις εις
+<lb/>
+πασαν τε την χωραν
+<lb/>
+της ιουδαιας και τοις
+<lb/>
+εθνεσιν απαγγελλω μετα
+<lb break="no" />
+νοειν και επιστρεφειν επι
+<lb/>
+τον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> αξια της μετα
+<lb break="no" />
+νοιας εργα πρασσοντας
+<lb/>
+</ab></div></div>
+<pb n="46v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+πορευθεντα επι
+<lb break="no" />
+μελειας τυχειν
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V4">κακειθεν ανα
+<lb break="no" />
+χθεντες υπεπλευ
+<lb break="no" />
+σαμεν την κυπρον,
+<lb/>
+δια το τους ανε
+<lb break="no" />
+μους ειναι εναν
+<lb break="no" />
+τιους</ab> <ab n="B05K27V5">το τε πελα
+<lb break="no" />
+γος το κατα την
+<lb/>
+κιλικιαν και παμ
+<lb break="no" />
+φυλιαν διαπλευ
+<lb break="no" />
+σαντες· κατηλθο
+<lb break="no" />
+μεν εις μυρα της
+<lb/>
+λυκιας</ab> <ab n="B05K27V6">κακει
+<lb/>
+ευρων ο εκατον
+<lb break="no" />
+ταρχος· πλοιον
+<lb/>
+αλεξανδρινον·
+<lb/>
+πλεον εις την
+<lb/>
+ιταλιαν· ενεβι
+<lb break="no" />
+βασεν ημας εις
+<lb/>
+αυτο</ab> <ab n="B05K27V7">εν ικαναις
+<lb/>
+δε ημεραις· βρα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+δυπλοουντες· και
+<lb/>
+μολις γενομενοι
+<lb/>
+κατα την κνιδον·
+<lb/>
+μη προσεωντος
+<lb/>
+ημας του ανεμου
+<lb/>
+υπεπλευσαμεν
+<lb/>
+την κρητην κα
+<lb break="no" />
+τα σαλμωνην</ab> <ab n="B05K27V8">μο
+<lb break="no" />
+λις τε παραλεγομε
+<lb break="no" />
+νοι αυτην· ηλθομεν
+<lb/>
+εις τοπον τινα
+<lb/>
+καλουμενον καλους
+<lb/>
+λιμενας ω εγγυς
+<lb/>
+ην· πολις λασαια
+<lb/>
+</ab> <ab n="B05K27V9">ικανου δε χρονου
+<lb/>
+διαγενομενου· και
+<lb/>
+οντος ηδη· επισφα
+<lb break="no" />
+λους του πλοος·
+<lb/>
+δια το την νηστειαν
+<lb/>
+ηδη παρεληλυθε
+<lb break="no" />
+ναι, παρηνει ο παυ
+<lb break="no" />
+λος</ab> <ab n="B05K27V10">λεγων αυτοις
+<lb/>
+</ab></div></div>
+<pb n="47r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ανδρες· θεωρω οτι
+<lb/>
+μετα υβρεως και πολ
+<lb break="no" />
+λης ζημιας· ου μο
+<lb break="no" />
+νον του φορτιου και
+<lb/>
+του πλοιου, αλλα και
+<lb/>
+των ψυχων ημων
+<lb/>
+μελλειν εσεσθε τον
+<lb/>
+πλουν <div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V11">ο δε εκα
+<lb break="no" />
+τονταρχης· τω κυ
+<lb break="no" />
+βερνητη και τω
+<lb/>
+ναυκληρω· επει
+<lb break="no" />
+θετο μαλλον, η τοις
+<lb/>
+υπο του παυλου
+<lb/>
+λεγομενοις</ab> <ab n="B05K27V12">ανευ
+<lb break="no" />
+θετου δε του λιμε
+<lb break="no" />
+νος υπαρχοντος
+<lb/>
+προς παραχει
+<lb break="no" />
+μασιαν· οι πλειους
+<lb/>
+εθεντο βουλην, α
+<lb break="no" />
+ναχθηναι κακει
+<lb break="no" />
+θεν ει πως δυ
+<lb break="no" />
+ναιντο καταντη
+<lb break="no" />
+<cb n="2" />
+<lb/>
+σαντες εις φοινικα
+<lb/>
+παραχειμασαι·
+<lb/>
+λιμενα της κρητης·
+<lb/>
+βλεποντα κατα
+<lb/>
+λιβα και κατα χω
+<lb break="no" />
+ραν</ab> <ab n="B05K27V13">υποπνευσαν
+<lb break="no" />
+τος δε νοτου· δοξαν
+<lb break="no" />
+τες της προθεσεως
+<lb/>
+κεκρατηκεναι, αρον
+<lb break="no" />
+τες ασσον· παρελε
+<lb break="no" />
+γοντο την κρητην
+<lb/>
+</ab> <ab n="B05K27V14">μετ ου πολυ δε· εβα
+<lb break="no" />
+λε κατ αυτης· ανε
+<lb break="no" />
+μος τυφωνικος, ο κα
+<lb break="no" />
+λουμενος ευροκλυ
+<lb break="no" />
+δων</ab> <ab n="B05K27V15">συναρπασθεν
+<lb break="no" />
+τος δε του πλοιου·
+<lb/>
+και μη δυναμενου
+<lb/>
+αντοφθαλμειν τω
+<lb/>
+ανεμω· επιδοντες
+<lb/>
+εφερομεθα</ab> <ab n="B05K27V16">νησι
+<lb break="no" />
+ον δε τι υποδραμοντες·
+<lb/>
+</ab></div></div>
+<pb n="47v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+καλουμενον κλαυ
+<lb break="no" />
+διν, μολις ισχυσα
+<lb break="no" />
+μεν περικρατεις
+<lb/>
+γενεσθαι της σκα
+<lb break="no" />
+φης <div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V17">ην αραντες·
+<lb/>
+βοηθειαις εχρωντο,
+<lb/>
+υποζωννυντες το
+<lb/>
+πλοιον φοβουμε
+<lb break="no" />
+νοι τε· μη εις την
+<lb/>
+συρτην εκπεσωσι
+<lb/>
+χαλασαντες το σκευ
+<lb break="no" />
+ος ουτως εφεροντο
+<lb/>
+</ab> <ab n="B05K27V18">σφοδρως δε χειμα
+<lb break="no" />
+ζομενων ημων·
+<lb/>
+τη εξης, εκβολην
+<lb/>
+εποιουντο</ab> <ab n="B05K27V19">και τη
+<lb/>
+τριτη, αυτοχηρες
+<lb/>
+την σκευην του πλοι
+<lb break="no" />
+ου ερριψαμεν</ab> <ab n="B05K27V20">μη
+<lb break="no" />
+τε δε ηλιου· μητε
+<lb/>
+αστρων επιφαινον
+<lb break="no" />
+των· επι πλειονας
+<lb/>
+<cb n="2" />
+<lb/>
+ημερας· χειμωνος
+<lb/>
+τε ουκ ολιγου επι
+<lb break="no" />
+κειμενου· λοιπον,
+<lb/>
+περιηρειτο πασα
+<lb/>
+ελπις· του σωζε
+<lb break="no" />
+σθαι αυτους</ab> <ab n="B05K27V21">πολ
+<lb break="no" />
+λης δε ασιτιας υ
+<lb break="no" />
+παρχουσης· τοτε
+<lb/>
+σταθεις ο παυλος
+<lb/>
+εν μεσω αυτων ειπεν
+<lb/>
+εδει μεν ω ανδρες·
+<lb/>
+πειθαρχησαντας
+<lb/>
+μοι· μη αναγεσθαι α
+<lb break="no" />
+πο της κρητης
+<lb/>
+κερδησαι τε την
+<lb/>
+υβριν ταυτην και
+<lb/>
+την ζημιαν</ab> <ab n="B05K27V22">και
+<lb/>
+τα νυν, παραινω
+<lb/>
+υμας ευθυμειν απο
+<lb break="no" />
+βολη γαρ, ψυχης· ου
+<lb break="no" />
+δεμια εσται εξ υμων,
+<lb/>
+πλην του πλοιου
+<lb/>
+</ab></div></div>
+<pb n="48r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V23">παρεστη γαρ μοι ταυ
+<lb break="no" />
+τη τη νυκτι· αγγελος
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr>· ου ειμι· ω
+<lb/>
+και λατρευω</ab> <ab n="B05K27V24">λεγων
+<lb/>
+μη φοβου παυλε
+<lb/>
+καισαρι σε δει πα
+<lb break="no" />
+ραστηναι και ιδου
+<lb/>
+κεχαρισται σοι ο <abbr type="nomSac"><hi rend="overline">θς</hi></abbr>
+<lb/>
+παντας τους πλε
+<lb break="no" />
+οντας μετα σου</ab> <ab n="B05K27V25">διο,
+<lb/>
+ευθυμειτε ανδρες,
+<lb/>
+πιστευω γαρ τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>,
+<lb/>
+οτι ουτως εσται κα
+<lb break="no" />
+θ ον τροπον λελα
+<lb break="no" />
+λητε μοι</ab> <ab n="B05K27V26">εις νησον
+<lb/>
+δε τινα, δει ημας
+<lb/>
+εκπεσειν</ab> <ab n="B05K27V27">ως δε
+<lb/>
+τεσσαρεσκαιδεκα
+<lb break="no" />
+τη νυξ εγενετο· διαφε
+<lb break="no" />
+ρομενων ημων εν
+<lb/>
+τω αδρια· κατα με
+<lb break="no" />
+σον της νυκτος, υ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+πενοουν οι ναυται
+<lb/>
+προσαγειν τινα
+<lb/>
+αυτοις χωραν</ab> <ab n="B05K27V28">και
+<lb/>
+βολησαντες, ευρον
+<lb/>
+οργυας εικοσι βρα
+<lb break="no" />
+χυ δε διαστησαντες·
+<lb/>
+και παλιν βολισαν
+<lb break="no" />
+τες· ευρον οργυας
+<lb/>
+δεκαπεντε</ab> <ab n="B05K27V29">φο
+<lb break="no" />
+βουμενοι τε· μηπως
+<lb/>
+εις τραχεις τοπους
+<lb/>
+εκπεσωμεν εκ
+<lb/>
+πρυμνης ριψαν
+<lb break="no" />
+τες αγκυρας τεσσα
+<lb break="no" />
+ρας. ευχοντο ημε
+<lb break="no" />
+ραν γενεσθαι</ab> <ab n="B05K27V30">των
+<lb/>
+δε ναυτων· ζητουν
+<lb break="no" />
+των φυγειν εκ του πλοι
+<lb break="no" />
+ου· και χαλασαν
+<lb break="no" />
+των την σκαφην εις
+<lb/>
+την θαλασσαν·
+<lb/>
+προφασει ως εκ πρω
+<lb break="no" />
+</ab></div></div>
+<pb n="48v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ρας· μελλοντων
+<lb/>
+αγκυρας εκτεινειν,
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V31">ειπεν ο παυλος
+<lb/>
+τω εκατονταρχη
+<lb/>
+και τοις στρατιω
+<lb break="no" />
+ταις εαν μη ουτοι
+<lb/>
+μεινωσιν εν τω
+<lb/>
+πλοιω· υμεις σω
+<lb break="no" />
+θηναι ου δυνασθε
+<lb/>
+</ab> <ab n="B05K27V32">τοτε οι στρατιωται·
+<lb/>
+απεκοψαν τα σχοι
+<lb break="no" />
+νια της σκαφης,
+<lb/>
+και ειασαν αυτην
+<lb/>
+εκπεσειν</ab> <ab n="B05K27V33">αχρι
+<lb/>
+δε· ου ημελλεν η
+<lb break="no" />
+μερα γινεσθαι· πα
+<lb break="no" />
+ρεκαλει ο παυλος
+<lb/>
+απαντας· μετα
+<lb break="no" />
+λαβειν τροφης
+<lb/>
+λεγων· τεσσαρεσ
+<lb break="no" />
+καιδεκατην σημε
+<lb break="no" />
+ρον ημεραν προσ
+<lb break="no" />
+<cb n="2" />
+<lb/>
+δοκωντες ασιτοι
+<lb/>
+διατελειτε μηδεν
+<lb/>
+προσλαβομενοι
+<lb/>
+</ab> <ab n="B05K27V34">διο· παρακαλω υ
+<lb break="no" />
+μας, προσλαβειν
+<lb/>
+τροφης τουτο γαρ
+<lb/>
+προς της υμετε
+<lb break="no" />
+ρας <abbr type="nomSac"><hi rend="overline">σριας</hi></abbr> υπαρχει
+<lb/>
+ουδενος γαρ υμων
+<lb/>
+θριξ· εκ της κεφα
+<lb break="no" />
+λης πεσειται</ab> <ab n="B05K27V35">ει
+<lb break="no" />
+πων δε ταυτα· και
+<lb/>
+λαβων αρτον· ευ
+<lb break="no" />
+χαριστησε τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>,
+<lb/>
+ενωπιον παντων
+<lb/>
+και κλασας, ηρξα
+<lb break="no" />
+το εσθιειν</ab> <ab n="B05K27V36">ευθυμοι
+<lb/>
+δε γενομενοι παν
+<lb break="no" />
+τες· και αυτοι προ
+<lb break="no" />
+σελαβοντο τροφης
+<lb/>
+</ab> <ab n="B05K27V37">ημεν δε εν τω πλοι
+<lb break="no" />
+ω αι πασαι ψυχαι.
+<lb/>
+</ab></div></div>
+<pb n="49r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+διακοσιαι εβδομη
+<lb break="no" />
+κοντα εξ <div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V38">κορεσθεν
+<lb break="no" />
+τες δε τροφης· εκου
+<lb break="no" />
+φιζον το πλοιον,
+<lb/>
+εκβαλλομενοι τον
+<lb/>
+σιτον εις την θα
+<lb break="no" />
+λασσαν</ab> <ab n="B05K27V39">οτε δε ημε
+<lb break="no" />
+ρα εγενετο· την γην
+<lb/>
+ουκ επεγινωσκον
+<lb/>
+κολπον δε τινα κα
+<lb break="no" />
+τενοουν· εχοντα αι
+<lb break="no" />
+γιαλον, εις ον εβου
+<lb break="no" />
+λευσαντο· ει δυνα
+<lb break="no" />
+τον εξωσαι το πλοι
+<lb break="no" />
+ον</ab> <ab n="B05K27V40">και τας αγκυρας
+<lb/>
+περιελοντες· ειων
+<lb/>
+εις την θαλασσαν,
+<lb/>
+αμα ανεντες τας
+<lb/>
+ζευκτηριας των
+<lb/>
+πηδαλιων και ε
+<lb break="no" />
+παραντες τον αρτε
+<lb break="no" />
+μωνα· τη πνεουση.
+<lb/>
+<cb n="2" />
+<lb/>
+κατηγον εις τον αιγι
+<lb break="no" />
+αλον</ab> <ab n="B05K27V41">περιπεσον
+<lb break="no" />
+τες δε· εις τοπον δι
+<lb break="no" />
+θαλασσον· επωκει
+<lb break="no" />
+λαν την ναυν και
+<lb/>
+η μεν πρωρα ερει
+<lb break="no" />
+σασα· εμυνεν α
+<lb break="no" />
+σαλευτος η δε πρυ
+<lb break="no" />
+μνα, ελυετο υπο της
+<lb/>
+βιας των κυματων
+<lb/>
+</ab> <ab n="B05K27V42">των δε στρατιωτων
+<lb/>
+βουλη εγενετο, ινα
+<lb/>
+τους δεσμωτας α
+<lb break="no" />
+ποκτεινωσι μη τις
+<lb/>
+εκκολυμβησας δια
+<lb break="no" />
+φυγει</ab> <ab n="B05K27V43">ο δε εκατον
+<lb break="no" />
+ταρχος βουλομε
+<lb break="no" />
+νος διασωσαι τον
+<lb/>
+παυλον· εκωλυσεν
+<lb/>
+αυτους του βουλημα
+<lb break="no" />
+τος εκελευσε τε
+<lb/>
+τους δυναμενους
+<lb/>
+</ab></div></div>
+<pb n="49v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+κολυμβαν, απορ
+<lb break="no" />
+ριψαντας πρω
+<lb break="no" />
+τους· επι την γην
+<lb/>
+εξιεναι <div type="book" n="B05"><div type="chapter" n="B05K27"><ab n="B05K27V44">και τους
+<lb/>
+λοιπους· ους μεν
+<lb/>
+επι σανισιν· ους
+<lb/>
+δε επι τινων των
+<lb/>
+επι του πλοιου και
+<lb/>
+ουτως εγενετο παν
+<lb break="no" />
+τας· διασωθηναι
+<lb/>
+επι την γην <note type="transcriber">ueberschneidung  von 28,1 in F 47a</note></ab></div><div type="chapter" n="B05K28"> <ab n="B05K28V1"><app><rdg type="corr" hand="L1">και</rdg><rdg type="corr" hand="L2"><note type="transcriber">PRAXEWN</note>εν ταις ημεραις εκει(ναις)</rdg></app>
+<lb/>
+διασωθεντες <app><rdg type="corr" hand="L1">OM</rdg><rdg type="corr" hand="L2">οι
+<lb/>
+περι τον παυλον
+<lb/>
+εκ του πλοος·</rdg></app> το
+<lb break="no" />
+τε επεγνωσαν οτι
+<lb/>
+μελιτη η νησος κα
+<lb break="no" />
+<cb n="2" />
+<lb/>
+λειται</ab> <ab n="B05K28V2">οι δε βαρ
+<lb break="no" />
+βαροι· παρειχον,
+<lb/>
+ου την τυχουσαν
+<lb/>
+φιλανθρωπιαν η
+<lb break="no" />
+μιν αναψαντες
+<lb/>
+γαρ πυραν· προ
+<lb break="no" />
+σελαβοντο παντας
+<lb/>
+υμας, δια τον υετον
+<lb/>
+τον εφεστωτα και
+<lb/>
+δια το ψυχος</ab> <ab n="B05K28V3">συστρε
+<lb break="no" />
+ψαντος δε του παυ
+<lb break="no" />
+λου· φρυγανων πλη
+<lb break="no" />
+θος· και επιθεν
+<lb break="no" />
+τος επι την πυ
+<lb break="no" />
+ραν· εχιδνα εκ
+<lb/>
+της θερμης διεξελ
+<lb break="no" />
+θουσα, καθηψε
+<lb/>
+της χειρος αυτου
+<lb/>
+</ab> <ab n="B05K28V4">ως δε ειδον οι βαρ
+<lb break="no" />
+βαροι κρεμαμε
+<lb break="no" />
+νον το θηριον εκ της
+<lb/>
+χειρος αυτου· ελεγον
+<lb/>
+</ab></div></div>
+<pb n="50r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+προς αλληλους
+<lb/>
+παντως φονευς
+<lb/>
+εστιν ο <abbr type="nomSac"><hi rend="overline">ανος</hi></abbr> ουτος
+<lb/>
+ον διασωθεντα
+<lb/>
+εκ της θαλασσης·
+<lb/>
+η δικη ζην ουκ ει
+<lb break="no" />
+ασεν <div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V5">ο μεν ουν α
+<lb break="no" />
+ποτιναξας το θη
+<lb break="no" />
+ριον εις το πυρ· επα
+<lb break="no" />
+θεν ουδεν κακον
+<lb/>
+</ab> <ab n="B05K28V6">οι δε προσεδοκων
+<lb/>
+αυτον· μελλειν πιμ
+<lb break="no" />
+πρασθαι, η κατα
+<lb break="no" />
+πιπτειν αφνω νε
+<lb break="no" />
+κρον επι πολυ
+<lb/>
+δε αυτων προσδο
+<lb break="no" />
+κωντων· και θε
+<lb break="no" />
+ωρουντων μηδεν
+<lb/>
+ατοπον· εις αυ
+<lb break="no" />
+τον γενομενον·
+<lb/>
+μεταβαλλομενοι
+<lb/>
+ελεγον <abbr type="nomSac"><hi rend="overline">θν</hi></abbr> αυτον ει
+<lb break="no" />
+<cb n="2" />
+<lb/>
+ναι</ab> <ab n="B05K28V7">εν δε τοις πε
+<lb break="no" />
+ρι τον τοπον εκει
+<lb break="no" />
+νον· υπηρχε χω
+<lb break="no" />
+ρια· τω πρωτω της
+<lb/>
+νησου, ονοματι πο
+<lb break="no" />
+πλιω ος αναδεξα
+<lb break="no" />
+μενος ημας· τρεις
+<lb/>
+ημερας· φιλοφρο
+<lb break="no" />
+νως εξενισεν</ab> <ab n="B05K28V8">εγε
+<lb break="no" />
+νετο δε τον <abbr type="nomSac"><hi rend="overline">πρα</hi></abbr> του
+<lb/>
+ποπλιου, πυρε
+<lb break="no" />
+τοις και δυσεντε
+<lb break="no" />
+ρια συνεχομενον
+<lb/>
+κατακεισθαι
+<lb/>
+προς ον ο παυλος·
+<lb/>
+εισελθων και προ
+<lb break="no" />
+σευξαμενος· επι
+<lb break="no" />
+θεις τας χειρας αυ
+<lb break="no" />
+τω ιασατο αυτον
+<lb/>
+</ab> <ab n="B05K28V9">τουτου ουν γενομε
+<lb break="no" />
+νου και οι λυποι
+<lb/>
+οι εχοντες ασθενειας
+<lb/>
+</ab></div></div>
+<pb n="50v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+εν τη νησω, προ
+<lb break="no" />
+σηρχοντο και ε
+<lb break="no" />
+θεραπευοντο
+<lb/>
+<div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V10">και πολλαις τιμαις·
+<lb/>
+ετιμησαν ημας
+<lb/>
+και αναγομενοις,
+<lb/>
+επεθεντο τα προς
+<lb/>
+την χρειαν</ab> <ab n="B05K28V11">με
+<lb break="no" />
+τα δε τρεις μηνας·
+<lb/>
+ανηχθημεν εν πλοι
+<lb break="no" />
+ω παρακεχειμα
+<lb break="no" />
+κοτι εν τη νησω·
+<lb/>
+αλεξανδρινω, πα
+<lb break="no" />
+ρασιμω διοσκου
+<lb break="no" />
+ροις</ab> <ab n="B05K28V12">και καταχθεν
+<lb break="no" />
+τες εις συρακουσας·
+<lb/>
+επεμειναμεν ημε
+<lb break="no" />
+ρας τρεις</ab> <ab n="B05K28V13">οθεν πε
+<lb break="no" />
+ριελθοντες, κατην
+<lb break="no" />
+τισαμεν εις ρηγειον
+<lb/>
+και μετα μιαν ημε
+<lb break="no" />
+ραν· επιγενομενου
+<lb/>
+<cb n="2" />
+<lb/>
+νοτου· δευτεραιοι
+<lb/>
+ηλθομεν εις ποτι
+<lb break="no" />
+ολους</ab> <ab n="B05K28V14">ου ευροντες
+<lb/>
+αδελφους· παρε
+<lb break="no" />
+κληθημεν αυτοις·
+<lb/>
+επιμειναι ημερας
+<lb/>
+επτα, και ουτως εις
+<lb/>
+την ρωμην ηλθο
+<lb break="no" />
+μεν</ab> <ab n="B05K28V15">κακειθεν οι
+<lb/>
+αδελφοι ακουσαν
+<lb break="no" />
+τες τα περι ημων.
+<lb/>
+εξηλθον εις απαν
+<lb break="no" />
+τησιν ημων, αχρις
+<lb/>
+αππιου φορου· και
+<lb/>
+τριων ταβερνων
+<lb/>
+ους ιδων ο παυλος·
+<lb/>
+ευχαριστησας τω <abbr type="nomSac"><hi rend="overline">θω</hi></abbr>,
+<lb/>
+ελαβε θαρσος</ab> <ab n="B05K28V16">ο
+<lb break="no" />
+τε δε ηλθομεν εις
+<lb/>
+ρωμην· ο εκατον
+<lb break="no" />
+ταρχος, παρεδω
+<lb break="no" />
+κε τους δεσμιους,
+<lb/>
+</ab></div></div>
+<pb n="51r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+τω στρατοπεδαρ
+<lb break="no" />
+χη τω δε παυλω·
+<lb/>
+επετραπη· μενην
+<lb/>
+καθ εαυτον στρατι
+<lb break="no" />
+ωτη <div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V17">εγενετο δε μετα
+<lb/>
+ημερας τρεις, συγ
+<lb break="no" />
+καλεσασθαι τον
+<lb/>
+παυλον· τους οντας
+<lb/>
+των ιουδαιων πρω
+<lb break="no" />
+τους συνελθοντων
+<lb/>
+δε αυτων· ελεγε προς
+<lb/>
+αυτους ανδρες α
+<lb break="no" />
+δελφοι, εγω ουδεν
+<lb/>
+εναντιον ποιησας
+<lb/>
+τω λαω· η τοις εθε
+<lb break="no" />
+σι τοις πατρωοις
+<lb/>
+δεσμιος εξ ιεροσο
+<lb break="no" />
+λυμων παρεδω
+<lb break="no" />
+θην, εις τας χειρας
+<lb/>
+των ρωμαιων</ab> <ab n="B05K28V18">οι
+<lb break="no" />
+τινες ανακριναν
+<lb break="no" />
+τες με εβουλοντο
+<lb/>
+<cb n="2" />
+<lb/>
+απολυσαι· δια το
+<lb/>
+μηδεμιαν αιτιαν
+<lb/>
+θανατου· υπαρ
+<lb break="no" />
+χειν εν εμοι</ab> <ab n="B05K28V19">αντι
+<lb break="no" />
+λεγοντων δε των
+<lb/>
+ιουδαιων· ηναγκα
+<lb break="no" />
+σθην επικαλεσα
+<lb break="no" />
+σθαι καισαρα, ου
+<lb break="no" />
+χ ως του εθνους μου
+<lb/>
+εχων τι κατηγορησαι
+<lb/>
+</ab> <ab n="B05K28V20">δια ταυτην ουν την
+<lb/>
+αιτιαν· παρεκα
+<lb break="no" />
+λεσα υμας, ιδειν
+<lb/>
+και προσλαλησαι
+<lb/>
+ενεκεν γαρ της ελ
+<lb break="no" />
+πιδος του <abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr>· την
+<lb/>
+αλυσιν ταυτην πε
+<lb break="no" />
+ρικειμαι</ab> <ab n="B05K28V21">οι δε προς
+<lb/>
+αυτον ειπον ημεις·
+<lb/>
+ουτε γραμματα πε
+<lb break="no" />
+ρι σου εδεξαμεθα
+<lb/>
+απο της ιουδαιας.
+<lb/>
+</ab></div></div>
+<pb n="51v" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+ουτε παραγενομενος
+<lb/>
+τις των αδελφων
+<lb/>
+απηγγειλεν η ελα
+<lb break="no" />
+λησε τι περι σου πο
+<lb break="no" />
+νηρον <div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V22">αξιουμεν
+<lb/>
+δε παρα σου ακου
+<lb break="no" />
+σαι, α φρονεις πε
+<lb break="no" />
+ρι μεν γαρ της αιρε
+<lb break="no" />
+σεως ταυτης· γνω
+<lb break="no" />
+στον εστιν υμιν, οτι παν
+<lb break="no" />
+ταχου αντιλεγεται
+<lb/>
+</ab> <ab n="B05K28V23">ταξαμενοι δε αυτω
+<lb/>
+ημεραν· ηκον προς
+<lb/>
+αυτον εις την ξενιαν
+<lb/>
+πλειονες οις εξετι
+<lb break="no" />
+θετο· διαμαρτυρο
+<lb break="no" />
+μενος την βασιλει
+<lb break="no" />
+αν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> πειθων
+<lb/>
+τε αυτους τα περι
+<lb/>
+του <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr>· απο τε του νο
+<lb break="no" />
+μου μωσεως· και των
+<lb/>
+προφητων, απο
+<lb/>
+<cb n="2" />
+<lb/>
+πρωι εως εσπερας
+<lb/>
+</ab> <ab n="B05K28V24">και οι μεν· επειθον
+<lb break="no" />
+το τοις λεγομενοις
+<lb/>
+οι δε ηπιστουν</ab> <ab n="B05K28V25">ασυμ
+<lb break="no" />
+φωνοι δε οντες προς
+<lb/>
+αλληλους· απελυον
+<lb break="no" />
+το, ειποντος του παυ
+<lb break="no" />
+λου ρημα εν· οτι κα
+<lb break="no" />
+λως το <abbr type="nomSac"><hi rend="overline">πνα</hi></abbr> το αγιον
+<lb/>
+ελαλησε· δια ησα
+<lb break="no" />
+ιου του προφητου·
+<lb/>
+προς τους <abbr type="nomSac"><hi rend="overline">πρας</hi></abbr> η
+<lb break="no" />
+μων</ab> <ab n="B05K28V26">λεγων πορευθη
+<lb break="no" />
+τι προς τον λαον του
+<lb break="no" />
+τον και ειπον, ακο
+<lb break="no" />
+η ακουσετε· και ου μη
+<lb/>
+συνητε και βλεπον
+<lb break="no" />
+τες βλεψετε, και ου μη
+<lb/>
+ιδητε</ab> <ab n="B05K28V27">επαχυνθη
+<lb/>
+γαρ η καρδια· του λα
+<lb break="no" />
+ου τουτου, και τοις
+<lb/>
+ωσι βαρεως ηκουσαν
+<lb/>
+</ab></div></div>
+<pb n="52r" type="folio"/>
+<lb/>
+<cb n="1" />
+<lb/>
+και τους οφθαλμους
+<lb/>
+αυτων εκαμμυσαν
+<lb/>
+μηποτε ιδωσι τοις
+<lb/>
+οφθαλμοις· και
+<lb/>
+τοις ωσιν ακουσω
+<lb break="no" />
+σι· και τη καρδια
+<lb/>
+συνωσι και επιστρε
+<lb break="no" />
+ψωσι και ιασομαι
+<lb/>
+αυτους <div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V28">γνωστον
+<lb/>
+ουν εστω υμιν, οτι
+<lb/>
+τοις εθνεσιν απε
+<lb break="no" />
+σταλη το <abbr type="nomSac"><hi rend="overline">σριον</hi></abbr> του
+<lb/>
+<abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> αυτοι και ακου
+<lb break="no" />
+σονται</ab> <ab n="B05K28V29">και ταυτα
+<lb/>
+αυτου ειποντος α
+<lb break="no" />
+πηλθον οι ιουδαι
+<lb break="no" />
+οι, πολλην εχοντες
+<lb/>
+εν εαυτοις συζητη
+<lb break="no" />
+σιν</ab> <ab n="B05K28V30">εμεινε δε ο παυ
+<lb break="no" />
+λος διαιτιαν ολην·
+<lb/>
+εν ιδιω μισθωματι,
+<lb/>
+και απεδεχετο παν
+<lb break="no" />
+<cb n="2" />
+<lb/>
+τας· τους εισπορευ
+<lb break="no" />
+ομενους προς αυτον·
+<lb/>
+</ab> <ab n="B05K28V31">κηρυσσον την βα
+<lb break="no" />
+σιλειαν του <abbr type="nomSac"><hi rend="overline">θυ</hi></abbr> και
+<lb/>
+διδασκων τα πε
+<lb break="no" />
+ρι του <abbr type="nomSac"><hi rend="overline">κυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr> <abbr type="nomSac"><hi rend="overline">χυ</hi></abbr>· με
+<lb break="no" />
+τα πασης· παρρη
+<lb break="no" />
+σιας ακολυτως
+
+
+
+</ab></div></div></body></text></TEI>

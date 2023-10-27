@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="2049">2049</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Greece</country>
+            <settlement>Athens</settlement>
+            <repository>Hellenic Parliament Library</repository>
+            <idno>45, fol. 232-254</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="30" type="page"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K1"><ab n="B27K1V1"><w><hi rend="cap" height="1.5">α</hi>ποκαλυψις</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>ην</w> <w>εδωκεν</w> <w>αυτω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>δει<lb break="no"/>ξαι</w> <w>τοις</w> <w><unclear reason="damage to page">δουλοις</unclear></w> <w>αυτου</w> <w>α</w> <w>δει</w> <w>γενεσθαι</w> <w>εν</w> <w>ταχει</w> <w>και</w> <w>εσημανεν</w> <w>αποστ</w> <w>ειλας</w><lb rend="hang"/><w>δια</w> <app><rdg type="orig" hand="firsthand"><w>του</w> <w>αγγελου</w> <w>αυτου</w></rdg><rdg type="corr" hand="corrector"><w>τον</w> <w>αγγελον</w> <w>αυτον</w></rdg></app> <w>τω</w> <w>δουλω</w> <w>αυτου</w> <w>ιωαννη</w></ab> <ab n="B27K1V2"><w>ος</w> <w>εμαρτυρησεν</w> <w>τον</w> <w>λογον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>και</w> <w>την</w> <w>μαρτυριαν</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>οσα</w> <w>ειδεν</w></ab> <ab n="B27K1V3"><w>μακαριος</w> <w>ο</w> <w>αναγινωσκων</w> <w>και</w> <w>οι</w> <w>ακουοντες</w> <w>τους</w> <w>λογ</w><lb/><w><hi rend="cap" height="4">ο</hi>υς</w> <w>της</w> <w>προφητειας</w> <w>και</w> <w>τηρουντες</w> <w>τα</w> <w>εν</w> <w>αυτη</w> <w>γεγραμμενα</w> <w>ο</w> <w>γαρ</w> <w>καιρος</w> <w>εγγυς</w></ab> <ab n="B27K1V4"><w>ιως</w> <w>ταις</w> <w>επτα</w> <w>εκκλησιαις</w> <w>ταις</w> <w>εν</w> <w>τη</w> <w>ασια</w> <w>χαρις</w> <w>υμιν</w> <w>και</w> <w>ειρηνη</w> <w>απο</w> <w>ο</w> <w>ων</w> <w>και</w> <w>ο</w> <w>ην</w> <w>και</w> <w>ο</w> <w>ερχομενος</w> <w>και</w> <w>απο</w> <w>των</w> <w>επτα</w> <w>πνευματων</w> <w>α</w> <w>ενωπιον</w> <w>του</w> <w>θρονου</w> <w>αυτο</w><cb n="2"/><lb/><note type="lectionary-other">One line of untranscribed lectionary text</note><lb/><note type="lectionary-other">One line of untranscribed lectionary text</note><lb/><note type="lectionary-other">One line of untranscribed lectionary text</note><lb/><note type="lectionary-other">One line of untranscribed lectionary text</note><lb/><note type="lectionary-other">One line of untranscribed lectionary text</note></ab></div></div></body></text></TEI>

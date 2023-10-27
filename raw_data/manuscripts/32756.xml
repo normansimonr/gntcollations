@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="2756">2756</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Münster</settlement>
+            <repository>Bibelmuseum</repository>
+            <idno>Ms. 10</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="140" type="page"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K1"><ab n="B01K1V1"><w>βιβλος</w> <w>γενεσεως</w> <w><abbr type="nomSac">ιυ</abbr></w> <w><abbr type="nomSac">χυ</abbr></w> <w>υιου</w> <w><abbr type="nomSac">δαδ</abbr></w> <w>υιου</w> <w>αβρααμ</w></ab> <ab n="B01K1V2"><w>αβρααμ</w> <w>εγεννησεν</w> <w>τον</w> <w>ισαακ</w> <w>ισαακ</w> <w>δε</w> <w>εγεννησεν</w> <w>τον</w> <w>ιακωβ</w> <w>ιακωβ</w> <w>δε</w> <w>εγεννησεν</w> <w>τον</w> <w>ιουδαν</w> <w>και</w> <w>τους</w> <w>αδελφους</w> <w>αυτου</w></ab> <ab n="B01K1V3"><w>ιουδας</w> <w>δε</w> <w>εγεννησεν</w> <w>τον</w> <w>φαρες</w> <w>και</w> <w>τον</w> <w>ζαρα</w> <w>εκ</w> <w>της</w> <w>θαμαρ</w> <w>φαρες</w> <w>δε</w> <w>εγεννησεν</w> <w>τον</w> <w>εσρωμ</w> <w>εσρωμ</w> <w>δε</w> <w>εγεννησεν</w> <w>τον</w> <w>αραμ</w></ab></div> </div>
+<pb n="154r" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B19"><div type="chapter" n="B19K12"><ab n="B19K12V25" part="F"><w part="F"><unclear>τι</unclear>σ<supplied source="na28" reason="illegible">αμενοι</supplied></w> <w><supplied source="na28" reason="illegible">τον</supplied></w><lb/><w>χρι<supplied source="na28" reason="illegible">ματιζοντα</supplied></w><lb/><w>πο<unclear>λ</unclear><supplied source="na28" reason="illegible">υ</supplied></w> <w><supplied source="na28" reason="illegible">μαλλον</supplied></w> <w><supplied source="na28" reason="illegible">η</supplied><lb break="no"/>μεις</w> <w><supplied source="na28" reason="illegible">οι</supplied></w> <w><supplied source="na28" reason="illegible">τον</supplied></w> <w><supplied source="na28" reason="illegible">απ</supplied></w> <w><supplied source="na28" reason="illegible"><abbr type="nomSac"><hi rend="overline">ουνων</hi></abbr></supplied></w><lb/><w>απ<supplied source="na28" reason="illegible">οστρεφομενοι</supplied></w><lb/></ab> <ab n="B19K12V26"><w>ου</w> <w>η</w> <w>φ<supplied source="na28" reason="illegible">ωνη</supplied></w> <w><supplied source="na28" reason="illegible">την</supplied></w> <w><supplied source="na28" reason="illegible">γην</supplied></w><lb/><w>εσαλ<supplied source="na28" reason="illegible">ευσεν</supplied></w> <w><supplied source="na28" reason="illegible">τοτε</supplied></w> <w><supplied source="na28" reason="illegible">νυν</supplied></w><lb/><w>δε</w> <w>ε<unclear>π</unclear><supplied source="na28" reason="illegible">ηγγελται</supplied></w> <w><supplied source="na28" reason="illegible">λε</supplied><lb break="no"/>γων</w> <w><supplied source="na28" reason="illegible">ετι</supplied></w> <w><supplied source="na28" reason="illegible">απαξ</supplied></w> <w><supplied source="na28" reason="illegible">εγω</supplied></w><lb/><w>σιω</w> <w><supplied source="na28" reason="illegible">ου</supplied></w> <w><supplied source="na28" reason="illegible">μονον</supplied></w> <w><supplied source="na28" reason="illegible">την</supplied></w> <w><supplied source="na28" reason="illegible">γην</supplied></w><lb/><w>αλλα</w> <w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">τον</supplied></w> <w><supplied source="na28" reason="illegible"><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></supplied></w><lb/></ab> <ab n="B19K12V27"><w>το</w> <w>δε</w> <w><supplied source="na28" reason="illegible">ετι</supplied></w> <w><supplied source="na28" reason="illegible">απαξ</supplied></w> <w><supplied source="na28" reason="illegible">δη</supplied><lb break="no"/>λοι</w> <w><unclear>τ</unclear><supplied source="na28" reason="illegible">ην</supplied></w> <w><supplied source="na28" reason="illegible">των</supplied></w> <w><supplied source="na28" reason="illegible">σαλευομε</supplied><lb break="no"/>νων</w> <w><supplied source="na28" reason="illegible">μεταθεσιν</supplied></w><lb/><w>ως</w> <w><unclear>π</unclear><supplied source="na28" reason="illegible">εποιημενων</supplied></w><lb/><w>ινα</w> <w><unclear>μ</unclear><supplied source="na28" reason="illegible">εινη</supplied></w> <w><supplied source="na28" reason="illegible">τα</supplied></w> <w><supplied source="na28" reason="illegible">μη</supplied></w> <w><supplied source="na28" reason="illegible">σα</supplied><lb break="no"/>λευο<supplied source="na28" reason="illegible">μενα</supplied></w></ab></div> <div type="chapter" n="B19K13"><ab n="B19K13V22" part="I"><w><supplied source="na28" reason="illegible">παρα</supplied><lb break="no"/>καλ<unclear>ω</unclear></w> <w><supplied source="na28" reason="illegible">δε</supplied></w> <w><supplied source="na28" reason="illegible">υμας</supplied></w> <w><supplied source="na28" reason="illegible">α</supplied><lb break="no"/>δελφ<supplied source="na28" reason="illegible">οι</supplied></w> <w><supplied source="na28" reason="illegible">ανεχεσθε</supplied></w><lb/><w>του</w><note type="editorial" xml:id="B19K13V22-2756-1">Anfangsbuchstaben der folgenden drei Zeilen in der Bindung lesbar.</note> <w><unclear>λ</unclear><supplied source="na28" reason="illegible">ογου</supplied></w> <w><supplied source="na28" reason="illegible">της</supplied></w> <w><supplied source="na28" reason="illegible">πα</supplied><lb break="no"/>ρακλ<supplied source="na28" reason="illegible">ησεως</supplied></w> <w><supplied source="na28" reason="illegible">και</supplied></w><lb/><w>γαρ</w> <w>δ<supplied source="na28" reason="illegible">ια</supplied></w> <w><supplied source="na28" reason="illegible">βραξεων</supplied></w></ab></div> </div></body></text></TEI>

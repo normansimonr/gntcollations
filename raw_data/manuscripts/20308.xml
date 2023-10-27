@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0308">0308</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Oxford</settlement>
+            <repository>Sackler Library</repository>
+            <idno>P. Oxy. 4500</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="001r" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K11"><ab n="B27K11V15" part="F"><w><gap reason="lacuna" unit="char" extent="2-3"/>η</w> <w>βασιλε<unclear reason="damage to page">ι</unclear><supplied source="na28" reason="lacuna">α</supplied></w> <w><supplied source="na28" reason="lacuna">του</supplied></w> <w><supplied source="na28" reason="lacuna">κοσ</supplied><lb break="no"/><supplied source="na28" reason="lacuna">μ</supplied>ου</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>ημ<supplied source="na28" reason="lacuna">ων</supplied></w> <w><supplied source="na28" reason="lacuna">και</supplied></w><lb/><w><supplied source="na28" reason="lacuna">τ</supplied><unclear reason="damage to page">ο</unclear>υ</w> <w><abbr type="nomSac"><hi rend="overline">χρυ</hi></abbr></w> <w>αυτο<supplied source="na28" reason="lacuna">υ</supplied></w> <w><supplied source="na28" reason="lacuna">και</supplied></w> <w><supplied source="na28" reason="lacuna">βασι</supplied><lb break="no"/><supplied source="na28" reason="lacuna">λ</supplied>ευσει</w> <w>εις</w> <w>το<supplied source="na28" reason="lacuna">υς</supplied></w> <w><supplied source="na28" reason="lacuna">αιω</supplied><lb break="no"/>νας</w> <w>των</w> <w>αι<supplied source="transcriber" reason="lacuna">ωνων</supplied></w> <w><supplied source="transcriber" reason="lacuna">αμην</supplied></w><note type="editorial" xml:id="B27K11V15-0308-1">reconstr. by space consideration;cf. cod. Sinaticus 2344 pc and versions</note><lb/></ab> <ab n="B27K11V16" part="I"><w>και</w> <w>οι</w> <w><abbr type="num"><hi rend="overline">κδ</hi></abbr></w> <w>π<unclear reason="damage to page">ρ</unclear><supplied source="na28" reason="lacuna">εσβυτεροι</supplied></w><lb/><w>ενωπιον</w> <w><supplied source="na28" reason="lacuna">του</supplied></w> <w><supplied source="na28" reason="lacuna"><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></supplied></w> <w><supplied source="na28" reason="lacuna">κα</supplied><lb break="no"/>θημεν<unclear reason="damage to page">ο</unclear><supplied source="na28" reason="lacuna">ι</supplied></w> <w><supplied source="na28" reason="lacuna">επι</supplied></w> <w><supplied source="na28" reason="lacuna">τους</supplied></w> <w><supplied source="na28" reason="lacuna">θρο</supplied><lb break="no"/>νους</w> <w><unclear reason="damage to page">α</unclear><supplied source="na28" reason="lacuna">υτων</supplied></w> <w><supplied source="na28" reason="lacuna">επεσαν</supplied></w><lb/><w>επ<unclear reason="damage to page">ι</unclear></w> <w><supplied source="na28" reason="lacuna">τα</supplied></w> <w><supplied source="na28" reason="lacuna">προσωπα</supplied></w> <w><supplied source="na28" reason="lacuna">αυτων</supplied></w><note type="editorial" xml:id="B27K11V16-0308-1">Possible remains of τ(α), but the shape of the letter is untypical.</note><lb/><w><unclear reason="damage to page">κ</unclear><gap reason="lacuna" unit="char" extent="15-17"/></w></ab></div> </div>
+<pb n="001v" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K11"><ab n="B27K11V17" part="F"><gap reason="lacuna" unit="char" extent="4-5"/> <w><supplied source="na28" reason="lacuna">κα</supplied>ι</w><note type="editorial" xml:id="B27K11V17-0308-1">One might see the rest of an Alpha, but the slope of the stroke is atypical.</note> <w>ο</w> <w>ην</w> <w>και</w> <w><supplied source="na28" reason="lacuna">οτι</supplied></w><lb/><w><supplied source="na28" reason="lacuna">ειληφ</supplied>ας</w> <w>την</w> <w>δυν<supplied source="na28" reason="lacuna">αμιν</supplied></w><lb/><w><supplied source="na28" reason="lacuna">σου</supplied></w> <w><unclear reason="damage to page">τ</unclear>ην</w> <w>μεγα<unclear reason="damage to page">λ</unclear><supplied source="na28" reason="lacuna">ην</supplied></w><lb/><w><supplied source="na28" reason="lacuna">και</supplied></w> <w><supplied source="na28" reason="lacuna">εβα</supplied>σιλευσας</w></ab> <ab n="B27K11V18" part="I"><w>κ<supplied source="na28" reason="lacuna">αι</supplied></w><note type="editorial" xml:id="B27K11V18-0308-1">There are traces of potential Alphas at the beginning and end of this line, but without certitute.</note><lb/><w><supplied source="na28" reason="lacuna">τα</supplied></w> <w><supplied source="na28" reason="lacuna">εθν</supplied><unclear reason="damage to page">η</unclear></w> <w>ωργισθησα<supplied source="na28" reason="lacuna">ν</supplied></w><lb/><w><supplied source="na28" reason="lacuna">και</supplied></w> <w><supplied source="na28" reason="lacuna">ηλθ</supplied><unclear reason="damage to page">ε</unclear>ν</w> <w>η</w> <w>οργη</w> <w>σο<unclear reason="damage to page">υ</unclear></w><lb/><w><supplied source="na28" reason="lacuna">και</supplied></w> <w><supplied source="na28" reason="lacuna">ο</supplied></w> <w><supplied source="na28" reason="lacuna">καιρ</supplied><unclear reason="damage to page">ο</unclear>ς</w> <w>των</w> <w>νε<lb break="no"/><supplied source="na28" reason="lacuna">κρων</supplied></w> <w><supplied source="na28" reason="lacuna">κρι</supplied><unclear reason="damage to page">θ</unclear>ηναι</w> <w>και</w><lb/><w><supplied source="na28" reason="lacuna">δουναι</supplied></w> <w><supplied source="na28" reason="lacuna">τον</supplied></w> <w><supplied source="na28" reason="lacuna">μι</supplied>σθον</w><lb/><w><supplied source="na28" reason="lacuna">τοις</supplied></w> <w><supplied source="na28" reason="lacuna">δουλοις</supplied></w> <w><supplied source="na28" reason="lacuna">σο</supplied>υ</w> <w>και</w><lb/><w><supplied source="na28" reason="lacuna">τοις</supplied></w> <w><supplied source="na28" reason="lacuna">προφηταις</supplied></w> <w><unclear reason="damage to page">κ</unclear>αι</w></ab></div> </div></body></text></TEI>

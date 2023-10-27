@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P9">P9</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>Cambridge, MA</settlement>
+            <repository>Houghton Library, Harvard University</repository>
+            <idno>MS Gr SM3736</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="001r" type="folio"/><cb n="1"/><lb/><div type="book" n="B23"><div type="chapter" n="B23K4"><ab n="B23K4V11" part="F"><w part="F">ουτως</w> <w>ο<abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ταπρισεν</w> <w>η<supplied reason="unspecified">μας</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">ημεις</supplied></w><lb/><w>οφιλομεν</w> <w>αλ<unclear>λη</unclear><supplied reason="unspecified">λους</supplied></w> <w><supplied reason="unspecified">αγαπαν</supplied></w><lb/></ab> <ab n="B23K4V12" part="I"><w>ουδεις</w> <w>ποποτε</w> <w>τ<supplied reason="unspecified">εθεαται</supplied></w><lb/><w>τον</w> <w>ειν</w> <w>εαν</w> <w>αγα<unclear>π</unclear><supplied reason="unspecified">ωμεν</supplied></w> <w><supplied reason="unspecified">αλλη</supplied><lb break="no"/>λους</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>ε</w> <w>ημιν</w> <w><supplied reason="unspecified">μενει</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">η</supplied></w> <w><supplied reason="unspecified">α</supplied><lb break="no"/><supplied reason="unspecified">γαπη</supplied></w> <w><unclear>αυ</unclear>του</w> <w part="I"><unclear>τ</unclear><supplied reason="unspecified">ετελειωμενη</supplied></w></ab></div> </div>
+<pb n="001v" type="folio"/><cb n="1"/><lb/><div type="book" n="B23"><div type="chapter" n="B23K4"><ab n="B23K4V14" part="F"><w><supplied reason="unspecified">απεσταλκεν</supplied></w> <w><supplied reason="unspecified">τ</supplied><unclear>ο</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">υιον</supplied></w> <w><supplied reason="unspecified">σωτη</supplied><lb break="no"/><supplied reason="unspecified">ρα</supplied></w> <w><supplied reason="unspecified">του</supplied></w> <w><supplied reason="unspecified">κοσμ</supplied><unclear>ο</unclear>υ</w></ab> <ab n="B23K4V15"><w><supplied reason="unspecified">ος</supplied></w> <w><supplied reason="unspecified">εαν</supplied></w> <w><supplied reason="unspecified">ομολο</supplied><lb break="no"/><supplied reason="unspecified">γηση</supplied></w> <w><supplied reason="unspecified">οτι</supplied></w> <w><abbr type="nomSac"><hi rend="overline"><supplied source="na28" reason="lacuna">ι</supplied><unclear>ς</unclear></hi></abbr></w> <w><unclear>εσ</unclear>τιν</w> <w><unclear>ο</unclear></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">υ</hi></supplied><unclear><hi rend="overline">ς</hi></unclear></abbr></w> <w>το<unclear>υ</unclear></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θυ</hi></supplied></abbr></w> <w><supplied reason="unspecified">ο</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θς</hi></supplied></abbr></w> <w><supplied reason="unspecified">εν</supplied></w> <w>αυ<unclear>τ</unclear>ω</w> <w>μενει</w> <w>και</w><lb/><w><supplied reason="unspecified">αυτος</supplied></w> <w><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">αυ</supplied><unclear>τ</unclear>ω</w> <w><unclear>ε</unclear>στιν</w></ab> <ab n="B23K4V16"><w>και</w> <w>ημεις</w><lb/><w><supplied reason="unspecified">εγνωκαμε</supplied>ν</w> <w>κ<unclear>α</unclear>ι</w> <w>πεπιστευκα<lb break="no"/><supplied reason="unspecified">μεν</supplied></w> <w><supplied reason="unspecified">την</supplied></w> <w>αγ<unclear>α</unclear>πην</w> <w>ην</w> <w>εχι</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">χρς</hi></abbr></w><lb/><w><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">ημιν</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θ</hi></supplied><unclear><hi rend="overline">ς</hi></unclear></abbr></w> <w>α<unclear>γ</unclear>απη</w> <w>εστιν</w> <w>κα<supplied reason="unspecified">ι</supplied></w><note type="local" xml:id="B23K4V16-P9-1">κα mit Kürzungsstrich für και?</note><lb/><w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">μενων</supplied></w> <w><supplied reason="unspecified">ε</supplied><unclear>ν</unclear></w> <w>τ<unclear>η</unclear></w> <w>αγαπη</w> <w>εν</w> <w>τω</w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θω</hi></supplied></abbr></w> <w><supplied reason="unspecified">μενει</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θ</hi></supplied><hi rend="overline">ς</hi></abbr></w> <w>εν</w> <w>αυτ<unclear>ω</unclear></w> <w><unclear>μ</unclear><supplied source="na28" reason="illegible">ενει</supplied></w><note type="editorial" xml:id="B23K4V16-P9-2">Kürzungsstrich für μενει?</note><lb/></ab> <ab n="B23K4V17" part="I"><w><supplied source="na28" reason="illegible">εν</supplied></w> <w><supplied source="na28" reason="illegible">τουτω</supplied></w> <w><supplied source="na28" reason="illegible">τετελ</supplied><unclear>ει</unclear><supplied source="na28" reason="illegible">ωται</supplied></w> <w><supplied source="na28" reason="illegible">η</supplied></w> <w><supplied source="na28" reason="illegible">αγαπη</supplied></w></ab></div> </div></body></text></TEI>

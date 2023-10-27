@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="024">024</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Wolfenbüttel</settlement>
+            <repository>Herzog August Bibliothek</repository>
+            <idno>Cod. Guelf. 64 Weiss, fol. 90-97. 154-161. 178-185. 226-233. 242-244. 257-259. 272.278f. 298.300f.</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="231r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K1"><ab n="B01K1V11" part="F"><w>αυ<supplied source="na28" reason="lacuna">το</supplied>υ</w> <w><supplied source="na28" reason="illegible">επι</supplied></w><lb/><w>της</w> <w>μετοικε<lb break="no"/>σιας</w> <w>βαβυλωνος</w><pc>·</pc><lb/></ab> <ab n="B01K1V12"><w>μετα</w> <w>δε</w> <w>την</w><lb/><w>μετοικεσιαν</w><lb/><w>βαβυλωνος</w><pc>·</pc><lb/><w>ιεχονιας</w> <w>εγεν<lb break="no"/>νησεν</w> <w>τον</w><lb/><w>σαλαθιηλ</w><lb/><w>σαλαθιηλ</w> <w>δε</w><lb/><w>εγεννησεν</w><lb/><w>τον</w> <w>ζοροβαβελ</w><lb/></ab> <ab n="B01K1V13"><w>ζοροβαβελ</w> <w>δε</w><lb/><w>εγεννησεν</w><lb/><w>τον</w> <w>αβιουδ</w><lb/><w>αβιουδ</w> <w>δε</w> <w>εγεν<lb break="no"/>νησεν</w> <w>τον</w><lb/><w>ελιακειμ</w><lb/><w>ελιακειμ</w> <w>δε</w><lb/><w>εγεννησεν</w><lb/><w>τον</w> <w>αζωρ</w><lb/></ab> <ab n="B01K1V14"><w>αζωρ</w> <w>δε</w> <w>εγεν<lb break="no"/>νησεν</w> <w>τον</w><lb/><w>σαδωκ</w><cb n="2"/><lb/><w>σ<supplied source="na28" reason="lacuna">αδωκ</supplied></w> <w><supplied source="na28" reason="lacuna">δε</supplied></w> <w><supplied source="na28" reason="lacuna">ε</supplied><lb break="no"/>γεννησεν</w><lb/><w>τον</w> <w>αχειμ</w><lb/><w>αχειμ</w> <w>δε</w> <w>εγεν<lb break="no"/>νησεν</w> <w>τον</w><lb/><w>ελιουδ</w><lb/></ab> <ab n="B01K1V15"><w>ελιουδ</w> <w>δε</w> <w>ε<lb break="no"/>γεννησεν</w><lb/><w>τον</w> <w>ελεαζαρ</w><lb/><w>ελεαζαρ</w> <w>δε</w><lb/><w>εγεννησεν</w><lb/><w>τον</w> <w>ματθαν</w><lb/><w>ματθαν</w> <w>δε</w><lb/><w>εγεννησεν</w><lb/><w>τον</w> <w>ιακωβ</w><lb/></ab> <ab n="B01K1V16"><w>ιακωβ</w> <w>δε</w> <w>εγεν<lb break="no"/>νησεν</w> <w>τον</w><lb/><w>ιωσηφ</w> <w>τον</w><lb/><w>ανδρα</w> <w>μαριας</w><lb/><w>εξ</w> <w>ης</w> <w>εγενν<supplied source="na28" reason="lacuna">η</supplied><lb break="no"/>θη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ο</w> <w>λεγο<lb break="no"/>μενος</w> <w><abbr type="nomSac"><hi rend="overline">χς</hi></abbr></w><pc>:</pc><lb/></ab> <ab n="B01K1V17" part="I"><w>πασαι</w> <w>ουν</w> <w>αι</w> <w>γ<supplied source="na28" reason="lacuna">ε</supplied><lb break="no"/>νεαι</w> <w>απο</w> <w part="I">αβρα<lb break="no"/></w></ab></div> </div>
+<pb n="231v" type="folio" break="no"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K1"><ab n="B01K1V17" part="F"><w part="F"><supplied source="na28" reason="lacuna">αμ</supplied></w> <w><supplied source="na28" reason="lacuna">εως</supplied></w> <w><supplied source="na28" reason="lacuna">δαδ</supplied></w><lb/><w>γενεαι</w> <w>δεκα<lb break="no"/>τεσσαρες</w><pc>:</pc><lb/><w>και</w> <w>απο</w> <w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w><lb/><w>εως</w> <w>της</w> <w>με<lb break="no"/>τοικεσιας</w> <w>βα<lb break="no"/>βυλωνος</w> <w>γε<lb break="no"/>νεαι</w> <w>δεκατεσ<lb break="no"/>σαρες</w><pc>:</pc> <w>και</w><lb/><w>απο</w> <w>της</w> <w>μετοι<lb break="no"/>κεσιας</w> <w>βαβυ<lb break="no"/>λωνος</w> <w>εως</w><lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>γενεαι</w><lb/><w>δεκατεσσαρες</w><pc>:</pc><lb/></ab> <ab n="B01K1V18"><w>του</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><lb/><w>η</w> <w>γενεσις</w> <w>ου<lb break="no"/>τως</w> <w>ην</w><pc>·</pc> <w>μνη<lb break="no"/>στευθισης</w><lb/><w>γαρ</w> <w>της</w> <w><abbr type="nomSac"><hi rend="overline">μρς</hi></abbr></w> <w>αυ<lb break="no"/>του</w> <w>μαριας</w> <w>τω</w><lb/><w>ιωσηφ</w> <w>πριν</w> <w>η</w><lb/><w>συνελθειν</w><lb/><w>αυτους</w> <w>ευρε<lb break="no"/>θη</w> <w>εν</w> <w>γαστρι</w><cb n="2"/><lb/><w><supplied reason="unspecified">ε</supplied>χ<supplied reason="unspecified">ουσα</supplied></w> <w><supplied reason="unspecified">εκ</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">π</hi></supplied><hi rend="overline">νς</hi></abbr></w><lb/><w>αγιου</w><pc>:</pc></ab> <ab n="B01K1V19"><w>ιωσηφ</w><lb/><w>δε</w> <w>ο</w> <w>ανηρ</w> <w>αυτης</w><lb/><w>δικαιος</w> <w>ων</w><lb/><w>και</w> <w>μη</w> <w>θελων</w><lb/><w>αυτην</w> <w>παραδι<lb break="no"/>γματισαι</w> <w>εβου<lb break="no"/>ληθη</w> <w>λαθρα</w><lb/><w>απολυσαι</w> <w>αυτην</w><lb/></ab> <ab n="B01K1V20"><w>ταυτα</w> <w>δε</w> <w>αυτου</w><lb/><w>ενθυμηθεν<lb break="no"/>τος</w><pc>:</pc> <w>ιδου</w> <w>αγ<lb break="no"/>γελος</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>κατ</w><lb/><w>οναρ</w> <w>εφανη</w><lb/><w>αυτω</w> <w>λεγων</w><lb/><w>ιωσηφ</w> <w>υιος</w><lb/><w><abbr type="nomSac"><hi rend="overline">δαδ</hi></abbr></w> <w>μη</w> <w>φοβη<lb break="no"/>θης</w> <w>παραλαβειν</w><lb/><w>μαριαμ</w> <w>την</w> <w>γυ<lb break="no"/>ναικα</w> <w>σου</w><pc>·</pc> <w>το</w><lb/><w>γαρ</w> <w>εν</w> <w>αυτη</w> <w>γεν<lb break="no"/>νηθεν</w> <w>εκ</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w><lb/><w>εστιν</w> <w>αγιου</w><pc>·</pc><lb/></ab> <ab n="B01K1V21" part="I"><w>τεξεται</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w></ab></div> </div>
+<pb n="228r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K3"><ab n="B01K3V13"><w>τοτε</w> <w>παραγι<lb break="no"/>νεται</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>απο</w><lb/><w>της</w> <w>γαλιλαιας</w><lb/><w>επι</w> <w>τον</w> <w>ιορ<lb break="no"/>δανην</w> <w>προς</w><lb/><w>τον</w> <w>ιωαννην</w><lb/><w>του</w> <w>βαπτισ<lb break="no"/>θηναι</w> <w>υπ</w> <w>αυτου</w><pc>·</pc><lb/></ab> <ab n="B01K3V14"><w>ο</w> <w>δε</w> <w>ιωαννης</w><lb/><w>διεκωλυεν</w><lb/><w>αυτον</w> <w>λεγων</w><lb/><w>εγω</w> <w>χριαν</w> <w>εχω</w><lb/><w>υπο</w> <w>σου</w> <w>βα<lb break="no"/>πτισθηναι</w><lb/><w>και</w> <w>συ</w> <w>ερχη</w><lb/><w>προς</w> <w>με</w><pc>:</pc></ab> <ab n="B01K3V15"><w>απο<lb break="no"/>κριθεις</w> <w>δε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>ειπεν</w> <w>προς</w><lb/><w>αυτον</w> <w>αφες</w><lb/><w>αρτι</w><pc>·</pc> <w>ουτως</w><lb/><w>γαρ</w> <w>πρεπον</w><lb/><w>εστιν</w> <w>ημιν</w><lb/><w>πληρωσαι</w> <w>πασαν</w><lb/><w>δικαιοσυνην</w><pc>·</pc><cb n="2"/><lb/><w>τοτε</w> <w>αφιησ<supplied source="na28" reason="illegible">ιν</supplied></w><lb/><w>αυτον</w><pc>:</pc></ab> <ab n="B01K3V16"><w>και</w><lb/><w>βαπτισθεις</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>ανεβη</w> <w>ευθυς</w><lb/><w>απο</w> <w>του</w> <w>υδατο<supplied source="na28" reason="illegible">ς</supplied></w><lb/><w>και</w> <w>ιδου</w><pc>:</pc> <w>ηνε<lb break="no"/>ωχθησαν</w> <w>αυτω</w><lb/><w>οι</w> <w>ουρανοι</w><pc>·</pc> <w>και</w><lb/><w>ιδεν</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w><lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>καταβαι<lb break="no"/>νον</w> <w>ωσει</w> <w>πε<lb break="no"/>ριστεραν</w> <w>και</w><lb/><w>ερχομενον</w><lb/><w>επ</w> <w>αυτον</w><pc>·</pc></ab> <ab n="B01K3V17"><w>και</w><lb/><w>ιδου</w> <w>φωνη</w><lb/><w>εκ</w> <w>των</w> <w>ουρα<lb break="no"/>νων</w> <w>λεγουσα</w><pc>·</pc><lb/><w>ουτος</w> <w>εστιν</w><pc>·</pc><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>μου</w> <w>ο</w> <w>αγα<lb break="no"/>πητος</w> <w>εν</w> <w>ω</w><lb/><w>ηυδοκησα</w><pc>·</pc><lb/></ab></div><div type="chapter" n="B01K4"><ab n="B01K4V1" part="I"><w>τοτε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ανη<lb break="no"/>χθη</w> <w>εις</w> <w>την</w><lb/><w>ερημον</w> <w>υπο</w> <w>του</w></ab></div> </div>
+<pb n="228v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K4"><ab n="B01K4V1" part="F"><w><supplied reason="unspecified">τ</supplied>ου</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>πει<lb break="no"/>ρασθηναι</w> <w>υ<lb break="no"/>πο</w> <w>του</w> <w>διαβο<lb break="no"/>λου</w><pc>·</pc></ab> <ab n="B01K4V2"><w>και</w> <w>νησ<lb break="no"/>τευσας</w> <w>ημε<lb break="no"/>ρας</w> <w>τεσσερα<lb break="no"/>κοντα</w><pc>·</pc> <w>και</w> <w>νυ<lb break="no"/>κτας</w> <w>τεσσε<lb break="no"/>ρακοντα</w> <w>υστε<lb break="no"/>ρον</w> <w>επινασεν</w><pc>·</pc><lb/></ab> <ab n="B01K4V3"><w>και</w> <w>προσελθων</w><lb/><w>αυτω</w> <w>ο</w> <w>πει<lb break="no"/>ραζων</w> <w>ειπεν</w><lb/><w>ει</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>ει</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><lb/><w>ειπε</w> <w>ινα</w> <w>οι</w> <w>λι<lb break="no"/>θοι</w> <w>ουτοι</w> <w>αρ<lb break="no"/>τοι</w> <w>γενωνται</w><lb/></ab> <ab n="B01K4V4"><w>ο</w> <w>δε</w> <w>αποκρι<lb break="no"/>θεις</w> <w>ειπεν</w><pc>·</pc><lb/><w>γεγραπται</w><pc>·</pc> <w>ου<lb break="no"/>κ</w> <w>επ</w> <w>αρτω</w> <w>μο<lb break="no"/>νω</w> <w>ζησεται</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>αλλ</w> <w>ε<lb break="no"/>πι</w> <w>παντι</w> <w>ρημα<hi rend="displaced-below">τι</hi></w><cb n="2"/><lb/><w>εκπορευομε<lb break="no"/>νω</w> <w>δια</w> <w>στομα<lb break="no"/>τος</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>:</pc></ab> <ab n="B01K4V5"><w>τοτε</w><lb/><w>παραλαμβανει</w><lb/><w>αυτον</w> <w>ο</w> <w>διαβο<lb break="no"/>λος</w> <w>εις</w> <w>την</w><lb/><w>αγιαν</w> <w>πολιν</w><lb/><w>και</w> <w>ιστησιν</w><lb/><w>αυτον</w> <w>επι</w> <w>το</w><lb/><w>πτερυγιον</w><lb/><w>του</w> <w>ιερου</w></ab> <ab n="B01K4V6"><w>και</w><lb/><w>λεγει</w> <w>αυτω</w><pc>·</pc><lb/><w>ει</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>ει</w> <w>του</w> <w>θεου</w><lb/><w>βαλε</w> <w>σεαυτον</w><lb/><w>κατω</w><pc>·</pc> <w>γεγρα<lb break="no"/>πται</w> <w>γαρ</w> <w>οτι</w><lb/><w>τοις</w> <w>αγγελοις</w><lb/><w>αυτου</w> <w>εντε<lb break="no"/>λειται</w> <w>περι</w> <w>σου</w><pc>·</pc><lb/><w>και</w> <w>επι</w> <w>χειρων</w><lb/><w>αρουσιν</w> <w>σε</w><pc>·</pc><lb/><w>μηποτε</w> <w>προσ<lb break="no"/>κοψης</w> <w>προς</w> <w>λι<lb break="no"/>θον</w> <w>τον</w> <w>ποδα</w> <w>σου</w><pc>·</pc></ab></div> </div>
+<pb n="300r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K4"><ab n="B01K4V7"><w>εφη</w> <w>αυτω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>παλιν</w> <w>γεγρα<lb break="no"/>πται</w><pc>·</pc> <w>ουκ</w> <w>εκ<lb break="no"/>πειρασεις</w><lb/><w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>σου</w><pc>:</pc><lb/></ab> <ab n="B01K4V8"><w>παλιν</w> <w>παραλαμ<lb break="no"/>βανει</w> <w>αυτον</w><lb/><w>ο</w> <w>διαβολος</w><lb/><w>εις</w> <w>ορος</w> <w>υψη<lb break="no"/>λον</w> <w>λειαν</w> <w>και</w><lb/><w>δικνυσιν</w> <w>αυ<lb break="no"/>τω</w> <w>πασας</w> <w>τας</w><lb/><w>βασιλειας</w> <w>του</w><lb/><w>κοσμου</w> <w>και</w><lb/><w>την</w> <w>δοξαν</w><lb/><w>αυτων</w></ab> <ab n="B01K4V9"><w>και</w> <w>λε<lb break="no"/>γει</w> <w>αυτω</w><pc>·</pc> <w>ταυ<lb break="no"/>τα</w> <w>παντα</w> <w>σοι</w><lb/><w>δωσω</w> <w>εαν</w> <w>πε<lb break="no"/>σων</w> <w>προσκυ<lb break="no"/>νησης</w> <w>μοι</w><pc>·</pc><lb/></ab> <ab n="B01K4V10"><w>τοτε</w> <w>λεγει</w> <w>αυ<lb break="no"/>τω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>υπαγε</w><lb/><w>σατανα</w><pc>·</pc> <w>γεγρα<cb n="2" break="no"/><lb/>πται</w> <w>γαρ</w> <w><abbr type="nomSac"><hi rend="overline">κν</hi></abbr></w> <w>τον</w><lb/><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>σου</w> <w>προσ<lb break="no"/>κυνησης</w> <w>και</w><lb/><w>αυτω</w> <w>μονω</w><lb/><w>λατρευσεις</w><pc>·</pc><lb/></ab> <ab n="B01K4V11"><w>τοτε</w> <w>αφιησιν</w><lb/><w>αυτον</w> <w>ο</w> <w>διαβο<lb break="no"/>λος</w><pc>·</pc> <w>και</w> <w>ιδου</w><lb/><w>αγγελοι</w> <w>προσ<lb break="no"/>ηλθον</w> <w>και</w> <w>διη<lb break="no"/>κονουν</w> <w>αυτω</w><pc>·</pc><lb/></ab> <ab n="B01K4V12"><w>ακουσας</w> <w>δε</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>οτι</w> <w>ιω<lb break="no"/>αννης</w> <w>παρε<lb break="no"/>δοθη</w> <w>ανεχω<lb break="no"/>ρησεν</w> <w>εις</w> <w>την</w><lb/><w>γαλιλαιαν</w><pc>:</pc><lb/></ab> <ab n="B01K4V13" part="I"><w>και</w> <w>καταλιπων</w><lb/><w>την</w> <w>ναζα<lb break="no"/>ραθ</w> <w>ελθων</w><lb/><w>κατωκησεν</w><lb/><w>εις</w> <w>καπερνα<lb break="no"/>ουμ</w> <w>την</w> <w>παρα<lb break="no"/>θαλασσιαν</w><pc>:</pc></ab></div> </div>
+<pb n="300v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K4"><ab n="B01K4V13" part="F"><w>εν</w> <w>οριοις</w> <w>ζα<lb break="no"/>βουλων</w> <w>και</w><lb/><w>νεφθαλειμ</w><lb/></ab> <ab n="B01K4V14"><w>ινα</w> <w>πληρωθη</w><lb/><w>το</w> <w>ρηθεν</w> <w>δια</w><lb/><w>ησαιου</w> <w>του</w><lb/><w>προφητου</w><lb/><w>λεγοντος</w><lb/></ab> <ab n="B01K4V15"><w>γη</w> <w>ζαβουλων</w><lb/><w>και</w> <w>γη</w> <w>νεφθα<lb break="no"/>λειμ</w><pc>·</pc> <w>οδον</w> <w>θα<lb break="no"/>λασσης</w> <w>περαν</w><lb/><w>του</w> <w>ιορδανου</w><lb/><w>γαλιλαια</w> <w>των</w><lb/><w>εθνων</w><pc>·</pc></ab> <ab n="B01K4V16"><w>ο</w> <w>λαος</w><lb/><w>ο</w> <w>καθημενος</w><lb/><w>εν</w> <w>σκοτει</w><lb/><w>ιδεν</w> <w>φως</w> <w>μεγα</w><lb/><w>και</w> <w>τοις</w> <w>καθη<lb break="no"/>μενοις</w> <w>εν</w> <w>χω<lb break="no"/>ρα</w> <w>και</w> <w>σκια</w> <w>θα<lb break="no"/>νατου</w> <w>φως</w><lb/><w>ανετειλεν</w> <w>αυ<lb break="no"/>τοις</w><pc>:</pc></ab> <ab n="B01K4V17"><w>απο</w> <w>τοτε</w><cb n="2"/><lb/><w>ηρξατο</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>κη<lb break="no"/>ρυσσειν</w> <w>και</w><lb/><w>λεγειν</w> <w>μετα<lb break="no"/>νοειτε</w> <w>ηγγι<lb break="no"/>κεν</w> <w>γαρ</w> <w>η</w> <w>βασι<lb break="no"/>λεια</w> <w>των</w> <w>ουρα<lb break="no"/>νων</w><pc>·</pc></ab> <ab n="B01K4V18"><w>περιπα<lb break="no"/>των</w> <w>δε</w> <w>παρα</w><lb/><w>την</w> <w>θαλασσαν</w><lb/><w>της</w> <w>γαλιλαιας</w><lb/><w>ιδεν</w> <w>δυο</w> <w>αδελ<lb break="no"/>φους</w> <w>σιμωνα</w><lb/><w>τον</w> <w>λεγομε<lb break="no"/>νον</w> <w>πετρον</w><pc>·</pc><lb/><w>και</w> <w>ανδρεαν</w><lb/><w>τον</w> <w>αδελφον</w><lb/><w>αυτου</w><pc>·</pc> <w>βαλλον<lb break="no"/>τας</w> <w>αμφιβλη<lb break="no"/>στρον</w> <w>εις</w> <w>την</w><lb/><w>θαλασσαν</w><pc>·</pc> <w>ησαν</w><lb/><w>γαρ</w> <w>αλιεις</w><pc>·</pc></ab> <ab n="B01K4V19" part="I"><w>και</w><lb/><w>λεγει</w> <w>αυτοις</w><lb/><w>δευτε</w> <w>οπισω</w><lb/><w>μου</w> <w>και</w> <w>ποιησω</w></ab></div> </div>
+<pb n="226r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K10"><ab n="B01K10V7" part="F"><w>οτι</w> <w>ηγγικεν</w><lb/><w>η</w> <w>βασιλεια</w> <w>των</w><lb/><w>ουρανων</w><pc>·</pc><lb/></ab> <ab n="B01K10V8"><w>ασθενουντας</w><lb/><w>θεραπευε<lb break="no"/>ται</w><pc>·</pc> <w>λεπρους</w><lb/><w>καθαριζεται</w><pc>·</pc><lb/><w>δαιμονια</w> <w>εκ<lb break="no"/>βαλλεται</w><pc>·</pc> <w>νε<lb break="no"/>κρους</w> <w>εγει<lb break="no"/>ρεται</w><pc>·</pc> <w>δωρεαν</w><lb/><w>ελαβετε</w><pc>·</pc> <w>δω<lb break="no"/>ρεαν</w> <w>δοτε</w><pc>·</pc><lb/></ab> <ab n="B01K10V9"><w>μη</w> <w>κτησησθε</w><lb/><w>χρυσον</w> <w>μηδε</w><lb/><w>αργυρον</w> <w>μη<lb break="no"/>δε</w> <w>χαλκον</w> <w>εις</w><lb/><w>τας</w> <w>ζωνας</w> <w>υ<lb break="no"/>μων</w><pc>·</pc></ab> <ab n="B01K10V10"><w>μη</w> <w>πηραν</w><lb/><w>εις</w> <w>οδον</w><pc>·</pc> <w>μη<lb break="no"/>δε</w> <w>δυο</w> <w>χιτω<lb break="no"/>νας</w><pc>·</pc> <w>μηδε</w> <w>υ<lb break="no"/>ποδηματα</w><lb/><w>μηδε</w> <w>ραβδους</w><pc>·</pc><cb n="2"/><lb/><w>αξιος</w> <w>γαρ</w> <w>ο</w> <w>ερ<lb break="no"/>γατης</w> <w>της</w> <w>τρο<lb break="no"/>φης</w> <w>αυτου</w> <w>ε<lb break="no"/>στιν</w><pc>:</pc></ab> <ab n="B01K10V11"><w>εις</w> <w>ην</w><lb/><w>δ</w> <w>αν</w> <w>πολιν</w> <w>η</w> <w>κω<lb break="no"/>μην</w> <w>εισελθη<lb break="no"/>τε</w><pc>·</pc> <w>εξετασατε</w><lb/><w>τις</w> <w>εν</w> <w>αυτη</w><lb/><w>αξιος</w> <w>εστιν</w><pc>·</pc><lb/><w>κακει</w> <w>μεινα<lb break="no"/>τε</w> <w>εως</w> <w>αν</w> <w>ε<lb break="no"/>ξελθητε</w><pc>·</pc><lb/></ab> <ab n="B01K10V12"><w>εισερχομε<lb break="no"/>νοι</w> <w>δε</w> <w>εις</w><lb/><w>την</w> <w>οικιαν</w><lb/><w>ασπασασθαι</w><lb/><w>αυτην</w><pc>·</pc></ab> <ab n="B01K10V13" part="I"><w>και</w> <w>εαν</w><lb/><w>μεν</w> <w>η</w> <w>η</w> <w>οικια</w><lb/><w>αξια</w><pc>·</pc> <w>ελθετω</w><lb/><w>η</w> <w>ειρηνη</w> <w>υμων</w><lb/><w>επ</w> <w>αυτην</w><pc>·</pc> <w>εαν</w><lb/><w>δε</w> <w>μη</w> <w>η</w> <w>αξια</w><lb/><w>η</w> <w>ειρηνη</w> <w>υμων</w><lb/><w>προς</w> <w>υμας</w> <w part="I">επι<lb break="no"/></w></ab></div> </div>
+<pb n="226v" type="folio" break="no"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K10"><ab n="B01K10V13" part="F"><w part="F">στραφητω</w><pc>·</pc><lb/></ab> <ab n="B01K10V14"><w>και</w> <w>ος</w> <w>εαν</w> <w>μη</w><lb/><w>δεξηται</w> <w>υμας</w><lb/><w>μηδε</w> <w>ακουση</w><lb/><w>τους</w> <w>λογους</w><lb/><w>υμων</w><pc>·</pc> <w>εξερ<lb break="no"/>χομενοι</w> <w>της</w><lb/><w>οικιας</w> <w>η</w> <w>της</w><lb/><w>πολεως</w> <w>εκει<lb break="no"/>νης</w><pc>·</pc> <w>εκτινα<lb break="no"/>ξατε</w> <w>τον</w> <w>κο<lb break="no"/>νιορτον</w> <w>των</w><lb/><w>ποδων</w> <w>υμων</w><pc>·</pc><lb/></ab> <ab n="B01K10V15"><w>αμην</w> <w>λεγω</w> <w>υ<lb break="no"/>μιν</w> <w>ανεκτο<lb break="no"/>τερον</w> <w>εσται</w><lb/><w>γη</w> <w>σοδομων</w><lb/><w>και</w> <w>γομορρας</w><lb/><w>εν</w> <w>ημερα</w> <w>κρι<lb break="no"/>σεως</w> <w>η</w> <w>τη</w> <w>πο<lb break="no"/>λει</w> <w>εκεινη</w><pc>:</pc><lb/></ab> <ab n="B01K10V16"><w>ιδου</w> <w>εγω</w> <w>απο<lb break="no"/>στελλω</w> <w>υμας</w><lb/><w>ως</w> <w>προβατα</w><cb n="2"/><lb/><w>εν</w> <w>μεσω</w> <w>λυκων</w><pc>·</pc><lb/><w>γινεσθαι</w> <w>ουν</w><lb/><w>φρονιμοι</w> <w>ως</w><lb/><w>οι</w> <w>οφεις</w> <w>και</w><lb/><w>ακεραιοι</w> <w>ως</w><lb/><w>αι</w> <w>περιστεραι</w><lb/></ab> <ab n="B01K10V17"><w>προσεχετε</w><lb/><w>δε</w> <w>απο</w> <w>των</w><lb/><w><abbr type="nomSac"><hi rend="overline">ανων</hi></abbr></w><pc>·</pc> <w>παραδω<lb break="no"/>σουσιν</w> <w>γαρ</w> <w>υ<lb break="no"/>μας</w> <w>εις</w> <w>συνε<lb break="no"/>δρια</w><pc>·</pc> <w>και</w> <w>εν</w> <w>ταις</w><lb/><w>συναγωγαις</w><lb/><w>αυτων</w> <w>μαστι<lb break="no"/>γωσουσιν</w> <w>υ<lb break="no"/>μας</w><pc>·</pc></ab> <ab n="B01K10V18"><w>και</w> <w>επι</w> <w>η<lb break="no"/>γεμονας</w> <w>δε</w><lb/><w>και</w> <w>βασιλεις</w><lb/><w>αχθησεσθαι</w><lb/><w>ενεκεν</w> <w>εμου</w><lb/><w>εις</w> <w>μαρτυριον</w><lb/><w>αυτοις</w> <w>και</w> <w>τοις</w><lb/><w>εθνεσιν</w><pc>·</pc><lb/></ab> <ab n="B01K10V19" part="I"><w>οταν</w> <w>δε</w> <w part="I">παρα<lb break="no"/></w></ab></div> </div>
+<pb n="233r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K10"><ab n="B01K10V19" part="F"/><ab n="B01K10V42"><w>και</w> <w>ος</w> <w>εαν</w> <w>πο<lb break="no"/>τιση</w> <w>ενα</w> <w>των</w><lb/><w>μικρων</w> <w>του<lb break="no"/>των</w> <w>ποτηριον</w><lb/><w>ψυχρου</w> <w>μονον</w><lb/><w>εις</w> <w>ονομα</w><lb/><w>μαθητου</w><pc>:</pc><lb/><w>αμην</w> <w>λεγω</w><lb/><w>υμιν</w> <w>ου</w> <w>μη</w><lb/><w>απολεση</w> <w>τον</w><lb/><w>μισθον</w> <w>αυτου</w><lb/></ab></div><div type="chapter" n="B01K11"><ab n="B01K11V1"><w>και</w> <w>εγενετο</w><lb/><w>οτε</w> <w>ετελε<lb break="no"/>σεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>δια<lb break="no"/>τασσων</w> <w>τοις</w><lb/><w>δωδεκα</w> <w>μα<lb break="no"/>θηταις</w> <w>αυτου</w><lb/><w>μετεβη</w> <w>εκει<lb break="no"/>θεν</w> <w>του</w> <w>διδα<lb break="no"/>σκειν</w> <w>και</w> <w>κη<lb break="no"/>ρυσσειν</w> <w>εν</w><lb/><w>ταις</w> <w>πολεσιν</w><lb/><w>αυτων</w><pc>:</pc></ab> <ab n="B01K11V2"><w>ο</w> <w>δε</w><lb/><w>ιωαννης</w> <w>ακου<cb n="2" break="no"/><lb/>σας</w> <w>εν</w> <w>τω</w> <w>δε<lb break="no"/>σμωτηριω</w><lb/><w>τα</w> <w>εργα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><lb/><w>πεμψας</w> <w>δια</w><lb/><w>των</w> <w>μαθητων</w><lb/><w>αυτου</w></ab> <ab n="B01K11V3"><w>ειπεν</w><lb/><w>αυτω</w><pc>·</pc> <w>συ</w> <w>ει</w> <w>ο</w><lb/><w>ερχομενος</w><lb/><w>η</w> <w>ετερον</w> <w>προσ<lb break="no"/>δοκωμεν</w><pc>·</pc><lb/></ab> <ab n="B01K11V4"><w>και</w> <w>αποκριθεις</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ειπεν</w> <w>αυ<lb break="no"/>τοις</w><pc>·</pc> <w>πορευ<lb break="no"/>θεντες</w> <w>απαγ<lb break="no"/>γειλατε</w> <w>ιω<lb break="no"/>αννη</w> <w>α</w> <w>ακου<lb break="no"/>ετε</w> <w>και</w> <w>βλε<lb break="no"/>πετε</w><pc>·</pc></ab> <ab n="B01K11V5" part="I"><w>τυφλοι</w><lb/><w>αναβλεπουσιν</w><pc>·</pc><lb/><w>και</w> <w>χωλοι</w> <w>πε<lb break="no"/>ριπατουσιν</w><pc>·</pc><lb/><w>λεπροι</w> <w>καθα<lb break="no"/>ριζονται</w><pc>·</pc> <w>και</w><lb/><w>κωφοι</w> <w>ακουου<hi rend="displaced-below">σιν<pc>·</pc></hi></w></ab></div> </div>
+<pb n="233v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K11"><ab n="B01K11V5" part="F"><w>και</w> <w>νεκροι</w><lb/><w>εγειρονται</w><pc>·</pc><lb/><w>και</w> <w>πτωχοι</w><lb/><w>ευαγγελιζον<lb break="no"/>ται</w><pc>·</pc></ab> <ab n="B01K11V6"><w>και</w> <w>μακα<lb break="no"/>ριος</w> <w>εστιν</w><lb/><w>ος</w> <w>εαν</w> <w>μη</w> <w>σκαν<lb break="no"/>δαλισθη</w> <w>εν</w> <w>ε<lb break="no"/>μοι</w><pc>·</pc></ab> <ab n="B01K11V7"><w>τουτων</w><lb/><w>δε</w> <w>πορευομε<lb break="no"/>νων</w> <w>ηρξατο</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>λεγειν</w> <w>τοις</w><lb/><w>οχλοις</w> <w>περι</w><lb/><w>ιωαννου</w><pc>·</pc> <w>τι</w><lb/><w>εξηλθατε</w> <w>εις</w><lb/><w>την</w> <w>ερημον</w><lb/><w>θεασασθαι</w><pc>·</pc><lb/><w>καλαμον</w> <w>υπο</w><lb/><w>ανεμου</w> <w>σα<lb break="no"/>λευομενον</w><lb/></ab> <ab n="B01K11V8"><w>αλλα</w> <w>τι</w> <w>εξηλθα<lb break="no"/>τε</w> <w>ιδειν</w> <w><abbr type="nomSac"><hi rend="overline">ανον</hi></abbr></w><lb/><w>εν</w> <w>μαλακοις</w><lb/><w>ειματιοις</w> <w>ημ<cb n="2" break="no"/><lb/>φιεσμενον</w><lb/><w>ιδου</w> <w>οι</w> <w>τα</w> <w>μα<lb break="no"/>λακα</w> <w>φορουν<lb break="no"/>τες</w> <w>εν</w> <w>τοις</w><lb/><w>οικοις</w> <w>των</w><lb/><w>βασιλεων</w> <w>εισιν</w><lb/></ab> <ab n="B01K11V9"><w>αλλα</w> <w>τι</w> <w>εξηλ<lb break="no"/>θατε</w> <w>ιδειν</w><lb/><w>προφητην</w><pc>·</pc><lb/><w>ναι</w> <w>λεγω</w> <w>υμιν</w><lb/><w>και</w> <w>περισσο<lb break="no"/>τερον</w> <w>προφη<lb break="no"/>του</w><pc>:</pc></ab> <ab n="B01K11V10"><w>ουτος</w><lb/><w>γαρ</w> <w>εστιν</w> <w>πε<lb break="no"/>ρι</w> <w>ου</w> <w>γεγραπται</w><lb/><w>ιδου</w> <w>εγω</w> <w>απο<lb break="no"/>στελλω</w> <w>τον</w><lb/><w>αγγελον</w> <w>μου</w><lb/><w>προ</w> <w>προσω<lb break="no"/>που</w> <w>σου</w> <w>και</w><lb/><w>κατασκευασει</w><lb/><w>την</w> <w>οδον</w> <w>σου</w><lb/><w>εμπροσθεν</w><lb/><w>σου</w><pc>·</pc></ab> <ab n="B01K11V11" part="I"><w>αμην</w></ab></div> </div>
+<pb n="158r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K13"><ab n="B01K13V40" part="F"><w>εν</w> <w>τη</w> <w>συντε<lb break="no"/>λεια</w> <w>του</w> <w>αιω<lb break="no"/>νος</w> <w>τουτου</w><lb/></ab> <ab n="B01K13V41"><w>αποστελει</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w><lb/><w>τους</w> <w>αγγελους</w><lb/><w>αυτου</w> <w>και</w> <w>συλ<lb break="no"/>λεξουσιν</w><lb/><w>εκ</w> <w>της</w> <w>βασι<lb break="no"/>λειας</w> <w>αυτου</w><lb/><w>παντα</w> <w>τα</w> <w>σκαν<lb break="no"/>δαλα</w> <w>και</w> <w>τους</w><lb/><w>ποιουντας</w><lb/><w>την</w> <w>ανομιαν</w><pc>·</pc><lb/></ab> <ab n="B01K13V42"><w>και</w> <w>βαλουσιν</w><lb/><w>αυτους</w> <w>εις</w><lb/><w>την</w> <w>καμινον</w><lb/><w>του</w> <w>πυρος</w><pc>·</pc><lb/><w>εκει</w> <w>εσται</w><lb/><w>ο</w> <w>κλαυθμος</w><lb/><w>και</w> <w>ο</w> <w>βρυγμος</w><lb/><w>των</w> <w>οδοντων</w><pc>·</pc><lb/></ab> <ab n="B01K13V43"><w>τοτε</w> <w>οι</w> <w>δικαιοι</w><lb/><w>εκλαμψουσιν</w><cb n="2"/><lb/><w>ως</w> <w>ο</w> <w>ηλιος</w><lb/><w>εν</w> <w>τη</w> <w>βασιλεια</w><lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>αυτων</w><pc>·</pc><lb/><w>ο</w> <w>εχων</w> <w>ωτα</w><lb/><w>ακουειν</w> <w>ακου<lb break="no"/>ετω</w><pc>:</pc></ab> <ab n="B01K13V44"><w>παλιν</w><lb/><w>ομοια</w> <w>εστιν</w><lb/><w>η</w> <w>βασιλεια</w> <w>των</w><lb/><w>ουρανων</w> <w>θη<lb break="no"/>σαυρω</w> <w>κεκρυμ<lb break="no"/>μενω</w> <w>εν</w> <w>τω</w><lb/><w>αγρω</w><pc>·</pc> <w>ον</w> <w>ευρων</w><lb/><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>εκρυψεν</w><lb/><w>και</w> <w>απο</w> <w>της</w><lb/><w>χαρας</w> <w>αυτου</w><lb/><w>υπαγει</w><pc>·</pc> <w>και</w><lb/><w>παντα</w> <w>οσα</w> <w>ε<lb break="no"/>χει</w> <w>πωλει</w><pc>·</pc><lb/><w>και</w> <w>αγοραζει</w><lb/><w>τον</w> <w>αγρον</w><lb/><w>εκεινον</w><pc>:</pc><lb/></ab> <ab n="B01K13V45" part="I"><w>παλιν</w> <w>ομοια</w><lb/><w>εστιν</w> <w>η</w> <w>βασι<lb break="no"/>λεια</w> <w>των</w> <w>ουρανων</w></ab></div> </div>
+<pb n="158v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K13"><ab n="B01K13V45" part="F"><w><abbr type="nomSac"><hi rend="overline">ανω</hi></abbr></w> <w>εμπορω</w><lb/><w>ζητουντι</w><lb/><w>καλους</w> <w>μαρ<lb break="no"/>γαριτας</w><pc>·</pc></ab> <ab n="B01K13V46"><w>ος</w><lb/><w>ευρων</w> <w>ενα</w><lb/><w>πολυτιμον</w><lb/><w>μαργαριτην</w><lb/><w>απελθων</w><lb/><w>πεπρακεν</w> <w>παν<lb break="no"/>τα</w> <w>οσα</w> <w>ειχεν</w><lb/><w>και</w> <w>ηγορασεν</w><lb/><w>αυτον</w><pc>·</pc></ab> <ab n="B01K13V47"><w>παλιν</w><lb/><w>ομοια</w> <w>εστιν</w><lb/><w>η</w> <w>βασιλεια</w> <w>των</w><lb/><w>ουρανων</w> <w>σα<lb break="no"/>γηνη</w><pc>·</pc> <w>βληθη<lb break="no"/>ση</w> <w>εις</w> <w>την</w><lb/><w>θαλασσαν</w> <w>και</w><lb/><w>εκ</w> <w>παντος</w><lb/><w>γενους</w> <w>συνα<lb break="no"/>γαγουση</w><pc>·</pc></ab> <ab n="B01K13V48"><w>ην</w><lb/><w>οτε</w> <w>επληρω<lb break="no"/>θη</w><pc>·</pc> <w>αναβιβασαν<lb break="no"/>τες</w> <w>αυτην</w><cb n="2"/><lb/><w>επι</w> <w>τον</w> <w>αιγιαλον</w><lb/><w>και</w> <w>καθισαν<lb break="no"/>τες</w> <w>συνελεξαν</w><lb/><w>τα</w> <w>καλα</w> <w>εις</w> <w>αγγια</w><lb/><w>τα</w> <w>δε</w> <w>σαπρα</w><lb/><w>εξω</w> <w>εβαλον</w><pc>·</pc><lb/></ab> <ab n="B01K13V49"><w>ουτως</w> <w>εσται</w><lb/><w>εν</w> <w>τη</w> <w>συντε<lb break="no"/>λεια</w> <w>του</w> <w>αιω<lb break="no"/>νος</w><pc>·</pc> <w>εξελευ<lb break="no"/>σονται</w> <w>οι</w> <w>αγ<lb break="no"/>γελοι</w> <w>και</w> <w>αφο<lb break="no"/>ριουσιν</w> <w>τους</w><lb/><w>πονηρους</w><lb/><w>εκ</w> <w>μεσου</w> <w>των</w><lb/><w>δικαιων</w></ab> <ab n="B01K13V50"><w>και</w><lb/><w>βαλουσιν</w> <w>αυ<lb break="no"/>τους</w> <w>εις</w> <w>την</w><lb/><w>καμινον</w> <w>του</w><lb/><w>πυρος</w><pc>·</pc> <w>εκει</w><lb/><w>εσται</w> <w>ο</w> <w>κλαυ<lb break="no"/>θμος</w> <w>και</w> <w>ο</w> <w>βρυ<lb break="no"/>γμος</w> <w>των</w><lb/><w>οδοντων</w><pc>·</pc></ab></div> </div>
+<pb n="96r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K14"><ab n="B01K14V15" part="F"><w>αγορασωσιν</w><lb/><w>εαυτοις</w> <w>βρω<lb break="no"/>ματα</w><pc>:</pc></ab> <ab n="B01K14V16"><w>ο</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>ειπεν</w> <w>αυτοις</w><pc>·</pc><lb/><w>ου</w> <w>χριαν</w> <w>εχου<lb break="no"/>σιν</w> <w>απελθειν</w><pc>·</pc><lb/><w>δοτε</w> <w>αυτοις</w><lb/><w>υμεις</w> <w>φαγειν</w><pc>·</pc><lb/></ab> <ab n="B01K14V17"><w>οι</w> <w>δε</w> <w>λεγου<lb break="no"/>σιν</w> <w>αυτω</w><pc>·</pc><lb/><w>ουκ</w> <w>εχομεν</w><lb/><w>ωδε</w> <w>ει</w> <w>μη</w> <w>πεν<lb break="no"/>τε</w> <w>αρτους</w><pc>·</pc><lb/><w>και</w> <w>δυο</w> <w>ιχθυας</w><lb/></ab> <ab n="B01K14V18"><w>ο</w> <w>δε</w> <w>ειπεν</w> <w>αυ<lb break="no"/>τοις</w><pc>·</pc> <w>φερε<lb break="no"/>τε</w> <w>μοι</w> <w>αυτους</w><lb/><w>ωδε</w><pc>:</pc></ab> <ab n="B01K14V19"><w>και</w> <w>κε<lb break="no"/>λευσας</w> <w>τους</w><lb/><w>οχλους</w> <w>ανα<lb break="no"/>κλιθηναι</w> <w>επι</w><lb/><w>τους</w> <w>χορτους</w><lb/><w>λαβων</w> <w>τους</w><lb/><w>πεντε</w> <w>αρτους</w><cb n="2"/><lb/><w>και</w> <w>τους</w> <w>δυο</w><lb/><w>ιχθυας</w><pc>·</pc> <w>ανα<lb break="no"/>βλεψας</w> <w>εις</w> <w>τον</w><lb/><w>ουρανον</w> <w>ηυ<lb break="no"/>λογησεν</w> <w>και</w><lb/><w>κλασας</w> <w>εδω<lb break="no"/>κεν</w> <w>τοις</w> <w>μα<lb break="no"/>θηταις</w> <w>τους</w><lb/><w>αρτους</w><pc>·</pc> <w>οι</w> <w>δε</w><lb/><w>μαθηται</w> <w>τοις</w><lb/><w>οχλοις</w><pc>·</pc></ab> <ab n="B01K14V20"><w>και</w> <w>ε<lb break="no"/>φαγον</w> <w>παντες</w><lb/><w>και</w> <w>εχορτασ<lb break="no"/>θησαν</w><pc>·</pc> <w>και</w> <w>η<lb break="no"/>ραν</w> <w>το</w> <w>περισ<lb break="no"/>σευον</w> <w>των</w><lb/><w>κλασματων</w><lb/><w>δωδεκα</w> <w>κο<lb break="no"/>φινους</w> <w>πλη<lb break="no"/>ρεις</w><pc>:</pc></ab> <ab n="B01K14V21" part="I"><w>οι</w> <w>δε</w><lb/><w>εσθιοντες</w><lb/><w>ησαν</w> <w>ανδρες</w><lb/><w>ωσει</w> <w>πεντα<lb break="no"/>κισχιλιοι</w> <w>χω<hi rend="displaced-below">ρις</hi></w></ab></div> </div>
+<pb n="96v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K14"><ab n="B01K14V21" part="F"><w>γυναικων</w><lb/><w>και</w> <w>παιδιων</w><pc>·</pc><lb/></ab> <ab n="B01K14V22"><w>και</w> <w>ευθεως</w><lb/><w>ηναγκασεν</w><lb/><w>τους</w> <w>μαθη<lb break="no"/>τας</w> <w>αυτου</w> <w>εμ<lb break="no"/>βηναι</w> <w>εις</w> <w>το</w><lb/><w>πλοιον</w><pc>·</pc> <w>και</w><lb/><w>προαγειν</w> <w>αυ<lb break="no"/>τον</w> <w>εις</w> <w>το</w> <w>πε<lb break="no"/>ραν</w> <w>εως</w> <w>ου</w><lb/><w>απολυση</w> <w>τους</w><lb/><w>οχλους</w><pc>·</pc></ab> <ab n="B01K14V23"><w>και</w><lb/><w>απολυσας</w><lb/><w>τους</w> <w>οχλους</w><lb/><w>ανεβη</w> <w>εις</w> <w>το</w><lb/><w>ορος</w> <w>κατ</w> <w>ιδιαν</w><lb/><w>προσευξασθαι</w><lb/><w>οψιας</w> <w>δε</w> <w>γε<lb break="no"/>νομενης</w><lb/><w>μονος</w> <w>ην</w><lb/><w>εκει</w><pc>·</pc></ab> <ab n="B01K14V24"><w>το</w> <w>δε</w><lb/><w>πλοιον</w> <w>ηδη</w><lb/><w>μεσον</w> <w>της</w><cb n="2"/><lb/><w>θαλασσης</w> <w>ην</w><pc>·</pc><lb/><w>βασανιζομε<lb break="no"/>νον</w> <w>υπο</w> <w>των</w><lb/><w>κυματων</w><pc>·</pc> <w>ην</w><lb/><w>γαρ</w> <w>εναντιος</w><lb/><w>ο</w> <w>ανεμος</w><pc>·</pc><lb/></ab> <ab n="B01K14V25"><w>τεταρτη</w> <w>δε</w> <w>φυ<lb break="no"/>λακη</w> <w>της</w> <w>νυ<lb break="no"/>κτος</w> <w>απηλθεν</w><lb/><w>πρ</w> <w>αυτους</w><lb/><w>περιπατων</w><lb/><w>επι</w> <w>την</w> <w>θαλασ<lb break="no"/>σαν</w><pc>·</pc></ab> <ab n="B01K14V26"><w>και</w> <w>ειδον<lb break="no"/>τες</w> <w>αυτον</w><lb/><w>οι</w> <w>μαθηται</w> <w>επι</w><lb/><w>την</w> <w>θαλασσαν</w><lb/><w>περιπατουν<lb break="no"/>τα</w> <w>εταραχθη<lb break="no"/>σαν</w> <w>λεγοντες</w><lb/><w>οτι</w> <w>φαντασμα</w><lb/><w>εστιν</w><pc>·</pc> <w>και</w> <w>απο</w><lb/><w>του</w> <w>φοβου</w><lb/><w>εκραξαν</w><pc>·</pc></ab> <ab n="B01K14V27" part="I"><w>ευ<lb break="no"/>θεως</w> <w>δε</w> <w part="I">ελα<lb break="no"/></w></ab></div> </div>
+<pb n="91r" type="folio" break="no"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K14"><ab n="B01K14V27" part="F"><w part="F">λησεν</w> <w>αυτοις</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>λεγων</w><pc>·</pc><lb/><w>θαρσειτε</w><pc>·</pc> <w>εγω</w><lb/><w>ειμι</w><pc>·</pc> <w>μη</w> <w>φο<lb break="no"/>βεισθαι</w><pc>:</pc></ab> <ab n="B01K14V28"><w>απο<lb break="no"/>κριθεις</w> <w>δε</w><lb/><w>αυτω</w> <w>ο</w> <w>πε<lb break="no"/>τρος</w> <w>ειπεν</w><pc>·</pc><lb/><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>ει</w> <w>συ</w> <w>ει</w><pc>·</pc> <w>κε<lb break="no"/>λευσον</w> <w>με</w><lb/><w>προς</w> <w>σε</w> <w>ελ<lb break="no"/>θειν</w> <w>επι</w> <w>τα</w><lb/><w>υδατα</w><pc>·</pc></ab> <ab n="B01K14V29"><w>ο</w> <w>δε</w><lb/><w>ειπεν</w> <w>ελθε</w><pc>·</pc><lb/><w>και</w> <w>καταβας</w><lb/><w>απο</w> <w>του</w> <w>πλοι<lb break="no"/>ου</w> <w>ο</w> <w>πετρος</w><lb/><w>περιεπατη<lb break="no"/>σεν</w> <w>επι</w> <w>τα</w> <w>υ<lb break="no"/>δατα</w> <w>ελθειν</w><lb/><w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w><pc>·</pc><lb/></ab> <ab n="B01K14V30"><w>βλεπων</w> <w>δε</w><lb/><w>τον</w> <w>ανεμον</w><lb/><w>ισχυρον</w> <w>εφο<cb n="2" break="no"/><lb/>βηθη</w><pc>·</pc> <w>και</w> <w>αρ<lb break="no"/>ξαμενος</w> <w>κα<lb break="no"/>ταποντιζε<lb break="no"/>σθαι</w> <w>εκραξεν</w><lb/><w>λεγων</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>σω<lb break="no"/>σον</w> <w>με</w><pc>·</pc></ab> <ab n="B01K14V31"><w>ευθε<lb break="no"/>ως</w> <w>δε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>εκ<lb break="no"/>τεινας</w> <w>την</w><lb/><w>χειρα</w> <w>επελα<lb break="no"/>βετο</w> <w>αυτου</w><pc>·</pc><lb/><w>και</w> <w>λεγει</w> <w>αυτω</w><lb/><w>ολιγοπιστε</w><lb/><w>εις</w> <w>τι</w> <w>εδιστα<lb break="no"/>σας</w><pc>·</pc></ab> <ab n="B01K14V32"><w>και</w> <w>εμ<lb break="no"/>βαντων</w> <w>αυτων</w><lb/><w>εις</w> <w>το</w> <w>πλοιον</w><lb/><w>εκοπασεν</w><lb/><w>ο</w> <w>ανεμος</w><pc>·</pc><lb/></ab> <ab n="B01K14V33"><w>οι</w> <w>δε</w> <w>εν</w> <w>τω</w><lb/><w>πλοιω</w> <w>ελθον<lb break="no"/>τες</w> <w>προσε<lb break="no"/>κυνησαν</w> <w>αυτω</w><pc>·</pc><lb/><w>λεγοντες</w><pc>·</pc><lb/><w>αληθως</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>ει</w><pc>·</pc></ab></div> </div>
+<pb n="91v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K14"><ab n="B01K14V34"><w>και</w> <w>διαπερα<lb break="no"/>σαντες</w> <w>ηλ<lb break="no"/>θον</w> <w>εις</w> <w>την</w><lb/><w>γην</w> <w>γεννη<lb break="no"/>σαρεθ</w><pc>:</pc></ab> <ab n="B01K14V35"><w>και</w><lb/><w>επιγνοντες</w><lb/><w>αυτον</w> <w>οι</w> <w>αν<lb break="no"/>δρες</w> <w>του</w> <w>το<lb break="no"/>που</w> <w>εκεινου</w><lb/><w>απεστειλαν</w><lb/><w>εις</w> <w>ολην</w> <w>την</w><lb/><w>περιχωρον</w><lb/><w>εκεινην</w><pc>:</pc><lb/><w>και</w> <w>προσηνεγ<lb break="no"/>καν</w> <w>αυτω</w> <w>παν<lb break="no"/>τας</w> <w>τους</w> <w>κα<lb break="no"/>κως</w> <w>εχοντας</w><lb/></ab> <ab n="B01K14V36"><w>και</w> <w>παρεκα<lb break="no"/>λουν</w> <w>αυτον</w><lb/><w>ινα</w> <w>μονον</w><lb/><w>αψωνται</w> <w>του</w><lb/><w>κρασπεδου</w><lb/><w>του</w> <w>ειματιου</w><lb/><w>αυτου</w><pc>·</pc> <w>και</w><cb n="2"/><lb/><w>οσοι</w> <w>ηψαντο</w><lb/><w>διεσωθησαν</w><pc>·</pc><lb/></ab></div><div type="chapter" n="B01K15"><ab n="B01K15V1"><w>τοτε</w> <w>προσερχον<lb break="no"/>ται</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>οι</w><lb/><w>απο</w> <w>ιεροσο<lb break="no"/>λυμων</w> <w>γραμ<lb break="no"/>ματεις</w> <w>και</w> <w>φα<lb break="no"/>ρισαιοι</w> <w>λεγον<lb break="no"/>τες</w><pc>·</pc></ab> <ab n="B01K15V2"><w>δια</w> <w>τι</w> <w>οι</w><lb/><w>μαθηται</w> <w>σου</w><lb/><w>παραβαινου<lb break="no"/>σιν</w> <w>την</w> <w>παρα<lb break="no"/>δοσιν</w> <w>των</w><lb/><w>πρεσβυτερων</w><pc>·</pc><lb/><w>ου</w> <w>γαρ</w> <w>νιπτον<lb break="no"/>ται</w> <w>τας</w> <w>χειρας</w><lb/><w>αυτων</w> <w>οταν</w><lb/><w>αρτον</w> <w>εσθι<lb break="no"/>ωσιν</w><pc>:</pc></ab> <ab n="B01K15V3" part="I"><w>ο</w> <w>δε</w><lb/><w>αποκριθεις</w><lb/><w>ειπεν</w> <w>αυτοις</w><lb/><w>δια</w> <w>τι</w> <w>και</w> <w>υ<lb break="no"/>μεις</w> <w>παραβε<lb break="no"/>νεται</w> <w>την</w> <w part="I">εν<lb break="no"/></w></ab></div> </div>
+<pb n="157r" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K15"><ab n="B01K15V29" part="F"><w>μεταβας</w> <w>ε<lb break="no"/>κειθεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><lb/><w>ηλθεν</w> <w>παρα</w><lb/><w>την</w> <w>θαλασσαν</w><lb/><w>της</w> <w>γαλιλαιας</w><pc>·</pc><lb/><w>και</w> <w>αναβας</w><lb/><w>εις</w> <w>το</w> <w>ορος</w><lb/><w>εκαθητο</w> <w>εκει</w><pc>·</pc><lb/></ab> <ab n="B01K15V30"><w>και</w> <w>προσηλθον</w><lb/><w>αυτω</w> <w>οχλοι</w><lb/><w>πολλοι</w><pc>·</pc> <w>εχον<lb break="no"/>τες</w> <w>μεθ</w> <w>εαυ<lb break="no"/>των</w> <w>χωλους</w><lb/><w>τυφλους</w><pc>·</pc> <w>κω<lb break="no"/>φους</w><pc>·</pc> <w>κυλλους</w><lb/><w>και</w> <w>ετερους</w><lb/><w>πολλους</w><pc>·</pc> <w>και</w><lb/><w>ερριψαν</w> <w>αυ<lb break="no"/>τους</w> <w>παρα</w> <w>τους</w><lb/><w>ποδας</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><lb/><w>και</w> <w>εθεραπευ<lb break="no"/>σεν</w> <w>αυτους</w><pc>·</pc><lb/></ab> <ab n="B01K15V31"><w>ωστε</w> <w>τους</w><lb/><w>οχλους</w> <w>θαυ<cb n="2" break="no"/><lb/>μασαι</w> <w>βλεπον<lb break="no"/>τας</w><pc>·</pc> <w>κωφους</w><lb/><w>λαλουντας</w><pc>·</pc><lb/><w>κυλλους</w> <w>υγιης</w><pc>·</pc><lb/><w>και</w> <w>χωλους</w><lb/><w>περιπατουν<lb break="no"/>τας</w><pc>·</pc> <w>και</w> <w>τυφλους</w><lb/><w>βλεποντας</w><pc>·</pc><lb/><w>και</w> <w>εδοξασαν</w><lb/><w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc><lb/></ab> <ab n="B01K15V32" part="I"><w>ο</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>προσ<lb break="no"/>καλεσαμε<lb break="no"/>νος</w> <w>τους</w> <w>μα<lb break="no"/>θητας</w> <w>αυτου</w><lb/><w>ειπεν</w><pc>·</pc> <w>σπλαγ<lb break="no"/>χνιζομαι</w> <w>επι</w><lb/><w>τον</w> <w>οχλον</w><pc>·</pc><lb/><w>οτι</w> <w>ηδη</w> <w>ημε<lb break="no"/>ραι</w> <w>τρεις</w> <w>προσ<lb break="no"/>μενουσιν</w><lb/><w>μοι</w><pc>·</pc> <w>και</w> <w>ουκ</w> <w>ε<lb break="no"/>χουσιν</w> <w>τι</w> <w>φα<lb break="no"/>γωσιν</w><pc>·</pc> <w>και</w> <w>απο<lb break="no"/>λυσαι</w> <w>αυτους</w></ab></div> </div>
+<pb n="157v" type="folio"/><note type="editorial" xml:id="BKV-024-2">Transkript nach K. v. Tischendorf, Monumenta sacra inedita VI, Leipzig 1869</note><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K15"><ab n="B01K15V32" part="F"><w>νηστεις</w> <w>ου</w><lb/><w>θελω</w> <w>μηποτε</w><lb/><w>εκλυθωσιν</w><lb/><w>εν</w> <w>τη</w> <w>οδω</w><pc>·</pc><lb/></ab> <ab n="B01K15V33"><w>και</w> <w>λεγουσιν</w><lb/><w>αυτω</w> <w>οι</w> <w>μαθη<lb break="no"/>ται</w> <w>αυτου</w><pc>·</pc> <w>πο<lb break="no"/>θεν</w> <w>ημιν</w> <w>εν</w><lb/><w>ερημια</w> <w>αρτοι</w><lb/><w>τοσουτοι</w><pc>·</pc><lb/><w>ωστε</w> <w>χορτα<lb break="no"/>σαι</w> <w>οχλον</w> <w>το<lb break="no"/>σουτον</w><pc>·</pc></ab> <ab n="B01K15V34"><w>και</w><lb/><w>λεγει</w> <w>αυτοις</w><lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ποσους</w><lb/><w>αρτους</w> <w>εχετε</w><lb/><w>οι</w> <w>δε</w> <w>ειπον</w><lb/><w>επτα</w><pc>·</pc> <w>και</w> <w>ο<lb break="no"/>λιγα</w> <w>ιχθυδια</w><pc>·</pc><lb/></ab> <ab n="B01K15V35"><w>και</w> <w>εκελευσεν</w><lb/><w>τοις</w> <w>οχλοις</w><lb/><w>αναπεσειν</w><lb/><w>επι</w> <w>την</w> <w>γην</w><pc>·</pc><lb/></ab> <ab n="B01K15V36"><w>και</w> <w>λαβων</w> <w>τους</w><cb n="2"/><lb/><w>επτα</w> <w>αρτους</w><lb/><w>και</w> <w>τους</w> <w>ιχθυ<lb break="no"/>ας</w><pc>·</pc> <w>ευχαριστη<lb break="no"/>σας</w> <w>εκλασεν</w><lb/><w>και</w> <w>εδωκεν</w><lb/><w>τοις</w> <w>μαθηταις</w><lb/><w>αυτου</w><pc>·</pc> <w>οι</w> <w>δε</w><lb/><w>μαθηται</w> <w>τω</w><lb/><w>οχλω</w><pc>·</pc></ab> <ab n="B01K15V37"><w>και</w> <w>εφα<lb break="no"/>γον</w> <w>παντες</w><lb/><w>και</w> <w>εχορτασ<lb break="no"/>θησαν</w><pc>·</pc> <w>και</w> <w>η<lb break="no"/>ραν</w> <w>το</w> <w>περισ<lb break="no"/>σευον</w> <w>των</w><lb/><w>κλασματων</w><pc>·</pc><lb/><w>επτα</w> <w>σπυρι<lb break="no"/>δας</w> <w>πληρης</w><pc>·</pc><lb/></ab> <ab n="B01K15V38"><w>οι</w> <w>δε</w> <w>εσθιον<lb break="no"/>τες</w> <w>ησαν</w> <w>τε<lb break="no"/>τρακισχιλιοι</w><lb/><w>ανδρες</w> <w>χω<lb break="no"/>ρις</w> <w>γυναικων</w><lb/><w>και</w> <w>παιδιων</w><pc>·</pc><lb/></ab> <ab n="B01K15V39" part="I"><w>και</w> <w>απολυσας</w></ab></div> </div>
+
+<pb n="156r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="04" type="book" part="I"><div n="B04K1" type="chapter" part="I"><ab n="B04K1V29"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><w>ερχομενον</w>
+<lb/><w>προς</w> <w>αυτον</w>
+<lb/><w>και</w> <w>λεγει</w><pc>·</pc> <w>ιδε</w>
+<lb/><w>ο</w> <w>αμνος</w> <w>του</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>ο</w> <w>αιρων</w> <w>την</w>
+<lb/><w>αμαρτιαν</w> <w>του</w>
+<lb/><w>κοσμου</w><pc>·</pc>
+<lb/></ab> <ab n="B04K1V30"><w>ουτος</w> <w>εστιν</w>
+<lb/><w>περι</w> <w>ου</w> <w>εγω</w>
+<lb/><w>ειπον</w> <w>οπισω</w>
+<lb/><w>μου</w> <w>ερχεται</w>
+<lb/><w>ανηρ</w> <w>ος</w> <w>εμ
+<lb break="no"/>προσθεν</w> <w>μου</w>
+<lb/><w>γεγονεν</w> <w>οτι</w>
+<lb/><w>πρωτος</w> <w>μου</w>
+<lb/><w>ην</w><pc>·</pc></ab> <ab n="B04K1V31"><w>καγω</w> <w>ου
+<lb break="no"/>κ</w> <w>ηδειν</w> <w>αυτον</w>
+<lb/><w>αλλ</w> <w>ινα</w> <w>φανε
+<lb break="no"/>ρωθη</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w>
+<lb/><w>δια</w> <w>τουτο</w> <w>ηλ
+<lb break="no"/>θον</w> <w>εγω</w> <w>εν</w>
+<lb/><w>υδατι</w> <w>βαπτι
+<lb break="no"/>ζων</w><pc>·</pc></ab> <ab n="B04K1V32"><w>και</w> <w>εμαρ
+<lb break="no"/>τυρησεν</w> <w>ιω
+<cb n="2" break="no"/>
+<lb/>αννης</w> <w>λεγων</w>
+<lb/><w>οτι</w> <w>τεθεαμαι</w>
+<lb/><w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>κατα
+<lb break="no"/>βαινον</w> <w>ωσει</w>
+<lb/><w>περιστεραν</w>
+<lb/><w>εξ</w> <w>ουρανου</w>
+<lb/><w>και</w> <w>εμεινεν</w>
+<lb/><w>επ</w> <w>αυτον</w><pc>·</pc></ab> <ab n="B04K1V33"><w>κα
+<lb break="no"/>γω</w> <w>ουκ</w> <w>ηδειν</w>
+<lb/><w>αυτον</w><pc>·</pc> <w>αλλ</w> <w>ο</w>
+<lb/><w>πεμψας</w> <w>με</w>
+<lb/><w>βαπτιζειν</w>
+<lb/><w>εν</w> <w>υδατι</w> <w>εκει
+<lb break="no"/>νος</w> <w>μοι</w> <w>ειπεν</w>
+<lb/><w>εφ</w> <w>ον</w> <w>αν</w> <w>ιδης</w>
+<lb/><w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>κατα
+<lb break="no"/>βαινον</w> <w>και</w> <w>με
+<lb break="no"/>νον</w> <w>επ</w> <w>αυτον</w>
+<lb/><w>ουτος</w> <w>εστιν</w>
+<lb/><w>ο</w> <w>βαπτιζων</w>
+<lb/><w>εν</w> <w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w> <w>αγιω</w><pc>·</pc>
+<lb/></ab> <ab n="B04K1V34"><w>καγω</w> <w>εορακα</w>
+<lb/><w>και</w> <w>μεμαρτυ
+<lb break="no"/>ρηκα</w> <w>οτι</w> <w>ουτος</w>
+</ab></div></div>
+<pb n="156v" type="folio"/>
+<cb n="1"/>
+<lb/><w>εστιν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>του</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc><div n="04" type="book" part="M"><div n="B04K1" type="chapter" part="F"><ab n="B04K1V35"><w>τη</w> <w>επαυ
+<lb break="no"/>ριον</w> <w>παλιν</w> <w>ι
+<lb break="no"/>στηκει</w> <w>ο</w> <w>ιω
+<lb break="no"/>αννης</w> <w>και</w> <w>εκ</w>
+<lb/><w>των</w> <w>μαθητων</w>
+<lb/><w>αυτου</w> <w>δυο</w><pc>·</pc>
+<lb/></ab> <ab n="B04K1V36"><w>και</w> <w>εμβλεψας</w>
+<lb/><w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>περιπα
+<lb break="no"/>τουντι</w> <w>λεγει</w><pc>·</pc>
+<lb/><w>ειδε</w> <w>ο</w> <w>αμνος</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc></ab> <ab n="B04K1V37"><w>και</w> <w>η
+<lb break="no"/>κουσαν</w> <w>αυτου</w>
+<lb/><w>οι</w> <w>δυο</w> <w>μαθη
+<lb break="no"/>ται</w> <w>λαλουντος</w>
+<lb/><w>και</w> <w>ηκολου
+<lb break="no"/>θησαν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><pc>·</pc>
+<lb/></ab> <ab n="B04K1V38"><w>στραφεις</w> <w>δε</w>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>θεα
+<lb break="no"/>σαμενος</w> <w>αυ
+<lb break="no"/>τους</w> <w>ακολου
+<lb break="no"/>θουντας</w> <w>λε
+<lb break="no"/>γει</w> <w>αυτοις</w> <w>τι</w>
+<lb/><w>ζητειτε</w><pc>·</pc> <w>οι</w> <w>δε</w>
+<cb n="2"/>
+<lb/><w>ειπον</w> <w>αυτω</w>
+<lb/><w>ραββει</w><pc>·</pc> <w>ο</w> <w>λεγε
+<lb break="no"/>τε</w> <w>ερμηνευ
+<lb break="no"/>ομενον</w> <w>διδα
+<lb break="no"/>σκαλε</w> <w>που</w> <w>με
+<lb break="no"/>νεις</w><pc>·</pc></ab> <ab n="B04K1V39"><w>λεγει</w> <w>αυ
+<lb break="no"/>τοις</w> <w>ερχεσθαι</w>
+<lb/><w>και</w> <w>ειδετε</w><pc>·</pc>
+<lb/><w>ηλθον</w> <w>και</w> <w>ει
+<lb break="no"/>δον</w> <w>που</w> <w>μενει</w>
+<lb/><w>και</w> <w>παρ</w> <w>αυτω</w>
+<lb/><w>εμεινον</w> <w>την</w>
+<lb/><w>ημεραν</w> <w>εκει
+<lb break="no"/>νην</w> <w>ωρα</w> <w>ην</w>
+<lb/><w>ως</w> <w>δεκατη</w><pc>·</pc>
+<lb/></ab> <ab n="B04K1V40"><w>ην</w> <w>ανδρεας</w>
+<lb/><w>ο</w> <w>αδελφος</w> <w>σι
+<lb break="no"/>μωνος</w> <w>πε
+<lb break="no"/>τρου</w><pc>·</pc> <w>εις</w> <w>εκ</w>
+<lb/><w>των</w> <w>δυο</w> <w>των</w>
+<lb/><w>ακουσαντων</w>
+<lb/><w>παρα</w> <w>ιωαννου</w>
+<lb/><w>και</w> <w>ακολουθη
+<lb break="no"/>σαντων</w> <w>αυτω</w><pc>·</pc>
+</ab></div></div>
+<pb n="159r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="04" type="book" part="M"><div n="B04K2" type="chapter" part="I"><ab n="B04K2V13"><w>και</w> <w>εγγυς</w> <w>ην</w>
+<lb/><w>το</w> <w>πασχα</w> <w>των</w>
+<lb/><w>ιουδαιων</w> <w>και</w>
+<lb/><w>ανεβη</w> <w>εις</w> <w>ιε
+<lb break="no"/>ροσολυμα</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb/></ab> <ab n="B04K2V14"><w>και</w> <w>ευρεν</w> <w>εν</w>
+<lb/><w>τω</w> <w>ιερω</w> <w>τους</w>
+<lb/><w>πωλουντας</w>
+<lb/><w>βοας</w> <w>και</w> <w>προ
+<lb break="no"/>βατα</w> <w>και</w> <w>περι
+<lb break="no"/>στερας</w><pc>·</pc> <w>και</w>
+<lb/><w>τους</w> <w>κερμα
+<lb break="no"/>τιστας</w> <w>καθη
+<lb break="no"/>μενους</w><pc>·</pc></ab> <ab n="B04K2V15"><w>και</w>
+<lb/><w>ποιησας</w> <w>φρα
+<lb break="no"/>γελλιον</w> <w>εκ</w>
+<lb/><w>σχοινιων</w> <w>παν
+<lb break="no"/>τας</w> <w>εξεβαλεν</w>
+<lb/><w>εκ</w> <w>του</w> <w>ιερου</w>
+<lb/><w>τα</w> <w>τε</w> <w>προβατα</w>
+<lb/><w>και</w> <w>τους</w> <w>βο
+<lb break="no"/>ας</w> <w>και</w> <w>των</w>
+<lb/><w>κολλυβιστων</w>
+<lb/><w>εξεχεεν</w> <w>το</w>
+<cb n="2"/>
+<lb/><w>κερμα</w><pc>·</pc> <w>και</w> <w>τας</w>
+<lb/><w>τραπεζας</w> <w>ανε
+<lb break="no"/>στρεψεν</w></ab> <ab n="B04K2V16"><w>και</w>
+<lb/><w>τοις</w> <w>τας</w> <w>πε
+<lb break="no"/>ριστερας</w> <w>πω
+<lb break="no"/>λουσιν</w> <w>ειπεν</w><pc>·</pc>
+<lb/><w>αρατε</w> <w>ταυτα</w>
+<lb/><w>εντευθεν</w>
+<lb/><w>μη</w> <w>ποιειτε</w>
+<lb/><w>τον</w> <w>οικον</w> <w>του</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>μου</w> <w>οικον</w>
+<lb/><w>εμποριου</w><pc>·</pc>
+<lb/></ab> <ab n="B04K2V17"><w>εμνησθησαν</w>
+<lb/><w>δε</w> <w>οι</w> <w>μαθη
+<lb break="no"/>ται</w> <w>αυτου</w> <w>οτι</w>
+<lb/><w>γεγραμμενον</w>
+<lb/><w>εστιν</w> <w>ο</w> <w>ζη
+<lb break="no"/>λος</w> <w>του</w> <w>οικου</w>
+<lb/><w>σου</w> <w>καταφα
+<lb break="no"/>γεται</w> <w>με</w><pc>·</pc></ab> <ab n="B04K2V18"><w>απε
+<lb break="no"/>κριθησαν</w> <w>ουν</w>
+<lb/><w>οι</w> <w>ιουδαιοι</w>
+<lb/><w>και</w> <w>ειπον</w> <w>αυτω</w>
+<lb/><w>τι</w> <w>σημειον</w>
+</ab></div></div>
+<pb n="159v" type="folio"/>
+<cb n="1"/>
+<lb/><w>διγνυεις</w> <w>ημιν</w>
+<lb/><w>οτι</w> <w>ταυτα</w> <w>ποι
+<lb break="no"/>εις</w><pc>·</pc><div n="04" type="book" part="M"><div n="B04K2" type="chapter" part="F"><ab n="B04K2V19"><w>απεκρι
+<lb break="no"/>θη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w>
+<lb/><w>αυτοις</w><pc>·</pc> <w>λυσα
+<lb break="no"/>τε</w> <w>τον</w> <w>ναον</w>
+<lb/><w>τουτον</w> <w>και</w> <w>εν</w>
+<lb/><w>τρισιν</w> <w>ημεραις</w>
+<lb/><w>εγερω</w> <w>αυτον</w><pc>·</pc>
+<lb/></ab> <ab n="B04K2V20"><w>ειπον</w> <w>ουν</w> <w>οι</w>
+<lb/><w>ιουδαιοι</w> <w>τεσ
+<lb break="no"/>σερακοντα</w>
+<lb/><w>και</w> <w>εξ</w> <w>ετεσιν</w>
+<lb/><w>ωκοδομηθη</w>
+<lb/><w>ο</w> <w>ναος</w> <w>ουτος</w>
+<lb/><w>και</w> <w>συ</w> <w>εν</w> <w>τρι
+<lb break="no"/>σιν</w> <w>ημεραις</w>
+<lb/><w>εγερεις</w> <w>αυτον</w>
+<lb/></ab> <ab n="B04K2V21"><w>εκεινος</w> <w>δε</w>
+<lb/><w>ελεγεν</w> <w>πε
+<lb break="no"/>ρι</w> <w>του</w> <w>ναου</w>
+<lb/><w>του</w> <w>σωματος</w>
+<lb/><w>αυτου</w><pc>·</pc></ab> <ab n="B04K2V22"><w>οτε</w> <w>ουν</w>
+<lb/><w>ηγερθη</w> <w>εκ</w> <w>νε
+<cb n="2" break="no"/>
+<lb/>κρων</w><pc>·</pc> <w>εμνη
+<lb break="no"/>σθησαν</w> <w>οι</w> <w>μα
+<lb break="no"/>θηται</w> <w>αυτου</w>
+<lb/><w>οτι</w> <w>τουτο</w> <w>ελε
+<lb break="no"/>γεν</w><pc>·</pc> <w>και</w> <w>επισ
+<lb break="no"/>τευσαν</w> <w>τη</w> <w>γρα
+<lb break="no"/>φη</w> <w>και</w> <w>τω</w> <w>λο
+<lb break="no"/>γω</w> <w>ω</w> <w>ειπεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><pc>·</pc>
+<lb/></ab> <ab n="B04K2V23"><w>ως</w> <w>δε</w> <w>ην</w> <w>εν</w>
+<lb/><w>τοις</w> <w>ιεροσο
+<lb break="no"/>λυμοις</w> <w>εν</w> <w>τω</w>
+<lb/><w>πασχα</w> <w>εν</w> <w>τη</w>
+<lb/><w>εορτη</w><pc>·</pc> <w>πολλοι</w>
+<lb/><w>επιστευσαν</w>
+<lb/><w>εις</w> <w>το</w> <w>ονομα</w>
+<lb/><w>αυτου</w> <w>θεωρουν
+<lb break="no"/>τες</w> <w>αυτου</w> <w>τα</w>
+<lb/><w>σημεια</w> <w>α</w> <w>εποιει</w><pc>·</pc>
+<lb/></ab> <ab n="B04K2V24"><w>αυτος</w> <w>δε</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb/><w>ουκ</w> <w>επιστευ
+<lb break="no"/>εν</w> <w>εαυτον</w> <w>αυ
+<lb break="no"/>τοις</w><pc>·</pc> <w>δια</w> <w>το</w> <w>αυ
+<lb break="no"/>τον</w> <w>γινωσκιν</w>
+<lb/><w>παντας</w><pc>·</pc></ab> <ab n="B04K2V25"><w>και</w>
+<lb/><gap reason="lacuna" unit="line" extent="unknown"/>
+</ab></div></div>
+<pb n="272r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="04" type="book" part="M"><div n="B04K21" type="chapter" part="I"><ab n="B04K21V1"><gap reason="lacuna" unit="line" extent="unknown"/>
+<lb/><w>εφανερωσεν</w>
+<lb/><w>δε</w> <w>ουτως</w><pc>·</pc>
+<lb/></ab> <ab n="B04K21V2"><w>ησαν</w> <w>ομου</w>
+<lb/><w>σιμων</w> <w>πετρος</w>
+<lb/><w>και</w> <w>θωμας</w>
+<lb/><w>ο</w> <w>λεγομενος</w>
+<lb/><w>διδυμος</w><pc>·</pc> <w>και</w>
+<lb/><w>ναθαναηλ</w>
+<lb/><w>ο</w> <w>απο</w> <w>κανα</w> <w>της</w>
+<lb/><w>γαλιλαιας</w><pc>·</pc> <w>και</w>
+<lb/><w>οι</w> <w>του</w> <w>ζεβε
+<lb break="no"/>δαιου</w><pc>·</pc> <w>και</w> <w>αλ
+<lb break="no"/>λοι</w> <w>εκ</w> <w>των</w> <w>μα
+<lb break="no"/>θητων</w> <w>αυτου</w>
+<lb/><w>δυο</w><pc>·</pc></ab> <ab n="B04K21V3"><w>λεγει</w> <w>αυ
+<lb break="no"/>τοις</w> <w>σιμων</w>
+<lb/><w>πετρος</w> <w>υπαγω</w>
+<lb/><w>αλιευειν</w><pc>·</pc> <w>λε
+<lb break="no"/>γουσιν</w> <w>αυτω</w>
+<lb/><w>ερχομεθα</w>
+<lb/><w>και</w> <w>ημεις</w> <w>συν</w>
+<lb/><w>σοι</w><pc>·</pc> <w>και</w> <w>ηλθον</w>
+<lb/><w>και</w> <w>ενεβησαν</w>
+<lb/><w>εις</w> <w>το</w> <w>πλοιον</w>
+<cb n="2"/>
+<lb/><w>ευθυς</w><pc>·</pc> <w>και</w> <w>ε
+<lb break="no"/>ν</w> <w>εκεινη</w> <w>τη</w>
+<lb/><w>νυκτι</w> <w>επιασαν</w>
+<lb/><w>ουδεν</w><pc>·</pc></ab> <ab n="B04K21V4"><w>πρω
+<lb break="no"/>ιας</w> <w>δε</w> <w>ηδη</w> <w>γε
+<lb break="no"/>νομενης</w> <w>εστη</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>εις</w> <w>τον</w> <w>αι
+<lb break="no"/>γιαλον</w><pc>·</pc> <w>ου</w> <w>μεν
+<lb break="no"/>τοι</w> <w>ηδεισαν</w>
+<lb/><w>οι</w> <w>μαθηται</w>
+<lb/><w>οτι</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>εστιν</w><pc>·</pc>
+<lb/></ab> <ab n="B04K21V5"><w>λεγει</w> <w>ουν</w> <w>αυ
+<lb break="no"/>τοις</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>παι
+<lb break="no"/>δια</w> <w>μη</w> <w>τι</w> <w>προσ
+<lb break="no"/>φαγιον</w> <w>εχετε</w><pc>·</pc>
+<lb/><w>απεκριθησαν</w>
+<lb/><w>αυτω</w> <w>ου</w><pc>·</pc></ab> <ab n="B04K21V6"><w>ο</w> <w>δε</w>
+<lb/><w>ειπεν</w> <w>αυτοις</w><pc>·</pc>
+<lb/><w>βαλετε</w> <w>εις</w>
+<lb/><w>τα</w> <w>δεξια</w> <w>μερη</w>
+<lb/><w>του</w> <w>πλοιου</w>
+<lb/><w>το</w> <w>δικτυον</w>
+<lb/><w>και</w> <w>ευρησεται</w><pc>·</pc>
+<lb/><w>εβαλον</w> <w>ουν</w><pc>·</pc>
+</ab></div></div>
+<pb n="272v" type="folio"/>
+<cb n="1"/>
+<lb/><w>και</w> <w>ουκετι</w>
+<lb/><w>αυτο</w> <w>ελκυσαι</w>
+<lb/><w>ισχυσαν</w> <w>απο</w>
+<lb/><w>του</w> <w>πληθους</w>
+<lb/><w>των</w> <w>ιχθυων</w><pc>·</pc>
+<lb/><div n="04" type="book" part="F"><div n="B04K21" type="chapter" part="F"><ab n="B04K21V7"><w>λεγει</w> <w>ουν</w> <w>ο</w> <w>μα
+<lb break="no"/>θητης</w> <w>εκει
+<lb break="no"/>νος</w> <w>ον</w> <w>ηγαπα</w>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>τω</w> <w>πετρω</w><pc>·</pc>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>εστιν</w><pc>·</pc>
+<lb/><w>σιμων</w> <w>ουν</w>
+<lb/><w>πετρος</w> <w>ακου
+<lb break="no"/>σας</w> <w>οτι</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w>
+<lb/><w>εστιν</w> <w>τον</w> <w>ε
+<lb break="no"/>πενδυτην</w>
+<lb/><w>διεζωσατο</w>
+<lb/><w>ην</w> <w>γαρ</w> <w>γυμνος</w>
+<lb/><w>και</w> <w>εβαλεν</w>
+<lb/><w>εαυτον</w> <w>εις</w>
+<lb/><w>την</w> <w>θαλασσαν</w><pc>·</pc>
+<lb/></ab> <ab n="B04K21V8"><w>οι</w> <w>δε</w> <w>αλλοι</w> <w>μα
+<lb break="no"/>θηται</w> <w>τω</w>
+<lb/><w>πλοιω</w> <w>ηλθον</w>
+<lb/><w>ου</w> <w>γαρ</w> <w>ησαν</w>
+<cb n="2"/>
+<lb/><w>μακραν</w> <w>απο</w>
+<lb/><w>της</w> <w>γης</w> <w>αλλ</w>
+<lb/><w>ως</w> <w>απο</w> <w>πηχων</w>
+<lb/><w>διακοσιων</w>
+<lb/><w>συροντες</w> <w>το</w>
+<lb/><w>δικτυον</w> <w>των</w>
+<lb/><w>ιχθυων</w><pc>·</pc></ab> <ab n="B04K21V9"><w>ως</w>
+<lb/><w>ουν</w> <w>απεβησαν</w>
+<lb/><w>εις</w> <w>την</w> <w>γην</w>
+<lb/><w>ειδαν</w> <w>ανθρα
+<lb break="no"/>κιαν</w> <w>κειμενην</w>
+<lb/><w>και</w> <w>οψαριον</w>
+<lb/><w>επικειμενον</w>
+<lb/><w>και</w> <w>αρτον</w><pc>·</pc>
+<lb/></ab> <ab n="B04K21V10"><w>λεγει</w> <w>αυτοις</w>
+<lb/><w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w><pc>·</pc> <w>ενεγκα
+<lb break="no"/>τε</w> <w>απο</w> <w>των</w>
+<lb/><w>οψαριων</w> <w>ων</w>
+<lb/><w>επιασατε</w> <w>νυν</w><pc>·</pc>
+<lb/></ab> <ab n="B04K21V11"><w>ανεβη</w> <w>σιμων</w>
+<lb/><w>πετρος</w> <w>και</w>
+<lb/><w>ειλκυσεν</w> <w>το</w>
+<lb/><w>δικτυον</w> <w>εις</w>
+<lb/><w>την</w> <w>γην</w> <w>μεσ
+<lb break="no"/>τον</w> <gap reason="lacuna" unit="char" extent="unknown"/></ab></div></div></body></text></TEI>

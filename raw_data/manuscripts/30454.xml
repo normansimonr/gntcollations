@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="454">454</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Biblioteca Medicea Laurenziana</repository>
+            <idno>Pluteo IV. 1</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="204r" type="folio"/><cb n="1"/><lb/><div type="book" n="B15"><div type="incipit" n="B15incipit"><ab><w>προς</w> <w>τιμοθεον</w><lb/></ab></div><div type="chapter" n="B15K1"><ab n="B15K1V1"><w>παυλος</w> <w>αποστολος</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>κατ</w> <w>επιταγην</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">σρς</hi></abbr></w> <w>ημων</w><lb/><w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w>της</w> <w>ελπιδος</w> <w>ημων</w></ab> <ab n="B15K1V2"><w>τιμοθεω</w> <w>γνησιω</w> <w>τεκνω</w><lb/><w>εν</w> <w>πιστει</w> <w>χαρις</w> <w>ελεος</w> <w>ειρηνη</w> <w>απο</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>ημων</w><lb/><w>και</w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>ημων</w></ab> <ab n="B15K1V3"><w>καθως</w> <w>παρεκαλεσατε</w> <w>προσ<lb break="no"/>μειναι</w> <w>εν</w> <w>εφεσω</w> <w>πορευομενος</w> <w>εις</w> <w>μακεδονιαν</w><lb/><w>ινα</w> <w>παραγγειλης</w> <w>τισι</w> <w>μη</w> <w>ετεροδιδασκαλειν</w></ab> <ab n="B15K1V4"><w>μηδε</w><lb/><w>προσεχειν</w> <w>μυθοις</w> <w>και</w> <w>γενεαλογιαις</w> <w>απεραντοις</w><lb/><w>αιτινες</w> <w>ζητησεις</w> <w>παρεχουσι</w> <w>μαλλον</w> <w>η</w> <w>οικονομιαν</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>την</w> <w>εν</w> <w>πιστει</w></ab> <ab n="B15K1V5"><w>το</w> <w>δε</w> <w>τελος</w> <w>της</w> <w>παραγγελιας</w> <w>εστιν</w><lb/><w>αγαπη</w> <w>εκ</w> <w>καθαρας</w> <w>καρδιας</w> <w>και</w> <w>συνειδησεως</w> <w>αγα<lb break="no"/>θης</w> <w>και</w> <w>πιστεως</w> <w>ανυποκριτου</w></ab> <ab n="B15K1V6"><w>ων</w> <w>τινων</w> <w>αστοχη<lb break="no"/>σαντες</w> <w>εξετραπησαν</w> <w>εις</w> <w>ματαιολογιαν</w></ab> <ab n="B15K1V7" part="I"><w>θελοντες</w><lb/><w>ειναι</w> <w>νομοδιδασκαλοι</w></ab></div> </div></body></text></TEI>

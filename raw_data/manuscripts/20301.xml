@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0301">0301</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Münster</settlement>
+            <repository>Bibelmuseum</repository>
+            <idno>Schøyen Collection (Dauerleihgabe)</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Norway</country>
+            <settlement>Oslo/London</settlement>
+            <repository>The Schøyen Collection</repository>
+            <idno>MS 1367</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="10" type="page" break="no"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K17"><ab n="B04K17V1" part="F"><w part="F">μους</w> <w>αυτου</w><lb/><w>εις</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ου<lb break="no"/>νον</hi></abbr></w> <w>ειπεν</w><lb/><w><abbr type="nomSac"><hi rend="overline">πε</hi><supplied source="na28" reason="illegible"><hi rend="overline">ρ</hi></supplied></abbr></w> <w>εληλυ<supplied source="na28" reason="illegible">θεν</supplied></w><lb/><w>η</w> <w>ωρα</w> <w>δοξασο<supplied source="na28" reason="illegible">ν</supplied></w><lb/><w>σου</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">υν</hi></abbr></w><lb/><w>ινα</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>δο<unclear>ξα</unclear><lb break="no"/>ση</w> <w>σε</w><pc>·</pc></ab> <ab n="B04K17V2" part="I"><w>καθως</w><lb/><w>εδωκας</w> <w>αυτω</w><lb/><w>εξουσιαν</w> <w>πα<lb break="no"/>σης</w> <w>σαρκος</w><lb/><w>ινα</w> <w>παν</w> <w>ο</w> <w>δε<lb break="no"/>δωκας</w> <w>αυτω</w><lb/><w>δωσει</w> <w>αυτοις</w></ab></div> </div>
+<pb n="20" type="page"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K17"><ab n="B04K17V2" part="F"><w><supplied source="na28" reason="lacuna">ζω</supplied>ην</w> <w>αιωνιον</w><pc>·</pc><lb/></ab> <ab n="B04K17V3"><w><supplied source="na28" reason="lacuna">α</supplied>υτη</w> <w>δε</w> <w>εστιν</w><lb/><w><supplied source="na28" reason="lacuna">η</supplied></w> <w>αιωνιος</w> <w>ζω<lb break="no"/><supplied source="na28" reason="lacuna">η</supplied></w> <w>ινα</w> <w>γιν<unclear>ωσ</unclear><lb break="no"/><unclear>κ</unclear>ουσιν</w> <w>σε</w><lb/><w>τον</w> <w>μονον</w><lb/><w>αληθεινον</w><lb/><w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w><pc>·</pc> <w>και</w> <w>ον</w> <w>α<lb break="no"/>πεστειλας</w><note type="editorial" xml:id="B04K17V3-0301-1">Korrektur oder Zeilenfüller?</note><lb/><w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χν</hi></abbr></w><pc>·</pc></ab> <ab n="B04K17V4" part="I"><w>εγω</w> <w>σε</w><lb/><w>εδοξασα</w> <w>επι</w><lb/><w>της</w> <w>γης</w> <w>το</w><lb/><w><supplied source="na28" reason="illegible">ερ</supplied>γον</w> <w>τελει<lb break="no"/>ωσας</w> <w>ο</w> <w part="I">δεδω<lb break="no"/></w></ab></div> </div></body></text></TEI>

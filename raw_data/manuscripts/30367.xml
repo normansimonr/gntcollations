@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="367">367</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Biblioteca Medicea Laurenziana</repository>
+            <idno>Conv. Soppr. 53</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="291r" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="incipit" n="B27incipit"><ab n="B27KInscriptioV0"><w><hi rend="rubric">αποκαλυψις</hi></w> <w><hi rend="rubric">του</hi></w> <w><hi rend="rubric">αγιου</hi></w> <w><hi rend="rubric"><abbr type="nomen%20proprium"><hi rend="overline">ιωαννου</hi></abbr></hi></w> <w><hi rend="rubric">του</hi></w> <w><hi rend="rubric">θεολογου</hi></w><pc>:</pc><lb rend="hang"/></ab></div><div type="chapter" n="B27K1"><ab n="B27K1V1"><seg type="margin" subtype="pageright" n="@P5-367"><num type="andrew" n="1">α</num></seg> <w><hi rend="cap" height="6"><hi rend="rubric">α</hi></hi>ποκαλυψις</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><pc>·</pc> <w>ην</w> <w>εδωκεν</w> <w>αυτω</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w> <w>δειξαι</w> <w>τοις</w><lb/><w>δουλοις</w> <w>αυτου</w><pc>,</pc> <w>α</w> <w>δει</w> <w>γενεσθαι</w> <w>εν</w> <w>ταχει</w><pc>·</pc> <w>και</w> <w>εσημανεν</w><pc>·</pc><lb/><w>αποστειλας</w> <w>δια</w> <w>του</w> <w>αγγελου</w> <w>αυτου</w><pc>,</pc> <w>τω</w> <w>δουλω</w> <w>αυτου</w><lb/><w><abbr type="nomen%20proprium"><hi rend="overline">ιωαννη</hi></abbr></w><pc>·</pc></ab> <ab n="B27K1V2"><w>ος</w> <w>εμαρτυρησε</w> <w>τον</w> <w>λογον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc> <w>και</w> <w>την</w><lb/><w>μαρτυριαν</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><pc>,</pc> <w>οσα</w> <w>ειδε</w><pc>·</pc> <w>και</w> <w>ατινα</w> <w>εισι</w><pc>·</pc> <w>και</w> <w>ατινα</w><lb/><w>χρη</w> <w>γενεσθαι</w> <w>μετα</w> <w>ταυτα</w><pc>·</pc></ab> <ab n="B27K1V3"><w>μακαριος</w> <w>ο</w> <w>αναγινωσκων</w><pc>·</pc><lb/><w>και</w> <w>οι</w> <w>ακουοντες</w> <w>τους</w> <w>λογους</w> <w>της</w> <w>προφητειας</w> <w>ταυτης</w><pc>·</pc><lb/><w>και</w> <w>τηρουντες</w> <w>τα</w> <w>εν</w> <w>αυτη</w> <w>γεγραμμενα</w><pc>·</pc> <w>ο</w> <w>γαρ</w> <w>καιρος</w><lb/><w>εγγυς</w><pc>·</pc></ab> <ab n="B27K1V4"><w><abbr type="nomen%20proprium"><hi rend="overline">ιωαννης</hi></abbr></w><pc>·</pc> <w>ταις</w> <w>επτα</w> <w>εκκλησιαις</w> <w>ταις</w> <w>εν</w> <w>τη</w> <w>ασια</w><pc>·</pc><lb rend="hang"/><w><hi rend="cap" height="1-2"><hi rend="rubric">χ</hi></hi>αρις</w> <w>υμιν</w> <w>και</w> <w>ειρηνη</w> <w>απο</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc> <w>ο</w> <w>ων</w> <w>και</w> <w>ο</w> <w>ην</w><pc>·</pc> <w>και</w> <w>ο</w> <w>ερχομενος</w><pc>·</pc><lb/><w>και</w> <w>απο</w> <w>των</w> <w>επτα</w> <w>πνευματων</w><pc>·</pc> <w>α</w> <w>ενωπιον</w> <w>του</w> <w>θρονου</w><lb/><w>αυτου</w><pc>·</pc></ab> <ab n="B27K1V5"><w>και</w> <w>απο</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">χυ</hi></abbr></w><pc>·</pc> <w>ο</w> <w>μαρτυς</w> <w>ο</w> <w>πιστος</w><pc>·</pc> <w>ο</w> <w>πρωτοτοκος</w><lb/><w>των</w> <w>νεκρων</w><pc>·</pc> <w>και</w> <w>ο</w> <w>αρχων</w> <w>των</w> <w>βασιλεων</w> <w>της</w> <w>γης</w><pc>·</pc> <w>τω</w><lb/><w>αγαπωντι</w> <w>ημας</w> <w>και</w> <w>λουσαντι</w> <w>ημας</w> <w>απο</w> <w>των</w> <w>αμαρτιων</w><lb/><w>ημων</w><pc>,</pc> <w>εν</w> <w>τω</w> <w>αιματι</w> <w>αυτου</w><pc>·</pc></ab> <ab n="B27K1V6"><w>και</w> <w>ποιησαντι</w> <w>ημιν</w><pc>,</pc> <w>βασι<lb break="no"/>λειον</w> <w>ιερατευμα</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πρι</hi></abbr></w> <w>αυτου</w><pc>·</pc> <w>αυτω</w> <w>η</w> <w>δοξα</w> <w>και</w><lb/><w>το</w> <w>κρατος</w> <w>εις</w> <w>τους</w> <w>αιωνας</w> <w>αμην</w><pc>·</pc></ab> <ab n="B27K1V7" part="I"><w>ιδου</w> <w>ερχεται</w> <w>μετα</w><lb rend="hang"/><w><hi rend="cap" height="1-2"><hi rend="rubric">τ</hi></hi>ων</w> <w>νεφελων</w><pc>·</pc> <w>και</w> <w>οψεται</w> <w>αυτον</w> <w>πας</w> <w>οφθαλμος</w><pc>·</pc> <w>και</w> <w>οιτινες</w></ab></div> </div></body></text></TEI>

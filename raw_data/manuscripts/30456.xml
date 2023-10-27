@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="456">456</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Biblioteca Medicea Laurenziana</repository>
+            <idno>Pluteo     IV. 30</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="351v" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K2"><ab n="B27K2V13" part="F"><w>θρονος</w> <w>του</w> <w>σατανα</w><pc>·</pc> <w>και</w> <w>κρατεις</w> <w>το</w> <w>ονο<lb break="no"/>μα</w> <w>μου</w><pc>·</pc> <w>και</w> <w>ουκ</w> <w>ηρνησω</w> <w>την</w> <w>πιστιν</w> <w>μου</w><lb/><w>εν</w> <w>ταις</w> <w>ημεραις</w> <w>αις</w> <w>ἀντεῖπας</w> <w>ο</w> <w>μαρ<lb break="no"/>τυς</w> <w>μου</w> <w>ο</w> <w>πιστος</w><pc>·</pc> <w>ος</w> <w>απεκτανθη</w> <w>πα<lb break="no"/>ρ</w> <w>υμιν</w> <w>οπου</w> <w>ο</w> <w>σατανας</w> <w>κατοικει</w><pc>·</pc></ab> <ab n="B27K2V14"><w>αλλα</w><lb/><w>εχω</w> <w>κατα</w> <w>σου</w> <w>ολιγα</w><pc>·</pc> <w>οτι</w> <w>εχεις</w> <w>εκει</w> <w>κρα<lb break="no"/>τουντας</w> <w>την</w> <w>διδαχην</w> <w>βαλααμ</w><pc>·</pc> <w>ος</w><lb/><w>εδιδαξεν</w> <w>τον</w> <w>βαλακ</w> <w>βαλειν</w> <w>σκαν<lb break="no"/>δαλον</w> <w>ενωπιον</w> <w>των</w> <w>υιων</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><pc>·</pc> <w>του</w><lb/><w>φαγειν</w> <w>ειδωλοθυτα</w> <w>και</w> <w>πορνευσαι</w><pc>·</pc></ab> <ab n="B27K2V15"><w>ουτως</w><lb/><w>εχεις</w> <w>και</w> <w>συ</w> <w>κρατουντας</w> <w>την</w> <w>διδαχην</w><lb/><w>νικολαιτων</w> <w>ομοιως</w><pc>·</pc><space unit="char" extent="1"/></ab> <ab n="B27K2V16"><w>μετανοησον</w><lb rend="hang"/><w>ουν</w><pc>·</pc> <w>ει</w> <w>δε</w> <w>μη</w> <w>ερχομαι</w> <w>σοι</w> <w>ταχυ</w><pc>·</pc> <w>και</w> <w>πολε<lb break="no"/>μησω</w> <w>μετ</w> <w>αυτων</w> <w>εν</w> <w>τη</w> <w>ρομφαια</w> <w>του</w><lb/><w>στοματος</w> <w>μου</w><pc>·</pc></ab> <ab n="B27K2V17"><w>ο</w> <w>εχων</w> <w>ους</w> <w>ακουσατω</w><pc>·</pc><lb/><w>τι</w> <w>το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>λεγει</w> <w>ταις</w> <w>εκκλησιαις</w><pc>·</pc> <w>τω</w><lb/><w>νικωντι</w> <w>δωσω</w> <w>αυτω</w> <w>του</w> <w>μαννα</w> <w>του</w><lb/><w>κεκρυμμενου</w><pc>·</pc> <w>και</w> <w>δωσω</w> <w>αυτω</w> <w>ψηφον</w><lb/><w>λευκην</w><pc>·</pc> <w>και</w> <w>επι</w> <w>την</w> <w>ψηφον</w> <w>ονομα</w> <w>και<lb break="no"/>νον</w> <w>γεγραμμενον</w><pc>·</pc> <w>ο</w><pc>·</pc> <w>ουδεις</w> <w>οιδεν</w> <w>ει</w> <w>μη</w><lb/><w>ο</w> <w>λαμβανων</w><pc>·</pc><space unit="char" extent="1"/></ab> <ab n="B27K2V18" part="I"><w>και</w> <w>τω</w> <w>αγγελω</w> <w>της</w> <w>εν</w><lb rend="hang"/><w>θυατειρη</w> <w>εκκλησιας</w> <w>γραψον</w><pc>·</pc> <w>ταδε</w></ab></div> </div></body></text></TEI>

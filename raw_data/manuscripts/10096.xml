@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P96">P96</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Austria</country>
+            <settlement>Wien</settlement>
+            <repository>Österreichische Nationalbibliothek</repository>
+            <idno>Pap. K. 7244</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="g-k"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K3"><ab n="B01K3V13" part="F"><w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">ιορδαν</supplied><unclear>ην</unclear></w><lb/><w><supplied reason="unspecified">προς</supplied></w> <w><supplied reason="unspecified">το</supplied><unclear>ν</unclear></w> <w>ιω<unclear>αν</unclear><lb break="no"/><supplied reason="unspecified">νην</supplied></w> <w><supplied reason="unspecified">του</supplied></w> <w>βαπτι<lb break="no"/><supplied reason="unspecified">σθη</supplied><unclear>ναι</unclear></w> <w><unclear>υ</unclear>π</w> <w>αυ<lb break="no"/><supplied reason="unspecified">του</supplied></w></ab> <ab n="B01K3V14"><w>ο</w> <w>δ<unclear>ε</unclear></w> <w>ιωαν<lb break="no"/><supplied reason="unspecified">νης</supplied></w> <w><unclear>δι</unclear>ε<unclear>κ</unclear>ωλ<unclear>υ</unclear><lb break="no"/><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">α</supplied><unclear>υ</unclear>τον</w> <w><supplied reason="unspecified">λ</supplied>εγων</w><lb/><w><supplied reason="unspecified">εγω</supplied></w> <w><unclear>χρε</unclear><supplied reason="unspecified">ιαν</supplied></w> <w>εχω</w><lb/><w><supplied reason="unspecified">υπο</supplied></w> <w><supplied reason="unspecified">σο</supplied><unclear>υ</unclear></w> <w><unclear>β</unclear><supplied reason="unspecified">α</supplied><unclear>πτι</unclear><lb break="no"/><supplied reason="unspecified">σθ</supplied><unclear>ην</unclear>αι</w> <w>και</w> <w>συ</w><lb/><w><supplied reason="unspecified">ερχ</supplied>η</w> <w>προς</w> <w>με</w><lb/></ab> <ab n="B01K3V15" part="I"><w><supplied reason="unspecified">απο</supplied>κριθεις</w> <w><supplied reason="unspecified">δε</supplied></w> <w><supplied reason="unspecified">ο</supplied></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w> <w><unclear>ε</unclear>ιπεν</w> <w>α<unclear>υτω</unclear></w><lb/><w><supplied reason="unspecified">αφε</supplied>ς</w> <w>αρτι</w> <w>ουτ<supplied reason="unspecified">ως</supplied></w><lb/><w>γαρ</w> <w><supplied source="na28" reason="lacuna">πρεπον</supplied></w> <w><supplied source="na28" reason="lacuna">εστιν</supplied></w></ab></div> </div></body></text></TEI>

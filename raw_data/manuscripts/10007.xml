@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P7">P7</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Ukraine</country>
+            <settlement>Kyiv</settlement>
+            <repository>Vernadsky National Library </repository>
+            <idno>Ф. 301 (КДА) 553п</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B03"><div type="chapter" n="B03K4"><ab n="B03K4V1"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w><unclear>δε</unclear></w> <w>πλ<supplied reason="unspecified">ηρης</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">π</hi></supplied><unclear><hi rend="overline">ν</hi></unclear><hi rend="overline">ς</hi></abbr></w> <w>αγιου</w> <w>υ<lb break="no"/>πεστ<unclear>ρε</unclear><supplied reason="unspecified">ψεν</supplied></w> <w><supplied reason="unspecified">απ</supplied>ο</w> <w>του</w> <w>ιορ<lb break="no"/><unclear>δανο</unclear><supplied reason="unspecified">υ</supplied></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">ηγετο</supplied></w> <w>εν</w> <w><unclear>τω</unclear></w> <w><abbr type="nomSac"><hi rend="overline">πνι</hi></abbr></w><lb/><w><unclear>εν</unclear></w> <w><unclear>τη</unclear></w> <w><unclear>ερ</unclear><supplied reason="unspecified">ημ</supplied><unclear>ω</unclear></w></ab> <ab n="B03K4V2"><w><unclear>ημερα</unclear>ς</w> <w>τεσ<lb break="no"/>σερακοντα</w> <w>πειραζομενος</w><lb/><w>υπο</w> <w>του</w> <w>διαβολου</w> <w>και</w> <w>ουκ</w> <w>ε<lb break="no"/><unclear>φ</unclear>αγεν</w> <w>ου<unclear>δε</unclear>ν</w> <w>εν</w> <w>ταις</w> <w>ημε<lb break="no"/><unclear>ραις</unclear></w> <w><unclear>εκ</unclear><supplied reason="unspecified">εινα</supplied><unclear>ις</unclear></w> <w>κ<unclear>α</unclear>ι</w> <w>συντε<lb break="no"/>λ<unclear>εσθ</unclear>ει<supplied reason="unspecified">σων</supplied></w> <w><supplied reason="unspecified">αυτων</supplied></w> <w><supplied reason="unspecified">επει</supplied><lb break="no"/>ν<supplied reason="unspecified">ασεν</supplied></w></ab></div> </div></body></text></TEI>

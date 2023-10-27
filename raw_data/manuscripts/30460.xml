@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="460">460</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Venice</settlement>
+            <repository>Biblioteca Nazionale Marciana</repository>
+            <idno>Gr. Z. 11 (379)</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="g-l-arb"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="12r" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V5"><w>πεσων</w> <w>εξεψυξεν</w> <w>και</w> <w>εγε<lb break="no"/>νετο</w> <w>φοβος</w> <w>μεγας</w> <w>επι</w> <w>παντας</w><lb/><w>τους</w> <w>ακουοντας</w><cb n="2"/><lb/></ab></div></div><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V5"><w>cecidit</w> <w>et</w> <w>expiravit</w><lb/><w>et</w><cb n="3"/><lb/></ab></div></div><div type="book" n="B05"><div type="chapter" n="B05K5"><ab n="B05K5V5"/></div></div></body></text></TEI>

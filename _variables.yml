@@ -1,0 +1,11 @@
+version: "1.0.0"
+listeupdated: "October 1, 2023"
+byzversion: "3.3.0"
+
+email:
+  info: info@example.com
+  support: support@example.com
+
+engine:
+  jupyter: "[Jupyter](https://jupyter.org)"
+  knitr: "[Knitr](<https://yihui.name/knitr>)" 

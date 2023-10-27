@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GA077"><teiHeader>
+    <fileDesc>      
+      <titleStmt>
+        <title>A Transcription of Acts in 077</title>
+        <title type="document" key="20077" n="077">GA 077</title>
+        <title type="collection" level="s" xml:lang="en">The New Testament</title>
+        <title type="collection" level="s" xml:lang="de">Das Neue Testament</title>
+        <title type="work" level="m" xml:lang="de" n="05">The Acts of the Apostles</title>
+        <title type="short" level="m" xml:lang="de" n="05">Acts</title>      
+        <respStmt>
+          <resp>Created by</resp>
+          <name type="org">the Institut für neutestamentliche Textforschung, Münster, Germany</name>
+        </respStmt>       
+        <respStmt>
+          <resp>XML conversion by</resp>
+          <name type="org">the Institute for Textual Scholarship and Electronic Editing, Birmingham</name>
+        </respStmt>      
+        <sponsor>
+          <name type="org">Institut für neutestamentliche Textforschung, Münster, Germany</name>
+        </sponsor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2.0">Version 2.0, created on <date>16.6.2014</date></edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <name type="org">Institut für neutestamentliche Textforschung</name>
+          <name type="org">Westfälische Wilhelms-Universität Münster</name>
+        </publisher>
+        <date>16.6.2014</date>
+        <availability>
+          <p>All rights reserved by the INTF</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <altIdentifier type="GA">
+              <idno>077</idno>
+            </altIdentifier>
+            <altIdentifier type="Liste">
+              <idno>20077</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="1.5">
+      <projectDesc>
+        <p>This transcription was made by INTF in conjunction with its electronic and printed
+          editions of the New Testament (Nestle-Aland Novum Testamentum Graece, Novum Testamentum
+          Graecum Editio Critica Maior, NTtranscripts)</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The initial transcription file was a plain text file for use with COLLATE, later
+          converted to XML according to the Text Encoding Initiative P5 guidelines.</p>
+      	<p>The XML specifications used are version 1.5 of the IGNTP Guidelines available at <ptr target="http://epapers.bham.ac.uk/1892/"/>
+      	</p></editorialDecl>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    	
+    </encodingDesc>
+  </teiHeader>
+
+  <text xml:lang="grc"><body><pb n="10" type="page"/><note type="editorial" xml:id="BKV-077-2">Transkript übernommen aus: Rendel Harris, Studia Sinaitica I, London, Cambridge 1894, 98.</note><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K13"><ab n="B05K13V28" part="F"><w><supplied reason="unspecified">θανα</supplied>το<supplied reason="unspecified">υ</supplied></w> <w><supplied reason="unspecified">ευρον</supplied><lb break="no"/><supplied reason="unspecified">τες</supplied></w> <w>ητ<supplied reason="unspecified">ησαντο</supplied></w><lb/><w><supplied reason="unspecified">πι</supplied>λατο<supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">αναιρ</supplied><lb break="no"/><supplied reason="unspecified">εθη</supplied>ναι</w> <w><supplied reason="unspecified">αυ<supplied reason="unspecified">τ</supplied></supplied>ον</w></ab> <ab n="B05K13V29"><w><supplied reason="unspecified">ως</supplied></w><lb/><w>δε</w> <w>ετε<supplied reason="unspecified">λ</supplied>εσαν</w><lb/><w><supplied reason="unspecified">π</supplied>αντα</w> <w>τα</w> <w>π<supplied reason="unspecified">ερι</supplied></w><lb/><w><supplied reason="unspecified">αυ</supplied>του</w> <w>γεγ<supplied reason="unspecified">ραμ</supplied><lb break="no"/><supplied reason="unspecified">μενα</supplied></w> <w>καθελον<supplied reason="unspecified">τες</supplied></w><lb/><gap reason="unspecified" unit="char" extent="3"/> <w><supplied reason="unspecified">απ</supplied>ο</w> <w>του</w> <w><supplied reason="unspecified">ξυλου</supplied></w><lb/><gap reason="unspecified" unit="char" extent="4"/> <w>εθηκα<supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">εις</supplied></w><lb/><w><supplied reason="unspecified">μ</supplied>νημιον</w><pc>·</pc></ab> <ab n="B05K13V30"><w>ο</w> <w><supplied reason="unspecified">δε</supplied></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">θ</hi></supplied><hi rend="overline">ς</hi></abbr></w> <w>αυτον</w> <w><supplied reason="unspecified">ηγει</supplied><lb break="no"/><supplied reason="unspecified">ρε</supplied>ν</w> <w>εκ</w> <w>νε<supplied reason="unspecified">κρων</supplied></w><lb/></ab> <ab n="B05K13V31" part="I"><w><supplied reason="unspecified">ος</supplied></w> <w><supplied reason="unspecified">ω</supplied>φθη</w> <w>επ<supplied reason="unspecified">ι</supplied></w> <w><supplied reason="unspecified">ημε</supplied><lb break="no"/><supplied reason="unspecified">ρας</supplied></w> <w>πλιο<supplied reason="unspecified">υς</supplied></w><lb/><w><supplied reason="unspecified">τοις</supplied></w> <w><supplied reason="unspecified">σ</supplied>υνα<supplied reason="unspecified">ναβα</supplied><lb break="no"/><supplied reason="unspecified">σιν</supplied></w> <w><supplied reason="unspecified">αυ</supplied>τω</w> <w>α<supplied reason="unspecified">πο</supplied></w></ab></div> </div></body></text></TEI>

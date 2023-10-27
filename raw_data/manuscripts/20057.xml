@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="057">057</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Berlin</settlement>
+            <repository>Staatliche Museen zu Berlin Preußischer Kulturbesitz</repository>
+            <idno>P. 9808</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K3"><ab n="B05K3V5"><gap reason="lacuna" unit="line" extent="unspecified"/><lb/><w><supplied reason="unspecified">αυτοι</supplied>ς</w> <w><unclear>πρ</unclear>οσδοκω<supplied reason="unspecified">ν</supplied></w><lb/><w><supplied reason="unspecified">τι</supplied></w> <w><supplied reason="unspecified">παρ</supplied></w> <w>αυτων</w> <w><unclear>λαβ</unclear>ειν</w><pc>·</pc><lb/></ab> <ab n="B05K3V6" part="I"><w><supplied reason="unspecified">ειπεν</supplied></w> <w><unclear>δε</unclear></w> <w><supplied reason="unspecified">π</supplied><unclear>ετ</unclear>ρος</w> <w>αρ<lb break="no"/><supplied reason="unspecified">γυ</supplied><unclear>ρ</unclear><supplied reason="unspecified">ι</supplied>ον</w> <w>κα<unclear>ι</unclear></w> <w>χρυσι<unclear>ον</unclear></w> <w><unclear>ο</unclear>υ<lb break="no"/><supplied reason="unspecified">χ</supplied></w> <w><unclear>υ</unclear>παρχι</w> <w>μοι</w><pc>·</pc> <w><unclear>ο</unclear></w> <w><unclear>δ</unclear>ε</w> <w><unclear>ε</unclear><lb break="no"/><unclear>χω</unclear></w> <w><unclear>τ</unclear>ουτο</w> <w>σο<unclear>ι</unclear></w> <w><unclear>διδω</unclear><supplied reason="unspecified">μ</supplied><unclear>ι</unclear></w><pc>·</pc><lb/><w><gap reason="lacuna"/></w><cb n="2"/><lb/></ab> <ab n="B05K3V10" part="F"><w part="F"><unclear>ι</unclear>ερου</w> <w>κ<unclear>α</unclear>ι</w> <w>επλησθη<lb break="no"/>σαν</w> <w>θα<unclear>μ</unclear>βους</w> <w>και</w> <w>εκ<lb break="no"/>στασεως</w> <w>επι</w> <w>τω</w><lb/><w>συ<unclear>μ</unclear>β<unclear>εβ</unclear>ηκοτι</w> <w>αυτω</w><lb/></ab> <ab n="B05K3V11"><w>κρατ<unclear>ουν</unclear>τος</w> <w>δε</w> <w>αυ<lb break="no"/>του</w> <w>τον</w> <w>πετρον</w> <w>και</w><lb/><w>τον</w> <w>ιωα<unclear>ννην</unclear></w> <w>συνε<lb break="no"/>δραμεν</w> <w>π<unclear>α</unclear>ς</w> <w>ο</w> <w><unclear>λα</unclear>ος</w><lb/><w><unclear>π</unclear>ρος</w> <w>αυτ<unclear>ο</unclear>υ<unclear>ς</unclear></w> <w><unclear>ε</unclear>πι</w> <w><unclear>τη</unclear></w><lb/><w><unclear>σ</unclear><supplied reason="unspecified">το</supplied><unclear>α</unclear></w> <w>τη</w> <w><unclear>καλ</unclear>ου<unclear>μ</unclear>ε<lb break="no"/><supplied reason="unspecified">ν</supplied><unclear>η</unclear></w> <w>σο<unclear>λ</unclear>ομων<unclear>τ</unclear>ος</w><lb/><w><supplied reason="unspecified">ε</supplied><unclear>κ</unclear>θ<unclear>αμβ</unclear>οι</w><pc>·</pc></ab> <ab n="B05K3V12" part="I"><w>ιδ<unclear>ω</unclear>ν</w> <w>δε</w><lb/><w><supplied reason="unspecified">ο</supplied></w> <w><unclear>πετρος</unclear></w> <w><unclear>α</unclear>π<unclear>ε</unclear>κρι<lb break="no"/><supplied reason="unspecified">νατο</supplied></w> <w><supplied reason="unspecified">π</supplied><unclear>ρ</unclear>ος</w> <w>τον</w> <w>λ<unclear>α</unclear><lb break="no"/><supplied reason="unspecified">ον</supplied></w> <w><supplied reason="unspecified">ανδρε</supplied>ς</w> <w part="I">ισραηλ<supplied reason="unspecified">ι</supplied><lb break="no"/><supplied reason="unspecified">ται</supplied></w></ab></div> </div></body></text></TEI>

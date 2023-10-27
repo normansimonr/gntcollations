@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P93">P93</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Istituto Papirologico </repository>
+            <idno>PSI inv. 108</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K13"><ab n="B04K13V15" part="F"><w part="F"><unclear>και</unclear></w> <w><supplied reason="unspecified">υμεις</supplied></w> <w><supplied reason="unspecified">ποιητε</supplied></w></ab> <ab n="B04K13V16"><w><supplied reason="unspecified">αμην</supplied></w> <w><supplied reason="unspecified">αμην</supplied></w><lb/><w>λεγω</w> <w>ι<unclear>μ</unclear><supplied reason="unspecified">ιν</supplied></w> <w><supplied reason="unspecified">ουκ</supplied></w> <w><supplied reason="unspecified">εστιν</supplied></w> <w><supplied reason="unspecified">δουλος</supplied></w> <w><supplied reason="unspecified">μειζων</supplied></w><lb/><w>του</w> <w>κυρ<supplied reason="unspecified">ιου</supplied></w> <w><supplied reason="unspecified">αυτου</supplied></w> <w><supplied reason="unspecified">ουδε</supplied></w> <w><supplied reason="unspecified">αποστολος</supplied></w><lb/><w>μιζω<unclear>ν</unclear></w> <w><supplied reason="unspecified">του</supplied></w> <w><supplied reason="unspecified">πεμψαντος</supplied></w> <w><supplied reason="unspecified">αυτον</supplied></w><lb/></ab> <ab n="B04K13V17"><w><unclear>ι</unclear></w> <w>ταυτ<unclear>α</unclear></w> <w><supplied reason="unspecified">οιδατε</supplied></w> <w><supplied reason="unspecified">μακαριοι</supplied></w> <w><supplied reason="unspecified">εστε</supplied></w> <w><supplied reason="unspecified">εαν</supplied></w><lb/><w>πιιτε</w> <w><supplied reason="unspecified">αυτα</supplied></w><note type="editorial" xml:id="B04K13V17-P93-1">Verso ohne Text.</note></ab></div></div></body></text></TEI>

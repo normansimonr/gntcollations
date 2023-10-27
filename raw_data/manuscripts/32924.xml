@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="2924">2924</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Spain</country>
+            <settlement>Escorial</settlement>
+            <repository>Real Biblioteca del Monasterio de El Escorial</repository>
+            <idno>T. III. 17, fol. 175-176</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="175r" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K14"><ab n="B27K14V10" part="F"><w>κεκερασμενου</w> <w>ακρατου</w> <w>εν</w> <w>τω</w><lb/><w>ποτηριω</w> <w>της</w> <w>οργης</w> <w>αυτου</w><pc>·</pc> <w><hi rend="cap" height="3">κ</hi>αι</w><lb/><w>βασανισθησονται</w> <w>εν</w> <w>πυρι</w><lb/><w>και</w> <w>θειω</w><pc>·</pc> <w>ενωπιον</w> <w>αγγελων</w> <w>α<lb break="no"/>γιων</w><pc>·</pc> <w>και</w> <w>ενωπιον</w> <w>του</w> <w>αρ<lb break="no"/>νιου</w><pc>·</pc></ab> <ab n="B27K14V11"><w>και</w> <w>ο</w> <w>καπνος</w> <w>του</w> <w>βασα<lb break="no"/>νισμου</w> <w>αυτων</w> <w>εις</w> <w>αιωνων</w><lb/><w>αναβαινει</w><pc>·</pc> <w>και</w> <w>ουκ</w> <w>εχουσιν</w><lb/><w>αναπαυσιν</w> <w>ημερας</w> <w>και</w> <w>νυκτος</w><lb/><w>οι</w> <w>προσκυνουντες</w> <w>το</w> <w>θηριον</w><lb/><w>και</w> <w>την</w> <w>εικονα</w> <w>αυτου</w><pc>·</pc> <w>και</w> <w>ει</w><lb/><w>τις</w> <w>λαμβανει</w> <w>το</w> <w>χαραγμα</w> <w>του</w><lb/><w>ονοματος</w> <w>αυτου</w><pc>·</pc></ab> <ab n="B27K14V12"><w>ωδε</w> <w>η</w><lb/><w>υπομονη</w> <w>των</w> <w>αγιων</w> <w>εστι</w> <w>των</w><lb/><w>τηρουντων</w> <w>τας</w> <w>εντολας</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w><pc>·</pc></ab> <ab n="B27K14V13" part="I"><w>και</w> <w>ηκουσα</w> <w>φωνης</w> <w>ε<hi rend="cap" height="3">κ</hi></w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w> <w>λεγουσης</w><pc>.</pc> <w>γραψον</w> <w>μα<lb break="no"/>καριοι</w> <w>οι</w> <w>νεκροι</w> <w>οι</w> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">κω</hi></abbr></w> <w>απο</w></ab></div> </div>
+<pb n="175v" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K14"><ab n="B27K14V13" part="F"><w part="F">θνησκοντες</w> <w>ἀπάρ<hi rend="cap" height="2">τ</hi>ι</w><pc>·</pc> <w>ναι</w> <w>λεγ<hi rend="cap" height="2">ει</hi></w> <w>το</w><lb/><w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>το</w> <w>αγιον</w><pc>·</pc> <w>ινα</w> <w>αναπαυ<lb break="no"/>σωνται</w> <w>εκ</w> <w>των</w> <w>κοπων</w> <w>αυτων</w><pc>·</pc> <w>τα</w><lb/><w>γαρ</w> <w>εργα</w> <w>αυτων</w> <w>ακολουθει</w><lb/><w>μετ</w> <w>αυτων</w><pc>·</pc></ab> <ab n="B27K14V14"><w>και</w> <w>ειδον</w><pc>·</pc> <w>και</w> <w><hi rend="cap" height="2">ι</hi><lb break="no"/>δου</w> <w>νεφελη</w> <w>λευκη</w><pc>·</pc> <w>και</w> <w>επι</w> <w>τη</w> <w>νε<lb break="no"/>φελη</w> <w>καθημενον</w> <w>ομοιον</w> <w>υιω</w> <w>αυτου</w><pc>·</pc><lb/><w>εχοντα</w> <w>επι</w> <w>της</w> <w>κεφαλης</w> <w>αυτου</w><lb/><w>στεφανον</w> <w>χρυσουν</w><pc>·</pc> <w>και</w> <w>εν</w> <w>τη</w> <w>χ<hi rend="cap" height="2">ει</hi><lb break="no"/>ρι</w> <w>αυτου</w> <w>δρεπανον</w> <w>οξυ</w><pc>·</pc></ab> <ab n="B27K14V15" part="I"><w><unclear reason="unusual ligature, but accent indicates the και">και</unclear></w> <w>αλ<lb break="no"/>λος</w> <w>αγγελος</w> <w>εξηλθεν</w> <w>εκ</w> <w>του</w> <w>ναου</w><lb/><w>κραζων</w> <w>εν</w> <w>φωνη</w> <w>μεγαλη</w> <w>τω</w> <w>κα<lb break="no"/>θημενω</w> <w>επι</w> <w>της</w> <w>νεφελης</w><pc>·</pc> <w>πεμ<lb break="no"/>ψον</w> <w>το</w> <w>δρεπανον</w> <w>σου</w> <w><hi rend="cap" height="2-3">κ</hi>αι</w> <w>θερισον</w><pc>·</pc> <w>οτ<hi rend="cap" height="2">ι</hi></w></ab></div> </div>
+<pb n="176r" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K14"><ab n="B27K14V15" part="F"><w>ηλθεν</w> <w>η</w> <w>ωρα</w> <w>του</w> <w>θερισαι</w><pc>·</pc> <w>οτι</w><lb/><w>εξηρανθη</w> <w>ο</w> <w>θερισμος</w> <w>της</w> <w>γης</w><pc>.</pc></ab> <ab n="B27K14V16"><w>και</w><lb/><w>εβαλεν</w> <w>ο</w> <w>καθημενος</w> <w>επι</w> <w>την</w><lb/><w>νεφελην</w><pc>·</pc> <w>το</w> <w>δρεπανον</w> <w>αυτου</w><lb/><w>επι</w> <w>την</w> <w>γην</w><pc>·</pc> <w>και</w> <w>εθερισθη</w> <w>η</w> <w>γη</w><pc>·</pc><lb/></ab> <ab n="B27K14V17"><w>και</w> <w>αλλος</w> <w>αγγελος</w> <w>εξηλθεν</w><pc>·</pc> <w>εκ</w> <w>του</w><lb/><w>ναου</w> <w>του</w> <w>εν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr></w><pc>·</pc> <w>εχων</w> <w>και</w><lb/><w>αυτος</w> <w>δρεπανον</w> <w>οξυ</w><pc>·</pc></ab> <ab n="B27K14V18" part="I"><w>και</w> <w>αλλος</w> <w>αγγελος</w><lb/><w>εξηλθεν</w> <w>εκ</w> <w>του</w> <w>θυσιαστηριου</w> <w>εχων</w> <w>εξου<lb break="no"/>σιαν</w> <w>επι</w> <w>του</w> <w>πυρος</w><pc>·</pc> <w>και</w> <w>εφωνησε</w> <w>φω<lb break="no"/>νη</w> <w>μεγαλη</w> <w>τω</w> <w>εχοντι</w> <w>το</w> <w>δρεπανον</w> <w>το</w><lb/><w>οξυ</w> <w>λεγων</w><pc>·</pc> <w>πεμψον</w> <w>σου</w> <w>το</w> <w>δρεπανον</w><lb/><w>το</w> <w>οξυ</w><pc>·</pc> <w>και</w> <w>τρυγησον</w> <w>τους</w> <w>βοτρυας</w> <w>της</w></ab></div> </div>
+<pb n="176v" type="folio"/><cb n="1"/><lb/><div type="book" n="B27"><div type="chapter" n="B27K14"><ab n="B27K14V18" part="F"><w>αμπελου</w> <w>της</w> <w>γης</w><pc>·</pc> <w>οτι</w> <w>ηκμασαν</w><lb/><w>αι</w> <w>σταφυλαι</w> <w>αυτης</w><pc>·</pc></ab> <ab n="B27K14V19"><w>και</w> <w>εβαλεν</w> <w>ο</w> <w>αγγε<lb break="no"/>λος</w> <w>το</w> <w>δρεπανον</w> <w>αυτου</w> <w>εις</w> <w>την</w><lb/><w>γην</w><pc>·</pc> <w>και</w> <w>ετρυγησε</w> <w>την</w> <w>αμπελον</w> <w>της</w> <w>γης</w><pc>·</pc><lb/><w>και</w> <w>εβαλεν</w> <w>εις</w> <w>την</w> <w>ληνον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>την</w><lb/><w>μεγαλην</w><pc>·</pc></ab> <ab n="B27K14V20"><w>και</w> <w>επατηθη</w> <w>ο</w> <w>ληνος</w> <w>εξωθεν</w><lb/><w>της</w> <w>πολεως</w><pc>·</pc> <w>και</w> <w>εξηλθεν</w> <w>αιμα</w><lb/><w>εκ</w> <w>της</w> <w>ληνου</w> <w>αχρι</w> <w>των</w> <w>χαλινων</w> <w>των</w> <w>ιππων</w><pc>·</pc><lb/><w>απο</w> <w>σταδιων</w> <w>χιλιων</w> <w>εξακοσιων</w><pc>·</pc></ab></div> <div type="chapter" n="B27K15"><ab n="B27K15V1"><w>και</w> <w>ειδον</w> <w>αλ<lb break="no"/>λο</w> <w>σημειον</w> <w>εν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr></w> <w>μεγα</w> <w>και</w> <w>θαυμαστον</w><lb/><w>αγγελους</w> <w>επτα</w><pc>·</pc> <w>εχοντας</w> <w>πληγας</w> <w>επτα</w> <w>τας</w><lb/><w>εσχατας</w><pc>·</pc> <w>οτι</w> <w>εν</w> <w>αυταις</w> <w>ετελεσθη</w> <w>ο</w> <w>θυμος</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab> <ab n="B27K15V2" part="I"><w>και</w> <w>ειδον</w> <w>ως</w> <w>θαλασσαν</w> <w>υελινην</w></ab></div> </div></body></text></TEI>

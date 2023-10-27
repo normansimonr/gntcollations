@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0184">0184</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Austria</country>
+            <settlement>Wien</settlement>
+            <repository>Österreichische Nationalbibliothek</repository>
+            <idno>Pap. K. 8662</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="g-k"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B02"><div type="chapter" n="B02K15"><ab n="B02K15V36"><w><supplied reason="unspecified">σπογ</supplied><lb break="no"/><unclear>γον</unclear></w> <w><unclear>ο</unclear>ξο<unclear>υ</unclear>ς</w> <w>περι<lb break="no"/>θεις</w> <w><supplied reason="unspecified">κα</supplied><unclear>λαμ</unclear>ω</w><lb/><w>εποτ<supplied reason="unspecified">ιζεν</supplied></w> <w><supplied reason="unspecified">αυτον</supplied></w><lb/><w><unclear>λε</unclear>γω<unclear>ν</unclear></w> <w><supplied reason="unspecified">αφε</supplied>ς</w><lb/><w>ιδωμεν</w> <w>ει</w> <w>ερ<lb break="no"/>χε<unclear>τ</unclear>αι</w> <w>ηλιας</w> <w>κα<lb break="no"/><unclear>θε</unclear>λε<unclear>ιν</unclear></w> <w><unclear>α</unclear>υτον</w><lb/></ab> <ab n="B02K15V37" part="I"><w>ο</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>αφεις</w> <w>φω<lb break="no"/>νην</w> <w>μεγαλην</w><lb/><w>εξεπνευσεν</w><lb/><lb/><cb n="2"/><lb/></ab> <ab n="B02K15V40"><w><supplied reason="unspecified">ησαν</supplied></w> <w><supplied reason="unspecified">δε</supplied></w> <w><supplied reason="unspecified">κα</supplied>ι</w> <w>γυ<lb break="no"/>ναικες</w> <w>απο</w> <w><unclear>μ</unclear><supplied reason="unspecified">α</supplied><lb break="no"/>κροθεν</w> <w>θε<unclear>ω</unclear><lb break="no"/>ρουσαι</w> <w>εν</w> <w>αις</w><lb/><w>και</w> <w>μαρ<unclear>ιαμ</unclear></w> <w><unclear>μα</unclear><lb break="no"/>γδαλ<unclear>ην</unclear><supplied reason="unspecified">η</supplied></w> <w>κ<supplied reason="unspecified">αι</supplied></w><lb/><w>μαρια</w> <w>η</w> <w>ι<unclear>α</unclear>κ<unclear>ω</unclear><lb break="no"/>βου</w> <w>του</w> <w>μ<supplied reason="unspecified">ικρου</supplied></w><lb/><w>και</w> <w>ιωσητος</w><lb/><w><abbr type="nomSac"><hi rend="overline">μηρ</hi></abbr></w> <w>και</w> <w>σαλω<lb break="no"/>μη</w></ab> <ab n="B02K15V41" part="I"><w>αι</w> <w>ο<unclear>τ</unclear>ε</w> <w><unclear>ην</unclear></w><lb/><w><unclear>ε</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">τη</supplied></w> <w><supplied reason="unspecified">γαλιλαια</supplied></w></ab></div> </div></body></text></TEI>

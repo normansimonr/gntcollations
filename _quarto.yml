@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+  - CNAME
+  - .nojekyll
+  render: 
+    - index.qmd
+    - liste.qmd
+    - chapters.qmd
+    - byzantine_priority.qmd
+    - byzantine_priority_es.qmd
+    - collations/*.qmd
+
+website:
+  title: "Greek New Testament Collations"
+  back-to-top-navigation: true
+  page-footer: "Version {{< var version >}}, data up-to-date as of {{< var listeupdated >}}"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - liste.qmd
+      - byzantine_priority.qmd
+
+bibliography: bibliography.bib
+
+format:
+  html:
+    theme: [litera, styles/customs.scss]
+    css: styles/styles.css
+    toc: true
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" type="text/css"/>
+
+mainfont: "EB Garamond"
+editor: visual
+

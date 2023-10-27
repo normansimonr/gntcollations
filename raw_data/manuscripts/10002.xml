@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P2">P2</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Italy</country>
+            <settlement>Florence</settlement>
+            <repository>Museo Egizio</repository>
+            <idno>Inv. Nr. 7134</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="g-k"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K12"><ab n="B04K12V12"><note type="editorial" xml:id="B04K12V12-P2-1">Die ersten 2 Zeilen in koptische Sprache.</note><lb/><lb/><fw type="lectTitle"><w>ευαγγελ<supplied source="na28" reason="illegible">ιον</supplied></w> <w><supplied source="na28" reason="illegible">κατα</supplied></w> <w><supplied source="na28" reason="illegible">ιωναννην</supplied></w></fw><lb/><w>τη</w> <w>επαυριον</w> <w>οχλος<unclear>π</unclear><supplied reason="unspecified">ολυς</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">ελθων</supplied></w> <w><supplied reason="unspecified">εις</supplied></w> <w><supplied reason="unspecified">την</supplied></w><lb/><w>εορτην</w><pc>·</pc> <w>ακουσαντ<supplied reason="unspecified">ες</supplied></w> <w><supplied reason="unspecified">οτι</supplied></w> <w><supplied reason="unspecified">ερχεται</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w><lb/><w>εις</w> <w>ιερου<supplied reason="unspecified">σο</supplied><unclear>λυ</unclear><supplied reason="unspecified">μα</supplied></w><note type="local" xml:id="B04K12V12-P2-2">Für ιερου(σαλ)ημ ε ist die Luecke zu klein und der Akzent wäre falsch. ιερουσολυμα ist Fehlerlesart.</note></ab> <ab n="B04K12V13"><w><supplied reason="unspecified">ελαβον</supplied></w> <w><supplied reason="unspecified">τα</supplied></w> <w><supplied reason="unspecified">βαια</supplied></w> <w><supplied reason="unspecified">των</supplied></w><lb/><w>φοινικων</w> <w><unclear>κ</unclear><supplied reason="unspecified">αι</supplied></w> <w><supplied reason="unspecified">εξηλθον</supplied></w> <w><supplied reason="unspecified">εις</supplied></w> <w><supplied reason="unspecified">υπαντησιν</supplied></w> <w><supplied reason="unspecified">αυτω</supplied></w><lb/><w><supplied reason="unspecified">κα</supplied>ι</w> <w>εκραυ<supplied reason="unspecified">γαζον</supplied></w> <w><supplied reason="unspecified">ωσαννα</supplied></w> <w><supplied reason="unspecified">ευλογημενος</supplied></w><lb/><w><supplied reason="unspecified">ο</supplied></w> <w><unclear>ε</unclear>ρχομε<supplied reason="unspecified">νος</supplied></w> <w><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">ονοματι</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">κυ</hi></supplied></abbr></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">βασιλευς</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied>ου</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w></ab> <ab n="B04K12V14"><w>ε<supplied reason="unspecified">υρων</supplied></w> <w><supplied reason="unspecified">δε</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">ις</hi></supplied></abbr></w> <w><supplied reason="unspecified">οναριον</supplied></w> <w><supplied reason="unspecified">εκαθισεν</supplied></w><lb/><w><supplied reason="unspecified">ε</supplied>π</w> <w>αυτ<supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">καθως</supplied></w> <w><supplied reason="unspecified">εστιν</supplied></w> <w><supplied reason="unspecified">γεγραμμενον</supplied></w><lb/></ab> <ab n="B04K12V15" part="I"><w><supplied reason="unspecified">μη</supplied></w> <w><unclear>φ</unclear><supplied reason="unspecified">οβου</supplied></w> <w><supplied reason="unspecified">θυγατηρ</supplied></w> <w><supplied reason="unspecified">σιων</supplied></w> <w><supplied reason="unspecified">ιδου</supplied></w> <w><supplied reason="unspecified">ο</supplied></w> <w><supplied reason="unspecified">βασιλευς</supplied></w></ab></div> </div></body></text></TEI>

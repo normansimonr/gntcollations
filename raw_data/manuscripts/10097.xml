@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P97">P97</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Ireland</country>
+            <settlement>Dublin</settlement>
+            <repository>Chester Beatty Library</repository>
+            <idno>CBL BP XVII</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B03"><div type="chapter" n="B03K14"><ab n="B03K14V7"><w>ελεγεν</w> <w><unclear>δ</unclear><supplied reason="unspecified">ε</supplied></w> <w><supplied reason="unspecified">πρ</supplied>ος</w> <w>το<supplied reason="unspecified">υ</supplied>ς</w> <w><unclear>κ</unclear>εκλη<lb break="no"/>μενους<supplied reason="unspecified">παρα</supplied><unclear>β</unclear>ολ<supplied reason="unspecified">η</supplied><unclear>ν</unclear></w> <w>επεχ<unclear>ω</unclear><supplied reason="unspecified">ν</supplied></w><lb/><w>πως</w> <w>τας</w> <w><supplied reason="unspecified">πρω</supplied><unclear>τ</unclear>οκ<supplied reason="unspecified">λι</supplied><unclear>σιας</unclear></w><lb/><w>εξελεγο<supplied reason="unspecified">ντο</supplied></w> <w><unclear>λ</unclear>εγων</w> <w>πρ<unclear>ος</unclear></w> <w><unclear>αυ</unclear><lb break="no"/><supplied reason="unspecified">τ</supplied><unclear>ο</unclear>υ<unclear>ς</unclear></w></ab> <ab n="B03K14V8"><w><supplied reason="unspecified">ο</supplied><unclear>τ</unclear><supplied reason="unspecified">αν</supplied></w> <w><supplied reason="unspecified">κ</supplied>ληθ<unclear>η</unclear>ς</w> <w>υπο</w> <w>τ<unclear>ιν</unclear><supplied reason="unspecified">ος</supplied></w><lb/><w><supplied reason="unspecified">ει</supplied>ς</w> <w>γαμου<supplied reason="unspecified">ς</supplied></w> <w><unclear>μη</unclear></w> <w><unclear>κ</unclear>ατακλιθης</w><note type="editorial" xml:id="B03K14V8-P97-1">I korrigiert?</note><lb/><w><supplied reason="unspecified">ει</supplied>ς</w> <w>την</w> <w>πρωτοκλισιαν</w><pc>:</pc> <w>μηπο<unclear>τ</unclear>ε</w><lb/><w><supplied reason="unspecified">ε</supplied>ντιμοτερος</w> <w>σου</w> <w>η</w> <w>κεκλη<lb break="no"/><unclear>μ</unclear>ενος</w> <w>υ<unclear>π</unclear></w> <w>αυτου</w><pc>:</pc></ab> <ab n="B03K14V9"><w>και</w> <w>ελθω<unclear>ν</unclear></w><lb/><w><unclear>ο</unclear></w> <w>σ<unclear>ε</unclear></w> <w>και</w> <w>α<supplied reason="unspecified">υ</supplied>το<unclear>ν</unclear></w> <w>καλεσας</w><lb/><w><supplied reason="unspecified">ε</supplied>ρει</w> <w>σοι</w> <w>δος</w> <w>τουτω</w> <w>τ<supplied reason="unspecified">ο</supplied><unclear>π</unclear>ον</w> <w>και</w><lb/><w><unclear>τ</unclear>οτε</w> <w>αρξη</w> <w>μετα</w> <w>αισχυ<unclear>νη</unclear>ς</w><note type="editorial" xml:id="B03K14V9-P97-1">Χ korrigiert?</note><lb/><w><supplied reason="unspecified">τ</supplied><unclear>ο</unclear>ν</w> <w>εσχατον</w> <w>τοπον</w> <w>κ<unclear>ατ</unclear>εχ<unclear>ε</unclear>ιν</w><lb/></ab> <ab n="B03K14V10"><w><supplied reason="unspecified">α</supplied>λλ</w> <w>οταν</w> <w>κληθης</w><pc>:</pc> <w>πορε<supplied reason="unspecified">υ</supplied>θεις</w><lb/><w><supplied reason="unspecified">α</supplied>ναπεσαι</w> <w>εις</w> <w>τον</w> <w>εισχ<unclear>α</unclear>το<unclear>ν</unclear></w><lb/><w><unclear>τ</unclear>οπον</w><pc>:</pc> <w>ινα</w> <w>οταν</w> <w>ελθη</w> <w><unclear>ο</unclear></w><lb/><w><supplied reason="unspecified">κ</supplied>εκληκως</w> <w>σε</w><pc>:</pc> <w>ερει</w> <w>σοι</w> <w><unclear>φ</unclear><supplied reason="unspecified">ιλε</supplied></w><lb/><w><supplied reason="unspecified">π</supplied>ροσαναβηθει</w> <w>ανωτερον</w><lb/><w><supplied reason="unspecified">τ</supplied>οτε</w> <w>εσται</w> <w>σοι</w> <w>δοξα</w> <w>ενωπ<supplied reason="unspecified">ιον</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied>ων</w> <w>συνανακειμενων</w> <w>σοι</w><lb/></ab> <ab n="B03K14V11"><w><supplied reason="unspecified">ο</supplied><unclear>τ</unclear>ι</w> <w>πας</w> <w>ο</w> <w>υψων</w> <w>εαυτον</w> <w>ταπ<supplied reason="unspecified">ει</supplied><lb break="no"/><supplied reason="unspecified">ν</supplied>ωθησεται</w> <w>και</w> <w>ο</w> <w>ταπιν<unclear>ω</unclear><supplied reason="unspecified">ν</supplied></w><lb/><w><unclear>ε</unclear>αυτον</w> <w>υψωθησεται</w><lb/></ab> <ab n="B03K14V12" part="I"><w><unclear>ε</unclear>λεγεν</w> <w>δε</w> <w>και</w> <w>τω</w> <w>κε<unclear>κ</unclear>ληκ<unclear>ο</unclear><supplied reason="unspecified">τι</supplied></w><lb/><w>αυτον</w> <w>οτ<unclear>αν</unclear></w> <w>π<unclear>ο</unclear>ιης</w> <w>αριστον</w><lb/><w>η</w> <w>διπνον</w> <w>μ<unclear>η</unclear></w> <w>φωνει</w> <w>τους</w> <w>φιλ<unclear>ο</unclear><supplied reason="unspecified">υς</supplied></w><lb/><w>σου</w> <w>μηδε</w> <w>τους</w> <w>αδ<unclear>ελφου</unclear>ς</w> <w>σο<supplied reason="unspecified">υ</supplied></w><lb/><w>μηδε</w> <w>τους</w> <w>σ<unclear>υ</unclear>γγ<supplied reason="unspecified">ενεις</supplied></w> <w part="I"><supplied reason="unspecified">σου</supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B03"><div type="chapter" n="B03K14"><ab n="B03K14V12" part="F"><w part="F"><unclear>μη</unclear><supplied reason="unspecified">δε</supplied></w> <w><supplied reason="unspecified">γειτον</supplied><unclear>α</unclear>ς</w> <w><supplied reason="unspecified">πλου</supplied>σιους</w><pc>.</pc><lb/><w><unclear>μ</unclear>ηποτ<supplied reason="unspecified">ε</supplied></w> <w><unclear>κα</unclear>ι</w> <w><unclear>α</unclear>υ<supplied reason="unspecified">τοι</supplied></w> <w><supplied reason="unspecified">α</supplied>ντικαλε<lb break="no"/>σωσιν</w> <w>σ<unclear>ε</unclear></w> <w>κα<supplied reason="unspecified">ι</supplied></w> <w><supplied reason="unspecified">γενη</supplied>ται</w> <w><supplied reason="unspecified">ανταπο</supplied><lb break="no"/><unclear>δ</unclear>ομα</w> <w>σοι</w></ab> <ab n="B03K14V13"><w>α<unclear>λ</unclear><supplied reason="unspecified">λ</supplied></w> <w><supplied reason="unspecified">οτ</supplied><unclear>α</unclear>ν</w> <w>δοχη<supplied reason="unspecified">ν</supplied></w><lb/><w>ποιης</w> <w>καλει</w> <w>πτωχους</w> <w>α<unclear>ν</unclear><supplied reason="unspecified">α</supplied><lb break="no"/><unclear>π</unclear>ειρους</w> <w>χωλους</w><pc>:</pc> <w>τυφ<unclear>λ</unclear><supplied reason="unspecified">ους</supplied></w><lb/></ab> <ab n="B03K14V14"><w>και</w> <w><unclear>μα</unclear>κα<unclear>ρ</unclear>ιος</w> <w>εση</w> <w>οτι</w> <w>ου<lb break="no"/>κ</w> <w>εχουσιν</w> <w>ανταπ<unclear>ο</unclear>δο<unclear>υ</unclear><supplied reason="unspecified">ν</supplied><unclear>α</unclear>ι</w><lb/><w>σοι</w> <w>ανταποδοθησε<unclear>ται</unclear></w> <w><supplied reason="unspecified">γαρ</supplied></w><lb/><w>σοι</w> <w>εν</w> <w>τη</w> <w>αναστασει</w><lb/><w>των</w> <w>δικαιων</w><pc>.</pc></ab></div> </div></body></text></TEI>

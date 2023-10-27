@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="2666">2666</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Greece</country>
+            <settlement>Athos</settlement>
+            <repository>Dochiariou Monastery</repository>
+            <idno>58</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="36r" type="folio"/><cb n="1"/><lb/><div type="book" n="B02"><div type="chapter" n="B02K16"><ab n="B02K16V1"><w>τω</w> <w>καιρω</w> <w>εκεινω</w> <w>διαγενομενου</w><lb/><w>σαββατου</w> <w>μαρια</w> <w>η</w> <w>μαγδαληνη</w><lb/><w>και</w> <w>μαρια</w> <w>ιακωβου</w> <w>και</w><lb/><w>σαλωμη</w> <w>ηγορασαν</w> <w>αρωματα</w><lb/><w>ινα</w> <w>ελθουσαι</w> <w>αλειψωσιν</w><lb/><w>αυτον</w></ab> <ab n="B02K16V2"><w>και</w> <w>λιαν</w> <w>πρωι</w> <w>της</w><lb/><w>μιας</w> <w>των</w> <w>σαββατων</w> <w>ερχονται</w><lb/><w>επι</w> <w>το</w> <w>μνημειον</w> <w>ανατει<lb break="no"/>λαντος</w> <w>του</w> <w>ηλιου</w></ab> <ab n="B02K16V3"><w>και</w> <w>ελεγον</w><lb/><w>προς</w> <w>εαυτας</w> <w>τις</w> <w>αποκυ<lb break="no"/>λισει</w> <w>ημιν</w> <w>τον</w> <w>λιθον</w> <w>εκ</w> <w>της</w><lb/><w>θυρας</w> <w>του</w> <w>μνημειου</w></ab> <ab n="B02K16V4"><w>και</w><lb/><w>αναβλεψασαι</w> <w>θεωρουσιν</w><lb/><w>οτι</w> <w>αποκεκυλισται</w> <w>ο</w> <w>λιθος</w><lb/><w>ην</w> <w>γαρ</w> <w>μεγας</w> <w>σφοδρα</w></ab> <ab n="B02K16V5" part="I"><w>και</w><lb/><w>εισελθουσαι</w> <w>εις</w> <w>το</w> <w>μνημειον</w><lb/><w>ειδον</w> <w>νεανισκον</w> <w>καθημενον</w></ab></div> </div>
+<pb n="36v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B02" type="book" part="M"><div n="B02K16" type="chapter" part="M"><ab n="B02K16V5" part="F"><w>εν</w> <w>τοις</w> <w>δεξιοις</w> <w>περιβεβλη
+<lb break="no"/>μενον</w> <w>στολην</w> <w>λευκην</w> <w>και</w> <w>εξε
+<lb break="no"/>θαμβηθησαν</w></ab> <ab n="B02K16V6"><w>ο</w> <w>δε</w> <w>λεγει</w>
+<lb/><w>αυταις</w> <w>μη</w> <w>εκθαμβεισθε</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ιν</hi></abbr></w> <w>ζητειτε</w> <w>τον</w> <w>ναζαρηνον</w> <w>τον</w>
+<lb/><w>τον</w> <w>εσταυρωμενον</w> <w>ηγερθη</w>
+<lb/><w>ουκ</w> <w>εστιν</w> <w>ωδε</w> <w>ιδε</w> <w>ο</w> <w>τοπος</w>
+<lb/><w>οπου</w> <w>εθηκαν</w> <w>αυτον</w></ab> <ab n="B02K16V7"><w>αλλα</w>
+<lb/><w>υπαγεται</w> <w>ειπατε</w> <w>τοις</w> <w>μαθιταις</w>
+<lb/><w>αυτου</w> <w>και</w> <w>τω</w> <w>πετρω</w> <w>οτι</w> <w>προ
+<lb break="no"/>αγει</w> <w>υμας</w> <w>εις</w> <w>την</w> <w>γαλιλαιαν</w>
+<lb/><w>εκει</w> <w>αυτ<unclear>ο</unclear>ν</w> <w>οψεσθε</w> <w>καθως</w>
+<lb/><w>ειπεν</w> <w>υμιν</w></ab> <ab n="B02K16V8"><w>και</w> <w>εξελθουσαι</w>
+<lb/><w>εφυγον</w> <w>απο</w> <w>του</w> <w>μνημειου</w>
+<lb/><w>ειχε</w> <w>δε</w> <w>αυτας</w> <w>τρομος</w> <w>και</w> <w>εκ
+<lb break="no"/>στασις</w> <w>και</w> <w>ουδενι</w> <w>ουδεν</w>
+<lb/><w>ειπον</w> <w>εφοβουντο</w> <w>γαρ</w><note type="local">euaggelion anasta(sew") g— mark(ou)</note>
+</ab></div></div>
+<pb n="37r" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B02" type="book" part="M"><div n="B02K16" type="chapter" part="M"><ab n="B02K16V9"><w>τω</w> <w>καιρω</w> <w>εκεινω</w> <w>αναστας</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb/><w>πρωι</w> <w>πρωτη</w> <w>σαββατου</w> <w>εφανη</w>
+<lb/><w>πρωτον</w> <w>μαρια</w> <w>τη</w> <w>μαγδαληνη</w>
+<lb/><w>αφ</w> <w>ης</w> <w>εκβεβληκει</w> <w>επτα</w> <w>δαι
+<lb break="no"/>μονια</w></ab> <ab n="B02K16V10"><w>εκεινη</w> <w>πορευθεισα</w>
+<lb/><w>απηγγειλε</w> <w>τοις</w> <w>μετ</w> <w>αυτου</w>
+<lb/><w>γενομενοις</w> <w>πενθουσι</w> <w>και</w>
+<lb/><w>και</w> <w>κλαιουσι</w></ab> <ab n="B02K16V11"><w>κακεινοι</w> <w>ακου
+<lb break="no"/>σαντες</w> <w>οτι</w> <w>ζη</w> <w>και</w> <w>εθεαθη</w>
+<lb/><w>υπ</w> <w>αυτης</w> <w>ηπιστησαν</w>
+<lb/></ab> <ab n="B02K16V12"><w>μετα</w> <w>δε</w> <w>ταυτα</w> <w>δυσιν</w> <w>εξ</w> <w>αυτων</w>
+<lb/><w>περιπατουσιν</w> <w>εφανερωθη</w>
+<lb/><w>εν</w> <w>ετερα</w> <w>μορφη</w> <w>πορευομενοις</w>
+<lb/><w>εις</w> <w>αγρον</w></ab> <ab n="B02K16V13"><w>κακεινοι</w> <w>απελθον
+<lb break="no"/>τες</w> <w>απηγγειλαν</w> <w>τοις</w> <w>λοιποις</w>
+<lb/><w>ουδε</w> <w>εκεινοις</w> <w>επιστευσαν</w>
+<lb/></ab> <ab n="B02K16V14" part="I"><w>υστερον</w> <w>ανακειμενοις</w> <w>αυτοις</w>
+<lb/><w>τοις</w> <w>ενδεκα</w> <w>εφανερωθη</w> <w>και</w>
+</ab></div></div>
+<pb n="37v" type="folio"/>
+<cb n="1"/>
+<lb/><div n="B02" type="book" part="M"><div n="B02K16" type="chapter" part="M"><ab n="B02K16V14" part="F"><w>ωνειδισε</w> <w>την</w> <w>απιστιαν</w> <w>αυτων</w>
+<lb/><w>και</w> <w>σκληροκαρδιαν</w> <w>οτι</w>
+<lb/><w>τοις</w> <w>θεασαμενοις</w> <w>αυτον</w>
+<lb/><w>εγηγερμενον</w> <w>ουκ</w> <w>επιστευσαν</w>
+<lb/></ab> <ab n="B02K16V15"><w>και</w> <w>ειπεν</w> <w>αυτοις</w> <w>πορευθεντες</w>
+<lb/><w>εις</w> <w>τον</w> <w>κοσμον</w> <w>απαντα</w>
+<lb/><w>κηρυξατε</w> <w>το</w> <w>ευαγγελιον</w>
+<lb/><w>παση</w> <w>τη</w> <w>κτισει</w></ab> <ab n="B02K16V16"><w>ο</w> <w>πιστευσας</w>
+<lb/><w>και</w> <w>βαπτισθεις</w> <w>σωθησεται</w>
+<lb/><w>ο</w> <w>δε</w> <w>απιστησας</w> <w>κατακρι
+<lb break="no"/>θησεται</w></ab> <ab n="B02K16V17"><w>σημεια</w> <w>δε</w> <w>τοις</w>
+<lb/><w>πιστευσασι</w> <w>ταυτα</w> <w>παρακο
+<lb break="no"/>λουθουσει</w> <w>εν</w> <w>τω</w> <w>ονοματι</w> <w>μου</w>
+<lb/><w>δαιμονια</w> <w>εκβαλλουσι</w> <w>γλωσσαις</w>
+<lb/><w>λαλησουσι</w> <w>καιναις</w></ab> <ab n="B02K16V18" part="I"><w>οφεις</w>
+<lb/><w>αρρουσι</w> <w>καν</w> <w>θανασιμον</w> <w>τι</w>
+<lb/><w>πιωσιν</w> <w>ου</w> <w>μη</w> <w>αυτους</w> <w>βλαψη</w>
+<lb/><w>επι</w> <w>αρρωστους</w> <w>χειρας</w> <w part="I">επιθη
+</w></ab></div> </div>
+<pb n="38r" type="folio" break="no"/><cb n="1"/><lb/><div type="book" n="B02"><div type="chapter" n="B02K16"><ab n="B02K16V18" part="F"><w part="F">σουσι</w> <w>και</w> <w>καλως</w> <w>εξουσιν</w></ab> <ab n="B02K16V19"><w>ο</w><lb/><w>μεν</w> <w>ουν</w> <w><abbr type="nomSac"><hi rend="overline">κς</hi></abbr></w> <w>μετα</w> <w>το</w> <w>λαλησαι</w><lb/><w>αυτοις</w> <w>ανεληφθη</w> <w>εις</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w><lb/><w>και</w> <w>εκαθισεν</w> <w>εκ</w> <w>δεξιων</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab> <ab n="B02K16V20"><w>εκεινοι</w> <w>δε</w> <w>εξελθοντες</w><lb/><w>εκηρυξαν</w> <w>πανταχου</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w><lb/><w>συνεργουντος</w> <w>και</w> <w>τον</w> <w>λογον</w><lb/><w>βεβαιουντος</w> <w>δια</w> <w>των</w> <w>επα<lb break="no"/>κολουθουντων</w> <w>σημειων</w><lb/><w>αμην</w></ab></div> </div></body></text></TEI>

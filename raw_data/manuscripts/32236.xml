@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="2236">2236</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Greece</country>
+            <settlement>Lesbos</settlement>
+            <repository>Zoodochou Pigis Church</repository>
+            <idno>s. n. </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1490" type="page"/><cb n="1"/><lb/><div type="book" n="B03"><div type="incipit" n="B03incipit"><ab><w>το</w> <w>κατα</w> <w>λουκαν</w> <w>αγι<lb break="no"/>ον</w> <w>εβαγγελιον</w><lb/></ab></div><div type="chapter" n="B03K1"><ab n="B03K1V1"><w>επειδηπερ</w> <w>πολλ<unclear>οι</unclear></w> <w>ε<lb break="no"/>πεχειρησαν</w> <w>ανατα<lb break="no"/>ξασθαι</w> <w>διηγησην</w><lb/><w>περι</w> <w>των</w> <w>πεπληρο<lb break="no"/>φορημενων</w> <w>εν</w> <w>ημιν</w><lb/><w>πραγματων</w></ab> <ab n="B03K1V2"><w>καθως</w><lb/><w>παρεδωσαν</w> <w>ημιν</w><lb/><w>οι</w> <w>απ</w> <w>αρχης</w> <w>αυτο<lb break="no"/>πται</w> <w>και</w> <w>υπηρεται</w><lb/><w>γενομενοι</w> <w>του</w> <w>λο<lb break="no"/>γου</w></ab> <ab n="B03K1V3"><w>εδοξε</w> <w>καμοι</w><lb/><w>παρηκολουθηκοτη</w><lb/><w>ανωθεν</w> <w>πασιν</w> <w>α<lb break="no"/>κριβως</w> <w>καθεξης</w> <w>σοι</w><lb/><w>γραψαι</w> <w>κρατιστε</w> <w>θε<lb break="no"/>οφιλε</w></ab> <ab n="B03K1V4"><w>ινα</w> <w>επιγνως</w><lb/><w>περι</w> <w>ων</w> <w>κατηχηθης</w><lb/><w>λογον</w> <w>την</w> <w>ασφαλι<lb break="no"/>αν</w></ab> <ab n="B03K1V5"><w>εγενετο</w> <w>εν</w> <w>ταις</w><lb/><w>ημεραις</w> <w>ηρωδου</w><lb/><w>του</w> <w>βασιλεως</w> <w>της</w><lb/><w>ιουδαιας</w> <w>ιερευς</w> <w>τις</w><lb/><w>ονοματι</w> <w>ζαχαριας</w><lb/><w>εφημεριας</w> <w>αβια</w><lb/><w>και</w> <w>η</w> <w>γυνη</w> <w>αυτου</w> <w>εκ</w><lb/><w>των</w> <w>θυγατερων</w> <w>α<lb break="no"/>αρων</w> <w>και</w> <w>το</w> <w>ονομα</w><cb n="2"/><lb/><w>αυτης</w> <w>ελισαβετ</w></ab> <ab n="B03K1V6"><w>η<lb break="no"/>σαν</w> <w>δε</w> <w>δικαιοι</w> <w>αμφο<lb break="no"/>τεροι</w> <w>ενωποιον</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>πορευομενοι</w> <w>εν</w><lb/><w>πασαις</w> <w>ταις</w> <w>εντολαις</w><lb/><w>και</w> <w>δικαιωμασι</w> <w>του</w><lb/><w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>αμεμπτοι</w></ab> <ab n="B03K1V7"><w>και</w> <w>ου<lb break="no"/>κ</w> <w>ειν</w> <w>αυτοις</w> <w>τεκνον</w><lb/><w>καθοτι</w> <w>η</w> <w>ελισαβετ</w><lb/><w>ην</w> <w>στειρα</w> <w>και</w> <w>αμφο<lb break="no"/>τεροι</w> <w>προβεβηκοταις</w><lb/><w>εν</w> <w>ταις</w> <w>ημεραις</w> <w>αυ<lb break="no"/>των</w> <w>ησαν</w></ab> <ab n="B03K1V8"><w>εγενετο</w> <w>δε</w><lb/><w>εν</w> <w>τω</w> <w>ιερατευειν</w> <w>αυ<lb break="no"/>τον</w> <w>εν</w> <w>τη</w> <w>ταξη</w> <w>της</w> <w>ε<lb break="no"/>φημεριας</w> <w>αυτου</w> <w>ε<lb break="no"/>ναντι</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w></ab> <ab n="B03K1V9"><w>κατα</w><lb/><w>το</w> <w>εθος</w> <w>της</w> <w>ιερατει<lb break="no"/>ας</w> <w>ελαχε</w> <w>του</w> <w>θυμι<lb break="no"/>ασαι</w> <w>εισελθων</w> <w>εις</w><lb/><w>τον</w> <w>ναον</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w></ab> <ab n="B03K1V10"><w>και</w><lb/><w>παν</w> <w>τω</w> <w>πληθος</w> <w>ην</w><lb/><w>του</w> <w>λαου</w> <w>προσευ<lb break="no"/>χωμενον</w> <w>εξω</w> <w>τη</w> <w>ωρα</w><lb/><w>του</w> <w>θυμιαματος</w><lb/></ab> <ab n="B03K1V11"><w>ωφθη</w> <w>δε</w> <w>αυτω</w> <w>αγγε<lb break="no"/>λος</w> <w><abbr type="nomSac"><hi rend="overline">κυ</hi></abbr></w> <w>εστως</w> <w>εκ</w> <w>δε<lb break="no"/>ξιων</w> <w>του</w> <w>θυσιαστηρι<lb break="no"/>ου</w> <w>του</w> <w>θυμιαματος</w><lb/></ab> <ab n="B03K1V12"><w>και</w> <w>εταραχθη</w> <w>ζαχαριας</w><lb/><w>ιδων</w> <w>και</w> <w>φοβος</w> <w>επε<lb break="no"/>πεσεν</w> <w>επ</w> <w>αυτον</w></ab> <ab n="B03K1V13" part="I"><w>ει<lb break="no"/>πε</w> <w>δε</w> <w>προς</w> <w>αυτον</w> <w>ο</w></ab></div> </div></body></text></TEI>

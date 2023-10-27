@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="050">050</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Greece</country>
+            <settlement>Athens</settlement>
+            <repository>National Library</repository>
+            <idno>EBE 1371</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Greece</country>
+            <settlement>Athos</settlement>
+            <repository>Dionysiou Monastery</repository>
+            <idno>2 (früher 71)</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Oxford</settlement>
+            <repository>Christ Church</repository>
+            <idno>Wake 2</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Russia</country>
+            <settlement>Moscow</settlement>
+            <repository>State Historical Museum</repository>
+            <idno>Sinod. gr. 119 (Vlad. 029)</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+
+<pb n="3r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="I"><div n="B04K1" type="chapter" part="I"><ab n="B04K1V1"><w>Εν</w> <w>αρχη</w> <w>ην</w>
+<lb/><w>ο</w> <w>λογος</w>
+</ab></div></div>
+<pb n="3v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V1"><w>Εν</w> <w>αρχη</w> <w>ην</w>
+<lb/><w>ο</w> <w>λογος</w>
+</ab></div></div>
+<pb n="4r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V1"><w>Εν</w> <w>αρχη</w> <w>ην</w>
+<lb/><w>ο</w> <w>λογος</w>
+</ab></div></div>
+<pb n="4v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V1"><w>Εν</w> <w>αρχη</w> <w>ην</w>
+<lb/><w>ο</w> <w>λογος</w>
+</ab></div></div>
+<pb n="5r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V1" part="I"><w>Εν</w> <w>αρχη</w> <w>ην</w>
+<lb/><w>ο</w> <w>λογος</w>
+</ab></div></div>
+<pb n="5v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V1" part="M">
+<lb/><w>και</w> <w>ο</w> <w>λογος</w> <w>ην</w>
+ <lb/><w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <gap extent="rest" unit="verse" reason="lacuna"/>
+</ab></div></div>
+<pb n="7r" type="folio"/>
+<cb n="1"/>
+ <lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V3"><gap reason="lacuna" unit="char" extent="unspecified"/> <w>και</w> <w>χωρις</w> <w>αυτου</w> <w>εγε
+<lb break="no"/>νετο</w> <w>ουδε</w> <w>εν</w> <w>ο</w> <w>γεγονεν</w>
+<lb/></ab> <ab n="B04K1V4"><w>Εν</w> <w>αυτω</w> <w>ζωη</w> <w>ην</w>
+</ab></div></div>
+<pb n="7v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K1" type="chapter" part="M"><ab n="B04K1V4">
+<lb/><w>Εν</w> <w>αυτω</w> <w>ζωη</w> <w>ην</w> <gap reason="lacuna" unit="verse" extent="rest"/>
+</ab></div></div>
+<pb n="41r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="I"><ab n="B04K2V17">
+<lb/><w>Εμνησθησαν</w> <w>δε</w> <w>οι</w> <w>μα
+<lb break="no"/>θηται</w> <w>αυτου</w> <w>οτι</w> <w>γεγραμ
+<lb break="no"/>μενον</w> <w>εστιν</w> <w>οτι</w> <w>ο</w> <w>ζηλος</w>
+<lb/><w>του</w> <w>οικου</w> <w>σου</w> <w>καταφα
+<lb break="no"/>γεται</w> <w>με</w>
+</ab></div></div>
+<pb n="41v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="M"><ab n="B04K2V18">
+<lb/><w>Απεκριθησαν</w> <w>ουν</w> <w>οι</w> <w>ι
+<lb break="no"/>ουδαιοι</w> <w>και</w> <w>ειπον</w> <w>αυτω</w>
+<lb/><w>τι</w> <w>σημειον</w> <w>δεικνυεις</w>
+<lb/><w>ημιν</w> <w>οτι</w> <w>ταυτα</w> <w>ποιεις</w>
+</ab></div></div>
+<pb n="42r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="M"><ab n="B04K2V19">
+<lb/><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αυ
+<lb break="no"/>τοις</w> <w>λυσατε</w> <w>τον</w> <w>ναον</w> <w>του
+<lb break="no"/>τον</w> <w>και</w> <w>εν</w> <w>τρισιν</w> <w>ημε
+<lb break="no"/>ραις</w> <w>εγερω</w> <w>αυτον</w>
+<lb/></ab> <ab n="B04K2V20"><w>Ειπον</w> <w>ουν</w> <w>οι</w> <w>ιουδαιοι</w> <w>τεσσαρακον
+<lb break="no"/>τα</w> <w>και</w> <w>εξ</w> <w>ετεσιν</w> <w>οικοδομηθη</w>
+<lb/><w>ο</w> <w>ναος</w> <w>ουτος</w> <w>και</w> <w>συ</w> <w>εν</w> <w>τρισιν</w> <w>η
+<lb break="no"/>μεραις</w> <w>εγερεις</w> <w>αυτον</w>
+</ab></div></div>
+<pb n="42v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="M"><ab n="B04K2V21">
+<lb/><w>Εκεινος</w> <w>δε</w> <w>ελεγεν</w>
+<lb/><w>περι</w> <w>του</w> <w>ναου</w> <w>του</w>
+<lb/><w>σωματος</w> <w>αυτου</w>
+</ab></div></div>
+<pb n="43r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="M"><ab n="B04K2V22">
+<lb/><w>Οτε</w> <w>ουν</w> <w>ηγερθη</w> <w>εκ</w> <w>νεκρων</w>
+<lb/><w>εμνησθησαν</w> <w>οι</w> <w>μαθηται</w>
+<lb/><w>αυτου</w> <w>οτι</w> <w>τουτο</w> <w>ελεγεν</w>
+<lb/><w>και</w> <w>επιστευσαν</w> <w>τη</w> <w>γραφη</w> <w>και</w>
+<lb/><w>τω</w> <w>λογω</w> <w>ον</w> <w>ειπεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb/></ab> <ab n="B04K2V23"><w>Ως</w> <w>δε</w> <w>ην</w> <w>εν</w> <w>τοις</w> <w>ιεροσολυ
+<lb break="no"/>μοις</w> <w>εν</w> <w>τω</w> <w>πασχα</w> <w>εν</w>
+<lb/><w>τη</w> <w>εορτη</w> <w>πολλοι</w> <w>επι
+<lb break="no"/>στευσαν</w> <w>εις</w> <w>το</w> <w>ονομα</w>
+<lb/><w>αυτου</w> <w>θεωρουντες</w>
+<lb/><w>αυτου</w> <w>τα</w> <w>σημεια</w> <w>α</w> <w>ε
+<lb break="no"/>ποιει</w>
+</ab></div></div>
+<pb n="43v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K2" type="chapter" part="M"><ab n="B04K2V24">
+<lb/><w>Αυτος</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ουκ</w> <w>επιστευσεν</w>
+<lb/><w>εαυτον</w> <w>αυτοις</w> <w>δια</w> <w>το</w> <w>αυ
+<lb break="no"/>τον</w> <w>γινωσκειν</w> <w>παντας</w>
+<lb/></ab> <ab n="B04K2V25"><w>και</w> <w>οτι</w> <w>ου</w> <w>χρειαν</w> <w>ειχεν</w> <w>ινα</w>
+<lb/><w>τις</w> <w>μαρτυρηση</w> <w>περι</w> <w>του</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w> <w>αυτος</w> <w>γαρ</w> <w>εγινωσκε¯</w>
+<lb/><w>τι</w> <w>ην</w> <w>εν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ανω</hi></abbr></w>
+</ab></div></div>
+<pb n="44r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="I"><ab n="B04K3V1">
+<lb/><w>Ην</w> <w>δε</w> <w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>εκ</w> <w>των</w> <w>φαρισαιων</w>
+<lb/><w>νικοδημος</w> <w>ονομα</w> <w>αυτω</w> <w>αρχω¯</w>
+<lb/><w>των</w> <w>ιουδαιων</w></ab> <ab n="B04K3V2"><w>ουτος</w> <w>ηλθεν</w>
+<lb/><w>προς</w> <w>αυτον</w> <w>νυκτος</w> <w>και</w> <w>ειπεν</w> <w>αυ
+<lb break="no"/>τω</w> <w>ραββι</w> <w>οιδαμεν</w> <w>οτι</w> <w>απο</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+<lb/><w>εληλυθας</w> <w>διδασκαλος</w> <w>ουδεις</w>
+<lb/><w>γαρ</w> <w>δυναται</w> <w>ταυτα</w> <w>τα</w> <w>σημεια</w>
+<lb/><w>ποιειν</w> <w>α</w> <w>συ</w> <w>ποιεις</w> <w>εαν</w> <w>μη</w> <w>η</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">θς</hi></abbr></w>
+<lb/><w>μετ</w> <w>αυτου</w>
+</ab></div></div>
+<pb n="44v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V3">
+<lb/><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w>
+<lb/><w>αυτω</w> <w>αμην</w> <w>αμην</w> <w>λε
+<lb break="no"/>γω</w> <w>σοι</w> <w>εαν</w> <w>μη</w> <w>τις</w> <w>γεννη
+<lb break="no"/>θη</w> <w>ανωθεν</w> <w>ου</w> <w>δυναται</w>
+<lb/><w>ιδειν</w> <w>την</w> <w>βασιλειαν</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+</ab></div></div>
+<pb n="45r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V3"><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αυ
+<lb break="no"/>τω</w> <w>αμην</w> <w>αμην</w> <w>λεγω</w> <w>σοι</w>
+<lb/><w>εαν</w> <w>μη</w> <w>τις</w> <w>γεννηθη</w> <w>ανω
+<lb break="no"/>θεν</w> <w>ου</w> <w>δυναται</w> <w>ιδειν</w> <w>τη¯</w>
+<lb/><w>βασιλειαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+</ab></div></div>
+<pb n="45v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V4">
+<lb/><w>Λεγει</w> <w>προς</w> <w>αυτον</w> <w>νικο
+<lb break="no"/>δημος</w> <w>πως</w> <w>δυναται</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ανος</hi></abbr></w> <w>γεννηθηναι</w> <w>γερω¯</w>
+<lb/><w>ων</w> <w>μη</w> <w>δυναται</w> <w>εις</w> <w>την</w>
+<lb/><w>κοιλιαν</w> <w>της</w> <w><abbr type="nomSac"><hi rend="overline">μρς</hi></abbr></w> <w>αυτου</w> <w>δευ
+<lb break="no"/>τερον</w> <w>εισελθειν</w> <w>και</w> <w>γεν
+<lb break="no"/>νηθηναι</w>
+</ab></div></div>
+<pb n="46r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V5">
+<lb/><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αμην</w>
+<lb/><w>αμην</w> <w>λεγω</w> <w>σοι</w> <w>εαν</w> <w>μη</w> <w>τις</w> <w>γεν
+<lb break="no"/>νηθη</w> <w>εξ</w> <w>υδατος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>ου</w> <w>δυ
+<lb break="no"/>ναται</w> <w>εισελθειν</w> <w>εις</w> <w>την</w> <w>βασι
+<lb break="no"/>λειαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+</ab></div></div>
+<pb n="46v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V5"><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αμην</w>
+<lb/><w>αμην</w> <w>λεγω</w> <w>σοι</w> <w>εαν</w> <w>μη</w> <w>τις</w> <w>γεν
+<lb break="no"/>νηθη</w> <w>εξ</w> <w>υδατος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>ου</w>
+<lb/><w>δυναται</w> <w>εισελθειν</w> <w>εις</w> <w>την</w>
+<lb/><w>βασιλειαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+</ab></div></div>
+<pb n="47r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V5"><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αμην</w>
+<lb/><w>αμην</w> <w>λεγω</w> <w>σοι</w> <w>εαν</w> <w>μη</w> <w>τις</w> <w>γεν
+<lb break="no"/>νηθη</w> <w>εξ</w> <w>υδατος</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w>ου</w>
+<lb/><w>δυναται</w> <w>εισελθειν</w> <w>εις</w> <w>την</w>
+<lb/><w>βασιλειαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w>
+</ab></div></div>
+<pb n="47v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V6" part="I">
+<lb/><w>Το</w> <w>γεγεννημενον</w>
+<lb/><w>εκ</w> <w>της</w> <w>σαρκος</w> <w>σαρξ</w>
+<lb/><w>εστιν</w>
+</ab></div></div>
+<pb n="48r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V6" part="F">
+<lb/><w>Και</w> <w>το</w> <w>γεγεννημενον</w> <w>εκ</w>
+<lb/><w>του</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>εστιν</w>
+<lb/></ab> <ab n="B04K3V7"><w>Μη</w> <w>θαυμασης</w> <w>οτι</w> <w>ειπον</w> <w>σοι</w> <w>δει</w>
+<lb/><w>υμας</w> <w>γεννηθηναι</w> <w>ανωθε¯</w>
+</ab></div></div>
+<pb n="48v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V8">
+<lb/><w>Το</w> <w><abbr type="nomSac"><hi rend="overline">πνα</hi></abbr></w> <w>οπου</w> <w>θελει</w> <w>πνει</w> <w>και</w> <w>την</w> <w>φω
+<lb break="no"/>νην</w> <w>α<supplied reason="unspecified">υ</supplied>του</w> <w>ακουεις</w> <w>αλλ</w> <w>ουκ</w> <w>οιδας</w>
+<lb/><w>ποθεν</w> <w>ερχεται</w> <w>και</w> <w>που</w> <w>υπαγει</w>
+<lb/><w>ου<supplied reason="unspecified">τ</supplied>ως</w> <w>εστιν</w> <w>πας</w> <w>ο</w> <w>γεγεννημε
+<lb break="no"/>νος</w> <w>εκ</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πνς</hi></abbr></w>
+</ab></div></div>
+<pb n="50r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V12">
+<lb/><w>Ει</w> <w>τα</w> <w>επιγεια</w> <w>ειπον</w> <w>υμι¯</w>
+<lb/><w>και</w> <w>ου</w> <w>πιστευετε</w> <w>πως</w>
+<lb/><w>εαν</w> <w>ειπω</w> <w>υμιν</w> <w>τα</w> <w>επου
+<lb break="no"/>ρανια</w> <w>πιστευετε</w>
+</ab></div></div>
+<pb n="50v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V13">
+<lb/><w>Και</w> <w>ουδεις</w> <w>αναβεβηκεν</w> <w>εις</w> <w>τον</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">ουνον</hi></abbr></w> <w>ει</w> <w>μη</w> <w>ο</w> <w>εκ</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ουνου</hi></abbr></w>
+<lb/><w>καταβας</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">υς</hi></abbr></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w> <w>ο</w> <w>ων</w>
+<lb/><w>εν</w> <w>τω</w> <w><abbr type="nomSac"><hi rend="overline">ουνω</hi></abbr></w>
+</ab></div></div>
+<pb n="55r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V20">
+<lb/><w>πας</w> <w>γαρ</w> <w>ο</w> <w>τα</w> <w>φαυλα</w> <w>πρασσων</w>
+<lb/><w>μισει</w> <w>το</w> <w>φως</w> <w>και</w> <w>ουκ</w> <w>ερχεται</w>
+<lb/><w>προς</w> <w>το</w> <w>φως</w> <w>ινα</w> <w>μη</w> <w>ελεγχθη</w>
+<lb/><w>τα</w> <w>εργα</w> <w>αυτου</w></ab> <ab n="B04K3V21"><w>ο</w> <w>δε</w> <w>ποιων</w> <w>την</w>
+<lb/><w>αληθειαν</w> <w>ερχεται</w> <w>προς</w> <w>το</w> <w>φως</w>
+<lb/><w>ινα</w> <w>φανερωθη</w> <w>αυτου</w> <w>τα</w> <w>εργα</w>
+<lb/><w>οτι</w> <w>εν</w> <w><abbr type="nomSac"><hi rend="overline">θω</hi></abbr></w> <w>εστιν</w> <w>ειργασμενα</w>
+</ab></div></div>
+<pb n="55v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K3" type="chapter" part="M"><ab n="B04K3V22">
+<lb/><w>μετα</w> <w>ταυτα</w> <w>ηλθεν</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w>
+<lb/><w>και</w> <w>οι</w> <w>μαθηται</w> <w>αυτου</w>
+<lb/><w>εις</w> <w>την</w> <w>ιουδαιαν</w> <w>γην</w>
+<lb/><w>και</w> <w>εκει</w> <w>διετριβεν</w>
+<lb/><w>μετ</w> <w>αυτων</w> <w>και</w> <w>εβα
+<lb break="no"/>πτιζεν</w>
+</ab></div></div>
+<pb n="67r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="I"><ab n="B04K4V7">
+<lb/><w>ερχεται</w> <w>γυνη</w> <w>εκ</w> <w>της</w> <w>σαμ
+<lb break="no"/><unclear>α</unclear>ρειας</w> <w>αντλησ<unclear>αι</unclear></w> <w>υδωρ</w>
+<lb/><w>λεγει</w> <w>αυτη</w> <w><unclear>ο</unclear></w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>δος</w> <w>μοι</w> <w>π<unclear>ιε</unclear>ιν</w></ab> <ab n="B04K4V8"><w>ο<unclear>ι</unclear></w>
+<lb/><w><supplied reason="unspecified">γ</supplied>αρ</w> <w>μαθ<unclear>η</unclear><supplied reason="unspecified">τα</supplied><unclear>ι</unclear></w> <w><unclear>α</unclear>υτου</w> <w>απηλθ<unclear>ο</unclear>¯</w>
+<lb/><w>εις</w> <w>την</w> <w>π<supplied reason="unspecified">ολ</supplied><unclear>ι</unclear>ν</w> <w><supplied reason="unspecified">ι</supplied>να</w> <w>τροφας</w> <w>α
+<lb break="no"/><unclear>γ</unclear><supplied reason="unspecified">ορα</supplied><unclear>σωσ</unclear>ι¯</w>
+</ab></div></div>
+<pb n="67v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="M"><ab n="B04K4V9">
+<lb/><w>λεγει</w> <w>ουν</w> <w>αυτω</w> <w><unclear>η</unclear></w> <w><unclear>γ</unclear>υνη</w> <w>η</w> <w>σα
+<lb break="no"/>μαριτις</w> <w>πως</w> <w>συ</w> <w>ιουδαιος</w> <w>ω¯</w>
+<lb/><w>παρ</w> <w>εμου</w> <w>πιειν</w> <w>αιτεις</w> <w>γυναι
+<lb break="no"/>κος</w> <w>σαμαριτιδος</w> <w>ουσης</w> <w>ου</w> <w>γαρ</w>
+<lb/><w>συγχρωνται</w> <w>ιουδαιοι</w> <w>σαμα
+<lb break="no"/>ριταις</w>
+</ab></div></div>
+<pb n="68r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="M"><ab n="B04K4V10">
+<lb/><w>Απεκριθη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>και</w> <w>ειπεν</w> <w>αυτη</w> <w>ει</w>
+<lb/><w>ειδης</w> <w>την</w> <w>δωρεαν</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">θυ</hi></abbr></w> <w>και</w>
+<lb/><w>τις</w> <w>εστιν</w> <w>ο</w> <w>λεγων</w> <w>σοι</w> <w>δος</w> <w>μοι</w> <w>πιειν</w>
+<lb/><w>συ</w> <w>αν</w> <w>ητησας</w> <w>και</w> <w>εδωκεν</w> <w>αν</w> <w>σοι</w>
+<lb/><w>υδωρ</w> <w>ζον</w>
+<lb/></ab> <ab n="B04K4V11"><w>Λεγει</w> <w>αυτω</w> <w>η</w> <w>γυνη</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>ουτε</w> <w>αντλημα</w>
+<lb/><w>εχεις</w> <w>και</w> <w>το</w> <w>φρεαρ</w> <w>εστι</w> <w>βαθυ</w> <w>ποθεν</w> <w>ουν</w>
+<lb/><w>εχεις</w> <w>το</w> <w>υδωρ</w> <w>το</w> <w>ζον</w>
+</ab></div></div>
+<pb n="68v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="M"><ab n="B04K4V12">
+<lb/><w>Μη</w> <w>συ</w> <w>μειζων</w> <w>ει</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>η
+<lb break="no"/>μων</w> <w>ιακωβ</w> <w>ος</w> <w>εδωκεν</w>
+<lb/><w>ημιν</w> <w>το</w> <w>φρεαρ</w> <w>και</w> <w>αυτος</w>
+<lb/><w>εξ</w> <w>αυτου</w> <w>επιεν</w> <w>και</w> <w>οι</w> <w>υιοι</w>
+<lb/><w>αυτου</w> <w>και</w> <w>τα</w> <w>θρεμματα</w> <w>αυτου</w>
+</ab></div></div>
+<pb n="69r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="M"><ab n="B04K4V12"><w>Μη</w> <w>συ</w> <w>μειζων</w> <w>ει</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">πρς</hi></abbr></w> <w>ημων</w>
+<lb/><w>ιακωβ</w> <w>ος</w> <w>εδωκεν</w> <w>ημιν</w> <w>το</w> <w>φρε
+<lb break="no"/>αρ</w> <w>και</w> <w>αυτος</w> <w>εξ</w> <w>αυτου</w> <w>επιεν</w> <w>και</w>
+<lb/><w>οι</w> <w>υιοι</w> <w>αυτου</w> <w>και</w> <w>τα</w> <w>θρεμματα</w>
+<lb/><w>αυτου</w>
+</ab></div></div>
+<pb n="69v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K4" type="chapter" part="M"><ab n="B04K4V13">
+<lb/><w>Απεκριθη</w> <w><abbr type="nomSac"><unclear><hi rend="overline">ις</hi></unclear></abbr></w> <w><unclear>κα</unclear>ι</w> <w>ειπεν</w> <w>αυτη</w>
+<lb/><w>πας</w> <w>ο</w> <w>πινων</w> <w>εκ</w> <w>του</w> <w>υδατος</w>
+<lb/><w>τουτου</w> <w>διψησει</w> <w>παλιν</w>
+<lb/></ab> <ab n="B04K4V14"><w>Ος</w> <w>δ</w> <w>αν</w> <w>πιη</w> <w>εκ</w> <w>του</w> <w>υδατος</w> <w>ου</w> <w>εγω</w>
+<lb/><w>δωσω</w> <w>αυτω</w> <w>ου</w> <w>μη</w> <w>διψησει</w>
+<lb/><w>εις</w> <w>τον</w> <w>αιωνα</w> <w>αλλα</w> <w>το</w> <w>υδωρ</w> <w>ο</w> <w>δω
+<lb break="no"/>σω</w> <w>αυτω</w> <w>γενησεται</w> <w>εν</w> <w>αυτω</w>
+<lb/><w>πηγη</w> <w>υδατος</w> <w>αλλομενου</w> <w>εις</w>
+<lb/><w>ζωην</w> <w>αιωνιον</w>
+</ab></div></div>
+<pb n="267r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K20" type="chapter" part="I"><ab n="B04K20V10"><w>Απηλθον</w> <w>ουν</w> <w>παλιν</w> <w>προς</w> <w>εαυτους</w> <w>οι</w> <w>μαθη
+<lb break="no"/>ται</w></ab> <ab n="B04K20V11"><w>μαριαμ</w> <w>δε</w> <w>ιστηκει</w> <w>προς</w> <w>το</w> <w>μνημει
+<lb break="no"/>ον</w> <w>εξω</w> <w>κλαιουσα</w> <w>ως</w> <w>ουν</w> <w>εκλαιεν</w> <w>παρεκυ
+<lb break="no"/>ψεν</w> <w>εις</w> <w>το</w> <w>μνημειον</w></ab> <ab n="B04K20V12"><w>και</w> <w>θεωρει</w> <w>δυο</w> <w>αγ
+<lb break="no"/>γελους</w> <w>εν</w> <w>λευκοις</w> <w>καθεζομενους</w> <w>ενα</w>
+<lb/><w>προς</w> <w>τη</w> <w>κεφαλη</w> <w>και</w> <w>ενα</w> <w>προς</w> <w>τοις</w> <w>ποσι¯</w>
+<lb/><w>οπου</w> <w>εκειτο</w> <w>το</w> <w>σωμα</w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w></ab> <ab n="B04K20V13"><w>και</w> <w>λεγου
+<lb break="no"/>σιν</w> <w>αυτη</w> <w>εκεινοι</w> <w>γυναι</w> <w>τι</w> <w>κλαιεις</w> <gap reason="lacuna" unit="line" extent="1"/>
+</ab></div></div>
+<pb n="268v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K20" type="chapter" part="M"><ab n="B04K20V15"><w>Λεγει</w> <w>αυτη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>γυναι</w> <w>τι</w> <w>κλαιεις</w>
+<lb/><w>τινα</w> <w>ζητεις</w> <w>εκεινη</w> <w>δοκουσα</w> <w>οτι</w>
+<lb/><w>ο</w> <w>κηπουρος</w> <w>εστιν</w> <w>λεγει</w> <w>αυτω</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>ει</w> <w>συ</w>
+<lb/><w>εβαστασας</w> <w>αυτον</w> <w>ειπε</w> <w>μοι</w> <w>που</w> <w>εθηκας</w>
+<lb/><w>αυτον</w> <w>καγω</w> <w>αυτον</w> <w>αρω</w>
+</ab></div></div>
+<pb n="269r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K20" type="chapter" part="M"><ab n="B04K20V15"><w>Λεγει</w> <w>αυτη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>γυναι</w> <w>τι</w> <w>κλαιεις</w> <w>τινα</w> <w>ζητεις</w>
+<lb/><w>εκεινη</w> <w>δοκουσα</w> <w>οτι</w> <w>ο</w> <w>κηπουρος</w> <w>εστιν</w> <w>λεγει</w> <w>αυτω</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w> <w>ει</w> <w>συ</w> <w>εβαστασας</w> <w>αυτον</w> <w>ειπε</w> <w>μοι</w> <w>που</w> <w>εθηκας</w>
+<lb/><w>αυτον</w> <w>καγω</w> <w>αυτον</w> <w>αρω</w>
+<lb/></ab> <ab n="B04K20V16"><w>Λεγει</w> <w>αυτη</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>μαριαμ</w> <w>στραφεισα</w> <w>εκεινη</w> <w>λεγει</w> <w>αυ
+<lb break="no"/>τω</w> <w>εβραιστι</w> <w>ραβουνι</w> <w>ο</w> <w>λεγεται</w> <w>διδασκαλε</w>
+</ab></div></div>
+<pb n="269v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K20" type="chapter" part="M"><ab n="B04K20V17"><w>Λεγει</w> <w>αυτη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>μη</w> <w>μου</w> <w>απτου</w> <w>ουπω</w> <w>γαρ</w> <w>ανα
+<lb break="no"/>βεβηκα</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>μου</w> <w>πορευου</w> <w>ουν</w> <w>προς</w>
+<lb/><w>τους</w> <w>αδελφους</w> <w>μου</w> <w>και</w> <w>ειπε</w> <w>αυτοις</w> <w>αναβαι
+<lb break="no"/>νω</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>μου</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>υμων</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w>
+<lb/><w>μου</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>υμων</w>
+</ab></div></div>
+<pb n="270r" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="M"><div n="B04K20" type="chapter" part="M"><ab n="B04K20V17"><w>Λεγει</w> <w>αυτη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>μη</w> <w>μου</w> <w>απτου</w> <w>ου
+<lb break="no"/>πω</w> <w>γαρ</w> <w>αναβεβηκα</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>μου</w>
+<lb/><w>πορευου</w> <w>ουν</w> <w>προς</w> <w>τους</w> <w>αδελφους</w> <w>μου</w>
+<lb/><w>και</w> <w>ειπε</w> <w>αυτοις</w> <w>αναβαινω</w> <w>προς</w> <w>τον</w>
+<lb/><w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>μου</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>υμων</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>μου</w>
+<lb/><w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>υμων</w>
+</ab></div></div>
+<pb n="270v" type="folio"/>
+<cb n="1"/>
+<lb/><div type="book" n="B04" part="F"><div n="B04K20" type="chapter" part="F"><ab n="B04K20V17"><w>Λεγει</w> <w>αυτη</w> <w>ο</w> <w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>μη</w> <w>μου</w> <w>απτου</w> <w>ουπω</w> <w>γαρ</w>
+<lb/><w>αναβεβηκα</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>μου</w> <w>πορευ
+<lb break="no"/>ου</w> <w>ουν</w> <w>προς</w> <w>τους</w> <w>αδελφους</w> <w>μου</w> <w>και</w> <w>ει
+<lb break="no"/>πε</w> <w>αυτοις</w> <w>αναβαινω</w> <w>προς</w> <w>τον</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w>
+<lb/><w>μου</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">πρα</hi></abbr></w> <w>υμων</w> <w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>μου</w>
+<lb/><w>και</w> <w><abbr type="nomSac"><hi rend="overline">θν</hi></abbr></w> <w>υμων</w></ab><gap reason="witnessEnd"/></div></div></body></text></TEI>

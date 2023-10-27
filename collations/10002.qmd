@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 10002 (𝔓^2^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^2^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10002).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^2^                                   	| λογος                              	|
+| 𝔓^2^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^2^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^2^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^2^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^2^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^2^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 12
+
+[ευαγγελ[ιον]{.greek-supplied}]{.greek-added} [[κατα]{.greek-supplied}]{.greek-added} [[ιωναννην]{.greek-supplied}]{.greek-added} τη επαυριον [οχλος[π]{.unclear}[ολυς]{.greek-supplied}]{.greek-added} [οχλος]{.greek-omitted} [πολυς]{.greek-omitted} [ο]{.greek-supplied} [ελθων]{.greek-supplied} [εις]{.greek-supplied} [την]{.greek-supplied} εορτην ακουσαντ[ες]{.greek-supplied} [οτι]{.greek-supplied} [ερχεται]{.greek-supplied} [[ο]{.greek-supplied}]{.greek-added} [ιησους]{.greek-abbr} εις [ιεροσολυμα]{.greek-omitted} [ιερου[σο]{.greek-supplied}[λυ]{.unclear}[μα]{.greek-supplied}]{.greek-added}[12:12]{.aside}
+
+[ελαβον]{.greek-supplied} [τα]{.greek-supplied} [βαια]{.greek-supplied} [των]{.greek-supplied} φοινικων [κ]{.unclear}[αι]{.greek-supplied} [εξηλθον]{.greek-supplied} [εις]{.greek-supplied} [υπαντησιν]{.greek-supplied} [αυτω]{.greek-supplied} [κα]{.greek-supplied}ι [εκραζον]{.greek-omitted} [εκραυ[γαζον]{.greek-supplied}]{.greek-added} [ωσαννα]{.greek-supplied} [ευλογημενος]{.greek-supplied} [ο]{.greek-supplied} [ε]{.unclear}ρχομε[νος]{.greek-supplied} [εν]{.greek-supplied} [ονοματι]{.greek-supplied} [κυριου]{.greek-abbr} [[και]{.greek-supplied}]{.greek-added} [[ο]{.greek-supplied}]{.greek-added} [βασιλευς]{.greek-supplied} [τ]{.greek-supplied}ου [ισραηλ]{.greek-abbr}[12:13]{.aside}
+
+ε[υρων]{.greek-supplied} [δε]{.greek-supplied} [ο]{.greek-supplied} [ιησους]{.greek-abbr} [οναριον]{.greek-supplied} [εκαθισεν]{.greek-supplied} [ε]{.greek-supplied}π αυτ[ο]{.greek-supplied} [καθως]{.greek-supplied} [εστιν]{.greek-supplied} [γεγραμμενον]{.greek-supplied}[12:14]{.aside}
+
+[μη]{.greek-supplied} [φ]{.unclear}[οβου]{.greek-supplied} [θυγατερ]{.greek-omitted} [[θυγατηρ]{.greek-supplied}]{.greek-added} [σιων]{.greek-supplied} [ιδου]{.greek-supplied} [ο]{.greek-supplied} [βασιλευς]{.greek-supplied} [σου]{.greek-omitted} [ερχεται]{.greek-omitted} [καθημενος]{.greek-omitted} [επι]{.greek-omitted} [πωλον]{.greek-omitted} [ονου]{.greek-omitted}[12:15]{.aside}
+

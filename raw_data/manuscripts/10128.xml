@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P128">P128</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>New York, NY</settlement>
+            <repository>The Metropolitan Museum of Art</repository>
+            <idno>Inv. 14.1.527</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K9"><ab n="B04K9V3" part="F"><w part="F">ουτε</w> <w><unclear>οιγ</unclear><supplied>ονειςαυτουαλλιναφανερω</supplied><lb break="no"/>θη</w> <w>τα</w> <w><unclear>ε</unclear>ρ<unclear>γ</unclear><supplied>ατου</supplied><abbr type="nomSac"><hi rend="overline"><supplied>θυ</supplied></hi></abbr><supplied>εναυτω</supplied></w></ab> <ab n="B04K9V4"><w><supplied>ημαςδειεργα</supplied><lb break="no"/>ζεσθαι</w> <w><unclear>τ</unclear><supplied>αεργατο</supplied>υ</w> <w><unclear>π</unclear><supplied>εμψαντοςμεε</supplied><lb break="no"/>ως</w> <w>ημ<supplied>εραεστινε</supplied><unclear>ρ</unclear>χ<supplied>εταινυξοτεουδεις</supplied></w><lb/><w>δυνα<unclear>τ</unclear><supplied>αιεργαζεσθαι</supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K12"><ab n="B04K12V16" part="F"><w part="F"><supplied>ταυταηνεπαυτωγεγραμμεν</supplied><unclear>α</unclear></w> <w>και</w> <w><supplied>ταυ</supplied><lb break="no"/><supplied>ταεποιησαναυτω</supplied></w></ab> <ab n="B04K12V17"><w><supplied>εμαρτυρει</supplied><unclear>ο</unclear>υν</w> <w>ο</w> <w>οχλο<supplied>ς</supplied></w><lb/><w><supplied>οωνμεταυτουο</supplied>τ<unclear>ε</unclear><supplied>τονλαζαρο</supplied>ν</w> <w>εφων<supplied>η</supplied><lb break="no"/><supplied>σενεκτουμνημ</supplied>ει<unclear>ο</unclear><supplied>υκαιηγειρ</supplied><unclear>ε</unclear>ν</w> <w>αυτον</w><lb/><w><supplied>εκνεκρων</supplied></w></ab> <ab n="B04K12V18" part="I"><w><supplied>διατουτοκαιυπηντ</supplied>ησεν</w> <w part="I"><unclear>α</unclear><supplied>υ</supplied><lb break="no"/><supplied>τω</supplied></w></ab></div> </div></body></text></TEI>

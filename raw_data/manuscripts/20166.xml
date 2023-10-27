@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="0166">0166</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Germany</country>
+            <settlement>Heidelberg</settlement>
+            <repository>Institut für Papyrologie</repository>
+            <idno>P. Heid. Inv. G 1357</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K28"><ab n="B05K28V30" part="F"><w part="F"><supplied reason="unspecified">δι</supplied><lb break="no"/><unclear>ετι</unclear><supplied reason="unspecified">αν</supplied></w> <w><supplied reason="unspecified">ολην</supplied></w> <w><supplied reason="unspecified">εν</supplied></w><lb/><w><supplied reason="unspecified">ι</supplied><unclear>διω</unclear></w> <w><supplied reason="unspecified">μισθωμα</supplied><lb break="no"/>τι</w> <w>κ<unclear>αι</unclear></w> <w><supplied reason="unspecified">απεδεχε</supplied><lb break="no"/>το</w> <w>πα<unclear>ν</unclear><supplied reason="unspecified">τας</supplied></w> <w><supplied reason="unspecified">τους</supplied></w><lb/><w>εισπορ<unclear>ευ</unclear><supplied reason="unspecified">ομε</supplied><lb break="no"/>νους</w> <w>προ<supplied reason="unspecified">ς</supplied></w> <w><supplied reason="unspecified">αυτον</supplied></w><lb/></ab> <ab n="B05K28V31" part="I"><w>κηρυσ<supplied reason="unspecified">σων</supplied></w> <w><supplied reason="unspecified">την</supplied></w><lb/></ab></div></div></body></text></TEI>

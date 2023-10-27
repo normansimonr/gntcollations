@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P21">P21</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>Allentown, PA</settlement>
+            <repository>Muhlenberg College</repository>
+            <idno>Pap. 3</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="001r" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K12"><ab n="B01K12V24" part="F"><w><supplied reason="unspecified">ειπον</supplied></w><note type="editorial" xml:id="B01K12V24-P21-1">Transkript nach dem s/w Photo, das vor der Zerstörung des Fragments durch Feuer entstanden ist.</note> <w>ο<supplied reason="unspecified">υτος</supplied></w> <w><supplied reason="unspecified">ου</supplied><unclear>κ</unclear></w> <w>ε<unclear>κβα</unclear><supplied reason="unspecified">λλει</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied>α</w> <w>δαιμ<unclear>ον</unclear><supplied reason="unspecified">ια</supplied></w> <w><unclear>ει</unclear></w> <w><unclear>μ</unclear>η</w> <w>εν</w> <w>τω</w> <w><supplied reason="unspecified">βε</supplied><lb break="no"/><unclear>ε</unclear>λ<unclear>ζεβο</unclear>υλ</w> <w>αρχο<unclear>ν</unclear><supplied reason="unspecified">τ</supplied>ι</w> <w>των</w> <w><unclear>δ</unclear><supplied reason="unspecified">αι</supplied><lb break="no"/><unclear>μ</unclear>ο<unclear>νιω</unclear>ν</w></ab> <ab n="B01K12V25"><w>ι<unclear>δ</unclear>ων</w> <w><unclear>δ</unclear>ε</w> <w><unclear>τας</unclear></w> <w><supplied reason="unspecified">ενθυ</supplied><lb break="no"/><supplied reason="unspecified">μησει</supplied>ς</w> <w><unclear>αυτων</unclear></w> <w>ει<unclear>π</unclear><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">αυτοις</supplied></w><lb/><w><supplied reason="unspecified">πασα</supplied></w> <w><supplied reason="unspecified">βα</supplied><unclear>σ</unclear>ιλ<unclear>ε</unclear><supplied reason="unspecified">ι</supplied><unclear>α</unclear></w> <w><supplied reason="unspecified">μ</supplied>ερι<unclear>σ</unclear><supplied reason="unspecified">θεισα</supplied></w> <w><supplied reason="unspecified">κα</supplied><lb break="no"/><supplied reason="unspecified">θ</supplied></w> <w><unclear>ε</unclear>αυ<unclear>της</unclear></w> <w>ε<supplied reason="unspecified">ρημ</supplied><unclear>ο</unclear><supplied reason="unspecified">υ</supplied><unclear>τ</unclear>αι</w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">πα</supplied><lb break="no"/><supplied reason="unspecified">σ</supplied><unclear>α</unclear></w> <w>πολις</w> <w><unclear>η</unclear></w> <w><supplied reason="unspecified">οικια</supplied></w> <w><supplied reason="unspecified">με</supplied>ρ<unclear>ι</unclear>σ<unclear>θ</unclear><supplied reason="unspecified">εισα</supplied></w><lb/><w><supplied reason="unspecified">κ</supplied><unclear>αθ</unclear></w> <w>εα<unclear>υ</unclear><supplied reason="unspecified">της</supplied></w> <w><supplied reason="unspecified">ου</supplied></w> <w><supplied reason="unspecified">σταθησεται</supplied></w><lb/></ab> <ab n="B01K12V26" part="I"><w><supplied reason="unspecified">κ</supplied><unclear>αι</unclear></w> <w><unclear>ει</unclear></w> <w><unclear>ο</unclear></w> <w><unclear>σ</unclear><supplied source="na28" reason="lacuna">ατανας</supplied></w> <w><supplied source="na28" reason="lacuna">τον</supplied></w> <w><supplied source="na28" reason="lacuna">σαταναν</supplied></w></ab></div> </div>
+<pb n="001v" type="folio"/><cb n="1"/><lb/><div type="book" n="B01"><div type="chapter" n="B01K12"><ab n="B01K12V32"><note type="local" xml:id="B01K12V32-P21-1">Diese Seite ist das Transkript von E.M.Schofield (1936), S. 195. Das Fragment ist später durch ein Feuer stark zerstört worden. </note> <w><supplied reason="unspecified">και</supplied></w> <w>ος</w> <w><unclear>α</unclear>ν</w> <w>ει<unclear>π</unclear><supplied reason="unspecified">η</supplied></w> <w><supplied reason="unspecified">λογο</supplied>ν</w> <w>κα<unclear>τα</unclear></w> <w><unclear>τ</unclear><supplied reason="unspecified">ου</supplied></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">υυ</hi></supplied></abbr></w> <w>του</w> <w><abbr type="nomSac"><hi rend="overline">ανου</hi></abbr></w> <w>αφεθησετα<unclear>ι</unclear></w> <w><unclear>αυ</unclear><lb break="no"/><supplied reason="unspecified">τ</supplied>ω</w> <w>ουτω</w> <w>ος</w> <w>δ</w> <w>αν</w> <w>ε<supplied reason="unspecified">ι</supplied>πη</w> <w>κατα</w><lb/><w><supplied reason="unspecified">του</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πνς</hi></supplied></abbr></w> <w>του</w> <w>αγιου</w> <w>ου<supplied reason="unspecified">κ</supplied></w> <w><unclear>α</unclear><supplied reason="unspecified">φ</supplied>ε<unclear>θη</unclear><lb break="no"/><supplied reason="unspecified">σεται</supplied></w> <w><supplied reason="unspecified">εν</supplied></w> <w>τ<unclear>ο</unclear><supplied reason="unspecified">υτ</supplied><unclear>ω</unclear></w> <w>τω</w> <w><unclear>α</unclear><supplied reason="unspecified">ιωνι</supplied></w> <w><supplied reason="unspecified">ο</supplied><unclear>υ</unclear><lb break="no"/><supplied reason="unspecified">τε</supplied></w> <w><supplied reason="unspecified">εν</supplied></w> <w><supplied reason="unspecified">τ</supplied>ω</w> <w>με<supplied reason="unspecified">λλ</supplied>οντ<supplied reason="unspecified">ι</supplied></w></ab> <ab n="B01K12V33" part="I"><w><unclear>η</unclear></w> <w><unclear>πο</unclear><supplied reason="unspecified">ιη</supplied><lb break="no"/><supplied reason="unspecified">σατ</supplied>ε</w> <w>το</w> <w>δ<supplied reason="unspecified">ενδρον</supplied></w> <w>καλον</w> <w><supplied reason="unspecified">και</supplied></w><lb/><w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">κ</supplied><unclear>αρ</unclear><supplied reason="unspecified">πον</supplied></w> <w><supplied reason="unspecified">αυτο</supplied>υ</w> <w>καλο<supplied reason="unspecified">ν</supplied></w><lb/><w><supplied reason="unspecified">η</supplied></w> <w><supplied reason="unspecified">ποιησατε</supplied></w> <w><supplied reason="unspecified">το</supplied></w> <w><supplied reason="unspecified">δ</supplied>ενδρο<supplied reason="unspecified">ν</supplied></w> <w part="I"><supplied reason="unspecified">σα</supplied><lb break="no"/><supplied reason="unspecified">προν</supplied></w></ab></div> </div></body></text></TEI>

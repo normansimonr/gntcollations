@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P76">P76</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>Austria</country>
+            <settlement>Wien</settlement>
+            <repository>Österreichische Nationalbibliothek</repository>
+            <idno>Pap. G. 36102</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V9" part="F"><w part="F"><supplied reason="unspecified">σα</supplied><lb break="no"/><supplied reason="unspecified">μαρι</supplied><unclear>τ</unclear>ιδος</w> <w><unclear>ο</unclear><supplied reason="unspecified">υσης</supplied></w><lb/><w><supplied reason="unspecified">ου</supplied></w> <w><supplied reason="unspecified">γαρ</supplied></w> <w>συν<unclear>χρ</unclear><supplied reason="unspecified">ωνται</supplied></w><lb/><w><supplied reason="unspecified">ιου</supplied>δαιοι</w> <w>σ<unclear>α</unclear><supplied reason="unspecified">μαρι</supplied><lb break="no"/><supplied reason="unspecified">ταις</supplied></w><note type="local" xml:id="B04K4V9-P76-1">(ερμ)ηνεια (εαν π)ειστευση(ς) (ανη)ρ γινεται</note></ab></div></div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K4"><ab n="B04K4V12"><w><supplied reason="unspecified">μη</supplied></w> <w><supplied reason="unspecified">συ</supplied></w> <w>μιζ<unclear>ω</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">ει</supplied></w> <w><supplied reason="unspecified">του</supplied></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">πρ</hi></supplied><hi rend="overline">ς</hi></abbr></w> <w>ημω<unclear>ν</unclear></w> <w><supplied reason="unspecified">ιακωβ</supplied></w><lb/><w><supplied reason="unspecified">οσ</supplied>τις</w> <w>εδ<unclear>ω</unclear><supplied reason="unspecified">κεν</supplied></w> <w><supplied reason="unspecified">ημιν</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied><unclear>ο</unclear></w> <w>φρ<unclear>εα</unclear>ρ</w><pc>·</pc> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">αυτος</supplied></w><lb/><w><supplied reason="unspecified">ε</supplied><unclear>ξ</unclear></w> <w>αυτου</w> <w>επι<unclear>ε</unclear><supplied reason="unspecified">ν</supplied></w> <w><supplied reason="unspecified">και</supplied></w><lb/><w><supplied reason="unspecified">τ</supplied><unclear>α</unclear></w> <w>θρ<unclear>εμ</unclear>ματα</w> <w><supplied reason="unspecified">αυτου</supplied></w><note type="local" xml:id="B04K4V12-P76-1">ερμηνε(ια) πολλας τ(...)(...)ας ποιησαι κα(...) (δ)υνηθης</note></ab></div></div></body></text></TEI>

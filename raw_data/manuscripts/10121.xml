@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P121">P121</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>Oxford</settlement>
+            <repository>Sackler Library</repository>
+            <idno>P. Oxy. 4805</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K19"><ab n="B04K19V17" part="F"><w part="F"><supplied reason="unspecified">λεγεται</supplied></w> <w><supplied reason="unspecified">ε</supplied>βραιστι</w> <w>γ<supplied reason="unspecified">ολγοθα</supplied></w></ab> <ab n="B04K19V18"><w><supplied reason="unspecified">οπου</supplied></w> <w><supplied reason="unspecified">αυτον</supplied></w><lb/><w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">εστρωσα</hi></supplied><hi rend="overline">ν</hi></abbr></w><note type="local" xml:id="B04K19V18-P121-1">Staurogramm</note> <w>και</w> <w>μ<unclear>ε</unclear><supplied reason="unspecified">τ</supplied></w> <w><supplied reason="unspecified">αυτου</supplied></w> <w><supplied reason="unspecified">αλλους</supplied></w> <w><supplied reason="unspecified">δυο</supplied></w><lb/><w><gap reason="unspecified" unit="char" extent="3-4"/>α</w> <w>εντευ<supplied reason="unspecified">θεν</supplied></w> <w><supplied reason="unspecified">μεσον</supplied></w> <w><supplied reason="unspecified">δε</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">ιησουν</supplied></w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B04"><div type="chapter" n="B04K19"><ab n="B04K19V25" part="F"><w part="F"><supplied reason="unspecified">μαρια</supplied></w> <w><supplied reason="unspecified">η</supplied></w> <w><supplied reason="unspecified">του</supplied></w> <w><supplied reason="unspecified">κλ</supplied><unclear>οπα</unclear></w> <w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">μαρια</supplied></w> <w><supplied reason="unspecified">η</supplied></w><lb/><w><supplied reason="unspecified">μαγδαληνη</supplied></w></ab> <ab n="B04K19V26" part="I"><w><abbr type="nomSac"><hi rend="overline">ις</hi></abbr></w> <w>ουν</w> <w>ι<supplied reason="unspecified">δων</supplied></w> <w><supplied reason="unspecified">την</supplied></w> <w><abbr type="nomSac"><supplied reason="unspecified"><hi rend="overline">μρα</hi></supplied></abbr></w><lb/><w><supplied reason="unspecified">και</supplied></w> <w><supplied reason="unspecified">τον</supplied></w> <w><supplied reason="unspecified">μα</supplied>θητην</w> <w><unclear>π</unclear><supplied reason="unspecified">αρεστωτα</supplied></w><lb/><w><supplied reason="unspecified">ον</supplied></w> <w><supplied reason="unspecified">ηγαπα</supplied></w> <w><supplied reason="unspecified">λε</supplied><unclear>γ</unclear>ει</w> <w>τη</w> <w><abbr type="nomSac"><hi rend="overline">μρ</hi><supplied reason="unspecified"><hi rend="overline">ι</hi></supplied></abbr></w> <w><supplied reason="unspecified">γυναι</supplied></w> <w part="I"><supplied reason="unspecified">ιδε</supplied></w></ab></div> </div></body></text></TEI>

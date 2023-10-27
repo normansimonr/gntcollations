@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P12">P12</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>New York, NY</settlement>
+            <repository>Morgan Library &amp; Museum</repository>
+            <idno>Amh. Gr. Pap. 3</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B19"><div type="chapter" n="B19K1"><ab n="B19K1V1"><w>πολυ<unclear>μ</unclear>ερως</w> <w>και</w> <w>πολ<unclear>υ</unclear><supplied reason="unspecified">τρο</supplied><unclear>πω</unclear>ς</w><lb/><w>παλε<unclear>ο</unclear></w> <w><abbr type="nomSac"><unclear><hi rend="overline">θς</hi></unclear></abbr></w> <w>λαλησ<supplied reason="unspecified">α</supplied><unclear>ς</unclear></w> <w><unclear>το</unclear><supplied reason="unspecified">ις</supplied></w> <w><supplied reason="unspecified">π</supplied><unclear>α</unclear>τρα<lb break="no"/><unclear>σ</unclear><supplied reason="unspecified">ι</supplied><unclear>ν</unclear></w> <w><unclear>ημ</unclear><supplied reason="unspecified">ω</supplied><unclear>ν</unclear></w> <w><unclear>εν</unclear></w> <w>τοις</w> <w>προ<supplied reason="unspecified">φηταις</supplied></w></ab></div> </div></body></text></TEI>

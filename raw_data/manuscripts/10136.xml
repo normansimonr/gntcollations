@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="TEI-NTMSS.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="document" n="P136">P136</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><name type="org">The Institut für neutestamentliche Textforschung</name></publisher>
+        <availability><p>
+<![CDATA[
+(C) 2023 Institut für Neutestamentliche Textforschung.
+]]>
+</p><p> <![CDATA[
+This work is licensed under a <a rel="license" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Unported License<br/><span style="float:right;"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></span></a>
+]]>
+</p></availability>
+      </publicationStmt>
+<sourceDesc>
+        <msDesc>
+		<msIdentifier>
+            <country>USA</country>
+            <settlement>Durham, NC</settlement>
+            <repository>Duke University, David M. Rubenstein Library</repository>
+            <idno>P. Duke Inv. 1377</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+</fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc"></language>
+      </langUsage>
+      <handNotes>
+        <handNote>
+          <listWit>
+            <witness xml:id="firsthand"></witness>
+<witness xml:id="corrector"></witness>
+</listWit>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+<text xml:lang="grc"><body>
+
+<pb n="1r" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K4"><ab n="B05K4V27"><w><supplied source="na28" reason="illegible">συνηχθησαν</supplied></w> <w><supplied source="na28" reason="illegible">γαρ</supplied></w> <w><unclear>ε</unclear>π</w> <w>αληθειας</w> <w>εν</w> <w>τ<unclear>η</unclear></w> <w><unclear>π</unclear><supplied source="na28" reason="illegible">ο</supplied><unclear>λ</unclear>ει</w> <w>ταυ<unclear>τ</unclear>η</w> <w>επι</w> <w>τον</w> <w>αγι<unclear>ο</unclear><supplied source="na28" reason="illegible">ν</supplied></w> <w><unclear>παιδα</unclear></w> <w>σου</w><lb/><w><abbr type="nomSac"><supplied source="na28" reason="illegible"><hi rend="overline">ιν</hi></supplied></abbr></w> <w><supplied source="na28" reason="illegible">ον</supplied></w> <w><supplied source="na28" reason="illegible">εχρισα</supplied>ς</w> <w>ηρωδης</w> <w>τε</w> <w>και</w> <w>ποντιος</w> <w>πιλατος</w> <w>συν</w> <w>εθνησιν</w> <w>και</w> <w>λαοις</w> <w><abbr type="nomSac"><hi rend="overline">ιηλ</hi></abbr></w><lb/></ab> <ab n="B05K4V28"><w><supplied source="na28" reason="illegible">ποιησαι</supplied></w> <w><supplied source="na28" reason="illegible">οσα</supplied></w> <w>η</w> <w>χειρ</w> <w>σου</w> <w>και</w> <w>η</w> <w>βουλη</w> <w>προωρισεν</w> <w>γενεσθαι</w></ab> <ab n="B05K4V29"><w>και</w> <w>τα</w> <w>νυν</w> <w><abbr type="nomSac"><hi rend="overline">κε</hi></abbr></w><lb/><w><supplied source="na28" reason="illegible">επιδε</supplied></w> <w><supplied source="na28" reason="illegible">επ</supplied><unclear>ι</unclear></w> <w>τας</w> <w>απειλας</w> <w>αυτων</w> <w>και</w> <w>δος</w> <w>τοις</w> <w>δουλοις</w> <w>σου</w> <w>μετα</w> <w>παρρη<unclear>σ</unclear>ιας</w><lb/><w><supplied source="na28" reason="illegible">πασης</supplied></w> <w><supplied source="na28" reason="illegible">λαλ</supplied><unclear>ειν</unclear></w> <w><unclear>τ</unclear>ον</w> <w>λογον</w> <w>σου</w></ab> <ab n="B05K4V30"><w>εν</w> <w>τω</w> <w>την</w> <w>χειρα</w> <w>σε</w> <w>εκτινειν</w> <w>εις</w> <w>ιασιν</w><lb/><w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">σημεια</supplied></w> <w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">τερ</supplied><unclear>α</unclear>τα</w> <w>γινεσθαι</w> <w>δια</w> <w>του</w> <w>ονοματος</w> <w>του</w> <w>αγιου</w> <w>παιδος</w> <w>σου</w> <w><abbr type="nomSac"><hi rend="overline">ιυ</hi></abbr></w><lb/></ab> <ab n="B05K4V31" part="I"><w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">δεηθεντων</supplied></w> <w>αυτων</w> <w>εσαλευθη</w> <w>ο</w> <w>τοπος</w> <w>εν</w> <w>ω</w> <w>ησαν</w> <w>συνηγμενοι</w></ab></div> </div>
+<pb n="1v" type="folio"/><cb n="1"/><lb/><div type="book" n="B05"><div type="chapter" n="B05K7"><ab n="B05K7V26"><w><supplied source="na28" reason="illegible">τη</supplied></w> <w><supplied source="na28" reason="illegible">τε</supplied></w> <w><supplied source="na28" reason="illegible">επιουση</supplied></w> <w><supplied source="na28" reason="illegible">ημερα</supplied></w> <w><unclear>ωφθη</unclear></w> <w><supplied source="na28" reason="illegible">αυτοις</supplied></w> <w><supplied source="na28" reason="illegible">μαχομενοις</supplied></w><lb/><w><supplied source="na28" reason="illegible">και</supplied></w> <w><supplied source="na28" reason="illegible">συνηλλασε</supplied><unclear>ν</unclear></w> <w>αυτους</w> <w>εις</w> <w>ειρηνην</w> <w>ειπων</w> <w>ανδρες</w> <w>αδελφοι</w> <w>εστε</w> <w>ενα<unclear>τ</unclear>ι</w><lb/><w><supplied source="na28" reason="illegible">αδικειτε</supplied></w> <w><supplied source="na28" reason="illegible">αλληλο</supplied>υς</w></ab> <ab n="B05K7V27"><w>ο</w> <w>δε</w> <w>αδικων</w> <w>τον</w> <w>πλησιον</w> <w>απωσατο</w> <w>αυτον</w><lb/><w><supplied source="na28" reason="illegible">ειπων</supplied></w> <w><supplied source="na28" reason="illegible">τις</supplied></w> <w><supplied source="na28" reason="illegible">σ</supplied><unclear>ε</unclear></w> <w>κατεστησεν</w> <w>αρχοντα</w> <w>και</w> <w>δικαστην</w> <w>εφ</w> <w>ημων</w></ab> <ab n="B05K7V28"><w>μη</w><lb/><w><supplied source="na28" reason="illegible">ανελειν</supplied></w> <w><unclear>μ</unclear>ε</w> <w>συ</w> <w>θελεις</w> <w>ον</w> <w>τροπον</w> <w><unclear>αν</unclear>ειλες</w> <app><rdg type="orig" hand="firsthand"><w>εκθες</w></rdg><rdg type="corr" hand="corrector"><w>εχθες</w></rdg></app> <w>τον</w> <w>αιγυπτιον</w></ab> <ab n="B05K7V29"><w>εφυγεν</w> <w>δ<unclear>ε</unclear></w><lb/><w><supplied source="na28" reason="illegible">μωυσης</supplied></w> <w><unclear>εν</unclear></w> <w>τω</w> <w>λογω</w> <w>τουτω</w> <w>και</w> <w>εγενετο</w> <w>π<unclear>αρ</unclear>οικος</w> <w>εν</w> <w>γη</w> <w>μαδιαμ</w><lb/><w><supplied source="na28" reason="illegible">ου</supplied></w> <w><supplied source="na28" reason="illegible">εγενν</supplied><unclear>ησ</unclear>εν</w> <w><unclear>υ</unclear>ιο<supplied source="na28" reason="illegible">υ</supplied>ς</w> <w>δυ<unclear>ο</unclear></w></ab> <ab n="B05K7V30"><w>και</w> <w>πλ<unclear>η</unclear>ρωθεντων</w> <w><unclear>ε</unclear><supplied source="na28" reason="illegible">των</supplied></w> <w><abbr type="num"><hi rend="overline">μ</hi></abbr></w> <w><unclear>ω</unclear>φθη</w> <w>αυτω</w><lb/><w><supplied source="na28" reason="illegible">εν</supplied></w> <w><supplied source="na28" reason="illegible">τη</supplied></w> <w><supplied source="na28" reason="illegible">ερημω</supplied></w> <w><supplied source="na28" reason="illegible">τ</supplied><unclear>ο</unclear><supplied source="na28" reason="illegible">υ</supplied></w> <w>ορ<supplied source="na28" reason="illegible">ους</supplied></w> <w><supplied source="na28" reason="illegible">σινα</supplied></w> <w><supplied source="na28" reason="illegible">αγγ</supplied><unclear>ελος</unclear></w> <w><unclear>ε</unclear>ν</w> <w>πυρ<supplied source="na28" reason="illegible">ι</supplied></w> <w><supplied source="na28" reason="illegible">φλογος</supplied></w> <w><supplied source="na28" reason="illegible">βατου</supplied></w></ab></div> </div></body></text></TEI>
