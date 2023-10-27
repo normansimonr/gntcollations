@@ -1,0 +1,41 @@
+---
+title: "Collation of Byz^RP^ vs 40809 (*ℓ*-809)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read *ℓ*-809 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=40809).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and *ℓ*-809                                   	| λογος                              	|
+| *ℓ*-809 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| *ℓ*-809 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of *ℓ*-809               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of *ℓ*-809                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| *ℓ*-809 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in *ℓ*-809                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 8
+
+[εν]{.greek-omitted} [τη]{.greek-omitted} [ταπεινωσει]{.greek-omitted} [αυτου]{.greek-omitted} [η]{.greek-omitted} [κρισις]{.greek-omitted} [αυτου]{.greek-omitted} [ηρθη]{.greek-omitted} [την]{.greek-omitted} [δε]{.greek-omitted} [γενεαν]{.greek-omitted} [αυτου]{.greek-omitted} [τις]{.greek-omitted} [διηγησεται]{.greek-omitted} [οτι]{.greek-omitted} [αιρεται]{.greek-omitted} [απο]{.greek-omitted} [της]{.greek-omitted} [γης]{.greek-omitted} [η]{.greek-omitted} [ζωη]{.greek-omitted} [αυτου]{.greek-omitted}[8:33]{.aside}
+

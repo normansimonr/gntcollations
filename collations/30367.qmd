@@ -1,0 +1,53 @@
+---
+title: "Collation of Byz^RP^ vs 30367 (367)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 367 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=30367).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 367                                   	| λογος                              	|
+| 367 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 367 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 367               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 367                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 367 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 367                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 1
+
+αποκαλυψις [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} ην εδωκεν αυτω ο [θεος]{.greek-abbr} δειξαι τοις δουλοις αυτου α δει γενεσθαι εν ταχει και εσημανεν αποστειλας δια του αγγελου αυτου τω δουλω αυτου [ιωαννη]{.greek-abbr}[1:1]{.aside}
+
+ος [εμαρτυρησεν]{.greek-omitted} [εμαρτυρησε]{.greek-added} τον λογον του [θεου]{.greek-abbr} και την μαρτυριαν [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} οσα [ειδεν]{.greek-omitted} [ειδε]{.greek-added} [και]{.greek-added} [ατινα]{.greek-added} [εισι]{.greek-added} [και]{.greek-added} [ατινα]{.greek-added} [χρη]{.greek-added} [γενεσθαι]{.greek-added} [μετα]{.greek-added} [ταυτα]{.greek-added}[1:2]{.aside}
+
+μακαριος ο αναγινωσκων και οι ακουοντες τους λογους της προφητειας [ταυτης]{.greek-added} και τηρουντες τα εν αυτη γεγραμμενα ο γαρ καιρος εγγυς[1:3]{.aside}
+
+[ιωαννης]{.greek-abbr} ταις επτα εκκλησιαις ταις εν τη ασια χαρις υμιν και ειρηνη απο [θεου]{.greek-abbr} ο ων και ο ην και ο ερχομενος και απο των επτα πνευματων α ενωπιον του θρονου αυτου[1:4]{.aside}
+
+και απο [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} ο μαρτυς ο πιστος ο πρωτοτοκος των νεκρων και ο αρχων των βασιλεων της γης τω αγαπωντι ημας και λουσαντι ημας απο των αμαρτιων ημων εν τω αιματι αυτου[1:5]{.aside}
+
+και [εποιησεν]{.greek-omitted} [ημας]{.greek-omitted} [ποιησαντι]{.greek-added} [ημιν]{.greek-added} [βασιλειαν]{.greek-omitted} [βασιλειον]{.greek-added} [ιερεις]{.greek-omitted} [ιερατευμα]{.greek-added} τω [θεω]{.greek-abbr} και [πατρι]{.greek-abbr} αυτου αυτω η δοξα και το κρατος εις τους αιωνας [των]{.greek-omitted} [αιωνων]{.greek-omitted} αμην[1:6]{.aside}
+
+ιδου ερχεται μετα των νεφελων και οψεται αυτον πας οφθαλμος και οιτινες [αυτον]{.greek-omitted} [εξεκεντησαν]{.greek-omitted} [και]{.greek-omitted} [κοψονται]{.greek-omitted} [επ]{.greek-omitted} [αυτον]{.greek-omitted} [πασαι]{.greek-omitted} [αι]{.greek-omitted} [φυλαι]{.greek-omitted} [της]{.greek-omitted} [γης]{.greek-omitted} [ναι]{.greek-omitted} [αμην]{.greek-omitted}[1:7]{.aside}
+

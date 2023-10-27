@@ -1,0 +1,43 @@
+---
+title: "Collation of Byz^RP^ vs 10007 (𝔓^7^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^7^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10007).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^7^                                   	| λογος                              	|
+| 𝔓^7^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^7^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^7^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^7^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^7^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^7^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Luke
+
+### Chapter 4
+
+[ιησους]{.greek-abbr} [δε]{.unclear} [πλ[ηρης]{.greek-supplied}]{.greek-added} [πνευματος]{.greek-abbr} αγιου [πληρης]{.greek-omitted} υπεστ[ρε]{.unclear}[ψεν]{.greek-supplied} [απ]{.greek-supplied}ο του ιορ[δανο]{.unclear}[υ]{.greek-supplied} [και]{.greek-supplied} [ηγετο]{.greek-supplied} εν [τω]{.unclear} [πνευματι]{.greek-abbr} [εις]{.greek-omitted} [[εν]{.unclear}]{.greek-added} [την]{.greek-omitted} [[τη]{.unclear}]{.greek-added} [ερημον]{.greek-omitted} [[ερ]{.unclear}[ημ]{.greek-supplied}[ω]{.unclear}]{.greek-added}[4:1]{.aside}
+
+[ημερα]{.unclear}ς [τεσσαρακοντα]{.greek-omitted} [τεσσερακοντα]{.greek-added} πειραζομενος υπο του διαβολου και ουκ ε[φ]{.unclear}αγεν ου[δε]{.unclear}ν εν ταις ημε[ραις]{.unclear} [εκ]{.unclear}[εινα]{.greek-supplied}[ις]{.unclear} κ[α]{.unclear}ι συντελ[εσθ]{.unclear}ει[σων]{.greek-supplied} [αυτων]{.greek-supplied} [υστερον]{.greek-omitted} [επει]{.greek-supplied}ν[ασεν]{.greek-supplied}[4:2]{.aside}
+

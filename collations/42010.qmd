@@ -1,0 +1,53 @@
+---
+title: "Collation of Byz^RP^ vs 42010 (*ℓ*-2010)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read *ℓ*-2010 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=42010).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and *ℓ*-2010                                   	| λογος                              	|
+| *ℓ*-2010 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| *ℓ*-2010 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of *ℓ*-2010               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of *ℓ*-2010                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| *ℓ*-2010 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in *ℓ*-2010                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 8
+
+[οι]{.greek-omitted} [μεν]{.greek-omitted} [ουν]{.greek-omitted} [διαμαρτυραμενοι]{.greek-omitted} [και]{.greek-omitted} [λαλησαντες]{.greek-omitted} [τον]{.greek-omitted} [λογον]{.greek-omitted} [του]{.greek-omitted} [κυριου]{.greek-omitted} [υπεστρεψαν]{.greek-omitted} [εις]{.greek-omitted} [ιερουσαλημ]{.greek-omitted} [πολλας]{.greek-omitted} [τε]{.greek-omitted} [κωμας]{.greek-omitted} [των]{.greek-omitted} [σαμαρειτων]{.greek-omitted} [ευηγγελισαντο]{.greek-omitted}[8:25]{.aside}
+
+### Chapter 9
+
+[ητησατο]{.greek-omitted} [παρ]{.greek-omitted} [αυτου]{.greek-omitted} [επιστολας]{.greek-omitted} [εις]{.greek-omitted} [δαμασκον]{.greek-omitted} [προς]{.greek-omitted} [τας]{.greek-omitted} [συναγωγας]{.greek-omitted} [οπως]{.greek-omitted} [εαν]{.greek-omitted} [τινας]{.greek-omitted} [ευρη]{.greek-omitted} [της]{.greek-omitted} [οδου]{.greek-omitted} [οντας]{.greek-omitted} [ανδρας]{.greek-omitted} [τε]{.greek-omitted} [και]{.greek-omitted} [γυναικας]{.greek-omitted} [δεδεμενους]{.greek-omitted} [αγαγη]{.greek-omitted} [εις]{.greek-omitted} [ιερουσαλημ]{.greek-omitted}[9:2]{.aside}
+
+### Chapter 10
+
+[ως]{.greek-omitted} [δε]{.greek-omitted} [εγενετο]{.greek-omitted} [του]{.greek-omitted} [εισελθειν]{.greek-omitted} [τον]{.greek-omitted} [πετρον]{.greek-omitted} [συναντησας]{.greek-omitted} [αυτω]{.greek-omitted} [ο]{.greek-omitted} [κορνηλιος]{.greek-omitted} [πεσων]{.greek-omitted} [επι]{.greek-omitted} [τους]{.greek-omitted} [ποδας]{.greek-omitted} [προσεκυνησεν]{.greek-omitted}[10:25]{.aside}
+
+### Chapter 25
+
+[περι]{.greek-omitted} [ου]{.greek-omitted} [σταθεντες]{.greek-omitted} [οι]{.greek-omitted} [κατηγοροι]{.greek-omitted} [ουδεμιαν]{.greek-omitted} [αιτιαν]{.greek-omitted} [επεφερον]{.greek-omitted} [ων]{.greek-omitted} [υπενοουν]{.greek-omitted} [εγω]{.greek-omitted}[25:18]{.aside}
+

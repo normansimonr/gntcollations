@@ -1,0 +1,81 @@
+---
+title: "Collation of Byz^RP^ vs 32855 (2855)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 2855 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=32855).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 2855                                   	| λογος                              	|
+| 2855 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 2855 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 2855               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 2855                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 2855 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 2855                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 12
+
+[δια]{.greek-omitted} [τουτο]{.greek-omitted} [ευφραινεσθε]{.greek-omitted} [ουρανοι]{.greek-omitted} και οι εν αυτοις σκηνουντες ουαι [τη]{.greek-omitted} [την]{.greek-added} [γη]{.greek-omitted} [γην]{.greek-added} και [τη]{.greek-omitted} [την]{.greek-added} [θαλασση]{.greek-omitted} [θαλασσαν]{.greek-added} οτι κατεβη ο διαβολος προς υμας εχων θυμον μεγαν ειδως οτι ολιγον καιρον εχει[12:12]{.aside}
+
+και οτε ειδεν ο δρακων οτι εβληθη εις την γην [εδιωξεν]{.greek-omitted} [εδιωξε]{.greek-added} την γυναικα ητις ετεκεν τον [αρρενα]{.greek-omitted} [αρσενα]{.greek-added}[12:13]{.aside}
+
+και εδοθησαν τη γυναικι [αι]{.greek-added} δυο [πτερυγες]{.greek-omitted} [πτερυγαις]{.greek-added} του [α[-]{.unclear}ετου]{.greek-added} [αετου]{.corr} του μεγαλου ινα πετηται εις την ερημον εις τον τοπον αυτης [οπως]{.greek-omitted} [οπου]{.greek-added} [τρεφηται]{.greek-omitted} [τρεφεται]{.greek-added} εκει καιρον και [καιρους]{.greek-omitted} [κερους]{.greek-added} και ημισυ καιρου απο προσωπου του οφεως[12:14]{.aside}
+
+και εβα[λ]{.unclear}εν ο οφις εκ του στοματος αυτου οπισω της γυναικος [υ]{.unclear}δωρ ως ποταμον ινα αυτην ποταμοφορητον ποιηση[12:15]{.aside}
+
+και εβοηθησεν η γη τη γυναικι και ηνοιξεν η γη το στομα αυτης και κατεπιεν τον ποταμον ον [εβαλεν]{.greek-omitted} [εβαλλεν]{.greek-added} ο δρακων εκ του στοματος αυτου[12:16]{.aside}
+
+και ωργισθη ο δρακων επι τη γυναικι και απηλθεν ποιησαι πολεμον μετα των λοιπων του σπερματος αυτης των τηρουντων τας εντολας του [θεου]{.greek-abbr} και [εχοντων]{.greek-omitted} [εχων]{.greek-added} την μαρτυριαν [του]{.greek-added} [ιησου]{.greek-abbr}[12:17]{.aside}
+
+[και]{.greek-added} [εσταθην]{.greek-added} [επι]{.greek-added} [την]{.greek-added} [αμμον]{.greek-added} [της]{.greek-added} [θαλασσης]{.greek-added}[12:18]{.aside}
+
+### Chapter 13
+
+[και]{.greek-omitted} [εσταθην]{.greek-omitted} [επι]{.greek-omitted} [την]{.greek-omitted} [αμμον]{.greek-omitted} [της]{.greek-omitted} [θαλασσης]{.greek-omitted} και ειδον εκ της θαλασσης θηριον αναβαινον εχον κερα[τα]{.unclear} δεκα και κεφαλας επτα και επι των [κερα]{.greek-supplied}τ[ων]{.unclear} αυτου δεκα διαδηματα και επι τας κε[φαλας]{.greek-supplied} αυτου [ονοματα]{.greek-omitted} [ονομα]{.greek-added} βλασφημιας[13:1]{.aside}
+
+και το θη[ριον]{.greek-supplied} [ο]{.greek-supplied} [ε]{.greek-supplied}ιδον ην ομοιον παρδαλει και οι ποδες [αυ]{.greek-supplied}του ως [αρκου]{.greek-omitted} [αρκτου]{.greek-added} και το στομα αυτου [ως]{.greek-supplied} [στ]{.greek-supplied}ομ[α]{.unclear} λεοντος και εδωκεν αυτω ο δρα[κων]{.greek-supplied} [την]{.unclear} δυναμιν αυτου και τον θρονον [αυτου]{.greek-supplied} [και]{.greek-supplied} [ε]{.greek-supplied}ξ[ου]{.unclear}σιαν μεγαλην[13:2]{.aside}
+
+και [ειδον]{.greek-added} μι[αν]{.greek-supplied} [εκ]{.greek-supplied} [των]{.greek-supplied} [κε]{.greek-supplied}[φ]{.unclear}αλων αυτου [ωσει]{.greek-omitted} [ως]{.greek-added} εσφαγμενην [εις]{.greek-supplied} [θανατον]{.greek-supplied} και η πληγη του θανατου [αυ]{.greek-added} [αυτου]{.greek-omitted} [[του]{.greek-supplied}]{.greek-added} [εθεραπευθη]{.greek-supplied} [και]{.unclear} [εθαυμασεν]{.greek-omitted} [[εθαυ]{.unclear}μασ[θη]{.unclear}]{.greek-added} ολη η γη οπισω του θηριου[13:3]{.aside}
+
+και προσεκυνησαν τω δρακοντι [τω]{.greek-omitted} [δεδωκοτι]{.greek-omitted} [οτι]{.greek-added} [εδωκε]{.greek-added} την εξουσιαν τω θηριω [και]{.greek-omitted} [προσεκυνησαν]{.greek-omitted} [τω]{.greek-omitted} [θηριω]{.greek-omitted} λεγοντες [τις]{.greek-omitted} [οτι]{.greek-added} ομοιος τω θηριω και τις [δυνατος]{.greek-omitted} [δυναται]{.greek-added} πολεμησαι μετ αυτου[13:4]{.aside}
+
+και εδοθη αυτω στομα λαλουν μεγαλα και [βλασφημιαν]{.greek-omitted} [βλασφημιαι]{.greek-added} και εδοθη αυτω εξουσια [πολεμον]{.greek-omitted} ποιησαι μηνας [τεσσαρακοντα]{.greek-omitted} [τεσσερακοντα]{.greek-added} [και]{.greek-added} δυο[13:5]{.aside}
+
+και [ηνοιξεν]{.greek-omitted} [ηνοιξε]{.greek-added} το στομα αυτου εις [βλασφημιαν]{.greek-omitted} [βλασφημιας]{.greek-added} προς τον [θεον]{.greek-abbr} βλασφημησαι το ονομα αυτου και την σκην[ην]{.unclear} αυτου τους εν τω [ουρανω]{.greek-abbr} σκηνουντας[13:6]{.aside}
+
+[και]{.greek-omitted} [εδοθη]{.greek-omitted} [αυτω]{.greek-omitted} [ποιησαι]{.greek-omitted} [πολεμον]{.greek-omitted} [μετα]{.greek-omitted} [των]{.greek-omitted} [αγιων]{.greek-omitted} [και]{.greek-omitted} [νικησαι]{.greek-omitted} [αυτους]{.greek-omitted} και εδοθη αυτω εξουσια επι πασαν φυλην και λαον και γλωσσαν και εθνος[13:7]{.aside}
+
+και [προσκυνησουσιν]{.greek-omitted} [προσκυνησουσι]{.greek-added} αυτω παντες οι κατοικουντες επι της γης [ων]{.greek-omitted} [ου]{.greek-added} ου γεγραπται το ονομα [αυτου]{.greek-added} εν τω βιβλιω της ζωης του αρνιου του εσφαγμενου απο καταβολης κοσμου[13:8]{.aside}
+
+ει τις εχει ους ακουσατω[13:9]{.aside}
+
+ει τις [εχει]{.greek-omitted} [εις]{.greek-added} αιχμαλωσιαν υπαγει ει τις εν μαχαιρα [αποκτενει]{.greek-omitted} [ἀποκτένννει]{.greek-added} δει αυτον εν μαχαιρα [αποκτανθηναι]{.greek-omitted} [ἀποκτανθῆναι]{.greek-added} ωδε εστιν η υπομονη και η πιστις των αγιων[13:10]{.aside}
+
+και ειδον αλλο θηριον [αναβαινον]{.greek-omitted} [ἀναβαῖνον]{.greek-added} εκ τη[ς]{.unclear} [γης]{.greek-supplied} και ειχεν κερατα δυο ομοια αρνιω [και]{.greek-supplied} [[ε]{.greek-supplied}]{.greek-added} [ελαλει]{.greek-omitted} [λαλει]{.greek-added} ως δρακων[13:11]{.aside}
+
+και την εξουσιαν τ[ου]{.greek-supplied} [πρωτου]{.greek-omitted} [[πρω]{.greek-supplied}]{.greek-added} [του]{.greek-added} θηριου πασαν ποιει ενωπιον [[αυ]{.greek-supplied}]{.greek-added} [αυτου]{.greek-omitted} [του]{.greek-added} και [εποιει]{.greek-omitted} [ποιει]{.greek-added} την γην και τους εν αυτ[η]{.greek-supplied} [[κα]{.greek-supplied}]{.greek-added} [κατοικουντας]{.greek-omitted} [το[ι]{.unclear}κουντας]{.greek-added} ινα [προσκυνησωσιν]{.greek-omitted} [προσκυνησ[ου]{.greek-supplied}]{.greek-added} [το]{.greek-omitted} [θηριον]{.greek-omitted} [το]{.greek-omitted} [πρωτον]{.greek-omitted} [σι]{.greek-added} [τω]{.greek-added} [θηριω]{.greek-added} [τω]{.greek-added} [πρωτω]{.greek-added} ου [εθεραπευθη]{.greek-omitted} [εθ[εραπευθ]{.greek-supplied}]{.greek-added} [[η]{.unclear}]{.greek-added} η πληγη του θανατου αυτου[13:12]{.aside}
+
+[και]{.greek-supplied} [ποιει]{.greek-supplied} [[ση]{.greek-supplied}]{.greek-added} [σημεια]{.greek-omitted} [μεια]{.greek-added} μεγαλα [ινα]{.greek-added} και πυρ [ινα]{.greek-omitted} [ποιη]{.greek-added} [ε]{.unclear}[κ]{.greek-supplied} [του]{.greek-supplied} [[ουρανου]{.greek-abbr}]{.greek-supplied} [καταβαινη]{.greek-omitted} [επι]{.greek-omitted} [την]{.greek-omitted} [γην]{.greek-omitted} [ενωπιον]{.greek-omitted} [των]{.greek-omitted} [ανθρωπων]{.greek-omitted}[13:13]{.aside}
+

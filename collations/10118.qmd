@@ -1,0 +1,63 @@
+---
+title: "Collation of Byz^RP^ vs 10118 (𝔓^118^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^118^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10118).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^118^                                   	| λογος                              	|
+| 𝔓^118^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^118^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^118^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^118^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^118^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^118^                                                     	| [―]{.gap}                        	|
+:::
+
+## Romans
+
+### Chapter 15
+
+[ευδοκησαν]{.greek-supplied} [γαρ]{.greek-supplied} [μακε]{.greek-supplied}δονια [και]{.greek-supplied} [αχαια]{.greek-omitted} [[αχ]{.greek-supplied}αιαν]{.greek-added} κοι[νωνια]{.greek-supplied}[ν]{.unclear} τινα [ποιη]{.greek-supplied}[σ]{.unclear}ασθαι [ε]{.unclear}[ις]{.greek-supplied} [τους]{.greek-supplied} [π]{.unclear}τω[χους]{.greek-supplied} των αγι[ω]{.unclear}[ν]{.greek-supplied} [των]{.greek-supplied} [ε]{.greek-supplied}[ν]{.unclear} [ιερουσαλημ]{.greek-abbr}[15:26]{.aside}
+
+[ευδ]{.greek-supplied}οκησαν γ[αρ]{.unclear} [και]{.greek-supplied} [οφειλεται]{.greek-supplied} [[εισιν]{.greek-supplied}]{.greek-added} [αυτ]{.greek-supplied}[ω]{.unclear}ν [εισιν]{.greek-omitted} ει γαρ [τοις]{.greek-supplied} [πνευ]{.greek-supplied}[ματικοις]{.greek-supplied} [αυτω]{.greek-supplied}[ν]{.unclear} [ε]{.unclear}[κοινωνη]{.greek-supplied}[σαν]{.greek-supplied} [τα]{.greek-omitted} [εθνη]{.greek-omitted} [οφειλουσιν]{.greek-omitted} [και]{.greek-omitted} [εν]{.greek-omitted} [τοις]{.greek-omitted} [σαρκικοις]{.greek-omitted} [λειτουργησαι]{.greek-omitted} [αυτοις]{.greek-omitted}[15:27]{.aside}
+
+[ινα]{.greek-omitted} [εν]{.greek-omitted} [χαρα]{.greek-omitted} [ελθω]{.greek-omitted} [προς]{.greek-omitted} [υ]{.greek-supplied}[μας]{.unclear} δια [θ]{.unclear}[εληματος]{.greek-supplied} [θεου]{.greek-abbr} [και]{.greek-omitted} [σ]{.greek-supplied}υναναπ[αυσω]{.greek-supplied}μα[ι]{.greek-supplied} [υμιν]{.greek-supplied}[15:32]{.aside}
+
+[ο]{.greek-supplied} [δ]{.unclear}ε [θεος]{.greek-abbr} τ[η]{.unclear}ς ειρηνης μ[ε]{.greek-supplied}[τ]{.greek-supplied}[α]{.unclear} παντ[ω]{.greek-supplied}ν υμων α[μ]{.unclear}[ην]{.greek-supplied}[15:33]{.aside}
+
+### Chapter 16
+
+[συν]{.greek-supplied}[ιστ]{.unclear}[η]{.greek-supplied}[μ]{.unclear}ι δε υμιν [φοι]{.greek-supplied}[βην]{.greek-supplied} [τη]{.greek-supplied}[ν]{.unclear} αδε[λφην]{.greek-supplied} [ημων]{.greek-supplied} [ουσαν]{.greek-omitted} [διακονον]{.greek-omitted} [της]{.greek-omitted} [εκκλησιας]{.greek-omitted} [της]{.greek-omitted} [εν]{.greek-omitted} [κεγχρεαις]{.greek-omitted}[16:1]{.aside}
+
+[οιτινες]{.greek-omitted} [υπερ]{.greek-omitted} [της]{.greek-omitted} [ψυχης]{.greek-omitted} [μου]{.greek-omitted} [τον]{.greek-omitted} [εαυτων]{.greek-omitted} [τραχηλον]{.greek-omitted} [υπεθηκαν]{.greek-omitted} [οις]{.greek-omitted} [ουκ]{.greek-omitted} [εγω]{.greek-omitted} [μονος]{.greek-omitted} [ευχαριστω]{.greek-omitted} [αλλα]{.greek-omitted} [και]{.greek-omitted} [πασαι]{.greek-omitted} [αι]{.greek-supplied} [εκκλησιαι]{.greek-supplied} [των]{.greek-supplied} [εθν]{.greek-supplied}ων[16:4]{.aside}
+
+[και]{.greek-supplied} [την]{.greek-supplied} [κατ]{.greek-supplied} [οικον]{.greek-supplied} [αυτ]{.greek-supplied}ων [εκκλησιαν]{.greek-supplied} [ασπασα]{.greek-supplied}σθε [επαινετον]{.greek-supplied} [τον]{.greek-supplied} [αγα]{.greek-supplied}πητον [μ]{.unclear}[ου]{.greek-supplied} [ος]{.greek-supplied} [εστιν]{.unclear} [απαρχη]{.greek-supplied} [της]{.greek-supplied} [αχαιας]{.greek-omitted} [α[σ]{.unclear}[ι]{.greek-supplied}[α]{.unclear}ς]{.greek-added} εις [χριστον]{.greek-abbr}[16:5]{.aside}
+
+α[σπασασθε]{.greek-supplied} [μαριαμ]{.greek-omitted} [μαρια[ν]{.unclear}]{.greek-added} ητις π[ολλα]{.greek-supplied} [εκοπι]{.greek-supplied}ασεν ε[ις]{.greek-supplied} [ημας]{.greek-omitted} [υμα[ς]{.unclear}]{.greek-added}[16:6]{.aside}
+
+[ασπασασθε]{.greek-omitted} [ασπασ[θ[ε]{.greek-supplied}]{.unclear}]{.greek-added} [ανδρονικον]{.greek-supplied} [και]{.greek-omitted} [ιουνιαν]{.greek-omitted} [τους]{.greek-omitted} [συγγενεις]{.greek-omitted} [μου]{.greek-omitted} [και]{.greek-omitted} [συναιχμαλωτους]{.greek-omitted} [μου]{.greek-omitted} [οιτινες]{.greek-omitted} [εισιν]{.greek-omitted} [επισημοι]{.greek-omitted} [εν]{.greek-omitted} [τοις]{.greek-omitted} [αποστολοις]{.greek-omitted} [οι]{.greek-omitted} [και]{.greek-omitted} [προ]{.greek-omitted} [εμου]{.greek-omitted} [γεγονασιν]{.greek-omitted} [εν]{.greek-omitted} [χριστω]{.greek-omitted}[16:7]{.aside}
+
+[ασπασασθε]{.greek-omitted} [ηρωδιωνα]{.greek-omitted} [τον]{.greek-omitted} [συγγενη]{.greek-omitted} [μου]{.greek-omitted} [ασπασ]{.greek-supplied}[ασ]{.unclear}θε [τ]{.unclear}[ους]{.greek-supplied} [εκ]{.greek-supplied} [των]{.greek-supplied} [ναρκι]{.greek-supplied}σσου τ[ο]{.unclear}[υς]{.greek-supplied} [οντας]{.greek-supplied} [εν]{.greek-supplied} [κυριω]{.greek-abbr}[16:11]{.aside}
+
+ασπα[σασθε]{.greek-supplied} [[τ]{.greek-supplied}[ρυ]{.unclear}φαναν]{.greek-added} [[τ]{.greek-supplied}[ρυ]{.unclear}φαιναν]{.corr} και [τρυφωσαν]{.greek-supplied} τας κοπ[ιω]{.unclear}σα[ς]{.greek-supplied} [εν]{.greek-supplied} [κυριω]{.greek-abbr} α[σ]{.unclear}[πασασθε]{.greek-supplied} [περσιδα]{.greek-supplied} [την]{.greek-supplied} [αγαπητην]{.greek-omitted} [ητις]{.greek-omitted} [πολλα]{.greek-omitted} [εκοπιασεν]{.greek-omitted} [εν]{.greek-omitted} [κυριω]{.greek-omitted}[16:12]{.aside}
+

@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 30081 (81)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 81 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=30081).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 81                                   	| λογος                              	|
+| 81 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 81 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 81               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 81                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 81 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 81                                                     	| [―]{.gap}                        	|
+:::
+
+## First John
+
+### Chapter 1
+
+[εαν]{.greek-omitted} [ειπωμεν]{.greek-omitted} [οτι]{.greek-omitted} [αμαρτιαν]{.greek-omitted} [ουκ]{.greek-omitted} [εχομεν]{.greek-omitted} [εαυτους]{.greek-omitted} [πλανωμεν]{.greek-omitted} [και]{.greek-omitted} [η]{.greek-omitted} [αληθεια]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-omitted} [εν]{.greek-omitted} [ημιν]{.greek-omitted}[1:8]{.aside}
+
+[εαν]{.greek-omitted} [ειπωμεν]{.greek-omitted} [οτι]{.greek-omitted} [ουχ]{.greek-omitted} [ημαρτηκαμεν]{.greek-omitted} [ψευστην]{.greek-omitted} [ποιουμεν]{.greek-omitted} [αυτον]{.greek-omitted} [και]{.greek-omitted} [ο]{.greek-omitted} [λογος]{.greek-omitted} [αυτου]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-omitted} [εν]{.greek-omitted} [ημιν]{.greek-omitted}[1:10]{.aside}
+
+### Chapter 2
+
+[τεκνια]{.greek-omitted} [μου]{.greek-omitted} [ταυτα]{.greek-omitted} [γραφω]{.greek-omitted} [υμιν]{.greek-omitted} [ινα]{.greek-omitted} [μη]{.greek-omitted} [αμαρτητε]{.greek-omitted} [και]{.greek-omitted} [εαν]{.greek-omitted} [τις]{.greek-omitted} [αμαρτη]{.greek-omitted} [παρακλητον]{.greek-omitted} [εχομεν]{.greek-omitted} [προς]{.greek-omitted} [τον]{.greek-omitted} [πατερα]{.greek-omitted} [ιησουν]{.greek-omitted} [χριστον]{.greek-omitted} [δικαιον]{.greek-omitted}[2:1]{.aside}
+

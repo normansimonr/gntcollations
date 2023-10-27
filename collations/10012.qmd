@@ -1,0 +1,41 @@
+---
+title: "Collation of Byz^RP^ vs 10012 (𝔓^12^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^12^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10012).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^12^                                   	| λογος                              	|
+| 𝔓^12^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^12^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^12^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^12^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^12^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^12^                                                     	| [―]{.gap}                        	|
+:::
+
+## Hebrews
+
+### Chapter 1
+
+πολυ[μ]{.unclear}ερως και πολ[υ]{.unclear}[τρο]{.greek-supplied}[πω]{.unclear}ς [παλε[ο]{.unclear}]{.greek-added} [παλαι]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-abbr} λαλησ[α]{.greek-supplied}[ς]{.unclear} [το]{.unclear}[ις]{.greek-supplied} [π]{.greek-supplied}[α]{.unclear}τρα[σ]{.unclear}[ι]{.greek-supplied}[ν]{.unclear} [[ημ]{.unclear}[ω]{.greek-supplied}[ν]{.unclear}]{.greek-added} [εν]{.unclear} τοις προ[φηταις]{.greek-supplied} [επ]{.greek-omitted} [εσχατου]{.greek-omitted} [των]{.greek-omitted} [ημερων]{.greek-omitted} [τουτων]{.greek-omitted} [ελαλησεν]{.greek-omitted} [ημιν]{.greek-omitted} [εν]{.greek-omitted} [υιω]{.greek-omitted}[1:1]{.aside}
+

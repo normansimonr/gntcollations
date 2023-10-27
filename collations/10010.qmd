@@ -1,0 +1,53 @@
+---
+title: "Collation of Byz^RP^ vs 10010 (𝔓^10^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^10^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10010).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^10^                                   	| λογος                              	|
+| 𝔓^10^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^10^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^10^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^10^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^10^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^10^                                                     	| [―]{.gap}                        	|
+:::
+
+## Romans
+
+### Chapter 1
+
+παυλ[ο]{.unclear}ς δουλος [[χριστου]{.greek-abbr}]{.greek-added} [ιησου]{.greek-abbr} [χριστου]{.greek-omitted} κ[λητ]{.unclear}ος αποστολος [αφ]{.greek-supplied}[ω]{.unclear}ρισμενος εις ευαγγε[λι]{.unclear}ον [θεου]{.greek-abbr}[1:1]{.aside}
+
+ο [π]{.unclear}ρο[ε]{.greek-supplied}[π]{.unclear}ηγγειλατο δια [τ]{.unclear}[ω]{.greek-supplied}ν [προφητων]{.greek-omitted} [[π]{.unclear}ρωφητω]{.greek-added} αυτου εν γρ[α]{.greek-supplied}φαις [αγιαις]{.greek-omitted} [αγειαις]{.greek-added}[1:2]{.aside}
+
+περι του [υιου]{.greek-abbr} αυτου του γενομενου εκ σπ[ε]{.greek-supplied}ρματος [δαυιδ]{.greek-omitted} [δαυδ]{.greek-added} κατα σαρκα[1:3]{.aside}
+
+του ορισθεντος [υιου]{.greek-abbr} [θεου]{.greek-abbr} εν δυ[ν]{.unclear}αμει κατα [πνευμα]{.greek-abbr} [αγιωσυνης]{.greek-omitted} [αγιωσσυνης]{.greek-added} ε[ξ]{.unclear} αναστασεως νεκρων [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} του [κυριου]{.greek-abbr} ημων[1:4]{.aside}
+
+δι ο[υ]{.unclear} [ε]{.unclear}[λαβο]{.greek-supplied}μεν χαριν και [αποστολην]{.greek-omitted} [α[π]{.greek-supplied}οστο[λ]{.unclear}ω[ν]{.unclear}]{.greek-added} ει[ς]{.unclear} [υπακοην]{.greek-omitted} [υπακωον]{.greek-added} [πιστεως]{.greek-omitted} [πι[στ]{.unclear}ε[ο]{.unclear}ς]{.greek-added} [εν]{.unclear} [πασιν]{.greek-omitted} [πασι]{.greek-added} τοις [εθνεσιν]{.greek-omitted} [εθνεσ[ι]{.greek-supplied}]{.greek-added} [υ]{.unclear}περ του ονοματος [αυτου]{.greek-omitted}[1:5]{.aside}
+
+[εν]{.greek-omitted} [οις]{.greek-omitted} [εστε]{.greek-omitted} [και]{.greek-omitted} [υμεις]{.greek-omitted} [κλητοι]{.greek-omitted} [ιησου]{.greek-abbr} [χριστου]{.greek-abbr}[1:6]{.aside}
+
+πασιν [τοις]{.greek-omitted} [τους]{.greek-added} ουσιν εν [ρ]{.greek-supplied}ωμη αγαπητοις [θεου]{.greek-abbr} κλητοις [αγ]{.greek-supplied}ιοις χαρις [υμιν]{.greek-omitted} [ημιν]{.greek-added} και ε[ιρ]{.greek-supplied}ηνη απο [θεου]{.greek-abbr} [πατρος]{.greek-abbr} ημων και [κυριου]{.greek-abbr} [[χριστου]{.greek-abbr}]{.greek-added} [ιησου]{.greek-abbr} [χριστου]{.greek-omitted}[1:7]{.aside}
+

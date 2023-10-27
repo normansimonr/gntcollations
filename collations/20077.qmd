@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 20077 (77)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 77 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20077).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 77                                   	| λογος                              	|
+| 77 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 77 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 77               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 77                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 77 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 77                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 13
+
+[και]{.greek-omitted} [μηδεμιαν]{.greek-omitted} [αιτιαν]{.greek-omitted} [θανα]{.greek-supplied}το[υ]{.greek-supplied} [ευρον]{.greek-supplied}[τες]{.greek-supplied} ητ[ησαντο]{.greek-supplied} [πι]{.greek-supplied}λατο[ν]{.greek-supplied} [αναιρ]{.greek-supplied}[εθη]{.greek-supplied}ναι [αυ[τ]{.greek-supplied}]{.greek-supplied}ον[13:28]{.aside}
+
+[ως]{.greek-supplied} δε ετε[λ]{.greek-supplied}εσαν [π]{.greek-supplied}αντα τα π[ερι]{.greek-supplied} [αυ]{.greek-supplied}του γεγ[ραμ]{.greek-supplied}[μενα]{.greek-supplied} καθελον[τες]{.greek-supplied} [απ]{.greek-supplied}ο του [ξυλου]{.greek-supplied} εθηκα[ν]{.greek-supplied} [εις]{.greek-supplied} [μνημειον]{.greek-omitted} [[μ]{.greek-supplied}νημιον]{.greek-added}[[13:29 *(lacunose)*]{.lacunose}]{.aside}
+
+ο [δε]{.greek-supplied} [θεος]{.greek-abbr} [αυτον]{.greek-added} [ηγει]{.greek-supplied}[ρε]{.greek-supplied}ν [αυτον]{.greek-omitted} εκ νε[κρων]{.greek-supplied}[13:30]{.aside}
+
+[ος]{.greek-supplied} [ω]{.greek-supplied}φθη επ[ι]{.greek-supplied} [ημε]{.greek-supplied}[ρας]{.greek-supplied} [πλειους]{.greek-omitted} [πλιο[υς]{.greek-supplied}]{.greek-added} [τοις]{.greek-supplied} [σ]{.greek-supplied}υνα[ναβα]{.greek-supplied}[σιν]{.greek-supplied} [αυ]{.greek-supplied}τω α[πο]{.greek-supplied} [της]{.greek-omitted} [γαλιλαιας]{.greek-omitted} [εις]{.greek-omitted} [ιερουσαλημ]{.greek-omitted} [οιτινες]{.greek-omitted} [εισιν]{.greek-omitted} [μαρτυρες]{.greek-omitted} [αυτου]{.greek-omitted} [προς]{.greek-omitted} [τον]{.greek-omitted} [λαον]{.greek-omitted}[13:31]{.aside}
+

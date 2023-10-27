@@ -1,0 +1,57 @@
+---
+title: "Collation of Byz^RP^ vs 10094 (𝔓^94^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^94^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10094).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^94^                                   	| λογος                              	|
+| 𝔓^94^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^94^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^94^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^94^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^94^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^94^                                                     	| [―]{.gap}                        	|
+:::
+
+## Romans
+
+### Chapter 6
+
+[ειδοτες]{.greek-omitted} [οτι]{.greek-omitted} [χριστος]{.greek-omitted} [εγερθεις]{.greek-omitted} [εκ]{.greek-omitted} [νεκρων]{.greek-omitted} [ουκετι]{.greek-omitted} [αποθνησκει]{.greek-omitted} [θανατος]{.greek-supplied} [αυτου]{.greek-supplied} [ουκετι]{.greek-supplied} [κυρι]{.greek-supplied}[ευ]{.unclear}[ει]{.greek-supplied}[6:9]{.aside}
+
+[ο]{.greek-supplied} [γαρ]{.greek-supplied} [απε]{.greek-supplied}[θανεν]{.greek-supplied} [τη]{.greek-supplied} [αμαρτια]{.greek-supplied} [απεθανεν]{.greek-supplied} [ε]{.greek-supplied}φα[π]{.unclear}αξ ο δε [ζ]{.unclear}[η]{.greek-supplied} [ζη]{.greek-supplied} [τω]{.greek-supplied} [θεω]{.greek-abbr}[6:10]{.aside}
+
+[ουτως]{.greek-supplied} [και]{.greek-supplied} [υμεις]{.greek-supplied} [λογι]{.greek-supplied}[ζε]{.unclear}σθε ε[αυτου]{.unclear}[ς]{.greek-supplied} [[ε]{.greek-supplied}ι[ναι]{.greek-supplied}]{.greek-added} [νεκρους]{.greek-supplied} [μεν]{.unclear} [ειναι]{.greek-omitted} [τη]{.unclear} [αμαρ]{.greek-supplied}[τια]{.unclear} [ζ]{.greek-supplied}[ω]{.unclear}ν[τα]{.unclear}ς δε τω [θεω]{.greek-abbr} εν [χριστω]{.greek-abbr} [ιησου]{.greek-abbr} [τω]{.greek-omitted} [κυριω]{.greek-omitted} [ημων]{.greek-omitted}[6:11]{.aside}
+
+[μ]{.unclear}η ουν [β]{.unclear}ασιλε[υ]{.unclear}ε[τ]{.unclear}ω η αμαρτια εν τ[ω]{.greek-supplied} [θνητω]{.greek-supplied} [υ]{.unclear}μων [σ]{.unclear}ωμ[α]{.unclear}τι εις το υπακου[ειν]{.unclear} [αυτη]{.greek-omitted} [εν]{.greek-omitted} τ[α]{.unclear}[ις]{.greek-supplied} [επι]{.greek-supplied}[θ]{.greek-supplied}[υμ]{.unclear}ι[α]{.unclear}ι[ς]{.unclear} αυτ[ου]{.unclear}[6:12]{.aside}
+
+[μηδε]{.greek-omitted} [μητε]{.greek-added} παριστανετ[ε]{.unclear} [τα]{.greek-supplied} [μελη]{.greek-supplied} [υμων]{.greek-omitted} [οπλα]{.greek-omitted} [αδικιας]{.greek-omitted} [τη]{.greek-omitted} [αμαρτια]{.greek-omitted} [αλλα]{.greek-omitted} [παραστησατε]{.greek-omitted} [εαυτους]{.greek-omitted} [τω]{.greek-omitted} [θεω]{.greek-omitted} [ως]{.greek-omitted} [εκ]{.greek-omitted} [νεκρων]{.greek-omitted} [ζωντας]{.greek-omitted} [και]{.greek-omitted} [τα]{.greek-omitted} [μελη]{.greek-omitted} [υμων]{.greek-omitted} [οπλα]{.greek-omitted} [δικαιοσυνης]{.greek-omitted} [τω]{.greek-omitted} [θεω]{.greek-omitted}[6:13]{.aside}
+
+[ανθρωπινον]{.greek-omitted} [λεγω]{.greek-omitted} [δια]{.greek-omitted} [την]{.greek-omitted} [ασθενειαν]{.greek-omitted} [της]{.greek-omitted} [σαρκος]{.greek-omitted} [υμων]{.greek-omitted} [ωσπερ]{.greek-omitted} [γαρ]{.greek-omitted} [παρεστησατε]{.greek-omitted} [τα]{.greek-omitted} [μελη]{.greek-omitted} [υμων]{.greek-omitted} [δουλα]{.greek-omitted} [τη]{.greek-omitted} [ακαθαρσια]{.greek-omitted} [και]{.greek-omitted} [τη]{.greek-omitted} [ανομια]{.greek-omitted} [εις]{.greek-omitted} [την]{.greek-omitted} [ανομιαν]{.greek-omitted} [ουτως]{.greek-omitted} [νυν]{.greek-omitted} [παραστησατε]{.greek-supplied} [τα]{.greek-supplied} [μελη]{.greek-supplied} [υμων]{.greek-supplied} [δο]{.greek-supplied}υλ[α]{.unclear} [τη]{.unclear} [δ]{.unclear}ικα[ι]{.unclear}[οσυνη]{.greek-supplied} [εις]{.greek-supplied} [αγια]{.greek-supplied}σ[μο]{.greek-supplied}ν[6:19]{.aside}
+
+οτε γαρ [δ]{.unclear}[ο]{.greek-supplied}[υλ]{.unclear}οι [ητε]{.unclear} [τ]{.unclear}η[ς]{.unclear} αμ[αρτι]{.unclear}α[ς]{.unclear} [ελευθε]{.greek-supplied}[ροι]{.greek-supplied} [ητε]{.greek-supplied} [τη]{.greek-supplied} [δι]{.unclear}[κ]{.greek-supplied}[αι]{.unclear}οσυ[νη]{.greek-supplied}[6:20]{.aside}
+
+[τι]{.greek-supplied}να [ου]{.unclear}[ν]{.greek-supplied} [καρπ]{.unclear}ον [ει]{.unclear}χ[ε]{.unclear}[τε]{.greek-supplied} [τοτε]{.greek-supplied} [εφ]{.greek-supplied} [οις]{.greek-supplied} [ν]{.greek-supplied}[υ]{.unclear}ν επ[α]{.unclear}[ισ]{.greek-supplied}χ[υν]{.greek-supplied}εσ[θε]{.greek-supplied} [τ]{.greek-supplied}[ο]{.unclear} [[μ]{.unclear}[εν]{.greek-supplied}]{.greek-added} γαρ τελο[ς]{.unclear} [ε]{.greek-supplied}[κε]{.unclear}[ινων]{.greek-supplied} [θανα]{.greek-supplied}[τ]{.unclear}[ος]{.greek-supplied}[6:21]{.aside}
+
+[ν]{.unclear}υνι δε ελευθ[ερ]{.unclear}ωθεντες απο [τ]{.unclear}η[ς]{.greek-supplied} [αμαρ]{.greek-supplied}[τιας]{.greek-supplied} [δουλωθεντες]{.greek-omitted} [[δ]{.unclear}ωλουθεντες]{.greek-added} δε τω [θεω]{.greek-abbr} εχετε τον κ[α]{.unclear}[ρπον]{.greek-supplied} [υμω]{.greek-supplied}ν εις αγιασμον το [δε]{.unclear} τ[ε]{.greek-supplied}[λος]{.unclear} [ζωην]{.unclear} [αι]{.unclear}ω[νιον]{.greek-supplied}[6:22]{.aside}
+

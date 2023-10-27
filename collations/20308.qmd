@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 20308 (308)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 308 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20308).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 308                                   	| λογος                              	|
+| 308 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 308 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 308               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 308                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 308 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 308                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 11
+
+[και]{.greek-omitted} [ο]{.greek-omitted} [εβδομος]{.greek-omitted} [αγγελος]{.greek-omitted} [εσαλπισεν]{.greek-omitted} [και]{.greek-omitted} [εγενοντο]{.greek-omitted} [φωναι]{.greek-omitted} [μεγαλαι]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [ουρανω]{.greek-omitted} [λεγουσαι]{.greek-omitted} [εγενετο]{.greek-omitted} [―]{.gap}η βασιλε[ι]{.unclear}[α]{.greek-supplied} [του]{.greek-supplied} [κοσ]{.greek-supplied}[μ]{.greek-supplied}ου του [κυριου]{.greek-abbr} ημ[ων]{.greek-supplied} [και]{.greek-supplied} [τ]{.greek-supplied}[ο]{.unclear}υ [χριστου]{.greek-abbr} αυτο[υ]{.greek-supplied} [και]{.greek-supplied} [βασι]{.greek-supplied}[λ]{.greek-supplied}ευσει εις το[υς]{.greek-supplied} [αιω]{.greek-supplied}νας των αι[ωνων]{.greek-supplied} [[αμην]{.greek-supplied}]{.greek-added}[11:15]{.aside}
+
+και οι [[κδ]{.greek-abbr}]{.greek-added} [εικοσι]{.greek-omitted} [τεσσαρες]{.greek-omitted} π[ρ]{.unclear}[εσβυτεροι]{.greek-supplied} [οι]{.greek-omitted} ενωπιον [του]{.greek-omitted} [θρονου]{.greek-omitted} [του]{.greek-supplied} [[θεου]{.greek-abbr}]{.greek-supplied} [κα]{.greek-supplied}θημεν[ο]{.unclear}[ι]{.greek-supplied} [επι]{.greek-supplied} [τους]{.greek-supplied} [θρο]{.greek-supplied}νους [α]{.unclear}[υτων]{.greek-supplied} [επεσον]{.greek-omitted} [[επεσαν]{.greek-supplied}]{.greek-added} επ[ι]{.unclear} [τα]{.greek-supplied} [προσωπα]{.greek-supplied} [αυτων]{.greek-supplied} [[κ]{.unclear}[―]{.gap}]{.greek-added} [και]{.greek-omitted} [προσεκυνησαν]{.greek-omitted} [τω]{.greek-omitted} [θεω]{.greek-omitted}[11:16]{.aside}
+
+[λεγοντες]{.greek-omitted} [ευχαριστουμεν]{.greek-omitted} [σοι]{.greek-omitted} [κυριε]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-omitted} [ο]{.greek-omitted} [παντοκρατωρ]{.greek-omitted} [ο]{.greek-omitted} [ων]{.greek-omitted} [κα]{.greek-supplied}ι ο ην [και]{.greek-added} [οτι]{.greek-supplied} [ειληφ]{.greek-supplied}ας την δυν[αμιν]{.greek-supplied} [σου]{.greek-supplied} [τ]{.unclear}ην μεγα[λ]{.unclear}[ην]{.greek-supplied} [και]{.greek-supplied} [εβα]{.greek-supplied}σιλευσας[[11:17 *(lacunose)*]{.lacunose}]{.aside}
+
+κ[αι]{.greek-supplied} [τα]{.greek-supplied} [εθν]{.greek-supplied}[η]{.unclear} ωργισθησα[ν]{.greek-supplied} [και]{.greek-supplied} [ηλθ]{.greek-supplied}[ε]{.unclear}ν η οργη σο[υ]{.unclear} [και]{.greek-supplied} [ο]{.greek-supplied} [καιρ]{.greek-supplied}[ο]{.unclear}ς των νε[κρων]{.greek-supplied} [κρι]{.greek-supplied}[θ]{.unclear}ηναι και [δουναι]{.greek-supplied} [τον]{.greek-supplied} [μι]{.greek-supplied}σθον [τοις]{.greek-supplied} [δουλοις]{.greek-supplied} [σο]{.greek-supplied}υ [και]{.greek-added} [τοις]{.greek-supplied} [προφηταις]{.greek-supplied} [κ]{.unclear}αι [τοις]{.greek-omitted} [αγιοις]{.greek-omitted} [και]{.greek-omitted} [τοις]{.greek-omitted} [φοβουμενοις]{.greek-omitted} [το]{.greek-omitted} [ονομα]{.greek-omitted} [σου]{.greek-omitted} [τοις]{.greek-omitted} [μικροις]{.greek-omitted} [και]{.greek-omitted} [τοις]{.greek-omitted} [μεγαλοις]{.greek-omitted} [και]{.greek-omitted} [διαφθειραι]{.greek-omitted} [τους]{.greek-omitted} [διαφθειροντας]{.greek-omitted} [την]{.greek-omitted} [γην]{.greek-omitted}[11:18]{.aside}
+

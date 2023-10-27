@@ -1,0 +1,51 @@
+---
+title: "Collation of Byz^RP^ vs 10128 (𝔓^128^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^128^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10128).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^128^                                   	| λογος                              	|
+| 𝔓^128^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^128^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^128^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^128^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^128^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^128^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 9
+
+[απεκριθη]{.greek-omitted} [ιησους]{.greek-omitted} ουτε [[οιγ]{.unclear}[ονειςαυτουαλλιναφανερω]{.greek-supplied}θη]{.greek-added} [ουτος]{.greek-omitted} [ημαρτεν]{.greek-omitted} [ουτε]{.greek-omitted} [οι]{.greek-omitted} [γονεις]{.greek-omitted} [αυτου]{.greek-omitted} [αλλ]{.greek-omitted} [ινα]{.greek-omitted} [φανερωθη]{.greek-omitted} τα [[ε]{.unclear}ρ[γ]{.unclear}[ατου]{.greek-supplied}[θεου]{.greek-abbr}[εναυτω]{.greek-supplied}]{.greek-added} [εργα]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [εν]{.greek-omitted} [αυτω]{.greek-omitted}[9:3]{.aside}
+
+[[ημαςδειεργα]{.greek-supplied}ζεσθαι]{.greek-added} [[τ]{.unclear}[αεργατο]{.greek-supplied}υ]{.greek-added} [εμε]{.greek-omitted} [δει]{.greek-omitted} [εργαζεσθαι]{.greek-omitted} [τα]{.greek-omitted} [εργα]{.greek-omitted} [του]{.greek-omitted} [πεμψαντος]{.greek-omitted} [[π]{.unclear}[εμψαντοςμεε]{.greek-supplied}ως]{.greek-added} [ημ[εραεστινε]{.greek-supplied}[ρ]{.unclear}χ[εταινυξοτεουδεις]{.greek-supplied}]{.greek-added} [δυνα[τ]{.unclear}[αιεργαζεσθαι]{.greek-supplied}]{.greek-added} [με]{.greek-omitted} [εως]{.greek-omitted} [ημερα]{.greek-omitted} [εστιν]{.greek-omitted} [ερχεται]{.greek-omitted} [νυξ]{.greek-omitted} [οτε]{.greek-omitted} [ουδεις]{.greek-omitted} [δυναται]{.greek-omitted} [εργαζεσθαι]{.greek-omitted}[9:4]{.aside}
+
+### Chapter 12
+
+[[ταυταηνεπαυτωγεγραμμεν]{.greek-supplied}[α]{.unclear}]{.greek-added} [ταυτα]{.greek-omitted} [δε]{.greek-omitted} [ουκ]{.greek-omitted} [εγνωσαν]{.greek-omitted} [οι]{.greek-omitted} [μαθηται]{.greek-omitted} [αυτου]{.greek-omitted} [το]{.greek-omitted} [πρωτον]{.greek-omitted} [αλλ]{.greek-omitted} [οτε]{.greek-omitted} [εδοξασθη]{.greek-omitted} [ιησους]{.greek-omitted} [τοτε]{.greek-omitted} [εμνησθησαν]{.greek-omitted} [οτι]{.greek-omitted} [ταυτα]{.greek-omitted} [ην]{.greek-omitted} [επ]{.greek-omitted} [αυτω]{.greek-omitted} [γεγραμμενα]{.greek-omitted} και [[ταυ]{.greek-supplied}[ταεποιησαναυτω]{.greek-supplied}]{.greek-added} [ταυτα]{.greek-omitted} [εποιησαν]{.greek-omitted} [αυτω]{.greek-omitted}[12:16]{.aside}
+
+[εμαρτυρει]{.greek-omitted} [[εμαρτυρει]{.greek-supplied}[ο]{.unclear}υν]{.greek-added} [ουν]{.greek-omitted} ο οχλο[ς]{.greek-supplied} [[οωνμεταυτουο]{.greek-supplied}τ[ε]{.unclear}[τονλαζαρο]{.greek-supplied}ν]{.greek-added} [εφων[η]{.greek-supplied}[σενεκτουμνημ]{.greek-supplied}ει[ο]{.unclear}[υκαιηγειρ]{.greek-supplied}[ε]{.unclear}ν]{.greek-added} [ο]{.greek-omitted} [ων]{.greek-omitted} [μετ]{.greek-omitted} [αυτου]{.greek-omitted} [οτε]{.greek-omitted} [τον]{.greek-omitted} [λαζαρον]{.greek-omitted} [εφωνησεν]{.greek-omitted} [εκ]{.greek-omitted} [του]{.greek-omitted} [μνημειου]{.greek-omitted} [και]{.greek-omitted} [ηγειρεν]{.greek-omitted} αυτον [εκ]{.greek-omitted} [νεκρων]{.greek-omitted} [[εκνεκρων]{.greek-supplied}]{.greek-added}[12:17]{.aside}
+
+[[διατουτοκαιυπηντ]{.greek-supplied}ησεν]{.greek-added} [δια]{.greek-omitted} [τουτο]{.greek-omitted} [και]{.greek-omitted} [υπηντησεν]{.greek-omitted} [α]{.unclear}[υ]{.greek-supplied}[τω]{.greek-supplied} [ο]{.greek-omitted} [οχλος]{.greek-omitted} [οτι]{.greek-omitted} [ηκουσεν]{.greek-omitted} [τουτο]{.greek-omitted} [αυτον]{.greek-omitted} [πεποιηκεναι]{.greek-omitted} [το]{.greek-omitted} [σημειον]{.greek-omitted}[12:18]{.aside}
+

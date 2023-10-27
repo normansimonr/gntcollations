@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 32049 (2049)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 2049 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=32049).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 2049                                   	| λογος                              	|
+| 2049 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 2049 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 2049               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 2049                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 2049 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 2049                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 1
+
+αποκαλυψις [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} ην εδωκεν αυτω ο [θεος]{.greek-abbr} δειξαι τοις [δουλοις]{.unclear} αυτου α δει γενεσθαι εν ταχει και εσημανεν [αποστειλας]{.greek-omitted} [αποστ]{.greek-added} [ειλας]{.greek-added} δια του αγγελου αυτου [[τον]{.corr}]{.greek-added} [[αγγελον]{.corr}]{.greek-added} [[αυτον]{.corr}]{.greek-added} τω δουλω αυτου ιωαννη[1:1]{.aside}
+
+ος εμαρτυρησεν τον λογον του [θεου]{.greek-abbr} και την μαρτυριαν [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} οσα ειδεν[1:2]{.aside}
+
+μακαριος ο αναγινωσκων και οι ακουοντες τους [λογους]{.greek-omitted} [λογ]{.greek-added} [ους]{.greek-added} της προφητειας και τηρουντες τα εν αυτη γεγραμμενα ο γαρ καιρος εγγυς[1:3]{.aside}
+
+[ιωαννης]{.greek-omitted} [ιως]{.greek-added} ταις επτα εκκλησιαις ταις εν τη ασια χαρις υμιν και ειρηνη απο [θεου]{.greek-omitted} ο ων και ο ην και ο ερχομενος και απο των επτα πνευματων α ενωπιον του θρονου [αυτου]{.greek-omitted} [αυτο]{.greek-added}[1:4]{.aside}
+

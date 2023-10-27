@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20245 (245)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 245 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20245).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 245                                   	| λογος                              	|
+| 245 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 245 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 245               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 245                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 245 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 245                                                     	| [―]{.gap}                        	|
+:::
+
+## First John
+
+### Chapter 3
+
+[και]{.greek-omitted} [αυτη]{.greek-omitted} [εστιν]{.greek-omitted} [η]{.greek-omitted} [εντολη]{.greek-omitted} [αυτου]{.greek-omitted} [ινα]{.greek-supplied} [πιστευσωμεν]{.greek-omitted} [[πισ]{.greek-supplied}τευομεν]{.greek-added} τω ονο[ματι]{.greek-supplied} του υιου αυτου [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} [και]{.unclear} αγαπωμεν αλληλους καθως εδωκεν εντολην [ημιν]{.greek-added}[3:23]{.aside}
+
+και ο τηρων τα[ς]{.unclear} εντολας αυτου εν αυτω μενει και αυτος εν αυτω και εν τουτω [γινωσκομεν]{.greek-omitted} [γεινωσκομεν]{.greek-added} οτι μενει εν ημιν εκ του [πνευματος]{.greek-abbr} ου ημιν εδωκεν[3:24]{.aside}
+
+### Chapter 4
+
+αγαπητοι μη παντι [πνευματι]{.greek-abbr} [πιστευετε]{.greek-omitted} [[πιστευ]{.greek-supplied}[ε]{.unclear}ται]{.greek-added} α[λλα]{.greek-supplied} [δοκιμαζετε]{.greek-omitted} [τα]{.greek-omitted} [πνευματα]{.greek-omitted} [ει]{.greek-omitted} [εκ]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [εστιν]{.greek-omitted} [οτι]{.greek-omitted} [πολλοι]{.greek-omitted} [ψευδοπροφηται]{.greek-omitted} [εξεληλυθασιν]{.greek-omitted} [εις]{.greek-omitted} [τον]{.greek-omitted} [κοσμον]{.greek-omitted}[4:1]{.aside}
+
+[και]{.greek-omitted} [παν]{.greek-omitted} [πνευμα]{.greek-omitted} [ο]{.greek-omitted} [μη]{.greek-omitted} [ομολογει]{.greek-omitted} [ιησουν]{.greek-omitted} [χριστον]{.greek-omitted} [εν]{.greek-omitted} [σαρκι]{.greek-omitted} [εληλυθοτα]{.greek-omitted} [εκ]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-omitted} [και]{.greek-omitted} [τουτο]{.greek-omitted} [εστιν]{.greek-omitted} το του αντιχριστο[υ]{.greek-supplied} [ο]{.greek-supplied} [ακηκοατε]{.greek-omitted} [[ακη]{.greek-supplied}κοαται]{.greek-added} ο[τι]{.unclear} ερχεται [και]{.greek-supplied} [νυν]{.greek-supplied} εν τω κοσμω εστιν [ηδη]{.greek-supplied}[4:3]{.aside}
+
+υμεις ε[κ]{.unclear} του [θεου]{.greek-abbr} [εστε]{.greek-omitted} [εσται]{.greek-added} τεκνια κ[αι]{.greek-supplied} [νενικηκατε]{.greek-omitted} [ενεικησατε]{.greek-added} αυτους οτι μειζων εστιν ο εν υμιν η ο εν τω κοσμω[4:4]{.aside}
+
+αυτοι εκ του [κοσμου]{.greek-supplied} εισιν δια του[το]{.unclear} ε[κ]{.unclear} του κοσμου λαλουσι[ν]{.greek-supplied} [και]{.greek-supplied} ο κοσμος αυτων ακου[ει]{.unclear}[4:5]{.aside}
+
+[η]{.greek-supplied}μεις [εκ]{.greek-supplied} [τ]{.unclear}ο[υ]{.greek-supplied} [[θεου]{.greek-abbr}]{.greek-supplied} εσμεν [ο]{.greek-supplied} [γινωσκων]{.greek-supplied} [τον]{.greek-supplied} [θεον]{.greek-abbr} α[κου]{.greek-supplied}[ει]{.greek-supplied} [ημων]{.greek-omitted} [ος]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-omitted} [εκ]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [ουκ]{.greek-omitted} [ακουει]{.greek-omitted} [ημων]{.greek-omitted} [εκ]{.greek-omitted} [τουτου]{.greek-omitted} [γινωσκομεν]{.greek-omitted} [το]{.greek-omitted} [πνευμα]{.greek-omitted} [της]{.greek-omitted} [αληθειας]{.greek-omitted} [και]{.greek-omitted} [το]{.greek-omitted} [πνευμα]{.greek-omitted} [της]{.greek-omitted} [πλανης]{.greek-omitted}[4:6]{.aside}
+

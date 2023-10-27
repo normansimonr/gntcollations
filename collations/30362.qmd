@@ -1,0 +1,69 @@
+---
+title: "Collation of Byz^RP^ vs 30362 (362)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 362 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=30362).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 362                                   	| λογος                              	|
+| 362 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 362 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 362               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 362                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 362 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 362                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 7
+
+[και]{.greek-omitted} κατεβη η βροχη και ηλθον οι ποταμοι και επνευσαν οι ανεμοι [και]{.greek-omitted} [προσεπεσον]{.greek-omitted} [τη]{.greek-omitted} [οικια]{.greek-omitted} [εκεινη]{.greek-omitted} [και]{.greek-omitted} [ουκ]{.greek-omitted} [επεσεν]{.greek-omitted} [τεθεμελιωτο]{.greek-omitted} [γαρ]{.greek-omitted} [επι]{.greek-omitted} [την]{.greek-omitted} [πετραν]{.greek-omitted}[7:25]{.aside}
+
+## The Gospel of Luke
+
+### Chapter 6
+
+και καθως θελετε ινα ποιωσιν υμιν οι [ανθρωποι]{.greek-abbr} και υμεις ποιειτε αυτοις ομοιως[6:31]{.aside}
+
+και ει αγαπατε τους αγαπωντας υμας ποια υμιν χαρις [εστιν]{.greek-omitted} [εστι]{.greek-added} και γαρ οι αμαρτωλοι τους αγαπωντας αυτους αγαπωσιν[6:32]{.aside}
+
+πλην αγαπατε τους εχθρους υμων και αγαθοποιειτε και δανειζετε μηδεν απελπιζοντες και εσται ο μισθος υμων πολυς και εσεσθε υιοι υψιστου οτι αυτος χρηστος εστιν επι τους αχαριστους και πονηρους[6:35]{.aside}
+
+πας ο ερχομενος προς με και ακουων μου [των]{.greek-omitted} [λογων]{.greek-omitted} [τους]{.greek-added} [λογους]{.greek-added} και ποιων αυτους υποδειξω υμιν τινι εστιν ομοιος[6:47]{.aside}
+
+ομοιος εστιν [ανθρωπω]{.greek-abbr} οικοδομουντι οικιαν ος [εσκαψεν]{.greek-omitted} [εσκαψε]{.greek-added} και [εβαθυνεν]{.greek-omitted} [εβαθυνε]{.greek-added} και [εθηκεν]{.greek-omitted} [εθηκε]{.greek-added} θεμελιον επι την πετραν πλημμυρας δε γενομενης προσερρηξεν ο ποταμος τη οικια εκεινη και ουκ [ισχυσεν]{.greek-omitted} [ισχυσε]{.greek-added} σαλευσαι αυτην τεθεμελιωτο γαρ επι την πετραν[6:48]{.aside}
+
+ο δε ακουσας και μη ποιησας ομοιος εστιν [ανθρωπω]{.greek-abbr} οικοδομησαντι οικιαν επι την γην χωρις θεμελιου η προσερρηξεν ο ποταμος και ευθεως [επεσεν]{.greek-omitted} [επεσε]{.greek-added} και εγενετο το ρηγμα της οικιας εκεινης μεγα[6:49]{.aside}
+
+### Chapter 7
+
+[εν]{.greek-omitted} [αυτη]{.greek-omitted} [δε]{.greek-omitted} [τη]{.greek-omitted} [ωρα]{.greek-omitted} [εθεραπευσεν]{.greek-omitted} [πολλους]{.greek-omitted} [απο]{.greek-omitted} [νοσων]{.greek-omitted} και μαστιγων [και]{.greek-omitted} [πνευματων]{.greek-omitted} [πονηρων]{.greek-omitted} και τυφλοις πολλοις εχαρισατο το βλεπειν[7:21]{.aside}
+
+και αποκριθεις ο [ιησους]{.greek-abbr} ειπεν αυτοις πορευθεντες απαγγειλατε ιωαννη α [ειδετε]{.greek-omitted} [ιδετε]{.greek-added} και ηκουσατε οτι τυφλοι [αναβλεπουσιν]{.greek-omitted} [αναβλεπουσι]{.greek-added} χωλοι [περιπατουσιν]{.greek-omitted} [περιπατουσι]{.greek-added} λεπροι καθαριζονται κωφοι [ακουουσιν]{.greek-omitted} [ακουουσι]{.greek-added} νεκροι εγειρονται πτωχοι ευαγγελιζονται[7:22]{.aside}
+
+και μακαριος εστιν ος εαν μη σκανδαλισθη εν εμοι[7:23]{.aside}
+
+### Chapter 10
+
+ιδου διδωμι υμιν την εξουσιαν του πατειν επανω οφεων και σκορπιων και επι πασαν την δυναμιν του εχθρου και ουδεν υμας ου μη αδικηση[10:19]{.aside}
+

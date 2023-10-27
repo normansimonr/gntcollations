@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20244 (244)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 244 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20244).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 244                                   	| λογος                              	|
+| 244 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 244 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 244               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 244                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 244 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 244                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 11
+
+[των]{.greek-omitted} [δε]{.greek-omitted} [μαθητων]{.greek-omitted} [καθως]{.greek-omitted} [ευπορειτο]{.greek-omitted} [τις]{.greek-omitted} [ωρισαν]{.greek-omitted} [εκαστος]{.greek-omitted} [αυ]{.greek-supplied}[των]{.greek-supplied} [εις]{.greek-supplied} [δια]{.greek-supplied}[κον]{.unclear}ια[ν]{.unclear} [πεμψαι]{.greek-supplied} [τοις]{.greek-supplied} κατ[ο]{.unclear}[ι]{.greek-supplied}[κου]{.greek-supplied}[σ]{.unclear}[ι]{.greek-supplied}ν [ε]{.unclear}[ν]{.greek-supplied} [τη]{.greek-supplied} [ιο]{.greek-supplied}υδ[α]{.unclear}[ι]{.greek-supplied}[α]{.greek-supplied} [αδ]{.greek-supplied}ελφοις[11:29]{.aside}
+
+ο και εποιησ[α]{.unclear}ν [α]{.unclear}π[ο]{.unclear}στειλαντες προς τους πρεσβυτερο[υς]{.greek-supplied} δια χειρος βαρναβα και σαυλου[11:30]{.aside}
+
+### Chapter 12
+
+κατ εκεινον δε το[ν]{.unclear} καιρον επεβαλεν ηρωδης [ο]{.unclear} βασιλευς τ[α]{.unclear}[ς]{.greek-supplied} [χειρας]{.greek-supplied} κακωσ[α]{.unclear}[ι]{.greek-supplied} [τινας]{.greek-supplied} [των]{.greek-supplied} [α]{.greek-supplied}πο [τ]{.unclear}[ης]{.greek-supplied} [εκκλησιας]{.greek-supplied}[12:1]{.aside}
+
+αν[ε]{.unclear}[ιλεν]{.greek-supplied} [δε]{.greek-supplied} [ιακωβον]{.greek-supplied} [τ]{.unclear}[ον]{.greek-supplied} [αδελφον]{.greek-supplied} [ιωαννου]{.greek-supplied} [μαχαιρα]{.greek-omitted} [μαχαιρη]{.greek-added}[12:2]{.aside}
+
+[και]{.greek-omitted} [ιδων]{.greek-omitted} [οτι]{.greek-omitted} [αρεστον]{.greek-omitted} [εστιν]{.greek-omitted} [εστ[ι]{.unclear}]{.greek-added} [τοις]{.greek-supplied} [ιουδαιοις]{.greek-supplied} [π]{.unclear}ρο[σ]{.unclear}[εθετο]{.greek-supplied} [συλλαβειν]{.greek-supplied} κα[ι]{.unclear} [πετρον]{.greek-supplied} [η]{.greek-supplied}σαν δε [αι]{.greek-omitted} [ημ]{.unclear}εραι [των]{.greek-supplied} αζυμων[12:3]{.aside}
+
+[ο]{.greek-supplied}ν και πιασας εθε[τ]{.unclear}ο εις [φ]{.unclear}υλακην [π]{.unclear}αραδους [τεσσαρσιν]{.greek-omitted} [τε[σ]{.unclear}σαρσι]{.greek-added} τετραδιοις [στρατιωτων]{.greek-omitted} φυλασσειν αυτον [β]{.greek-supplied}ουλομενος μετα το πασχα αναγαγει[ν]{.unclear} αυ[τον]{.greek-supplied} [τ]{.greek-supplied}[ω]{.unclear} λαω[12:4]{.aside}
+
+[ο]{.greek-supplied} [μεν]{.greek-supplied} [ουν]{.greek-supplied} [π]{.greek-supplied}[ε]{.unclear}τρος ετη[ρειτο]{.greek-supplied} [εν]{.greek-supplied} [τη]{.greek-supplied} [φ]{.greek-supplied}[υ]{.unclear}λακη [προσευχη]{.greek-supplied} [δε]{.greek-supplied} [ην]{.greek-supplied} [εκτενης]{.greek-omitted} [[ε]{.greek-supplied}[κ]{.unclear}τε[νως]{.greek-supplied}]{.greek-added} [γινομενη]{.greek-supplied} [υ]{.greek-supplied}[π]{.unclear}ο [της]{.greek-supplied} [εκκλησιας]{.greek-supplied} [πρ]{.greek-supplied}[ο]{.unclear}ς [τον]{.greek-omitted} [θεον]{.greek-omitted} [υπερ]{.greek-omitted} [αυτου]{.greek-omitted}[12:5]{.aside}
+

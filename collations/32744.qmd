@@ -1,0 +1,61 @@
+---
+title: "Collation of Byz^RP^ vs 32744 (2744)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 2744 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=32744).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 2744                                   	| λογος                              	|
+| 2744 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 2744 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 2744               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 2744                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 2744 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 2744                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Mark
+
+### Chapter 10
+
+[ευκοπωτερον]{.greek-omitted} [εστιν]{.greek-omitted} [καμηλον]{.greek-omitted} [δια]{.greek-omitted} [της]{.greek-omitted} [τρυμαλιας]{.greek-omitted} [μαλιας]{.greek-added} της ρ[α]{.unclear}φ[ιδος]{.greek-supplied} [εισελθειν]{.greek-omitted} [[διελθειν]{.greek-supplied}]{.greek-added} [η]{.greek-supplied} πλουσιον εις την β[ασιλειαν]{.greek-supplied} [του]{.greek-supplied} [θεου]{.greek-abbr} [εισελ]{.greek-supplied}θειν[10:25]{.aside}
+
+οι δε περισ[σ]{.unclear}[ως]{.greek-supplied} [εξεπλησσοντο]{.greek-supplied} λεγοντες προ[ς]{.greek-supplied} [εαυτους]{.greek-supplied} [και]{.greek-supplied} [τις]{.greek-supplied} δυναται σωθηνα[ι]{.greek-supplied}[10:26]{.aside}
+
+[εμβλεψας]{.greek-supplied} [δε]{.greek-omitted} [αυ]{.greek-supplied}τοις ο [ιησους]{.greek-abbr} λεγει πα[ρα]{.greek-supplied} [ανθρωποις]{.greek-abbr} [αδυνατον]{.greek-supplied} αλλ ου παρα [τω]{.greek-added} [θεω]{.greek-abbr} [παντα]{.greek-supplied} [γαρ]{.greek-supplied} [δυνατ]{.greek-supplied}[α]{.unclear} [εστιν]{.greek-omitted} [εστι]{.greek-added} παρα τω [θεω]{.greek-abbr}[10:27]{.aside}
+
+ηρξατο [ο]{.unclear} πετρος λεγειν [αυτω]{.greek-omitted} [αυτωι]{.greek-added} ιδου ημεις αφηκαμεν παντα και ηκολουθησαμεν σοι[10:28]{.aside}
+
+αποκριθεις [δε]{.greek-added} ο [ιησους]{.greek-abbr} ειπεν αμην λεγω υμιν ουδεις εστιν ος αφηκεν οικιαν η αδελφους η αδελφας η [πατερα]{.greek-abbr} η [μητερα]{.greek-abbr} η γυναικα η [τεκνα]{.greek-omitted} [η]{.greek-omitted} αγρους ενεκεν εμου και ενεκεν του ευαγγελιου[10:29]{.aside}
+
+εαν μη λαβη εκατονταπλασιονα νυν εν [τω]{.greek-omitted} [τωι]{.greek-added} [καιρω]{.greek-omitted} [καιρωι]{.greek-added} [τουτω]{.greek-omitted} [τουτωι]{.greek-added} οικιας και αδελφου[ς]{.greek-supplied} και αδελφας [και]{.greek-added} [[πατερα]{.greek-abbr}]{.greek-added} και [μητερας]{.greek-abbr} και τεκνα και αγρους μετα διωγμων και εν [τω]{.greek-omitted} [τωι]{.greek-added} αιωνι [τω]{.greek-omitted} [τωι]{.greek-added} [ερχομενω]{.greek-omitted} [ερχομενωι]{.greek-added} ζωην αιωνιον[10:30]{.aside}
+
+πολλοι δε εσονται πρωτοι εσχατοι και εσχατοι πρωτοι[10:31]{.aside}
+
+ησαν δε εν [τη]{.greek-omitted} [τηι]{.greek-added} [οδω]{.greek-omitted} [οδωι]{.greek-added} αναβαινοντες εις ιεροσολυμα και ην προαγων αυτους ο [ιησους]{.greek-abbr} και εθαμβουντο και ακολουθουντες εφοβουντο και παραλαβων παλιν τους δωδεκα ηρξατο αυτοις λεγειν τα με[λ]{.unclear}λοντα [αυτω]{.greek-omitted} [αυτωι]{.greek-added} συμβαινειν[10:32]{.aside}
+
+οτι ιδου αν[α]{.greek-supplied}βαινομεν εις ιεροσολυμα και ο [υιος]{.greek-abbr} του [ανθρωπου]{.greek-omitted} [[ανου]{.greek-abbr}]{.greek-added} παραδοθησεται [τοις]{.unclear} [αρχιερευσιν]{.greek-omitted} [[αρχι]{.unclear}ε[ρ]{.unclear}ευσι]{.greek-added} και [γραμματευσιν]{.greek-omitted} [γραμματευσι]{.greek-added} και κ[ατακρινουσι]{.greek-supplied}ν αυτ[ον]{.greek-supplied} [θανατω]{.greek-omitted} [θανατωι]{.greek-added} και παραδ[ωσουσιν]{.greek-supplied} [αυ[τ]{.unclear}]{.greek-supplied}ον τοι[ς]{.unclear} [εθνεσιν]{.greek-omitted} [εθνεσι]{.greek-added}[10:33]{.aside}
+
+και [εμπαιξουσιν]{.greek-omitted} [εμπεξουσι[ν]{.greek-supplied}]{.greek-added} [αυτω]{.greek-supplied} [και]{.greek-supplied} μαστ[ι]{.greek-supplied}γωσουσιν αυτον και εμ[πτυσουσιν]{.greek-supplied} [αυτω]{.greek-omitted} [[αυ]{.greek-supplied}τον]{.greek-added} [και]{.unclear} αποκτενουσιν αυτον [και]{.greek-supplied} [τη]{.greek-supplied} [τριτη]{.greek-omitted} [[τριτ]{.greek-supplied}ηι]{.greek-added} [ημ]{.unclear}[ε]{.greek-supplied}ρα [αναστησεται]{.greek-omitted} [αναναστησεται]{.greek-added}[10:34]{.aside}
+
+[και]{.greek-supplied} [προσπο]{.greek-supplied}[ρ]{.unclear}ευον[ται]{.greek-supplied} [αυτω]{.greek-omitted} [αυτωι]{.greek-added} ιακωβος και ιω[αννης]{.greek-supplied} [οι]{.greek-supplied} [υιοι]{.greek-supplied} ζεβεδαιου λεγοντες διδασκαλε θελομεν [ινα]{.greek-omitted} [ο]{.greek-omitted} [εαν]{.greek-omitted} [αιτησωμεν]{.greek-omitted} [ποιησης]{.greek-omitted} [ημιν]{.greek-omitted}[[10:35 *(lacunose)*]{.lacunose}]{.aside}
+

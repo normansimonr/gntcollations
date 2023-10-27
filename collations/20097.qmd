@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20097 (97)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 97 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20097).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 97                                   	| λογος                              	|
+| 97 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 97 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 97               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 97                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 97 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 97                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 13
+
+[και]{.greek-omitted} [απο]{.greek-omitted} [παντων]{.greek-omitted} [ων]{.greek-omitted} [ουκ]{.greek-omitted} [ηδυνηθητε]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [νομω]{.greek-omitted} [μωυσεως]{.greek-omitted} [δικαιωθηναι]{.greek-omitted} [εν]{.greek-omitted} [του]{.greek-supplied}τω [π]{.unclear}ας ο πιστευων [επ]{.greek-added} [αυτω]{.greek-added} δικαιουται[[13:39 *(lacunose)*]{.lacunose}]{.aside}
+
+[βλεπετε]{.greek-omitted} [βλεπεται]{.greek-added} ουν μη επελθη εφ υμας το ειρημενον εν τοι[ς]{.unclear} προφηταις[13:40]{.aside}
+
+ιδετε οι καταφρονηται και [θαυμασατε]{.greek-omitted} [επιβλεψαται]{.greek-added} και [θαυμασαται]{.greek-added} [και]{.greek-added} [αφανισθητε]{.greek-omitted} [αφανισθηται]{.greek-added} οτι ερ[γ]{.unclear}ον εγω εργαζομαι [εν]{.greek-omitted} [ταις]{.greek-omitted} [ημε]{.greek-supplied}ραις [υμων]{.greek-supplied} ο ου [μ]{.unclear}[η]{.greek-supplied} [πιστευσητε]{.greek-omitted} [[πιστευ]{.greek-supplied}σητα[ι]{.greek-supplied}]{.greek-added} [εαν]{.greek-supplied} [τις]{.greek-supplied} εκδι[η]{.unclear}[γηται]{.greek-supplied} υμιν[[13:41 *(lacunose)*]{.lacunose}]{.aside}
+
+[εξ]{.unclear}ιον[τ]{.unclear}[ων]{.greek-supplied} [δε]{.greek-supplied} [εκ]{.greek-omitted} [της]{.greek-omitted} [συναγωγης]{.greek-omitted} [των]{.greek-omitted} [αυτ[ω]{.unclear}[ν]{.greek-supplied}]{.greek-added} [ιουδαιων]{.greek-omitted} [πα]{.greek-supplied}ρεκαλ[ουν]{.greek-supplied} [τα]{.greek-omitted} [εθνη]{.greek-omitted} [εις]{.greek-supplied} το με[ταξυ]{.greek-supplied} σαββ[ατον]{.greek-supplied} [λα]{.greek-supplied}ληθ[η]{.unclear}[ναι]{.greek-supplied} [αυ]{.greek-supplied}τοις [τ]{.unclear}[α]{.greek-supplied} [ρημα]{.greek-supplied}τα [τα[υτα]{.greek-supplied}]{.greek-added}[13:42]{.aside}
+
+[λυ]{.greek-supplied}θειση[ς]{.greek-supplied} [δε]{.greek-supplied} [της]{.greek-supplied} συνα[γωγης]{.greek-supplied} ηκολ[ουθησαν]{.greek-supplied} πολλ[οι]{.greek-supplied} [των]{.greek-supplied} [ιουδαιων]{.greek-omitted} [και]{.greek-omitted} [των]{.greek-supplied} [σεβ]{.greek-supplied}[ο]{.unclear}με[νων]{.greek-supplied} [π]{.greek-supplied}[ρ]{.unclear}οσ[η]{.unclear}λυ[των]{.greek-supplied} [τ]{.greek-supplied}ω παυ[λω]{.greek-supplied} [και]{.greek-supplied} τω βαρ[ναβα]{.greek-supplied} [ο]{.greek-supplied}ιτιν[ε]{.unclear}ς [προσλα]{.greek-supplied}λουν[τες]{.greek-supplied} [[αυ]{.greek-supplied}τοις]{.greek-added} [επειθο]{.greek-supplied}[ν]{.unclear} α[υ]{.unclear}τους [επιμενειν]{.greek-omitted} [[προσμε]{.greek-supplied}νιν]{.greek-added} [τ]{.greek-supplied}[η]{.unclear} [χαριτι]{.greek-supplied} [το]{.unclear}υ [θεου]{.greek-abbr}[13:43]{.aside}
+
+[τω]{.greek-supplied} [τε]{.greek-omitted} [[δε]{.greek-supplied}]{.greek-added} [ε]{.greek-supplied}[ρχ]{.unclear}ομε[νω]{.greek-supplied} [σαβ]{.greek-supplied}[βα]{.unclear}τω [σχεδο]{.greek-supplied}[ν]{.unclear} [π]{.unclear}ασα [η]{.greek-supplied} [πολις]{.greek-supplied} συνη[χθη]{.greek-supplied} [ακο]{.greek-supplied}[υσ]{.unclear}αι [τον]{.greek-supplied} [λο]{.greek-supplied}γο[ν]{.unclear} τ[ο]{.unclear}υ [θεου]{.greek-omitted} [[κυριου]{.greek-abbr}]{.greek-added}[13:44]{.aside}
+
+[ιδο]{.greek-supplied}[ν]{.unclear}τες [δε]{.greek-omitted} [οι]{.greek-omitted} [ιουδαιοι]{.greek-omitted} [του]{.unclear}ς οχ[λο]{.unclear}υς [ε]{.unclear}πλησθησαν ζηλου και αντελε[γ]{.unclear}ον τοις υπο του παυλ[ο]{.unclear}υ λεγομενοις αντιλεγον[τε]{.unclear}ς και β[λα]{.unclear}σφημουντες[[13:45 *(lacunose)*]{.lacunose}]{.aside}
+
+παρ[ρ]{.unclear}ησια[σ]{.unclear}αμενοι δε ο παυλος και ο βαρναβα[ς]{.unclear} ειπον υμιν ην αναγκαιον πρωτον λαληθηναι τον [λογον]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [επειδη]{.greek-omitted} [δε]{.greek-omitted} [απωθεισθε]{.greek-omitted} [αυτον]{.greek-omitted} [και]{.greek-omitted} [ουκ]{.greek-omitted} [αξιους]{.greek-omitted} [κρινετε]{.greek-omitted} [εαυτους]{.greek-omitted} [της]{.greek-omitted} [αιωνιου]{.greek-omitted} [ζωης]{.greek-omitted} [ιδου]{.greek-omitted} [στρεφομεθα]{.greek-omitted} [εις]{.greek-omitted} [τα]{.greek-omitted} [εθνη]{.greek-omitted}[13:46]{.aside}
+

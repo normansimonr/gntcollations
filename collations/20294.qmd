@@ -1,0 +1,65 @@
+---
+title: "Collation of Byz^RP^ vs 20294 (294)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 294 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20294).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 294                                   	| λογος                              	|
+| 294 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 294 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 294               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 294                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 294 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 294                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 14
+
+[παραγενομενοι]{.greek-omitted} [γενομενοι]{.greek-added} δε και συναγαγοντες την εκκλησιαν [ανηγγειλαν]{.greek-omitted} [ανηγγιλαν]{.greek-added} οσα [εποιησεν]{.greek-omitted} ο [θεος]{.greek-abbr} [εποιησεν]{.greek-added} μετ αυτων και οτι ηνοιξεν τοις εθνεσιν θυραν πιστεως[14:27]{.aside}
+
+διετριβον δε εκει χρονον [ουκ]{.greek-omitted} [ουχ]{.greek-added} ο[λ]{.unclear}[ι]{.greek-supplied}γον συν τοις [μα]{.unclear}θηταις[14:28]{.aside}
+
+### Chapter 15
+
+και τινες κατελθον[τες]{.unclear} [α]{.unclear}πο της ιουδαιας εδιδασκον τους αδελφ[ου]{.unclear}ς οτι εαν μη [περιτεμνησθε]{.greek-omitted} [περιτεμνεσθαι]{.greek-added} τω [εθει]{.greek-omitted} [εθι]{.greek-added} [μωυσεως]{.greek-omitted} [μωσεως]{.greek-added} ου [δυνασθε]{.greek-omitted} [δυνασθαι]{.greek-added} [σ]{.unclear}ωθηναι[15:1]{.aside}
+
+γ[ε]{.unclear}[ν]{.greek-supplied}[ο]{.unclear}με[ν]{.unclear}ης ου[ν]{.unclear} [στ]{.greek-supplied}ασεως και [ζητ]{.greek-supplied}[η]{.unclear}σε[ω]{.unclear}ς ου[κ]{.unclear} [ολιγ]{.greek-supplied}[η]{.unclear}ς [τ]{.unclear}ω πα[υλω]{.greek-supplied} [κ]{.unclear}αι [τ]{.greek-supplied}ω β[α]{.unclear}[ρναβα]{.greek-supplied} προς α[υ]{.unclear}[τους]{.greek-supplied} [ετ]{.greek-supplied}[α]{.unclear}ξαν αναβαινειν παυλον και βαρναβαν [κ]{.unclear}αι τινας αλλους [ε]{.unclear}ξ αυτων προς [τ]{.unclear}ους αποστο[λο]{.greek-supplied}υς και πρεσβυτ[ε]{.greek-supplied}ρους [εις]{.greek-supplied} [ιερουσαλημ]{.greek-abbr} [πε]{.greek-supplied}ρι του ζητημ[α]{.greek-supplied}τος τουτου[15:2]{.aside}
+
+ο[ι]{.unclear} μεν ουν προπεμφθεντες υπο της εκκλησιας διη[ρ]{.unclear}χο[ν]{.unclear}το τ[ην]{.greek-supplied} φο[ινικην]{.greek-supplied} [κα]{.unclear}[ι]{.greek-supplied} [σα]{.greek-supplied}[μα]{.unclear}[ρειαν]{.greek-supplied} [εκδιηγου]{.greek-supplied}[με]{.unclear}[νοι]{.greek-supplied} [την]{.greek-supplied} [επι]{.greek-supplied}στ[ροφην]{.greek-supplied} [των]{.greek-supplied} εθ[νων]{.greek-supplied} [και]{.greek-supplied} [εποι]{.greek-supplied}ουν [χαραν]{.greek-supplied} [μεγα]{.greek-supplied}λην π[ασιν]{.greek-supplied} [τοις]{.greek-supplied} αδελ[φοις]{.greek-supplied}[15:3]{.aside}
+
+παραγε[ν]{.unclear}[ομενοι]{.greek-supplied} δε [ει]{.unclear}ς [ιερουσαλημ]{.greek-abbr} [απεδεχθησαν]{.greek-omitted} [[παρε]{.greek-supplied}[δεχ]{.unclear}θη[σαν]{.greek-supplied}]{.greek-added} [υπο]{.greek-omitted} [[απο]{.greek-supplied}]{.greek-added} [τη]{.greek-supplied}[ς]{.unclear} εκ[κλησιας]{.greek-supplied} [κ]{.greek-supplied}αι τ[ων]{.greek-supplied} [αποσ]{.greek-supplied}[τ]{.greek-supplied}ολων [και]{.greek-supplied} [των]{.greek-supplied} [π]{.greek-supplied}ρεσ[β]{.unclear}[υτερων]{.greek-supplied} [ανηγγειλαν]{.greek-omitted} [ανηγγιλαν]{.greek-added} τε οσα ο [θεος]{.greek-abbr} εποιησεν μετ αυτων[15:4]{.aside}
+
+εξανεστησαν [δ]{.unclear}[ε]{.greek-supplied} [τι]{.greek-supplied}νες των απο [τη]{.greek-supplied}ς αιρεσεως των [φ]{.greek-supplied}[α]{.unclear}ρισαι[ων]{.greek-supplied} πε[π]{.unclear}ιστευκοτες λεγοντες οτι δει [περιτεμνειν]{.greek-omitted} [περιτεμνιν]{.greek-added} αυτους [παραγγελλειν]{.greek-omitted} [παραγγελλιν]{.greek-added} τε [τηρειν]{.greek-omitted} [τηριν]{.greek-added} [τ]{.greek-supplied}[ο]{.unclear}ν νο[μο]{.unclear}ν μω[υσε]{.greek-supplied}[ως]{.unclear}[15:5]{.aside}
+
+[σ]{.greek-supplied}[υ]{.unclear}νη[χθησαν]{.greek-supplied} [δε]{.greek-omitted} [[τε]{.greek-supplied}]{.greek-added} [οι]{.greek-supplied} [α]{.greek-supplied}πο[στολοι]{.greek-supplied} [και]{.greek-supplied} [οι]{.greek-supplied} πρεσ[βυτεροι]{.greek-supplied} [ιδε]{.greek-supplied}ιν [περι]{.greek-supplied} [του]{.greek-supplied} [λο]{.greek-supplied}[γ]{.unclear}ου [τουτου]{.greek-omitted}[[15:6 *(lacunose)*]{.lacunose}]{.aside}
+
+[πολλης]{.greek-supplied} [δε]{.greek-supplied} [συζητησεως]{.greek-omitted} [[ζ]{.unclear}ητη[σεως]{.greek-supplied}]{.greek-added} [γεν]{.greek-supplied}[ομ]{.unclear}ε[νης]{.greek-supplied} [ανα]{.greek-supplied}στας [πετρο]{.greek-supplied}[ς]{.unclear} ε[ι]{.unclear}πεν [προς]{.greek-supplied} [αυ]{.greek-supplied}το[υ]{.unclear}ς [ανδρες]{.greek-supplied} [α]{.greek-supplied}δε[λφοι]{.greek-supplied} [υμεις]{.greek-supplied} [ε]{.greek-supplied}[πι]{.unclear}στ[α]{.unclear}[σθε]{.greek-supplied} [οτ]{.greek-supplied}[ι]{.unclear} αφ ημ[ε]{.greek-supplied}[ρων]{.greek-supplied} [αρχα]{.greek-supplied}ιων [[ε]{.unclear}[ν]{.greek-supplied}]{.greek-added} [υμιν]{.greek-added} [εξελεξατο]{.greek-added} ο [θεος]{.greek-abbr} [εν]{.greek-omitted} [ημιν]{.greek-omitted} [εξελεξατο]{.greek-omitted} δια του στοματος μου ακουσαι τα εθνη τον λογον του ευαγγελιου και πιστευσαι[15:7]{.aside}
+
+και ο καρδιογνωστης [θεος]{.greek-abbr} εμαρτυρησεν αυτοις [δ]{.greek-supplied}ους αυτοις [τ]{.unclear}ο [πνευμα]{.greek-abbr} το αγιον καθως και ημιν[15:8]{.aside}
+
+και [ουδεν]{.greek-omitted} [ουθεν]{.greek-added} διεκρινεν μεταξυ ημων τε και αυτων τη [πιστει]{.greek-omitted} [πιστι]{.greek-added} καθαρισας τας καρδιας αυτων[15:9]{.aside}
+
+νυν ουν τι [πειραζετε]{.greek-omitted} [πιραζετ[α]{.greek-supplied}ι]{.greek-added} τον [θεον]{.greek-abbr} επι[θ]{.unclear}[ει]{.greek-supplied}[ν]{.unclear}αι ζυγον επ[ι]{.greek-supplied} [το]{.greek-supplied}ν τραχηλο[ν]{.greek-supplied} [τω]{.greek-supplied}ν μαθητω[ν]{.greek-supplied} [ον]{.greek-supplied} ουτε οι [πατε]{.greek-supplied}[ρ]{.unclear}ες ημω[ν]{.greek-supplied} [ουτ]{.greek-supplied}[ε]{.unclear} ημ[εις]{.greek-supplied} ισ[χ]{.unclear}[υσαμεν]{.greek-supplied} [β]{.greek-supplied}[ασ]{.unclear}[τασαι]{.greek-supplied}[15:10]{.aside}
+

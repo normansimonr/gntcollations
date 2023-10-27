@@ -1,0 +1,67 @@
+---
+title: "Collation of Byz^RP^ vs 20207 (207)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 207 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20207).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 207                                   	| λογος                              	|
+| 207 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 207 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 207               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 207                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 207 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 207                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 9
+
+[κ]{.unclear}αι [ηνοιξεν]{.greek-omitted} [[ηνοιξε]{.unclear}]{.greek-added} [το]{.unclear} [φρεαρ]{.unclear} [της]{.unclear} [αβυσ]{.unclear}[σου]{.unclear} [και]{.unclear} [ανεβη]{.unclear} [καπνος]{.greek-omitted} [εκ]{.unclear} [του]{.unclear} [φρεατος]{.unclear} [ως]{.greek-omitted} [ωσε[ι]{.unclear}]{.greek-added} [καπνος]{.unclear} [καμινου]{.greek-omitted} [καμ[εινου]{.unclear}]{.greek-added} [καιομενης]{.greek-omitted} [[μεγα]{.unclear}[λης]{.unclear}]{.greek-added} [και]{.unclear} [εσκοτισθη]{.greek-omitted} [[εσκο]{.unclear}[τωθη]{.unclear}]{.greek-added} [ο]{.unclear} [ηλι]{.unclear}ος [και]{.unclear} [ο]{.unclear} [αηρ]{.unclear} [[απ]{.unclear}ο]{.greek-added} [εκ]{.greek-omitted} [του]{.greek-omitted} [καπνου]{.greek-omitted} [τ]{.unclear}ου φρ[εατ]{.unclear}ος[9:2]{.aside}
+
+κ[αι]{.unclear} [εκ]{.unclear} του καπνου ε[ξ]{.unclear}ηλθον ακριδες [εις]{.unclear} την γην [και]{.unclear} εδοθη [αυτ]{.unclear}αις ε[ξ]{.unclear}ουσια ως εχουσι[ν]{.unclear} [εξ]{.unclear}ουσι[αν]{.unclear} οι σκορπιοι της γης[9:3]{.aside}
+
+και [ερρεθη]{.greek-omitted} [[ερ]{.unclear}[ρειθ]{.unclear}η]{.greek-added} αυτ[αις]{.unclear} [ινα]{.greek-supplied} [μη]{.unclear} [α]{.unclear}δικ[ησωσιν]{.unclear} [το]{.unclear}ν χορτ[ον]{.unclear} [της]{.unclear} [γης]{.unclear} [ουδε]{.greek-omitted} [μηδε]{.greek-added} παν [χλ]{.unclear}ωρον [ουδε]{.greek-omitted} [μηδ[ε]{.unclear}]{.greek-added} παν δενδρον ει μη τους ανθρωπους οιτινες ουκ [εχουσιν]{.greek-omitted} [εχουσι]{.greek-added} την σφραγιδα τ[ου]{.unclear} [θεου]{.greek-abbr} επι [των]{.greek-omitted} [μετωπων]{.greek-omitted} [του]{.greek-added} [[μετ]{.unclear}ωπου]{.greek-added} αυτων[9:4]{.aside}
+
+και εδοθη [αυταις]{.unclear} ινα μη [αποκτει]{.unclear}νωσιν [αυτους]{.unclear} αλλ ι[να]{.unclear} [βασανισθωσιν]{.greek-omitted} [[βασ]{.unclear}ανισθησονται]{.greek-added} μηνας [πεντε]{.greek-omitted} [[ε]{.greek-abbr}]{.greek-added} και ο βα[σανισμος]{.unclear} [αυτων]{.unclear} [ως]{.unclear} [βασανι]{.unclear}σμος σκορπιου οταν παιση [ανθρωπον]{.greek-abbr}[9:5]{.aside}
+
+[και]{.unclear} ε[ν]{.unclear} [ταις]{.unclear} ημεραις [εκε]{.unclear}ιναις ζητησουσιν [τον]{.greek-added} [θανατον]{.greek-added} οι [ανθρωποι]{.greek-abbr} [τον]{.greek-omitted} [θανατον]{.greek-omitted} και ου μ[η]{.unclear} [ε]{.unclear}υρησουσιν [αυ]{.unclear}τον και [επιθυμησο]{.unclear}υ[σιν]{.unclear} [αποθα]{.unclear}[νειν]{.unclear} και [φευξεται]{.greek-omitted} [[φευγ]{.unclear}ει]{.greek-added} [ο]{.greek-added} [[θα]{.unclear}νατος]{.greek-added} απ αυτων [ο]{.greek-omitted} [θανατος]{.greek-omitted}[9:6]{.aside}
+
+και τα [προσωπα]{.greek-added} [αυτων]{.greek-added} [ως]{.greek-added} [προσωπα]{.greek-added} [[ανθρωπων]{.greek-abbr}]{.greek-added} [και]{.greek-added} [τα]{.greek-added} [ομοιωματα]{.greek-omitted} [ομοιω[μα]{.unclear}20[τα]{.unclear}]{.greek-added} [των]{.unclear} ακριδων ομοια ιπποις ητοιμασ[μενοις]{.unclear} εις πολεμον [κ]{.unclear}αι επι τας κεφα[λας]{.unclear} αυτων ως [στε]{.unclear}[φ]{.unclear}ανοι [χρυσ]{.unclear}οι [και]{.greek-omitted} [τα]{.greek-omitted} [προσωπα]{.greek-omitted} [αυτων]{.greek-omitted} [ως]{.greek-omitted} [προσωπα]{.greek-omitted} [ανθρωπων]{.greek-omitted}[9:7]{.aside}
+
+και ειχον τριχας ως τριχας γυναικων και οι οδοντες αυτων ως λεοντων ησαν[9:8]{.aside}
+
+και ειχον [θωρακας]{.greek-omitted} [ως]{.greek-omitted} θωρακας σιδηρους και [η]{.unclear} φωνη των πτερυγων αυτω[ν]{.unclear} ως φωνη αρματων ιππων [π]{.unclear}ολλων [τ[ρε]{.unclear}]{.greek-added} [τρεχοντων]{.greek-omitted} [χον[τ]{.unclear}ων]{.greek-added} εις πολεμ[ον]{.unclear}[9:9]{.aside}
+
+και εχ[ου]{.unclear}[σ]{.unclear}ιν ουρας ομοι[α]{.unclear}ς σκορ[πι]{.unclear}οις και κεντρ[α]{.unclear} [και]{.greek-omitted} εν ταις ουραις αυτων [η]{.greek-added} [εξουσιαν]{.greek-omitted} [εξουσια]{.greek-added} [αυτων]{.greek-added} [εχουσιν]{.greek-omitted} [του]{.greek-omitted} αδικησαι τους [ανθρωπους]{.greek-abbr} μηνας [πεντε]{.greek-omitted} [[ε]{.greek-abbr}]{.greek-added}[9:10]{.aside}
+
+[εχουσαι]{.greek-omitted} [εχουσιν]{.greek-added} [βασιλεα]{.greek-omitted} επ αυτων [τον]{.greek-added} [βασιλεα]{.greek-added} [τον]{.greek-added} αγγελον της αβυσσου [ονομα]{.greek-omitted} [ονονα]{.greek-added} αυτω εβραιστι [αββαδων]{.greek-omitted} [αβαδδων]{.greek-added} [και]{.greek-added} εν [δε]{.greek-omitted} τη ελληνικη ονομα εχει απολλυων[9:11]{.aside}
+
+η ουαι η μια απηλθεν ιδου [ερχεται]{.greek-omitted} [ερχονται]{.greek-added} ετι [αι]{.greek-added} δυο ουαι μετα [δε]{.greek-added} ταυτα[9:12]{.aside}
+
+και ο εκτος αγγελος εσαλπισεν και ηκουσα φωνην μιαν εκ των [τεσσαρων]{.greek-omitted} κερατων του θυσιαστηριου του χρυσου του ενωπιον του [θεου]{.greek-abbr}[9:13]{.aside}
+
+λεγουσαν τω [εκτω]{.greek-omitted} αγγε[λω]{.unclear} ο εχων την [σαλπ]{.unclear}ιγγα λυσον του[ς]{.unclear} [τεσσαρας]{.greek-omitted} [[δ]{.greek-abbr}]{.greek-added} αγγελους τους δεδεμενους επι τω ποταμω τω μεγαλω ευφρατη[9:14]{.aside}
+
+και ελυθησαν οι [τεσσαρες]{.greek-omitted} [[δ]{.greek-abbr}]{.greek-added} αγγελοι οι ητοιμασμενοι εις την ωραν και [εις]{.greek-omitted} [την]{.greek-omitted} ημεραν και μηνα και [ενιαυτον]{.greek-omitted} [ενιαυ]{.greek-added} [ινα]{.greek-omitted} [αποκτεινωσιν]{.greek-omitted} [το]{.greek-omitted} [τριτον]{.greek-omitted} [των]{.greek-omitted} [ανθρωπων]{.greek-omitted}[[9:15 *(lacunose)*]{.lacunose}]{.aside}
+
