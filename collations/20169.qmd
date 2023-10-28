@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20169 (169)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 169 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20169).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 169                                   	| λογος                              	|
+| 169 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 169 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 169               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 169                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 169 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 169                                                     	| [―]{.gap}                        	|
+:::
+
+## Revelation
+
+### Chapter 3
+
+[[ω]{.greek-supplied}]{.greek-added} [[ζ]{.unclear}ηλ[ε]{.unclear}υ[ε]{.unclear}]{.greek-added} [εγω]{.greek-omitted} [οσους]{.greek-omitted} [εαν]{.greek-omitted} [φιλω]{.greek-omitted} [ελεγχω]{.greek-omitted} [και]{.greek-omitted} [παιδευω]{.greek-omitted} [[ζ]{.unclear}ηλωσον]{.corr} ουν και μετα[νο]{.greek-supplied}[η]{.unclear}σον[3:19]{.aside}
+
+ιδου εστηκα επι [τ]{.greek-supplied}[η]{.unclear}ν θυραν και [κ[ρ]{.unclear}ουω]{.corr} [ε[α]{.greek-supplied}[ν]{.unclear}]{.corr} [τ[ις]{.greek-supplied}]{.corr} [[α]{.greek-supplied}[κ]{.unclear}ου[ση]{.greek-supplied}]{.corr} [[της]{.greek-supplied}]{.corr} [[φωνη]{.greek-supplied}[ς]{.unclear}]{.corr} [[μ]{.unclear}[ου]{.greek-supplied}]{.corr} [[και]{.greek-supplied}]{.corr} [[ανοιξη]{.greek-supplied}]{.corr} [[την]{.greek-supplied}]{.corr} [[θυραν]{.greek-supplied}]{.corr} [[και]{.greek-supplied}]{.corr} εισελευσο[μ]{.unclear}αι προς αυτον και δειπνησω μετ αυτου και αυτος μετ εμου[3:20]{.aside}
+
+ο [νικων]{.greek-omitted} [νεικων]{.greek-added} δωσω αυτω [καθισαι]{.greek-omitted} [καθει[σ]{.unclear}αι]{.greek-added} μετ εμου ε[ν]{.greek-supplied} [τ]{.greek-supplied}ω θρο[ν]{.unclear}[ω]{.greek-supplied} [μ]{.greek-supplied}ου ως κ[α]{.unclear}γω [[ν]{.unclear}ενεικηκ[α]{.greek-supplied}]{.greek-added} [ενικη[σ]{.unclear}[α]{.greek-supplied}]{.corr} και [[κ]{.unclear}εκαθ[ι]{.unclear}κα]{.greek-added} [εκαθ[ι]{.unclear}σα]{.corr} μετα τ[ου]{.greek-supplied} [πατρος]{.greek-abbr} μου εν τω θρονω [αυτ]{.unclear}ου[3:21]{.aside}
+
+ο εχων ους ακου[σατ]{.greek-supplied}ω τι το [πνευμα]{.greek-abbr} λεγει [τ]{.unclear}αις εκκλησιαις[3:22]{.aside}
+
+### Chapter 4
+
+μετα ταυτα [ειδον]{.greek-omitted} [ιδον]{.greek-added} και ιδου [θυ]{.greek-supplied}ρα ανεωγμενη [εν]{.unclear} τω ουρανω και η [φωνη]{.greek-omitted} [φω]{.greek-added} [νη]{.greek-added} η πρωτη ην ηκουσα ως σαλπιγγος λαλουση[ς]{.greek-supplied} μετ εμου λεγων αναβα ωδ[ε]{.unclear} και [δ]{.unclear}ειξω σοι α δε[ι]{.unclear} [γε]{.greek-supplied}[νε]{.unclear}σθα[ι]{.greek-supplied} [μ]{.greek-supplied}ετα ταυτα[4:1]{.aside}
+
+[[ευθ]{.greek-supplied}[ε]{.unclear}ως]{.greek-added} [[και]{.greek-supplied}]{.corr} [[ευθ]{.greek-supplied}[ε]{.unclear}ως]{.corr} εγ[ε]{.greek-supplied}νομ[η]{.unclear}ν εν [πνευματι]{.greek-abbr} κα[ι]{.greek-supplied} [ι]{.unclear}δ[ου]{.unclear} [θ]{.greek-supplied}ρονος εκειτ[ο]{.unclear} [εν]{.unclear} [τω]{.unclear} [ουρανω]{.greek-abbr} και επι [τ]{.unclear}ο[ν]{.unclear} θ[ρο]{.unclear}νον [καθημενος]{.greek-omitted} [καθημενον]{.greek-added}[4:2]{.aside}
+
+[και]{.greek-added} [ο]{.greek-added} [κα[θ]{.unclear}[η]{.greek-supplied}μ[ε]{.unclear}νος]{.greek-added} [[επι]{.corr}]{.greek-added} [[τον]{.corr}]{.greek-added} [[θ[ρ]{.unclear}[ονον]{.greek-supplied}]{.corr}]{.greek-added} ο[μοιος]{.unclear} [ορασει]{.unclear} [λιθω]{.greek-omitted} [ιασπιδι]{.greek-omitted} [και]{.greek-omitted} [σαρδιω]{.greek-omitted} [και]{.greek-omitted} [ιρις]{.greek-omitted} [κυκλοθεν]{.greek-omitted} [του]{.greek-omitted} [θρονου]{.greek-omitted} [ομοιως]{.greek-omitted} [ορασις]{.greek-omitted} [σμαραγδινων]{.greek-omitted}[4:3]{.aside}
+

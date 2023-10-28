@@ -1,0 +1,45 @@
+---
+title: "Collation of Byz^RP^ vs 10113 (𝔓^113^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^113^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10113).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^113^                                   	| λογος                              	|
+| 𝔓^113^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^113^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^113^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^113^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^113^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^113^                                                     	| [―]{.gap}                        	|
+:::
+
+## Romans
+
+### Chapter 2
+
+[οσοι]{.greek-omitted} [γαρ]{.greek-omitted} [ανομως]{.greek-omitted} [ημαρτον]{.greek-omitted} [ανομως]{.greek-omitted} [και]{.greek-omitted} [απολουνται]{.greek-omitted} [και]{.greek-omitted} [οσοι]{.greek-omitted} [εν]{.greek-omitted} [νομω]{.greek-omitted} [ημαρτον]{.greek-omitted} [δια]{.greek-supplied} [νο]{.greek-supplied}μου κρι[θησον]{.greek-supplied}τα[ι]{.unclear}[2:12]{.aside}
+
+ου [γαρ]{.greek-supplied} [οι]{.greek-supplied} [α]{.greek-supplied}[κ]{.unclear}ροα[τ]{.unclear}[αι]{.greek-supplied} [του]{.greek-omitted} [νομου]{.greek-supplied} [δι]{.greek-supplied}[κ]{.unclear}α[ι]{.unclear}[οι]{.greek-supplied} [παρα]{.greek-omitted} [τω]{.greek-omitted} [θεω]{.greek-omitted} [αλλ]{.greek-omitted} [οι]{.greek-omitted} [ποιηται]{.greek-omitted} [του]{.greek-omitted} [νομου]{.greek-omitted} [δικαιωθησονται]{.greek-omitted}[2:13]{.aside}
+
+[αλλ]{.greek-omitted} [ο]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [κρυπτω]{.greek-omitted} [ιουδαι]{.greek-supplied}[ος]{.greek-supplied} [κ]{.greek-supplied}[αι]{.unclear} [π]{.unclear}[εριτο]{.greek-supplied}μη κα[ρδιας]{.greek-supplied} [εν]{.greek-supplied} [πνευματι]{.greek-abbr} ου [γραμμα]{.greek-supplied}[τ]{.greek-supplied}ι ο[υ]{.unclear} [ο]{.greek-supplied} [επαινος]{.greek-supplied} [ο]{.greek-supplied}[υ]{.unclear}κ [εξ]{.greek-supplied} [ανθρωπων]{.greek-abbr} [αλλ]{.greek-supplied} [εκ]{.greek-supplied} [του]{.greek-supplied} [[θεου]{.greek-abbr}]{.greek-supplied}[2:29]{.aside}
+

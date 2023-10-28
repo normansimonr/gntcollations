@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 10073 (𝔓^73^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^73^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10073).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^73^                                   	| λογος                              	|
+| 𝔓^73^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^73^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^73^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^73^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^73^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^73^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 25
+
+[ξενος]{.greek-omitted} [ημην]{.greek-omitted} [και]{.greek-omitted} [ου]{.greek-omitted} [συνηγαγετε]{.greek-omitted} [με]{.greek-omitted} [γυμνος]{.greek-omitted} [και]{.greek-omitted} [ου]{.greek-omitted} [περιεβαλετε]{.greek-omitted} [με]{.greek-omitted} [ασθενης]{.greek-supplied} [και]{.greek-supplied} [ε]{.greek-supplied}[ν]{.unclear} [φυ]{.greek-supplied}[λακη]{.greek-supplied} [κ]{.greek-supplied}[αι]{.unclear} ουκ ε[π]{.unclear}[εσκε]{.greek-supplied}[ψασθε]{.greek-supplied} [μ]{.greek-supplied}[ε]{.unclear}[25:43]{.aside}
+
+### Chapter 26
+
+[οιδατε]{.greek-omitted} [οτι]{.greek-omitted} [μετα]{.greek-omitted} [δυο]{.greek-omitted} [ημερας]{.greek-omitted} [το]{.greek-omitted} [πασχα]{.greek-omitted} [γινεται]{.greek-omitted} [και]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [παραδιδοται]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-supplied} [στ]{.greek-supplied}[α]{.unclear}υρω[θ]{.unclear}[ηναι]{.greek-supplied}[26:2]{.aside}
+
+[τοτε]{.greek-supplied} [συ]{.greek-supplied}νη[χθ]{.unclear}[ησαν]{.greek-supplied} [οι]{.greek-omitted} [αρχιερεις]{.greek-omitted} [και]{.greek-omitted} [οι]{.greek-omitted} [γραμματεις]{.greek-omitted} [και]{.greek-omitted} [οι]{.greek-omitted} [πρεσβυτεροι]{.greek-omitted} [του]{.greek-omitted} [λαου]{.greek-omitted} [εις]{.greek-omitted} [την]{.greek-omitted} [αυλην]{.greek-omitted} [του]{.greek-omitted} [αρχιερεως]{.greek-omitted} [του]{.greek-omitted} [λεγομενου]{.greek-omitted} [καιαφα]{.greek-omitted}[26:3]{.aside}
+

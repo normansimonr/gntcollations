@@ -55,6 +55,9 @@
         font-size: 0.8em;
       }
 
+.footnotes { /* To make the font larger */
+        font-size: 0.95em;
+      }
 
 .gap {
   position: relative;

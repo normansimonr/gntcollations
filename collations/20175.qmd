@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20175 (175)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 175 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20175).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 175                                   	| λογος                              	|
+| 175 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 175 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 175               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 175                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 175 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 175                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 6
+
+[και]{.greek-omitted} [ο]{.greek-omitted} [λογος]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [ηυξανεν]{.greek-omitted} [και]{.greek-omitted} [επληθ]{.greek-supplied}[υ]{.unclear}ν[ε]{.unclear}[το]{.greek-supplied} [ο]{.greek-supplied} [αριθμος]{.greek-supplied} [των]{.greek-supplied} [μ]{.unclear}αθητω[ν]{.unclear} [εν]{.greek-supplied} [ιερουσαλημ]{.greek-abbr} [σφο]{.greek-supplied}[δρα]{.greek-supplied} πολυς τε οχλος τω[ν]{.unclear} [[ιερ]{.greek-supplied}ευων]{.greek-added} [[ιερ]{.greek-supplied}εων]{.corr} υπηκουον [τ]{.unclear}[η]{.greek-supplied} [πιστει]{.greek-omitted} [[πι]{.greek-supplied}στι]{.greek-added}[6:7]{.aside}
+
+[σ]{.unclear}τεφανος δε [π]{.unclear}[λη]{.greek-supplied}[ρ]{.greek-supplied}ης [πιστεως]{.greek-omitted} [χαριτος]{.greek-added} και δυναμε[ω]{.unclear}[ς]{.greek-supplied} εποιει τερατα και σημει[α]{.unclear} μεγαλα εν τω λαω[6:8]{.aside}
+
+ανεστησαν δε τινες τω[ν]{.unclear} ε[κ]{.unclear} της συναγωγης [της]{.greek-omitted} [των]{.greek-added} [λεγομενης]{.greek-omitted} [[λ]{.unclear}[εγο]{.greek-supplied}[με]{.unclear}νων]{.greek-added} λιβ[ερ]{.unclear}τινων [και]{.greek-supplied} κ[υ]{.unclear}[ρ]{.greek-supplied}[η]{.unclear}ναιων κ[αι]{.greek-supplied} [αλεξ]{.greek-supplied}[αν]{.unclear}δρε[ων]{.unclear} και τω[ν]{.greek-supplied} [απ]{.greek-supplied}ο [της]{.greek-added} κιλικ[ιας]{.unclear} και ασιας [συζητουντες]{.greek-omitted} [συ[―]{.gap}[η]{.unclear}τουντ[ες]{.unclear}]{.greek-added} τω σ[τε]{.unclear}φανω[6:9]{.aside}
+
+[κ]{.unclear}αι [ουκ]{.unclear} [ισχ]{.unclear}[υ]{.greek-supplied}ον αντιστην[α]{.unclear}[ι]{.greek-supplied} [τ]{.unclear}η σοφι[α]{.greek-supplied} και [τω]{.unclear} [πνευματι]{.greek-abbr} [ω]{.greek-supplied} [ελαλει]{.greek-omitted}[6:10]{.aside}
+
+[συνεκινησαν]{.greek-omitted} [συνεκ[ε]{.unclear}ι[νησαν]{.greek-supplied}]{.greek-added} [τε]{.greek-supplied} [τον]{.greek-supplied} [λαον]{.greek-supplied} και τους [π]{.unclear}ρεσβυτερ[ους]{.greek-supplied} [και]{.greek-supplied} τους γραμματ[ε]{.unclear}ις κα[ι]{.unclear} [επισταν]{.greek-supplied}τες συνηρπασαν αυτο[ν]{.greek-supplied} [και]{.greek-supplied} ηγαγον εις το συνεδριον[6:12]{.aside}
+
+[ε]{.greek-supplied}στησαν τε μαρτυρ[α]{.unclear}ς ψευδ[εις]{.greek-supplied} [λεγοντας]{.greek-omitted} [λεγοντες]{.greek-added} ο [ανθρωπος]{.greek-abbr} ουτος ο[υ]{.unclear} [π]{.unclear}[αυ]{.greek-supplied}εται [λαλων]{.greek-added} ρηματα [βλασφημα]{.greek-omitted} [λαλων]{.greek-omitted} κα[τα]{.unclear} [του]{.greek-supplied} [τ]{.greek-supplied}οπου του [αγι]{.unclear}ου και του νο[μ]{.unclear}[ου]{.greek-supplied}[6:13]{.aside}
+
+ακ[η]{.unclear}κο[α]{.unclear}μεν γαρ αυτ[ου]{.greek-supplied} [λε]{.greek-supplied}[γο]{.unclear}ντο[ς]{.greek-supplied} [οτ]{.greek-supplied}ι [ιησους]{.greek-abbr} ο ναζωρ[α]{.greek-supplied}ιος [ου]{.unclear}τος [καταλυσει]{.greek-omitted} [καταλυσι]{.greek-added} τον τοπον τουτον και αλλα[ξει]{.unclear} τα εθη α πα[ρ]{.unclear}ε[δω]{.unclear}[κ]{.greek-supplied}εν ημιν [μωσης]{.greek-omitted} [μω[υ]{.greek-supplied}[σης]{.unclear}]{.greek-added}[6:14]{.aside}
+
+[κ]{.unclear}αι ατε[νι]{.greek-supplied}[σ]{.greek-supplied}[α]{.unclear}ντες εις α[υ]{.greek-supplied}[τ]{.unclear}ον [απαντες]{.greek-omitted} [παντ[ες]{.unclear}]{.greek-added} [οι]{.greek-omitted} [καθεζομενοι]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [συνεδριω]{.greek-omitted} [ειδον]{.greek-omitted} [το]{.greek-omitted} [προσωπον]{.greek-omitted} [αυτου]{.greek-omitted} [ωσει]{.greek-omitted} [προσωπον]{.greek-omitted} [αγγελου]{.greek-omitted}[6:15]{.aside}
+

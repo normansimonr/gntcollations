@@ -1,0 +1,41 @@
+---
+title: "Collation of Byz^RP^ vs 10080 (𝔓^80^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^80^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10080).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^80^                                   	| λογος                              	|
+| 𝔓^80^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^80^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^80^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^80^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^80^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^80^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 3
+
+[ον]{.greek-omitted} [γαρ]{.greek-omitted} [απεστειλεν]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-omitted} [τα]{.greek-supplied} [ρ]{.unclear}[ημα]{.greek-supplied}[τ]{.unclear}[α]{.greek-supplied} [του]{.greek-supplied} [θεου]{.greek-supplied} [λαλει]{.greek-supplied} [ο]{.greek-supplied}[υ]{.unclear} γαρ εκ [μετρου]{.greek-omitted} [μερου[ς]{.greek-supplied}]{.greek-added} [διδωσιν]{.greek-supplied} [ο]{.greek-omitted} [θεος]{.greek-omitted} το πνευμα[3:34]{.aside}
+

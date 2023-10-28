@@ -1,0 +1,59 @@
+---
+title: "Collation of Byz^RP^ vs 32756 (2756)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 2756 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=32756).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 2756                                   	| λογος                              	|
+| 2756 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 2756 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 2756               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 2756                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 2756 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 2756                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 1
+
+βιβλος γενεσεως [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} υιου [δαυιδ]{.greek-abbr} υιου αβρααμ[1:1]{.aside}
+
+αβρααμ εγεννησεν τον ισαακ ισαακ δε εγεννησεν τον ιακωβ ιακωβ δε εγεννησεν τον ιουδαν και τους αδελφους αυτου[1:2]{.aside}
+
+ιουδας δε εγεννησεν τον φαρες και τον ζαρα εκ της θαμαρ φαρες δε εγεννησεν τον εσρωμ εσρωμ δε εγεννησεν τον αραμ[1:3]{.aside}
+
+## Hebrews
+
+### Chapter 12
+
+[[τι]{.unclear}σ[αμενοι]{.greek-supplied}]{.greek-added} [βλεπετε]{.greek-omitted} [μη]{.greek-omitted} [παραιτησησθε]{.greek-omitted} [τον]{.greek-supplied} [λαλουντα]{.greek-omitted} [ει]{.greek-omitted} [γαρ]{.greek-omitted} [εκεινοι]{.greek-omitted} [ουκ]{.greek-omitted} [εφυγον]{.greek-omitted} [τον]{.greek-omitted} [επι]{.greek-omitted} [γης]{.greek-omitted} [παραιτησαμενοι]{.greek-omitted} [χρηματιζοντα]{.greek-omitted} [χρι[ματιζοντα]{.greek-supplied}]{.greek-added} [πολλω]{.greek-omitted} [πο[λ]{.unclear}[υ]{.greek-supplied}]{.greek-added} [μαλλον]{.greek-supplied} [η]{.greek-supplied}μεις [οι]{.greek-supplied} [τον]{.greek-supplied} [απ]{.greek-supplied} [[ουρανων]{.greek-abbr}]{.greek-supplied} απ[οστρεφομενοι]{.greek-supplied}[12:25]{.aside}
+
+ου η φ[ωνη]{.greek-supplied} [την]{.greek-supplied} [γην]{.greek-supplied} εσαλ[ευσεν]{.greek-supplied} [τοτε]{.greek-supplied} [νυν]{.greek-supplied} δε ε[π]{.unclear}[ηγγελται]{.greek-supplied} [λε]{.greek-supplied}γων [ετι]{.greek-supplied} [απαξ]{.greek-supplied} [εγω]{.greek-supplied} [σειω]{.greek-omitted} [σιω]{.greek-added} [ου]{.greek-supplied} [μονον]{.greek-supplied} [την]{.greek-supplied} [γην]{.greek-supplied} αλλα [και]{.greek-supplied} [τον]{.greek-supplied} [[ουρανον]{.greek-abbr}]{.greek-supplied}[12:26]{.aside}
+
+το δε [ετι]{.greek-supplied} [απαξ]{.greek-supplied} [δη]{.greek-supplied}λοι [[τ]{.unclear}[ην]{.greek-supplied}]{.greek-added} [των]{.greek-supplied} [σαλευομε]{.greek-supplied}νων [την]{.greek-omitted} [μεταθεσιν]{.greek-supplied} ως [π]{.unclear}[εποιημενων]{.greek-supplied} ινα [μ]{.unclear}[εινη]{.greek-supplied} [τα]{.greek-supplied} [μη]{.greek-supplied} [σα]{.greek-supplied}λευο[μενα]{.greek-supplied}[12:27]{.aside}
+
+### Chapter 13
+
+[παρα]{.greek-supplied}καλ[ω]{.unclear} [δε]{.greek-supplied} [υμας]{.greek-supplied} [α]{.greek-supplied}δελφ[οι]{.greek-supplied} [ανεχεσθε]{.greek-supplied} του [λ]{.unclear}[ογου]{.greek-supplied} [της]{.greek-supplied} [πα]{.greek-supplied}ρακλ[ησεως]{.greek-supplied} [και]{.greek-supplied} γαρ δ[ια]{.greek-supplied} [βραχεων]{.greek-omitted} [[βραξεων]{.greek-supplied}]{.greek-added} [επεστειλα]{.greek-omitted} [υμιν]{.greek-omitted}[13:22]{.aside}
+

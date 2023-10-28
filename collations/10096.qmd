@@ -1,0 +1,45 @@
+---
+title: "Collation of Byz^RP^ vs 10096 (𝔓^96^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^96^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10096).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^96^                                   	| λογος                              	|
+| 𝔓^96^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^96^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^96^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^96^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^96^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^96^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 3
+
+[τοτε]{.greek-omitted} [παραγινεται]{.greek-omitted} [ο]{.greek-omitted} [ιησους]{.greek-omitted} [απο]{.greek-omitted} [της]{.greek-omitted} [γαλιλαιας]{.greek-omitted} [επι]{.greek-omitted} [τον]{.greek-supplied} [ιορδαν]{.greek-supplied}[ην]{.unclear} [προς]{.greek-supplied} [το]{.greek-supplied}[ν]{.unclear} ιω[αν]{.unclear}[νην]{.greek-supplied} [του]{.greek-supplied} βαπτι[σθη]{.greek-supplied}[ναι]{.unclear} [υ]{.unclear}π αυ[του]{.greek-supplied}[3:13]{.aside}
+
+ο δ[ε]{.unclear} ιωαν[νης]{.greek-supplied} [δι]{.unclear}ε[κ]{.unclear}ωλ[υ]{.unclear}[εν]{.greek-supplied} [α]{.greek-supplied}[υ]{.unclear}τον [λ]{.greek-supplied}εγων [εγω]{.greek-supplied} [χρε]{.unclear}[ιαν]{.greek-supplied} εχω [υπο]{.greek-supplied} [σο]{.greek-supplied}[υ]{.unclear} [β]{.unclear}[α]{.greek-supplied}[πτι]{.unclear}[σθ]{.greek-supplied}[ην]{.unclear}αι και συ [ερχ]{.greek-supplied}η προς με[3:14]{.aside}
+
+[απο]{.greek-supplied}κριθεις [δε]{.greek-supplied} [ο]{.greek-supplied} [ιησους]{.greek-abbr} [ε]{.unclear}ιπεν [α[υτω]{.unclear}]{.greek-added} [προς]{.greek-omitted} [αυτον]{.greek-omitted} [αφε]{.greek-supplied}ς αρτι ουτ[ως]{.greek-supplied} γαρ [πρεπον]{.greek-supplied} [εστιν]{.greek-supplied} [ημιν]{.greek-omitted} [πληρωσαι]{.greek-omitted} [πασαν]{.greek-omitted} [δικαιοσυνην]{.greek-omitted} [τοτε]{.greek-omitted} [αφιησιν]{.greek-omitted} [αυτον]{.greek-omitted}[3:15]{.aside}
+

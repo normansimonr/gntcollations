@@ -1,0 +1,51 @@
+---
+title: "Collation of Byz^RP^ vs 20309 (309)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 309 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20309).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 309                                   	| λογος                              	|
+| 309 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 309 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 309               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 309                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 309 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 309                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 20
+
+[και]{.greek-omitted} [τουτο]{.greek-omitted} [ειπων]{.greek-omitted} [ενεφυσησεν]{.greek-omitted} [και]{.greek-omitted} [λεγει]{.greek-omitted} [αυτοις]{.greek-omitted} [λαβετε]{.greek-omitted} [πνευμα]{.greek-omitted} [αγι]{.greek-supplied}ον[20:22]{.aside}
+
+αν τιν[ων]{.unclear} [αφητε]{.greek-supplied} [τας]{.greek-supplied} [αμαρ]{.greek-supplied}τιας αφιεντ[αι]{.greek-supplied} [αυτοις]{.greek-supplied} [αν]{.greek-supplied} [τιν]{.greek-supplied}ων κρατητ[ε]{.unclear} [κεκρατηνται]{.greek-supplied}[20:23]{.aside}
+
+[θωμα]{.greek-supplied}[ς]{.unclear} δε εις εκ τ[ω]{.unclear}[ν]{.greek-supplied} [δωδεκα]{.greek-supplied} [ο]{.greek-supplied} [λεγο]{.greek-supplied}μενος δι[δ]{.unclear}[υμος]{.greek-supplied} [ουκ]{.greek-supplied} [ην]{.greek-supplied} [μετ]{.greek-supplied} [αυτ]{.greek-supplied}ων ο[τ]{.unclear}[ε]{.greek-supplied} [ηλθεν]{.greek-supplied} [ο]{.greek-omitted} [[ιησους]{.greek-abbr}]{.greek-supplied}[20:24]{.aside}
+
+[και]{.greek-omitted} [απεκριθη]{.greek-supplied} [θ]{.greek-supplied}ωμας και ει[π]{.unclear}[εν]{.greek-supplied} [αυτω]{.greek-supplied} [ο]{.greek-supplied} [[κυριος]{.greek-abbr}]{.greek-supplied} [μ]{.greek-supplied}[ο]{.unclear}υ και ο [θεος]{.greek-abbr} μο[υ]{.unclear}[20:28]{.aside}
+
+[λεγει]{.greek-supplied} [α]{.unclear}υτω [ο]{.greek-omitted} [ιησους]{.greek-abbr} οτι [εωρακας]{.greek-omitted} [εορακ[ας]{.greek-supplied}]{.greek-added} [με]{.greek-supplied} [πεπι]{.greek-supplied}στευκας μακαρ[ι]{.unclear}[οι]{.greek-supplied} [οι]{.greek-supplied} [μη]{.greek-supplied} [ιδοντ]{.greek-supplied}[ε]{.unclear}ς και πιστευσ[αντες]{.greek-supplied}[20:29]{.aside}
+
+[πολλα]{.greek-supplied} [μεν]{.greek-supplied} [ο]{.greek-supplied}υν και [αλλα]{.greek-supplied} [σημεια]{.greek-supplied} [εποιησεν]{.greek-supplied} [ο]{.unclear} [ιησους]{.greek-abbr} [εν]{.unclear}[ωπιον]{.greek-supplied} [των]{.greek-omitted} [μαθητων]{.greek-omitted} [αυτου]{.greek-omitted} [α]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-omitted} [γεγραμμενα]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [βιβλιω]{.greek-omitted} [τουτω]{.greek-omitted}[20:30]{.aside}
+

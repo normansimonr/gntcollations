@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 10071 (𝔓^71^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^71^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10071).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^71^                                   	| λογος                              	|
+| 𝔓^71^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^71^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^71^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^71^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^71^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^71^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 19
+
+[λε]{.greek-supplied}[γο]{.greek-supplied}[υ]{.unclear}[σιν]{.greek-supplied} [αυτ]{.unclear}[ω]{.greek-supplied} [οι]{.unclear} [μα]{.unclear}[θηται]{.greek-supplied} [αυτου]{.greek-omitted} ει ουτως εστιν [η]{.greek-omitted} αιτια [το]{.unclear}[υ]{.greek-supplied} [ανθρωπου]{.greek-abbr} [μετα]{.greek-supplied} [τ]{.unclear}ης γυναικος [ου]{.greek-supplied} [συμ]{.greek-supplied}[φε]{.greek-supplied}[ρει]{.unclear} [γ]{.unclear}αμησαι[19:10]{.aside}
+
+ο δε [ειπεν]{.greek-supplied} [α]{.greek-supplied}[υτ]{.unclear}οις ου π[α]{.unclear}ντες χ[ω]{.unclear}[ρουσιν]{.greek-supplied} [τον]{.greek-omitted} [λογον]{.greek-omitted} [τουτον]{.greek-omitted} [αλλ]{.greek-omitted} [οις]{.greek-omitted} [δεδοται]{.greek-omitted}[19:11]{.aside}
+
+[ο]{.greek-omitted} [δε]{.greek-omitted} [ειπεν]{.greek-omitted} [αυτω]{.greek-omitted} [τι]{.greek-omitted} [με]{.greek-omitted} [λεγεις]{.greek-omitted} [αγαθον]{.greek-omitted} [ουδεις]{.greek-omitted} [αγαθος]{.greek-omitted} [ει]{.greek-omitted} [μη]{.greek-omitted} [εις]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-omitted} [ει]{.greek-omitted} [δε]{.greek-omitted} [θε]{.unclear}[λε]{.greek-supplied}[ις]{.unclear} [εισελθειν]{.greek-omitted} [ε]{.unclear}[ι]{.greek-supplied}[ς]{.unclear} [τη]{.unclear}[ν]{.greek-supplied} [ζωην]{.greek-supplied} [τηρησον]{.greek-omitted} [[εισε]{.unclear}λθειν]{.greek-added} [τ[η]{.unclear}[ρ]{.greek-supplied}[ε]{.unclear}[ι]{.greek-supplied}]{.greek-added} [τας]{.greek-supplied} [εν]{.greek-supplied}[τ]{.unclear}ολας[19:17]{.aside}
+
+λεγει α[υτ]{.unclear}[ω]{.greek-supplied} [ποιας]{.greek-supplied} ο δ[ε]{.unclear} [εφη]{.greek-added} [ιησους]{.greek-omitted} [ειπεν]{.greek-omitted} [τ]{.unclear}ο ο[υ]{.unclear} [φονευσεις]{.greek-omitted} [[φ]{.unclear}[ονευ]{.greek-supplied}σ[η]{.unclear}ς]{.greek-added} ου [μοι]{.unclear}χευσ[ει]{.unclear}[ς]{.greek-supplied} [ου]{.greek-supplied} [κλεψεις]{.greek-omitted} [ου]{.greek-omitted} [ψευδομαρτυρησεις]{.greek-omitted}[19:18]{.aside}
+

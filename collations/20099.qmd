@@ -1,0 +1,65 @@
+---
+title: "Collation of Byz^RP^ vs 20099 (99)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 99 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20099).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 99                                   	| λογος                              	|
+| 99 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 99 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 99               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 99                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 99 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 99                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Mark
+
+### Chapter 16
+
+[ο]{.greek-omitted} [δε]{.greek-omitted} [λεγει]{.greek-omitted} [αυταις]{.greek-omitted} [μη]{.greek-omitted} [εκθαμβεισθε]{.greek-omitted} [ιησουν]{.greek-omitted} [ζητειτε]{.greek-omitted} [τον]{.greek-omitted} [ναζαρηνον]{.greek-omitted} [τον]{.greek-omitted} [εσταυρωμενον]{.greek-omitted} [ηγερθη]{.greek-omitted} [ουκ]{.greek-omitted} [εστιν]{.greek-supplied} ωδε ιδε ο τοπος οπου εθηκαν αυτον[16:6]{.aside}
+
+αλλ υπαγετε ειπατε τοις μαθηταις αυτου και τω πετρω οτι προαγει υμας εις την γαλιλαιαν εκει αυτον οψεσθε καθως ειπεν υμιν[16:7]{.aside}
+
+και [εξελθουσαι]{.greek-omitted} [εφυγον]{.greek-omitted} [ακουσασαι]{.greek-added} [εξηλθον]{.greek-added} απο του μνημειου [και]{.greek-added} [εφυγον]{.greek-added} ειχεν [δε]{.greek-omitted} [γαρ]{.greek-added} αυτας τρομος και εκστασις και ουδενι ουδεν ειπον εφοβουντο γαρ [[π]{.greek-supplied}αντα]{.greek-added} [δε]{.greek-added} [τα]{.greek-added} [π[αρ]{.greek-supplied}αγγελμεν[α]{.greek-supplied}]{.greek-added} [[τ]{.greek-supplied}οις]{.greek-added} [περι]{.greek-added} [[το]{.greek-supplied}ν]{.greek-added} [[πετ]{.greek-supplied}ρον]{.greek-added} [συντομως]{.greek-added} [εξηγγειλαν]{.greek-added} [μετα]{.greek-added} [δε]{.greek-added} [ταυτα]{.greek-added} [και]{.greek-added} [αυτος]{.greek-added} [ο]{.greek-added} [[ιησους]{.greek-abbr}]{.greek-added} [εφανη]{.greek-added} [αυτοις]{.greek-added} [απ]{.greek-added} [ανατολης]{.greek-added} [ηλιου]{.greek-added} [και]{.greek-added} [αχρι]{.greek-added} [δυσεως]{.greek-added} [εξαπεστειλεν]{.greek-added} [δι]{.greek-added} [αυτων]{.greek-added} [το]{.greek-added} [ιερον]{.greek-added} [και]{.greek-added} [αφθαρτον]{.greek-added} [κηρυγμα]{.greek-added} [της]{.greek-added} [αιωνιου]{.greek-added} [σωτηριας]{.greek-added} [αμην]{.greek-added} [ειχεν]{.greek-added} [γαρ]{.greek-added} [αυτας]{.greek-added} [τρομος]{.greek-added} [και]{.greek-added} [εκστασις]{.greek-added} [και]{.greek-added} [ουδενι]{.greek-added} [ουδεν]{.greek-added} [ειπον]{.greek-added} [εφοβουντο]{.greek-added} [γαρ]{.greek-added}[[16:8 *(lacunose)*]{.lacunose}]{.aside}
+
+αναστας δε πρωι πρωτη σαββατου εφανη πρωτον μαρια τη μαγδαληνη [α]{.greek-supplied}[φ]{.unclear} ης εκ[β]{.unclear}εβλ[η]{.unclear}κει επτα [δαιμονια]{.greek-omitted} [δαι[μ]{.unclear}ονεια]{.greek-added}[16:9]{.aside}
+
+[εκ]{.unclear}ει[ν]{.unclear}η π[ο]{.unclear}ρευθεισα [απηγγ]{.unclear}ειλεν τοις μετ αυτ[ου]{.unclear} γενομενοις [πενθουσιν]{.greek-omitted} [πενθουσι]{.greek-added} και κλαιουσιν[16:10]{.aside}
+
+[κακεινοι]{.greek-omitted} [εκεινοι]{.greek-added} ακουσαντες οτι ζη και εθεαθ[η]{.unclear} υ[π]{.unclear} αυτης ηπιστησαν[16:11]{.aside}
+
+μετα δε ταυτα δυσιν ε[ξ]{.unclear} α[υ]{.unclear}των περι[π]{.unclear}ατ[ο]{.unclear}υσιν εφαν[ερ]{.unclear}ωθη εν ετ[ερα]{.unclear} [μ]{.unclear}ορφη πορευο[μ]{.unclear}ενοις εις αγρον[16:12]{.aside}
+
+κακεινοι απελθοντες απηγγειλαν τοις [λοιποις]{.greek-omitted} [λυποις]{.greek-added} ουδε εκεινοις επιστευσαν[16:13]{.aside}
+
+υστε[ρ]{.unclear}ον ανακει[μ]{.greek-supplied}ε[νο]{.unclear}ις αυτοις τοις ενδεκα εφανε[ρ]{.greek-supplied}ωθη και ωνειδισ[ε]{.unclear}[ν]{.greek-supplied} τ[ην]{.greek-supplied} απιστιαν αυ[των]{.unclear} και σκληροκαρδιαν οτι τοις θεασαμενοι[ς]{.unclear} [α]{.unclear}υτον εγηγερμενον ουκ επιστευσαν[16:14]{.aside}
+
+και ειπε[ν]{.unclear} αυτοις πορευθεντες εις τον κοσμον απαντα [κηρυξατε]{.greek-omitted} [κηριξατε]{.greek-added} το [ε]{.unclear}υαγγελιον παση τη κτισει[16:15]{.aside}
+
+ο πισ[τε]{.unclear}υσας και βαπτισθεις σωθησεται ο δε απιστησας κατακριθησεται[16:16]{.aside}
+
+σημεια δε τοις π[ι]{.unclear}στευσασιν [[π]{.unclear}[αρ]{.greek-supplied}[α]{.unclear}κολουθησ[ε]{.unclear}ι]{.greek-added} ταυτα [παρακολουθησει]{.greek-omitted} εν τ[ω]{.unclear} ονοματι [μου]{.unclear} δαιμονια [ε]{.unclear}κβα[λ]{.unclear}ουσιν [γλωσσαις]{.greek-omitted} [λαλησουσιν]{.greek-omitted} [καιναις]{.greek-omitted}[16:17]{.aside}
+
+[[κ]{.greek-supplied}[α]{.unclear}[ι]{.greek-supplied}]{.greek-added} [εν]{.greek-added} [ταις]{.greek-added} [χε[ρ]{.greek-supplied}[σ]{.greek-supplied}[ι]{.unclear}ν]{.greek-added} οφεις α[ρ]{.unclear}[ου]{.greek-supplied}[σ]{.greek-supplied}ιν καν θα[ν]{.unclear}[α]{.greek-supplied}[σ]{.greek-supplied}[ι]{.unclear}μον τι πιω[σιν]{.greek-supplied} [ου]{.greek-omitted} [μη]{.greek-omitted} [αυτους]{.greek-omitted} [βλαψη]{.greek-omitted} [επι]{.greek-omitted} [αρρωστους]{.greek-omitted} [χειρας]{.greek-omitted} [επιθησουσιν]{.greek-omitted} [και]{.greek-omitted} [καλως]{.greek-omitted} [εξουσιν]{.greek-omitted}[16:18]{.aside}
+

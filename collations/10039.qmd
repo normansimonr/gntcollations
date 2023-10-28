@@ -1,0 +1,57 @@
+---
+title: "Collation of Byz^RP^ vs 10039 (𝔓^39^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^39^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10039).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^39^                                   	| λογος                              	|
+| 𝔓^39^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^39^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^39^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^39^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^39^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^39^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 8
+
+[απεκριθη]{.greek-omitted} [ιησους]{.greek-omitted} [και]{.greek-supplied} [ειπεν]{.greek-supplied} [α]{.unclear}υτοις [καν]{.greek-supplied} [εγω]{.greek-supplied} [μ]{.greek-supplied}[α]{.unclear}ρτυρω [περι]{.greek-supplied} [εμαυ]{.greek-supplied}[τ]{.unclear}ου [αληθης]{.greek-omitted} [εστιν]{.greek-omitted} η μαρ[τυρια]{.greek-supplied} [μου]{.greek-supplied} [[α]{.unclear}ληθης]{.greek-added} [[εστιν]{.greek-supplied}]{.greek-added} [οτι]{.greek-supplied} [ο]{.greek-supplied}ιδα πο[θεν]{.greek-supplied} [ηλθο]{.greek-supplied}[ν]{.unclear} και που [υπαγω]{.greek-supplied} [υ]{.greek-supplied}[μ]{.unclear}εις δε [ουκ]{.greek-supplied} [οιδατ]{.greek-supplied}ε ποθεν [ερχομαι]{.greek-supplied} [και]{.greek-omitted} [[η]{.unclear}]{.greek-added} που υπα[γω]{.greek-supplied}[8:14]{.aside}
+
+[υμεις]{.greek-supplied} κατα την [σαρκα]{.greek-supplied} [κρ]{.greek-supplied}[ι]{.unclear}νετε εγω [ου]{.greek-supplied} [κριν]{.greek-supplied}[ω]{.unclear} ουδενα[8:15]{.aside}
+
+[και]{.greek-supplied} [εαν]{.greek-supplied} [κ]{.greek-supplied}ρινω δε [εγω]{.greek-supplied} [η]{.greek-supplied} [κρ]{.greek-supplied}[ι]{.unclear}σις η εμη [αληθης]{.greek-omitted} [[αληθινη]{.greek-supplied}]{.greek-added} [ε]{.greek-supplied}στιν ο[τι]{.greek-supplied} [μονος]{.greek-supplied} [ο]{.unclear}υκ ει[μι]{.greek-supplied} [αλλ]{.greek-supplied} [εγ]{.greek-supplied}[ω]{.unclear} και ο [πεμψας]{.greek-supplied} [μ]{.unclear}ε [πατηρ]{.greek-abbr}[8:16]{.aside}
+
+[και]{.greek-supplied} [εν]{.greek-supplied} [τω]{.greek-supplied} νομω [δε]{.greek-supplied} [τω]{.greek-supplied} [υμ]{.greek-supplied}ετερω [γεγραπτ]{.greek-supplied}αι οτι δυ[ο]{.greek-supplied} [ανθρωπων]{.greek-abbr} [η]{.greek-supplied} μαρτυρι[α]{.greek-supplied} [αληθης]{.greek-supplied} εστιν[8:17]{.aside}
+
+ε[γω]{.greek-supplied} [ειμι]{.greek-supplied} [ο]{.greek-supplied} μ[α]{.unclear}ρ[τ]{.unclear}υ[ρων]{.greek-supplied} [περι]{.greek-supplied} εμαυτου και μ[αρτυρει]{.greek-supplied} [περι]{.greek-supplied} εμου [ο]{.greek-supplied} [πεμψας]{.greek-supplied} [με]{.greek-supplied} [πατηρ]{.greek-abbr}[8:18]{.aside}
+
+ε[λεγον]{.greek-supplied} [ουν]{.greek-supplied} αυτω [που]{.greek-supplied} [εστιν]{.greek-supplied} [ο]{.greek-supplied} [πατηρ]{.greek-abbr} σ[ο]{.unclear}[υ]{.greek-supplied} [απεκριθη]{.greek-supplied} [ιησους]{.greek-abbr} ου[τε]{.greek-supplied} [εμε]{.greek-supplied} [οιδα]{.greek-supplied}τε ουτ[ε]{.greek-supplied} [τον]{.greek-supplied} [πατερα]{.greek-abbr} [μου]{.greek-supplied} ει εμε [ηδειτε]{.greek-supplied} [και]{.greek-supplied} τον [πατερα]{.greek-abbr} [μου]{.greek-supplied} [[αν]{.greek-supplied}]{.greek-added} [η]{.greek-supplied}δειτε [αν]{.greek-omitted}[8:19]{.aside}
+
+[τ]{.unclear}[αυτα]{.greek-supplied} [τα]{.greek-supplied} [ρη]{.greek-supplied}ματα ελ[α]{.unclear}[λησεν]{.greek-supplied} [ο]{.greek-omitted} [ιησους]{.greek-omitted} [εν]{.greek-supplied} τω γαζο[φυλακιω]{.greek-supplied} διδασκ[ω]{.unclear}[ν]{.greek-supplied} [εν]{.greek-supplied} [τω]{.greek-supplied} ιερω κα[ι]{.greek-supplied} [ουδεις]{.greek-supplied} επιασ[ε]{.unclear}[ν]{.greek-supplied} [αυτον]{.greek-supplied} [ο]{.greek-supplied}τι ουπ[ω]{.greek-supplied} [εληλυθει]{.greek-supplied} η ωρα [α]{.unclear}[υτου]{.greek-supplied}[8:20]{.aside}
+
+[ειπεν]{.greek-supplied} ουν πα[λιν]{.greek-supplied} [αυτοις]{.greek-supplied} [ο]{.greek-omitted} [ιησους]{.greek-omitted} εγω υπ[αγω]{.greek-supplied} [και]{.greek-supplied} [ζη]{.greek-supplied}[τ]{.unclear}ησετε [μ]{.unclear}[ε]{.greek-supplied} [και]{.greek-supplied} [εν]{.greek-supplied} [τ]{.unclear}η [α]{.unclear}μαρ[τ]{.unclear}[ια]{.greek-supplied} [υμων]{.greek-supplied} αποθαν[εισθε]{.greek-supplied} [ο]{.greek-supplied}που εγω [υπαγω]{.greek-supplied} [υ]{.unclear}μ[ει]{.unclear}ς ο[υ]{.unclear} [δυνασθε]{.greek-supplied} [ελ]{.unclear}θε[ι]{.unclear}ν[8:21]{.aside}
+
+[ε]{.unclear}[λεγον]{.greek-supplied} [ουν]{.greek-supplied} [οι]{.greek-omitted} [ιουδαιοι]{.greek-omitted} [μητι]{.greek-omitted} [αποκτενει]{.greek-omitted} [εαυτον]{.greek-omitted} [οτι]{.greek-omitted} [λεγει]{.greek-omitted} [οπου]{.greek-omitted} [εγω]{.greek-omitted} [υπαγω]{.greek-omitted} [υμεις]{.greek-omitted} [ου]{.greek-omitted} [δυνασθε]{.greek-omitted} [ελθειν]{.greek-omitted}[8:22]{.aside}
+

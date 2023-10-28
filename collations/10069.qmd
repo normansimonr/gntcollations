@@ -1,0 +1,57 @@
+---
+title: "Collation of Byz^RP^ vs 10069 (𝔓^69^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^69^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10069).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^69^                                   	| λογος                              	|
+| 𝔓^69^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^69^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^69^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^69^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^69^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^69^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Luke
+
+### Chapter 22
+
+[και]{.greek-omitted} [αυτος]{.greek-omitted} [απεσ]{.greek-supplied}[πασθη]{.greek-supplied} [απ]{.greek-supplied} [αυτων]{.greek-supplied} [ωσ]{.greek-supplied}[ε]{.unclear}ι λιθ[ο]{.unclear}υ [βολη]{.unclear}[ν]{.greek-supplied} [και]{.greek-supplied} [θεις]{.greek-supplied} [τα]{.greek-supplied} [γονατα]{.greek-supplied} [προσ]{.greek-supplied}[ηυ]{.unclear}χετ[ο]{.unclear}[22:41]{.aside}
+
+[και]{.greek-supplied} [αναστας]{.greek-supplied} [απο]{.greek-supplied} [της]{.greek-supplied} [προσευχης]{.greek-supplied} [ελθων]{.greek-supplied} [προς]{.greek-supplied} [τους]{.greek-supplied} [μ]{.unclear}αθητας [ευρεν]{.greek-omitted} [κ[ο]{.unclear}ι[μωμενους]{.greek-supplied}]{.greek-added} [αυτους]{.greek-supplied} [κοιμωμενους]{.greek-omitted} [απο]{.greek-supplied} [τη]{.greek-supplied}[ς]{.unclear} λυπης[22:45]{.aside}
+
+[κ]{.greek-supplied}[α]{.unclear}ι [ειπεν]{.greek-supplied} [αυτοις]{.greek-supplied} [τ]{.unclear}ι [κα]{.unclear}θευ[δ]{.unclear}ε[τε]{.greek-supplied} [ανασταντες]{.greek-supplied} [πρ]{.greek-supplied}[οσ]{.unclear}ευχε[σθ]{.unclear}ε [ινα]{.greek-supplied} [μη]{.greek-supplied} [εισελθητε]{.greek-supplied} [εις]{.greek-supplied} [πει]{.greek-supplied}[ρ]{.unclear}ασ[μον]{.unclear}[22:46]{.aside}
+
+[ετι]{.greek-supplied} [δε]{.greek-supplied} [αυτου]{.greek-supplied} [λαλουντος]{.greek-supplied} [ι]{.greek-supplied}δο[υ]{.unclear} [οχλος]{.greek-supplied} [και]{.greek-supplied} [ο]{.greek-supplied} [λεγομενος]{.greek-supplied} [ιου]{.greek-supplied}[δ]{.unclear}ας [εις]{.greek-supplied} [των]{.greek-supplied} [δωδεκα]{.greek-omitted} [[[ιβ]{.greek-supplied}]{.greek-abbr}]{.greek-added} [προηρχετο]{.greek-supplied} [αυτ]{.unclear}ους [και]{.greek-supplied} [ηγγισεν]{.greek-omitted} [τω]{.greek-omitted} [[εγγισας]{.greek-supplied}]{.greek-added} [[εφιλησεν]{.greek-supplied}]{.greek-added} [[τ]{.unclear}ον]{.greek-added} [ιησου]{.greek-omitted} [[ιησουν]{.greek-abbr}]{.greek-added} [φιλησαι]{.greek-omitted} [αυτον]{.greek-omitted}[22:47]{.aside}
+
+[ο]{.greek-omitted} [[ιησους]{.greek-abbr}]{.greek-added} [δε]{.greek-supplied} [ιησους]{.greek-omitted} [ειπεν]{.greek-supplied} [αυτω]{.greek-supplied} [ιουδα]{.greek-supplied} [φι]{.greek-supplied}[λη]{.unclear}[ματι]{.greek-supplied} [τον]{.greek-omitted} [υιον]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [παραδιδως]{.greek-omitted}[22:48]{.aside}
+
+[και]{.greek-omitted} [μετα]{.greek-omitted} [βραχυ]{.greek-omitted} [ετερος]{.greek-omitted} [ιδων]{.greek-supplied} [αυ]{.unclear}[το]{.greek-supplied}[ν]{.unclear} [ε]{.unclear}[φη]{.greek-supplied} [και]{.greek-supplied} [συ]{.greek-supplied} [εξ]{.greek-supplied} [αυτων]{.greek-supplied} [ει]{.greek-supplied} [ο]{.unclear} [δ]{.unclear}ε [πετρος]{.greek-omitted} ειπεν [ανθρωπε]{.greek-abbr} [ουκ]{.greek-supplied} [ειμι]{.greek-supplied}[22:58]{.aside}
+
+[και]{.greek-supplied} [δι]{.greek-supplied}ασ[τ]{.unclear}ασης ω[σ]{.unclear}[ει]{.greek-supplied} [ωρας]{.greek-supplied} [μιας]{.greek-omitted} [[[α]{.greek-supplied}]{.greek-abbr}]{.greek-added} [αλλος]{.greek-supplied} [τις]{.greek-supplied} [διισχυ]{.greek-supplied}ρι[ζ]{.unclear}ετο λε[γω]{.unclear}[ν]{.greek-supplied} [επ]{.greek-supplied} [αληθειας]{.greek-supplied} [και]{.greek-supplied} ο[υ]{.unclear}τος [ην]{.greek-added} [μ]{.unclear}[ετ]{.greek-supplied} [αυτου]{.greek-supplied} [ην]{.greek-omitted} [και]{.greek-supplied} [γαρ]{.greek-supplied} [γα]{.greek-supplied}[λ]{.unclear}[ι]{.greek-supplied}[λα]{.unclear}ιος εσ[τ]{.unclear}[ιν]{.greek-supplied}[22:59]{.aside}
+
+[ειπεν]{.greek-supplied} [δε]{.greek-supplied} [ο]{.greek-supplied} [πετρος]{.greek-supplied} [ανθρωπε]{.greek-abbr} ουκ οι[δα]{.greek-supplied} [ο]{.greek-supplied} [λεγεις]{.greek-supplied} [και]{.greek-supplied} [[ετι]{.greek-supplied}]{.greek-added} [αυτου]{.greek-added} [λαλο[υ]{.unclear}[ντος]{.greek-supplied}]{.greek-added} [παραχρημα]{.greek-supplied} [ετι]{.greek-omitted} [λαλουντος]{.greek-omitted} [αυτου]{.greek-omitted} [ε]{.unclear}φωνησε[ν]{.unclear} [αλεκτωρ]{.greek-supplied}[22:60]{.aside}
+
+[και]{.greek-supplied} [στρα]{.greek-supplied}φεις ο [κυριος]{.greek-omitted} [π[ετρ]{.unclear}[ος]{.greek-supplied}]{.greek-added} [ενεβλεψεν]{.greek-supplied} [[αυ]{.greek-supplied}τω]{.greek-added} [τοτε]{.greek-added} [τω]{.greek-omitted} [πετρω]{.greek-omitted} [και]{.greek-omitted} [υπεμνησθη]{.greek-supplied} [ο]{.greek-supplied} [πετρος]{.greek-supplied} τ[ο]{.unclear}υ [λογου]{.greek-omitted} [ρημ[ατος]{.greek-supplied}]{.greek-added} [του]{.greek-supplied} [κυριου]{.greek-abbr} [ως]{.greek-supplied} [ειπεν]{.greek-supplied} α[υ]{.unclear}τω [οτι]{.greek-omitted} π[ριν]{.greek-supplied} [αλεκτορα]{.greek-supplied} [φωνησαι]{.greek-supplied} [[ση]{.greek-supplied}[μ]{.unclear}[ερον]{.greek-supplied}]{.greek-added} [απαρνηση]{.greek-supplied} [με]{.greek-supplied} [τρις]{.greek-supplied}[22:61]{.aside}
+

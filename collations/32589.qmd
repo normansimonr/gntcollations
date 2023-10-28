@@ -1,0 +1,107 @@
+---
+title: "Collation of Byz^RP^ vs 32589 (2589)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 2589 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=32589).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 2589                                   	| λογος                              	|
+| 2589 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 2589 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 2589               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 2589                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 2589 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 2589                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 11
+
+[αρατε]{.greek-omitted} [τον]{.greek-omitted} [ζυγον]{.greek-omitted} [μου]{.greek-omitted} [εφ]{.greek-omitted} [υμας]{.greek-omitted} [και]{.greek-omitted} [μαθετε]{.greek-omitted} [απ]{.greek-omitted} [εμου]{.greek-omitted} [οτι]{.greek-omitted} [πραος]{.greek-omitted} [ειμι]{.greek-omitted} [και]{.greek-omitted} [ταπεινος]{.greek-omitted} [τη]{.greek-omitted} [καρδια]{.greek-omitted} και ευρησετε αναπαυσιν ταις ψυχαις υμων[11:29]{.aside}
+
+ο γαρ ζυγος μου χρηστος και το φορτιον μου ελαφρον εστιν[11:30]{.aside}
+
+### Chapter 12
+
+εν εκεινω τω καιρω επορευθη ο [ιησους]{.greek-abbr} τοις [σαββασιν]{.greek-omitted} [σαββασι]{.greek-added} δια των σποριμων οι δε μαθηται [αυτου]{.greek-omitted} επεινασαν και ηρξαντο τιλλειν σταχυας και εσθιειν[12:1]{.aside}
+
+οι δε φαρισαιοι ιδοντες ειπον αυτω ιδου οι μαθηται σου ποιουσιν ο ουκ [εξεστιν]{.greek-omitted} [εξεστι]{.greek-added} ποιειν εν [σαββατω]{.greek-omitted} [σαββασιν]{.greek-added}[12:2]{.aside}
+
+ο δε ειπεν αυτοις ουκ ανεγνωτε τι εποιησεν [δαυιδ]{.greek-abbr} οτε επεινασεν [αυτος]{.greek-omitted} και οι μετ αυτου[12:3]{.aside}
+
+πως εισηλθεν εις τον οικον του [θεου]{.greek-abbr} και τους αρτους της προθεσεως [εφαγεν]{.greek-omitted} [εφαγον]{.greek-added} ους ουκ εξον ην αυτω φαγειν ουδε τοις μετ αυτου ει μη τοις [ιερευσιν]{.greek-omitted} [ιερευσι]{.greek-added} [μονοις]{.greek-omitted} [μονον]{.greek-added}[12:4]{.aside}
+
+η ουκ ανεγνωτε εν τω νομω οτι τοις σαββασιν οι ιερεις εν τω ιερω το σαββατον [βεβηλουσιν]{.greek-omitted} [βεβηλουσι]{.greek-added} και αναιτιοι εισιν[12:5]{.aside}
+
+λεγω δε υμιν οτι του ιερου μειζον εστιν ωδε[12:6]{.aside}
+
+ει δε εγνωκειτε τι εστιν ελεον θελω και ου θυσιαν ουκ αν κατεδικασατε τους αναιτιους[12:7]{.aside}
+
+[κυριος]{.greek-abbr} γαρ [εστιν]{.greek-omitted} [εστι]{.greek-added} του σαββατου ο υιος του [ανθρωπου]{.greek-abbr}[12:8]{.aside}
+
+και μεταβας εκειθεν ηλθεν εις την συναγωγην αυτων[12:9]{.aside}
+
+και ιδου [ανθρωπος]{.greek-abbr} ην την χειρα εχων ξηραν και επηρωτησαν αυτον λεγοντες ει [εξεστιν]{.greek-omitted} [εξεστι]{.greek-added} τοις [σαββασιν]{.greek-omitted} [σαββασι]{.greek-added} θεραπευειν ινα κατηγορησωσιν αυτου[12:10]{.aside}
+
+ο δε ειπεν αυτοις τις εσται εξ υμων [ανθρωπος]{.greek-abbr} ος εξει προβατον εν και εαν εμπεση τουτο τοις σαββασιν εις βοθυνον ουχι κρατησει [αυτο]{.greek-omitted} [αυτω]{.greek-added} και εγερει[12:11]{.aside}
+
+ποσω ουν διαφερει [ανθρωπος]{.greek-abbr} προβατου ωστε [εξεστιν]{.greek-omitted} [εξεστι]{.greek-added} τοις [σαββασιν]{.greek-omitted} [σαββασι]{.greek-added} καλως ποιειν[12:12]{.aside}
+
+τοτε λεγει τω [ανθρωπω]{.greek-abbr} εκτεινον την χειρα σου και εξετεινεν και [αποκατεσταθη]{.greek-omitted} [απεκατεσταθη]{.greek-added} υγιης ως η αλλη[12:13]{.aside}
+
+οι δε φαρισαιοι συμβουλιον ελαβον κατ αυτου εξελθοντ[ες]{.unclear} οπως αυτον απολεσωσιν[12:14]{.aside}
+
+ο δε [ιησους]{.greek-abbr} γνους ανεχωρησεν εκειθεν και ηκολουθησαν αυτω οχλοι [πολλοι]{.greek-omitted} και εθεραπευσεν αυτους παντας[12:15]{.aside}
+
+και [επετιμησεν]{.greek-omitted} [επετι]{.greek-added} [μησεν]{.greek-added} αυτοις ινα μη φανερον αυτον ποιησωσιν[12:16]{.aside}
+
+οπως πληρωθη το ρηθεν δια ησαιου του προφητου λεγοντος[12:17]{.aside}
+
+ιδου ο παις μου ον [ηρετισα]{.greek-omitted} [ηρετησα]{.greek-added} ο αγαπητος μου εις ον ευδοκησεν η ψυχη μου θησω το [πνευμα]{.greek-abbr} μου επ αυτον και κρισιν τοις εθνεσιν απαγγελει[12:18]{.aside}
+
+ουκ ερισει ουδε κραυγασει ουδε ακουσει τις εν ταις πλατειαις την φωνην αυτου[12:19]{.aside}
+
+καλαμον συντετριμμενον ου κατεαξει και λινον [τυφομενον]{.greek-omitted} [τυφωμενον]{.greek-added} ου σβεσει εως αν εκβαλη εις νικος την κρισιν[12:20]{.aside}
+
+και [τω]{.greek-omitted} [το]{.greek-added} ονοματι αυτου εθνη ελπιουσιν[12:21]{.aside}
+
+τοτε προσηνεχθη αυτω δαιμονιζομενος τυφλος και κωφος και εθεραπευσεν αυτον ωστε τον τυφλον και κωφον και λαλειν και βλεπειν[12:22]{.aside}
+
+και εξισταντο παντες οι οχλοι και ελεγον μητι ουτος εστιν ο υιος [δαυιδ]{.greek-abbr}[12:23]{.aside}
+
+οι δε φαρισαιοι ακουσαντες ειπον ουτος ουκ εκβαλλει τα δ[α]{.unclear}ιμονι[α]{.unclear} ει μη εν τω βεελζεβουλ αρχοντι των δαιμονιων[12:24]{.aside}
+
+ειδως δε ο [ιησους]{.greek-abbr} τας ενθυμησεις αυτων ειπεν αυτοις πασα βασιλεια μερισθεισα καθ εαυτης ερημουται και πασα πολις η οικια μερισθεισα καθ εαυτης ου σταθησεται[12:25]{.aside}
+
+και ει ο σατανας τον σαταναν εκβαλλει εφ εαυτον εμερισθη [πως]{.greek-omitted} [ουν]{.greek-omitted} [σταθησεται]{.greek-omitted} [η]{.greek-omitted} [βασιλεια]{.greek-omitted} [αυτου]{.greek-omitted}[12:26]{.aside}
+
+και ει εγω εν βεελζεβουλ εκβαλλω τα δαιμονια οι υιοι υμων εν τινι [εκβαλλουσιν]{.greek-omitted} [εκβαλλουσι]{.greek-added} δια τουτο αυτοι υμων εσονται κριται[12:27]{.aside}
+
+ει δε εν [πνευματι]{.greek-abbr} [θεου]{.greek-abbr} εγω εκβαλλω τα δαιμονια αρα εφθασεν εφ υμας η βασιλεια του [θεου]{.greek-abbr}[12:28]{.aside}
+
+η πως δυναται τις εισελθειν εις την οικιαν του ισχυρου και τα σκευη αυτου διαρπασαι εαν μη πρωτον δηση τον ισχυρον και τοτε την οικιαν αυτου διαρπασει[12:29]{.aside}
+
+ο μη ων μετ εμου κατ εμου [εστιν]{.greek-omitted} [εστι]{.greek-added} και ο μη συναγων μετ εμου σκορπιζει[12:30]{.aside}
+
+δια τουτο λεγω υμιν πασα αμαρτια [και]{.greek-omitted} [βλασφημια]{.greek-omitted} [αφεθησεται]{.greek-omitted} [τοις]{.greek-omitted} [ανθρωποις]{.greek-omitted} [η]{.greek-omitted} [δε]{.greek-omitted} [του]{.greek-omitted} [πνευματος]{.greek-omitted} [βλασφημια]{.greek-omitted} [ουκ]{.greek-omitted} [αφεθησεται]{.greek-omitted} [τοις]{.greek-omitted} [ανθρωποις]{.greek-omitted}[12:31]{.aside}
+

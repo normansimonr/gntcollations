@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 20292 (292)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 292 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20292).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 292                                   	| λογος                              	|
+| 292 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 292 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 292               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 292                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 292 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 292                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Mark
+
+### Chapter 6
+
+[[κ]{.greek-supplied}[α]{.unclear}ι]{.greek-added} [περιδραμοντες]{.greek-omitted} [εκπεριδρ[α]{.unclear}[μ]{.unclear}οντες]{.greek-added} ολην [τ]{.unclear}ην περιχωρον εκεινην ηρξαντο επι [τοις]{.greek-omitted} [κραββατοις]{.greek-omitted} [κραβαττοις]{.greek-added} τους κακως εχον[τ]{.unclear}ας περιφερειν οπου ηκουον οτι [εστιν]{.greek-added} εκει [εστιν]{.greek-omitted}[6:55]{.aside}
+
+[κ]{.unclear}αι οπου αν εισεπορευετο [ει]{.greek-supplied}ς κωμας η [π]{.greek-supplied}ολεις [η]{.corr} [αγρους]{.corr} εν ταις [α]{.greek-supplied}γοραις ετιθου[ν]{.unclear} τους ασθε[ν]{.unclear}ουντας και πα[ρ]{.unclear}εκαλ[ου]{.unclear}[ν]{.greek-supplied} αυτον ινα [κ]{.unclear}[αν]{.greek-supplied} του κρασπ[εδου]{.greek-supplied} του ι[μ]{.unclear}ατιο[υ]{.greek-supplied} [αυ]{.greek-supplied}του αψων[τ]{.unclear}[αι]{.greek-supplied} και οσοι [αν]{.corr} [ηπτοντο]{.greek-omitted} [η[ψ]{.unclear}[αν]{.greek-supplied}το]{.greek-added} αυτο[υ]{.unclear} [εσωζοντο]{.greek-omitted} [[διε]{.greek-supplied}σωζοντ[ο]{.unclear}]{.greek-added}[6:56]{.aside}
+
+### Chapter 7
+
+και συναγ[ο]{.unclear}[νται]{.greek-supplied} προς αυτ[ο]{.unclear}[ν]{.greek-supplied} [οι]{.greek-supplied} [φα]{.greek-supplied}ρισαιοι κ[α]{.unclear}[ι]{.greek-supplied} [τινες]{.greek-supplied} των γραμ[ματε]{.greek-supplied}ων ελθον[τες]{.greek-supplied} απο ιεροσ[ο]{.unclear}[λυ]{.greek-supplied}μων[7:1]{.aside}
+
+και ιδ[ον]{.greek-supplied}τες τινας [τ]{.unclear}[ων]{.greek-supplied} [μ]{.greek-supplied}αθη[των]{.unclear} [αυ]{.greek-supplied}[τ]{.unclear}ου [κοιναις]{.greek-supplied} [χ]{.greek-supplied}[ε]{.unclear}ρ[σ]{.unclear}[ιν]{.greek-supplied} [τουτ]{.greek-supplied} [εσ]{.greek-supplied}τιν ανιπτοις [ε]{.greek-supplied}[σ]{.unclear}θιοντας [[το]{.greek-supplied}υς]{.greek-added} αρτους [ε]{.greek-supplied}[μ]{.unclear}εμψαντο[7:2]{.aside}
+
+[οι]{.greek-supplied} [γ]{.greek-supplied}αρ φαρισαιοι [και]{.greek-supplied} [π]{.unclear}αντες οι [ιου]{.greek-supplied}δαιοι εαν [μη]{.greek-supplied} πυγμη νι[ψω]{.greek-supplied}[ν]{.unclear}ται τας [χειρ]{.greek-supplied}[α]{.unclear}ς ουκ ε[σθι]{.greek-supplied}ουσιν κρα[το]{.greek-supplied}υντες την [παραδοσιν]{.greek-omitted} [[πα]{.greek-supplied}[ρ]{.unclear}αδ[ω]{.unclear}σιν]{.greek-added} τω[ν]{.unclear} [π]{.greek-supplied}ρεσβυτερω[ν]{.unclear}[7:3]{.aside}
+
+[κ]{.greek-supplied}[α]{.unclear}ι [απο]{.greek-omitted} [α[π]{.unclear}]{.greek-added} αγορας [εαν]{.greek-supplied} [μη]{.unclear} βα[π]{.unclear}[τι]{.greek-supplied}[σωνται]{.greek-supplied} ου[κ]{.unclear} [ε]{.greek-supplied}[σθιουσι]{.greek-supplied}ν και αλλα πολλ[α]{.greek-supplied} [ε]{.greek-supplied}στιν α παρε[λα]{.greek-supplied}βον κρατει[ν]{.unclear} βαπτισμους ποτηριων και ξεστων και χαλκιων και κλινων[7:4]{.aside}
+
+[επειτα]{.greek-omitted} [και]{.greek-added} επερωτ[ω]{.unclear}σιν αυτον ο[ι]{.greek-supplied} φαρισαιοι κ[α]{.unclear}[ι]{.greek-supplied} οι γραμματ[εις]{.greek-supplied} δια τι οι μα[θ]{.unclear}[η]{.greek-supplied}ται σου ου π[ε]{.greek-supplied}ριπατουσιν [κα]{.unclear}τα την π[α]{.unclear}ραδοσιν των πρε[σβ]{.greek-supplied}[υ]{.unclear}τερων [αλλα]{.greek-omitted} [ανιπτοις]{.greek-omitted} [χερσιν]{.greek-omitted} [εσθιουσιν]{.greek-omitted} [τον]{.greek-omitted} [αρτον]{.greek-omitted}[7:5]{.aside}
+

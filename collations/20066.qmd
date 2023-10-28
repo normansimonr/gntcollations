@@ -1,0 +1,59 @@
+---
+title: "Collation of Byz^RP^ vs 20066 (66)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 66 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20066).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 66                                   	| λογος                              	|
+| 66 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 66 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 66               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 66                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 66 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 66                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 28
+
+[νος]{.greek-added} [εγενετο]{.greek-omitted} [δε]{.greek-omitted} [τον]{.greek-omitted} [πατερα]{.greek-omitted} [του]{.greek-omitted} [ποπλιου]{.greek-omitted} [πυρετοις]{.greek-omitted} [και]{.greek-omitted} [δυσεντερια]{.greek-omitted} [συνεχομενον]{.greek-omitted} [κατακεισθαι]{.greek-omitted} [προς]{.greek-omitted} [ον]{.greek-omitted} [ο]{.greek-omitted} [παυλος]{.greek-omitted} [εισελθων]{.greek-omitted} [και]{.greek-omitted} [προσευξαμενος]{.greek-omitted} επιθεις τας χειρας αυτω ιασατο αυτον[28:8]{.aside}
+
+τουτου [ουν]{.greek-omitted} [δε]{.greek-added} γενομενου και οι λοιποι οι [εχοντες]{.greek-omitted} [ασθενειας]{.greek-omitted} [εν]{.unclear} [τη]{.unclear} νησω [εχοντε[ς]{.unclear}]{.greek-added} [ασθεν[ε]{.unclear}ιας]{.greek-added} προσηρχοντο και εθ[ε]{.unclear}ραπ[ευ]{.unclear}ο[ντ]{.unclear}ο[28:9]{.aside}
+
+οι και πολλαις τι[μ]{.unclear}αις ετι[μ]{.unclear}ησαν ημας και αναγομενο[ι]{.unclear}ς επεθε[ν]{.unclear}το τα πρ[ος]{.unclear} [την]{.greek-omitted} [[τ]{.unclear}ας]{.greek-added} [χρειαν]{.greek-omitted} [χρειας]{.greek-added}[28:10]{.aside}
+
+μετα δ[ε]{.unclear} [τ]{.unclear}ρεις μηνας [ηχθημεν]{.greek-omitted} [[ανη]{.unclear}χθημεν]{.greek-added} ε[ν]{.unclear} πλοιω [παρακεχειμακοτι]{.greek-omitted} [παρατι]{.greek-added} εν τη ν[η]{.unclear}[σω]{.greek-supplied} αλεξανδ[ρ]{.unclear}[ινω]{.greek-supplied} παρασημ[ω]{.greek-supplied} διοσκου[ροις]{.greek-supplied}[28:11]{.aside}
+
+και καταχθ[εν]{.greek-supplied}[τ]{.unclear}ες εις συ[ρα]{.greek-supplied}κουσας ε[πε]{.greek-supplied}[μ]{.unclear}ειναμε[ν]{.greek-supplied} ημερας τ[ρ]{.unclear}[εις]{.greek-supplied}[28:12]{.aside}
+
+οθ[εν]{.unclear} [π]{.unclear}εριελθοντες κατηντησ[α]{.greek-supplied}με[ν]{.unclear} εις ρ[η]{.unclear}[γι]{.greek-supplied}ον και μ[ε]{.greek-supplied}τα μιαν ημε[ραν]{.greek-supplied} επιγενο[μ]{.unclear}[ε]{.greek-supplied}[νο]{.unclear}υ νοτο[υ]{.unclear} [δ]{.unclear}ευτεραι[οι]{.greek-supplied} ηλθομε[ν]{.unclear} εις ποτι[ο]{.greek-supplied}λους[28:13]{.aside}
+
+ου ευρον[τ]{.unclear}[ες]{.greek-supplied} αδ[ε]{.unclear}λφο[υς]{.greek-supplied} παρεκλη[θ]{.unclear}[η]{.greek-supplied}μεν [επ]{.greek-omitted} [παρ]{.greek-added} [[α]{.unclear}υ]{.greek-added} [αυτοις]{.greek-omitted} [[το]{.greek-supplied}ις]{.greek-added} επιμει[να]{.greek-supplied}ι ημερας ε[π]{.greek-supplied}τα και ουτως [[η]{.greek-supplied}λθομεν]{.greek-added} [ει]{.unclear}ς [την]{.greek-omitted} [ρ]{.greek-supplied}ωμην [ηλθομεν]{.greek-omitted}[28:14]{.aside}
+
+[κα]{.greek-supplied}κειθ[ε]{.unclear}[ν]{.greek-supplied} ο[ι]{.unclear} [α]{.unclear}[δ]{.greek-supplied}ελφοι [α]{.unclear}κ[ου]{.unclear}[σ]{.greek-supplied}αντες τα πε[ρι]{.greek-supplied} ημων [εξηλθον]{.greek-omitted} [η[λ]{.unclear}[θ]{.greek-supplied}αν]{.greek-added} εις απα[ν]{.unclear}[τ]{.greek-supplied}[η]{.unclear}σιν [ημιν]{.greek-omitted} [ημ[ων]{.unclear}]{.greek-added} [αχρι]{.greek-omitted} [[α]{.greek-supplied}[χ]{.unclear}ρις]{.greek-added} αππιο[υ]{.unclear} [φ]{.greek-supplied}ορου [κ]{.unclear}αι τρι[ω]{.greek-supplied}ν ταβερνων [ο]{.greek-supplied}υς ιδων ο [π]{.greek-supplied}αυλος [ε]{.unclear}υχα[ρι]{.greek-supplied}στησας [τ]{.unclear}ω [θεω]{.greek-abbr} ε[λαβ]{.unclear}ε[ν]{.unclear} [θ]{.greek-supplied}αρσος[28:15]{.aside}
+
+[ο]{.greek-supplied}[τ]{.unclear}ε δε [ηλθομεν]{.greek-omitted} [εισηλ[θομεν]{.greek-supplied}]{.greek-added} [εις]{.greek-supplied} [ρ]{.greek-supplied}ωμη[ν]{.unclear} [[επ]{.unclear}[ε]{.greek-supplied}[τρ]{.greek-supplied}[α]{.unclear}πη]{.greek-added} [ο]{.greek-omitted} [εκατονταρχος]{.greek-omitted} [παρεδωκεν]{.greek-omitted} [τους]{.greek-omitted} [δεσμιους]{.greek-omitted} [τω]{.unclear} [στρατοπεδαρχη]{.greek-omitted} [τω]{.greek-omitted} [δε]{.greek-omitted} παυ[λ]{.greek-supplied}ω [επετραπη]{.greek-omitted} μενει[ν]{.unclear} [κ]{.greek-supplied}αθ εαυ[το]{.unclear}[ν]{.greek-supplied} συν τω φυλασσοντι αυτον σ[τρ]{.unclear}ατιωτη[28:16]{.aside}
+
+ε[γε]{.unclear}νε[τ]{.unclear}ο δε [μ]{.unclear}ετα [ημε]{.unclear}ρας τρε[ι]{.unclear}ς [συγκαλεσασθαι]{.greek-omitted} [συνκ[α]{.unclear}λεσασθαι]{.greek-added} [τον]{.greek-omitted} [α[υ]{.unclear}τον]{.greek-added} [παυλον]{.greek-omitted} [τ]{.unclear}ο[υ]{.unclear}ς ο[ν]{.unclear}τας των ιουδα[ι]{.unclear}ων πρω[τ]{.unclear}ου[ς]{.unclear} συνελθον[τ]{.unclear}ων δε α[υ]{.unclear}των ελεγε[ν]{.unclear} πρ[ο]{.unclear}ς αυτο[υ]{.unclear}ς [εγω]{.greek-added} ανδρες [α]{.unclear}δελφ[οι]{.unclear} [εγω]{.greek-omitted} ουδεν εναν[τ]{.unclear}ιον ποιησας τω λ[α]{.unclear}ω η τοις [εθεσιν]{.greek-omitted} [εθεσ[ι]{.unclear}]{.greek-added} [τ]{.unclear}οις πατρωοις δε[σ]{.unclear}μιος [εξ]{.unclear} [ιε]{.unclear}[ρο]{.greek-supplied}[σο]{.unclear}[λυ]{.greek-supplied}[μ]{.unclear}ων [παρεδοθην]{.greek-omitted} [εις]{.greek-omitted} [τας]{.greek-omitted} [χειρας]{.greek-omitted} [των]{.greek-omitted} [ρωμαιων]{.greek-omitted}[28:17]{.aside}
+

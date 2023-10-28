@@ -1,0 +1,45 @@
+---
+title: "Collation of Byz^RP^ vs 10029 (𝔓^29^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^29^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10029).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^29^                                   	| λογος                              	|
+| 𝔓^29^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^29^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^29^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^29^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^29^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^29^                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 26
+
+[εις]{.greek-omitted} [ην]{.greek-omitted} το δωδε[κ]{.unclear}[αφυλον]{.greek-supplied} [ημων]{.greek-supplied} [εν]{.greek-supplied} [εκτενεια]{.greek-omitted} [[εκτε]{.greek-supplied}]{.greek-added} [νεια]{.greek-added} νυ[κτ]{.unclear}[α]{.greek-supplied} [και]{.greek-supplied} [ημεραν]{.greek-supplied} [λατρευον]{.greek-supplied} [[εν]{.greek-supplied}]{.greek-added} [ελπιζει]{.greek-omitted} [ελπιδι]{.greek-added} [κ]{.unclear}[αταντησαι]{.greek-supplied} [περι]{.greek-supplied} [ης]{.greek-supplied} [ελπιδος]{.greek-supplied} εγκαλο[υ]{.unclear}[μαι]{.greek-supplied} [βασιλευ]{.greek-omitted} [αγριππα]{.greek-omitted} [υπο]{.greek-supplied} [ιουδαιων]{.greek-supplied} [[βασιλευ]{.greek-supplied}]{.greek-added}[26:7]{.aside}
+
+τι απιστον κρινεται παρ υμιν ει ο [θεος]{.greek-abbr} νεκ[ρ]{.unclear}[ους]{.greek-supplied} [εγειρει]{.greek-omitted}[26:8]{.aside}
+
+[α]{.greek-supplied}λλα τοις ε[ν]{.greek-supplied} [δαμασκω]{.greek-supplied} [πρωτον]{.greek-supplied} [[τε]{.greek-supplied}]{.greek-added} [και]{.greek-supplied} [ιερο]{.greek-supplied}[σ]{.unclear}ολυμοις [εις]{.greek-omitted} [πασαν]{.greek-omitted} [τε]{.greek-omitted} [την]{.greek-omitted} [χωραν]{.greek-omitted} [της]{.greek-omitted} [ιουδαιας]{.greek-omitted} κα[ι]{.greek-supplied} [εκηρυξα]{.greek-added} [τοις]{.greek-omitted} [εθνεσιν]{.greek-omitted} [απαγγελλων]{.greek-omitted} [μετανοειν]{.greek-supplied} [και]{.greek-supplied} [επιστρεφειν]{.greek-supplied} [ε]{.greek-supplied}πι τον [θεον]{.greek-abbr} [αξια]{.greek-supplied} [της]{.greek-supplied} [μετανοιας]{.greek-supplied} [εργα]{.greek-supplied} [[πρ]{.greek-supplied}[α]{.unclear}]{.greek-added} [πρασσοντας]{.greek-omitted} [σσοντας]{.greek-added}[[26:20 *(lacunose)*]{.lacunose}]{.aside}
+

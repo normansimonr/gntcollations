@@ -1,0 +1,91 @@
+---
+title: "Collation of Byz^RP^ vs 20103 (103)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 103 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20103).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 103                                   	| λογος                              	|
+| 103 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 103 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 103               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 103                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 103 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 103                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Mark
+
+### Chapter 13
+
+[ως]{.greek-omitted} [ανθρωπος]{.greek-omitted} [αποδημος]{.greek-omitted} [αφεις]{.greek-omitted} [την]{.greek-omitted} [οικιαν]{.greek-omitted} [αυτου]{.greek-omitted} [και]{.greek-omitted} [δους]{.greek-omitted} [τοις]{.greek-omitted} [δουλοις]{.greek-omitted} [αυτου]{.greek-omitted} [την]{.greek-omitted} [εξουσιαν]{.greek-omitted} [και]{.greek-omitted} [ε]{.greek-supplied}[καστω]{.greek-supplied} το ερ[γ]{.unclear}ο[ν]{.greek-supplied} [αυ]{.unclear}το[υ]{.unclear} και τω θυρω[ρ]{.unclear}ω ε[νε]{.unclear}τειλ[α]{.unclear}το ινα γρ[η]{.unclear}[γο]{.greek-supplied}ρ[η]{.greek-supplied}[13:34]{.aside}
+
+[γ]{.unclear}[ρηγ]{.greek-supplied}ορ[ει]{.unclear}[τε]{.greek-supplied} [ουν]{.greek-supplied} ο[υκ]{.unclear} οιδατε [γα]{.greek-supplied}ρ [ποτε]{.greek-supplied} ο [[κυριος]{.greek-abbr}]{.unclear} της ο[ικ]{.unclear}ιας [ερχεται]{.unclear} [ο]{.unclear}ψε η μεσονυ[κτι]{.unclear}ου η αλεκ[το]{.greek-supplied}ροφ[ωνιας]{.greek-supplied} [η]{.greek-supplied} [π]{.greek-supplied}ρωι[13:35]{.aside}
+
+μη [ελθων]{.greek-supplied} ε[ξαιφ]{.greek-supplied}νης ε[υ]{.unclear}[ρη]{.greek-supplied} [υμας]{.greek-supplied} [καθευ]{.greek-supplied}δ[οντας]{.greek-supplied}[13:36]{.aside}
+
+[α]{.greek-omitted} [[ο]{.greek-supplied}]{.greek-added} [δε]{.greek-supplied} [υ]{.greek-supplied}[μιν]{.greek-supplied} [λεγω]{.greek-supplied} πασ[ιν]{.greek-supplied} [λεγω]{.greek-supplied} [γρ]{.greek-supplied}ηγο[ρ]{.unclear}ει[τε]{.greek-supplied}[13:37]{.aside}
+
+### Chapter 14
+
+[ην]{.greek-omitted} [δε]{.greek-omitted} [το]{.greek-omitted} [πασχα]{.greek-omitted} [και]{.greek-omitted} [τα]{.greek-omitted} [αζυμα]{.greek-omitted} [μετα]{.greek-omitted} [δυο]{.greek-omitted} [ημερας]{.greek-omitted} [και]{.greek-supplied} [εζ]{.greek-supplied}[ητ]{.unclear}ουν οι [αρ]{.unclear}[χιερεις]{.greek-supplied} [κ]{.unclear}αι οι [γρ]{.greek-supplied}[α]{.unclear}μματει[ς]{.unclear} [πως]{.unclear} αυτον εν δολω κρατη[σα]{.unclear}ντες αποκ[τ]{.unclear}εινωσιν[[14:1 *(lacunose)*]{.lacunose}]{.aside}
+
+ελεγο[ν]{.unclear} [δ]{.unclear}ε μη εν τη εορτη [μ]{.unclear}ηποτ[ε]{.unclear} θορυ[β]{.unclear}ος εσται [τ]{.unclear}ου λαου[14:2]{.aside}
+
+[κ]{.unclear}αι οντ[ος]{.unclear} [αυ]{.unclear}του ε[ν]{.unclear} [βηθανια]{.greek-supplied} εν [τ]{.unclear}[η]{.greek-supplied} οι[κι]{.unclear}α σι[μων]{.unclear}[ος]{.greek-supplied} [το]{.unclear}[υ]{.greek-supplied} [λεπρου]{.greek-supplied} [κα]{.greek-supplied}τακει[μ]{.unclear}ενου α[υ]{.greek-supplied}του [ηλθ]{.greek-supplied}εν [γ]{.greek-supplied}υνη [ε]{.unclear}χο[υ]{.unclear}σα [αλ]{.unclear}[αβαστρον]{.greek-supplied} [μυρ]{.greek-supplied}ου ναρδου πισ[τικ]{.greek-supplied}ης [π]{.greek-supplied}ολυτελο[υς]{.greek-supplied} [και]{.greek-supplied} [συντριψασ]{.greek-supplied}α το [αλαβαστρον]{.greek-supplied} [κα]{.unclear}τεχ[εε]{.unclear}ν [αυ]{.unclear}του [κατα]{.unclear} [τ]{.unclear}ης [κε]{.unclear}φα[λης]{.unclear}[14:3]{.aside}
+
+ησαν [δε]{.unclear} [τ]{.unclear}ινες [α]{.unclear}γαν[α]{.greek-supplied}[κ]{.unclear}τουντ[ες]{.unclear} [πρ]{.unclear}[ος]{.greek-supplied} [εαυτ]{.greek-supplied}[ο]{.unclear}υ[ς]{.unclear} και [λ]{.unclear}ε[γοντ]{.unclear}ες εις τι [η]{.unclear} [απω]{.unclear}λεια [αυ]{.unclear}τη [το]{.unclear}υ μυρου γεγονεν[14:4]{.aside}
+
+[η]{.greek-supplied}δυνατο γαρ το[υτο]{.greek-supplied} [το]{.greek-added} [μυρον]{.greek-added} [πρα]{.unclear}θηναι επανω τρι[ακοσιων]{.greek-supplied} [δηναριων]{.greek-omitted} [[δηνα]{.greek-supplied}]{.greek-added} [ριων]{.greek-added} κ[αι]{.unclear} δοθηναι τοις πτωχοις και ε[ν]{.unclear}[εβρι]{.greek-supplied}μω[ντ]{.unclear}[ο]{.greek-supplied} [α]{.greek-supplied}υτ[η]{.unclear}[14:5]{.aside}
+
+ο δε [ιησους]{.greek-supplied} [ει]{.greek-supplied}[π]{.unclear}εν [αφετε]{.greek-supplied} [αυ]{.greek-supplied}[την]{.greek-supplied} [τι]{.greek-supplied} [αυτη]{.greek-supplied} [κο]{.greek-supplied}[π]{.unclear}ους [παρεχετε]{.greek-omitted} [καλον]{.greek-omitted} εργο[ν]{.greek-supplied} [ειργασατο]{.greek-omitted} [[η]{.unclear}ρ[γα]{.greek-supplied}σατο]{.greek-added} ε[ν]{.unclear} ε[μ]{.unclear}ο[ι]{.greek-supplied}[[14:6 *(lacunose)*]{.lacunose}]{.aside}
+
+[παν]{.greek-supplied}[τ]{.unclear}οτε γα[ρ]{.unclear} τους π[τ]{.unclear}ωχους εχετε μεθ εαυτω[ν]{.unclear} και οταν θελ[ητε]{.greek-supplied} δυνασθε [αυτους]{.greek-omitted} [[α]{.greek-supplied}υ[τοις]{.greek-supplied}]{.greek-added} ευ πο[ιησα]{.unclear}ι ε[με]{.greek-supplied} δε ου παντοτε εχ[ετε]{.greek-supplied}[14:7]{.aside}
+
+ο [εσ[―]{.gap}]{.greek-added} [εσχεν]{.greek-omitted} [αυτη]{.greek-omitted} [εποιησεν]{.greek-omitted} [ποιησε[ν]{.greek-supplied}]{.greek-added} [π]{.unclear}ροελαβε[ν]{.unclear} μυρ[ισ]{.unclear}[αι]{.greek-supplied} μο[υ]{.unclear} τ[ο]{.unclear} σωμα εις το[ν]{.greek-supplied} [εντα]{.greek-supplied}[φ]{.unclear}ια[σ]{.unclear}μο[ν]{.unclear}[14:8]{.aside}
+
+αμην [[δε]{.unclear}]{.greek-added} [λεγω]{.greek-supplied} [υμιν]{.greek-supplied} οπου ε[α]{.unclear}ν [κ]{.unclear}η[ρ]{.unclear}[υ]{.greek-supplied}[χ]{.unclear}θη το ε[υ]{.unclear}αγγ[ε]{.unclear}λιον τουτο [εις]{.unclear} ολον τον κοσ[μον]{.greek-supplied} [και]{.greek-supplied} [ο]{.greek-supplied} [εποι]{.greek-supplied}ησεν [αυτη]{.greek-omitted} [αυτ[ου]{.unclear}]{.greek-added} λαληθησεται ε[ι]{.unclear}ς μνη[μ]{.greek-supplied}οσυνον αυτη[ς]{.unclear}[14:9]{.aside}
+
+[κ]{.unclear}[αι]{.greek-supplied} [ο]{.greek-omitted} [ιου]{.greek-supplied}δας ο [ισκαριωτης]{.greek-omitted} [ι[κα]{.greek-supplied}ρ[―]{.gap}]{.greek-added} ε[ις]{.unclear} τω[ν]{.greek-supplied} [δωδεκα]{.greek-supplied} [απηλ]{.greek-supplied}[θ]{.unclear}[εν]{.greek-supplied} [π]{.greek-supplied}ρος τους [α]{.greek-supplied}[ρ]{.unclear}χ[ι]{.greek-supplied}ερ[ε]{.unclear}[ις]{.greek-supplied} ι[να]{.greek-supplied} [παραδω]{.greek-omitted} [[παραδ]{.greek-supplied}οι]{.greek-added} [αυ]{.greek-supplied}[τ]{.greek-supplied}ο[ν]{.greek-supplied} [αυτοις]{.greek-omitted}[14:10]{.aside}
+
+[οι]{.greek-supplied} [δ]{.unclear}ε [α]{.unclear}[κ]{.greek-supplied}[ου]{.unclear}σ[αν]{.unclear}τε[ς]{.greek-supplied} εχα[ρησ]{.unclear}αν [κ]{.unclear}αι επη[γγ]{.unclear}ειλαντο [αυτω]{.greek-supplied} [αργυριον]{.greek-supplied} δ[ο]{.unclear}υ[ν]{.unclear}αι [κ]{.unclear}αι ε[ζη]{.greek-supplied}[τ]{.unclear}ει [πως]{.greek-supplied} [ευκαι]{.greek-supplied}ρως αυτον [πα]{.greek-supplied}[ρ]{.unclear}αδω[14:11]{.aside}
+
+και τη [π]{.unclear}ρ[ω]{.unclear}τ[η]{.unclear} [ημ]{.greek-supplied}ερα των [αζυμ]{.greek-supplied}ω[ν]{.unclear} οτε [τ]{.unclear}ο [πασχα]{.greek-supplied} [εθυον]{.greek-supplied} [λεγουσιν]{.greek-supplied} [αυτω]{.greek-supplied} [οι]{.greek-supplied} [μαθηται]{.greek-supplied} [αυτου]{.greek-supplied} [που]{.greek-supplied} [θελεις]{.greek-supplied} [απελθοντες]{.greek-supplied} [ετο]{.unclear}ιμασω[μεν]{.greek-supplied} [ινα]{.greek-supplied} [φα]{.greek-supplied}γης [το]{.greek-supplied} [πασχα]{.greek-supplied}[14:12]{.aside}
+
+[και]{.greek-supplied} [απ]{.unclear}οσ[τ]{.unclear}ελ[λει]{.unclear} [δ]{.greek-supplied}υο των [μαθητων]{.greek-omitted} [μαθη]{.greek-added} [[τ]{.unclear}ων]{.greek-added} αυτου και λεγει αυτοις υπαγετε εις την πολ[ιν]{.unclear} [κα]{.greek-supplied}ι απαντησε[ι]{.unclear} υμ[ιν]{.greek-supplied} αν[θρωπος]{.greek-supplied} [κεραμιον]{.greek-omitted} [υδατος]{.greek-omitted} [βασταζων]{.greek-omitted} [ακολουθησατε]{.greek-omitted} [αυτω]{.greek-omitted}[[14:13 *(lacunose)*]{.lacunose}]{.aside}
+
+και [ε]{.unclear}[ξηλθον]{.greek-supplied} [οι]{.greek-supplied} μαθ[η]{.unclear}τ[αι]{.greek-supplied} [α]{.greek-supplied}υ[του]{.greek-supplied} και ηλθον ε[ι]{.unclear}ς την [π]{.unclear}ολιν και ευρον κα[θω]{.unclear}ς ειπ[ε]{.unclear}ν αυ[τοις]{.greek-supplied} και η[το]{.unclear}ιμασαν το πασχα[14:16]{.aside}
+
+και [ο]{.unclear}[ψιας]{.greek-supplied} [γενο]{.greek-supplied}μενη[ς]{.unclear} [ερ]{.greek-supplied}χεται με[τα]{.greek-supplied} [των]{.greek-supplied} [δ]{.unclear}ωδ[ε]{.unclear}κ[α]{.unclear}[14:17]{.aside}
+
+[και]{.greek-supplied} [ανακει]{.greek-supplied}[μενων]{.greek-supplied} [αυ]{.unclear}τ[ω]{.unclear}ν [και]{.greek-supplied} [εσθιον]{.greek-supplied}τω[ν]{.unclear} [ειπεν]{.greek-omitted} [ο]{.unclear} [ιησους]{.greek-abbr} [ει[π]{.unclear}[εν]{.greek-supplied}]{.greek-added} αμ[ην]{.greek-supplied} [λεγω]{.greek-supplied} [υμιν]{.greek-supplied} [οτι]{.greek-supplied} [εις]{.greek-supplied} [εξ]{.greek-supplied} [υμ]{.greek-supplied}ων πα[ραδωσει]{.greek-supplied} [με]{.greek-supplied} [ο]{.greek-omitted} εσ[θι]{.unclear}ων [μετ]{.greek-supplied} [εμου]{.greek-supplied}[14:18]{.aside}
+
+[οι]{.greek-supplied} [δε]{.greek-supplied} [ηρξαντο]{.greek-supplied} [λ]{.greek-supplied}υ[πεισθαι]{.greek-supplied} [κα]{.greek-supplied}ι λε[γειν]{.greek-supplied} [αυτω]{.greek-omitted} [εις]{.greek-omitted} [καθ]{.greek-omitted} [εις]{.greek-omitted} [μητι]{.greek-omitted} [εγω]{.greek-omitted} [και]{.greek-omitted} [αλλος]{.greek-omitted} [μητι]{.greek-omitted} [εγω]{.greek-omitted}[[14:19 *(lacunose)*]{.lacunose}]{.aside}
+
+[οτι]{.greek-added} ο μεν [υιος]{.greek-abbr} [του]{.greek-supplied} [ανθρωπου]{.greek-abbr} υπαγει [κ]{.unclear}αθως γε[γ]{.unclear}ραπ[τ]{.unclear}αι περι αυτου ο[υαι]{.greek-supplied} [δ]{.unclear}ε τω [ανθρωπω]{.greek-abbr} [ε]{.unclear}[κει]{.greek-supplied}[ν]{.unclear}ω δ[ι]{.greek-supplied} [ου]{.greek-supplied} ο [υιος]{.greek-abbr} του [ανθρωπου]{.greek-abbr} [πα]{.greek-supplied}ρ[α]{.unclear}διδοτ[αι]{.unclear} καλον [ην]{.unclear} [αυτω]{.greek-supplied} [ει]{.greek-supplied} ο[υκ]{.unclear} [εγεννηθη]{.greek-supplied} ο [ανθρωπος]{.greek-abbr} [εκεινος]{.greek-supplied}[14:21]{.aside}
+
+[και]{.unclear} [εσθιοντων]{.greek-supplied} [αυτων]{.greek-supplied} [λαβων]{.greek-supplied} [ο]{.greek-supplied} [ιησους]{.greek-abbr} [αρτον]{.greek-supplied} [ευλο]{.greek-supplied}[γησας]{.greek-supplied} [εκλασεν]{.greek-supplied} και [ε]{.unclear}[δωκεν]{.greek-supplied} [αυ]{.greek-supplied}τοι[ς]{.greek-supplied} [και]{.greek-supplied} [ειπεν]{.greek-supplied} [λ]{.unclear}[αβετε]{.greek-supplied} [φαγε]{.greek-supplied}[τ]{.unclear}ε [τ]{.unclear}[ουτο]{.greek-supplied} [εστ]{.greek-supplied}[ιν]{.greek-supplied} [το]{.greek-supplied} [σωμα]{.greek-supplied} [μου]{.greek-supplied}[14:22]{.aside}
+
+[και]{.unclear} [λαβων]{.greek-supplied} [το]{.greek-supplied} [πο]{.greek-supplied}[τηρ]{.unclear}[ιον]{.greek-supplied} [ευχαρισ]{.greek-supplied}[τη]{.unclear}[σας]{.greek-supplied} [εδωκεν]{.greek-supplied} αυ[τ]{.unclear}[οις]{.greek-supplied} [και]{.greek-supplied} [επι]{.greek-supplied}[ο]{.unclear}[ν]{.greek-supplied} [εξ]{.greek-supplied} [αυτου]{.greek-supplied} [παν]{.greek-supplied}τες[[14:23 *(lacunose)*]{.lacunose}]{.aside}
+
+[αμην]{.greek-supplied} [λεγω]{.greek-supplied} [υμ]{.greek-supplied}[ιν]{.unclear} [οτι]{.greek-supplied} [ουκετι]{.greek-omitted} ου μη [π]{.greek-supplied}ιω [ε]{.unclear}[κ]{.greek-supplied} [του]{.greek-supplied} [γενημα]{.greek-supplied}τος της αμπε[λ]{.unclear}ου [εως]{.unclear} τη[ς]{.unclear} ημ[ερ]{.unclear}[ας]{.greek-supplied} [εκειν]{.greek-supplied}ης [οταν]{.greek-omitted} [αυτο]{.greek-omitted} [πινω]{.greek-omitted} [καινον]{.greek-omitted} [εν]{.greek-omitted} [τη]{.greek-omitted} [βασιλεια]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted}[[14:25 *(lacunose)*]{.lacunose}]{.aside}
+

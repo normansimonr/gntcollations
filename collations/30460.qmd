@@ -1,0 +1,41 @@
+---
+title: "Collation of Byz^RP^ vs 30460 (460)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 460 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=30460).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 460                                   	| λογος                              	|
+| 460 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 460 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 460               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 460                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 460 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 460                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 5
+
+[ακουων]{.greek-omitted} [δε]{.greek-omitted} [ο]{.greek-omitted} [ανανιας]{.greek-omitted} [τους]{.greek-omitted} [λογους]{.greek-omitted} [τουτους]{.greek-omitted} πεσων εξεψυξεν και εγενετο φοβος μεγας επι παντας τους ακουοντας [ταυτα]{.greek-omitted} [cecidit]{.greek-added} [et]{.greek-added} [expiravit]{.greek-added} [et]{.greek-added}[5:5]{.aside}
+

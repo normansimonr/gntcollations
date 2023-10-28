@@ -1,0 +1,53 @@
+---
+title: "Collation of Byz^RP^ vs 20296 (296)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 296 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20296).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 296                                   	| λογος                              	|
+| 296 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 296 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 296               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 296                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 296 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 296                                                     	| [―]{.gap}                        	|
+:::
+
+## First John
+
+### Chapter 5
+
+[τις]{.greek-omitted} [εστιν]{.greek-omitted} [ο]{.greek-omitted} [νικων]{.greek-omitted} [τον]{.greek-omitted} [κοσμον]{.greek-omitted} [ει]{.greek-omitted} [μη]{.greek-omitted} [ο]{.greek-omitted} [πιστευων]{.greek-omitted} [οτι]{.greek-omitted} [ιησους]{.greek-omitted} [εστιν]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted}[5:5]{.aside}
+
+[ουτος]{.greek-omitted} [εστιν]{.greek-omitted} [ο]{.greek-omitted} [ελθων]{.greek-omitted} [δι]{.greek-omitted} [υδατος]{.greek-omitted} [και]{.greek-omitted} [αιματος]{.greek-omitted} [ιησους]{.greek-omitted} [χριστος]{.greek-omitted} [ουκ]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [υδατι]{.greek-omitted} [μονον]{.greek-omitted} [αλλ]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [υδατι]{.greek-omitted} [και]{.greek-omitted} [τω]{.greek-omitted} [αιματι]{.greek-omitted} [και]{.greek-omitted} [το]{.greek-omitted} [πνευμα]{.greek-omitted} [εστιν]{.greek-omitted} [το]{.greek-omitted} [μαρτυρουν]{.greek-omitted} [οτι]{.greek-omitted} [το]{.greek-omitted} [πνευμα]{.greek-omitted} [εστιν]{.greek-omitted} [η]{.greek-omitted} [αληθεια]{.greek-omitted}[[5:6 *(lacunose)*]{.lacunose}]{.aside}
+
+[το]{.greek-omitted} [πνευμα]{.greek-omitted} [και]{.greek-omitted} [το]{.greek-omitted} [υδωρ]{.greek-omitted} [και]{.greek-omitted} [το]{.greek-omitted} [αιμα]{.greek-omitted} [και]{.greek-omitted} [οι]{.greek-omitted} [τρεις]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-omitted} [εν]{.greek-omitted} [εισιν]{.greek-omitted}[5:8]{.aside}
+
+[ει]{.greek-omitted} [την]{.greek-omitted} [μαρτυριαν]{.greek-omitted} [των]{.greek-omitted} [ανθρωπων]{.greek-omitted} [λαμβανομεν]{.greek-omitted} [η]{.greek-omitted} [μαρτυρια]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [μειζων]{.greek-omitted} [εστιν]{.greek-omitted} [οτι]{.greek-omitted} [αυτη]{.greek-omitted} [εστιν]{.greek-omitted} [η]{.greek-omitted} [μαρτυρια]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [ην]{.greek-omitted} [μεμαρτυρηκεν]{.greek-omitted} [περι]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [αυτου]{.greek-omitted}[5:9]{.aside}
+
+[ο]{.greek-omitted} [πιστευων]{.greek-omitted} [εις]{.greek-omitted} [τον]{.greek-omitted} [υιον]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [εχει]{.greek-omitted} [την]{.greek-omitted} [μαρτυριαν]{.greek-omitted} [εν]{.greek-omitted} [αυτω]{.greek-omitted} [ο]{.greek-omitted} [μη]{.greek-omitted} [πιστευων]{.greek-omitted} [τω]{.greek-omitted} [θεω]{.greek-omitted} [ψευστην]{.greek-omitted} [πεποιηκεν]{.greek-omitted} [αυτον]{.greek-omitted} [οτι]{.greek-omitted} [ου]{.greek-omitted} [πεπιστευκεν]{.greek-omitted} [εις]{.greek-omitted} [την]{.greek-omitted} [μαρτυριαν]{.greek-omitted} [ην]{.greek-omitted} [μεμαρτυρηκεν]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-omitted} [περι]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [αυτου]{.greek-omitted}[5:10]{.aside}
+
+[ο]{.greek-omitted} [εχων]{.greek-omitted} [τον]{.greek-omitted} [υιον]{.greek-omitted} [εχει]{.greek-omitted} [την]{.greek-omitted} [ζωην]{.greek-omitted} [ο]{.greek-omitted} [μη]{.greek-omitted} [εχων]{.greek-omitted} [τον]{.greek-omitted} [υιον]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [την]{.greek-omitted} [ζωην]{.greek-omitted} [ουκ]{.greek-omitted} [εχει]{.greek-omitted}[5:12]{.aside}
+
+[ταυτα]{.greek-omitted} [εγραψα]{.greek-omitted} [υμιν]{.greek-omitted} [τοις]{.greek-omitted} [πιστευουσιν]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-omitted} [ονομα]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [ινα]{.greek-omitted} [ειδητε]{.greek-omitted} [οτι]{.greek-omitted} [ζωην]{.greek-omitted} [αιωνιον]{.greek-omitted} [εχετε]{.greek-omitted} [και]{.greek-omitted} [ινα]{.greek-omitted} [πιστευητε]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-omitted} [ονομα]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted}[[5:13 *(lacunose)*]{.lacunose}]{.aside}
+

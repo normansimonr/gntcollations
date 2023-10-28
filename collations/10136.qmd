@@ -1,0 +1,61 @@
+---
+title: "Collation of Byz^RP^ vs 10136 (𝔓^136^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^136^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10136).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^136^                                   	| λογος                              	|
+| 𝔓^136^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^136^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^136^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^136^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^136^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^136^                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 4
+
+[συνηχθησαν]{.greek-supplied} [γαρ]{.greek-supplied} [ε]{.unclear}π αληθειας [εν]{.greek-added} [τ[η]{.unclear}]{.greek-added} [[π]{.unclear}[ο]{.greek-supplied}[λ]{.unclear}ει]{.greek-added} [ταυ[τ]{.unclear}η]{.greek-added} επι τον αγι[ο]{.unclear}[ν]{.greek-supplied} [παιδα]{.unclear} σου [ιησουν]{.greek-abbr} [ον]{.greek-supplied} [εχρισα]{.greek-supplied}ς ηρωδης τε και ποντιος πιλατος συν [εθνεσιν]{.greek-omitted} [εθνησιν]{.greek-added} και λαοις [ισραηλ]{.greek-abbr}[4:27]{.aside}
+
+[ποιησαι]{.greek-supplied} [οσα]{.greek-supplied} η χειρ σου και η βουλη [σου]{.greek-omitted} προωρισεν γενεσθαι[4:28]{.aside}
+
+και τα νυν [κυριε]{.greek-abbr} [επιδε]{.greek-supplied} [επ]{.greek-supplied}[ι]{.unclear} τας απειλας αυτων και δος τοις δουλοις σου μετα παρρη[σ]{.unclear}ιας [πασης]{.greek-supplied} [λαλ]{.greek-supplied}[ειν]{.unclear} [τ]{.unclear}ον λογον σου[4:29]{.aside}
+
+εν τω την χειρα [σου]{.greek-omitted} [εκτεινειν]{.greek-omitted} σε [εκτινειν]{.greek-added} εις ιασιν [και]{.greek-supplied} [σημεια]{.greek-supplied} [και]{.greek-supplied} [τερ]{.greek-supplied}[α]{.unclear}τα γινεσθαι δια του ονοματος του αγιου παιδος σου [ιησου]{.greek-abbr}[4:30]{.aside}
+
+[και]{.greek-supplied} [δεηθεντων]{.greek-supplied} αυτων εσαλευθη ο τοπος εν ω ησαν συνηγμενοι [και]{.greek-omitted} [επλησθησαν]{.greek-omitted} [απαντες]{.greek-omitted} [πνευματος]{.greek-omitted} [αγιου]{.greek-omitted} [και]{.greek-omitted} [ελαλουν]{.greek-omitted} [τον]{.greek-omitted} [λογον]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [μετα]{.greek-omitted} [παρρησιας]{.greek-omitted}[4:31]{.aside}
+
+### Chapter 7
+
+[τη]{.greek-supplied} [τε]{.greek-supplied} [επιουση]{.greek-supplied} [ημερα]{.greek-supplied} [ωφθη]{.unclear} [αυτοις]{.greek-supplied} [μαχομενοις]{.greek-supplied} [και]{.greek-supplied} [συνηλασεν]{.greek-omitted} [[συνηλλασε]{.greek-supplied}[ν]{.unclear}]{.greek-added} αυτους εις ειρηνην ειπων ανδρες αδελφοι εστε [ενα[τ]{.unclear}ι]{.greek-added} [υμεις]{.greek-omitted} [ινα]{.greek-omitted} [τι]{.greek-omitted} [αδικειτε]{.greek-supplied} [αλληλο]{.greek-supplied}υς[7:26]{.aside}
+
+ο δε αδικων τον πλησιον απωσατο αυτον [ειπων]{.greek-supplied} [τις]{.greek-supplied} [σ]{.greek-supplied}[ε]{.unclear} κατεστησεν αρχοντα και δικαστην εφ [ημας]{.greek-omitted} [ημων]{.greek-added}[7:27]{.aside}
+
+μη [ανελειν]{.greek-supplied} [μ]{.unclear}ε συ θελεις ον τροπον [αν]{.unclear}ειλες [εκθες]{.greek-added} [χθες]{.greek-omitted} [[εχθες]{.corr}]{.greek-added} τον αιγυπτιον[7:28]{.aside}
+
+εφυγεν δ[ε]{.unclear} [μωσης]{.greek-omitted} [[μωυσης]{.greek-supplied}]{.greek-added} [εν]{.unclear} τω λογω τουτω και εγενετο π[αρ]{.unclear}οικος εν γη μαδιαμ [ου]{.greek-supplied} [εγενν]{.greek-supplied}[ησ]{.unclear}εν [υ]{.unclear}ιο[υ]{.greek-supplied}ς δυ[ο]{.unclear}[7:29]{.aside}
+
+και πλ[η]{.unclear}ρωθεντων [ε]{.unclear}[των]{.greek-supplied} [τεσσαρακοντα]{.greek-omitted} [[μ]{.greek-abbr}]{.greek-added} [ω]{.unclear}φθη αυτω [εν]{.greek-supplied} [τη]{.greek-supplied} [ερημω]{.greek-supplied} [τ]{.greek-supplied}[ο]{.unclear}[υ]{.greek-supplied} ορ[ους]{.greek-supplied} [σινα]{.greek-supplied} [αγγ]{.greek-supplied}[ελος]{.unclear} [κυριου]{.greek-omitted} [ε]{.unclear}ν [φλογι]{.greek-omitted} [πυρος]{.greek-omitted} [πυρ[ι]{.greek-supplied}]{.greek-added} [[φλογος]{.greek-supplied}]{.greek-added} [βατου]{.greek-supplied}[7:30]{.aside}
+

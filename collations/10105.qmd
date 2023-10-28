@@ -1,0 +1,45 @@
+---
+title: "Collation of Byz^RP^ vs 10105 (𝔓^105^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^105^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10105).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^105^                                   	| λογος                              	|
+| 𝔓^105^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^105^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^105^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^105^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^105^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^105^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 27
+
+[τη]{.greek-omitted} [δε]{.greek-omitted} [επαυριον]{.greek-omitted} [η]{.greek-supplied}[τις]{.greek-supplied} [εστιν]{.greek-supplied} [μετα]{.greek-supplied} [τ]{.greek-supplied}[η]{.unclear}ν πα[ρ]{.unclear}[ασκευην]{.greek-supplied} [συνηχθησαν]{.greek-supplied} [ο]{.greek-supplied}ι αρχιερ[εις]{.greek-supplied} [και]{.greek-supplied} [οι]{.greek-supplied} [φαρισαιοι]{.greek-supplied} [προς]{.greek-supplied} [[τ]{.unclear}ον]{.greek-added} [πιλατον]{.greek-omitted} [πει[λατον]{.greek-supplied}]{.greek-added}[27:62]{.aside}
+
+[λεγοντες]{.greek-supplied} [κυριε]{.greek-abbr} [εμ]{.greek-supplied}ν[η]{.unclear}σθη[μ]{.unclear}[εν]{.greek-supplied} [οτι]{.greek-supplied} [εκει]{.greek-supplied}[νος]{.greek-supplied} [ο]{.greek-supplied} [πλανος]{.greek-supplied} [ειπ]{.unclear}εν ετ[ι]{.unclear} [ζων]{.greek-supplied} [μετα]{.greek-supplied} [τρεις]{.greek-supplied} [ημερας]{.greek-supplied} [ε]{.unclear}γειρο[μα]{.unclear}[ι]{.greek-supplied}[27:63]{.aside}
+
+[κελευσον]{.greek-supplied} [ουν]{.greek-supplied} [ασφαλισθ]{.greek-supplied}[η]{.unclear}να[ι]{.greek-supplied} [το]{.unclear}[ν]{.greek-supplied} [ταφον]{.greek-supplied} [εως]{.greek-supplied} [της]{.greek-omitted} [τριτης]{.greek-omitted} [ημερας]{.greek-omitted} [μηποτε]{.greek-omitted} [ελθοντες]{.greek-omitted} [οι]{.greek-omitted} [μαθηται]{.greek-omitted} [αυτου]{.greek-omitted} [νυκτος]{.greek-omitted} [κλεψωσιν]{.greek-omitted} [αυτον]{.greek-omitted} [και]{.greek-omitted} [ειπωσιν]{.greek-omitted} [τω]{.greek-omitted} [λαω]{.greek-omitted} [ηγερθη]{.greek-omitted} [απο]{.greek-omitted} [των]{.greek-omitted} [νεκρων]{.greek-omitted} [και]{.greek-omitted} [εσται]{.greek-omitted} [η]{.greek-omitted} [εσχατη]{.greek-omitted} [πλανη]{.greek-omitted} [χειρων]{.greek-omitted} [της]{.greek-omitted} [πρωτης]{.greek-omitted}[27:64]{.aside}
+

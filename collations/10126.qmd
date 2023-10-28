@@ -1,0 +1,47 @@
+---
+title: "Collation of Byz^RP^ vs 10126 (𝔓^126^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^126^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10126).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^126^                                   	| λογος                              	|
+| 𝔓^126^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^126^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^126^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^126^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^126^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^126^                                                     	| [―]{.gap}                        	|
+:::
+
+## Hebrews
+
+### Chapter 13
+
+[διο]{.greek-omitted} [και]{.greek-omitted} [ιησους]{.greek-omitted} [ινα]{.greek-omitted} [αγιαση]{.greek-omitted} [δια]{.greek-omitted} [του]{.greek-omitted} [ιδιου]{.greek-omitted} [αιματος]{.greek-supplied} [τον]{.greek-supplied} [λαον]{.greek-supplied} εξω τη[ς]{.unclear} πυλης [[τ]{.unclear}ης]{.greek-added} [πα[ρεμβολης]{.greek-supplied}]{.greek-added} [επαθεν]{.greek-supplied}[13:12]{.aside}
+
+[τοιν]{.greek-supplied}[υν]{.unclear} εξερχω[μ]{.greek-supplied}εθα [προς]{.greek-supplied} [αυτον]{.greek-supplied} [εξω]{.greek-supplied} [της]{.greek-supplied} [παρεμβολης]{.greek-supplied} [τον]{.greek-supplied} [ο]{.greek-supplied}[νει]{.unclear}[δισμον]{.greek-supplied} [αυτου]{.greek-omitted} [φεροντες]{.greek-omitted}[13:13]{.aside}
+
+[περισσοτερως]{.greek-omitted} [δε]{.greek-omitted} [παρακαλω]{.greek-omitted} [τουτο]{.greek-omitted} [ποιησαι]{.greek-omitted} [ινα]{.greek-omitted} [ταχιον]{.greek-omitted} απ[οκα]{.unclear}τασταθω υμιν[13:19]{.aside}
+
+[ο]{.unclear} [δ]{.unclear}[ε]{.greek-supplied} [θεος]{.greek-abbr} [της]{.greek-supplied} [ειρηνης]{.greek-supplied} ο α[να]{.unclear}γαγων ε[κ]{.unclear} [ν]{.unclear}[εκρων]{.greek-supplied} [τον]{.greek-supplied} [ποιμενα]{.greek-supplied} [των]{.greek-supplied} [πρ]{.unclear}[οβατων]{.greek-supplied} [τον]{.greek-supplied} [μεγαν]{.greek-supplied} [εν]{.greek-supplied} [αιματι]{.greek-supplied} [διαθηκης]{.greek-supplied} [αιωνιου]{.greek-omitted} [τον]{.greek-omitted} [κυριον]{.greek-omitted} [ημων]{.greek-omitted} [ιησουν]{.greek-omitted}[13:20]{.aside}
+

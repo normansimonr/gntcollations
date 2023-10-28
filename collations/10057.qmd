@@ -1,0 +1,55 @@
+---
+title: "Collation of Byz^RP^ vs 10057 (𝔓^57^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^57^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10057).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^57^                                   	| λογος                              	|
+| 𝔓^57^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^57^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^57^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^57^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^57^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^57^                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 4
+
+[ιωσης]{.greek-omitted} [δε]{.greek-omitted} [ο]{.greek-omitted} [επικληθεις]{.greek-omitted} [βαρναβας]{.greek-omitted} [απο]{.greek-omitted} [των]{.greek-omitted} [αποστολων]{.greek-omitted} [ο]{.greek-omitted} [εστιν]{.greek-omitted} [μεθερμηνευομενον]{.greek-omitted} [υιος]{.greek-supplied} [παρακλησε]{.greek-supplied}[ω]{.unclear}ς [λευιτης]{.greek-supplied} [κυ]{.greek-supplied}[πριος]{.greek-supplied} [τω]{.greek-supplied} [γενει]{.greek-supplied}[4:36]{.aside}
+
+[υπ]{.greek-supplied}α[ρ]{.unclear}[χοντος]{.greek-supplied} [αυτω]{.greek-supplied} [αγρου]{.greek-supplied} [πωλησα]{.greek-supplied}[ς]{.unclear} [η]{.unclear}ν[εγ]{.unclear}[κεν]{.greek-supplied} [το]{.greek-supplied} [χρη]{.greek-supplied}[μα]{.greek-supplied} [και]{.greek-supplied} [εθηκεν]{.greek-omitted} [[εθηκ]{.greek-supplied}[ε]{.unclear}]{.greek-added} παρα του[ς]{.unclear} [ποδας]{.greek-supplied} [των]{.greek-supplied} [αποστολων]{.greek-supplied}[4:37]{.aside}
+
+### Chapter 5
+
+[α]{.unclear}νηρ δ[ε]{.greek-supplied} [τις]{.greek-supplied} [αν]{.greek-supplied}[ανιας]{.greek-supplied} [ονοματι]{.greek-supplied} [σ]{.greek-supplied}[υν]{.unclear} σ[α]{.unclear}πφε[ι]{.unclear}[ρη]{.greek-supplied} [τη]{.greek-supplied} [γυ]{.greek-supplied}[ναικι]{.greek-supplied} [αυτου]{.greek-supplied} [επ]{.greek-supplied}[ω]{.unclear}λ[η]{.unclear}σεν [κτημα]{.greek-supplied}[5:1]{.aside}
+
+[και]{.greek-supplied} [ενοσφισατο]{.greek-supplied} [απ]{.greek-supplied}[ο]{.unclear} [τ]{.unclear}η[ς]{.unclear} [τ]{.unclear}ι[μης]{.greek-supplied} [συνειδυιας]{.greek-omitted} [[συνει]{.greek-supplied}[δυιης]{.greek-supplied}]{.greek-added} [και]{.greek-omitted} [της]{.greek-omitted} [γυναικος]{.greek-omitted} [αυτου]{.greek-omitted} [και]{.greek-omitted} [ενεγκας]{.greek-omitted} [μερος]{.greek-omitted} [τι]{.greek-omitted} [παρα]{.greek-omitted} [τους]{.greek-omitted} [ποδας]{.greek-omitted} [των]{.greek-omitted} [αποστολων]{.greek-omitted} [εθηκεν]{.greek-omitted}[5:2]{.aside}
+
+[απεκριθη]{.greek-omitted} [δε]{.greek-omitted} [αυτη]{.greek-omitted} [ο]{.greek-omitted} [πετρος]{.greek-omitted} [ειπε]{.greek-omitted} [μοι]{.greek-omitted} [ει]{.greek-omitted} [το]{.greek-supplied}[σουτου]{.greek-supplied} [το]{.greek-supplied} [χ]{.greek-supplied}[ω]{.unclear}ρ[ιον]{.greek-supplied} [απεδοσθε]{.greek-supplied} [η]{.greek-supplied} [δε]{.greek-supplied} [ειπεν]{.greek-supplied} [ναι]{.greek-supplied} [τ]{.greek-supplied}[οσ]{.unclear}[ουτου]{.greek-supplied}[5:8]{.aside}
+
+[ο]{.greek-supplied} [δε]{.greek-supplied} [πετρος]{.greek-supplied} [ειπεν]{.greek-omitted} [προς]{.greek-supplied} [αυτη]{.greek-supplied}[ν]{.unclear} [τ]{.unclear}ι [ο]{.unclear}[τι]{.greek-supplied} [συνεφωνηθη]{.greek-supplied} [υμιν]{.greek-supplied} [π]{.greek-supplied}[ε]{.unclear}ι[ρα]{.unclear}σαι το [πνευμα]{.greek-abbr} [κυριου]{.greek-abbr} [ιδου]{.greek-supplied} [οι]{.greek-supplied} [ποδες]{.greek-supplied} [τ]{.greek-supplied}[ων]{.unclear} θαψαν[των]{.greek-supplied} [τον]{.greek-supplied} [ανδρα]{.greek-supplied} [σου]{.greek-supplied} [επ]{.greek-supplied}[ι]{.unclear} τη θυρα [και]{.greek-supplied} [εξοισου]{.greek-supplied}[σιν]{.greek-supplied} [σε]{.greek-supplied}[5:9]{.aside}
+
+[ε]{.greek-supplied}[π]{.unclear}εσεν δε [π]{.unclear}[αραχρημα]{.greek-supplied} [παρα]{.greek-omitted} [[προς]{.greek-supplied}]{.greek-added} [τους]{.greek-supplied} [πο]{.greek-supplied}[δ]{.unclear}ας αυτ[ο]{.unclear}υ [και]{.greek-supplied} [εξεψυ]{.greek-supplied}[ξεν]{.greek-supplied} [εισελ]{.greek-supplied}[θ]{.unclear}[ο]{.greek-supplied}[ν]{.unclear}τ[ε]{.unclear}ς δ[ε]{.greek-supplied} [οι]{.greek-supplied} [νεανισκοι]{.greek-supplied} [ευρον]{.greek-supplied} [αυ]{.greek-supplied}[τ]{.unclear}ην νεκρ[αν]{.greek-supplied} [και]{.greek-supplied} [εξε]{.greek-supplied}[νεγκαντες]{.greek-supplied} [εθαψαν]{.greek-omitted} [προς]{.greek-omitted} [τον]{.greek-omitted} [ανδρα]{.greek-omitted} [αυτης]{.greek-omitted}[5:10]{.aside}
+

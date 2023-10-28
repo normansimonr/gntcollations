@@ -1,0 +1,49 @@
+---
+title: "Collation of Byz^RP^ vs 10134 (𝔓^134^)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 𝔓^134^ in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=10134).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 𝔓^134^                                   	| λογος                              	|
+| 𝔓^134^ *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 𝔓^134^ *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 𝔓^134^               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 𝔓^134^                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 𝔓^134^ abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 𝔓^134^                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of John
+
+### Chapter 1
+
+[απεκριθη]{.greek-omitted} [ναθαναηλ]{.greek-supplied} [και]{.greek-omitted} [λεγει]{.greek-omitted} [αυτω]{.greek-omitted} [ραββι]{.greek-supplied} [συ]{.greek-supplied} [ει]{.greek-supplied} [ο]{.greek-supplied} [[υιος]{.greek-abbr}]{.greek-supplied} [του]{.greek-supplied} [[θεου]{.greek-abbr}]{.greek-supplied} [συ]{.greek-supplied} [[βασ]{.greek-supplied}[ιλ]{.unclear}[ευς]{.greek-supplied}]{.greek-added} [ει]{.greek-supplied} [ο]{.greek-omitted} [βασιλευς]{.greek-omitted} [του]{.greek-supplied} [ισραηλ]{.greek-supplied}[1:49]{.aside}
+
+[απεκριθη]{.greek-supplied} [[ιησους]{.greek-abbr}]{.greek-supplied} [και]{.greek-supplied} [ειπεν]{.greek-supplied} [αυ]{.greek-supplied}[τω]{.unclear} οτ[ι]{.unclear} [ειπον]{.unclear} [σοι]{.unclear} [[οτι]{.greek-supplied}]{.greek-added} [ειδον]{.greek-supplied} [σε]{.greek-supplied} [υποκατω]{.greek-supplied} [της]{.greek-supplied} [συκης]{.greek-supplied} [πιστευ]{.greek-supplied}ε[ι]{.unclear}ς μειζ[ω]{.unclear} [τουτων]{.greek-supplied} [οψει]{.greek-omitted} [[οψη]{.greek-supplied}]{.greek-added}[1:50]{.aside}
+
+[και]{.greek-supplied} [λεγει]{.greek-supplied} [αυτω]{.greek-supplied} [αμην]{.greek-supplied} [αμην]{.greek-supplied} [λεγω]{.greek-supplied} [υμιν]{.greek-omitted} [[υ]{.greek-supplied}[μ]{.unclear}ειν]{.greek-added} [απ]{.greek-omitted} [αρτι]{.greek-omitted} οψεσθε τον ο[υ]{.greek-supplied}[ρα]{.unclear}[νον]{.greek-supplied} [ανεωγοτα]{.greek-supplied} [και]{.greek-supplied} [τους]{.greek-supplied} [αγγελους]{.greek-supplied} [το]{.greek-supplied}[υ]{.unclear} θεου ανα[βα]{.unclear}[ι]{.greek-supplied}νοντας [και]{.greek-supplied} [καταβαινοντας]{.greek-supplied} [επι]{.greek-supplied} [τον]{.greek-supplied} [[υιον]{.greek-abbr}]{.greek-supplied} [του]{.greek-supplied} [ανθρωπου]{.greek-abbr}[1:51]{.aside}
+
+### Chapter 2
+
+[κ]{.unclear}αι [τη]{.greek-supplied} [ημε]{.unclear}[ρα]{.greek-supplied} [τ]{.unclear}η [τριτη]{.greek-supplied} [γαμος]{.greek-omitted} [εγενετο]{.greek-omitted} [εν]{.greek-omitted} [κανα]{.greek-omitted} [της]{.greek-omitted} [γαλιλαιας]{.greek-omitted} [και]{.greek-omitted} [ην]{.greek-omitted} [η]{.greek-omitted} [μητηρ]{.greek-omitted} [του]{.greek-omitted} [ιησου]{.greek-omitted} [εκει]{.greek-omitted}[2:1]{.aside}
+

@@ -1,0 +1,65 @@
+---
+title: "Collation of Byz^RP^ vs 42208 (*ℓ*-2208)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read *ℓ*-2208 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=42208).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and *ℓ*-2208                                   	| λογος                              	|
+| *ℓ*-2208 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| *ℓ*-2208 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of *ℓ*-2208               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of *ℓ*-2208                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| *ℓ*-2208 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in *ℓ*-2208                                                     	| [―]{.gap}                        	|
+:::
+
+## The Gospel of Matthew
+
+### Chapter 17
+
+[τω]{.greek-added} [και]{.greek-omitted} [καιρω]{.greek-added} [εκεινω]{.greek-added} επηρωτησαν [αυτον]{.greek-omitted} [τον]{.greek-added} [[ιησουν]{.greek-abbr}]{.greek-added} οι μαθηται αυτου λεγοντες τι [ουν]{.greek-omitted} οι γραμματεις λεγουσιν οτι ηλιαν δει ελθειν πρωτον[17:10]{.aside}
+
+ο δε [ιησους]{.greek-abbr} αποκριθεις ειπεν αυτοις ηλιας μεν ερχεται πρωτον και αποκαταστησει παντα[17:11]{.aside}
+
+λεγω δε υμιν οτι ηλιας [ηδη]{.greek-omitted} [ηδει]{.greek-added} [ηλθεν]{.greek-omitted} [ηλθε]{.greek-added} και ουκ επεγνωσαν αυτον [αλλα]{.greek-omitted} [αλλ]{.greek-added} εποιησαν εν αυτω οσα ηθελησαν [ουτως]{.greek-omitted} [ουτω]{.greek-added} και ο [υιος]{.greek-abbr} του [ανθρωπου]{.greek-abbr} μελλει πασχειν υπ αυτων[17:12]{.aside}
+
+αναστρεφομενων δε αυτων εν τη γαλιλαια ειπεν αυτοις ο [ιησους]{.greek-abbr} μελλει ο [υιος]{.greek-abbr} του [ανθρωπου]{.greek-abbr} παραδιδοσθαι εις χειρας [ανθρωπων]{.greek-abbr}[17:22]{.aside}
+
+και αποκτενουσιν αυτον και τη τριτη ημερα [αναστησται]{.greek-added} [εγερθησεται]{.greek-omitted} [και]{.greek-omitted} [ελυπηθησαν]{.greek-omitted} [σφοδρα]{.greek-omitted}[17:23]{.aside}
+
+## The Gospel of Luke
+
+### Chapter 4
+
+[[―]{.gap}[λοι]{.unclear}]{.greek-added} [και]{.greek-omitted} [παντες]{.greek-omitted} [εμαρτυρουν]{.greek-omitted} [αυτω]{.greek-omitted} [και]{.greek-omitted} [εθαυμαζον]{.greek-omitted} επι [τοις]{.greek-omitted} [της]{.greek-added} λογοις της χαριτος τοις εκπορευομενοις [εκ]{.greek-supplied} [του]{.unclear} [στοματος]{.unclear} [αυτου]{.unclear} και ελεγον [ουχ]{.greek-omitted} [ουχι]{.greek-added} [[υιος]{.greek-abbr}]{.greek-added} [εστιν]{.greek-added} [ου]{.greek-supplied}τος [εστιν]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} ιωσηφ[4:22]{.aside}
+
+κ[αι]{.unclear} [ειπεν]{.unclear} προς αυτους πα[ντως]{.greek-supplied} [ερειτε]{.greek-supplied} μοι την παραβολην [ταυτην]{.greek-supplied} ιατρε θεραπ[ευ]{.greek-supplied}σον σεαυτον οσα ηκουσαμεν γενομενα [εν]{.greek-omitted} [εις]{.greek-added} [τη]{.greek-omitted} [την]{.greek-added} καπερναου[μ]{.greek-supplied} ποιησον και [ωδε]{.greek-omitted} [οδε]{.greek-added} εν τη [πατριδι]{.greek-abbr} σου[4:23]{.aside}
+
+[ωμιν]{.greek-added} [ειπεν]{.greek-omitted} [δε]{.greek-omitted} [αμην]{.greek-omitted} λεγω [υμιν]{.greek-supplied} [ο]{.unclear}τι [ουδεις]{.greek-omitted} [ουδις]{.greek-added} προφητης δεκτος εστιν εν τη [πατριδι]{.greek-abbr} αυτου[4:24]{.aside}
+
+[επ]{.greek-supplied} [αληθειας]{.greek-supplied} [δε]{.greek-supplied} λεγω υμιν [οτι]{.greek-added} πολλαι [χηραι]{.greek-omitted} [χειραι]{.greek-added} ησαν εν τα[ις]{.greek-supplied} [ημεραις]{.greek-supplied} [η]{.unclear}λιου εν τω [ισραηλ]{.greek-abbr} οτε [εκλεισθη]{.greek-omitted} [εκλησθη]{.greek-added} ο [ουρανος]{.greek-abbr} επι [ετη]{.greek-omitted} [ετι]{.greek-added} τρια [και]{.greek-supplied} [μ]{.greek-supplied}[η]{.unclear}νας εξ ως εγενε[το]{.unclear} λιμος μεγας επι πασαν την [γην]{.greek-supplied}[4:25]{.aside}
+
+και προς ουδεμιαν αυτων [επεμφθη]{.greek-omitted} [επεφθη]{.greek-added} ηλιας ει μη [εις]{.greek-omitted} [σαρεπτα]{.greek-omitted} [της]{.greek-omitted} [σιδωνος]{.greek-omitted} [προς]{.greek-omitted} γυναικα [χηραν]{.greek-omitted} [χειραν]{.greek-added}[[4:26 *(lacunose)*]{.lacunose}]{.aside}
+
+και πολλοι [λεπροι]{.greek-omitted} [λεπρυ]{.greek-added} ησαν επι [ελισσαιου]{.greek-omitted} [ελ[ισαιου]{.greek-supplied}]{.greek-added} [του]{.greek-supplied} [πρ]{.greek-supplied}οφητου εν τω [ισραηλ]{.greek-abbr} και ου[δεις]{.unclear} αυτων εκαθαρισθη [ει]{.greek-omitted} [μη]{.greek-omitted} [νεεμαν]{.greek-omitted} [ο]{.greek-omitted} [συρος]{.greek-omitted}[4:27]{.aside}
+

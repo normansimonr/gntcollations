@@ -1,0 +1,87 @@
+---
+title: "Collation of Byz^RP^ vs 20025 (25)"
+author: ""
+date: ""
+toc: true
+toc-title: Contents
+---
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Links to official texts
+
+Read 25 in the INTF website [here](https://ntvmr.uni-muenster.de/manuscript-workspace?docID=20025).
+
+Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](https://web.archive.org/web/20210413060536/https://byzantinetext.com/wp-content/uploads/2021/03/robinson-pierpont-2018-gnt-edition.pdf).
+
+
+:::
+
+
+::: {.callout-note appearance="minimal" icon="false" collapse="true"}
+# Conventions
+
+| Description                                                              	| Examples                           	|
+|--------------------------------------------------------------------------	|------------------------------------	|
+| Word in both Byz^RP^ and 25                                   	| λογος                              	|
+| 25 *adds* (word not present in Byz^RP^)                       	| [λογος]{.greek-added}            	|
+| 25 *omits* (word present in Byz^RP^)                          	| [λογος]{.greek-omitted}          	|
+| Text fragmentary, supplied by transcriber of 25               	| [λογος]{.greek-supplied}         	|
+| Text unclear, supplied by transcriber of 25                   	| [λογος]{.unclear}                	|
+| Corrector's hand is superscript (corrector agrees with Byz^RP^)          	| [λογος]{.corr}                   	|
+| Corrector's hand is superscript (corrector adds, not present in Byz^RP^) 	| [[λογος]{.corr}]{.greek-added} 	|
+| 25 abbreviates *nomen sacrum*                                 	| [θεος]{.greek-abbr}            	|
+| Gap in 25                                                     	| [―]{.gap}                        	|
+:::
+
+## Acts
+
+### Chapter 2
+
+[ετεροι]{.greek-omitted} [δε]{.greek-omitted} [χλευαζοντες]{.greek-omitted} [ελεγον]{.greek-omitted} [οτι]{.greek-omitted} [γλευκους]{.greek-omitted} [μεμεστωμενοι]{.greek-omitted} [εισιν]{.greek-omitted}[[2:13 *(lacunose)*]{.lacunose}]{.aside}
+
+### Chapter 6
+
+[εν]{.greek-omitted} [δε]{.greek-omitted} [ταις]{.greek-omitted} [ημεραις]{.greek-omitted} [ταυταις]{.greek-omitted} [πληθυνοντων]{.greek-omitted} [των]{.greek-omitted} [μαθητων]{.greek-omitted} [εγενετο]{.greek-omitted} [γογγυσμος]{.greek-omitted} [των]{.greek-omitted} [ελληνιστων]{.greek-omitted} [προς]{.greek-omitted} [τους]{.greek-omitted} [εβραιους]{.greek-omitted} [οτι]{.greek-omitted} [παρεθεωρουντο]{.greek-omitted} [εν]{.greek-omitted} [τη]{.greek-omitted} [διακονια]{.greek-omitted} [τη]{.greek-omitted} [καθημερινη]{.greek-omitted} [αι]{.greek-omitted} [χηραι]{.greek-omitted} [αυτων]{.greek-omitted}[6:1]{.aside}
+
+### Chapter 12
+
+[και]{.greek-omitted} [ιδων]{.greek-omitted} [οτι]{.greek-omitted} [αρεστον]{.greek-omitted} [εστιν]{.greek-omitted} [τοις]{.greek-omitted} [ιουδαιοις]{.greek-omitted} [προσεθετο]{.greek-omitted} [συλλαβειν]{.greek-omitted} [και]{.greek-omitted} [πετρον]{.greek-omitted} [ησαν]{.greek-omitted} [δε]{.greek-omitted} [αι]{.greek-omitted} [ημεραι]{.greek-omitted} [των]{.greek-omitted} [αζυμων]{.greek-omitted}[12:3]{.aside}
+
+### Chapter 16
+
+[αναχθεντες]{.greek-omitted} [ουν]{.greek-omitted} [απο]{.greek-omitted} [της]{.greek-omitted} [τρωαδος]{.greek-omitted} [ευθυδρομησαμεν]{.greek-omitted} [εις]{.greek-omitted} [σαμοθρακην]{.greek-omitted} [τη]{.greek-omitted} [τε]{.greek-omitted} [επιουση]{.greek-omitted} [εις]{.greek-omitted} [νεαπολιν]{.greek-omitted}[16:11]{.aside}
+
+### Chapter 17
+
+[τινες]{.greek-omitted} [δε]{.greek-omitted} [και]{.greek-omitted} [των]{.greek-omitted} [επικουρειων]{.greek-omitted} [και]{.greek-omitted} [των]{.greek-omitted} [στοικων]{.greek-omitted} [φιλοσοφων]{.greek-omitted} [συνεβαλλον]{.greek-omitted} [αυτω]{.greek-omitted} [και]{.greek-omitted} [τινες]{.greek-omitted} [ελεγον]{.greek-omitted} [τι]{.greek-omitted} [αν]{.greek-omitted} [θελοι]{.greek-omitted} [ο]{.greek-omitted} [σπερμολογος]{.greek-omitted} [ουτος]{.greek-omitted} [λεγειν]{.greek-omitted} [οι]{.greek-omitted} [δε]{.greek-omitted} [ξενων]{.greek-omitted} [δαιμονιων]{.greek-omitted} [δοκει]{.greek-omitted} [καταγγελευς]{.greek-omitted} [ειναι]{.greek-omitted} [οτι]{.greek-omitted} [τον]{.greek-omitted} [ιησουν]{.greek-omitted} [και]{.greek-omitted} [την]{.greek-omitted} [αναστασιν]{.greek-omitted} [ευηγγελιζετο]{.greek-omitted}[17:18]{.aside}
+
+[ξενιζοντα]{.greek-omitted} [γαρ]{.greek-omitted} [τινα]{.greek-omitted} [εισφερεις]{.greek-omitted} [εις]{.greek-omitted} [τας]{.greek-omitted} [ακοας]{.greek-omitted} [ημων]{.greek-omitted} [βουλομεθα]{.greek-omitted} [ουν]{.greek-omitted} [γνωναι]{.greek-omitted} [τι]{.greek-omitted} [αν]{.greek-omitted} [θελοι]{.greek-omitted} [ταυτα]{.greek-omitted} [ειναι]{.greek-omitted}[17:20]{.aside}
+
+[ουδε]{.greek-omitted} [υπο]{.greek-omitted} [χειρων]{.greek-omitted} [ανθρωπων]{.greek-omitted} [θεραπευεται]{.greek-omitted} [προσδεομενος]{.greek-omitted} [τινος]{.greek-omitted} [αυτος]{.greek-omitted} [διδους]{.greek-omitted} [πασιν]{.greek-omitted} [ζωην]{.greek-omitted} [και]{.greek-omitted} [πνοην]{.greek-omitted} [κατα]{.greek-omitted} [παντα]{.greek-omitted}[17:25]{.aside}
+
+### Chapter 20
+
+[αναβας]{.greek-omitted} [δε]{.greek-omitted} [και]{.greek-omitted} [κλασας]{.greek-omitted} [αρτον]{.greek-omitted} [και]{.greek-omitted} [γευσαμενος]{.greek-omitted} [εφ]{.greek-omitted} [ικανον]{.greek-omitted} [τε]{.greek-omitted} [ομιλησας]{.greek-omitted} [αχρι]{.greek-omitted} [αυγης]{.greek-omitted} [ουτως]{.greek-omitted} [εξηλθεν]{.greek-omitted}[20:11]{.aside}
+
+### Chapter 26
+
+[ημερας]{.greek-omitted} [μεσης]{.greek-omitted} [κατα]{.greek-omitted} [την]{.greek-omitted} [οδον]{.greek-omitted} [ειδον]{.greek-omitted} [βασιλευ]{.greek-omitted} [ουρανοθεν]{.greek-omitted} [υπερ]{.greek-omitted} [την]{.greek-omitted} [λαμπροτητα]{.greek-omitted} [του]{.greek-omitted} [ηλιου]{.greek-omitted} [περιλαμψαν]{.greek-omitted} [με]{.greek-omitted} [φως]{.greek-omitted} [και]{.greek-omitted} [τους]{.greek-omitted} [συν]{.greek-omitted} [εμοι]{.greek-omitted} [πορευομενους]{.greek-omitted}[26:13]{.aside}
+
+### Chapter 28
+
+[αξιουμεν]{.greek-omitted} [δε]{.greek-omitted} [παρα]{.greek-omitted} [σου]{.greek-omitted} [ακουσαι]{.greek-omitted} [α]{.greek-omitted} [φρονεις]{.greek-omitted} [περι]{.greek-omitted} [μεν]{.greek-omitted} [γαρ]{.greek-omitted} [της]{.greek-omitted} [αιρεσεως]{.greek-omitted} [ταυτης]{.greek-omitted} [γνωστον]{.greek-omitted} [εστιν]{.greek-omitted} [ημιν]{.greek-omitted} [οτι]{.greek-omitted} [πανταχου]{.greek-omitted} [αντιλεγεται]{.greek-omitted}[28:22]{.aside}
+
+[ταξαμενοι]{.greek-omitted} [δε]{.greek-omitted} [αυτω]{.greek-omitted} [ημεραν]{.greek-omitted} [ηκον]{.greek-omitted} [προς]{.greek-omitted} [αυτον]{.greek-omitted} [εις]{.greek-omitted} [την]{.greek-omitted} [ξενιαν]{.greek-omitted} [πλειονες]{.greek-omitted} [οις]{.greek-omitted} [εξετιθετο]{.greek-omitted} [διαμαρτυρομενος]{.greek-omitted} [την]{.greek-omitted} [βασιλειαν]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [πειθων]{.greek-omitted} [τε]{.greek-omitted} [αυτους]{.greek-omitted} [τα]{.greek-omitted} [περι]{.greek-omitted} [του]{.greek-omitted} [ιησου]{.greek-omitted} [απο]{.greek-omitted} [τε]{.greek-omitted} [του]{.greek-omitted} [νομου]{.greek-omitted} [μωυσεως]{.greek-omitted} [και]{.greek-omitted} [των]{.greek-omitted} [προφητων]{.greek-omitted} [απο]{.greek-omitted} [πρωι]{.greek-omitted} [εως]{.greek-omitted} [εσπερας]{.greek-omitted}[28:23]{.aside}
+
+## First John
+
+### Chapter 0
+
+[0:0]{.aside}
+
+### Chapter 2
+
+[και]{.greek-omitted} [ο]{.greek-omitted} [κοσμος]{.greek-omitted} [παραγεται]{.greek-omitted} [και]{.greek-omitted} [η]{.greek-omitted} [επιθυμια]{.greek-omitted} [αυτου]{.greek-omitted} [ο]{.greek-omitted} [δε]{.greek-omitted} [ποιων]{.greek-omitted} [το]{.greek-omitted} [θελημα]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted} [μενει]{.greek-omitted} [εις]{.greek-omitted} [τον]{.greek-omitted} [αιωνα]{.greek-omitted}[2:17]{.aside}
+
+[παιδια]{.greek-omitted} [εσχατη]{.greek-omitted} [ωρα]{.greek-omitted} [εστιν]{.greek-omitted} [και]{.greek-omitted} [καθως]{.greek-omitted} [ηκουσατε]{.greek-omitted} [οτι]{.greek-omitted} [ο]{.greek-omitted} [αντιχριστος]{.greek-omitted} [ερχεται]{.greek-omitted} [και]{.greek-omitted} [νυν]{.greek-omitted} [αντιχριστοι]{.greek-omitted} [πολλοι]{.greek-omitted} [γεγονασιν]{.greek-omitted} [οθεν]{.greek-omitted} [γινωσκομεν]{.greek-omitted} [οτι]{.greek-omitted} [εσχατη]{.greek-omitted} [ωρα]{.greek-omitted} [εστιν]{.greek-omitted}[2:18]{.aside}
+
