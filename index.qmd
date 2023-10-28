@@ -3,7 +3,7 @@ title: "Greek New Testament Collations"
 author: ""
 ---
 
-Welcome to the *Greek New Testament Collations* website (version {{< var version >}}, up to date as of {{< var listeupdated >}}).
+Welcome to the *Greek New Testament Collations* website (version {{< var version >}}, up-to-date as of {{< var listeupdated >}}).
 
 This website contains collations of all the Greek New Testament manuscripts for which the [Institute for New Testament Textual Research](https://ntvmr.uni-muenster.de/home) (*Institut für Neutestamentliche Textforschung*, INTF) has published transcriptions. The collations are all made against the [Byzantine majority text](https://byzantinetext.com/study/editions/robinson-pierpont/) as published by Maurice A. Robinson and William Pierpont [-@ntrp18]. This website is *not* an official resource of the INTF.
 
