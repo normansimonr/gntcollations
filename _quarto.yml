@@ -9,7 +9,7 @@ project:
     - chapters.qmd
     - byzantine_priority.qmd
     - byzantine_priority_es.qmd
-    - collations/10066.qmd
+    - collations/*.qmd
     
 
 website:
