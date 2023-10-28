@@ -1,6 +1,6 @@
 # Greek New Testament Collations
 
-This is the repository of the *Greek New Testament Collations* [website]([Greek New Testament Collations](https://normansimonr.github.io/greek-new-testament-collations/)). It contains:
+This is the repository of the *Greek New Testament Collations* [website](www.gntcollations.com). It contains:
 
 * The source XML files for all the manuscripts in the INTF's [*Liste*]([Liste (Greek) - INTF](https://ntvmr.uni-muenster.de/liste)). The XML files can be found in `raw_data/manuscripts`. INTF stands for *Institut für Neutestamentliche Textforschung*.
 
@@ -8,7 +8,7 @@ This is the repository of the *Greek New Testament Collations* [website]([Greek 
 
 * The *The case for Byzantine priority* essay by Maurice A. Robinson, in both English and Spanish. The texts were taken from the [official repository](https://github.com/byztxt/byzantine-majority-text).
 
-* The Python code that pre-processes and collates the manuscripts.
+* The Python code that pre-processes and collates the manuscripts (`scripts` folder).
 
 * The [Quarto Markdown](https://quarto.org/) files that, once rendered, produce the Html files of the website.
 
