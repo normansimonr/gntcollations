@@ -14,6 +14,7 @@ project:
 
 website:
   title: "Greek New Testament Collations"
+  favicon: logo.png
   back-to-top-navigation: true
   page-footer: "Version {{< var version >}}, data up-to-date as of {{< var listeupdated >}}"
   navbar:
