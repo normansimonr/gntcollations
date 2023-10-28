@@ -1,8 +1,10 @@
 # Greek New Testament Collations
 
-This is the repository of the *Greek New Testament Collations* [website](www.gntcollations.com). It contains:
+This is the repository of the *Greek New Testament Collations* website: www.gntcollations.com
 
-* The source XML files for all the manuscripts in the INTF's [*Liste*]([Liste (Greek) - INTF](https://ntvmr.uni-muenster.de/liste)). The XML files can be found in `raw_data/manuscripts`. INTF stands for *Institut für Neutestamentliche Textforschung*.
+It contains:
+
+* The source XML files for all the manuscripts in the INTF's [*Liste*](https://ntvmr.uni-muenster.de/liste). The XML files can be found in `raw_data/manuscripts`. INTF stands for *Institut für Neutestamentliche Textforschung*.
 
 * The source files of the Robinson-Pierpont 2018 Byzantine textform (taken from the [official repository](https://github.com/byztxt/byzantine-majority-text)). An XML file of the entire New Testament can be found as `raw_data/manuscripts/BYZ.xml` and CSVs of the individual books are included in `byz_csv`.
 
