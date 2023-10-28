@@ -20,6 +20,7 @@ website:
       - href: index.qmd
         text: Home
       - liste.qmd
+      - chapters.qmd
       - byzantine_priority.qmd
 
 bibliography: bibliography.bib
