@@ -1,0 +1,73 @@
+---
+title: "Apparatus"
+author: ""
+date: ""
+---
+
+This page contains links to apparatuses of the books of the New Testament, taking Maurice A. Robinson and William Pierpont's Byzantine Textform [-@ntrp18] (primary line) as the base text.
+
+All the witnesses that have a transcription available for a verse were included in the respective verse's collation. Each verse shows in the apparatus which witnesses were collated. Corrected hands are treated as witnesses of their own, but with caveats explained in collapsable notes (eg [3 John 1:3]((apparatus/third_john.qmd))). Where there is unanimous support for the entire Byzantine verse in one or more manuscripts, a note has been added listing the witnesses under a group called 'unanimous' (eg [3 John 1:1](apparatus/third_john.qmd)).
+
+Each reading of the Byzantine primary line is followed by a fraction in parenthesis, representing the number of witnesses that support it (including corrected hands if any) as a ratio of the total number of witnesses included in the collation. For instance, (5/6) means that five of the six collated witnesses support the reading.
+
+Readings that are unclear or incomplete in the original manuscripts are marked with a bracketed ? symbol in the apparatus at the place where the letters are uncertain. When 60% or more of the words of a verse were fragmentary or unclear in a manuscript, that manuscript was ignored from the collation of that particular verse and a note was added.
+
+Manuscript identifiers are followed by the century that was assigned by the INTF as the manuscript's latest estimated date (see also the [*Liste*](liste.qmd)). For instance, Codex Sinaiticus' latest estimated date is AD 399, which is the fourth century, and its identifier is 20001. In consequence, this manuscript appears in the apparatuses as ['20001(IV)'](collations/20001.qmd). Corrected hands appear with an asterisk, like this: ['20001^\*^(IV)'](collations/20001.qmd).
+
+## Book list
+
+There is currently an apparatus for the book of Third John. More apparatuses will be added in future.
+
+1.  Matthew
+
+2.  Mark
+
+3.  Luke
+
+4.  John
+
+5.  Acts (of the Apostles)
+
+6.  Romans
+
+7.  1 Corinthians
+
+8.  2 Corinthians
+
+9.  Galatians
+
+10. Ephesians
+
+11. Philippians
+
+12. Colossians
+
+13. 1 Thessalonians
+
+14. 2 Thessalonians
+
+15. 1 Timothy
+
+16. 2 Timothy
+
+17. Titus
+
+18. Philemon
+
+19. Hebrews
+
+20. James
+
+21. 1 Peter
+
+22. 2 Peter
+
+23. 1 John
+
+24. 2 John
+
+25. [3 John](apparatus/third_john.qmd)
+
+26. Jude
+
+27. Revelation

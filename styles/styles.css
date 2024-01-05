@@ -85,3 +85,16 @@ h2 {
   background: #faf8cd;
 }
 
+.apparatus-uncertain {
+    color: #e88205;
+    font-weight: bold;
+}
+
+.apparatus-byzatine-primary-line {
+    font-size: 1.3em;
+}
+
+.apparatus-manuscript-link {
+    font-size: 0.84em;
+}
+

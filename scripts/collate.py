@@ -8,7 +8,12 @@ import re
 import numpy as np
 
 
-def parse_manuscript(manuscript_id, manuscripts_directory, abbreviations_equivalences, spelling_standardisation):
+def parse_manuscript(
+    manuscript_id,
+    manuscripts_directory,
+    abbreviations_equivalences,
+    spelling_standardisation,
+):
     """
     Parses XML manuscript to generate a Pandas DataFrame
     in which each row is a verse and the transcriptions are
@@ -39,11 +44,11 @@ def parse_manuscript(manuscript_id, manuscripts_directory, abbreviations_equival
 
     # Find all <w> tags in the adjusted soup
     w_tags = soup.find_all("w")
-    
+
     # Removing junk tags
     for w_tag in w_tags:
         # note tags
-        note_tags = w_tag.find_all('note')
+        note_tags = w_tag.find_all("note")
         for note_tag in note_tags:
             note_tag.extract()
         # pc tags
@@ -70,7 +75,6 @@ def parse_manuscript(manuscript_id, manuscripts_directory, abbreviations_equival
         ex_tags = w_tag.find_all("ex")
         for ex_tag in ex_tags:
             ex_tag.unwrap()
-        
 
     # Define function to spell out nomina sacra
     def spell_out_abbreviations(w_tag, abbreviations_equivalences):
@@ -102,12 +106,14 @@ def parse_manuscript(manuscript_id, manuscripts_directory, abbreviations_equival
         while current:
             if current.name:
                 if current.name == "div" and current.get("type") == "book":
-                    if current.get("n")[0] == 'B':
+                    if current.get("n")[0] == "B":
                         parent_dict["book"] = current.get("n")
                     else:
-                        parent_dict["book"] = 'B' + str(current.get("n")).zfill(2) # Some books are just numbers
+                        parent_dict["book"] = "B" + str(current.get("n")).zfill(
+                            2
+                        )  # Some books are just numbers
                 elif current.name == "div" and current.get("type") == "chapter":
-                        parent_dict["chapter"] = current.get("n")
+                    parent_dict["chapter"] = current.get("n")
                 elif current.name == "div" and current.get("type") == "incipit":
                     parent_dict["incipit"] = current.get("n")
                 elif current.name == "ab":
@@ -195,27 +201,26 @@ def parse_manuscript(manuscript_id, manuscripts_directory, abbreviations_equival
         .apply(list)
         .reset_index()
     )
-    
+
     # Detect which verses have lacunae
-    if manuscript_id != 'BYZ':
+    if manuscript_id != "BYZ":
         verse_tags = soup.find_all("ab", recursive=True)
         verses_with_lacunae = []
         for verse_tag in verse_tags:
-            lacunae_tags = verse_tag.find_all('gap', recursive=False)
+            lacunae_tags = verse_tag.find_all("gap", recursive=False)
             if len(lacunae_tags) > 0:
-                if 'n' in verse_tag.attrs:
-                    verses_with_lacunae.append(verse_tag['n'])
-        
+                if "n" in verse_tag.attrs:
+                    verses_with_lacunae.append(verse_tag["n"])
+
         lac_df = []
-        for verse in grouped_df['verse']:
+        for verse in grouped_df["verse"]:
             if verse in verses_with_lacunae:
                 lac_df.append(True)
             else:
                 lac_df.append(False)
-        
-        grouped_df['lacunae'] = lac_df
-    
-    
+
+        grouped_df["lacunae"] = lac_df
+
     return grouped_df
 
 
@@ -225,19 +230,24 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
     """
     # Finding the manuscript's metadata
     liste["primaryName"] = liste["primaryName"].fillna("")
-    common_name = list(liste[liste["docID"].astype(int).astype(str) == str(int(manuscript_id))]["primaryName"].unique())[
-        0
-    ]
+    common_name = list(
+        liste[liste["docID"].astype(int).astype(str) == str(int(manuscript_id))][
+            "primaryName"
+        ].unique()
+    )[0]
     if common_name[0] == "L":  # Adding the fancy lectionary L
         common_name = common_name.replace("L", "*ℓ*-")
     elif common_name[0] == "P":  # Adding the fancy papyrus P
         common_name = common_name.replace("P", "𝔓^")
         common_name = common_name + "^"
 
-    common_name = common_name.replace('.0','')
-    
+    common_name = common_name.replace(".0", "")
+
     overlay = parse_manuscript(
-        manuscript_id, manuscripts_directory, abbreviations_equivalences, False # Don't standardise spelling
+        manuscript_id,
+        manuscripts_directory,
+        abbreviations_equivalences,
+        False,  # Don't standardise spelling
     )
 
     merged = pd.merge(  # Aligns the verses of Byz and overlay
@@ -253,8 +263,8 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
     merged["w_tag_byz"] = merged["w_tag_byz"].fillna("")
 
     def collate_verse(verse, byz_verse, overlay_verse):
-        byz_text = " ".join(byz_verse).replace('\n','')
-        overlay_text = " ".join(overlay_verse).replace('\n','')
+        byz_text = " ".join(byz_verse).replace("\n", "")
+        overlay_text = " ".join(overlay_verse).replace("\n", "")
 
         def extract_tag_texts(text):
             soup = BeautifulSoup(text, "html.parser")
@@ -323,16 +333,16 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
 
             words_in_overlay_text = BeautifulSoup(overlay_text, "html.parser")
             words_in_overlay_text = words_in_overlay_text.find_all("w")
-            
-            #print(words_in_overlay_text, len(words_in_overlay_text))
-            #print(df_coll["overlay_text_clean"])
+
+            # print(words_in_overlay_text, len(words_in_overlay_text))
+            # print(df_coll["overlay_text_clean"])
 
             i = 0
             overlay_text_reconstituted = []
             for text_clean in df_coll["overlay_text_clean"]:
                 if text_clean != "":
-                    #print(words_in_overlay_text, len(words_in_overlay_text))
-                    #print(df_coll["overlay_text_clean"])
+                    # print(words_in_overlay_text, len(words_in_overlay_text))
+                    # print(df_coll["overlay_text_clean"])
                     overlay_text_reconstituted.append(str(words_in_overlay_text[i]))
                     i = i + 1
                 else:
@@ -368,11 +378,11 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
 
             # Print potential instances of iotacism
 
-            #added_word_tags = BeautifulSoup(
+            # added_word_tags = BeautifulSoup(
             #    " ".join(added_words), "html.parser"
-            #).find_all("w")
+            # ).find_all("w")
 
-            #for added_word_tag in added_word_tags:
+            # for added_word_tag in added_word_tags:
             #    if "ει" in added_word_tag.text:
             #        # print(added_word_tag.text, "\t", added_word_tag.text.replace('ι','ει'))
             #        if added_word_tag.text.replace("ει", "ι") in omitted_words:
@@ -395,9 +405,8 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
 
     # Preprocessing the collation for Quarto
     def preprocess_collation_for_quarto(collation):
-        
         # Removing junk tags
-        
+
         if "<w" in collation:
             w_soup = BeautifulSoup(collation, "html.parser")
             w_tags = w_soup.find_all("w")
@@ -405,27 +414,30 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
                 collation = collation.replace(str(w_tag), str(w_tag.decode_contents()))
 
         # Replacing tags with the new syntax
-        
+
         if "<corr" in collation:
             corr_soup = BeautifulSoup(collation, "html.parser")
             corr_tags = corr_soup.find_all("corr")
             for corr_tag in corr_tags:
                 corr_replacement = "[" + str(corr_tag.decode_contents()) + "]{.corr}"
                 collation = collation.replace(str(corr_tag), corr_replacement)
-                
-        
+
         if "<abbr" in collation:
             abbr_soup = BeautifulSoup(collation, "html.parser")
             abbr_tags = abbr_soup.find_all("abbr")
             for abbr_tag in abbr_tags:
-                abbr_replacement = "[" + str(abbr_tag.decode_contents()) + "]{.greek-abbr}"
+                abbr_replacement = (
+                    "[" + str(abbr_tag.decode_contents()) + "]{.greek-abbr}"
+                )
                 collation = collation.replace(str(abbr_tag), abbr_replacement)
-        
+
         if "<unclear" in collation:
             unclear_soup = BeautifulSoup(collation, "html.parser")
             unclear_tags = unclear_soup.find_all("unclear")
             for unclear_tag in unclear_tags:
-                unclear_replacement = "[" + str(unclear_tag.decode_contents()) + "]{.unclear}"
+                unclear_replacement = (
+                    "[" + str(unclear_tag.decode_contents()) + "]{.unclear}"
+                )
                 collation = collation.replace(str(unclear_tag), unclear_replacement)
 
         if "<gap" in collation:
@@ -438,30 +450,41 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
             supplied_soup = BeautifulSoup(collation, "html.parser")
             supplied_tags = supplied_soup.find_all("supplied")
             for supplied_tag in supplied_tags:
-                supplied_replacement = "[" + str(supplied_tag.decode_contents()) + "]{.greek-supplied}"
+                supplied_replacement = (
+                    "[" + str(supplied_tag.decode_contents()) + "]{.greek-supplied}"
+                )
                 collation = collation.replace(str(supplied_tag), supplied_replacement)
-                
-        
+
         if "<greek-added" in collation:
             greek_added_soup = BeautifulSoup(collation, "html.parser")
             greek_added_tags = greek_added_soup.find_all("greek-added")
             for greek_added_tag in greek_added_tags:
-                greek_added_replacement = "[" + str(greek_added_tag.decode_contents()) + "]{.greek-added}"
-                collation = collation.replace(str(greek_added_tag), greek_added_replacement)
-        
+                greek_added_replacement = (
+                    "[" + str(greek_added_tag.decode_contents()) + "]{.greek-added}"
+                )
+                collation = collation.replace(
+                    str(greek_added_tag), greek_added_replacement
+                )
+
         if "<greek-omitted" in collation:
             greek_omitted_soup = BeautifulSoup(collation, "html.parser")
             greek_omitted_tags = greek_omitted_soup.find_all("greek-omitted")
             for greek_omitted_tag in greek_omitted_tags:
-                greek_omitted_replacement = "[" + str(greek_omitted_tag.decode_contents()) + "]{.greek-omitted}"
-                collation = collation.replace(str(greek_omitted_tag), greek_omitted_replacement)        
-        
+                greek_omitted_replacement = (
+                    "[" + str(greek_omitted_tag.decode_contents()) + "]{.greek-omitted}"
+                )
+                collation = collation.replace(
+                    str(greek_omitted_tag), greek_omitted_replacement
+                )
+
         if ("<" in collation) or (">" in collation):
             raise Exception("I detected forbidden characters in", collation)
 
         return collation
 
-    merged["collations_quarto"] = merged["collations"].apply(preprocess_collation_for_quarto)
+    merged["collations_quarto"] = merged["collations"].apply(
+        preprocess_collation_for_quarto
+    )
 
     # Adding book names
     book_dict = {
@@ -492,16 +515,16 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         "B27": "Revelation",
         "B06": "Romans",
         "B17": "Titus",
-        "B00"   : "No book",
+        "B00": "No book",
     }
 
-    merged = merged.dropna(subset=['book', 'chapter', 'verse'], how='any')
-    
+    merged = merged.dropna(subset=["book", "chapter", "verse"], how="any")
+
     merged["book_name"] = merged["book"].replace(book_dict)
 
     # Adding book, chapter and verse numbers
     def add_numerical_book(book):
-        #print(book)
+        # print(book)
         return int(book[1:])
 
     def add_numerical_chapter(chapter, incipit_overlay):
@@ -527,8 +550,6 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
             return verse.split("V")[1]
 
     merged["book_number"] = merged["book"].apply(add_numerical_book)
-
-    
 
     merged["chapter_number"] = merged.apply(
         lambda row: add_numerical_chapter(row["chapter"], row["incipit_overlay"]),
@@ -571,7 +592,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         verse_number,
         incipit,
         collation_quarto,
-        lacunae
+        lacunae,
     ):
         prefix = ""
         suffix = ""
@@ -581,24 +602,32 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
 
         if incipit[-7:] == "incipit":
             if lacunae == True:
-               suffix = "[[incipit *(lacunose)*]{.lacunose}]{.aside}\n"
-               
+                suffix = "[[incipit *(lacunose)*]{.lacunose}]{.aside}\n"
+
             else:
                 suffix = "[incipit]{.aside}\n"
         else:
             if lacunae == True:
                 suffix = (
-                    "[[" + str(chapter_number) + ":" + verse_string_extracted + " *(lacunose)*]{.lacunose}]{.aside}\n"
+                    "[["
+                    + str(chapter_number)
+                    + ":"
+                    + verse_string_extracted
+                    + " *(lacunose)*]{.lacunose}]{.aside}\n"
                 )
             else:
                 suffix = (
-                    "[" + str(chapter_number) + ":" + verse_string_extracted + "]{.aside}\n"
+                    "["
+                    + str(chapter_number)
+                    + ":"
+                    + verse_string_extracted
+                    + "]{.aside}\n"
                 )
 
         if chapter_change != "":
             if incipit[-7:] != "incipit":
                 prefix = prefix + "### Chapter " + str(chapter_change) + "\n\n"
-        
+
         return prefix + collation_quarto + suffix
 
     merged["collations_quarto"] = merged.apply(
@@ -688,7 +717,7 @@ byz = parse_manuscript("BYZ", manuscripts_directory, abbreviations_equivalences,
 
 # List all files in the folders
 files = os.listdir(manuscripts_directory)
-files_collations_qmd = os.listdir('../collations')
+files_collations_qmd = os.listdir("../collations")
 
 # Filter for .xml files
 xml_files = [file for file in files if file.endswith(".xml")]
@@ -697,8 +726,10 @@ xml_files = [file for file in files if file.endswith(".xml")]
 qmd_files = [file for file in files_collations_qmd if file.endswith(".qmd")]
 
 # Some manuscripts have XML errors
-manuscripts_with_xml_errors = pd.read_csv('manuscripts_with_xml_errors.csv')
-manuscripts_with_xml_errors = list(manuscripts_with_xml_errors['manuscript_id'].astype(str))
+manuscripts_with_xml_errors = pd.read_csv("manuscripts_with_xml_errors.csv")
+manuscripts_with_xml_errors = list(
+    manuscripts_with_xml_errors["manuscript_id"].astype(str)
+)
 
 
 manuscript_ids = []
@@ -708,17 +739,17 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-#manuscript_ids = ['10004']
+# manuscript_ids = ['10004']
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:
         file_contents = file.read()
-        
+
         man_soup = BeautifulSoup(file_contents, "xml")
         word_tags = man_soup.find_all("w")
-              
+
         if manuscript_id + ".qmd" in qmd_files:
-            print("\t", manuscript_id, "already present in folder") 
+            print("\t", manuscript_id, "already present in folder")
         if manuscript_id in manuscripts_with_xml_errors:
             print("\t", manuscript_id, "has XML errors, skipping")
         elif "No Transcription Available" in file_contents:
@@ -726,9 +757,9 @@ for manuscript_id in manuscript_ids:
         elif len(word_tags) == 0:
             print("\t", manuscript_id, "has no words available, skipping")
         else:
-            #try:
+            # try:
             collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste)
-            #except:
+            # except:
             #    print("Error in processing", manuscript_id)
             #    with open('manuscripts_with_xml_errors.csv', 'a') as file:
             #        file.write(manuscript_id + '\n')

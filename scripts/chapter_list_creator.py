@@ -13,8 +13,8 @@ for filename in os.listdir(collations_path):
     if filename.endswith(".qmd"):
         manuscript_id = filename[:-4]
         print("Processing manuscript", manuscript_id)
-        xml_path = os.path.join(xmls_path, manuscript_id + '.xml')        
-        
+        xml_path = os.path.join(xmls_path, manuscript_id + ".xml")
+
         # Read the XML file
         with open(xml_path, "r", encoding="utf-8") as file:
             xml_content = file.read()
@@ -23,46 +23,72 @@ for filename in os.listdir(collations_path):
         soup = BeautifulSoup(xml_content, "xml")
 
         ab_tags = soup.find_all("ab")
-        
-        verse_ids_in_this_manuscript = []        
+
+        verse_ids_in_this_manuscript = []
         for ab_tag in ab_tags:
             if ab_tag.attrs != None:
-                if 'n' in ab_tag.attrs:
-                    verse_ids_in_this_manuscript.append(str(ab_tag['n']))
-        
+                if "n" in ab_tag.attrs:
+                    verse_ids_in_this_manuscript.append(str(ab_tag["n"]))
+
         verse_ids_in_this_manuscript = pd.DataFrame(verse_ids_in_this_manuscript)
-        verse_ids_in_this_manuscript.columns = ['verse_id']
-        verse_ids_in_this_manuscript[['book', 'chapter_verse']] = verse_ids_in_this_manuscript['verse_id'].str.split('K', expand=True)
-        verse_ids_in_this_manuscript['book'] = verse_ids_in_this_manuscript['book'].str.replace('B','')
-        verse_ids_in_this_manuscript[['chapter', 'verse']] = verse_ids_in_this_manuscript['chapter_verse'].str.split('V', expand=True)
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop(columns=['verse_id', 'chapter_verse', 'verse'])
-        
+        verse_ids_in_this_manuscript.columns = ["verse_id"]
+        verse_ids_in_this_manuscript[
+            ["book", "chapter_verse"]
+        ] = verse_ids_in_this_manuscript["verse_id"].str.split("K", expand=True)
+        verse_ids_in_this_manuscript["book"] = verse_ids_in_this_manuscript[
+            "book"
+        ].str.replace("B", "")
+        verse_ids_in_this_manuscript[
+            ["chapter", "verse"]
+        ] = verse_ids_in_this_manuscript["chapter_verse"].str.split("V", expand=True)
+        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop(
+            columns=["verse_id", "chapter_verse", "verse"]
+        )
+
         # Converting to integers, removing non-integer chapters or verses
-        verse_ids_in_this_manuscript['book'] = pd.to_numeric(verse_ids_in_this_manuscript['book'], errors='coerce')
-        verse_ids_in_this_manuscript['chapter'] = pd.to_numeric(verse_ids_in_this_manuscript['chapter'], errors='coerce')
+        verse_ids_in_this_manuscript["book"] = pd.to_numeric(
+            verse_ids_in_this_manuscript["book"], errors="coerce"
+        )
+        verse_ids_in_this_manuscript["chapter"] = pd.to_numeric(
+            verse_ids_in_this_manuscript["chapter"], errors="coerce"
+        )
         verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.dropna()
-        
-        verse_ids_in_this_manuscript['book'] = verse_ids_in_this_manuscript['book'].astype(int)
-        verse_ids_in_this_manuscript['chapter'] = verse_ids_in_this_manuscript['chapter'].astype(int)
-        
+
+        verse_ids_in_this_manuscript["book"] = verse_ids_in_this_manuscript[
+            "book"
+        ].astype(int)
+        verse_ids_in_this_manuscript["chapter"] = verse_ids_in_this_manuscript[
+            "chapter"
+        ].astype(int)
+
         # Removing chapters that are number zero
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript[verse_ids_in_this_manuscript['chapter'] != 0]
-        
+        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript[
+            verse_ids_in_this_manuscript["chapter"] != 0
+        ]
+
         # Removing duplicates
         verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop_duplicates()
-        
+
         # Adding the manuscript id
-        verse_ids_in_this_manuscript['manuscript_id'] = manuscript_id
+        verse_ids_in_this_manuscript["manuscript_id"] = manuscript_id
         dfs.append(verse_ids_in_this_manuscript)
-        #print(verse_ids_in_this_manuscript)
-        
+        # print(verse_ids_in_this_manuscript)
+
 master_df = pd.concat(dfs)
-master_df = master_df.sort_values(by=['book', 'chapter', 'manuscript_id'])
+master_df = master_df.sort_values(by=["book", "chapter", "manuscript_id"])
 
-master_df['links_to_collations'] = master_df['manuscript_id'].apply(lambda x: '[' + x + '](collations/' + x + '.qmd)')
+master_df["links_to_collations"] = master_df["manuscript_id"].apply(
+    lambda x: "[" + x + "](collations/" + x + ".qmd)"
+)
 
-grouped_df = master_df.groupby(['book', 'chapter'])['links_to_collations'].apply(list).reset_index()
-grouped_df['links_to_collations'] = grouped_df['links_to_collations'].apply(lambda x: ', '.join(x))
+grouped_df = (
+    master_df.groupby(["book", "chapter"])["links_to_collations"]
+    .apply(list)
+    .reset_index()
+)
+grouped_df["links_to_collations"] = grouped_df["links_to_collations"].apply(
+    lambda x: ", ".join(x)
+)
 
 
 # Adding book names
@@ -94,20 +120,20 @@ book_dict = {
     27: "Revelation",
     6: "Romans",
     17: "Titus",
-    0   : "No book",
+    0: "No book",
 }
 
 
 text_to_save = ""
 
-for group in grouped_df.groupby('book'):
+for group in grouped_df.groupby("book"):
     book_to_show = group[0]
     book_to_show = book_dict[book_to_show]
-    text_to_save = text_to_save + '## ' + str(book_to_show) + '\n\n'
-    for chgroup in group[1].groupby('chapter'):
+    text_to_save = text_to_save + "## " + str(book_to_show) + "\n\n"
+    for chgroup in group[1].groupby("chapter"):
         chapter_to_show = chgroup[0]
-        text_to_save = text_to_save + '### Chapter ' + str(chapter_to_show) + '\n\n'
-        text_to_save = text_to_save + chgroup[1]['links_to_collations'].iloc[0] + '\n\n'
+        text_to_save = text_to_save + "### Chapter " + str(chapter_to_show) + "\n\n"
+        text_to_save = text_to_save + chgroup[1]["links_to_collations"].iloc[0] + "\n\n"
 
 head = f"""---
 title: "Chapters"

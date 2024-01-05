@@ -7,9 +7,11 @@ project:
     - index.qmd
     - liste.qmd
     - chapters.qmd
+    - apparatus.qmd
     - byzantine_priority.qmd
     - byzantine_priority_es.qmd
     - collations/*.qmd
+    - apparatus/*.qmd
     
 
 website:
@@ -23,6 +25,7 @@ website:
         text: Home
       - liste.qmd
       - chapters.qmd
+      - apparatus.qmd
       - byzantine_priority.qmd
 
 bibliography: bibliography.bib
