@@ -69,6 +69,8 @@ def extract_verse_from_qmd(qmd_content, chapter, verse):
 
 ##### Reading in the data
 
+byz = pd.read_csv('../byz_csv/3JO.csv')
+
 for chapter in third_john_manuscript_attestation.keys():
     verses = third_john_manuscript_attestation[chapter].keys()
 
@@ -92,20 +94,52 @@ for chapter in third_john_manuscript_attestation.keys():
             )
             
             if isinstance(this_verse_text_and_coordinates, pd.DataFrame):
+                
+                parsed_greek = this_verse_text_and_coordinates["parsed_greek"].iloc[0]
+                
+                # Replacing unclear and supplied words
+                
                 verse_attestation.append(
-                    pd.DataFrame([
+                    [
                         manuscript_id,
-                        this_verse_text_and_coordinates["chapter"],
-                        this_verse_text_and_coordinates["verse"],
-                        this_verse_text_and_coordinates["parsed_greek"],
-                    ])
+                        chapter,
+                        verse,
+                        parsed_greek,
+                    ]
                 )
-
-        if len(verse_attestation) > 0:
-            verse_attestation = pd.concat(verse_attestation)
+    
+        
+        # Adding the Byzantine text
+        
+        byz_verse = byz[(byz['chapter']==chapter) & (byz['verse']==verse)]['text'].to_list()
+        
+        if len(byz_verse) == 0:
+            byz_verse = ''
         else:
-            verse_attestation = pd.DataFrame(verse_attestation)
+            byz_verse = byz_verse[0]
+        
+        verse_attestation.append([
+               'Byz',
+               chapter,
+               verse,
+               byz_verse
+           ]
+        )
+        
+        verse_attestation = pd.DataFrame(verse_attestation)
+        verse_attestation.columns = ['manuscript_id', 'chapter', 'verse', 'parsed_greek']
+        
+        
+        ### Collation
+        collation_for_this_verse = verse_attestation.groupby(['chapter', 'verse', 'parsed_greek'])['manuscript_id'].apply(list)
+        
+        is_byzantine_majority = 
+        
         
         print(verse_attestation)
+        print(collation_for_this_verse)
+        
+        
+        collation_for_this_verse.to_csv(str(verse) + '_test.csv')
 
 # print(manuscripts_attesting_this_verse)
