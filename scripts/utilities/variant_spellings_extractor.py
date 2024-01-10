@@ -186,7 +186,7 @@ manuscript_ids = list(liste["docID"].unique().astype(int).astype(str))
 # manuscript_ids = [10066]
 
 for manuscript_id in manuscript_ids:
-    if True:#int(manuscript_id) > 30069:
+    if True:  # int(manuscript_id) > 30069:
         try:
             parse_manuscript_for_spelling_variants(manuscript_id, manuscripts_directory)
         except:
