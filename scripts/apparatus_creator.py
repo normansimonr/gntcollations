@@ -259,22 +259,18 @@ for book_name in manuscript_attestation.keys():
             verse_attestation = pd.concat([verse_attestation, corrected_temp])
             del corrected_temp
             
-            
-            
-            
-            #verse_attestation["parsed_greek_clean"] = verse_attestation["parsed_greek_clean"].str.replace(" ", "").replace("", pd.NA)
-            #verse_attestation = verse_attestation.dropna(subset=["parsed_greek_clean"])
+            # Removing empty texts that are not the Byzantine witness
+            condition = (len(verse_attestation['parsed_greek_clean'].str.split()) == 0) | (verse_attestation['parsed_greek_clean'] == '')
+            condition = (condition) & (verse_attestation['manuscript_id'] != 'Byz')
+            condition = ~condition
+            verse_attestation = verse_attestation[condition]
             
             
             collation = collatex.Collation()
 
             for index, row in verse_attestation.iterrows():
                 print(book_name, chapter, verse, row["manuscript_id"], row["parsed_greek_clean"])
-                if len(row["parsed_greek_clean"].split()) > 0:
-                    collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
-                else:
-                    if row["manuscript_id"] == 'Byz':
-                        collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
+                collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
             
             collatex_output = collatex.collate(
                 collation, layout="vertical", near_match=True, segmentation=False
@@ -406,13 +402,12 @@ for book_name in manuscript_attestation.keys():
                         words_unclear_or_supplied.append(word)
                 num_words_unclear_or_supplied = len(words_unclear_or_supplied)
                 threshold = 0.6
-                if num_words == 0:
-                    return True
-                elif (num_words_unclear_or_supplied / num_words) > threshold:
+                if (num_words_unclear_or_supplied / num_words) > threshold:
                     return True
                 else:
                     return False
-
+            
+            
             verse_attestation["too_fragmentary"] = verse_attestation[
                 "parsed_greek_clean"
             ].apply(define_if_too_fragmentary)
