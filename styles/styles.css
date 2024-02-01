@@ -90,6 +90,11 @@ h2 {
     font-weight: bold;
 }
 
+.apparatus-corrected {
+    font-size: 0.84em;  
+    font-weight: bold;
+}
+
 .apparatus-byzatine-primary-line {
     font-size: 1.3em;
 }

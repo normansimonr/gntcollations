@@ -3,33 +3,25 @@ import collatex
 import difflib
 import pandas as pd
 import roman
+import json
 
+file_path = '../apparatus/manuscript_verse_relation.json'
 
-manuscript_attestation = {
-    
-    "Third John":{  # This dictionary was manually created by inspecting the manuscripts one by one
-        1: {
-            1: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            2: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            3: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            4: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            5: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            6: [10074, 20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            7: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            8: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            9: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            10: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            11: [20001, 20002, 20003, 20020, 20044, 30424, 30630],
-            12: [10074, 20001, 20002, 20003, 20020, 20044, 20251, 30424, 30630],
-            13: [20001, 20002, 20003, 20020, 20044, 20251, 30424, 30630],
-            14: [20001, 20002, 20003, 20020, 20044, 20251, 30424, 30630],
-            15: [20001, 20002, 20003, 20020, 20044, 20251, 30424, 30630],
-        }
-    }
-    
-    }
+# Open the JSON file in read mode and use json.load() to load it into a Python dictionary
+with open(file_path, 'r') as f:
+    manuscript_attestation_strings = json.load(f)
 
+# Converting chapters and verses to integers
+manuscript_attestation = {}
 
+for book_name in manuscript_attestation_strings.keys():
+    manuscript_attestation[book_name] = {}
+    for chapter in manuscript_attestation_strings[book_name].keys():
+        manuscript_attestation[book_name][int(chapter)] = {}
+        for verse in manuscript_attestation_strings[book_name][chapter].keys():
+            manuscript_attestation[book_name][int(chapter)][int(verse)] = manuscript_attestation_strings[book_name][chapter][verse]
+
+print(manuscript_attestation)
 
 # Analysis
 
@@ -91,8 +83,35 @@ editor:
 for book_name in manuscript_attestation.keys():
     
     byz_book_abbrs = {
-        "Third John":"3JO",        
-        }
+    'First Corinthians': '1CO',
+    'First John': '1JO',
+    'First Peter': '1PE',
+    'First Thessalonians': '1TH',
+    'First Timothy': '1TI',
+    'Second Corinthians': '2CO',
+    'Second John': '2JO',
+    'Second Peter': '2PE',
+    'Second Thessalonians': '2TH',
+    'Second Timoty': '2TI',
+    'Third John': '3JO',
+    'Acts': 'ACT',
+    'Colossians': 'COL',
+    'Ephesians': 'EPH',
+    'Galatians': 'GAL',
+    'Hebrews': 'HEB',
+    'James': 'JAM',
+    'The Gospel of John': 'JOH',
+    'Jude': 'JUD',
+    'The Gospel of Luke': 'LUK',
+    'The Gospel of Mark': 'MAR',
+    'The Gospel of Matthew': 'MAT',
+    'Philemon': 'PHM',
+    'Phillipians': 'PHP',
+    'Revelation': 'REV',
+    'Romans': 'ROM',
+    'Titus': 'TIT',
+    }
+
 
     byz = pd.read_csv(f"../byz_csv/{byz_book_abbrs[book_name]}.csv")
 
@@ -239,12 +258,24 @@ for book_name in manuscript_attestation.keys():
 
             verse_attestation = pd.concat([verse_attestation, corrected_temp])
             del corrected_temp
-
+            
+            
+            
+            
+            #verse_attestation["parsed_greek_clean"] = verse_attestation["parsed_greek_clean"].str.replace(" ", "").replace("", pd.NA)
+            #verse_attestation = verse_attestation.dropna(subset=["parsed_greek_clean"])
+            
+            
             collation = collatex.Collation()
 
             for index, row in verse_attestation.iterrows():
-                collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
-
+                print(book_name, chapter, verse, row["manuscript_id"], row["parsed_greek_clean"])
+                if len(row["parsed_greek_clean"].split()) > 0:
+                    collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
+                else:
+                    if row["manuscript_id"] == 'Byz':
+                        collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
+            
             collatex_output = collatex.collate(
                 collation, layout="vertical", near_match=True, segmentation=False
             )
@@ -375,7 +406,9 @@ for book_name in manuscript_attestation.keys():
                         words_unclear_or_supplied.append(word)
                 num_words_unclear_or_supplied = len(words_unclear_or_supplied)
                 threshold = 0.6
-                if (num_words_unclear_or_supplied / num_words) > threshold:
+                if num_words == 0:
+                    return True
+                elif (num_words_unclear_or_supplied / num_words) > threshold:
                     return True
                 else:
                     return False
@@ -457,7 +490,7 @@ for book_name in manuscript_attestation.keys():
                 manuscript_handle = manuscript_handle + "(" + roman_century + ")"
 
                 if "^c^" in manuscript_handle:
-                    manuscript_handle = "*" + manuscript_handle + "?*"
+                    manuscript_handle = "[" + manuscript_handle + "?]{.apparatus-corrected}"
 
                 url = f"https://www.gntcollations.com/collations/{manuscript_id}.html"
 
@@ -620,7 +653,7 @@ for book_name in manuscript_attestation.keys():
             if num_manuscripts_attesting_this_verse_corrected > 0:
                 this_verse_collation_string = (
                     this_verse_collation_string
-                    + '::: {.callout-important collapse="true" icon="false"}\n## Potentially inaccurate\nOne or more of the witnesses included in the collation are corrected. Due to the limitations of the TEI-XML format, it is not possible to automatically reconstruct the corrected hand perfectly. For this reason, the apparatus may display inaccuracies. For example, let the text of a manuscript be πολλα ειχον γραφειν [γραψαι]{.corr} (γραψαι is the correction). In this case the uncorrected hand is clearly πολλα ειχον γραφειν. The *corrected* hand, however, can be reconstructed by the computer as either πολλα ειχον γραφειν γραψαι or πολλα ειχον γραψαι. The decision as to the appropriate reconstruction must be made by a human expert. This algorithmic collation includes both the corrected words and the corrections in the corrected hands (thus, πολλα ειχον γραφειν γραψαι instead of πολλα ειχον γραψαι in the example), but this may lead to imperfect witness counts if the algorithmic reconstruction is wrong. Due to this we advise the reader to consult the individual collations by clicking on the manuscript\'s number or refer to the original transcripts or facsimiles.\n\nThe corrected hands in the apparatus have been marked with a ? symbol in order to highlight this uncertainty.\n:::\n'
+                    + '::: {.callout-important collapse="true" icon="false"}\n## Potentially inaccurate\nOne or more of the witnesses included in the collation are corrected. Due to the limitations of the TEI-XML format, it is not possible to automatically reconstruct the corrected hand perfectly. For this reason, the apparatus may display inaccuracies. The corrected hands in the apparatus have been marked with a ? symbol in order to highlight this uncertainty.\n:::\n'
                 )
 
             ######################################

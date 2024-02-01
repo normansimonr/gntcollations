@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from bs4 import BeautifulSoup
+import json
 
 collations_path = "../collations/"
 xmls_path = "../raw_data/manuscripts/"
@@ -42,7 +43,7 @@ for filename in os.listdir(collations_path):
             ["chapter", "verse"]
         ] = verse_ids_in_this_manuscript["chapter_verse"].str.split("V", expand=True)
         verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop(
-            columns=["verse_id", "chapter_verse", "verse"]
+            columns=["verse_id", "chapter_verse"]
         )
 
         # Converting to integers, removing non-integer chapters or verses
@@ -72,24 +73,25 @@ for filename in os.listdir(collations_path):
         # Adding the manuscript id
         verse_ids_in_this_manuscript["manuscript_id"] = manuscript_id
         dfs.append(verse_ids_in_this_manuscript)
-        # print(verse_ids_in_this_manuscript)
+        #print(verse_ids_in_this_manuscript)
 
 master_df = pd.concat(dfs)
-master_df = master_df.sort_values(by=["book", "chapter", "manuscript_id"])
+
+master_df['verse'] = pd.to_numeric(master_df['verse'], errors='coerce')
+master_df.dropna(subset=['verse'], inplace=True)
+master_df['verse'] = master_df['verse'].astype(int)
+
+master_df = master_df.sort_values(by=["book", "chapter", "verse", "manuscript_id"])
 
 master_df["links_to_collations"] = master_df["manuscript_id"].apply(
     lambda x: "[" + x + "](collations/" + x + ".qmd)"
 )
 
-grouped_df = (
-    master_df.groupby(["book", "chapter"])["links_to_collations"]
-    .apply(list)
-    .reset_index()
-)
-grouped_df["links_to_collations"] = grouped_df["links_to_collations"].apply(
-    lambda x: ", ".join(x)
-)
-
+############################################
+############################################
+######## SAVING JSON FOR APPARATUS #########
+############################################
+############################################
 
 # Adding book names
 book_dict = {
@@ -123,6 +125,49 @@ book_dict = {
     0: "No book",
 }
 
+
+relation_for_apparatus = master_df[['book', 'chapter', 'verse', 'manuscript_id']]
+relation_for_apparatus['book_name'] =  relation_for_apparatus['book'].replace(book_dict)
+
+dictionary_for_apparatus = {}
+for book_name in relation_for_apparatus['book_name'].unique():
+    dictionary_for_apparatus[book_name] = {}
+    this_book = relation_for_apparatus[relation_for_apparatus['book_name']==book_name]
+    for chapter in this_book['chapter'].unique():
+        chapter = int(chapter)
+        dictionary_for_apparatus[book_name][chapter] = {}
+        this_chapter = this_book[this_book['chapter']==chapter]
+        for verse in this_chapter['verse'].unique():
+            verse = int(verse)
+            this_verse = this_chapter[this_chapter['verse']==verse]
+            manuscripts_for_this_verse = this_verse[['verse', 'manuscript_id']].groupby('verse')['manuscript_id'].apply(list)
+            dictionary_for_apparatus[book_name][chapter][verse] = manuscripts_for_this_verse.iloc[0]
+            
+# Specify the file path for the JSON file
+file_path = '../apparatus/manuscript_verse_relation.json'
+
+# Open the file in write mode and use json.dump() to write the dictionary to the file with pretty formatting
+
+with open(file_path, 'w') as f:
+    json.dump(dictionary_for_apparatus, f, indent=4)
+
+############################################
+############################################
+##### GENERATING THE CHAPTER LIST QMD ######
+############################################
+############################################
+
+master_df = master_df.drop(columns=['verse']).drop_duplicates().sort_values(by=['manuscript_id'])
+
+# Does not include verse information
+grouped_df = (
+    master_df.groupby(["book", "chapter"])["links_to_collations"]
+    .apply(list)
+    .reset_index()
+)
+grouped_df["links_to_collations"] = grouped_df["links_to_collations"].apply(
+    lambda x: ", ".join(x)
+)
 
 text_to_save = ""
 
