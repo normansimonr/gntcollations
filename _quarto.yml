@@ -31,14 +31,32 @@ website:
 bibliography: bibliography.bib
 
 format:
-  html:
-    theme: [litera, styles/customs.scss]
-    css: styles/styles.css
-    toc: true
-    fontsize: 21px
-    header-includes: |
-      <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" type="text/css"/>
+  pdf:
+    #documentclass: article
+    #classoption: [landscape]
+    sansfont: "Garamond Libre"
+    mainfont: "Garamond Libre"
+    papersize: a4
+    mainfontoptions:
+        - Numbers=Lowercase
+    fontsize: 14pt
+    include-in-header: preamble.tex
+  #html:
+  #  theme: [litera, styles/customs.scss]
+  #  css: styles/styles.css
+  #  toc: true
+  #  fontsize: 21px
+  #  header-includes: |
+  #    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" type="text/css"/>
 
-mainfont: "EB Garamond"
+
+filters:
+   - latex-environment
+commands:
+  apparatus-byzatine-primary-line: ByzPrimaryLine
+  century-apparatus: CenturyApparatus
+  apparatus-uncertain: ApparatusUncertain
+
+#mainfont: "EB Garamond"
 editor: visual
 

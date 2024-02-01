@@ -33,6 +33,16 @@ def parse_manuscript(
     # Parse the XML content with BeautifulSoup
     soup = BeautifulSoup(xml_content, "xml")
 
+    # Detecting duplicated verses and marking each instance
+    verses_ab_tags = soup.find_all("ab", recursive=True, attrs={"n": True})
+
+    for ab_tag in verses_ab_tags:
+        verses_with_n_equal_to_this_tag_n = [
+            tag for tag in verses_ab_tags if tag.get("n") == ab_tag["n"]
+        ]
+        for i, tag in enumerate(verses_with_n_equal_to_this_tag_n, start=1):
+            tag["instance"] = i
+
     # Find all <app> tags without an 'n' attribute
     app_tags = soup.find_all("app", recursive=True)
     for index, app_tag in enumerate(app_tags, start=1):
@@ -118,6 +128,7 @@ def parse_manuscript(
                     parent_dict["incipit"] = current.get("n")
                 elif current.name == "ab":
                     parent_dict["verse"] = current.get("n")
+                    parent_dict["instance"] = current.get("instance")
                 elif current.name == "app":
                     parent_dict["app"] = current.get("n")
                 elif current.name == "rdg":
@@ -164,6 +175,7 @@ def parse_manuscript(
         "incipit",
         "chapter",
         "verse",
+        "instance",
         "app",
         "type",
         "hand",
@@ -196,7 +208,9 @@ def parse_manuscript(
     # Group by 'book', 'chapter', and 'verse' and aggregate 'w_tag' into a list
     grouped_df = (
         df.groupby(
-            ["book", "chapter", "verse", "incipit"], dropna=False, group_keys=False
+            ["book", "chapter", "verse", "instance", "incipit"],
+            dropna=False,
+            group_keys=False,
         )["w_tag"]
         .apply(list)
         .reset_index()
@@ -221,6 +235,7 @@ def parse_manuscript(
 
         grouped_df["lacunae"] = lac_df
 
+    # print(grouped_df)
     return grouped_df
 
 
@@ -351,7 +366,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
             df_coll["overlay_text"] = overlay_text_reconstituted
 
             # Obtaining the definitive collation
-            df_coll = df_coll.replace("", np.nan)
+            df_coll = df_coll.astype(str).replace("", np.nan)
             df_coll["collated_text"] = df_coll["overlay_text"].fillna(
                 df_coll["byz_text_clean"]
             )
@@ -497,7 +512,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         "B24": "Second John",
         "B22": "Second Peter",
         "B14": "Second Thessalonians",
-        "B16": "Second Timoty",
+        "B16": "Second Timothy",
         "B25": "Third John",
         "B05": "Acts",
         "B12": "Colossians",
@@ -511,7 +526,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         "B02": "The Gospel of Mark",
         "B01": "The Gospel of Matthew",
         "B18": "Philemon",
-        "B11": "Phillipians",
+        "B11": "Philippians",
         "B27": "Revelation",
         "B06": "Romans",
         "B17": "Titus",
@@ -561,7 +576,11 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
     merged["verse_number"] = merged.apply(
         lambda row: add_numerical_verse(row["verse"], row["incipit_overlay"]), axis=1
     )
-    merged = merged.sort_values(by=["book_number", "chapter_number", "verse_number"])
+    merged = merged.drop(columns=["instance_byz"])
+    merged = merged.rename(columns={"instance_overlay": "instance"})
+    merged = merged.sort_values(
+        by=["book_number", "chapter_number", "verse_number", "instance"]
+    )
 
     # Adding book changes
     merged["book_change"] = ""
@@ -590,10 +609,16 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         chapter_number,
         verse_string_extracted,
         verse_number,
+        instance,
         incipit,
         collation_quarto,
         lacunae,
     ):
+        if instance > 1:
+            verse_string_extracted = (
+                f"{verse_string_extracted} | instance no. {int(instance)}"
+            )
+
         prefix = ""
         suffix = ""
 
@@ -638,6 +663,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
             row["chapter_number"],
             row["verse_string_extracted"],
             row["verse_number"],
+            row["instance"],
             row["incipit_overlay"],
             row["collations_quarto"],
             row["lacunae"],
@@ -684,6 +710,18 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
     for collated_verse in merged["collations_quarto"]:
         manuscript_qmd = manuscript_qmd + collated_verse + "\n"
+
+    log_for_manuscript_verse_relation = merged[
+        ["book", "chapter_number", "verse_number"]
+    ]
+    log_for_manuscript_verse_relation["manuscript_id"] = manuscript_id
+    log_for_manuscript_verse_relation = log_for_manuscript_verse_relation[
+        ["manuscript_id", "book", "chapter_number", "verse_number"]
+    ]
+
+    log_for_manuscript_verse_relation.to_csv(
+        f"manuscript_verses_logs/{manuscript_id}.csv", index=False
+    )
 
     with open(f"../collations/{manuscript_id}.qmd", "w") as file:
         file.write(manuscript_qmd)
@@ -739,7 +777,7 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-# manuscript_ids = ['10004']
+# manuscript_ids = ['10046', '20001', '20002', '20003', '10016', '10061', '40169']
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:
@@ -749,8 +787,9 @@ for manuscript_id in manuscript_ids:
         word_tags = man_soup.find_all("w")
 
         if manuscript_id + ".qmd" in qmd_files:
-            print("\t", manuscript_id, "already present in folder")
-        if manuscript_id in manuscripts_with_xml_errors:
+            collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste)
+            # print("\t", manuscript_id, "already present in folder, skipping")
+        elif manuscript_id in manuscripts_with_xml_errors:
             print("\t", manuscript_id, "has XML errors, skipping")
         elif "No Transcription Available" in file_contents:
             print("\t", manuscript_id, "has no transcription available, skipping")

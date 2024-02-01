@@ -1,88 +1,129 @@
 import pandas as pd
 import os
 from bs4 import BeautifulSoup
+import json
 
-collations_path = "../collations/"
-xmls_path = "../raw_data/manuscripts/"
 
-# Create an empty list to store individual DataFrames
-dfs = []
+# Define the path to the subfolder
+folder_path = "manuscript_verses_logs"
 
-# Iterate through each file in the directory
-for filename in os.listdir(collations_path):
-    if filename.endswith(".qmd"):
-        manuscript_id = filename[:-4]
-        print("Processing manuscript", manuscript_id)
-        xml_path = os.path.join(xmls_path, manuscript_id + ".xml")
+# Get a list of all CSV files in the folder
+csv_files = [file for file in os.listdir(folder_path) if file.endswith(".csv")]
 
-        # Read the XML file
-        with open(xml_path, "r", encoding="utf-8") as file:
-            xml_content = file.read()
+# Initialize an empty list to hold the dataframes
+df_list = []
 
-        # Parse the XML content with BeautifulSoup
-        soup = BeautifulSoup(xml_content, "xml")
+# Loop over the list of csv files and read each one into a dataframe
+for file in csv_files:
+    file_path = os.path.join(folder_path, file)
+    df = pd.read_csv(file_path)
+    df_list.append(df)
 
-        ab_tags = soup.find_all("ab")
+# Concatenate all dataframes in the list into a single dataframe
+master_df = pd.concat(df_list, ignore_index=True)
 
-        verse_ids_in_this_manuscript = []
-        for ab_tag in ab_tags:
-            if ab_tag.attrs != None:
-                if "n" in ab_tag.attrs:
-                    verse_ids_in_this_manuscript.append(str(ab_tag["n"]))
+# master_df["verse"] = pd.to_numeric(master_df["verse"], errors="coerce")
+# master_df.dropna(subset=["verse"], inplace=True)
+# master_df["verse"] = master_df["verse"].astype(int)
 
-        verse_ids_in_this_manuscript = pd.DataFrame(verse_ids_in_this_manuscript)
-        verse_ids_in_this_manuscript.columns = ["verse_id"]
-        verse_ids_in_this_manuscript[
-            ["book", "chapter_verse"]
-        ] = verse_ids_in_this_manuscript["verse_id"].str.split("K", expand=True)
-        verse_ids_in_this_manuscript["book"] = verse_ids_in_this_manuscript[
-            "book"
-        ].str.replace("B", "")
-        verse_ids_in_this_manuscript[
-            ["chapter", "verse"]
-        ] = verse_ids_in_this_manuscript["chapter_verse"].str.split("V", expand=True)
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop(
-            columns=["verse_id", "chapter_verse", "verse"]
-        )
-
-        # Converting to integers, removing non-integer chapters or verses
-        verse_ids_in_this_manuscript["book"] = pd.to_numeric(
-            verse_ids_in_this_manuscript["book"], errors="coerce"
-        )
-        verse_ids_in_this_manuscript["chapter"] = pd.to_numeric(
-            verse_ids_in_this_manuscript["chapter"], errors="coerce"
-        )
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.dropna()
-
-        verse_ids_in_this_manuscript["book"] = verse_ids_in_this_manuscript[
-            "book"
-        ].astype(int)
-        verse_ids_in_this_manuscript["chapter"] = verse_ids_in_this_manuscript[
-            "chapter"
-        ].astype(int)
-
-        # Removing chapters that are number zero
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript[
-            verse_ids_in_this_manuscript["chapter"] != 0
-        ]
-
-        # Removing duplicates
-        verse_ids_in_this_manuscript = verse_ids_in_this_manuscript.drop_duplicates()
-
-        # Adding the manuscript id
-        verse_ids_in_this_manuscript["manuscript_id"] = manuscript_id
-        dfs.append(verse_ids_in_this_manuscript)
-        # print(verse_ids_in_this_manuscript)
-
-master_df = pd.concat(dfs)
-master_df = master_df.sort_values(by=["book", "chapter", "manuscript_id"])
-
-master_df["links_to_collations"] = master_df["manuscript_id"].apply(
-    lambda x: "[" + x + "](collations/" + x + ".qmd)"
+master_df = master_df.sort_values(
+    by=["book", "chapter_number", "verse_number", "manuscript_id"]
 )
 
+# Remove rows where 'verse_number' is greater than 100. Some XML files have verses with the number 295 and 999 (and maybe others)
+master_df = master_df[master_df["verse_number"] <= 100]
+
+master_df["links_to_collations"] = master_df["manuscript_id"].apply(
+    lambda x: "[" + str(x) + "](collations/" + str(x) + ".qmd)"
+)
+
+
+############################################
+############################################
+######## SAVING JSON FOR APPARATUS #########
+############################################
+############################################
+
+# Adding book names
+book_dict = {
+    "B07": "First Corinthians",
+    "B23": "First John",
+    "B21": "First Peter",
+    "B13": "First Thessalonians",
+    "B15": "First Timothy",
+    "B08": "Second Corinthians",
+    "B24": "Second John",
+    "B22": "Second Peter",
+    "B14": "Second Thessalonians",
+    "B16": "Second Timothy",
+    "B25": "Third John",
+    "B05": "Acts",
+    "B12": "Colossians",
+    "B10": "Ephesians",
+    "B09": "Galatians",
+    "B19": "Hebrews",
+    "B20": "James",
+    "B04": "The Gospel of John",
+    "B26": "Jude",
+    "B03": "The Gospel of Luke",
+    "B02": "The Gospel of Mark",
+    "B01": "The Gospel of Matthew",
+    "B18": "Philemon",
+    "B11": "Philippians",
+    "B27": "Revelation",
+    "B06": "Romans",
+    "B17": "Titus",
+    "B00": "No book",
+}
+
+relation_for_apparatus = master_df[
+    ["book", "chapter_number", "verse_number", "manuscript_id"]
+]
+relation_for_apparatus["book_name"] = relation_for_apparatus["book"].replace(book_dict)
+
+dictionary_for_apparatus = {}
+for book_name in relation_for_apparatus["book_name"].unique():
+    dictionary_for_apparatus[book_name] = {}
+    this_book = relation_for_apparatus[relation_for_apparatus["book_name"] == book_name]
+    for chapter in this_book["chapter_number"].unique():
+        dictionary_for_apparatus[book_name][str(chapter)] = {}
+        this_chapter = this_book[this_book["chapter_number"] == chapter]
+        for verse in this_chapter["verse_number"].unique():
+            this_verse = this_chapter[this_chapter["verse_number"] == verse]
+            manuscripts_for_this_verse = (
+                this_verse[["verse_number", "manuscript_id"]]
+                .groupby("verse_number")["manuscript_id"]
+                .apply(list)
+            )
+            dictionary_for_apparatus[book_name][str(chapter)][
+                str(verse)
+            ] = manuscripts_for_this_verse.iloc[0]
+
+
+# Specify the file path for the JSON file
+file_path = "../apparatus/manuscript_verse_relation.json"
+
+# Open the file in write mode and use json.dump() to write the dictionary to the file with pretty formatting
+
+with open(file_path, "w") as f:
+    json.dump(dictionary_for_apparatus, f, indent=4)
+
+
+############################################
+############################################
+##### GENERATING THE CHAPTER LIST QMD ######
+############################################
+############################################
+
+master_df = (
+    master_df.drop(columns=["verse_number"])
+    .drop_duplicates()
+    .sort_values(by=["manuscript_id"])
+)
+
+# Does not include verse information
 grouped_df = (
-    master_df.groupby(["book", "chapter"])["links_to_collations"]
+    master_df.groupby(["book", "chapter_number"])["links_to_collations"]
     .apply(list)
     .reset_index()
 )
@@ -90,47 +131,13 @@ grouped_df["links_to_collations"] = grouped_df["links_to_collations"].apply(
     lambda x: ", ".join(x)
 )
 
-
-# Adding book names
-book_dict = {
-    7: "First Corinthians",
-    23: "First John",
-    21: "First Peter",
-    13: "First Thessalonians",
-    15: "First Timothy",
-    8: "Second Corinthians",
-    24: "Second John",
-    22: "Second Peter",
-    14: "Second Thessalonians",
-    16: "Second Timoty",
-    25: "Third John",
-    5: "Acts",
-    12: "Colossians",
-    10: "Ephesians",
-    9: "Galatians",
-    19: "Hebrews",
-    20: "James",
-    4: "The Gospel of John",
-    26: "Jude",
-    3: "The Gospel of Luke",
-    2: "The Gospel of Mark",
-    1: "The Gospel of Matthew",
-    18: "Philemon",
-    11: "Phillipians",
-    27: "Revelation",
-    6: "Romans",
-    17: "Titus",
-    0: "No book",
-}
-
-
 text_to_save = ""
 
 for group in grouped_df.groupby("book"):
     book_to_show = group[0]
     book_to_show = book_dict[book_to_show]
     text_to_save = text_to_save + "## " + str(book_to_show) + "\n\n"
-    for chgroup in group[1].groupby("chapter"):
+    for chgroup in group[1].groupby("chapter_number"):
         chapter_to_show = chgroup[0]
         text_to_save = text_to_save + "### Chapter " + str(chapter_to_show) + "\n\n"
         text_to_save = text_to_save + chgroup[1]["links_to_collations"].iloc[0] + "\n\n"
@@ -142,6 +149,8 @@ date: ""
 ---
 
 This page contains a list of the chapters of the books of the New Testament whose texts are attested in the manuscripts that have been transcribed by the INTF. Not all the manuscripts of the [*Liste*](liste.qmd) are shown below as most of them have not been transcribed.
+
+Some transcriptions contain chapters not listed here. Those chapters are not shown because their transcriptions contain markup errors in the original XML files. There is at least one manuscript that contains Mark, Luke and John, but is only shown to have Mark. This is because in this transcription, the texts of Luke and John lack important XML tags and are therefore not detected by our algorithm.
 
 """
 

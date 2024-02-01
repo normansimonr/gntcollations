@@ -6,68 +6,151 @@ date: ""
 
 This page contains links to apparatuses of the books of the New Testament, taking Maurice A. Robinson and William Pierpont's Byzantine Textform [-@ntrp18] (primary line) as the base text.
 
-All the witnesses that have a transcription available for a verse were included in the respective verse's collation. Each verse shows in the apparatus which witnesses were collated. Corrected hands are treated as witnesses of their own, but with caveats explained in collapsable notes (eg [3 John 1:3]((apparatus/third_john.qmd))). Where there is unanimous support for the entire Byzantine verse in one or more manuscripts, a note has been added listing the witnesses under a group called 'unanimous' (eg [3 John 1:1](apparatus/third_john.qmd)).
+All the witnesses that have a transcription available for a verse were included in the respective verse's collation. **We only include the transcriptions published by the Institute for New Testament Textual Research at the University of Münster, [INTF](https://ntvmr.uni-muenster.de/)**. This means that for some books, most notably the Gospel of John, the number of available witnesses is very low. We may add the transcriptions of the International Greek New Testament Project, [IGNTP](https://itseeweb.cal.bham.ac.uk/igntp/transcriptions.html), in future (the IGNTP have published a number of transcriptions of Johannine manuscripts and of the Pauline corpus). If you happen to know how to program in Python and would like to contribute the code to include those transcriptions in this website, feel free to fork the [repo](https://github.com/normansimonr/gntcollations) and open a pull request.
+
+Each apparatus shows which witnesses were collated. Corrected hands are treated as witnesses of their own, but with a caveat. For example, let the text of a manuscript be πολλα ειχον γραφειν [γραψαι]{.corr} (γραψαι is the correction). In this case the uncorrected hand is clearly πολλα ειχον γραφειν. The *corrected* hand, however, can be reconstructed by the computer as either πολλα ειχον γραφειν γραψαι or πολλα ειχον γραψαι. The decision as to the appropriate reconstruction must be made by a human expert. This algorithmic collation includes both the corrected words and the corrections in the corrected hands (thus, πολλα ειχον γραφειν γραψαι instead of πολλα ειχον γραψαι in the example), but this may lead to imperfect witness counts if the algorithmic reconstruction is wrong. Due to this we advise the reader to consult the individual collations by clicking on the manuscript's number or refer to the original transcripts or facsimiles.
+
+Where there is unanimous support for the entire Byzantine verse in one or more manuscripts, a note has been added listing the witnesses under a group called 'unanimous'.
 
 Each reading of the Byzantine primary line is followed by a fraction in parenthesis, representing the number of witnesses that support it (including corrected hands if any) as a ratio of the total number of witnesses included in the collation. For instance, (5/6) means that five of the six collated witnesses support the reading.
 
-Readings that are unclear or incomplete in the original manuscripts are marked with a bracketed ? symbol in the apparatus at the place where the letters are uncertain. When 60% or more of the words of a verse were fragmentary or unclear in a manuscript, that manuscript was ignored from the collation of that particular verse and a note was added.
+Readings that are unclear or incomplete in the original manuscripts are marked with a bracketed ? symbol in the apparatus at the place where the letters are uncertain. When a witness is too fragmentary it is ignored from the collation of that particular verse and a note is added.
 
-Manuscript identifiers are followed by the century that was assigned by the INTF as the manuscript's latest estimated date (see also the [*Liste*](liste.qmd)). For instance, Codex Sinaiticus' latest estimated date is AD 399, which is the fourth century, and its identifier is 20001. In consequence, this manuscript appears in the apparatuses as ['20001(IV)'](collations/20001.qmd). Corrected hands appear with an asterisk, like this: ['20001^\*^(IV)'](collations/20001.qmd).
+Manuscript identifiers are followed by the century that was assigned by the INTF as the manuscript's latest estimated date (see also the [*Liste*](liste.qmd)). For instance, Codex Sinaiticus' latest estimated date is AD 399, which is the fourth century, and its identifier is 20001. In consequence, this manuscript appears in the apparatuses as ['20001(IV)'](collations/20001.qmd). Corrected hands appear with a superscript c, like this: ['20001^c^(IV)'](collations/20001.qmd).
 
 ## Book list
 
-There is currently an apparatus for the book of Third John. More apparatuses will be added in future.
+### The Gospel of Matthew
 
-1.  Matthew
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_16.pdf) [17](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_17.pdf) [18](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_18.pdf) [19](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_19.pdf) [20](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_20.pdf) [21](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_21.pdf) [22](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_22.pdf) [23](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_23.pdf) [24](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_24.pdf) [25](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_25.pdf) [26](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_26.pdf) [27](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_27.pdf) [28](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_matthew/the_gospel_of_matthew_28.pdf)
 
-2.  Mark
 
-3.  Luke
+### The Gospel of Mark
 
-4.  John
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_mark/the_gospel_of_mark_16.pdf)
 
-5.  Acts (of the Apostles)
 
-6.  Romans
+### The Gospel of Luke
 
-7.  1 Corinthians
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_16.pdf) [17](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_17.pdf) [18](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_18.pdf) [19](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_19.pdf) [20](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_20.pdf) [21](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_21.pdf) [22](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_22.pdf) [23](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_23.pdf) [24](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_luke/the_gospel_of_luke_24.pdf)
 
-8.  2 Corinthians
 
-9.  Galatians
+### The Gospel of John
 
-10. Ephesians
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_16.pdf) [17](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_17.pdf) [18](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_18.pdf) [19](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_19.pdf) [20](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_20.pdf) [21](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/the_gospel_of_john/the_gospel_of_john_21.pdf)
 
-11. Philippians
 
-12. Colossians
+### Acts
 
-13. 1 Thessalonians
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_16.pdf) [17](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_17.pdf) [18](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_18.pdf) [19](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_19.pdf) [20](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_20.pdf) [21](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_21.pdf) [22](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_22.pdf) [23](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_23.pdf) [24](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_24.pdf) [25](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_25.pdf) [26](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_26.pdf) [27](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_27.pdf) [28](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/acts/acts_28.pdf)
 
-14. 2 Thessalonians
 
-15. 1 Timothy
+### Romans
 
-16. 2 Timothy
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/romans/romans_16.pdf)
 
-17. Titus
 
-18. Philemon
+### First Corinthians
 
-19. Hebrews
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_corinthians/first_corinthians_16.pdf)
 
-20. James
 
-21. 1 Peter
+### Second Corinthians
 
-22. 2 Peter
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_corinthians/second_corinthians_13.pdf)
 
-23. 1 John
 
-24. 2 John
+### Galatians
 
-25. [3 John](apparatus/third_john.qmd)
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/galatians/galatians_6.pdf)
 
-26. Jude
 
-27. Revelation
+### Ephesians
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/ephesians/ephesians_6.pdf)
+
+
+### Philippians
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/philippians/philippians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/philippians/philippians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/philippians/philippians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/philippians/philippians_4.pdf)
+
+
+### Colossians
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/colossians/colossians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/colossians/colossians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/colossians/colossians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/colossians/colossians_4.pdf)
+
+
+### First Thessalonians
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_thessalonians/first_thessalonians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_thessalonians/first_thessalonians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_thessalonians/first_thessalonians_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_thessalonians/first_thessalonians_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_thessalonians/first_thessalonians_5.pdf)
+
+
+### Second Thessalonians
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_thessalonians/second_thessalonians_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_thessalonians/second_thessalonians_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_thessalonians/second_thessalonians_3.pdf)
+
+
+### First Timothy
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_timothy/first_timothy_6.pdf)
+
+
+### Second Timothy
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_timothy/second_timothy_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_timothy/second_timothy_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_timothy/second_timothy_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_timothy/second_timothy_4.pdf)
+
+
+### Titus
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/titus/titus_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/titus/titus_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/titus/titus_3.pdf)
+
+
+### Philemon
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/philemon/philemon_1.pdf)
+
+
+### Hebrews
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/hebrews/hebrews_13.pdf)
+
+
+### James
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/james/james_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/james/james_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/james/james_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/james/james_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/james/james_5.pdf)
+
+
+### First Peter
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_peter/first_peter_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_peter/first_peter_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_peter/first_peter_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_peter/first_peter_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_peter/first_peter_5.pdf)
+
+
+### Second Peter
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_peter/second_peter_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_peter/second_peter_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_peter/second_peter_3.pdf)
+
+
+### First John
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_john/first_john_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_john/first_john_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_john/first_john_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_john/first_john_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/first_john/first_john_5.pdf)
+
+
+### Second John
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/second_john/second_john_1.pdf)
+
+
+### Third John
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/third_john/third_john_1.pdf)
+
+
+### Jude
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/jude/jude_1.pdf)
+
+
+### Revelation
+
+ [1](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_1.pdf) [2](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_2.pdf) [3](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_3.pdf) [4](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_4.pdf) [5](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_5.pdf) [6](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_6.pdf) [7](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_7.pdf) [8](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_8.pdf) [9](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_9.pdf) [10](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_10.pdf) [11](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_11.pdf) [12](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_12.pdf) [13](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_13.pdf) [14](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_14.pdf) [15](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_15.pdf) [16](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_16.pdf) [17](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_17.pdf) [18](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_18.pdf) [19](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_19.pdf) [20](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_20.pdf) [21](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_21.pdf) [22](https://archive.org/details/gntcollations_apparatuses_byzantine/2.0.0/revelation/revelation_22.pdf)
+
