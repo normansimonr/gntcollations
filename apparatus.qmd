@@ -12,7 +12,7 @@ Each reading of the Byzantine primary line is followed by a fraction in parenthe
 
 Readings that are unclear or incomplete in the original manuscripts are marked with a bracketed ? symbol in the apparatus at the place where the letters are uncertain. When 60% or more of the words of a verse were fragmentary or unclear in a manuscript, that manuscript was ignored from the collation of that particular verse and a note was added.
 
-Manuscript identifiers are followed by the century that was assigned by the INTF as the manuscript's latest estimated date (see also the [*Liste*](liste.qmd)). For instance, Codex Sinaiticus' latest estimated date is AD 399, which is the fourth century, and its identifier is 20001. In consequence, this manuscript appears in the apparatuses as ['20001(IV)'](collations/20001.qmd). Corrected hands appear with an asterisk, like this: ['20001^\*^(IV)'](collations/20001.qmd).
+Manuscript identifiers are followed by the century that was assigned by the INTF as the manuscript's latest estimated date (see also the [*Liste*](liste.qmd)). For instance, Codex Sinaiticus' latest estimated date is AD 399, which is the fourth century, and its identifier is 20001. In consequence, this manuscript appears in the apparatuses as ['20001(IV)'](collations/20001.qmd). Corrected hands appear with a superscript c, like this: ['20001^c^(IV)'](collations/20001.qmd).
 
 ## Book list
 
