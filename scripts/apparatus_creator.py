@@ -212,18 +212,18 @@ for chapter in third_john_manuscript_attestation.keys():
         ].apply(remove_corrections)
         corrected_temp["uncorrected_reconstructed"] = True
 
-        def add_stars(row):
+        def add_cs(row):
             if "C" in row["parsed_greek_clean"]:
-                return row["manuscript_id"] + "^\*^"
+                return row["manuscript_id"] + "^c^"
             else:
                 return row["manuscript_id"]
 
-        verse_attestation["manuscript_id"] = verse_attestation.apply(add_stars, axis=1)
+        verse_attestation["manuscript_id"] = verse_attestation.apply(add_cs, axis=1)
         verse_attestation["parsed_greek_clean"] = verse_attestation[
             "parsed_greek_clean"
         ].str.replace(
             "C", ""
-        )  # Removing the C marker from the starred hands
+        )  # Removing the C marker from the corrected hands
 
         verse_attestation = pd.concat([verse_attestation, corrected_temp])
         del corrected_temp
