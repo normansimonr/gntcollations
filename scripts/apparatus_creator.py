@@ -4,6 +4,7 @@ import difflib
 import pandas as pd
 import roman
 import json
+import itertools
 
 file_path = '../apparatus/manuscript_verse_relation.json'
 
@@ -20,8 +21,6 @@ for book_name in manuscript_attestation_strings.keys():
         manuscript_attestation[book_name][int(chapter)] = {}
         for verse in manuscript_attestation_strings[book_name][chapter].keys():
             manuscript_attestation[book_name][int(chapter)][int(verse)] = manuscript_attestation_strings[book_name][chapter][verse]
-
-print(manuscript_attestation)
 
 # Analysis
 
@@ -119,13 +118,13 @@ for book_name in manuscript_attestation.keys():
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in manuscript_attestation[book_name].keys():
+    for chapter in [15]:#manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in verses:
+        for verse in [19]:#verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][chapter][
                 verse
@@ -259,18 +258,72 @@ for book_name in manuscript_attestation.keys():
             verse_attestation = pd.concat([verse_attestation, corrected_temp])
             del corrected_temp
             
+            verse_attestation['parsed_greek_clean'] = verse_attestation['parsed_greek_clean'].str.strip()
+            
             # Removing empty texts that are not the Byzantine witness
             condition = (len(verse_attestation['parsed_greek_clean'].str.split()) == 0) | (verse_attestation['parsed_greek_clean'] == '')
             condition = (condition) & (verse_attestation['manuscript_id'] != 'Byz')
             condition = ~condition
             verse_attestation = verse_attestation[condition]
             
+            # Removing fragmentary manuscripts
+            def define_if_too_fragmentary(text):
+                num_words = len(text.split())
+                words_unclear_or_supplied = []
+                for word in text.split():
+                    if "U" in word:
+                        words_unclear_or_supplied.append(word)
+                num_words_unclear_or_supplied = len(words_unclear_or_supplied)
+                threshold = 0.6
+                if (num_words_unclear_or_supplied / num_words) > threshold:
+                    return True
+                else:
+                    return False
+            
+            
+            verse_attestation["too_fragmentary"] = verse_attestation[
+                "parsed_greek_clean"
+            ].apply(define_if_too_fragmentary)
+            
+            fragmentary_manuscripts = verse_attestation[verse_attestation["too_fragmentary"]]
+            non_fragmentary_manuscripts = verse_attestation[~verse_attestation["too_fragmentary"]]
+            
+            # Manuscript groups
+            manuscript_groups = non_fragmentary_manuscripts[['manuscript_id', 'parsed_greek_clean']].groupby('parsed_greek_clean')['manuscript_id'].apply(list).reset_index()
+            manuscript_groups['group_size'] = manuscript_groups['manuscript_id'].apply(len)
+            manuscript_groups = manuscript_groups.sort_values(by=['group_size'], ascending=False)
+            
+            manuscript_groups['contains_byz'] = manuscript_groups['manuscript_id'].apply(lambda x: True if 'Byz' in x else False)
+            
+            unanimous_group = manuscript_groups[manuscript_groups['contains_byz']]
+            unanimous_group['manuscript_id'] = unanimous_group['manuscript_id'].apply(lambda mlist: [x for x in mlist if x != 'Byz']) # Removing Byz to avoid counting it as a witness
+            unanimous_group['group_size'] = unanimous_group['manuscript_id'].apply(len)
+            unanimous_group_badge = "➤*unan.*"
+            unanimous_group['group_name'] = unanimous_group_badge
+            
+            manuscript_groups = manuscript_groups[~manuscript_groups['contains_byz']]
+            
+            middle_sized_groups = manuscript_groups[manuscript_groups['group_size'] >= 2]
+            num_repeats = len(middle_sized_groups) // 26 + 1 # Calculate the number of times the alphabet has to repeat
+            alphabet = [chr(i) for i in range(97, 123)]  # Create a list of alphabetical characters, a to z
+            char_cycle = itertools.cycle(alphabet) # Create a generator to cycle through the characters
+            index_chars = []
+            for i in range(num_repeats):
+                index_chars.extend([f"➤{byz_book_abbrs[book_name]}.{chapter}.{verse}^{(char * (i + 1)).upper()}^" for char in alphabet])         
+            middle_sized_groups['group_name'] = index_chars[:len(middle_sized_groups)]
+            
+            one_sized_groups = manuscript_groups[manuscript_groups['group_size'] == 1]
+            one_sized_groups['group_name'] = one_sized_groups['manuscript_id'].apply(lambda x: x[0])
+            
+            manuscript_groups = pd.concat([unanimous_group, middle_sized_groups, one_sized_groups])
+            
+            #print(manuscript_groups)
             
             collation = collatex.Collation()
 
-            for index, row in verse_attestation.iterrows():
-                print(book_name, chapter, verse, row["manuscript_id"], row["parsed_greek_clean"])
-                collation.add_plain_witness(row["manuscript_id"], row["parsed_greek_clean"])
+            for index, row in manuscript_groups.iterrows():
+                print(book_name, chapter, verse, row["group_name"], row["parsed_greek_clean"])
+                collation.add_plain_witness(row["group_name"], row["parsed_greek_clean"])
             
             collatex_output = collatex.collate(
                 collation, layout="vertical", near_match=True, segmentation=False
@@ -292,164 +345,44 @@ for book_name in manuscript_attestation.keys():
                 return df
 
             alignment_table = collatex_output_to_df(collatex_output).T
-
+            
             # Removing unwanted NAs
             alignment_table = alignment_table.fillna("-")
             alignment_table = alignment_table.replace("-", pd.NA).dropna(axis=1, how="all")
             alignment_table.columns = range(len(alignment_table.columns))
             alignment_table = alignment_table.fillna("•")
 
-            # Merging contiguous unanimous attestations
-            alignment_table = alignment_table.T
-
-            # Function to check if all elements in a row are identical
-            def is_unanimous(row):
-                return row.nunique() == 1
-
-            # Create a new column 'is_unanimous'
-            alignment_table["is_unanimous"] = alignment_table.apply(is_unanimous, axis=1)
-
-            # Function to split DataFrame into chunks based on 'is_unanimous' column
-            def split_dataframe(df):
-                chunks = []
-                temp_chunk = []
-                for index, row in df.iterrows():
-                    if row["is_unanimous"]:
-                        temp_chunk.append(row[:-1])
-                    else:
-                        if temp_chunk:
-                            chunks.append(pd.DataFrame(temp_chunk))
-                            temp_chunk = []
-                        chunks.append(pd.DataFrame([row[:-1]]))
-                if temp_chunk:
-                    chunks.append(pd.DataFrame(temp_chunk))
-                return chunks
-
-            # Function to merge rows within each chunk and concatenate contents
-            def merge_rows_within_chunks(chunks):
-                merged_chunks = []
-                for chunk in chunks:
-                    if (
-                        len(chunk) > 1
-                    ):  # If there is a contiguous number of words that are unanimous
-                        byz_chunk = " ".join(chunk["Byz"].to_list())
-                        for column in chunk.columns:
-                            chunk[column].iloc[:] = byz_chunk
-                        chunk = chunk.drop_duplicates()
-                    merged_chunks.append(chunk)
-                return merged_chunks
-
-            # Split DataFrame into chunks based on 'is_unanimous' and merge rows within each chunk
-            split_chunks = split_dataframe(alignment_table)
-            merged_rows = merge_rows_within_chunks(split_chunks)
-
-            # Concatenate the chunks back into a single DataFrame
-            alignment_table = pd.concat(merged_rows, ignore_index=True)
-            alignment_table = alignment_table.T
-
-            # Find the string containing 'Byz'
-            col_that_includes_byz = [
-                string for string in alignment_table.index if "Byz" in string
-            ]
-
-            if len(col_that_includes_byz) == 1:
-                col_that_includes_byz = col_that_includes_byz[0]
-            else:
-                raise ValueError(
-                    "No unique string found containing 'Byz' or multiple strings found."
-                )
-
-            byz_column_base = alignment_table.loc[col_that_includes_byz]
-
+            
+            
+            # Find the base column (Byz)
+            byz_column_base = alignment_table.loc[unanimous_group_badge]
+            
             textual_units = []
             for column_name in alignment_table.columns:
                 textual_unit = alignment_table[column_name].reset_index()
-                textual_unit.columns = ["manuscript_list", "reading"]
+                textual_unit.columns = ["manuscript_coincidence", "reading"]
                 textual_unit = (
-                    textual_unit.groupby("reading")["manuscript_list"].agg(list).to_frame()
+                    textual_unit.groupby("reading")["manuscript_coincidence"].agg(list).to_frame()
                 )
                 textual_unit["position"] = column_name
                 textual_units.append(textual_unit)
 
             textual_units = pd.concat(textual_units)
-            textual_units["is_byzantine"] = textual_units["manuscript_list"].apply(
-                lambda x: True if "Byz" in x else False
+            textual_units["is_byzantine"] = textual_units["manuscript_coincidence"].apply(
+                lambda x: True if unanimous_group_badge in x else False
             )
 
             # Determining which manuscripts have a text identical to Byz
-            verse_attestation["verse_identical_to_byz"] = (
-                verse_attestation["parsed_greek_clean"] == byz_verse
-            )
-            manuscripts_verse_identical_to_byz = verse_attestation[
-                verse_attestation["verse_identical_to_byz"] == True
-            ]["manuscript_id"]
-            manuscripts_verse_identical_to_byz = list(manuscripts_verse_identical_to_byz)
-            manuscripts_verse_identical_to_byz.pop(
-                manuscripts_verse_identical_to_byz.index("Byz")
-            )
+            manuscripts_verse_identical_to_byz = unanimous_group['manuscript_id'].iloc[0]
+        
 
             ##### Counting the manuscripts and ignoring fragmentary ones
 
             num_manuscripts_attesting_this_verse = (
-                len(verse_attestation) - 1
+                len(non_fragmentary_manuscripts) - 1
             )  # We subtract one to avoid counting Byz as a manuscript
 
-            def define_if_too_fragmentary(text):
-                num_words = len(text.split())
-                words_unclear_or_supplied = []
-                for word in text.split():
-                    if "U" in word:
-                        words_unclear_or_supplied.append(word)
-                num_words_unclear_or_supplied = len(words_unclear_or_supplied)
-                threshold = 0.6
-                if (num_words_unclear_or_supplied / num_words) > threshold:
-                    return True
-                else:
-                    return False
-            
-            
-            verse_attestation["too_fragmentary"] = verse_attestation[
-                "parsed_greek_clean"
-            ].apply(define_if_too_fragmentary)
-
-            num_fragmentary_manuscripts_this_verse = (
-                verse_attestation["too_fragmentary"].astype(int).sum()
-            )
-
-            # Determining if Byz is the majority text in this verse
-            num_manuscripts_included_in_collation = (
-                num_manuscripts_attesting_this_verse
-                - num_fragmentary_manuscripts_this_verse
-            )
-
-            if (num_manuscripts_included_in_collation % 2) == 0:
-                majority_rule_threshold = (num_manuscripts_included_in_collation / 2) + 1
-            else:
-                majority_rule_threshold = (num_manuscripts_included_in_collation + 1) / 2
-
-            textual_units["num_manuscripts_supporting_this_reading"] = textual_units[
-                "manuscript_list"
-            ].apply(len)
-            textual_units["num_manuscripts_supporting_this_reading"] = textual_units[
-                "num_manuscripts_supporting_this_reading"
-            ] - textual_units["is_byzantine"].astype(int)
-            textual_units["is_majority_reading"] = (
-                textual_units["num_manuscripts_supporting_this_reading"]
-                >= majority_rule_threshold
-            )
-
-            if (
-                len(
-                    textual_units[
-                        textual_units["is_byzantine"]
-                        & ~textual_units["is_majority_reading"]
-                    ]
-                )
-                == 0
-            ):
-                byzantine_is_majority_in_this_verse = True
-            else:
-                byzantine_is_majority_in_this_verse = False
+            num_fragmentary_manuscripts_this_verse = len(fragmentary_manuscripts)
 
             # Determining which Byzantine readings are not attested in the sample
             # TO DO
@@ -468,30 +401,57 @@ for book_name in manuscript_attestation.keys():
             liste["century_late"] = liste["origLate"].astype(int).apply(year_to_century)
             liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
-            def format_manuscript_id_for_quarto(manuscript_id):
-                if manuscript_id == "Byz":
-                    return manuscript_id
-                elif "^c^" in manuscript_id:
-                    manuscript_id = manuscript_id.replace("^c^", "")
-                    manuscript_handle = manuscript_id + "^c^"
-                else:
-                    manuscript_handle = manuscript_id
+            
+            
+            def format_manuscript_coincidences_for_quarto(manuscript_coincidence):
+                formatted_manuscript_coincidence = []
+                standalone_manuscript_ids = []
+                for coincidence in manuscript_coincidence:
+                    if coincidence[0] == '➤':
+                        formatted_manuscript_coincidence.append(coincidence)
+                    else:
+                        standalone_manuscript_ids.append(coincidence)
+                
+                formatted_manuscript_coincidence = ' '.join(formatted_manuscript_coincidence)
+                
+                
+                
+                standalone_manuscripts = liste[liste['docID'].isin(standalone_manuscript_ids)]
+                standalone_manuscripts = standalone_manuscripts[['docID', 'century_late']].groupby('century_late')['docID'].apply(list).reset_index()
+                
+                def add_link_to_manuscript_id(manuscript_id):
+                    if "^c^" in manuscript_id:
+                        manuscript_id = manuscript_id.replace("^c^", "")
+                        manuscript_handle = manuscript_id + "^c^"
+                    else:
+                        manuscript_handle = manuscript_id
 
-                roman_century = liste[liste["docID"] == manuscript_id][
-                    "century_late_roman"
-                ]
-                roman_century = roman_century.iloc[0]
+                    if "^c^" in manuscript_handle:
+                        manuscript_handle = "[" + manuscript_handle + "?]{.apparatus-corrected}"
 
-                manuscript_handle = manuscript_handle + "(" + roman_century + ")"
+                    url = f"https://www.gntcollations.com/collations/{manuscript_id}.html"
 
-                if "^c^" in manuscript_handle:
-                    manuscript_handle = "[" + manuscript_handle + "?]{.apparatus-corrected}"
-
-                url = f"https://www.gntcollations.com/collations/{manuscript_id}.html"
-
-                return (
-                    "[[" + manuscript_handle + "](" + url + ")]{.apparatus-manuscript-link}"
-                )
+                    return (
+                        "[[" + manuscript_handle + "](" + url + ")]{.apparatus-manuscript-link}"
+                    )
+                
+                if len(standalone_manuscripts) > 0:
+                
+                    print(standalone_manuscripts)
+                    standalone_manuscripts['formatted_ids'] = standalone_manuscripts['docID'].apply(lambda mlist: [add_link_to_manuscript_id(manuscript_id) for manuscript_id in mlist]).apply(lambda x: ' '.join(x))
+                    standalone_manuscripts['formatted_text_for_this_century'] = "**" + standalone_manuscripts['century_late'].apply(roman.toRoman) + "**: " + standalone_manuscripts['formatted_ids']
+                    
+                    print(standalone_manuscripts)
+            
+                
+                return formatted_manuscript_coincidence
+            
+            textual_units['formatted_manuscript_coincidence'] = textual_units['manuscript_coincidence'].apply(format_manuscript_coincidences_for_quarto)
+            
+            print(textual_units)
+            exit()
+            
+                
 
             ##### Assign a string to the below variable if you want to add a Majority Text marker
 
