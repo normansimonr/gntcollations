@@ -92,7 +92,6 @@ h2 {
 
 .apparatus-corrected {
     font-size: 0.84em;  
-    font-weight: bold;
 }
 
 .apparatus-byzatine-primary-line {
@@ -101,5 +100,13 @@ h2 {
 
 .apparatus-manuscript-link {
     font-size: 0.84em;
+}
+
+.century-apparatus {
+    color: #757472;
+}
+
+.correction-label-apparatus {
+    color: #757472;
 }
 
