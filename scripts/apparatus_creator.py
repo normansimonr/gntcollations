@@ -79,7 +79,7 @@ editor:
 ---
 """
 
-for book_name in manuscript_attestation.keys():
+for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
     
     byz_book_abbrs = {
     'First Corinthians': '1CO',
