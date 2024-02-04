@@ -6,10 +6,10 @@ import roman
 import json
 import itertools
 
-file_path = '../apparatus/manuscript_verse_relation.json'
+file_path = "../apparatus/manuscript_verse_relation.json"
 
 # Open the JSON file in read mode and use json.load() to load it into a Python dictionary
-with open(file_path, 'r') as f:
+with open(file_path, "r") as f:
     manuscript_attestation_strings = json.load(f)
 
 # Converting chapters and verses to integers
@@ -20,7 +20,9 @@ for book_name in manuscript_attestation_strings.keys():
     for chapter in manuscript_attestation_strings[book_name].keys():
         manuscript_attestation[book_name][int(chapter)] = {}
         for verse in manuscript_attestation_strings[book_name][chapter].keys():
-            manuscript_attestation[book_name][int(chapter)][int(verse)] = manuscript_attestation_strings[book_name][chapter][verse]
+            manuscript_attestation[book_name][int(chapter)][
+                int(verse)
+            ] = manuscript_attestation_strings[book_name][chapter][verse]
 
 # Analysis
 
@@ -79,56 +81,52 @@ editor:
 ---
 """
 
-for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
-    
+for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
     byz_book_abbrs = {
-    'First Corinthians': '1CO',
-    'First John': '1JO',
-    'First Peter': '1PE',
-    'First Thessalonians': '1TH',
-    'First Timothy': '1TI',
-    'Second Corinthians': '2CO',
-    'Second John': '2JO',
-    'Second Peter': '2PE',
-    'Second Thessalonians': '2TH',
-    'Second Timoty': '2TI',
-    'Third John': '3JO',
-    'Acts': 'ACT',
-    'Colossians': 'COL',
-    'Ephesians': 'EPH',
-    'Galatians': 'GAL',
-    'Hebrews': 'HEB',
-    'James': 'JAM',
-    'The Gospel of John': 'JOH',
-    'Jude': 'JUD',
-    'The Gospel of Luke': 'LUK',
-    'The Gospel of Mark': 'MAR',
-    'The Gospel of Matthew': 'MAT',
-    'Philemon': 'PHM',
-    'Phillipians': 'PHP',
-    'Revelation': 'REV',
-    'Romans': 'ROM',
-    'Titus': 'TIT',
+        "First Corinthians": "1CO",
+        "First John": "1JO",
+        "First Peter": "1PE",
+        "First Thessalonians": "1TH",
+        "First Timothy": "1TI",
+        "Second Corinthians": "2CO",
+        "Second John": "2JO",
+        "Second Peter": "2PE",
+        "Second Thessalonians": "2TH",
+        "Second Timoty": "2TI",
+        "Third John": "3JO",
+        "Acts": "ACT",
+        "Colossians": "COL",
+        "Ephesians": "EPH",
+        "Galatians": "GAL",
+        "Hebrews": "HEB",
+        "James": "JAM",
+        "The Gospel of John": "JOH",
+        "Jude": "JUD",
+        "The Gospel of Luke": "LUK",
+        "The Gospel of Mark": "MAR",
+        "The Gospel of Matthew": "MAT",
+        "Philemon": "PHM",
+        "Phillipians": "PHP",
+        "Revelation": "REV",
+        "Romans": "ROM",
+        "Titus": "TIT",
     }
-
 
     byz = pd.read_csv(f"../byz_csv/{byz_book_abbrs[book_name]}.csv")
 
-    
-
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in [15]:#manuscript_attestation[book_name].keys():
+    for chapter in [15]:  # manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in [19]:#verses:
+        for verse in [19]:  # verses:
             print(f"Processing verse {chapter}:{verse}")
-            manuscripts_attesting_this_verse = manuscript_attestation[book_name][chapter][
-                verse
-            ]
+            manuscripts_attesting_this_verse = manuscript_attestation[book_name][
+                chapter
+            ][verse]
 
             verse_attestation = []
 
@@ -136,7 +134,9 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 # print("Processing", manuscript_id)
                 # Read the QMD file
                 with open(
-                    "../collations/" + str(manuscript_id) + ".qmd", "r", encoding="utf-8"
+                    "../collations/" + str(manuscript_id) + ".qmd",
+                    "r",
+                    encoding="utf-8",
                 ) as file:
                     qmd_content = file.read()
 
@@ -145,7 +145,9 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 )
 
                 if isinstance(this_verse_text_and_coordinates, pd.DataFrame):
-                    parsed_greek = this_verse_text_and_coordinates["parsed_greek"].iloc[0]
+                    parsed_greek = this_verse_text_and_coordinates["parsed_greek"].iloc[
+                        0
+                    ]
 
                     # Replacing unclear and supplied words
 
@@ -178,9 +180,9 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 "verse",
                 "parsed_greek",
             ]
-            verse_attestation["manuscript_id"] = verse_attestation["manuscript_id"].astype(
-                str
-            )
+            verse_attestation["manuscript_id"] = verse_attestation[
+                "manuscript_id"
+            ].astype(str)
 
             # Check if '.greek-abbr' is a substring in any cell of all columns
             # We don't show nomina sacra, so it's important to alert the reader
@@ -253,15 +255,19 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
 
             verse_attestation = pd.concat([verse_attestation, corrected_temp])
             del corrected_temp
-            
-            verse_attestation['parsed_greek_clean'] = verse_attestation['parsed_greek_clean'].str.strip()
-            
+
+            verse_attestation["parsed_greek_clean"] = verse_attestation[
+                "parsed_greek_clean"
+            ].str.strip()
+
             # Removing empty texts that are not the Byzantine witness
-            condition = (len(verse_attestation['parsed_greek_clean'].str.split()) == 0) | (verse_attestation['parsed_greek_clean'] == '')
-            condition = (condition) & (verse_attestation['manuscript_id'] != 'Byz')
+            condition = (
+                len(verse_attestation["parsed_greek_clean"].str.split()) == 0
+            ) | (verse_attestation["parsed_greek_clean"] == "")
+            condition = (condition) & (verse_attestation["manuscript_id"] != "Byz")
             condition = ~condition
             verse_attestation = verse_attestation[condition]
-            
+
             # Removing fragmentary manuscripts
             def define_if_too_fragmentary(text):
                 num_words = len(text.split())
@@ -275,56 +281,101 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                     return True
                 else:
                     return False
-            
-            
+
             verse_attestation["too_fragmentary"] = verse_attestation[
                 "parsed_greek_clean"
             ].apply(define_if_too_fragmentary)
-            
-            fragmentary_manuscripts = verse_attestation[verse_attestation["too_fragmentary"]]
-            non_fragmentary_manuscripts = verse_attestation[~verse_attestation["too_fragmentary"]]
-            
+
+            fragmentary_manuscripts = verse_attestation[
+                verse_attestation["too_fragmentary"]
+            ]
+            non_fragmentary_manuscripts = verse_attestation[
+                ~verse_attestation["too_fragmentary"]
+            ]
+
             num_manuscripts_attesting_this_verse_corrected = len(
-                non_fragmentary_manuscripts[non_fragmentary_manuscripts["has_corrections"]]
+                non_fragmentary_manuscripts[
+                    non_fragmentary_manuscripts["has_corrections"]
+                ]
             )
-            
+
             # Manuscript groups
-            manuscript_groups = non_fragmentary_manuscripts[['manuscript_id', 'parsed_greek_clean']].groupby('parsed_greek_clean')['manuscript_id'].apply(list).reset_index()
-            manuscript_groups['group_size'] = manuscript_groups['manuscript_id'].apply(len)
-            manuscript_groups = manuscript_groups.sort_values(by=['group_size'], ascending=False)
-            
-            manuscript_groups['contains_byz'] = manuscript_groups['manuscript_id'].apply(lambda x: True if 'Byz' in x else False)
-            
-            unanimous_group = manuscript_groups[manuscript_groups['contains_byz']]
-            unanimous_group['manuscript_id'] = unanimous_group['manuscript_id'].apply(lambda mlist: [x for x in mlist if x != 'Byz']) # Removing Byz to avoid counting it as a witness
-            unanimous_group['group_size'] = unanimous_group['manuscript_id'].apply(len)
-            unanimous_group_badge = f"→**unanimous**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~"
-            unanimous_group['group_name'] = unanimous_group_badge
-            
-            manuscript_groups = manuscript_groups[~manuscript_groups['contains_byz']]
-            
-            middle_sized_groups = manuscript_groups[manuscript_groups['group_size'] >= 2]
-            num_repeats = len(middle_sized_groups) // 26 + 1 # Calculate the number of times the alphabet has to repeat. This is to generate the alphabetical group indexes
-            alphabet = [chr(i) for i in range(97, 123)]  # Create a list of alphabetical characters, a to z
-            char_cycle = itertools.cycle(alphabet) # Create a generator to cycle through the characters
+            manuscript_groups = (
+                non_fragmentary_manuscripts[["manuscript_id", "parsed_greek_clean"]]
+                .groupby("parsed_greek_clean")["manuscript_id"]
+                .apply(list)
+                .reset_index()
+            )
+            manuscript_groups["group_size"] = manuscript_groups["manuscript_id"].apply(
+                len
+            )
+            manuscript_groups = manuscript_groups.sort_values(
+                by=["group_size"], ascending=False
+            )
+
+            manuscript_groups["contains_byz"] = manuscript_groups[
+                "manuscript_id"
+            ].apply(lambda x: True if "Byz" in x else False)
+
+            unanimous_group = manuscript_groups[manuscript_groups["contains_byz"]]
+            unanimous_group["manuscript_id"] = unanimous_group["manuscript_id"].apply(
+                lambda mlist: [x for x in mlist if x != "Byz"]
+            )  # Removing Byz to avoid counting it as a witness
+            unanimous_group["group_size"] = unanimous_group["manuscript_id"].apply(len)
+            unanimous_group_badge = (
+                f"→**unanimous**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~"
+            )
+            unanimous_group["group_name"] = unanimous_group_badge
+
+            manuscript_groups = manuscript_groups[~manuscript_groups["contains_byz"]]
+
+            middle_sized_groups = manuscript_groups[
+                manuscript_groups["group_size"] >= 2
+            ]
+            num_repeats = (
+                len(middle_sized_groups) // 26 + 1
+            )  # Calculate the number of times the alphabet has to repeat. This is to generate the alphabetical group indexes
+            alphabet = [
+                chr(i) for i in range(97, 123)
+            ]  # Create a list of alphabetical characters, a to z
+            char_cycle = itertools.cycle(
+                alphabet
+            )  # Create a generator to cycle through the characters
             index_chars = []
             for i in range(num_repeats):
-                index_chars.extend([f"→**{(char * (i + 1)).upper()}**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~" for char in alphabet])         
-            middle_sized_groups['group_name'] = index_chars[:len(middle_sized_groups)]
-            
-            one_sized_groups = manuscript_groups[manuscript_groups['group_size'] == 1]
-            one_sized_groups['group_name'] = one_sized_groups['manuscript_id'].apply(lambda x: x[0])
-            
-            manuscript_groups = pd.concat([unanimous_group, middle_sized_groups, one_sized_groups])
-            
-            #print(manuscript_groups)
-            
+                index_chars.extend(
+                    [
+                        f"→**{(char * (i + 1)).upper()}**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~"
+                        for char in alphabet
+                    ]
+                )
+            middle_sized_groups["group_name"] = index_chars[: len(middle_sized_groups)]
+
+            one_sized_groups = manuscript_groups[manuscript_groups["group_size"] == 1]
+            one_sized_groups["group_name"] = one_sized_groups["manuscript_id"].apply(
+                lambda x: x[0]
+            )
+
+            manuscript_groups = pd.concat(
+                [unanimous_group, middle_sized_groups, one_sized_groups]
+            )
+
+            # print(manuscript_groups)
+
             collation = collatex.Collation()
 
             for index, row in manuscript_groups.iterrows():
-                print(book_name, chapter, verse, row["group_name"], row["parsed_greek_clean"])
-                collation.add_plain_witness(row["group_name"], row["parsed_greek_clean"])
-            
+                print(
+                    book_name,
+                    chapter,
+                    verse,
+                    row["group_name"],
+                    row["parsed_greek_clean"],
+                )
+                collation.add_plain_witness(
+                    row["group_name"], row["parsed_greek_clean"]
+                )
+
             collatex_output = collatex.collate(
                 collation, layout="vertical", near_match=True, segmentation=False
             )
@@ -345,36 +396,39 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 return df
 
             alignment_table = collatex_output_to_df(collatex_output).T
-            
+
             # Removing unwanted NAs
             alignment_table = alignment_table.fillna("-")
-            alignment_table = alignment_table.replace("-", pd.NA).dropna(axis=1, how="all")
+            alignment_table = alignment_table.replace("-", pd.NA).dropna(
+                axis=1, how="all"
+            )
             alignment_table.columns = range(len(alignment_table.columns))
             alignment_table = alignment_table.fillna("•")
 
-            
-            
             # Find the base column (Byz)
             byz_column_base = alignment_table.loc[unanimous_group_badge]
-            
+
             textual_units = []
             for column_name in alignment_table.columns:
                 textual_unit = alignment_table[column_name].reset_index()
                 textual_unit.columns = ["manuscript_coincidence", "reading"]
                 textual_unit = (
-                    textual_unit.groupby("reading")["manuscript_coincidence"].agg(list).to_frame()
+                    textual_unit.groupby("reading")["manuscript_coincidence"]
+                    .agg(list)
+                    .to_frame()
                 )
                 textual_unit["position"] = column_name
                 textual_units.append(textual_unit)
 
             textual_units = pd.concat(textual_units)
-            textual_units["is_byzantine"] = textual_units["manuscript_coincidence"].apply(
-                lambda x: True if unanimous_group_badge in x else False
-            )
+            textual_units["is_byzantine"] = textual_units[
+                "manuscript_coincidence"
+            ].apply(lambda x: True if unanimous_group_badge in x else False)
 
             # Determining which manuscripts have a text identical to Byz
-            manuscripts_verse_identical_to_byz = unanimous_group['manuscript_id'].iloc[0]
-        
+            manuscripts_verse_identical_to_byz = unanimous_group["manuscript_id"].iloc[
+                0
+            ]
 
             ##### Counting the manuscripts and ignoring fragmentary ones
 
@@ -401,25 +455,32 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
             liste["century_late"] = liste["origLate"].astype(int).apply(year_to_century)
             liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
-            
-            
             def format_manuscript_coincidences_for_quarto(manuscript_coincidence):
                 formatted_manuscript_coincidence = []
                 standalone_manuscript_ids = []
                 corrected_manuscripts_ids = []
                 for coincidence in manuscript_coincidence:
-                    if coincidence[0] == '→':
+                    if coincidence[0] == "→":
                         formatted_manuscript_coincidence.append(coincidence)
                     elif "^c^" in coincidence:
                         corrected_manuscripts_ids.append(coincidence)
                     else:
                         standalone_manuscript_ids.append(coincidence)
-                
-                formatted_manuscript_coincidence = ' '.join(formatted_manuscript_coincidence)
-                
-                standalone_manuscripts = liste[liste['docID'].isin(standalone_manuscript_ids)]
-                standalone_manuscripts = standalone_manuscripts[['docID', 'century_late']].groupby('century_late', group_keys=False)['docID'].apply(list).reset_index()
-                
+
+                formatted_manuscript_coincidence = " ".join(
+                    formatted_manuscript_coincidence
+                )
+
+                standalone_manuscripts = liste[
+                    liste["docID"].isin(standalone_manuscript_ids)
+                ]
+                standalone_manuscripts = (
+                    standalone_manuscripts[["docID", "century_late"]]
+                    .groupby("century_late", group_keys=False)["docID"]
+                    .apply(list)
+                    .reset_index()
+                )
+
                 def add_link_to_manuscript_id(manuscript_id):
                     if "^c^" in manuscript_id:
                         manuscript_id = manuscript_id.replace("^c^", "")
@@ -428,41 +489,78 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                         manuscript_handle = manuscript_id
 
                     if "^c^" in manuscript_handle:
-                        manuscript_handle = "[" + manuscript_handle + "?]{.apparatus-corrected}"
+                        manuscript_handle = (
+                            "[" + manuscript_handle + "?]{.apparatus-corrected}"
+                        )
 
-                    url = f"https://www.gntcollations.com/collations/{manuscript_id}.html"
+                    url = (
+                        f"https://www.gntcollations.com/collations/{manuscript_id}.html"
+                    )
 
                     return (
-                        "[[" + manuscript_handle + "](" + url + ")]{.apparatus-manuscript-link}"
+                        "[["
+                        + manuscript_handle
+                        + "]("
+                        + url
+                        + ")]{.apparatus-manuscript-link}"
                     )
-                
-                
-                standalone_manuscripts_formatted_string = ""                
+
+                standalone_manuscripts_formatted_string = ""
                 if len(standalone_manuscripts) > 0:
-                    standalone_manuscripts['formatted_ids'] = standalone_manuscripts['docID'].apply(lambda mlist: [add_link_to_manuscript_id(manuscript_id) for manuscript_id in mlist]).apply(lambda x: ' '.join(x))
-                    standalone_manuscripts['formatted_text_for_this_century'] = "[" + standalone_manuscripts['century_late'].apply(roman.toRoman).str.lower() + "]{.century-apparatus}: " + standalone_manuscripts['formatted_ids']
-                    standalone_manuscripts_formatted_string = " ".join(standalone_manuscripts['formatted_text_for_this_century'])
-                
-                corrected_manuscripts_formatted_string = "" 
+                    standalone_manuscripts["formatted_ids"] = (
+                        standalone_manuscripts["docID"]
+                        .apply(
+                            lambda mlist: [
+                                add_link_to_manuscript_id(manuscript_id)
+                                for manuscript_id in mlist
+                            ]
+                        )
+                        .apply(lambda x: " ".join(x))
+                    )
+                    standalone_manuscripts["formatted_text_for_this_century"] = (
+                        "["
+                        + standalone_manuscripts["century_late"]
+                        .apply(roman.toRoman)
+                        .str.lower()
+                        + "]{.century-apparatus}: "
+                        + standalone_manuscripts["formatted_ids"]
+                    )
+                    standalone_manuscripts_formatted_string = " ".join(
+                        standalone_manuscripts["formatted_text_for_this_century"]
+                    )
+
+                corrected_manuscripts_formatted_string = ""
                 if len(corrected_manuscripts_ids) > 0:
-                    corrected_manuscripts_formatted_string = "[Corr.]{.correction-label-apparatus}: " + " ".join(add_link_to_manuscript_id(manuscript_id) for manuscript_id in corrected_manuscripts_ids)
-                
+                    corrected_manuscripts_formatted_string = (
+                        "[Corr.]{.correction-label-apparatus}: "
+                        + " ".join(
+                            add_link_to_manuscript_id(manuscript_id)
+                            for manuscript_id in corrected_manuscripts_ids
+                        )
+                    )
+
                 first_separator = ""
                 second_separator = ""
-                
+
                 if len(formatted_manuscript_coincidence.strip()) > 0:
                     first_separator = " || "
-                
+
                 if len(standalone_manuscripts_formatted_string.strip()) > 0:
                     if len(corrected_manuscripts_formatted_string.strip()) > 0:
                         second_separator = " || "
-                
-                
-                return formatted_manuscript_coincidence + first_separator + standalone_manuscripts_formatted_string + second_separator + corrected_manuscripts_formatted_string
-            
-            textual_units['formatted_manuscript_coincidence'] = textual_units['manuscript_coincidence'].apply(format_manuscript_coincidences_for_quarto)
-            
-            
+
+                return (
+                    formatted_manuscript_coincidence
+                    + first_separator
+                    + standalone_manuscripts_formatted_string
+                    + second_separator
+                    + corrected_manuscripts_formatted_string
+                )
+
+            textual_units["formatted_manuscript_coincidence"] = textual_units[
+                "manuscript_coincidence"
+            ].apply(format_manuscript_coincidences_for_quarto)
+
             ##### Creating the QMD
 
             byz_qmd_string = f"\n\n### Verse {chapter}:{verse}\n\n"
@@ -491,8 +589,6 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 this_verse_collation_string = (
                     byz_qmd_string + "]{.apparatus-byzatine-primary-line}\n\n"
                 )
-            
-            
 
             ########################################
             ########################################
@@ -516,10 +612,14 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
             )
 
             if num_fragmentary_manuscripts_this_verse > 0:
-                manuscripts_exluded_too_fragmentary = fragmentary_manuscripts["manuscript_id"].to_list()
+                manuscripts_exluded_too_fragmentary = fragmentary_manuscripts[
+                    "manuscript_id"
+                ].to_list()
                 manuscripts_exluded_too_fragmentary_string = (
                     f"Manuscripts *ignored* due to being too fragmentary ({num_fragmentary_manuscripts_this_verse}): "
-                    + format_manuscript_coincidences_for_quarto(manuscripts_exluded_too_fragmentary)   
+                    + format_manuscript_coincidences_for_quarto(
+                        manuscripts_exluded_too_fragmentary
+                    )
                 )
                 this_verse_collation_string = (
                     this_verse_collation_string
@@ -528,8 +628,6 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                     + "\n"
                 )
 
-            
-            
             if num_manuscripts_attesting_this_verse_corrected > 0:
                 manuscripts_duplicated_corrected = verse_attestation[
                     verse_attestation["has_corrections"]
@@ -537,7 +635,9 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                 ]["manuscript_id"].to_list()
                 manuscripts_duplicated_corrected_string = (
                     f"Manuscripts *included twice* due to having corrected hands ({num_manuscripts_attesting_this_verse_corrected}): "
-                    + format_manuscript_coincidences_for_quarto(manuscripts_duplicated_corrected)                    
+                    + format_manuscript_coincidences_for_quarto(
+                        manuscripts_duplicated_corrected
+                    )
                 )
                 this_verse_collation_string = (
                     this_verse_collation_string
@@ -546,11 +646,18 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                     + "\n"
                 )
 
-            num_witnesses_included_in_collation = num_manuscripts_attesting_this_verse_not_including_corrected - num_fragmentary_manuscripts_this_verse + num_manuscripts_attesting_this_verse_corrected
-            
+            num_witnesses_included_in_collation = (
+                num_manuscripts_attesting_this_verse_not_including_corrected
+                - num_fragmentary_manuscripts_this_verse
+                + num_manuscripts_attesting_this_verse_corrected
+            )
+
             witnesses_taken_into_account_string = f"**Number of witnesses that were taken into account in the collation: {num_witnesses_included_in_collation}**\n\n(The total number of witnesses is calculated as the total manuscripts minus the fragmentary manuscripts plus the corrected hands.)"
             this_verse_collation_string = (
-                this_verse_collation_string + "\n\n" + witnesses_taken_into_account_string + "\n\n"
+                this_verse_collation_string
+                + "\n\n"
+                + witnesses_taken_into_account_string
+                + "\n\n"
             )
 
             final_callout = "\n:::\n\n"
@@ -580,80 +687,97 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                     + '::: {.callout-important collapse="true" icon="false"}\n## Potentially inaccurate\nOne or more of the witnesses included in the collation are corrected. Due to the limitations of the TEI-XML format, it is not possible to automatically reconstruct the corrected hand perfectly. For this reason, the apparatus may display inaccuracies. The corrected hands have been marked with a ? symbol in order to highlight this uncertainty.\n:::\n\n'
                 )
 
-            
             ######################################
             ######################################
             ##### Creating the groups callout ####
             ######################################
-            ######################################            
-            
-            unanimous_group_size = unanimous_group['group_size'].iloc[0]
-            middle_sized_groups_size = middle_sized_groups['group_size'].sum()
-            one_sized_groups_size = one_sized_groups['group_size'].sum()
-            
+            ######################################
+
+            unanimous_group_size = unanimous_group["group_size"].iloc[0]
+            middle_sized_groups_size = middle_sized_groups["group_size"].sum()
+            one_sized_groups_size = one_sized_groups["group_size"].sum()
+
             initial_callout = (
                 '::: {.callout-tip collapse="true" icon="false"}\n## Witness groups\n\n'
             )
-            
-            initial_callout = initial_callout + f"The below groups show witnesses that share identical texts for the entire verse. That is, any two witnesses belong in the same group if their texts are identical for the entire verse. There are {unanimous_group_size + middle_sized_groups_size} witnesses in groups for this verse. For these, the apparatus lists the group instead of the individual witnesses. The group names are assigned automatically and their composition may change as new manuscripts are added to the collation in future. The remaining witnesses ({one_sized_groups_size}) attest to singular texts for the entire verse and are therefore not part of any group. These non-aligned witnesses are individually shown in the apparatus.\n"
-            
+
+            initial_callout = (
+                initial_callout
+                + f"The below groups show witnesses that share identical texts for the entire verse. That is, any two witnesses belong in the same group if their texts are identical for the entire verse. There are {unanimous_group_size + middle_sized_groups_size} witnesses in groups for this verse. For these, the apparatus lists the group instead of the individual witnesses. The group names are assigned automatically and their composition may change as new manuscripts are added to the collation in future. The remaining witnesses ({one_sized_groups_size}) attest to singular texts for the entire verse and are therefore not part of any group. These non-aligned witnesses are individually shown in the apparatus.\n"
+            )
+
             # Unanimous group
             manuscripts_verse_identical_to_byz_string = f"\n**Witnesses that attest a verse identical with Byz^RP^, or 'unanimous' ({unanimous_group_badge}) group ({unanimous_group_size})**: "
-            
-            if unanimous_group['group_size'].iloc[0] > 0:
+
+            if unanimous_group["group_size"].iloc[0] > 0:
                 manuscripts_verse_identical_to_byz_string = (
                     manuscripts_verse_identical_to_byz_string
-                    + format_manuscript_coincidences_for_quarto(unanimous_group['manuscript_id'].iloc[0])
+                    + format_manuscript_coincidences_for_quarto(
+                        unanimous_group["manuscript_id"].iloc[0]
+                    )
                 )
             else:
-                manuscripts_verse_identical_to_byz_string = manuscripts_verse_identical_to_byz_string + "None."
+                manuscripts_verse_identical_to_byz_string = (
+                    manuscripts_verse_identical_to_byz_string + "None."
+                )
 
             this_verse_collation_string = (
                 this_verse_collation_string
                 + initial_callout
-                + manuscripts_verse_identical_to_byz_string                
+                + manuscripts_verse_identical_to_byz_string
             )
-            
+
             # Other groups
             other_groups_string = ""
             if middle_sized_groups_size > 0:
                 for index, row in middle_sized_groups.iterrows():
-                    other_groups_string = other_groups_string + f"{row['group_name']} **group**, attesting to {row['parsed_greek_clean']}, ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
-                
-            
-            this_verse_collation_string = this_verse_collation_string + "\n\n" + other_groups_string + ":::\n\n"
-            
+                    other_groups_string = (
+                        other_groups_string
+                        + f"{row['group_name']} **group**, attesting to {row['parsed_greek_clean']}, ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
+                    )
+
+            this_verse_collation_string = (
+                this_verse_collation_string + "\n\n" + other_groups_string + ":::\n\n"
+            )
+
             ######################################
             ######################################
             ###### Creating the apparatus ########
             ######################################
             ######################################
-            
-            
+
             def calculate_num_witnesses_supporting_this_reading(manuscript_coincidence):
                 witness_count = 0
                 for coincidence in manuscript_coincidence:
                     if coincidence == unanimous_group_badge:
                         witness_count = witness_count + unanimous_group_size
-                    elif coincidence in middle_sized_groups['group_name'].unique():
-                        witness_count = witness_count + middle_sized_groups[middle_sized_groups['group_name']==coincidence]['group_size'].iloc[0]
+                    elif coincidence in middle_sized_groups["group_name"].unique():
+                        witness_count = (
+                            witness_count
+                            + middle_sized_groups[
+                                middle_sized_groups["group_name"] == coincidence
+                            ]["group_size"].iloc[0]
+                        )
                     else:
                         witness_count = witness_count + 1
                 return witness_count
-            
+
             apparatus_string = ""
-            
-            
+
             for position in range(len(byz_column_base)):
                 footnote_marker = position + 1
-                
+
                 # Byzantine reading
                 witnesses_supporting_this_byzantine_reading = textual_units[
                     (textual_units["position"] == position)
                     & (textual_units["is_byzantine"] == True)
                 ]["manuscript_coincidence"].iloc[0]
-                
-                num_witnesses_supporting_this_byzantine_reading = calculate_num_witnesses_supporting_this_reading(witnesses_supporting_this_byzantine_reading)
+
+                num_witnesses_supporting_this_byzantine_reading = (
+                    calculate_num_witnesses_supporting_this_reading(
+                        witnesses_supporting_this_byzantine_reading
+                    )
+                )
 
                 apparatus_string = (
                     apparatus_string
@@ -663,10 +787,12 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                     + "**"
                     + byz_column_base[position].replace("EMPTY", "•")
                     + f"]** ({num_witnesses_supporting_this_byzantine_reading}/{num_witnesses_included_in_collation}) "
-                    + format_manuscript_coincidences_for_quarto(witnesses_supporting_this_byzantine_reading)
+                    + format_manuscript_coincidences_for_quarto(
+                        witnesses_supporting_this_byzantine_reading
+                    )
                     + "\n\n"
                 )
-                
+
                 # Non-byzantine readings
                 variants_at_this_textual_unit = textual_units[
                     (textual_units["position"] == position)
@@ -684,17 +810,19 @@ for book_name in ['The Gospel of Mark']:#manuscript_attestation.keys():
                             + "    * "
                             + reading
                             + ": "
-                            +  format_manuscript_coincidences_for_quarto(row["manuscript_coincidence"])
+                            + format_manuscript_coincidences_for_quarto(
+                                row["manuscript_coincidence"]
+                            )
                             + "\n"
                         )
 
             this_verse_collation_string = this_verse_collation_string + apparatus_string
 
             chapter_qmd_string = chapter_qmd_string + this_verse_collation_string
-            
-            
 
         book_qmd_string = book_qmd_string + chapter_qmd_string
 
-    with open(f"../apparatus/{book_name.lower().replace(' ','_')}.qmd", "w", encoding="utf-8") as file:
+    with open(
+        f"../apparatus/{book_name.lower().replace(' ','_')}.qmd", "w", encoding="utf-8"
+    ) as file:
         file.write(book_qmd_string)
