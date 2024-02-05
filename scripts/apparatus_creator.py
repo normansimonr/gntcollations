@@ -48,6 +48,8 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
     lines = this_books_content.strip().split("\n")
     df = pd.DataFrame(lines).replace("", pd.NA).dropna()
     df = df[~df[0].str.startswith("###")]  # Removing chapter marks
+    _ = df[df[0].str.contains('instance')]
+    print(_)
     df[["parsed_greek", "coordinates"]] = df[0].str.extract(
         r"^(.*?)(\[\d+:\d+\]\{.*?\})$"
     )
@@ -62,6 +64,15 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
         .str.replace(".aside", "", regex=False)
     )
     df[["chapter", "verse"]] = df["coordinates"].str.split(":", expand=True)
+    
+    
+    #print(df["verse_with_instance"].str.split("|", expand=True))
+    #df[["verse", "instance"]] = df["verse_with_instance"].str.split("|", expand=True)
+    
+    
+    df['verse'] = df['verse'].str.strip()
+    #df['instance'] = df['instance'].str.strip()
+    
     df = df[["chapter", "verse", "parsed_greek"]]
     if str(chapter) in df["chapter"].unique():
         if str(verse) in df[df["chapter"] == str(chapter)]["verse"].unique():
@@ -139,7 +150,9 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     encoding="utf-8",
                 ) as file:
                     qmd_content = file.read()
-
+                
+                #print(qmd_content)
+                
                 this_verse_text_and_coordinates = extract_verse_from_qmd(
                     qmd_content, book_name, chapter, verse
                 )
@@ -377,7 +390,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 )
 
             collatex_output = collatex.collate(
-                collation, layout="vertical", near_match=True, segmentation=False
+                collation, layout="vertical", near_match=False, segmentation=True
             )
 
             def collatex_output_to_df(collatex_output):
@@ -405,6 +418,9 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             alignment_table.columns = range(len(alignment_table.columns))
             alignment_table = alignment_table.fillna("•")
 
+            print(alignment_table)
+            alignment_table.to_csv('test.csv')
+            
             # Find the base column (Byz)
             byz_column_base = alignment_table.loc[unanimous_group_badge]
 
@@ -608,7 +624,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             this_verse_collation_string = (
                 this_verse_collation_string
                 + initial_callout
-                + f"Number of manuscripts that contain this verse: {num_manuscripts_attesting_this_verse_not_including_corrected}\n\n"
+                + f"Number of transcribed manuscripts that contain this verse: {num_manuscripts_attesting_this_verse_not_including_corrected} (note that most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus).\n\n"
             )
 
             if num_fragmentary_manuscripts_this_verse > 0:
@@ -652,7 +668,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 + num_manuscripts_attesting_this_verse_corrected
             )
 
-            witnesses_taken_into_account_string = f"**Number of witnesses that were taken into account in the collation: {num_witnesses_included_in_collation}**\n\n(The total number of witnesses is calculated as the total manuscripts minus the fragmentary manuscripts plus the corrected hands.)"
+            witnesses_taken_into_account_string = f"**Number of witnesses that were taken into account in the collation: {num_witnesses_included_in_collation}**\n\n(The total number of witnesses is calculated as the total manuscripts minus the fragmentary manuscripts plus the corrected hands)."
             this_verse_collation_string = (
                 this_verse_collation_string
                 + "\n\n"
@@ -707,7 +723,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             )
 
             # Unanimous group
-            manuscripts_verse_identical_to_byz_string = f"\n**Witnesses that attest a verse identical with Byz^RP^, or 'unanimous' ({unanimous_group_badge}) group ({unanimous_group_size})**: "
+            manuscripts_verse_identical_to_byz_string = f"\n**Witnesses that attest a verse identical with Byz^RP^, or 'unanimous' (**{unanimous_group_badge}**) group ({unanimous_group_size})**: "
 
             if unanimous_group["group_size"].iloc[0] > 0:
                 manuscripts_verse_identical_to_byz_string = (
@@ -826,3 +842,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
         f"../apparatus/{book_name.lower().replace(' ','_')}.qmd", "w", encoding="utf-8"
     ) as file:
         file.write(book_qmd_string)
+
+
+print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!\nY REMOVER LOS TESTIGOS CORREGIDOS NO ALINEADOS\nY EARLIEST ATTESTATION COMO ASIDE')

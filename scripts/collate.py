@@ -37,15 +37,16 @@ def parse_manuscript(
     verses_ab_tags = soup.find_all("ab", recursive=True)
     
     tally = []
-    for ab_tag in verses_ab_tags:        
-        if ab_tag['n'] in tally:
-            previous_appearances = pd.Series(tally).value_counts().reset_index()
-            previous_appearances.columns = ['n', 'count']
-            previous_appearances = previous_appearances[previous_appearances['n']==ab_tag['n']]['count'].iloc[0]
-            ab_tag['instance'] = previous_appearances + 1
-        else:
-            ab_tag['instance'] = 1
-        tally.append(ab_tag['n'])
+    for ab_tag in verses_ab_tags:
+        if ab_tag.has_attr('n'):
+            if ab_tag['n'] in tally:
+                previous_appearances = pd.Series(tally).value_counts().reset_index()
+                previous_appearances.columns = ['n', 'count']
+                previous_appearances = previous_appearances[previous_appearances['n']==ab_tag['n']]['count'].iloc[0]
+                ab_tag['instance'] = previous_appearances + 1
+            else:
+                ab_tag['instance'] = 1
+            tally.append(ab_tag['n'])
             
 
     # Find all <app> tags without an 'n' attribute
@@ -616,7 +617,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
     ):
         
         if instance > 1:
-            verse_string_extracted = f"{verse_string_extracted} (instance no. {int(instance)})"
+            verse_string_extracted = f"{verse_string_extracted} | instance no. {int(instance)}"
         
         prefix = ""
         suffix = ""
@@ -709,8 +710,6 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
     for collated_verse in merged["collations_quarto"]:
         manuscript_qmd = manuscript_qmd + collated_verse + "\n"
-
-    print(manuscript_qmd)
     
     with open(f"../collations/{manuscript_id}.qmd", "w") as file:
         file.write(manuscript_qmd)
@@ -766,7 +765,59 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-manuscript_ids = ['40060']
+manuscript_ids = [
+    '30003',
+'32680',
+'31009',
+'32193',
+'32517',
+'30733',
+'31326',
+'30179',
+'40060',
+'30863',
+'31084',
+'32487',
+'30079',
+'32148',
+'31337',
+'30780',
+'32411',
+'32537',
+'40547',
+'30382',
+'31253',
+'40773',
+'30273',
+'30222',
+'40211',
+'30595',
+'30579',
+'40950',
+'20211',
+'20005',
+'30565',
+'40387',
+'30349',
+'30349',
+'30803',
+'40844',
+'30595',
+'30176',
+'30700',
+'30792',
+'30004',
+'31528',
+'31128',
+'30513',
+'32738',
+'30061',
+'30061',
+'20044',
+'30118',
+'40770',
+'30829',
+    ]
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:
@@ -774,6 +825,8 @@ for manuscript_id in manuscript_ids:
 
         man_soup = BeautifulSoup(file_contents, "xml")
         word_tags = man_soup.find_all("w")
+        
+        collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste)
 
         if manuscript_id + ".qmd" in qmd_files:
             print("\t", manuscript_id, "already present in folder, skipping")
