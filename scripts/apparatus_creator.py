@@ -408,14 +408,47 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             alignment_table = alignment_table.replace("-", pd.NA).dropna(
                 axis=1, how="all"
             )
-            alignment_table.columns = range(len(alignment_table.columns))
+            alignment_table.columns = range(len(alignment_table.columns))            
+            
             alignment_table = alignment_table.fillna("•")
-
-            print(alignment_table)
-            alignment_table.to_csv('test.csv')
             
             # Find the base column (Byz)
             byz_column_base = alignment_table.loc[unanimous_group_badge]
+            
+            # Merging empty textual units. if A is not empty, B is empty and C is not empty, the result is A, BC.            
+            columns_to_merge_in_alignment_table = []
+            
+            for index, row in pd.DataFrame(byz_column_base).iterrows():
+                if row.iloc[0] == '•':
+                    if index == len(byz_column_base) - 1:
+                        columns_to_merge_in_alignment_table.append([index - 1, index])
+                    else:
+                        columns_to_merge_in_alignment_table.append([index, index + 1])
+            
+            columns_to_merge_in_alignment_table = pd.Series(columns_to_merge_in_alignment_table).drop_duplicates().to_list()
+            columns_to_merge_in_alignment_table.reverse()
+            
+            for merge_this_pair in columns_to_merge_in_alignment_table:
+                alignment_table[merge_this_pair[0]] = alignment_table[merge_this_pair[0]] + " " + alignment_table[merge_this_pair[1]]
+                alignment_table = alignment_table.drop(columns=[merge_this_pair[1]])
+            
+            for col in alignment_table.columns:
+                alignment_table[col] = alignment_table[col].str.replace("•", " ").str.replace("\s+", " ", regex=True).str.strip().replace("", "•")
+            
+            alignment_table.columns = range(len(alignment_table.columns))
+            
+            # Check that the last textual unit is not an empty unit in Byz
+            byz_column_base = alignment_table.loc[unanimous_group_badge]
+            
+            if byz_column_base.iloc[-1] == '•':
+                alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2] + " " + alignment_table[len(byz_column_base)-1]
+                alignment_table = alignment_table.drop(columns=[len(byz_column_base)-1])
+                alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2].str.replace("•", " ").str.replace("\s+", " ", regex=True).str.strip().replace("", "•")
+                
+            alignment_table.to_csv('test.csv')
+            print(alignment_table)
+            
+            # Agglomerating the coincidences
 
             textual_units = []
             for column_name in alignment_table.columns:
@@ -703,10 +736,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 + witness_counts_table.to_markdown(index=False)
                 + "\n:::\n\n"
             )
-            
-            print(non_fragmentary_manuscripts[
-                    non_fragmentary_manuscripts["has_corrections"]
-                ])
 
             #######################################
             #######################################
@@ -872,6 +901,5 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
         file.write(book_qmd_string)
 
 
-print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!\nY REMOVER LOS TESTIGOS CORREGIDOS NO ALINEADOS\nY EARLIEST ATTESTATION COMO ASIDE')
+print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!\nY EARLIEST ATTESTATION COMO ASIDE')
 print('ARREGLAR 30803')
-print('MERGE ESPACIOS BLANCO')
