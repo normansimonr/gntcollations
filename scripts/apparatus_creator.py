@@ -985,6 +985,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
         file.write(book_qmd_string)
 
 
-print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!\nY EARLIEST ATTESTATION COMO ASIDE')
+print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!')
+print('SI unanumous es solo un man corrected, entonces no contar el siglo, Mk 15:43')
 print('REMOVER GAP')
 print('ARREGLAR 30803')
