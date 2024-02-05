@@ -131,7 +131,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in [19]:  # verses:
+        for verse in verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -179,7 +179,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 byz_verse = "EMPTY"
             else:
                 byz_verse = byz_verse[0]
-
+            
             verse_attestation.append(["Byz", chapter, verse, byz_verse])
 
             verse_attestation = pd.DataFrame(verse_attestation)
@@ -202,6 +202,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             # Collation
             # Cleaning the texts
             def clean_text(text):
+                text = text.replace('\n', ' ')
                 pattern_omitted = r"\[[^\]]+\]\{\.greek-omitted\}"
                 cleaned_string = re.sub(pattern_omitted, "", text)
                 pattern_supplied = r"\[[^\]]+\]\{\.greek-supplied\}"
@@ -371,21 +372,31 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             collation = collatex.Collation()
 
             for index, row in manuscript_groups.iterrows():
-                print(
-                    book_name,
-                    chapter,
-                    verse,
-                    row["group_name"],
-                    row["parsed_greek_clean"],
-                )
+                #print(
+                    #book_name,
+                    #chapter,
+                    #verse,
+                    #row["group_name"],
+                    #row["parsed_greek_clean"],
+                #)
                 collation.add_plain_witness(
                     row["group_name"], row["parsed_greek_clean"]
                 )
 
             collatex_output = collatex.collate(
-                collation, layout="vertical", near_match=False, segmentation=True
+                collation, layout="horizontal", near_match=False, segmentation=True
             )
+            
+            collatex_output = str(collatex_output)
+            # Specify the file path where you want to save the text file
+            file_path = "output.txt"
+            
+            # Open the file in write mode and write the content of collatex_output to it
+            with open(file_path, 'w') as file:
+                file.write(collatex_output)
 
+            
+            
             def collatex_output_to_df(collatex_output):
                 collatex_output = str(collatex_output)
                 rows = collatex_output.split("\n")
@@ -397,11 +408,12 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         data.append(row)
 
                 # Create a DataFrame from the extracted data
-                df = pd.DataFrame(data[1:], columns=data[0])
-
+                df = pd.DataFrame(data).set_index(0)
+                df.columns = range(0, df.shape[1])
+                df.index.name = 'manuscript_id'
                 return df
 
-            alignment_table = collatex_output_to_df(collatex_output).T
+            alignment_table = collatex_output_to_df(collatex_output)
 
             # Removing unwanted NAs
             alignment_table = alignment_table.fillna("-")
@@ -439,16 +451,21 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             
             # Check that the last textual unit is not an empty unit in Byz
             byz_column_base = alignment_table.loc[unanimous_group_badge]
+            print(byz_column_base)
             
             if byz_column_base.iloc[-1] == '•':
                 alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2] + " " + alignment_table[len(byz_column_base)-1]
                 alignment_table = alignment_table.drop(columns=[len(byz_column_base)-1])
                 alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2].str.replace("•", " ").str.replace("\s+", " ", regex=True).str.strip().replace("", "•")
                 
+            alignment_table.columns = range(len(alignment_table.columns))
+            byz_column_base = alignment_table.loc[unanimous_group_badge]
+            
             alignment_table.to_csv('test.csv')
-            print(alignment_table)
             
             # Agglomerating the coincidences
+            
+            print(alignment_table)
 
             textual_units = []
             for column_name in alignment_table.columns:
@@ -489,7 +506,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 return (year - 1) // 100 + 1
 
             liste["century_late"] = liste["origLate"].astype(int).apply(year_to_century)
-            liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
+            #liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
             def format_manuscript_coincidences_for_quarto(manuscript_coincidence):
                 if len(manuscript_coincidence)==0:
@@ -684,7 +701,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 if m in ignored_corrected_non_aligned_witnesses['group_name'].str.replace("^c^", "", regex=False).to_list():
                     pass
                 else:
-                    manuscripts_duplicated_corrected.append(m)
+                    manuscripts_duplicated_corrected.append(m + '^c^')
             
             num_manuscripts_attesting_this_verse_corrected = len(manuscripts_duplicated_corrected)
             
@@ -705,10 +722,14 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 [
                     'Corrected witnesses *ignored* from the apparatus', # Description
                     num_corrected_ignored, # Count
-                    f'These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results', # Note
+                    f'These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the uncorrected witness is itself included in the apparatus)', # Note
                     format_manuscript_coincidences_for_quarto(manuscripts_corrected_ignored), # Manuscript list
                 ]
             )
+                
+            manuscripts_that_have_this_verse_minus_fragmentary_minus_corignored = manuscripts_that_have_this_verse_minus_fragmentary[~manuscripts_that_have_this_verse_minus_fragmentary['manuscript_id'].isin(
+                pd.Series(manuscripts_corrected_ignored).apply(lambda x: x.replace("^c^", ""))
+                )]
                 
             # Count of witnesses included in the apparatus
             num_witnesses_included_in_collation = (
@@ -745,21 +766,81 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             if is_abbreviation_present:
                 this_verse_collation_string = (
                     this_verse_collation_string
-                    + '::: {.callout-warning collapse="true" icon="false"}\n## *Nomina sacra* or abbreviations\nPlease note that one or more of the manuscripts contains *nomina sacra* which have been spelled out by our automated algorithm. This process is very accurate, but occasional mistakes can happen, especially with obscure or uncommon *nomina sacra*. In case of doubt about the actual reading of a *nomen sacrum*, please consult the original transcripts or facsimiles.\n:::\n\n'
+                    + '::: {.callout-important collapse="true" icon="false"}\n## *Nomina sacra* or abbreviations\nPlease note that one or more of the manuscripts contains *nomina sacra* which have been spelled out by our automated algorithm. This process is very accurate, but occasional mistakes can happen, especially with obscure or uncommon *nomina sacra*. In case of doubt about the actual reading of a *nomen sacrum*, please consult the original transcripts or facsimiles.\n:::\n\n'
                 )
 
-            ######################################
-            ######################################
-            ## Creating the corrections callout###
-            ######################################
-            ######################################
 
-            if num_manuscripts_attesting_this_verse_corrected > 0:
-                this_verse_collation_string = (
+            ####################################################
+            ####################################################
+            ##### Creating the earliest attestation callout ####
+            ####################################################
+            ####################################################
+
+
+            # Function to determine earliest century
+            def find_earliest_century(manuscript_list, type_data):
+                
+                if type_data == 'unanimous':
+                    manuscript_list = manuscript_list[0]
+                elif type_data == 'individual':
+                    extended_m_list = []
+                    for group_name in manuscript_list:
+                        _ = manuscript_groups[manuscript_groups['group_name']==group_name]['manuscript_id'].iloc[0]
+                        for man in _:
+                            extended_m_list.append(man)
+                    manuscript_list = extended_m_list
+                elif type_data == 'verse':
+                    manuscript_list.remove('Byz')
+                
+                centuries = []
+                for m in manuscript_list:
+                    m = m.replace("^c^", "")
+                    centuries.append(liste[liste["docID"]==m]['century_late'].iloc[0])
+                if len(centuries) == 0:
+                    if type_data == 'unanimous':
+                        return "*Byzantine text not attested in its entirety in any of the collated manuscripts*"
+                    elif type_data == 'individual':
+                        return "*Byzantine reading not attested in its entirety in any of the collated manuscripts*"
+                else:
+                    return "[" + roman.toRoman(int(pd.Series(centuries).min())).lower() + "]{.century-apparatus} (century)"
+            
+            # Complete verse
+            earliest_attestation_complete_verse = find_earliest_century(unanimous_group['manuscript_id'].to_list(), 'unanimous')
+            
+            # Individual readings
+            earliest_attestation_readings = []
+            for position in range(len(byz_column_base)):
+                byzantine_reading = byz_column_base.iloc[position]
+                witnesses_supporting_this_byzantine_reading = textual_units[
+                    (textual_units["position"] == position)
+                    & (textual_units["is_byzantine"] == True)
+                ]["manuscript_coincidence"].iloc[0]
+                earliest_attestation_readings.append([byzantine_reading, witnesses_supporting_this_byzantine_reading])
+            
+            earliest_attestation_readings = pd.DataFrame(earliest_attestation_readings, columns=['Reading', 'manuscript_list'])
+            
+            _ = []
+            for index, row in earliest_attestation_readings.iterrows():
+                _.append(find_earliest_century(row['manuscript_list'], 'individual'))
+            
+            earliest_attestation_readings['Earliest attestation (century)'] = _
+            del _
+            
+            # Existence of verse
+            earliest_attestation_existence_verse = find_earliest_century(verse_attestation['manuscript_id'].to_list(), 'verse')
+            
+            this_verse_collation_string = (
                     this_verse_collation_string
-                    + '::: {.callout-important collapse="true" icon="false"}\n## Potentially inaccurate\nOne or more of the witnesses included in the collation are corrected. Due to the limitations of the TEI-XML format, it is not possible to automatically reconstruct the corrected hand perfectly. For this reason, the apparatus may display inaccuracies. The corrected hands have been marked with a ? symbol in order to highlight this uncertainty.\n:::\n\n'
+                    + '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
+                    + '**Note**. Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n'
+                    + f'Earliest attestation of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}\n\n'
+                    + f'Earliest attestation of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}\n\n'
+                    + 'Below is the earliest attestation of each **individual reading**:\n\n'
+                    + earliest_attestation_readings[['Reading', 'Earliest attestation (century)']].to_markdown(index=False)
+                    + '\n:::\n\n'
                 )
-
+            
+            
             ######################################
             ######################################
             ##### Creating the groups callout ####
@@ -845,6 +926,9 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     (textual_units["position"] == position)
                     & (textual_units["is_byzantine"] == True)
                 ]["manuscript_coincidence"].iloc[0]
+                
+                if unanimous_group_size == 0:
+                    witnesses_supporting_this_byzantine_reading.remove(unanimous_group_badge)
 
                 num_witnesses_supporting_this_byzantine_reading = (
                     calculate_num_witnesses_supporting_this_reading(
@@ -902,4 +986,5 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
 
 print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!\nY EARLIEST ATTESTATION COMO ASIDE')
+print('REMOVER GAP')
 print('ARREGLAR 30803')
