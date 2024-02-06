@@ -509,16 +509,17 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             #liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
             def format_manuscript_coincidences_for_quarto(manuscript_coincidence):                
-                def add_link_to_manuscript_id(manuscript_id):
-                    if "^c^" in manuscript_id:
-                        manuscript_handle = manuscript_id
-                        manuscript_id = manuscript_id[0:5]
+                def add_link_to_manuscript_id(manuscript_element):
+                    if "^c^" in manuscript_element:
+                        manuscript_handle = manuscript_element
+                        manuscript_id = manuscript_element[0:5]
                         #print(manuscript_handle)
-                    elif "(" in manuscript_id: # If it is an additional instance of a verse
-                        manuscript_handle = manuscript_id
-                        manuscript_id = manuscript_id[0:5]
+                    elif "(" in manuscript_element: # If it is an additional instance of a verse
+                        manuscript_handle = manuscript_element
+                        manuscript_id = manuscript_element[0:5]
                     else:
-                        manuscript_handle = manuscript_id
+                        manuscript_id = manuscript_element
+                        manuscript_handle = manuscript_element
 
                     if "^c^" in manuscript_handle: # Adding the CSS style for corrected witnesses
                         manuscript_handle = (
@@ -547,8 +548,6 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     standalone_manuscript_ids = []
                     
                     for coincidence in manuscript_coincidence:
-                        #if coincidence[0:5] == '31424':
-                        #    print('MIRA', coincidence)
                         if coincidence[0] == "→":
                             witness_group_coincidence.append(coincidence)
                         elif "^c^" in coincidence: 
@@ -569,8 +568,6 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                                 for manuscript_id in corrected_manuscripts_ids
                             )
                         )
-                    
-                    corrected_manuscripts_formatted_string = corrected_manuscripts_formatted_string.strip()
                     
                     standalone_manuscripts = pd.DataFrame(standalone_manuscript_ids, columns=['manuscript_id', 'manuscript_handle'])
                     standalone_manuscripts = pd.merge(standalone_manuscripts, liste, left_on='manuscript_id', right_on='docID', how='left')
@@ -617,23 +614,18 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
                     if len(witness_group_coincidence_string.strip()) > 0:
                         if len(standalone_manuscripts_formatted_string.strip()) > 0:
-                            first_separator = " || "
+                            first_separator = " ⬩ "
                         elif len(corrected_manuscripts_formatted_string.strip()) > 0:
-                            first_separator = " || "
+                            first_separator = " ⬩ "
                         else:
                             pass
 
                     if len(standalone_manuscripts_formatted_string.strip()) > 0:
                         if len(corrected_manuscripts_formatted_string.strip()) > 0:
-                            second_separator = " || "
+                            second_separator = " ⬩ "
 
-                    return (
-                        witness_group_coincidence_string
-                        + first_separator
-                        + standalone_manuscripts_formatted_string
-                        + second_separator
-                        + corrected_manuscripts_formatted_string
-                    )
+                    final_string = witness_group_coincidence_string + first_separator + standalone_manuscripts_formatted_string + second_separator + corrected_manuscripts_formatted_string
+                    return final_string
 
             textual_units["formatted_manuscript_coincidence"] = textual_units[
                 "manuscript_coincidence"
@@ -714,23 +706,29 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             )
                 
             # Corrected witnesses that ARE included
-            witnesses_corrected_this_verse = witnesses_that_have_this_verse_includes_corrections[witnesses_that_have_this_verse_includes_corrections['has_corrections']]["manuscript_id"].to_list()
+
+            witnesses_corrected_this_verse = witnesses_that_have_this_verse_includes_corrections[
+                (witnesses_that_have_this_verse_includes_corrections['has_corrections']) &
+                (~witnesses_that_have_this_verse_includes_corrections['uncorrected_reconstructed'])
+                ]["manuscript_id"].to_list()
             
-            witnesses_duplicated_corrected = []
+            print(witnesses_corrected_this_verse, ignored_corrected_non_aligned_witnesses['group_name'].to_list())
+            
+            witnesses_included_corrected = []
             for w in witnesses_corrected_this_verse:
                 if w in ignored_corrected_non_aligned_witnesses['group_name'].to_list():
                     pass
                 else:
-                    witnesses_duplicated_corrected.append(w)
+                    witnesses_included_corrected.append(w)
             
-            num_witnesses_attesting_this_verse_corrected = len(witnesses_duplicated_corrected)
+            num_witnesses_attesting_this_verse_corrected = len(witnesses_included_corrected)
             
             witness_counts_table.append(
                 [
                     'Corrected witnesses *included* in the apparatus', # Description
                     num_witnesses_attesting_this_verse_corrected, # Count
                     f'Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading', # Note
-                    format_manuscript_coincidences_for_quarto(witnesses_duplicated_corrected), # Manuscript list
+                    format_manuscript_coincidences_for_quarto(witnesses_included_corrected), # Manuscript list
                 ]
             )
             
@@ -748,7 +746,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 [
                     'Witnesses *ignored* due to being too fragmentary', # Description
                     num_fragmentary_witnesses_this_verse, # Count
-                    f'A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it attests to for the specific verse are uncertain', # Note
+                    f'A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain', # Note
                     format_manuscript_coincidences_for_quarto(witnesses_exluded_too_fragmentary), # Manuscript list
                 ]
             )
@@ -774,21 +772,30 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 pd.Series(witnesses_corrected_ignored).apply(lambda x: x.replace("^c^", ""))
                 )]
                 
+            # Corrected witnessses that are ignored from the apparatus and are second or greater instance of a verse
+            corrected_several_instances_ignored = list(set(witnesses_corrected_ignored).intersection(set(witnesses_attesting_several['manuscript_id'])))
+            num_corrected_several_instances_ignored = len(corrected_several_instances_ignored)
+            
+            witness_counts_table.append(
+                [
+                    'Corrected witnesses that were created by a manuscript that included the verse more than once and that are also *ignored* from the apparatus', # Description
+                    num_corrected_several_instances_ignored, # Count
+                    f'These corrected witnesses need to be subtracted from the counts as their reconstruction is uncertain', # Note
+                    format_manuscript_coincidences_for_quarto(corrected_several_instances_ignored), # Manuscript list
+                ]
+            )
+            
+            
             # Count of witnesses included in the apparatus
             
-            num_witnesses_included_in_collation = (
-                num_manuscripts_attesting_this_verse
-                + num_witnesses_attesting_several
-                - num_fragmentary_witnesses_this_verse
-                + num_witnesses_attesting_this_verse_corrected
-                - num_corrected_ignored
-            )
+            num_witnesses_included_in_collation = num_manuscripts_attesting_this_verse  + num_witnesses_attesting_several - num_fragmentary_witnesses_this_verse + num_witnesses_attesting_this_verse_corrected -num_corrected_several_instances_ignored
+            
             
             witness_counts_table.append(
                 [
                     '**Number of witnesses that were taken into account in the collation**', # Description
                     f'**{num_witnesses_included_in_collation}**', # Count
-                    f'The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) plus the witnesses that attest to the verse more than once ({num_witnesses_attesting_several}) minus the fragmentary manuscripts ({num_fragmentary_witnesses_this_verse}) plus the corrected hands ({num_witnesses_attesting_this_verse_corrected}) minus the ignored corrected hands ({num_corrected_ignored})', # Note
+                    f'The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) plus the witnesses that attest to the verse more than once ({num_witnesses_attesting_several}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected}) minus the corrected witnesses that need to be ignored and were created by manuscripts that included the verse more than once ({num_corrected_several_instances_ignored}). The other ignored corrected witnesses need not be subtracted as they are not included in any of the other counts', # Note
                     'For manuscript lists see the apparatus and the witness groups', # Manuscript list
                 ]
             )
@@ -1039,7 +1046,5 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
         file.write(book_qmd_string)
 
 
-print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!')
 print('REMOVER GAP')
-print('ARREGLAR 30803')
-print('CONTEOS NO FUNCIONAN')
+print('HAY ERROR DE CUENTA AUN EN ULTIMA PALABRA!')
