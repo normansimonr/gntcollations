@@ -3,6 +3,7 @@ import collatex
 import difflib
 import pandas as pd
 import roman
+import numpy as np
 import json
 import itertools
 
@@ -131,7 +132,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in verses:
+        for verse in [43]:#verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -778,8 +779,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
 
             # Function to determine earliest century
-            def find_earliest_century(manuscript_list, type_data):
-                
+            def find_earliest_century(manuscript_list, type_data):                
                 if type_data == 'unanimous':
                     manuscript_list = manuscript_list[0]
                 elif type_data == 'individual':
@@ -794,15 +794,23 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 
                 centuries = []
                 for m in manuscript_list:
-                    m = m.replace("^c^", "")
-                    centuries.append(liste[liste["docID"]==m]['century_late'].iloc[0])
+                    if "^c^" in m: # Corrected hands don't have dates associated with them
+                        centuries.append(pd.NA)
+                    else:
+                        centuries.append(liste[liste["docID"]==m]['century_late'].iloc[0])
+                
                 if len(centuries) == 0:
                     if type_data == 'unanimous':
                         return "*Byzantine text not attested in its entirety in any of the collated manuscripts*"
                     elif type_data == 'individual':
                         return "*Byzantine reading not attested in its entirety in any of the collated manuscripts*"
+                    elif type_data == 'verse':
+                        return "*Verse not attested in any of the collated manuscripts*"
                 else:
-                    return "[" + roman.toRoman(int(pd.Series(centuries).min())).lower() + "]{.century-apparatus} (century)"
+                    if np.isnan(pd.Series(centuries).min()):
+                        return "*The text is present only in a corrected hand and does not have a date associated to it*"
+                    else:
+                        return "[" + roman.toRoman(int(pd.Series(centuries).min())).lower() + "]{.century-apparatus}"
             
             # Complete verse
             earliest_attestation_complete_verse = find_earliest_century(unanimous_group['manuscript_id'].to_list(), 'unanimous')
@@ -833,8 +841,8 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     this_verse_collation_string
                     + '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
                     + '**Note**. Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n'
-                    + f'Earliest attestation of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}\n\n'
-                    + f'Earliest attestation of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}\n\n'
+                    + f'Earliest attestation (century) of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}.\n\n'
+                    + f'Earliest attestation (century) of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}.\n\n'
                     + 'Below is the earliest attestation of each **individual reading**:\n\n'
                     + earliest_attestation_readings[['Reading', 'Earliest attestation (century)']].to_markdown(index=False)
                     + '\n:::\n\n'
@@ -887,7 +895,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 for index, row in middle_sized_groups.iterrows():
                     other_groups_string = (
                         other_groups_string
-                        + f"{row['group_name']} **group**, attesting to {row['parsed_greek_clean']}, ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
+                        + f"{row['group_name']} **group**, attesting to {row['parsed_greek_clean']} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
                     )
 
             this_verse_collation_string = (
@@ -986,6 +994,5 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
 
 print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!')
-print('SI unanumous es solo un man corrected, entonces no contar el siglo, Mk 15:43')
 print('REMOVER GAP')
 print('ARREGLAR 30803')
