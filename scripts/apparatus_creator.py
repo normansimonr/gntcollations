@@ -49,12 +49,18 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
     lines = this_books_content.strip().split("\n")
     df = pd.DataFrame(lines).replace("", pd.NA).dropna()
     df = df[~df[0].str.startswith("###")]  # Removing chapter marks
-    _ = df[df[0].str.contains('instance')]
-    #print(_)
+    pattern = r' \| instance no\. ([0-9]+)]{\.aside}' # Detecting the instance numbers
+    df['instance'] = df[0].str.extract(pattern)
+    replacement = ']{.aside}'
+    df[0] = df[0].str.replace(pattern, replacement, regex=True)
+    df['instance'] = df['instance'].fillna(1).astype(int)
+    #for index, row in df[df['instance']=='2'].iterrows():
+    #    print(row.iloc[0])
     df[["parsed_greek", "coordinates"]] = df[0].str.extract(
         r"^(.*?)(\[\d+:\d+\]\{.*?\})$"
     )
     df = df.drop(columns=[0])
+    
     df["coordinates"] = (
         df["coordinates"]
         .str.replace("[", "", regex=False)
@@ -65,11 +71,8 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
         .str.replace(".aside", "", regex=False)
     )
     df[["chapter", "verse"]] = df["coordinates"].str.split(":", expand=True)
-    
-    df['verse'] = df['verse'].str.strip()
-    #df['instance'] = df['instance'].str.strip()
-    
-    df = df[["chapter", "verse", "parsed_greek"]]
+    df['verse'] = df['verse'].str.strip()    
+    df = df[["chapter", "verse", "instance", "parsed_greek"]]
     if str(chapter) in df["chapter"].unique():
         if str(verse) in df[df["chapter"] == str(chapter)]["verse"].unique():
             return df[(df["chapter"] == str(chapter)) & (df["verse"] == str(verse))]
@@ -91,7 +94,7 @@ editor:
 # Defining the fragmentary threshold
 fragmentary_threshold = 0.6
 
-for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
+for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
     byz_book_abbrs = {
         "First Corinthians": "1CO",
         "First John": "1JO",
@@ -126,13 +129,13 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in [15]:  # manuscript_attestation[book_name].keys():
+    for chapter in [1]:  # manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in [43]:#verses:
+        for verse in [3]:#verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -141,7 +144,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             verse_attestation = []
 
             for manuscript_id in manuscripts_attesting_this_verse:
-                # print("Processing", manuscript_id)
                 # Read the QMD file
                 with open(
                     "../collations/" + str(manuscript_id) + ".qmd",
@@ -153,9 +155,15 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 this_verse_text_and_coordinates = extract_verse_from_qmd(
                     qmd_content, book_name, chapter, verse
                 )
+                
+                for index, row in this_verse_text_and_coordinates.iterrows():
 
                 if isinstance(this_verse_text_and_coordinates, pd.DataFrame):
                     parsed_greek = this_verse_text_and_coordinates["parsed_greek"].iloc[
+                        0
+                    ]
+                    
+                    instance = this_verse_text_and_coordinates["instance"].iloc[
                         0
                     ]
 
@@ -166,6 +174,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                             manuscript_id,
                             chapter,
                             verse,
+                            instance,
                             parsed_greek,
                         ]
                     )
@@ -181,26 +190,34 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             else:
                 byz_verse = byz_verse[0]
             
-            verse_attestation.append(["Byz", chapter, verse, byz_verse])
+            verse_attestation.append(["Byz", chapter, verse, 1, byz_verse]) # The number 1 is the attestation counter. Byz attests to each verse only once
 
             verse_attestation = pd.DataFrame(verse_attestation)
             verse_attestation.columns = [
                 "manuscript_id",
                 "chapter",
                 "verse",
+                "instance",
                 "parsed_greek",
             ]
             verse_attestation["manuscript_id"] = verse_attestation[
                 "manuscript_id"
             ].astype(str)
+            
 
             # Check if '.greek-abbr' is a substring in any cell of all columns
             # We don't show nomina sacra, so it's important to alert the reader
             is_abbreviation_present = (
                 verse_attestation["parsed_greek"].str.contains(".greek-abbr").any()
             )
-
-            # Collation
+            
+            
+            
+            ###########################################
+            ###########################################
+            ################ Collation ################
+            ###########################################
+            ###########################################
             # Cleaning the texts
             def clean_text(text):
                 text = text.replace('\n', ' ')
@@ -270,7 +287,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             verse_attestation["parsed_greek_clean"] = verse_attestation[
                 "parsed_greek_clean"
             ].str.strip()
-
+            
             # Removing empty texts that are not the Byzantine witness
             condition = (
                 len(verse_attestation["parsed_greek_clean"].str.split()) == 0
@@ -278,7 +295,10 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             condition = (condition) & (verse_attestation["manuscript_id"] != "Byz")
             condition = ~condition
             verse_attestation = verse_attestation[condition]
-
+            
+            # Marking manuscripts with more than one instance of the verse
+            verse_attestation['manuscript_id'] = verse_attestation[['manuscript_id', 'instance']].apply(lambda row: row['manuscript_id'] if row['instance']==1 else row['manuscript_id'] + "(" + row['instance'] + ")", axis=1)
+            
             # Removing fragmentary manuscripts
             def define_if_too_fragmentary(text):
                 num_words = len(text.split())
@@ -301,8 +321,8 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             ]
             non_fragmentary_manuscripts = verse_attestation[
                 ~verse_attestation["too_fragmentary"]
-            ]
-
+            ]            
+            
             # Manuscript groups
             manuscript_groups = (
                 non_fragmentary_manuscripts[["manuscript_id", "parsed_greek_clean"]]
@@ -373,19 +393,12 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             collation = collatex.Collation()
 
             for index, row in manuscript_groups.iterrows():
-                #print(
-                    #book_name,
-                    #chapter,
-                    #verse,
-                    #row["group_name"],
-                    #row["parsed_greek_clean"],
-                #)
                 collation.add_plain_witness(
                     row["group_name"], row["parsed_greek_clean"]
                 )
 
             collatex_output = collatex.collate(
-                collation, layout="horizontal", near_match=False, segmentation=True
+                collation, layout="horizontal", near_match=True, segmentation=False
             )
             
             collatex_output = str(collatex_output)
@@ -425,6 +438,8 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             
             alignment_table = alignment_table.fillna("•")
             
+            alignment_table.to_csv('test1.csv')
+            
             # Find the base column (Byz)
             byz_column_base = alignment_table.loc[unanimous_group_badge]
             
@@ -452,7 +467,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             
             # Check that the last textual unit is not an empty unit in Byz
             byz_column_base = alignment_table.loc[unanimous_group_badge]
-            print(byz_column_base)
             
             if byz_column_base.iloc[-1] == '•':
                 alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2] + " " + alignment_table[len(byz_column_base)-1]
@@ -465,8 +479,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             alignment_table.to_csv('test.csv')
             
             # Agglomerating the coincidences
-            
-            print(alignment_table)
 
             textual_units = []
             for column_name in alignment_table.columns:
@@ -687,7 +699,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 [
                     'Manuscripts *ignored* due to being too fragmentary', # Description
                     num_fragmentary_manuscripts_this_verse, # Count
-                    f'A manuscript is ignored if {int(fragmentary_threshold*100)}% or more of its words are uncertain', # Note
+                    f'A manuscript is ignored if {int(fragmentary_threshold*100)}% or more of the words that it attests to for the specific verse are uncertain', # Note
                     format_manuscript_coincidences_for_quarto(manuscripts_exluded_too_fragmentary), # Manuscript list
                 ]
             )
