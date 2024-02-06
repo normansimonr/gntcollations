@@ -6,6 +6,7 @@ import roman
 import numpy as np
 import json
 import itertools
+import copy
 
 file_path = "../apparatus/manuscript_verse_relation.json"
 
@@ -156,28 +157,17 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     qmd_content, book_name, chapter, verse
                 )
                 
-                for index, row in this_verse_text_and_coordinates.iterrows():
-
                 if isinstance(this_verse_text_and_coordinates, pd.DataFrame):
-                    parsed_greek = this_verse_text_and_coordinates["parsed_greek"].iloc[
-                        0
-                    ]
-                    
-                    instance = this_verse_text_and_coordinates["instance"].iloc[
-                        0
-                    ]
-
-                    # Replacing unclear and supplied words
-
-                    verse_attestation.append(
-                        [
-                            manuscript_id,
-                            chapter,
-                            verse,
-                            instance,
-                            parsed_greek,
-                        ]
-                    )
+                    for index, row in this_verse_text_and_coordinates.iterrows():
+                        verse_attestation.append(
+                            [
+                                manuscript_id,
+                                chapter,
+                                verse,
+                                row["instance"],
+                                row["parsed_greek"],
+                            ]
+                        )
 
             # Adding the Byzantine text
 
@@ -297,7 +287,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             verse_attestation = verse_attestation[condition]
             
             # Marking manuscripts with more than one instance of the verse
-            verse_attestation['manuscript_id'] = verse_attestation[['manuscript_id', 'instance']].apply(lambda row: row['manuscript_id'] if row['instance']==1 else row['manuscript_id'] + "(" + row['instance'] + ")", axis=1)
+            verse_attestation['manuscript_id'] = verse_attestation[['manuscript_id', 'instance']].apply(lambda row: row['manuscript_id'] if row['instance']==1 else row['manuscript_id'] + "(" + str(row['instance']) + ")", axis=1)
             
             # Removing fragmentary manuscripts
             def define_if_too_fragmentary(text):
@@ -521,63 +511,83 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             liste["century_late"] = liste["origLate"].astype(int).apply(year_to_century)
             #liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
-            def format_manuscript_coincidences_for_quarto(manuscript_coincidence):
+            def format_manuscript_coincidences_for_quarto(manuscript_coincidence):                
+                def add_link_to_manuscript_id(manuscript_id):
+                    if "^c^" in manuscript_id:
+                        manuscript_handle = manuscript_id
+                        _ = manuscript_id.split('^')
+                        manuscript_id = _[0]
+                        del _
+                    elif "(" in manuscript_id: # If it is an additional instance of a verse
+                        manuscript_handle = manuscript_id
+                        manuscript_id = manuscript_id.split('(')[0]
+                    else:
+                        manuscript_handle = manuscript_id
+
+                    if "^c^" in manuscript_handle: # Adding the CSS style for corrected witnesses
+                        manuscript_handle = (
+                            "[" + manuscript_handle + "?]{.apparatus-corrected}"
+                        )
+
+                    url = (
+                        f"https://www.gntcollations.com/collations/{manuscript_id}.html"
+                    )
+
+                    return (
+                        "[["
+                        + manuscript_handle
+                        + "]("
+                        + url
+                        + ")]{.apparatus-manuscript-link}"
+                    )
+                
+                
+                
                 if len(manuscript_coincidence)==0:
                     return "None"
                 else:
-                    formatted_manuscript_coincidence = []
+                    witness_group_coincidence = [] # Witness groups don't need parsing
+                    corrected_manuscripts_ids = [] # Corrected witnesses don't have a date, so we parse them separately
                     standalone_manuscript_ids = []
-                    corrected_manuscripts_ids = []
+                    
                     for coincidence in manuscript_coincidence:
                         if coincidence[0] == "→":
-                            formatted_manuscript_coincidence.append(coincidence)
-                        elif "^c^" in coincidence:
+                            witness_group_coincidence.append(coincidence)
+                        elif "^c^" in coincidence: 
                             corrected_manuscripts_ids.append(coincidence)
+                        elif "(" in coincidence:
+                            standalone_manuscript_ids.append([coincidence.split('(')[0], coincidence])
                         else:
-                            standalone_manuscript_ids.append(coincidence)
-
-                    formatted_manuscript_coincidence = " ".join(
-                        formatted_manuscript_coincidence
-                    )
-
-                    standalone_manuscripts = liste[
-                        liste["docID"].isin(standalone_manuscript_ids)
-                    ]
+                            standalone_manuscript_ids.append([coincidence, coincidence])
+                    
+                    # Corrected manuscripts
+                    corrected_manuscripts_ids = pd.Series(corrected_manuscripts_ids, dtype='str').sort_values(ascending=True).to_list()
+                    corrected_manuscripts_formatted_string = ""
+                    if len(corrected_manuscripts_ids) > 0:
+                        corrected_manuscripts_formatted_string = (
+                            "[Corr.]{.correction-label-apparatus}: "
+                            + " ".join(
+                                add_link_to_manuscript_id(manuscript_id)
+                                for manuscript_id in corrected_manuscripts_ids
+                            )
+                        )
+                    
+                    standalone_manuscripts = pd.DataFrame(standalone_manuscript_ids, columns=['manuscript_id', 'manuscript_handle'])
+                    standalone_manuscripts = pd.merge(standalone_manuscripts, liste, left_on='manuscript_id', right_on='docID', how='left')
+                    standalone_manuscripts = standalone_manuscripts.drop_duplicates() # Some items in the Liste appear more than once
+                    standalone_manuscripts = standalone_manuscripts.sort_values(by=['manuscript_id'], ascending=True)
+                    
                     standalone_manuscripts = (
-                        standalone_manuscripts[["docID", "century_late"]]
-                        .groupby("century_late", group_keys=False)["docID"]
+                        standalone_manuscripts[["docID", "manuscript_handle", "century_late"]]
+                        .groupby("century_late", group_keys=False)["manuscript_handle"]
                         .apply(list)
                         .reset_index()
                     )
 
-                    def add_link_to_manuscript_id(manuscript_id):
-                        if "^c^" in manuscript_id:
-                            manuscript_id = manuscript_id.replace("^c^", "")
-                            manuscript_handle = manuscript_id + "^c^"
-                        else:
-                            manuscript_handle = manuscript_id
-
-                        if "^c^" in manuscript_handle:
-                            manuscript_handle = (
-                                "[" + manuscript_handle + "?]{.apparatus-corrected}"
-                            )
-
-                        url = (
-                            f"https://www.gntcollations.com/collations/{manuscript_id}.html"
-                        )
-
-                        return (
-                            "[["
-                            + manuscript_handle
-                            + "]("
-                            + url
-                            + ")]{.apparatus-manuscript-link}"
-                        )
-
                     standalone_manuscripts_formatted_string = ""
                     if len(standalone_manuscripts) > 0:
                         standalone_manuscripts["formatted_ids"] = (
-                            standalone_manuscripts["docID"]
+                            standalone_manuscripts["manuscript_handle"]
                             .apply(
                                 lambda mlist: [
                                     add_link_to_manuscript_id(manuscript_id)
@@ -598,21 +608,20 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                             standalone_manuscripts["formatted_text_for_this_century"]
                         )
 
-                    corrected_manuscripts_formatted_string = ""
-                    if len(corrected_manuscripts_ids) > 0:
-                        corrected_manuscripts_formatted_string = (
-                            "[Corr.]{.correction-label-apparatus}: "
-                            + " ".join(
-                                add_link_to_manuscript_id(manuscript_id)
-                                for manuscript_id in corrected_manuscripts_ids
-                            )
-                        )
-
+                    formatted_manuscript_coincidence = " ".join(
+                        witness_group_coincidence
+                    )
+                    
                     first_separator = ""
                     second_separator = ""
 
                     if len(formatted_manuscript_coincidence.strip()) > 0:
-                        first_separator = " || "
+                        if len(standalone_manuscripts_formatted_string.strip()) > 0:
+                            first_separator = " || "
+                        elif len(corrected_manuscripts_formatted_string.strip()) > 0:
+                            first_separator = " || "
+                        else:
+                            pass
 
                     if len(standalone_manuscripts_formatted_string.strip()) > 0:
                         if len(corrected_manuscripts_formatted_string.strip()) > 0:
@@ -809,6 +818,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     if "^c^" in m: # Corrected hands don't have dates associated with them
                         centuries.append(pd.NA)
                     else:
+                        if "(" in m:
+                            m = m.split('(')[0] # Manuscripts that have several instances of the same verse. We only need the manuscript id at this moment in order to obtain the centuries
                         centuries.append(liste[liste["docID"]==m]['century_late'].iloc[0])
                 
                 if len(centuries) == 0:
