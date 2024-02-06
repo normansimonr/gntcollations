@@ -287,6 +287,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             verse_attestation = verse_attestation[condition]
             
             # Marking manuscripts with more than one instance of the verse
+            # The correction marker always comes BEFORE the instance counter
             verse_attestation['manuscript_id'] = verse_attestation[['manuscript_id', 'instance']].apply(lambda row: row['manuscript_id'] if row['instance']==1 else row['manuscript_id'] + "(" + str(row['instance']) + ")", axis=1)
             
             # Removing fragmentary manuscripts
@@ -306,32 +307,33 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 "parsed_greek_clean"
             ].apply(define_if_too_fragmentary)
 
-            fragmentary_manuscripts = verse_attestation[
+            fragmentary_witnesses = verse_attestation[
                 verse_attestation["too_fragmentary"]
             ]
-            non_fragmentary_manuscripts = verse_attestation[
+            non_fragmentary_witnesses = verse_attestation[
                 ~verse_attestation["too_fragmentary"]
-            ]            
+            ]
             
-            # Manuscript groups
-            manuscript_groups = (
-                non_fragmentary_manuscripts[["manuscript_id", "parsed_greek_clean"]]
+            # Witness groups
+            witness_groups = (
+                non_fragmentary_witnesses[["manuscript_id", "parsed_greek_clean"]]
                 .groupby("parsed_greek_clean")["manuscript_id"]
                 .apply(list)
                 .reset_index()
             )
-            manuscript_groups["group_size"] = manuscript_groups["manuscript_id"].apply(
+            
+            witness_groups["group_size"] = witness_groups["manuscript_id"].apply(
                 len
             )
-            manuscript_groups = manuscript_groups.sort_values(
+            witness_groups = witness_groups.sort_values(
                 by=["group_size"], ascending=False
             )
 
-            manuscript_groups["contains_byz"] = manuscript_groups[
+            witness_groups["contains_byz"] = witness_groups[
                 "manuscript_id"
             ].apply(lambda x: True if "Byz" in x else False)
 
-            unanimous_group = manuscript_groups[manuscript_groups["contains_byz"]]
+            unanimous_group = witness_groups[witness_groups["contains_byz"]]
             unanimous_group["manuscript_id"] = unanimous_group["manuscript_id"].apply(
                 lambda mlist: [x for x in mlist if x != "Byz"]
             )  # Removing Byz to avoid counting it as a witness
@@ -341,10 +343,10 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             )
             unanimous_group["group_name"] = unanimous_group_badge
 
-            manuscript_groups = manuscript_groups[~manuscript_groups["contains_byz"]]
+            witness_groups = witness_groups[~witness_groups["contains_byz"]]
 
-            middle_sized_groups = manuscript_groups[
-                manuscript_groups["group_size"] >= 2
+            middle_sized_groups = witness_groups[
+                witness_groups["group_size"] >= 2
             ]
             num_repeats = (
                 len(middle_sized_groups) // 26 + 1
@@ -365,7 +367,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 )
             middle_sized_groups["group_name"] = index_chars[: len(middle_sized_groups)]
 
-            one_sized_groups = manuscript_groups[manuscript_groups["group_size"] == 1]
+            one_sized_groups = witness_groups[witness_groups["group_size"] == 1]
             one_sized_groups["group_name"] = one_sized_groups["manuscript_id"].apply(
                 lambda x: x[0]
             )
@@ -376,13 +378,13 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             ignored_corrected_non_aligned_witnesses = one_sized_groups[one_sized_groups['is_corrected_witness']]
             one_sized_groups = one_sized_groups[~one_sized_groups['is_corrected_witness']]
             
-            manuscript_groups = pd.concat(
+            witness_groups = pd.concat(
                 [unanimous_group, middle_sized_groups, one_sized_groups]
             )
 
             collation = collatex.Collation()
 
-            for index, row in manuscript_groups.iterrows():
+            for index, row in witness_groups.iterrows():
                 collation.add_plain_witness(
                     row["group_name"], row["parsed_greek_clean"]
                 )
@@ -492,11 +494,6 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 0
             ]
 
-            ##### Counting the manuscripts and ignoring fragmentary ones
-
-            # Determining which Byzantine readings are not attested in the sample
-            # TO DO
-
             ##### Creating the QMD code
 
             liste = pd.read_csv(
@@ -516,7 +513,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     if "^c^" in manuscript_id:
                         manuscript_handle = manuscript_id
                         manuscript_id = manuscript_id[0:5]
-                        print(manuscript_id)
+                        #print(manuscript_handle)
                     elif "(" in manuscript_id: # If it is an additional instance of a verse
                         manuscript_handle = manuscript_id
                         manuscript_id = manuscript_id[0:5]
@@ -550,6 +547,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     standalone_manuscript_ids = []
                     
                     for coincidence in manuscript_coincidence:
+                        #if coincidence[0:5] == '31424':
+                        #    print('MIRA', coincidence)
                         if coincidence[0] == "→":
                             witness_group_coincidence.append(coincidence)
                         elif "^c^" in coincidence: 
@@ -616,7 +615,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     first_separator = ""
                     second_separator = ""
 
-                    if len(formatted_manuscript_coincidence.strip()) > 0:
+                    if len(witness_group_coincidence_string.strip()) > 0:
                         if len(standalone_manuscripts_formatted_string.strip()) > 0:
                             first_separator = " || "
                         elif len(corrected_manuscripts_formatted_string.strip()) > 0:
@@ -722,7 +721,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 if w in ignored_corrected_non_aligned_witnesses['group_name'].to_list():
                     pass
                 else:
-                    witnesses_duplicated_corrected.append(w + '^c^')
+                    witnesses_duplicated_corrected.append(w)
             
             num_witnesses_attesting_this_verse_corrected = len(witnesses_duplicated_corrected)
             
@@ -830,7 +829,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 elif type_data == 'individual':
                     extended_m_list = []
                     for group_name in manuscript_list:
-                        _ = manuscript_groups[manuscript_groups['group_name']==group_name]['manuscript_id'].iloc[0]
+                        _ = witness_groups[witness_groups['group_name']==group_name]['manuscript_id'].iloc[0]
                         for man in _:
                             extended_m_list.append(man)
                     manuscript_list = extended_m_list
@@ -1043,4 +1042,4 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 print('FALTA TODAVIA MIRAR QUE NO ESTEMOS CONTANDO DOBLES LOS VERSOS CON VARIAS INSTANCIAS!!!')
 print('REMOVER GAP')
 print('ARREGLAR 30803')
-print('CONTEOS NO FUNCIONAN Y A VECeS LA C APARECE DESPUES O ANTES DE LOS PARENTESIS SIN ORDEN')
+print('CONTEOS NO FUNCIONAN')
