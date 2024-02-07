@@ -369,7 +369,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
             df_coll["overlay_text"] = overlay_text_reconstituted
 
             # Obtaining the definitive collation
-            df_coll = df_coll.replace("", np.nan)
+            df_coll = df_coll.astype(str).replace("", np.nan)
             df_coll["collated_text"] = df_coll["overlay_text"].fillna(
                 df_coll["byz_text_clean"]
             )

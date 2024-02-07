@@ -47,7 +47,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 το δε τελος της παραγγελιας εστιν αγαπη εκ καθαρας καρδιας και συνειδησεως αγαθης και πιστεως ανυποκριτου[1:5]{.aside}
 
-ων τινες αστοχησαντες εξετραπησαν εις [μα]{.greek-added} [ματαιολογιαν]{.greek-omitted} [ταιολογιαν]{.greek-added}[1:6]{.aside}
+ων τινες αστοχησαντες εξετραπησαν εις [ματαιολογιαν]{.greek-omitted} [μα]{.greek-added}[1:6]{.aside}
+
+[ων]{.greek-omitted} [τινες]{.greek-omitted} [αστοχησαντες]{.greek-omitted} [εξετραπησαν]{.greek-omitted} [εις]{.greek-omitted} [ματαιολογιαν]{.greek-omitted} [ταιολογιαν]{.greek-added}[1:6 | instance no. 2]{.aside}
 
 θελοντες ειναι νομοδιδασκαλοι μη νοουντες μητε α [λεγουσιν]{.greek-omitted} [λεγουσι]{.greek-added} μητε περι τινων διαβεβαιουνται[1:7]{.aside}
 
@@ -63,7 +65,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τον προτερον οντα βλασφημον και διωκτην και υβριστην [αλλα]{.greek-omitted} [αλλ]{.greek-added} ηλεηθην οτι αγνοων εποιησα εν απιστια[1:13]{.aside}
 
-[υπερεπλεονασεν]{.greek-omitted} [υπερεπλεονασε]{.greek-added} δε η χαρις του [κυριου]{.greek-abbr} ημων μετα πιστεως και αγαπης της εν [χριστω]{.greek-abbr} [ιησου]{.greek-abbr}[1:14]{.aside}
+[υπερεπλεονασεν]{.greek-omitted} [υπερεπλεονασε]{.greek-added} δε η χαρις του [κυριου]{.greek-abbr} ημων μετα πιστεως και [αγαπης]{.greek-omitted} [της]{.greek-omitted} [εν]{.greek-omitted} [χριστω]{.greek-omitted} [ιησου]{.greek-omitted}[1:14]{.aside}
+
+[υπερεπλεονασεν]{.greek-omitted} [δε]{.greek-omitted} [η]{.greek-omitted} [χαρις]{.greek-omitted} [του]{.greek-omitted} [κυριου]{.greek-omitted} [ημων]{.greek-omitted} [μετα]{.greek-omitted} [πιστεως]{.greek-omitted} [και]{.greek-omitted} αγαπης της εν [χριστω]{.greek-abbr} [ιησου]{.greek-abbr}[1:14 | instance no. 2]{.aside}
 
 πιστος ο λογος και πασης αποδοχης αξιος οτι [χριστος]{.greek-abbr} [ιησους]{.greek-abbr} ηλθεν εις τον κοσμον αμαρτωλους σωσαι ων πρωτος ειμι εγω[1:15]{.aside}
 
@@ -79,7 +83,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ### Chapter 2
 
-παρακαλω ουν πρωτον παντων ποιεισθαι δεησεις προσευχας εντευξεις ευχαριστιας υπερ παντων [ανθρωπων]{.greek-abbr}[2:1]{.aside}
+παρακαλω ουν πρωτον παντων ποιεισθαι [δεησεις]{.greek-omitted} [προσευχας]{.greek-omitted} [εντευξεις]{.greek-omitted} [ευχαριστιας]{.greek-omitted} [υπερ]{.greek-omitted} [παντων]{.greek-omitted} [ανθρωπων]{.greek-omitted}[2:1]{.aside}
+
+[παρακαλω]{.greek-omitted} [ουν]{.greek-omitted} [πρωτον]{.greek-omitted} [παντων]{.greek-omitted} [ποιεισθαι]{.greek-omitted} δεησεις προσευχας εντευξεις ευχαριστιας υπερ παντων [ανθρωπων]{.greek-abbr}[2:1 | instance no. 2]{.aside}
 
 υπερ βασιλεων και παντων των εν υπεροχη οντων ινα ηρεμον και ησυχιον βιον διαγωμεν εν παση ευσεβεια και σεμνοτητι[2:2]{.aside}
 
@@ -95,7 +101,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 βουλομαι ουν προσευχεσθαι τους ανδρας εν παντι τοπω επαιροντας οσιους χειρας χωρις οργης και διαλογισμου[2:8]{.aside}
 
-ωσαυτως και τας γυναικας εν καταστολη κοσμιω μετα αιδους και σωφροσυνης κοσμειν εαυτας μη εν πλεγμασιν η χρυσω η μαργαριταις η ιματισμω πολυτελει[2:9]{.aside}
+ωσαυτως και τας γυναικας εν καταστολη κοσμιω μετα αιδους και σωφροσυνης κοσμειν [εαυτας]{.greek-omitted} [μη]{.greek-omitted} [εν]{.greek-omitted} [πλεγμασιν]{.greek-omitted} [η]{.greek-omitted} [χρυσω]{.greek-omitted} [η]{.greek-omitted} [μαργαριταις]{.greek-omitted} [η]{.greek-omitted} [ιματισμω]{.greek-omitted} [πολυτελει]{.greek-omitted}[2:9]{.aside}
+
+[ωσαυτως]{.greek-omitted} [και]{.greek-omitted} [τας]{.greek-omitted} [γυναικας]{.greek-omitted} [εν]{.greek-omitted} [καταστολη]{.greek-omitted} [κοσμιω]{.greek-omitted} [μετα]{.greek-omitted} [αιδους]{.greek-omitted} [και]{.greek-omitted} [σωφροσυνης]{.greek-omitted} [κοσμειν]{.greek-omitted} εαυτας μη εν πλεγμασιν η χρυσω η μαργαριταις η ιματισμω πολυτελει[2:9 | instance no. 2]{.aside}
 
 αλλ ο πρεπει γυναιξιν επαγγελλομεναις θεοσεβειαν δι εργων αγαθων[2:10]{.aside}
 
@@ -117,7 +125,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 μη παροινον μη πληκτην [μη]{.greek-omitted} [αισχροκερδη]{.greek-omitted} αλλ επιεικη αμαχον αφιλαργυρον[3:3]{.aside}
 
-του ιδιου οικου καλως προισταμενον τεκνα εχοντα εν υποταγη μετα πασης σεμνοτητος[3:4]{.aside}
+του ιδιου [οικου]{.greek-omitted} [καλως]{.greek-omitted} [προισταμενον]{.greek-omitted} [τεκνα]{.greek-omitted} [εχοντα]{.greek-omitted} [εν]{.greek-omitted} [υποταγη]{.greek-omitted} [μετα]{.greek-omitted} [πασης]{.greek-omitted} [σεμνοτητος]{.greek-omitted}[3:4]{.aside}
+
+[του]{.greek-omitted} [ιδιου]{.greek-omitted} οικου καλως προισταμενον τεκνα εχοντα εν υποταγη μετα πασης σεμνοτητος[3:4 | instance no. 2]{.aside}
 
 ει δε τις του ιδιου οικου προστηναι ουκ [οιδεν]{.greek-omitted} [οιδε]{.greek-added} πως εκκλησιας [θεου]{.greek-abbr} επιμελησεται[3:5]{.aside}
 
@@ -135,7 +145,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 διακονοι εστωσαν μιας γυναικος ανδρες τεκνων καλως προισταμενοι και των ιδιων οικων[3:12]{.aside}
 
-οι γαρ καλως διακονησαντες βαθμον εαυτοις καλον περιποιουνται και πολλην παρρησιαν εν πιστει τη εν [χριστω]{.greek-abbr} [ιησου]{.greek-abbr}[3:13]{.aside}
+οι γαρ καλως διακονησαντες βαθμον [εαυτοις]{.greek-omitted} [καλον]{.greek-omitted} [περιποιουνται]{.greek-omitted} [και]{.greek-omitted} [πολλην]{.greek-omitted} [παρρησιαν]{.greek-omitted} [εν]{.greek-omitted} [πιστει]{.greek-omitted} [τη]{.greek-omitted} [εν]{.greek-omitted} [χριστω]{.greek-omitted} [ιησου]{.greek-omitted}[3:13]{.aside}
+
+[οι]{.greek-omitted} [γαρ]{.greek-omitted} [καλως]{.greek-omitted} [διακονησαντες]{.greek-omitted} [βαθμον]{.greek-omitted} εαυτοις καλον περιποιουνται και πολλην παρρησιαν εν πιστει τη εν [χριστω]{.greek-abbr} [ιησου]{.greek-abbr}[3:13 | instance no. 2]{.aside}
 
 ταυτα σοι γραφω [ελπιζων]{.greek-omitted} [ελπιζω]{.greek-added} ελθειν προς σε ταχιον[3:14]{.aside}
 
@@ -149,7 +161,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εν υποκρισει ψευδολογων κεκαυτηριασμενων την ιδιαν συνειδησιν[4:2]{.aside}
 
-κωλυοντων γαμειν απεχεσθαι βρωματων α ο [θεος]{.greek-abbr} εκτισεν εις μεταληψιν μετα ευχαριστιας τοις πιστοις και [επεγνωκοσιν]{.greek-omitted} [επεγνωκοσι]{.greek-added} την [α]{.greek-added} [αληθειαν]{.greek-omitted} [ληθειαν]{.greek-added}[4:3]{.aside}
+κωλυοντων γαμειν απεχεσθαι βρωματων α ο [θεος]{.greek-abbr} εκτισεν εις μεταληψιν μετα ευχαριστιας τοις πιστοις και [επεγνωκοσιν]{.greek-omitted} [επεγνωκοσι]{.greek-added} την [αληθειαν]{.greek-omitted} [α]{.greek-added}[4:3]{.aside}
+
+[κωλυοντων]{.greek-omitted} [γαμειν]{.greek-omitted} [απεχεσθαι]{.greek-omitted} [βρωματων]{.greek-omitted} [α]{.greek-omitted} [ο]{.greek-omitted} [θεος]{.greek-omitted} [εκτισεν]{.greek-omitted} [εις]{.greek-omitted} [μεταληψιν]{.greek-omitted} [μετα]{.greek-omitted} [ευχαριστιας]{.greek-omitted} [τοις]{.greek-omitted} [πιστοις]{.greek-omitted} [και]{.greek-omitted} [επεγνωκοσιν]{.greek-omitted} [την]{.greek-omitted} [αληθειαν]{.greek-omitted} [ληθειαν]{.greek-added}[4:3 | instance no. 2]{.aside}
 
 οτι παν κτισμα [θεου]{.greek-abbr} καλον και ουδεν αποβλητον μετα ευχαριστιας λαμβανομενον[4:4]{.aside}
 
@@ -167,7 +181,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 παραγγελλε ταυτα και διδασκε[4:11]{.aside}
 
-[μη]{.greek-added} [μηδεις]{.greek-omitted} [δεις]{.greek-added} σου της νεοτητος καταφρονειτω αλλα τυπος γινου των πιστων εν λογω εν αναστροφη εν αγαπη εν [πνευματι]{.greek-abbr} εν πιστει εν αγνεια[4:12]{.aside}
+[μη]{.greek-added} [μηδεις]{.greek-omitted} [σου]{.greek-omitted} [της]{.greek-omitted} [νεοτητος]{.greek-omitted} [καταφρονειτω]{.greek-omitted} [αλλα]{.greek-omitted} [τυπος]{.greek-omitted} [γινου]{.greek-omitted} [των]{.greek-omitted} [πιστων]{.greek-omitted} [εν]{.greek-omitted} [λογω]{.greek-omitted} [εν]{.greek-omitted} [αναστροφη]{.greek-omitted} [εν]{.greek-omitted} [αγαπη]{.greek-omitted} [εν]{.greek-omitted} [πνευματι]{.greek-omitted} [εν]{.greek-omitted} [πιστει]{.greek-omitted} [εν]{.greek-omitted} [αγνεια]{.greek-omitted}[4:12]{.aside}
+
+[μηδεις]{.greek-omitted} [δεις]{.greek-added} σου της νεοτητος καταφρονειτω αλλα τυπος γινου των πιστων εν λογω εν αναστροφη εν αγαπη εν [πνευματι]{.greek-abbr} εν πιστει εν αγνεια[4:12 | instance no. 2]{.aside}
 
 εως ερχομαι προσεχε τη αναγνωσει τη παρακλησει τη διδασκαλια[4:13]{.aside}
 
@@ -185,7 +201,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 χηρας τιμα τας οντως χηρας[5:3]{.aside}
 
-ει δε τις χηρα τεκνα η εκγονα εχει μανθανετωσαν πρωτον τον ιδιον οικον ευσεβειν και αμοιβας αποδιδοναι τοις προγονοις τουτο γαρ εστιν αποδεκτον ενωπιον του [θεου]{.greek-abbr}[5:4]{.aside}
+ει δε τις χηρα τεκνα η εκγονα εχει μανθανετωσαν πρωτον τον ιδιον οικον ευσεβειν και αμοιβας [αποδιδοναι]{.greek-omitted} [τοις]{.greek-omitted} [προγονοις]{.greek-omitted} [τουτο]{.greek-omitted} [γαρ]{.greek-omitted} [εστιν]{.greek-omitted} [αποδεκτον]{.greek-omitted} [ενωπιον]{.greek-omitted} [του]{.greek-omitted} [θεου]{.greek-omitted}[5:4]{.aside}
+
+[ει]{.greek-omitted} [δε]{.greek-omitted} [τις]{.greek-omitted} [χηρα]{.greek-omitted} [τεκνα]{.greek-omitted} [η]{.greek-omitted} [εκγονα]{.greek-omitted} [εχει]{.greek-omitted} [μανθανετωσαν]{.greek-omitted} [πρωτον]{.greek-omitted} [τον]{.greek-omitted} [ιδιον]{.greek-omitted} [οικον]{.greek-omitted} [ευσεβειν]{.greek-omitted} [και]{.greek-omitted} [αμοιβας]{.greek-omitted} αποδιδοναι τοις προγονοις τουτο γαρ εστιν αποδεκτον ενωπιον του [θεου]{.greek-abbr}[5:4 | instance no. 2]{.aside}
 
 η δε οντως χηρα και μεμονωμενη ηλπικεν επι τον [θεον]{.greek-abbr} και προσμενει ταις [δεησεσιν]{.greek-omitted} [δεησεσι]{.greek-added} και ταις προσευχαις νυκτος και ημερας[5:5]{.aside}
 
@@ -217,7 +235,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 κατα πρεσβυτερου κατηγοριαν μη παραδεχου εκτος ει μη επι δυο η τριων μαρτυρων[5:19]{.aside}
 
-τους αμαρτανοντας ενωπιον παντων ελεγχε ινα και οι λοιποι φοβον [εχωσιν]{.greek-omitted} [εχωσι]{.greek-added}[5:20]{.aside}
+τους αμαρτανοντας ενωπιον παντων ελεγχε ινα και [οι]{.greek-omitted} [λοιποι]{.greek-omitted} [φοβον]{.greek-omitted} [εχωσιν]{.greek-omitted}[5:20]{.aside}
+
+[τους]{.greek-omitted} [αμαρτανοντας]{.greek-omitted} [ενωπιον]{.greek-omitted} [παντων]{.greek-omitted} [ελεγχε]{.greek-omitted} [ινα]{.greek-omitted} [και]{.greek-omitted} οι λοιποι φοβον [εχωσιν]{.greek-omitted} [εχωσι]{.greek-added}[5:20 | instance no. 2]{.aside}
 
 διαμαρτυρομαι ενωπιον του [θεου]{.greek-abbr} και [κυριου]{.greek-abbr} [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} και των εκλεκτων αγγελων ινα ταυτα φυλαξης χωρις προκριματος μηδεν ποιων κατα [προσκλησιν]{.greek-omitted} [προσκλισιν]{.greek-added}[5:21]{.aside}
 
@@ -233,7 +253,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 οσοι εισιν υπο ζυγον δουλοι τους ιδιους δεσποτας πασης τιμης αξιους ηγεισθωσαν ινα μη το ονομα του [θεου]{.greek-abbr} και η διδασκαλια [βλασφημηται]{.greek-omitted} [βλασφημειται]{.greek-added}[6:1]{.aside}
 
-οι δε πιστους εχοντες δεσποτας μη καταφρονειτωσαν οτι αδελφοι εισιν αλλα μαλλον δουλευετωσαν οτι πιστοι [εισιν]{.greek-omitted} [εισι]{.greek-added} και αγαπητοι οι της ευεργεσιας αντιλαμβανομενοι ταυτα διδασκε και παρακαλει[6:2]{.aside}
+οι δε πιστους εχοντες δεσποτας μη καταφρονειτωσαν οτι αδελφοι εισιν [αλλα]{.greek-omitted} [μαλλον]{.greek-omitted} [δουλευετωσαν]{.greek-omitted} [οτι]{.greek-omitted} [πιστοι]{.greek-omitted} [εισιν]{.greek-omitted} [και]{.greek-omitted} [αγαπητοι]{.greek-omitted} [οι]{.greek-omitted} [της]{.greek-omitted} [ευεργεσιας]{.greek-omitted} [αντιλαμβανομενοι]{.greek-omitted} [ταυτα]{.greek-omitted} [διδασκε]{.greek-omitted} [και]{.greek-omitted} [παρακαλει]{.greek-omitted}[6:2]{.aside}
+
+[οι]{.greek-omitted} [δε]{.greek-omitted} [πιστους]{.greek-omitted} [εχοντες]{.greek-omitted} [δεσποτας]{.greek-omitted} [μη]{.greek-omitted} [καταφρονειτωσαν]{.greek-omitted} [οτι]{.greek-omitted} [αδελφοι]{.greek-omitted} [εισιν]{.greek-omitted} αλλα μαλλον δουλευετωσαν οτι πιστοι [εισιν]{.greek-omitted} [εισι]{.greek-added} και αγαπητοι οι της ευεργεσιας αντιλαμβανομενοι ταυτα διδασκε και παρακαλει[6:2 | instance no. 2]{.aside}
 
 ει τις ετεροδιδασκαλει και μη προσερχεται [υγιαινουσιν]{.greek-omitted} [υγιαινουσι]{.greek-added} λογοις τοις του [κυριου]{.greek-abbr} ημων [ιησου]{.greek-abbr} [χριστου]{.greek-abbr} και τη κατ ευσεβειαν [διδασκαλια]{.greek-omitted} [διδασκαλιαι]{.greek-added}[6:3]{.aside}
 
@@ -247,7 +269,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εχοντες δε διατροφας και [σκεπασματα]{.greek-omitted} [εκεπασματα]{.greek-added} τουτοις [αρκεσθησομεθα]{.greek-omitted} [αρκεσθησωμεθα]{.greek-added}[6:8]{.aside}
 
-οι δε βουλομενοι πλουτειν εμπιπτουσιν εις [πειρασμους]{.greek-added} [πειρασμον]{.corr} και παγιδα και επιθυμιας πολλας ανοητους και βλαβερας αιτινες [βυθιζουσιν]{.greek-omitted} [βυθιζουσι]{.greek-added} τους [ανθρωπους]{.greek-abbr} εις ολεθρον και απωλειαν[6:9]{.aside}
+οι δε βουλομενοι πλουτειν εμπιπτουσιν εις [πειρασμον]{.greek-omitted} [και]{.greek-omitted} [παγιδα]{.greek-omitted} [και]{.greek-omitted} [επιθυμιας]{.greek-omitted} [πολλας]{.greek-omitted} [ανοητους]{.greek-omitted} [και]{.greek-omitted} [βλαβερας]{.greek-omitted} [αιτινες]{.greek-omitted} [βυθιζουσιν]{.greek-omitted} [τους]{.greek-omitted} [ανθρωπους]{.greek-omitted} [εις]{.greek-omitted} [ολεθρον]{.greek-omitted} [και]{.greek-omitted} [απωλειαν]{.greek-omitted}[6:9]{.aside}
+
+[πειρασμους]{.greek-added} [οι]{.greek-omitted} [δε]{.greek-omitted} [βουλομενοι]{.greek-omitted} [πλουτειν]{.greek-omitted} [εμπιπτουσιν]{.greek-omitted} [εις]{.greek-omitted} [πειρασμον]{.corr} και παγιδα και επιθυμιας πολλας ανοητους και βλαβερας αιτινες [βυθιζουσιν]{.greek-omitted} [βυθιζουσι]{.greek-added} τους [ανθρωπους]{.greek-abbr} εις ολεθρον και απωλειαν[6:9 | instance no. 2]{.aside}
 
 ριζα γαρ παντων των κακων εστιν η φιλαργυρια ης τινες ορεγομενοι απεπλανηθησαν απο της πιστεως και εαυτους περιεπειραν οδυναις πολλαις[6:10]{.aside}
 

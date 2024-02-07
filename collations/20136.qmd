@@ -59,7 +59,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 η δε προβιβασθεισα υπο της [μητρος]{.greek-abbr} αυτης δος μοι φησιν ωδε επι πινακι την κεφαλην ιωαννου του βαπτιστου[14:8]{.aside}
 
-και ελυπηθη ο βασιλευς δια δε τους ορκους και τους συνανακειμενους [ε]{.greek-added} [εκελευσεν]{.greek-omitted} [[κελ]{.greek-supplied}ευσεν]{.greek-added} δοθηναι[14:9]{.aside}
+και ελυπηθη ο βασιλευς δια δε τους ορκους και τους συνανακειμενους [ε]{.greek-added} [εκελευσεν]{.greek-omitted} [δοθηναι]{.greek-omitted}[14:9]{.aside}
+
+[και]{.greek-omitted} [ελυπηθη]{.greek-omitted} [ο]{.greek-omitted} [βασιλευς]{.greek-omitted} [δια]{.greek-omitted} [δε]{.greek-omitted} [τους]{.greek-omitted} [ορκους]{.greek-omitted} [και]{.greek-omitted} [τους]{.greek-omitted} [συνανακειμενους]{.greek-omitted} [εκελευσεν]{.greek-omitted} [[κελ]{.greek-supplied}ευσεν]{.greek-added} δοθηναι[14:9 | instance no. 2]{.aside}
 
 [και]{.greek-supplied} [π]{.unclear}εμψας [απεκεφαλισεν]{.greek-omitted} [απεκε[φα]{.greek-supplied}λησε]{.greek-added} τον ιωαννην [εν]{.greek-supplied} τη φυλακη[14:10]{.aside}
 
@@ -93,7 +95,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ξενος ημην και ου συνηγαγετε με γυμνος και ου περιεβαλετε με [ασθενης]{.greek-omitted} [ασθενη]{.greek-added} και εν φυλακη και [ου]{.greek-added} [και]{.greek-added} ουκ επεσκεψασθε με[25:43]{.aside}
 
-τοτε αποκριθησονται και αυτοι λεγοντες [κυριε]{.greek-abbr} ποτε σε [ειδομεν]{.greek-omitted} [ιδομεν]{.greek-added} [πεινωντα]{.greek-omitted} [πεινοντα]{.greek-added} η [διψωντα]{.greek-omitted} [διψοντα]{.greek-added} η ξενον η γυμνον η ασθενη η εν φυλακη και ου διηκονησαμεν σοι[25:44]{.aside}
+τοτε αποκριθησονται και αυτοι λεγοντες [κυριε]{.greek-abbr} ποτε σε [ειδομεν]{.greek-omitted} [ιδομεν]{.greek-added} [πεινωντα]{.greek-omitted} [η]{.greek-omitted} [διψωντα]{.greek-omitted} [η]{.greek-omitted} [ξενον]{.greek-omitted} [η]{.greek-omitted} [γυμνον]{.greek-omitted} [η]{.greek-omitted} [ασθενη]{.greek-omitted} [η]{.greek-omitted} [εν]{.greek-omitted} [φυλακη]{.greek-omitted} [και]{.greek-omitted} [ου]{.greek-omitted} [διηκονησαμεν]{.greek-omitted} [σοι]{.greek-omitted}[25:44]{.aside}
+
+[τοτε]{.greek-omitted} [αποκριθησονται]{.greek-omitted} [και]{.greek-omitted} [αυτοι]{.greek-omitted} [λεγοντες]{.greek-omitted} [κυριε]{.greek-omitted} [ποτε]{.greek-omitted} [σε]{.greek-omitted} [ειδομεν]{.greek-omitted} [πεινωντα]{.greek-omitted} [πεινοντα]{.greek-added} η [διψωντα]{.greek-omitted} [διψοντα]{.greek-added} η ξενον η γυμνον η ασθενη η εν φυλακη και ου διηκονησαμεν σοι[25:44 | instance no. 2]{.aside}
 
 τοτε αποκριθησεται αυτοις λεγων αμην λεγω υμιν εφ οσον ουκ εποιησατε ενι τουτων των ελαχιστων ουδε εμοι εποιησατε[25:45]{.aside}
 
