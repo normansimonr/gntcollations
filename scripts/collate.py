@@ -34,20 +34,12 @@ def parse_manuscript(
     soup = BeautifulSoup(xml_content, "xml")
     
     # Detecting duplicated verses and marking each instance
-    verses_ab_tags = soup.find_all("ab", recursive=True)
+    verses_ab_tags = soup.find_all("ab", recursive=True, attrs={"n": True})
     
-    tally = []
     for ab_tag in verses_ab_tags:
-        if ab_tag.has_attr('n'):
-            if ab_tag['n'] in tally:
-                previous_appearances = pd.Series(tally).value_counts().reset_index()
-                previous_appearances.columns = ['n', 'count']
-                previous_appearances = previous_appearances[previous_appearances['n']==ab_tag['n']]['count'].iloc[0]
-                ab_tag['instance'] = previous_appearances + 1
-            else:
-                ab_tag['instance'] = 1
-            tally.append(ab_tag['n'])
-            
+        verses_with_n_equal_to_this_tag_n = [tag for tag in verses_ab_tags if tag.get('n') == ab_tag['n']]
+        for i, tag in enumerate(verses_with_n_equal_to_this_tag_n, start=1):
+            tag['instance'] = i            
 
     # Find all <app> tags without an 'n' attribute
     app_tags = soup.find_all("app", recursive=True)
@@ -765,7 +757,7 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-#manuscript_ids = ['30003']
+manuscript_ids = ['30323']
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:

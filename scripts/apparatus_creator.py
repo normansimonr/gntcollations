@@ -8,6 +8,10 @@ import json
 import itertools
 import copy
 
+print('TODAVIA TENGO PROBLEMAS CON LOS CONTEOS DE INSTANCIAS, VER 30323, HECHOS 1')
+print('PONER CAVEAT DE QUE LOS LECCIONARIOS A VECES PARTEN UN MISMO VERSO EN VARIAS SECCIONES, PERO ESTO NO SIEMPRE ES ASI. POR TANTO TODAS LAS INSTANCIAS DE LOS LECCIONARIOS O DE LOS MANUSCRITOS CON VARIAS INSTANCIAS DEBEN SER ESTUDIADAS MANUALMENTE. PONER ESTO EN EL CALLOUT DE NOMINA SACRA.')
+exit()
+
 file_path = "../apparatus/manuscript_verse_relation.json"
 
 # Open the JSON file in read mode and use json.load() to load it into a Python dictionary
@@ -114,7 +118,7 @@ editor:
 # Defining the fragmentary threshold
 fragmentary_threshold = 0.6
 
-for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
+for book_name in ["Third John"]:  # manuscript_attestation.keys():
     byz_book_abbrs = {
         "First Corinthians": "1CO",
         "First John": "1JO",
@@ -150,7 +154,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
     
     for chapter in manuscript_attestation[book_name].keys():
-        print(f"Processing chapter {chapter}")
+        print(f"Processing {book_name} chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
@@ -586,7 +590,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         )
 
                     url = (
-                        f"https://www.gntcollations.com/collations/{manuscript_id}.html"
+                        f"../collations/{manuscript_id}.html"
                     )
 
                     return (
@@ -800,7 +804,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 [
                     "Number of witnesses created by manuscripts that contain the verse more than once",  # Description
                     num_witnesses_attesting_several,  # Count
-                    "Some manuscripts contain a verse more than once. This is common in lectionaries, where the same verse is included in different parts of the lection cycle. Sometimes the several attestations differ even though they are in the same manuscript. The number of the attestation, except for the first, is included as a number between round brackets. Thus, 40844 is the first attestation, 40844(2) is the second, and so on",  # Note
+                    "Some manuscripts contain a verse more than once. This is common in lectionaries. Sometimes the several attestations differ even though they are in the same manuscript. The number of the attestation, except for the first, is included as a number between round brackets. Thus, 40844 is the first attestation, 40844(2) is the second, and so on",  # Note
                     format_manuscript_coincidences_for_quarto(
                         witnesses_attesting_several["manuscript_id"].to_list()
                     ),  # Manuscript list
@@ -1115,10 +1119,12 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             other_groups_string = ""
             if middle_sized_groups_size > 0:
                 for index, row in middle_sized_groups.iterrows():
+                    attests_to_temp = row['parsed_greek_clean'].replace("U", "[[?]]{.apparatus-uncertain}").replace("GAP", "[—]{.gap}")
                     other_groups_string = (
                         other_groups_string
-                        + f"{row['group_name']} **group**, attesting to {row['parsed_greek_clean']} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
+                        + f"{row['group_name']} **group**, attesting to {attests_to_temp} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
                     )
+                    del attests_to_temp
 
             this_verse_collation_string = (
                 this_verse_collation_string + "\n\n" + other_groups_string + ":::\n\n"
