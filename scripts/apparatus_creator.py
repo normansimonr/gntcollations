@@ -50,16 +50,16 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
     lines = this_books_content.strip().split("\n")
     df = pd.DataFrame(lines).replace("", pd.NA).dropna()
     df = df[~df[0].str.startswith("###")]  # Removing chapter marks
-    pattern = r' \| instance no\. ([0-9]+)]{\.aside}' # Detecting the instance numbers
-    df['instance'] = df[0].str.extract(pattern)
-    replacement = ']{.aside}'
+    pattern = r" \| instance no\. ([0-9]+)]{\.aside}"  # Detecting the instance numbers
+    df["instance"] = df[0].str.extract(pattern)
+    replacement = "]{.aside}"
     df[0] = df[0].str.replace(pattern, replacement, regex=True)
-    df['instance'] = df['instance'].fillna(1).astype(int)
+    df["instance"] = df["instance"].infer_objects(copy=False).fillna(1).astype(int)
     df[["parsed_greek", "coordinates"]] = df[0].str.extract(
         r"^(.*?)(\[\d+:\d+\]\{.*?\})$"
     )
     df = df.drop(columns=[0])
-    
+
     df["coordinates"] = (
         df["coordinates"]
         .str.replace("[", "", regex=False)
@@ -70,7 +70,7 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
         .str.replace(".aside", "", regex=False)
     )
     df[["chapter", "verse"]] = df["coordinates"].str.split(":", expand=True)
-    df['verse'] = df['verse'].str.strip()    
+    df["verse"] = df["verse"].str.strip()
     df = df[["chapter", "verse", "instance", "parsed_greek"]]
     if str(chapter) in df["chapter"].unique():
         if str(verse) in df[df["chapter"] == str(chapter)]["verse"].unique():
@@ -128,7 +128,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in [15]:  # manuscript_attestation[book_name].keys():
+    for chapter in manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
@@ -150,11 +150,11 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     encoding="utf-8",
                 ) as file:
                     qmd_content = file.read()
-                
+
                 this_verse_text_and_coordinates = extract_verse_from_qmd(
                     qmd_content, book_name, chapter, verse
                 )
-                
+
                 if isinstance(this_verse_text_and_coordinates, pd.DataFrame):
                     for index, row in this_verse_text_and_coordinates.iterrows():
                         verse_attestation.append(
@@ -177,8 +177,10 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 byz_verse = "EMPTY"
             else:
                 byz_verse = byz_verse[0]
-            
-            verse_attestation.append(["Byz", chapter, verse, 1, byz_verse]) # The number 1 is the attestation counter. Byz attests to each verse only once
+
+            verse_attestation.append(
+                ["Byz", chapter, verse, 1, byz_verse]
+            )  # The number 1 is the attestation counter. Byz attests to each verse only once
 
             verse_attestation = pd.DataFrame(verse_attestation)
             verse_attestation.columns = [
@@ -191,16 +193,13 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             verse_attestation["manuscript_id"] = verse_attestation[
                 "manuscript_id"
             ].astype(str)
-            
 
             # Check if '.greek-abbr' is a substring in any cell of all columns
             # We don't show nomina sacra, so it's important to alert the reader
             is_abbreviation_present = (
                 verse_attestation["parsed_greek"].str.contains(".greek-abbr").any()
             )
-            
-            
-            
+
             ###########################################
             ###########################################
             ################ Collation ################
@@ -208,7 +207,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             ###########################################
             # Cleaning the texts
             def clean_text(text):
-                text = text.replace('\n', ' ')
+                text = text.replace("\n", " ")
                 pattern_omitted = r"\[[^\]]+\]\{\.greek-omitted\}"
                 cleaned_string = re.sub(pattern_omitted, "", text)
                 pattern_supplied = r"\[[^\]]+\]\{\.greek-supplied\}"
@@ -251,8 +250,10 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         uncorrected.append(word)
                 return " ".join(uncorrected)
 
-            corrected_temp.loc[:, "parsed_greek_clean"] = corrected_temp["parsed_greek_clean"].apply(remove_corrections)
-            corrected_temp.loc[:,"uncorrected_reconstructed"] = True
+            corrected_temp.loc[:, "parsed_greek_clean"] = corrected_temp[
+                "parsed_greek_clean"
+            ].apply(remove_corrections)
+            corrected_temp.loc[:, "uncorrected_reconstructed"] = True
 
             def add_cs(row):
                 if "C" in row["parsed_greek_clean"]:
@@ -273,7 +274,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             verse_attestation["parsed_greek_clean"] = verse_attestation[
                 "parsed_greek_clean"
             ].str.strip()
-            
+
             # Removing empty texts that are not the Byzantine witness
             condition = (
                 len(verse_attestation["parsed_greek_clean"].str.split()) == 0
@@ -281,11 +282,18 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             condition = (condition) & (verse_attestation["manuscript_id"] != "Byz")
             condition = ~condition
             verse_attestation = verse_attestation[condition]
-            
+
             # Marking manuscripts with more than one instance of the verse
             # The correction marker always comes BEFORE the instance counter
-            verse_attestation['manuscript_id'] = verse_attestation[['manuscript_id', 'instance']].apply(lambda row: row['manuscript_id'] if row['instance']==1 else row['manuscript_id'] + "(" + str(row['instance']) + ")", axis=1)
-            
+            verse_attestation["manuscript_id"] = verse_attestation[
+                ["manuscript_id", "instance"]
+            ].apply(
+                lambda row: row["manuscript_id"]
+                if row["instance"] == 1
+                else row["manuscript_id"] + "(" + str(row["instance"]) + ")",
+                axis=1,
+            )
+
             # Removing fragmentary manuscripts
             def define_if_too_fragmentary(text):
                 num_words = len(text.split())
@@ -309,7 +317,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             non_fragmentary_witnesses = verse_attestation[
                 ~verse_attestation["too_fragmentary"]
             ]
-            
+
             # Witness groups
             witness_groups = (
                 non_fragmentary_witnesses[["manuscript_id", "parsed_greek_clean"]]
@@ -317,33 +325,33 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 .apply(list)
                 .reset_index()
             )
-            
-            witness_groups["group_size"] = witness_groups["manuscript_id"].apply(
-                len
-            )
+
+            witness_groups["group_size"] = witness_groups["manuscript_id"].apply(len)
             witness_groups = witness_groups.sort_values(
                 by=["group_size"], ascending=False
             )
 
-            witness_groups["contains_byz"] = witness_groups[
-                "manuscript_id"
-            ].apply(lambda x: True if "Byz" in x else False)
+            witness_groups["contains_byz"] = witness_groups["manuscript_id"].apply(
+                lambda x: True if "Byz" in x else False
+            )
 
             unanimous_group = witness_groups[witness_groups["contains_byz"]]
-            unanimous_group.loc[:,"manuscript_id"] = unanimous_group["manuscript_id"].apply(
+            unanimous_group.loc[:, "manuscript_id"] = unanimous_group[
+                "manuscript_id"
+            ].apply(
                 lambda mlist: [x for x in mlist if x != "Byz"]
             )  # Removing Byz to avoid counting it as a witness
-            unanimous_group.loc[:,"group_size"] = unanimous_group["manuscript_id"].apply(len)
+            unanimous_group.loc[:, "group_size"] = unanimous_group[
+                "manuscript_id"
+            ].apply(len)
             unanimous_group_badge = (
                 f"→**unanimous**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~"
             )
-            unanimous_group.loc[:,"group_name"] = unanimous_group_badge
+            unanimous_group.loc[:, "group_name"] = unanimous_group_badge
 
             witness_groups = witness_groups[~witness_groups["contains_byz"]]
 
-            middle_sized_groups = witness_groups[
-                witness_groups["group_size"] >= 2
-            ]
+            middle_sized_groups = witness_groups[witness_groups["group_size"] >= 2]
             num_repeats = (
                 len(middle_sized_groups) // 26 + 1
             )  # Calculate the number of times the alphabet has to repeat. This is to generate the alphabetical group indexes
@@ -361,19 +369,26 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         for char in alphabet
                     ]
                 )
-            middle_sized_groups.loc[:,"group_name"] = index_chars[: len(middle_sized_groups)]
+            middle_sized_groups.loc[:, "group_name"] = index_chars[
+                : len(middle_sized_groups)
+            ]
 
             one_sized_groups = witness_groups[witness_groups["group_size"] == 1]
-            one_sized_groups.loc[:,"group_name"] = one_sized_groups["manuscript_id"].apply(
-                lambda x: x[0]
-            )
-            
-            
+            one_sized_groups.loc[:, "group_name"] = one_sized_groups[
+                "manuscript_id"
+            ].apply(lambda x: x[0])
+
             # Detecting and removing non-aligned corrected witnesses
-            one_sized_groups.loc[:,'is_corrected_witness'] = one_sized_groups['group_name'].apply(lambda x: True if "^c^" in x else False)
-            ignored_corrected_non_aligned_witnesses = one_sized_groups[one_sized_groups['is_corrected_witness']]
-            one_sized_groups = one_sized_groups[~one_sized_groups['is_corrected_witness']]
-            
+            one_sized_groups.loc[:, "is_corrected_witness"] = one_sized_groups[
+                "group_name"
+            ].apply(lambda x: True if "^c^" in x else False)
+            ignored_corrected_non_aligned_witnesses = one_sized_groups[
+                one_sized_groups["is_corrected_witness"]
+            ]
+            one_sized_groups = one_sized_groups[
+                ~one_sized_groups["is_corrected_witness"]
+            ]
+
             witness_groups = pd.concat(
                 [unanimous_group, middle_sized_groups, one_sized_groups]
             )
@@ -388,17 +403,15 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             collatex_output = collatex.collate(
                 collation, layout="horizontal", near_match=True, segmentation=False
             )
-            
+
             collatex_output = str(collatex_output)
             # Specify the file path where you want to save the text file
             file_path = "output.txt"
-            
+
             # Open the file in write mode and write the content of collatex_output to it
-            with open(file_path, 'w') as file:
+            with open(file_path, "w") as file:
                 file.write(collatex_output)
 
-            
-            
             def collatex_output_to_df(collatex_output):
                 collatex_output = str(collatex_output)
                 rows = collatex_output.split("\n")
@@ -412,7 +425,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 # Create a DataFrame from the extracted data
                 df = pd.DataFrame(data).set_index(0)
                 df.columns = range(0, df.shape[1])
-                df.index.name = 'manuscript_id'
+                df.index.name = "manuscript_id"
                 return df
 
             alignment_table = collatex_output_to_df(collatex_output)
@@ -422,50 +435,76 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             alignment_table = alignment_table.replace("-", pd.NA).dropna(
                 axis=1, how="all"
             )
-            alignment_table.columns = range(len(alignment_table.columns))            
-            
+            alignment_table.columns = range(len(alignment_table.columns))
+
             alignment_table = alignment_table.fillna("•")
-            
-            alignment_table.to_csv('test1.csv')
-            
+
+            alignment_table.to_csv("test1.csv")
+
             # Find the base column (Byz)
             byz_column_base = alignment_table.loc[unanimous_group_badge]
-            
-            # Merging empty textual units. if A is not empty, B is empty and C is not empty, the result is A, BC.            
+
+            # Merging empty textual units. if A is not empty, B is empty and C is not empty, the result is A, BC.
             columns_to_merge_in_alignment_table = []
-            
+
             for index, row in pd.DataFrame(byz_column_base).iterrows():
-                if row.iloc[0] == '•':
+                if row.iloc[0] == "•":
                     if index == len(byz_column_base) - 1:
                         columns_to_merge_in_alignment_table.append([index - 1, index])
                     else:
                         columns_to_merge_in_alignment_table.append([index, index + 1])
-            
-            columns_to_merge_in_alignment_table = pd.Series(columns_to_merge_in_alignment_table).drop_duplicates().to_list()
+
+            columns_to_merge_in_alignment_table = (
+                pd.Series(columns_to_merge_in_alignment_table)
+                .drop_duplicates()
+                .to_list()
+            )
             columns_to_merge_in_alignment_table.reverse()
-            
+
             for merge_this_pair in columns_to_merge_in_alignment_table:
-                alignment_table[merge_this_pair[0]] = alignment_table[merge_this_pair[0]] + " " + alignment_table[merge_this_pair[1]]
+                alignment_table[merge_this_pair[0]] = (
+                    alignment_table[merge_this_pair[0]]
+                    + " "
+                    + alignment_table[merge_this_pair[1]]
+                )
                 alignment_table = alignment_table.drop(columns=[merge_this_pair[1]])
-            
+
             for col in alignment_table.columns:
-                alignment_table[col] = alignment_table[col].str.replace("•", " ").str.replace("\s+", " ", regex=True).str.strip().replace("", "•")
-            
+                alignment_table[col] = (
+                    alignment_table[col]
+                    .str.replace("•", " ")
+                    .str.replace("\s+", " ", regex=True)
+                    .str.strip()
+                    .replace("", "•")
+                )
+
             alignment_table.columns = range(len(alignment_table.columns))
-            
+
             # Check that the last textual unit is not an empty unit in Byz
             byz_column_base = alignment_table.loc[unanimous_group_badge]
-            
-            if byz_column_base.iloc[-1] == '•':
-                alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2] + " " + alignment_table[len(byz_column_base)-1]
-                alignment_table = alignment_table.drop(columns=[len(byz_column_base)-1])
-                alignment_table[len(byz_column_base)-2] = alignment_table[len(byz_column_base)-2].str.replace("•", " ").str.replace("\s+", " ", regex=True).str.strip().replace("", "•")
-                
+
+            if byz_column_base.iloc[-1] == "•":
+                alignment_table[len(byz_column_base) - 2] = (
+                    alignment_table[len(byz_column_base) - 2]
+                    + " "
+                    + alignment_table[len(byz_column_base) - 1]
+                )
+                alignment_table = alignment_table.drop(
+                    columns=[len(byz_column_base) - 1]
+                )
+                alignment_table[len(byz_column_base) - 2] = (
+                    alignment_table[len(byz_column_base) - 2]
+                    .str.replace("•", " ")
+                    .str.replace("\s+", " ", regex=True)
+                    .str.strip()
+                    .replace("", "•")
+                )
+
             alignment_table.columns = range(len(alignment_table.columns))
             byz_column_base = alignment_table.loc[unanimous_group_badge]
-            
-            alignment_table.to_csv('test.csv')
-            
+
+            alignment_table.to_csv("test.csv")
+
             # Agglomerating the coincidences
 
             textual_units = []
@@ -502,21 +541,25 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 return (year - 1) // 100 + 1
 
             liste["century_late"] = liste["origLate"].astype(int).apply(year_to_century)
-            #liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
+            # liste["century_late_roman"] = liste["century_late"].apply(roman.toRoman)
 
-            def format_manuscript_coincidences_for_quarto(manuscript_coincidence):                
+            def format_manuscript_coincidences_for_quarto(manuscript_coincidence):
                 def add_link_to_manuscript_id(manuscript_element):
                     if "^c^" in manuscript_element:
                         manuscript_handle = manuscript_element
                         manuscript_id = manuscript_element[0:5]
-                    elif "(" in manuscript_element: # If it is an additional instance of a verse
+                    elif (
+                        "(" in manuscript_element
+                    ):  # If it is an additional instance of a verse
                         manuscript_handle = manuscript_element
                         manuscript_id = manuscript_element[0:5]
                     else:
                         manuscript_id = manuscript_element
                         manuscript_handle = manuscript_element
 
-                    if "^c^" in manuscript_handle: # Adding the CSS style for corrected witnesses
+                    if (
+                        "^c^" in manuscript_handle
+                    ):  # Adding the CSS style for corrected witnesses
                         manuscript_handle = (
                             "[" + manuscript_handle + "?]{.apparatus-corrected}"
                         )
@@ -532,28 +575,34 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         + url
                         + ")]{.apparatus-manuscript-link}"
                     )
-                
-                
-                
-                if len(manuscript_coincidence)==0:
+
+                if len(manuscript_coincidence) == 0:
                     return "None"
                 else:
-                    witness_group_coincidence = [] # Witness groups don't need parsing
-                    corrected_manuscripts_ids = [] # Corrected witnesses don't have a date, so we parse them separately
+                    witness_group_coincidence = []  # Witness groups don't need parsing
+                    corrected_manuscripts_ids = (
+                        []
+                    )  # Corrected witnesses don't have a date, so we parse them separately
                     standalone_manuscript_ids = []
-                    
+
                     for coincidence in manuscript_coincidence:
                         if coincidence[0] == "→":
                             witness_group_coincidence.append(coincidence)
-                        elif "^c^" in coincidence: 
+                        elif "^c^" in coincidence:
                             corrected_manuscripts_ids.append(coincidence)
                         elif "(" in coincidence:
-                            standalone_manuscript_ids.append([coincidence.split('(')[0], coincidence])
+                            standalone_manuscript_ids.append(
+                                [coincidence.split("(")[0], coincidence]
+                            )
                         else:
                             standalone_manuscript_ids.append([coincidence, coincidence])
-                    
+
                     # Corrected manuscripts
-                    corrected_manuscripts_ids = pd.Series(corrected_manuscripts_ids, dtype='str').sort_values(ascending=True).to_list()
+                    corrected_manuscripts_ids = (
+                        pd.Series(corrected_manuscripts_ids, dtype="str")
+                        .sort_values(ascending=True)
+                        .to_list()
+                    )
                     corrected_manuscripts_formatted_string = ""
                     if len(corrected_manuscripts_ids) > 0:
                         corrected_manuscripts_formatted_string = (
@@ -563,14 +612,29 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                                 for manuscript_id in corrected_manuscripts_ids
                             )
                         )
-                    
-                    standalone_manuscripts = pd.DataFrame(standalone_manuscript_ids, columns=['manuscript_id', 'manuscript_handle'])
-                    standalone_manuscripts = pd.merge(standalone_manuscripts, liste, left_on='manuscript_id', right_on='docID', how='left')
-                    standalone_manuscripts = standalone_manuscripts.drop_duplicates() # Some items in the Liste appear more than once
-                    standalone_manuscripts = standalone_manuscripts.sort_values(by=['manuscript_id'], ascending=True)
-                    
+
+                    standalone_manuscripts = pd.DataFrame(
+                        standalone_manuscript_ids,
+                        columns=["manuscript_id", "manuscript_handle"],
+                    )
+                    standalone_manuscripts = pd.merge(
+                        standalone_manuscripts,
+                        liste,
+                        left_on="manuscript_id",
+                        right_on="docID",
+                        how="left",
+                    )
                     standalone_manuscripts = (
-                        standalone_manuscripts[["docID", "manuscript_handle", "century_late"]]
+                        standalone_manuscripts.drop_duplicates()
+                    )  # Some items in the Liste appear more than once
+                    standalone_manuscripts = standalone_manuscripts.sort_values(
+                        by=["manuscript_id"], ascending=True
+                    )
+
+                    standalone_manuscripts = (
+                        standalone_manuscripts[
+                            ["docID", "manuscript_handle", "century_late"]
+                        ]
                         .groupby("century_late", group_keys=False)["manuscript_handle"]
                         .apply(list)
                         .reset_index()
@@ -603,7 +667,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     witness_group_coincidence_string = " ".join(
                         witness_group_coincidence
                     )
-                    
+
                     first_separator = ""
                     second_separator = ""
 
@@ -619,7 +683,13 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         if len(corrected_manuscripts_formatted_string.strip()) > 0:
                             second_separator = " ⬩ "
 
-                    final_string = witness_group_coincidence_string + first_separator + standalone_manuscripts_formatted_string + second_separator + corrected_manuscripts_formatted_string
+                    final_string = (
+                        witness_group_coincidence_string
+                        + first_separator
+                        + standalone_manuscripts_formatted_string
+                        + second_separator
+                        + corrected_manuscripts_formatted_string
+                    )
                     return final_string
 
             textual_units["formatted_manuscript_coincidence"] = textual_units[
@@ -660,140 +730,206 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             ## Creating the witness count callout ##
             ########################################
             ########################################
-            
+
             # The data table
-            witness_counts_table = []            
-                       
+            witness_counts_table = []
+
             # Number of transcribed manuscripts attesting this verse
-            
+
             witnesses_that_have_this_verse_includes_corrections = verse_attestation[
-                    (verse_attestation['manuscript_id']!='Byz')
-                    ]
-            
+                (verse_attestation["manuscript_id"] != "Byz")
+            ]
+
             witnesses_that_have_this_verse_not_includes_corrections = verse_attestation[
-                    (~verse_attestation['manuscript_id'].apply(lambda x: True if "^c^" in x else False)) &
-                    (verse_attestation['manuscript_id']!='Byz')
-                    ]            
-            
-            num_manuscripts_attesting_this_verse = sum(witnesses_that_have_this_verse_not_includes_corrections['manuscript_id'].apply(lambda x: False if '(' in x else True)) # We don't double count manuscripts that have several instances of the verse
-            
+                (
+                    ~verse_attestation["manuscript_id"].apply(
+                        lambda x: True if "^c^" in x else False
+                    )
+                )
+                & (verse_attestation["manuscript_id"] != "Byz")
+            ]
+
+            num_manuscripts_attesting_this_verse = sum(
+                witnesses_that_have_this_verse_not_includes_corrections[
+                    "manuscript_id"
+                ].apply(lambda x: False if "(" in x else True)
+            )  # We don't double count manuscripts that have several instances of the verse
+
             witness_counts_table.append(
                 [
-                    'Number of transcribed manuscripts that contain this verse', # Description
-                    num_manuscripts_attesting_this_verse, # Count
-                    'Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus', # Note
-                    'For manuscript lists see the apparatus and the witness groups', # Manuscript list
+                    "Number of transcribed manuscripts that contain this verse",  # Description
+                    num_manuscripts_attesting_this_verse,  # Count
+                    "Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus",  # Note
+                    "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
             )
 
             # Witnesses attesting to the verse more than once
-            
-            witnesses_attesting_several = witnesses_that_have_this_verse_includes_corrections[witnesses_that_have_this_verse_includes_corrections['manuscript_id'].apply(lambda x: True if '(' in x else False)]
-            num_witnesses_attesting_several = len(witnesses_attesting_several)
-            
-            witness_counts_table.append(
-                [
-                    'Number of witnesses created by manuscripts that contain the verse more than once', # Description
-                    num_witnesses_attesting_several, # Count
-                    'Some manuscripts contain a verse more than once. This is common in lectionaries, where the same verse is included in different parts of the lection cycle. Sometimes the several attestations differ even though they are in the same manuscript. The number of the attestation, except for the first, is included as a number between round brackets. Thus, 40844 is the first attestation, 40844(2) is the second, and so on', # Note
-                    format_manuscript_coincidences_for_quarto(witnesses_attesting_several['manuscript_id'].to_list()), # Manuscript list
+
+            witnesses_attesting_several = (
+                witnesses_that_have_this_verse_includes_corrections[
+                    witnesses_that_have_this_verse_includes_corrections[
+                        "manuscript_id"
+                    ].apply(lambda x: True if "(" in x else False)
                 ]
             )
-                
+            num_witnesses_attesting_several = len(witnesses_attesting_several)
+
+            witness_counts_table.append(
+                [
+                    "Number of witnesses created by manuscripts that contain the verse more than once",  # Description
+                    num_witnesses_attesting_several,  # Count
+                    "Some manuscripts contain a verse more than once. This is common in lectionaries, where the same verse is included in different parts of the lection cycle. Sometimes the several attestations differ even though they are in the same manuscript. The number of the attestation, except for the first, is included as a number between round brackets. Thus, 40844 is the first attestation, 40844(2) is the second, and so on",  # Note
+                    format_manuscript_coincidences_for_quarto(
+                        witnesses_attesting_several["manuscript_id"].to_list()
+                    ),  # Manuscript list
+                ]
+            )
+
             # Corrected witnesses that ARE included
 
-            witnesses_corrected_this_verse = witnesses_that_have_this_verse_includes_corrections[
-                (witnesses_that_have_this_verse_includes_corrections['has_corrections']) &
-                (~witnesses_that_have_this_verse_includes_corrections['uncorrected_reconstructed'])
+            witnesses_corrected_this_verse = (
+                witnesses_that_have_this_verse_includes_corrections[
+                    (
+                        witnesses_that_have_this_verse_includes_corrections[
+                            "has_corrections"
+                        ]
+                    )
+                    & (
+                        ~witnesses_that_have_this_verse_includes_corrections[
+                            "uncorrected_reconstructed"
+                        ]
+                    )
                 ]["manuscript_id"].to_list()
-            
+            )
+
             witnesses_included_corrected = []
             for w in witnesses_corrected_this_verse:
-                if w in ignored_corrected_non_aligned_witnesses['group_name'].to_list():
+                if w in ignored_corrected_non_aligned_witnesses["group_name"].to_list():
                     pass
                 else:
                     witnesses_included_corrected.append(w)
-            
-            num_witnesses_attesting_this_verse_corrected = len(witnesses_included_corrected)
-            
-            witness_counts_table.append(
-                [
-                    'Corrected witnesses *included* in the apparatus', # Description
-                    num_witnesses_attesting_this_verse_corrected, # Count
-                    f'Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading', # Note
-                    format_manuscript_coincidences_for_quarto(witnesses_included_corrected), # Manuscript list
-                ]
+
+            num_witnesses_attesting_this_verse_corrected = len(
+                witnesses_included_corrected
             )
-            
-            
-            # Fragmentary witnesses
-            
-            fragmentary_witnesses_including_this_verse = witnesses_that_have_this_verse_includes_corrections[witnesses_that_have_this_verse_includes_corrections['too_fragmentary']]
-            num_fragmentary_witnesses_this_verse = len(fragmentary_witnesses_including_this_verse)
-            
-            witnesses_exluded_too_fragmentary = fragmentary_witnesses_including_this_verse[
-                "manuscript_id"
-            ].to_list()
 
             witness_counts_table.append(
                 [
-                    'Witnesses *ignored* due to being too fragmentary', # Description
-                    num_fragmentary_witnesses_this_verse, # Count
-                    f'A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain', # Note
-                    format_manuscript_coincidences_for_quarto(witnesses_exluded_too_fragmentary), # Manuscript list
+                    "Corrected witnesses *included* in the apparatus",  # Description
+                    num_witnesses_attesting_this_verse_corrected,  # Count
+                    f"Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading",  # Note
+                    format_manuscript_coincidences_for_quarto(
+                        witnesses_included_corrected
+                    ),  # Manuscript list
                 ]
             )
-                
-            witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary = witnesses_that_have_this_verse_not_includes_corrections[~witnesses_that_have_this_verse_not_includes_corrections['too_fragmentary']]
-                
-            
-            
+
+            # Fragmentary witnesses
+
+            fragmentary_witnesses_including_this_verse = (
+                witnesses_that_have_this_verse_includes_corrections[
+                    witnesses_that_have_this_verse_includes_corrections[
+                        "too_fragmentary"
+                    ]
+                ]
+            )
+            num_fragmentary_witnesses_this_verse = len(
+                fragmentary_witnesses_including_this_verse
+            )
+
+            witnesses_exluded_too_fragmentary = (
+                fragmentary_witnesses_including_this_verse["manuscript_id"].to_list()
+            )
+
+            witness_counts_table.append(
+                [
+                    "Witnesses *ignored* due to being too fragmentary",  # Description
+                    num_fragmentary_witnesses_this_verse,  # Count
+                    f"A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain",  # Note
+                    format_manuscript_coincidences_for_quarto(
+                        witnesses_exluded_too_fragmentary
+                    ),  # Manuscript list
+                ]
+            )
+
+            witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary = witnesses_that_have_this_verse_not_includes_corrections[
+                ~witnesses_that_have_this_verse_not_includes_corrections[
+                    "too_fragmentary"
+                ]
+            ]
+
             # Corrected hands that are IGNORED
-            witnesses_corrected_ignored = ignored_corrected_non_aligned_witnesses['group_name'].to_list()
+            witnesses_corrected_ignored = ignored_corrected_non_aligned_witnesses[
+                "group_name"
+            ].to_list()
             num_corrected_ignored = len(witnesses_corrected_ignored)
-            
+
             witness_counts_table.append(
                 [
-                    'Corrected witnesses *ignored* from the apparatus', # Description
-                    num_corrected_ignored, # Count
-                    f'These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the uncorrected witness may itself be included in the apparatus)', # Note
-                    format_manuscript_coincidences_for_quarto(witnesses_corrected_ignored), # Manuscript list
+                    "Corrected witnesses *ignored* from the apparatus",  # Description
+                    num_corrected_ignored,  # Count
+                    f"These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the uncorrected witness may itself be included in the apparatus)",  # Note
+                    format_manuscript_coincidences_for_quarto(
+                        witnesses_corrected_ignored
+                    ),  # Manuscript list
                 ]
             )
-                
-            witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary_minus_corignored = witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary[~witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary['manuscript_id'].isin(
-                pd.Series(witnesses_corrected_ignored).apply(lambda x: x.replace("^c^", ""))
-                )]
-                
+
+            witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary_minus_corignored = witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary[
+                ~witnesses_that_have_this_verse_not_includes_corrections_minus_fragmentary[
+                    "manuscript_id"
+                ].isin(
+                    pd.Series(witnesses_corrected_ignored).apply(
+                        lambda x: x.replace("^c^", "")
+                    )
+                )
+            ]
+
             # Corrected witnessses that are ignored from the apparatus and are second or greater instance of a verse
-            corrected_several_instances_ignored = list(set(witnesses_corrected_ignored).intersection(set(witnesses_attesting_several['manuscript_id'])))
-            num_corrected_several_instances_ignored = len(corrected_several_instances_ignored)
-            
+            corrected_several_instances_ignored = list(
+                set(witnesses_corrected_ignored).intersection(
+                    set(witnesses_attesting_several["manuscript_id"])
+                )
+            )
+            num_corrected_several_instances_ignored = len(
+                corrected_several_instances_ignored
+            )
+
             witness_counts_table.append(
                 [
-                    'Corrected witnesses that were created by a manuscript that included the verse more than once and that are also *ignored* from the apparatus', # Description
-                    num_corrected_several_instances_ignored, # Count
-                    f'These corrected witnesses need to be subtracted from the counts as their reconstruction is uncertain', # Note
-                    format_manuscript_coincidences_for_quarto(corrected_several_instances_ignored), # Manuscript list
+                    "Corrected witnesses that were created by a manuscript that included the verse more than once and that are also *ignored* from the apparatus",  # Description
+                    num_corrected_several_instances_ignored,  # Count
+                    f"These corrected witnesses need to be subtracted from the counts as their reconstruction is uncertain",  # Note
+                    format_manuscript_coincidences_for_quarto(
+                        corrected_several_instances_ignored
+                    ),  # Manuscript list
                 ]
             )
-            
-            
+
             # Count of witnesses included in the apparatus
-            
-            num_witnesses_included_in_collation = num_manuscripts_attesting_this_verse  + num_witnesses_attesting_several - num_fragmentary_witnesses_this_verse + num_witnesses_attesting_this_verse_corrected -num_corrected_several_instances_ignored
-            
-            
+
+            num_witnesses_included_in_collation = (
+                num_manuscripts_attesting_this_verse
+                + num_witnesses_attesting_several
+                - num_fragmentary_witnesses_this_verse
+                + num_witnesses_attesting_this_verse_corrected
+                - num_corrected_several_instances_ignored
+            )
+
             witness_counts_table.append(
                 [
-                    '**Number of witnesses that were taken into account in the collation**', # Description
-                    f'**{num_witnesses_included_in_collation}**', # Count
-                    f'The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) plus the witnesses that attest to the verse more than once ({num_witnesses_attesting_several}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected}) minus the corrected witnesses that need to be ignored and were created by manuscripts that included the verse more than once ({num_corrected_several_instances_ignored}). The other ignored corrected witnesses need not be subtracted as they are not included in any of the other counts', # Note
-                    'For manuscript lists see the apparatus and the witness groups', # Manuscript list
+                    "**Number of witnesses that were taken into account in the collation**",  # Description
+                    f"**{num_witnesses_included_in_collation}**",  # Count
+                    f"The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) plus the witnesses that attest to the verse more than once ({num_witnesses_attesting_several}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected}) minus the corrected witnesses that need to be ignored and were created by manuscripts that included the verse more than once ({num_corrected_several_instances_ignored}). The other ignored corrected witnesses need not be subtracted as they are not included in any of the other counts",  # Note
+                    "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
             )
-            
-            witness_counts_table = pd.DataFrame(witness_counts_table, columns=['Description', 'Count', 'Note', 'Manuscript list'])
+
+            witness_counts_table = pd.DataFrame(
+                witness_counts_table,
+                columns=["Description", "Count", "Note", "Manuscript list"],
+            )
 
             this_verse_collation_string = (
                 this_verse_collation_string
@@ -814,53 +950,65 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     + '::: {.callout-important collapse="true" icon="false"}\n## *Nomina sacra* or abbreviations\nPlease note that one or more of the manuscripts contains *nomina sacra* which have been spelled out by our automated algorithm. This process is very accurate, but occasional mistakes can happen, especially with obscure or uncommon *nomina sacra*. In case of doubt about the actual reading of a *nomen sacrum*, please consult the original transcripts or facsimiles.\n:::\n\n'
                 )
 
-
             ####################################################
             ####################################################
             ##### Creating the earliest attestation callout ####
             ####################################################
             ####################################################
 
-
             # Function to determine earliest century
-            def find_earliest_century(manuscript_list, type_data):                
-                if type_data == 'unanimous':
+            def find_earliest_century(manuscript_list, type_data):
+                if type_data == "unanimous":
                     manuscript_list = manuscript_list[0]
-                elif type_data == 'individual':
+                elif type_data == "individual":
                     extended_m_list = []
                     for group_name in manuscript_list:
-                        _ = witness_groups[witness_groups['group_name']==group_name]['manuscript_id'].iloc[0]
+                        _ = witness_groups[witness_groups["group_name"] == group_name][
+                            "manuscript_id"
+                        ].iloc[0]
                         for man in _:
                             extended_m_list.append(man)
                     manuscript_list = extended_m_list
-                elif type_data == 'verse':
-                    manuscript_list.remove('Byz')
-                
+                elif type_data == "verse":
+                    manuscript_list.remove("Byz")
+
                 centuries = []
                 for m in manuscript_list:
-                    if "^c^" in m: # Corrected hands don't have dates associated with them
+                    if (
+                        "^c^" in m
+                    ):  # Corrected hands don't have dates associated with them
                         centuries.append(pd.NA)
                     else:
                         if "(" in m:
-                            m = m.split('(')[0] # Manuscripts that have several instances of the same verse. We only need the manuscript id at this moment in order to obtain the centuries
-                        centuries.append(liste[liste["docID"]==m]['century_late'].iloc[0])
-                
+                            m = m.split("(")[
+                                0
+                            ]  # Manuscripts that have several instances of the same verse. We only need the manuscript id at this moment in order to obtain the centuries
+                        centuries.append(
+                            liste[liste["docID"] == m]["century_late"].iloc[0]
+                        )
+
                 if len(centuries) == 0:
-                    if type_data == 'unanimous':
+                    if type_data == "unanimous":
                         return "*Byzantine text not attested in its entirety in any of the collated manuscripts*"
-                    elif type_data == 'individual':
+                    elif type_data == "individual":
                         return "*Byzantine reading not attested in its entirety in any of the collated manuscripts*"
-                    elif type_data == 'verse':
+                    elif type_data == "verse":
                         return "*Verse not attested in any of the collated manuscripts*"
                 else:
                     if np.isnan(pd.Series(centuries).min()):
                         return "*The text is present only in a corrected hand and does not have a date associated to it*"
                     else:
-                        return "[" + roman.toRoman(int(pd.Series(centuries).min())).lower() + "]{.century-apparatus}"
-            
+                        return (
+                            "["
+                            + roman.toRoman(int(pd.Series(centuries).min())).lower()
+                            + "]{.century-apparatus}"
+                        )
+
             # Complete verse
-            earliest_attestation_complete_verse = find_earliest_century(unanimous_group['manuscript_id'].to_list(), 'unanimous')
-            
+            earliest_attestation_complete_verse = find_earliest_century(
+                unanimous_group["manuscript_id"].to_list(), "unanimous"
+            )
+
             # Individual readings
             earliest_attestation_readings = []
             for position in range(len(byz_column_base)):
@@ -869,32 +1017,39 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     (textual_units["position"] == position)
                     & (textual_units["is_byzantine"] == True)
                 ]["manuscript_coincidence"].iloc[0]
-                earliest_attestation_readings.append([byzantine_reading, witnesses_supporting_this_byzantine_reading])
-            
-            earliest_attestation_readings = pd.DataFrame(earliest_attestation_readings, columns=['Reading', 'manuscript_list'])
-            
+                earliest_attestation_readings.append(
+                    [byzantine_reading, witnesses_supporting_this_byzantine_reading]
+                )
+
+            earliest_attestation_readings = pd.DataFrame(
+                earliest_attestation_readings, columns=["Reading", "manuscript_list"]
+            )
+
             _ = []
             for index, row in earliest_attestation_readings.iterrows():
-                _.append(find_earliest_century(row['manuscript_list'], 'individual'))
-            
-            earliest_attestation_readings['Earliest attestation (century)'] = _
+                _.append(find_earliest_century(row["manuscript_list"], "individual"))
+
+            earliest_attestation_readings["Earliest attestation (century)"] = _
             del _
-            
+
             # Existence of verse
-            earliest_attestation_existence_verse = find_earliest_century(verse_attestation['manuscript_id'].to_list(), 'verse')
-            
+            earliest_attestation_existence_verse = find_earliest_century(
+                verse_attestation["manuscript_id"].to_list(), "verse"
+            )
+
             this_verse_collation_string = (
-                    this_verse_collation_string
-                    + '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
-                    + '**Note**. Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n'
-                    + f'Earliest attestation (century) of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}.\n\n'
-                    + f'Earliest attestation (century) of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}.\n\n'
-                    + 'Below is the earliest attestation of each **individual reading**:\n\n'
-                    + earliest_attestation_readings[['Reading', 'Earliest attestation (century)']].to_markdown(index=False)
-                    + '\n:::\n\n'
-                )
-            
-            
+                this_verse_collation_string
+                + '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
+                + "**Note**. Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n"
+                + f"Earliest attestation (century) of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}.\n\n"
+                + f"Earliest attestation (century) of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}.\n\n"
+                + "Below is the earliest attestation of each **individual reading**:\n\n"
+                + earliest_attestation_readings[
+                    ["Reading", "Earliest attestation (century)"]
+                ].to_markdown(index=False)
+                + "\n:::\n\n"
+            )
+
             ######################################
             ######################################
             ##### Creating the groups callout ####
@@ -980,10 +1135,12 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     (textual_units["position"] == position)
                     & (textual_units["is_byzantine"] == True)
                 ]["manuscript_coincidence"].iloc[0]
-                
+
                 if unanimous_group_size == 0:
-                    witnesses_supporting_this_byzantine_reading.remove(unanimous_group_badge)
-                
+                    witnesses_supporting_this_byzantine_reading.remove(
+                        unanimous_group_badge
+                    )
+
                 num_witnesses_supporting_this_byzantine_reading = (
                     calculate_num_witnesses_supporting_this_reading(
                         witnesses_supporting_this_byzantine_reading
