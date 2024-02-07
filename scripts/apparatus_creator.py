@@ -95,7 +95,7 @@ editor:
 # Defining the fragmentary threshold
 fragmentary_threshold = 0.6
 
-for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
+for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
     byz_book_abbrs = {
         "First Corinthians": "1CO",
         "First John": "1JO",
@@ -130,13 +130,13 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in [1]:  # manuscript_attestation[book_name].keys():
+    for chapter in [15]:  # manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in [3]:#verses:
+        for verse in [19]:#verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -1020,6 +1020,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 if len(variants_at_this_textual_unit) > 0:
                     for reading, row in variants_at_this_textual_unit.iterrows():
                         reading = reading.replace("U", "[[?]]{.apparatus-uncertain}")
+                        reading = reading.replace("GAP", "[—]{.gap}")
 
                         if reading == "•":
                             reading = "*either missing or lacuna*"
@@ -1044,7 +1045,3 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
         f"../apparatus/{book_name.lower().replace(' ','_')}.qmd", "w", encoding="utf-8"
     ) as file:
         file.write(book_qmd_string)
-
-
-print('REMOVER GAP')
-print('HAY ERROR DE CUENTA AUN EN ULTIMA PALABRA!')
