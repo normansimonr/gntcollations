@@ -26,8 +26,29 @@ for book_name in manuscript_attestation_strings.keys():
                 int(verse)
             ] = manuscript_attestation_strings[book_name][chapter][verse]
 
-# Analysis
 
+# Removing verses with ID 0. These are normally incipits and create incorrect behaviour in the code
+verses_to_remove_from_attestation = []
+for book_name in manuscript_attestation.keys():
+    for chapter in manuscript_attestation[book_name].keys():
+        for verse in manuscript_attestation[book_name][chapter].keys():
+            if verse == 0:
+                verses_to_remove_from_attestation.append([book_name, chapter, verse])
+
+for rem in verses_to_remove_from_attestation:
+    del manuscript_attestation[rem[0]][rem[1]][rem[2]]
+
+empty_chapters = [] # If the chapter was left totally empty, remove it (eg. 17th chapter of Mark, which doesn't exist)
+for book_name in manuscript_attestation.keys():
+    for chapter in manuscript_attestation[book_name].keys():
+        if len(manuscript_attestation[book_name][chapter].keys()) == 0:
+            empty_chapters.append([book_name, chapter])
+
+for rem in empty_chapters:
+    del manuscript_attestation[rem[0]][rem[1]]
+
+
+# Analysis
 
 def extract_text_between_substrings(text, book_name):
     start_substring = "## " + book_name
@@ -127,7 +148,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
     byz = pd.read_csv(f"../byz_csv/{byz_book_abbrs[book_name]}.csv")
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
-
+    
     for chapter in manuscript_attestation[book_name].keys():
         print(f"Processing chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
