@@ -773,8 +773,6 @@ for manuscript_id in manuscript_ids:
 
         man_soup = BeautifulSoup(file_contents, "xml")
         word_tags = man_soup.find_all("w")
-        
-        collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste)
 
         if manuscript_id + ".qmd" in qmd_files:
             print("\t", manuscript_id, "already present in folder, skipping")
