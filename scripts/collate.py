@@ -32,14 +32,16 @@ def parse_manuscript(
 
     # Parse the XML content with BeautifulSoup
     soup = BeautifulSoup(xml_content, "xml")
-    
+
     # Detecting duplicated verses and marking each instance
     verses_ab_tags = soup.find_all("ab", recursive=True, attrs={"n": True})
-    
+
     for ab_tag in verses_ab_tags:
-        verses_with_n_equal_to_this_tag_n = [tag for tag in verses_ab_tags if tag.get('n') == ab_tag['n']]
+        verses_with_n_equal_to_this_tag_n = [
+            tag for tag in verses_ab_tags if tag.get("n") == ab_tag["n"]
+        ]
         for i, tag in enumerate(verses_with_n_equal_to_this_tag_n, start=1):
-            tag['instance'] = i            
+            tag["instance"] = i
 
     # Find all <app> tags without an 'n' attribute
     app_tags = soup.find_all("app", recursive=True)
@@ -137,7 +139,7 @@ def parse_manuscript(
             current = current.parent
         w_tag_dict = {"w_tag": str(w_tag), "parents": parent_dict}
         w_tag_dicts.append(w_tag_dict)
-    
+
     # Create a DataFrame from the list of dictionaries
     df = pd.DataFrame(w_tag_dicts)
 
@@ -206,7 +208,9 @@ def parse_manuscript(
     # Group by 'book', 'chapter', and 'verse' and aggregate 'w_tag' into a list
     grouped_df = (
         df.groupby(
-            ["book", "chapter", "verse", "instance", "incipit"], dropna=False, group_keys=False
+            ["book", "chapter", "verse", "instance", "incipit"],
+            dropna=False,
+            group_keys=False,
         )["w_tag"]
         .apply(list)
         .reset_index()
@@ -259,7 +263,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         abbreviations_equivalences,
         False,  # Don't standardise spelling
     )
-    
+
     merged = pd.merge(  # Aligns the verses of Byz and overlay
         byz,
         overlay,
@@ -571,9 +575,11 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
     merged["verse_number"] = merged.apply(
         lambda row: add_numerical_verse(row["verse"], row["incipit_overlay"]), axis=1
     )
-    merged = merged.drop(columns=['instance_byz'])
-    merged = merged.rename(columns={'instance_overlay':'instance'})
-    merged = merged.sort_values(by=["book_number", "chapter_number", "verse_number", "instance"])
+    merged = merged.drop(columns=["instance_byz"])
+    merged = merged.rename(columns={"instance_overlay": "instance"})
+    merged = merged.sort_values(
+        by=["book_number", "chapter_number", "verse_number", "instance"]
+    )
 
     # Adding book changes
     merged["book_change"] = ""
@@ -594,7 +600,7 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         if current_chapter != previous_chapter:
             merged.at[index, "chapter_change"] = current_chapter
             previous_chapter = current_chapter
-    
+
     def add_coordinates_metadata(
         book_name,
         book_change,
@@ -607,10 +613,11 @@ def collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste):
         collation_quarto,
         lacunae,
     ):
-        
         if instance > 1:
-            verse_string_extracted = f"{verse_string_extracted} | instance no. {int(instance)}"
-        
+            verse_string_extracted = (
+                f"{verse_string_extracted} | instance no. {int(instance)}"
+            )
+
         prefix = ""
         suffix = ""
 
@@ -702,7 +709,7 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
     for collated_verse in merged["collations_quarto"]:
         manuscript_qmd = manuscript_qmd + collated_verse + "\n"
-    
+
     with open(f"../collations/{manuscript_id}.qmd", "w") as file:
         file.write(manuscript_qmd)
 
@@ -757,7 +764,7 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-manuscript_ids = ['30323']
+manuscript_ids = ["30323"]
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:

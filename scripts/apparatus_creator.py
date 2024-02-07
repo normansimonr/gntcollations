@@ -8,8 +8,11 @@ import json
 import itertools
 import copy
 
-print('TODAVIA TENGO PROBLEMAS CON LOS CONTEOS DE INSTANCIAS, VER 30323, HECHOS 1')
-print('PONER CAVEAT DE QUE LOS LECCIONARIOS A VECES PARTEN UN MISMO VERSO EN VARIAS SECCIONES, PERO ESTO NO SIEMPRE ES ASI. POR TANTO TODAS LAS INSTANCIAS DE LOS LECCIONARIOS O DE LOS MANUSCRITOS CON VARIAS INSTANCIAS DEBEN SER ESTUDIADAS MANUALMENTE. PONER ESTO EN EL CALLOUT DE NOMINA SACRA.')
+print("TODAVIA TENGO PROBLEMAS CON LOS CONTEOS DE INSTANCIAS, VER 30323, HECHOS 1")
+print(
+    "PONER CAVEAT DE QUE LOS LECCIONARIOS A VECES PARTEN UN MISMO VERSO EN VARIAS SECCIONES, PERO ESTO NO SIEMPRE ES ASI. POR TANTO TODAS LAS INSTANCIAS DE LOS LECCIONARIOS O DE LOS MANUSCRITOS CON VARIAS INSTANCIAS DEBEN SER ESTUDIADAS MANUALMENTE. PONER ESTO EN EL CALLOUT DE NOMINA SACRA."
+)
+print("PARTIR LOS LIBROS GRANDES EN PEDAZOS PARA AHORRAR MEMORIA")
 exit()
 
 file_path = "../apparatus/manuscript_verse_relation.json"
@@ -42,7 +45,9 @@ for book_name in manuscript_attestation.keys():
 for rem in verses_to_remove_from_attestation:
     del manuscript_attestation[rem[0]][rem[1]][rem[2]]
 
-empty_chapters = [] # If the chapter was left totally empty, remove it (eg. 17th chapter of Mark, which doesn't exist)
+empty_chapters = (
+    []
+)  # If the chapter was left totally empty, remove it (eg. 17th chapter of Mark, which doesn't exist)
 for book_name in manuscript_attestation.keys():
     for chapter in manuscript_attestation[book_name].keys():
         if len(manuscript_attestation[book_name][chapter].keys()) == 0:
@@ -53,6 +58,7 @@ for rem in empty_chapters:
 
 
 # Analysis
+
 
 def extract_text_between_substrings(text, book_name):
     start_substring = "## " + book_name
@@ -152,7 +158,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
     byz = pd.read_csv(f"../byz_csv/{byz_book_abbrs[book_name]}.csv")
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
-    
+
     for chapter in manuscript_attestation[book_name].keys():
         print(f"Processing {book_name} chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
@@ -589,9 +595,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                             "[" + manuscript_handle + "?]{.apparatus-corrected}"
                         )
 
-                    url = (
-                        f"../collations/{manuscript_id}.html"
-                    )
+                    url = f"../collations/{manuscript_id}.html"
 
                     return (
                         "[["
@@ -1119,7 +1123,11 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
             other_groups_string = ""
             if middle_sized_groups_size > 0:
                 for index, row in middle_sized_groups.iterrows():
-                    attests_to_temp = row['parsed_greek_clean'].replace("U", "[[?]]{.apparatus-uncertain}").replace("GAP", "[—]{.gap}")
+                    attests_to_temp = (
+                        row["parsed_greek_clean"]
+                        .replace("U", "[[?]]{.apparatus-uncertain}")
+                        .replace("GAP", "[—]{.gap}")
+                    )
                     other_groups_string = (
                         other_groups_string
                         + f"{row['group_name']} **group**, attesting to {attests_to_temp} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
