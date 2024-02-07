@@ -55,8 +55,6 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
     replacement = ']{.aside}'
     df[0] = df[0].str.replace(pattern, replacement, regex=True)
     df['instance'] = df['instance'].fillna(1).astype(int)
-    #for index, row in df[df['instance']=='2'].iterrows():
-    #    print(row.iloc[0])
     df[["parsed_greek", "coordinates"]] = df[0].str.extract(
         r"^(.*?)(\[\d+:\d+\]\{.*?\})$"
     )
@@ -136,7 +134,7 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in [19]:#verses:
+        for verse in verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -253,10 +251,8 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         uncorrected.append(word)
                 return " ".join(uncorrected)
 
-            corrected_temp["parsed_greek_clean"] = corrected_temp[
-                "parsed_greek_clean"
-            ].apply(remove_corrections)
-            corrected_temp["uncorrected_reconstructed"] = True
+            corrected_temp.loc[:, "parsed_greek_clean"] = corrected_temp["parsed_greek_clean"].apply(remove_corrections)
+            corrected_temp.loc[:,"uncorrected_reconstructed"] = True
 
             def add_cs(row):
                 if "C" in row["parsed_greek_clean"]:
@@ -334,14 +330,14 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
             ].apply(lambda x: True if "Byz" in x else False)
 
             unanimous_group = witness_groups[witness_groups["contains_byz"]]
-            unanimous_group["manuscript_id"] = unanimous_group["manuscript_id"].apply(
+            unanimous_group.loc[:,"manuscript_id"] = unanimous_group["manuscript_id"].apply(
                 lambda mlist: [x for x in mlist if x != "Byz"]
             )  # Removing Byz to avoid counting it as a witness
-            unanimous_group["group_size"] = unanimous_group["manuscript_id"].apply(len)
+            unanimous_group.loc[:,"group_size"] = unanimous_group["manuscript_id"].apply(len)
             unanimous_group_badge = (
                 f"→**unanimous**~{byz_book_abbrs[book_name].lower()}.{chapter}.{verse}~"
             )
-            unanimous_group["group_name"] = unanimous_group_badge
+            unanimous_group.loc[:,"group_name"] = unanimous_group_badge
 
             witness_groups = witness_groups[~witness_groups["contains_byz"]]
 
@@ -365,16 +361,16 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                         for char in alphabet
                     ]
                 )
-            middle_sized_groups["group_name"] = index_chars[: len(middle_sized_groups)]
+            middle_sized_groups.loc[:,"group_name"] = index_chars[: len(middle_sized_groups)]
 
             one_sized_groups = witness_groups[witness_groups["group_size"] == 1]
-            one_sized_groups["group_name"] = one_sized_groups["manuscript_id"].apply(
+            one_sized_groups.loc[:,"group_name"] = one_sized_groups["manuscript_id"].apply(
                 lambda x: x[0]
             )
             
             
             # Detecting and removing non-aligned corrected witnesses
-            one_sized_groups['is_corrected_witness'] = one_sized_groups['group_name'].apply(lambda x: True if "^c^" in x else False)
+            one_sized_groups.loc[:,'is_corrected_witness'] = one_sized_groups['group_name'].apply(lambda x: True if "^c^" in x else False)
             ignored_corrected_non_aligned_witnesses = one_sized_groups[one_sized_groups['is_corrected_witness']]
             one_sized_groups = one_sized_groups[~one_sized_groups['is_corrected_witness']]
             
@@ -513,7 +509,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                     if "^c^" in manuscript_element:
                         manuscript_handle = manuscript_element
                         manuscript_id = manuscript_element[0:5]
-                        #print(manuscript_handle)
                     elif "(" in manuscript_element: # If it is an additional instance of a verse
                         manuscript_handle = manuscript_element
                         manuscript_id = manuscript_element[0:5]
@@ -711,8 +706,6 @@ for book_name in ["The Gospel of Mark"]:  # manuscript_attestation.keys():
                 (witnesses_that_have_this_verse_includes_corrections['has_corrections']) &
                 (~witnesses_that_have_this_verse_includes_corrections['uncorrected_reconstructed'])
                 ]["manuscript_id"].to_list()
-            
-            print(witnesses_corrected_this_verse, ignored_corrected_non_aligned_witnesses['group_name'].to_list())
             
             witnesses_included_corrected = []
             for w in witnesses_corrected_this_verse:
