@@ -32,16 +32,30 @@ def parse_manuscript(
 
     # Parse the XML content with BeautifulSoup
     soup = BeautifulSoup(xml_content, "xml")
-
+    
+    # Adding unique identifiers to tags
+    # Initialize instance counter
+    instance_counter = 1
+    # Iterate through all tags
+    for tag in soup.find_all():
+        # Check if the tag has the 'n' attribute
+        if 'n' in tag.attrs:
+            # Add a new attribute 'instance' with a serial integer
+            tag['instance'] = instance_counter
+            instance_counter += 1
+    
     # Detecting duplicated verses and marking each instance
-    verses_ab_tags = soup.find_all("ab", recursive=True, attrs={"n": True})
+    #verses_ab_tags = soup.find_all("ab", recursive=True, attrs={"n": True})
 
-    for ab_tag in verses_ab_tags:
-        verses_with_n_equal_to_this_tag_n = [
-            tag for tag in verses_ab_tags if tag.get("n") == ab_tag["n"]
-        ]
-        for i, tag in enumerate(verses_with_n_equal_to_this_tag_n, start=1):
-            tag["instance"] = i
+    #for i, ab_tag in enumerate(verses_ab_tags, start=1):
+    #    ab_tag["instance"] = i
+        #verses_with_n_equal_to_this_tag_n = [
+        #    tag for tag in verses_ab_tags if tag.get("n") == ab_tag["n"]
+        #]
+        #for i, tag in enumerate(verses_with_n_equal_to_this_tag_n, start=1):
+        #    tag["instance"] = i
+        #    if tag.get("n") == 'B05K1V1':
+        #        print(tag, "\n\n", len(verses_with_n_equal_to_this_tag_n))
 
     # Find all <app> tags without an 'n' attribute
     app_tags = soup.find_all("app", recursive=True)
@@ -103,6 +117,10 @@ def parse_manuscript(
                     spelling_equivalences["nonstandard"] == w_tag.text
                 ]["standard"].iloc[0]
 
+    for tag in soup.find_all():
+        if tag.get("n") == 'B05K1V1':
+            print(tag)
+    
     # Create a list of dictionaries with parent information
     w_tag_dicts = []
     for w_tag in w_tags:
@@ -142,6 +160,8 @@ def parse_manuscript(
 
     # Create a DataFrame from the list of dictionaries
     df = pd.DataFrame(w_tag_dicts)
+    
+    df.to_csv('test.csv')
 
     # Flatten the 'parents' column into separate columns
     df = pd.json_normalize(df["parents"]).merge(df, left_index=True, right_index=True)
@@ -773,9 +793,10 @@ for manuscript_id in manuscript_ids:
         man_soup = BeautifulSoup(file_contents, "xml")
         word_tags = man_soup.find_all("w")
 
-        if manuscript_id + ".qmd" in qmd_files:
-            print("\t", manuscript_id, "already present in folder, skipping")
-        elif manuscript_id in manuscripts_with_xml_errors:
+        #if manuscript_id + ".qmd" in qmd_files:
+        #    print("\t", manuscript_id, "already present in folder, skipping")
+        #elif manuscript_id in manuscripts_with_xml_errors:
+        if manuscript_id in manuscripts_with_xml_errors:
             print("\t", manuscript_id, "has XML errors, skipping")
         elif "No Transcription Available" in file_contents:
             print("\t", manuscript_id, "has no transcription available, skipping")
