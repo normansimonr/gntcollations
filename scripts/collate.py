@@ -764,7 +764,7 @@ for xml_file in xml_files:
     else:
         manuscript_ids.append(xml_file.replace(".xml", ""))
 
-manuscript_ids = ["30323"]
+manuscript_ids = ["42211"]
 
 for manuscript_id in manuscript_ids:
     with open(manuscripts_directory + "/" + manuscript_id + ".xml", "r") as file:
@@ -774,7 +774,8 @@ for manuscript_id in manuscript_ids:
         word_tags = man_soup.find_all("w")
 
         if manuscript_id + ".qmd" in qmd_files:
-            print("\t", manuscript_id, "already present in folder, skipping")
+            collate_manuscript_against_byz(manuscript_id, manuscripts_directory, liste)
+            #print("\t", manuscript_id, "already present in folder, skipping")
         elif manuscript_id in manuscripts_with_xml_errors:
             print("\t", manuscript_id, "has XML errors, skipping")
         elif "No Transcription Available" in file_contents:
