@@ -8,13 +8,6 @@ import json
 import itertools
 import copy
 
-print("TODAVIA TENGO PROBLEMAS CON LOS CONTEOS DE INSTANCIAS, VER 30323, HECHOS 1")
-print(
-    "PONER CAVEAT DE QUE LOS LECCIONARIOS A VECES PARTEN UN MISMO VERSO EN VARIAS SECCIONES, PERO ESTO NO SIEMPRE ES ASI. POR TANTO TODAS LAS INSTANCIAS DE LOS LECCIONARIOS O DE LOS MANUSCRITOS CON VARIAS INSTANCIAS DEBEN SER ESTUDIADAS MANUALMENTE. PONER ESTO EN EL CALLOUT DE NOMINA SACRA."
-)
-print("PARTIR LOS LIBROS GRANDES EN PEDAZOS PARA AHORRAR MEMORIA")
-exit()
-
 file_path = "../apparatus/manuscript_verse_relation.json"
 
 # Open the JSON file in read mode and use json.load() to load it into a Python dictionary
@@ -61,6 +54,8 @@ for rem in empty_chapters:
 
 
 def extract_text_between_substrings(text, book_name):
+    #print(text)
+    #exit()
     start_substring = "## " + book_name
     end_substring = "\n## "
 
@@ -85,7 +80,7 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
     df["instance"] = df[0].str.extract(pattern)
     replacement = "]{.aside}"
     df[0] = df[0].str.replace(pattern, replacement, regex=True)
-    df["instance"] = df["instance"].infer_objects(copy=False).fillna(1).astype(int)
+    df["instance"] = df["instance"].infer_objects().fillna(1).astype(int)
     df[["parsed_greek", "coordinates"]] = df[0].str.extract(
         r"^(.*?)(\[\d+:\d+\]\{.*?\})$"
     )
@@ -114,7 +109,7 @@ def extract_verse_from_qmd(qmd_content, book_name, chapter, verse):
 
 yaml_section = """
 ---
-format: html
+format: pdf
 editor: 
     markdown: 
         wrap: 72
@@ -124,7 +119,7 @@ editor:
 # Defining the fragmentary threshold
 fragmentary_threshold = 0.6
 
-for book_name in ["Third John"]:  # manuscript_attestation.keys():
+for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
     byz_book_abbrs = {
         "First Corinthians": "1CO",
         "First John": "1JO",
@@ -159,7 +154,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
 
     book_qmd_string = yaml_section + f"\n\n# {book_name}\n\n"
 
-    for chapter in manuscript_attestation[book_name].keys():
+    for chapter in [1]:#manuscript_attestation[book_name].keys():
         print(f"Processing {book_name} chapter {chapter}")
         verses = manuscript_attestation[book_name][chapter].keys()
 
@@ -197,13 +192,13 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                                 row["parsed_greek"],
                             ]
                         )
-
+            
             # Adding the Byzantine text
 
             byz_verse = byz[(byz["chapter"] == chapter) & (byz["verse"] == verse)][
                 "text"
             ].to_list()
-
+            
             if len(byz_verse) == 0:
                 byz_verse = "EMPTY"
             else:
@@ -214,6 +209,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
             )  # The number 1 is the attestation counter. Byz attests to each verse only once
 
             verse_attestation = pd.DataFrame(verse_attestation)
+            
             verse_attestation.columns = [
                 "manuscript_id",
                 "chapter",
@@ -224,7 +220,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
             verse_attestation["manuscript_id"] = verse_attestation[
                 "manuscript_id"
             ].astype(str)
-
+            
             # Check if '.greek-abbr' is a substring in any cell of all columns
             # We don't show nomina sacra, so it's important to alert the reader
             is_abbreviation_present = (
@@ -263,7 +259,54 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
             verse_attestation["parsed_greek_clean"] = verse_attestation[
                 "parsed_greek"
             ].apply(clean_text)
+            
+            verse_attestation = verse_attestation.drop(columns=['parsed_greek'])
 
+            byz_verse_size = len(verse_attestation[verse_attestation['manuscript_id']=='Byz']['parsed_greek_clean'].iloc[0])
+            
+            def determine_if_similar_size_to_byz_verse(parsed_greek_clean):
+                difference = abs(len(parsed_greek_clean) - byz_verse_size)
+                percentage_difference = difference/byz_verse_size
+                if percentage_difference < 0.2: # If the differences in size is not too great
+                    return True
+                else:
+                    return False
+            
+            verse_attestation['similar_size_to_byz_verse'] = verse_attestation['parsed_greek_clean'].apply(determine_if_similar_size_to_byz_verse)
+            
+            verse_attestation_grouped = verse_attestation.groupby(['manuscript_id'])
+            
+            keep_these_groups = [] # Reconstructing the verses that are split between several instances, and ignoring the ones we can't reconstruct
+            omit_these_witnesses_due_to_several_confusing_instances = []
+            for group in verse_attestation_grouped:
+                if len(group[1]) == 1: # No need to reconstruct, there is no splitting
+                    keep_these_groups.append(group[1])
+                elif len(group[1]['parsed_greek_clean'].unique()) == 1: # If all the instances are equal
+                    if group[1]['similar_size_to_byz_verse'].sum() > 0: # If the instances have roughly the same size as Byz
+                        keep_these_groups.append(group[1].drop_duplicates(subset=['manuscript_id']))
+                    else:
+                        omit_these_witnesses_due_to_several_confusing_instances.append(group[1]['manuscript_id'].iloc[0])
+                else:
+                    reconstructed = ' '.join(group[1]['parsed_greek_clean'].to_list())
+                    reconstructed = re.sub(r'\s+', ' ', reconstructed)
+                    if determine_if_similar_size_to_byz_verse(reconstructed): # If the reconstruction has roughly the same size as Byz
+                        _ = {
+                                'manuscript_id': group[1]['manuscript_id'].iloc[0],
+                                'chapter': group[1]['chapter'].iloc[0],
+                                'verse': group[1]['verse'].iloc[0],
+                                'instance': '&'.join(group[1]['instance'].astype(str).to_list()),
+                                'parsed_greek_clean': reconstructed,
+                                'similar_size_to_byz_verse': True
+                            }
+                                               
+                        keep_these_groups.append(pd.DataFrame([_]))
+                        del _
+                    else:
+                        omit_these_witnesses_due_to_several_confusing_instances.append(group[1]['manuscript_id'].iloc[0])
+            
+            verse_attestation = pd.concat(keep_these_groups)
+            verse_attestation = verse_attestation.drop(columns=['similar_size_to_byz_verse'])
+            
             # Adding corrected hands as manuscripts of their own
 
             verse_attestation["has_corrections"] = verse_attestation[
@@ -595,7 +638,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                             "[" + manuscript_handle + "?]{.apparatus-corrected}"
                         )
 
-                    url = f"../collations/{manuscript_id}.html"
+                    url = f"https://www.gntcollations.com/collations/{manuscript_id}.html"
 
                     return (
                         "[["
@@ -763,6 +806,10 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
             # The data table
             witness_counts_table = []
 
+            
+            # Number of witnesses that are ignored due to including several instances of the verse that could not be merged
+            num_omitted_witnesses_several_verse_instances = len(omit_these_witnesses_due_to_several_confusing_instances)
+            
             # Number of transcribed manuscripts attesting this verse
 
             witnesses_that_have_this_verse_includes_corrections = verse_attestation[
@@ -783,7 +830,9 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                     "manuscript_id"
                 ].apply(lambda x: False if "(" in x else True)
             )  # We don't double count manuscripts that have several instances of the verse
-
+            
+            num_manuscripts_attesting_this_verse = num_manuscripts_attesting_this_verse + num_omitted_witnesses_several_verse_instances
+            
             witness_counts_table.append(
                 [
                     "Number of transcribed manuscripts that contain this verse",  # Description
@@ -793,24 +842,15 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                 ]
             )
 
-            # Witnesses attesting to the verse more than once
-
-            witnesses_attesting_several = (
-                witnesses_that_have_this_verse_includes_corrections[
-                    witnesses_that_have_this_verse_includes_corrections[
-                        "manuscript_id"
-                    ].apply(lambda x: True if "(" in x else False)
-                ]
-            )
-            num_witnesses_attesting_several = len(witnesses_attesting_several)
+            # Witnesses ignored for attesting the verse more than once, with unsuccessful reconstruction
 
             witness_counts_table.append(
                 [
-                    "Number of witnesses created by manuscripts that contain the verse more than once",  # Description
-                    num_witnesses_attesting_several,  # Count
-                    "Some manuscripts contain a verse more than once. This is common in lectionaries. Sometimes the several attestations differ even though they are in the same manuscript. The number of the attestation, except for the first, is included as a number between round brackets. Thus, 40844 is the first attestation, 40844(2) is the second, and so on",  # Note
+                    "Number of witnesses that are *ignored* for including the verse more than once (reconstruction unsuccessful)",  # Description
+                    num_omitted_witnesses_several_verse_instances,  # Count
+                    "Some manuscripts contain a verse more than once. This often involves splitting a verse and placing each segment on a different section of the manuscript. We have implemented an algorithm that reconstructs the complete verse from the separate segments. Reconstructed verses are shown between round brackets. For example, 40844(1&2) is the verse as it was attested in 40844 in a reconstruction that merged instances 1 and 2. Given that these are automated reconstructions, manual double-checks are advised. Sometimes it is not possible to safely reconstruct a verse (those are the witnesses referenced in this row)",  # Note
                     format_manuscript_coincidences_for_quarto(
-                        witnesses_attesting_several["manuscript_id"].to_list()
+                        omit_these_witnesses_due_to_several_confusing_instances
                     ),  # Manuscript list
                 ]
             )
@@ -898,7 +938,7 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                 [
                     "Corrected witnesses *ignored* from the apparatus",  # Description
                     num_corrected_ignored,  # Count
-                    f"These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the uncorrected witness may itself be included in the apparatus)",  # Note
+                    f"These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the *uncorrected* witness may itself be included in the apparatus)",  # Note
                     format_manuscript_coincidences_for_quarto(
                         witnesses_corrected_ignored
                     ),  # Manuscript list
@@ -915,42 +955,20 @@ for book_name in ["Third John"]:  # manuscript_attestation.keys():
                 )
             ]
 
-            # Corrected witnessses that are ignored from the apparatus and are second or greater instance of a verse
-            corrected_several_instances_ignored = list(
-                set(witnesses_corrected_ignored).intersection(
-                    set(witnesses_attesting_several["manuscript_id"])
-                )
-            )
-            num_corrected_several_instances_ignored = len(
-                corrected_several_instances_ignored
-            )
-
-            witness_counts_table.append(
-                [
-                    "Corrected witnesses that were created by a manuscript that included the verse more than once and that are also *ignored* from the apparatus",  # Description
-                    num_corrected_several_instances_ignored,  # Count
-                    f"These corrected witnesses need to be subtracted from the counts as their reconstruction is uncertain",  # Note
-                    format_manuscript_coincidences_for_quarto(
-                        corrected_several_instances_ignored
-                    ),  # Manuscript list
-                ]
-            )
-
             # Count of witnesses included in the apparatus
 
             num_witnesses_included_in_collation = (
                 num_manuscripts_attesting_this_verse
-                + num_witnesses_attesting_several
+                - num_omitted_witnesses_several_verse_instances
                 - num_fragmentary_witnesses_this_verse
                 + num_witnesses_attesting_this_verse_corrected
-                - num_corrected_several_instances_ignored
             )
 
             witness_counts_table.append(
                 [
                     "**Number of witnesses that were taken into account in the collation**",  # Description
                     f"**{num_witnesses_included_in_collation}**",  # Count
-                    f"The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) plus the witnesses that attest to the verse more than once ({num_witnesses_attesting_several}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected}) minus the corrected witnesses that need to be ignored and were created by manuscripts that included the verse more than once ({num_corrected_several_instances_ignored}). The other ignored corrected witnesses need not be subtracted as they are not included in any of the other counts",  # Note
+                    f"The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) minus the witnesses that attest to the verse more than once and where the verse could not be reconstructed ({num_omitted_witnesses_several_verse_instances}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected})",  # Note
                     "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
             )
