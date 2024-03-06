@@ -160,7 +160,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
         chapter_qmd_string = f"## Chapter {chapter}\n\n"
 
-        for verse in verses:
+        for verse in [15]:#verses:
             print(f"Processing verse {chapter}:{verse}")
             manuscripts_attesting_this_verse = manuscript_attestation[book_name][
                 chapter
@@ -745,15 +745,15 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
                     if len(witness_group_coincidence_string.strip()) > 0:
                         if len(standalone_manuscripts_formatted_string.strip()) > 0:
-                            first_separator = " ⬩ "
+                            first_separator = " ⟡ "
                         elif len(corrected_manuscripts_formatted_string.strip()) > 0:
-                            first_separator = " ⬩ "
+                            first_separator = " ⟡ "
                         else:
                             pass
 
                     if len(standalone_manuscripts_formatted_string.strip()) > 0:
                         if len(corrected_manuscripts_formatted_string.strip()) > 0:
-                            second_separator = " ⬩ "
+                            second_separator = " ⟡ "
 
                     final_string = (
                         witness_group_coincidence_string
@@ -805,6 +805,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             # The data table
             witness_counts_table = []
+            
+            raise ValueError("Witness counts aren't working, see Matthew 1:15")
 
             
             # Number of witnesses that are ignored due to including several instances of the verse that could not be merged
@@ -835,9 +837,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             
             witness_counts_table.append(
                 [
-                    "Number of transcribed manuscripts that contain this verse",  # Description
+                    "Number of transcribed manuscripts that contain this verse^[Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus.]",  # Description
                     num_manuscripts_attesting_this_verse,  # Count
-                    "Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus",  # Note
                     "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
             )
@@ -846,9 +847,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Number of witnesses that are *ignored* for including the verse more than once (reconstruction unsuccessful)",  # Description
+                    "Number of witnesses that are *ignored* for including the verse more than once (reconstruction unsuccessful)^[Some manuscripts contain a verse more than once. This often involves splitting a verse and placing each segment on a different section of the manuscript. We have implemented an algorithm that reconstructs the complete verse from the separate segments. Reconstructed verses are shown between round brackets. For example, 40844(1&2) is the verse as it was attested in 40844 in a reconstruction that merged instances 1 and 2. Given that these are automated reconstructions, manual double-checks are advised. Sometimes it is not possible to safely reconstruct a verse (those are the witnesses referenced in this row).]",  # Description
                     num_omitted_witnesses_several_verse_instances,  # Count
-                    "Some manuscripts contain a verse more than once. This often involves splitting a verse and placing each segment on a different section of the manuscript. We have implemented an algorithm that reconstructs the complete verse from the separate segments. Reconstructed verses are shown between round brackets. For example, 40844(1&2) is the verse as it was attested in 40844 in a reconstruction that merged instances 1 and 2. Given that these are automated reconstructions, manual double-checks are advised. Sometimes it is not possible to safely reconstruct a verse (those are the witnesses referenced in this row)",  # Note
                     format_manuscript_coincidences_for_quarto(
                         omit_these_witnesses_due_to_several_confusing_instances
                     ),  # Manuscript list
@@ -885,9 +885,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Corrected witnesses *included* in the apparatus",  # Description
+                    "Corrected witnesses *included* in the apparatus^[Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading.]",  # Description
                     num_witnesses_attesting_this_verse_corrected,  # Count
-                    f"Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading",  # Note
                     format_manuscript_coincidences_for_quarto(
                         witnesses_included_corrected
                     ),  # Manuscript list
@@ -913,9 +912,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Witnesses *ignored* due to being too fragmentary",  # Description
+                    f"Witnesses *ignored* due to being too fragmentary^[A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain.]",  # Description
                     num_fragmentary_witnesses_this_verse,  # Count
-                    f"A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain",  # Note
                     format_manuscript_coincidences_for_quarto(
                         witnesses_exluded_too_fragmentary
                     ),  # Manuscript list
@@ -936,9 +934,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Corrected witnesses *ignored* from the apparatus",  # Description
+                    "Corrected witnesses *ignored* from the apparatus^[These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the *uncorrected* witness may itself be included in the apparatus).]",  # Description
                     num_corrected_ignored,  # Count
-                    f"These corrected witnesses offer singular readings for the entire verse, which *may* indicate that our automated algorithm reconstructed them incorrectly. We are ignoring them from the collation in order to reduce the risk of displaying inaccurate results (the *uncorrected* witness may itself be included in the apparatus)",  # Note
                     format_manuscript_coincidences_for_quarto(
                         witnesses_corrected_ignored
                     ),  # Manuscript list
@@ -966,24 +963,25 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "**Number of witnesses that were taken into account in the collation**",  # Description
+                    f"**Number of witnesses that were taken into account in the collation**^[The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) minus the witnesses that attest to the verse more than once and where the verse could not be reconstructed ({num_omitted_witnesses_several_verse_instances}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected}).]",  # Description
                     f"**{num_witnesses_included_in_collation}**",  # Count
-                    f"The total number of witnesses is calculated as the total manuscripts ({num_manuscripts_attesting_this_verse}) minus the witnesses that attest to the verse more than once and where the verse could not be reconstructed ({num_omitted_witnesses_several_verse_instances}) minus the fragmentary witnesses ({num_fragmentary_witnesses_this_verse}) plus the included corrected witnesses ({num_witnesses_attesting_this_verse_corrected})",  # Note
                     "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
             )
 
             witness_counts_table = pd.DataFrame(
                 witness_counts_table,
-                columns=["Description", "Count", "Note", "Manuscript list"],
+                columns=["Description", "Count", "Manuscript list"],
             )
 
             this_verse_collation_string = (
                 this_verse_collation_string
-                + '::: {.callout-note  collapse="true" icon="false"}\n## Witness counts\n'
+                #+ '::: {.callout-note  collapse="true" icon="false"}\n## Witness counts\n'
+                + '## Witness counts\n'
                 + "\n\n"
                 + witness_counts_table.to_markdown(index=False)
-                + "\n:::\n\n"
+                #+ "\n:::\n\n"
+                + '\n: {tbl-colwidths="[40,20,40]"}\n\n'
             )
 
             #######################################
@@ -1086,15 +1084,17 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             this_verse_collation_string = (
                 this_verse_collation_string
-                + '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
-                + "**Note**. Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n"
-                + f"Earliest attestation (century) of the **existence** of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}.\n\n"
-                + f"Earliest attestation (century) of the **complete, verbatim text** of the Byzantine texform for this verse: {earliest_attestation_complete_verse}.\n\n"
-                + "Below is the earliest attestation of each **individual reading**:\n\n"
+                #+ '::: {.callout-warning collapse="true" icon="false"}\n## Earliest attestation\n'
+                + '## Earliest attestation\n'
+                + "**Note:** Most manuscripts have not been transcribed yet. In consequence, the below information is based only on the limited sample available at the moment of creating the apparatus.\n\n"
+                + f"* Earliest attestation (century) of the *existence* of this verse (including fragmentary manuscripts): {earliest_attestation_existence_verse}.\n\n"
+                + f"* Earliest attestation (century) of the *complete, verbatim text* of the Byzantine texform for this verse in a transcribed manuscript: {earliest_attestation_complete_verse}.\n\n"
+                + "Below is the earliest attestation of each *individual reading*:\n\n"
                 + earliest_attestation_readings[
                     ["Reading", "Earliest attestation (century)"]
                 ].to_markdown(index=False)
-                + "\n:::\n\n"
+                #+ "\n:::\n\n"
+                + "\n\n"
             )
 
             ######################################
@@ -1108,7 +1108,8 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             one_sized_groups_size = one_sized_groups["group_size"].sum()
 
             initial_callout = (
-                '::: {.callout-tip collapse="true" icon="false"}\n## Witness groups\n\n'
+                #'::: {.callout-tip collapse="true" icon="false"}\n## Witness groups\n\n'
+                '## Witness groups\n\n'
             )
 
             initial_callout = (
@@ -1117,7 +1118,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             )
 
             # Unanimous group
-            manuscripts_verse_identical_to_byz_string = f"\n**Witnesses that attest a verse identical with Byz^RP^, or 'unanimous' (**{unanimous_group_badge}**) group ({unanimous_group_size})**: "
+            manuscripts_verse_identical_to_byz_string = f"* \n{unanimous_group_badge} **group**, ie witnesses that attest a verse identical with Byz^RP^  **({unanimous_group_size})**: "
 
             if unanimous_group["group_size"].iloc[0] > 0:
                 manuscripts_verse_identical_to_byz_string = (
@@ -1148,12 +1149,12 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                     )
                     other_groups_string = (
                         other_groups_string
-                        + f"{row['group_name']} **group**, attesting to {attests_to_temp} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
+                        + f"* {row['group_name']} **group**, attesting to {attests_to_temp} ({row['group_size']}): {format_manuscript_coincidences_for_quarto(row['manuscript_id'])}\n\n"
                     )
                     del attests_to_temp
 
             this_verse_collation_string = (
-                this_verse_collation_string + "\n\n" + other_groups_string + ":::\n\n"
+                this_verse_collation_string + "\n\n" + other_groups_string + '\n\n' #":::\n\n"
             )
 
             ######################################
@@ -1178,7 +1179,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                         witness_count = witness_count + 1
                 return witness_count
 
-            apparatus_string = ""
+            apparatus_string = "## Apparatus\n\n"
 
             for position in range(len(byz_column_base)):
                 footnote_marker = position + 1

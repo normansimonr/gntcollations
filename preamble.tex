@@ -1,0 +1,19 @@
+\renewcommand{\arraystretch}{1.75} % To increase space between table rows
+
+% Making the font smaller in tables
+%\AtBeginEnvironment{longtable}{\small}
+%\AtBeginEnvironment{table}{\small}
+%\AtBeginEnvironment{tabular}{\small}
+
+\usepackage{xcolor}
+\usepackage{soul}
+
+\definecolor{Grey}{RGB}{80, 80, 80}
+\definecolor{Orange}{RGB}{235, 122, 52}
+
+% Styles
+\newcommand{\ByzPrimaryLine}[1]{{\Large #1}} 
+
+\newcommand{\CenturyApparatus}[1]{{\color{Grey}\textsc{#1}}}
+
+\newcommand{\ApparatusUncertain}[1]{{\color{Orange}#1}} 
