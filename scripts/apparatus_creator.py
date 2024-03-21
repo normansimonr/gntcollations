@@ -769,8 +769,23 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             ].apply(format_manuscript_coincidences_for_quarto)
 
             ##### Creating the QMD
+            
+            technical_page = f"{book_qmd_string}\n\n## Chapter {chapter}\n\n"
+            
+            technical_page = technical_page + """
+            **Please note**:
+            
+            * Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus.
+            
+            * Some manuscripts contain a verse more than once. This often involves splitting a verse and placing each segment on a different section of the manuscript. We have implemented an algorithm that reconstructs the complete verse from the separate segments. Reconstructed verses are shown between round brackets. For example, 40844(1&2) is the verse as it was attested in 40844 in a reconstruction that merged instances 1 and 2. Given that these are automated reconstructions, manual double-checks are advised. Sometimes it is not possible to safely reconstruct a verse (those are the witnesses referenced in this row).
+            
+            * Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading.
+            
+            * A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain.
+            """
+            
 
-            byz_qmd_string = f"\n\n### Verse {chapter}:{verse}\n\n"
+            byz_qmd_string = technical_page + f"\n\n### Verse {chapter}:{verse}\n\n"
 
             if (
                 verse_attestation[verse_attestation["manuscript_id"] == "Byz"][
@@ -837,7 +852,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             
             witness_counts_table.append(
                 [
-                    "Number of transcribed manuscripts that contain this verse^[Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus.]",  # Description
+                    "Number of transcribed manuscripts that contain this verse",  # Description
                     num_manuscripts_attesting_this_verse,  # Count
                     "For manuscript lists see the apparatus and the witness groups",  # Manuscript list
                 ]
@@ -847,7 +862,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Number of witnesses that are *ignored* for including the verse more than once (reconstruction unsuccessful)^[Some manuscripts contain a verse more than once. This often involves splitting a verse and placing each segment on a different section of the manuscript. We have implemented an algorithm that reconstructs the complete verse from the separate segments. Reconstructed verses are shown between round brackets. For example, 40844(1&2) is the verse as it was attested in 40844 in a reconstruction that merged instances 1 and 2. Given that these are automated reconstructions, manual double-checks are advised. Sometimes it is not possible to safely reconstruct a verse (those are the witnesses referenced in this row).]",  # Description
+                    "Number of witnesses that are *ignored* for including the verse more than once (reconstruction unsuccessful)",  # Description
                     num_omitted_witnesses_several_verse_instances,  # Count
                     format_manuscript_coincidences_for_quarto(
                         omit_these_witnesses_due_to_several_confusing_instances
@@ -885,7 +900,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    "Corrected witnesses *included* in the apparatus^[Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading.]",  # Description
+                    "Corrected witnesses *included* in the apparatus",  # Description
                     num_witnesses_attesting_this_verse_corrected,  # Count
                     format_manuscript_coincidences_for_quarto(
                         witnesses_included_corrected
@@ -912,7 +927,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
 
             witness_counts_table.append(
                 [
-                    f"Witnesses *ignored* due to being too fragmentary^[A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain.]",  # Description
+                    f"Witnesses *ignored* due to being too fragmentary",  # Description
                     num_fragmentary_witnesses_this_verse,  # Count
                     format_manuscript_coincidences_for_quarto(
                         witnesses_exluded_too_fragmentary
