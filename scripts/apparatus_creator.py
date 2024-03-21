@@ -7,6 +7,7 @@ import numpy as np
 import json
 import itertools
 import copy
+from datetime import datetime
 
 file_path = "../apparatus/manuscript_verse_relation.json"
 
@@ -772,7 +773,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             
             technical_page = f"{book_qmd_string}\n\n## Chapter {chapter}\n\n"
             
-            technical_page = technical_page + """
+            technical_page = technical_page + f"""
             **Please note**:
             
             * Most manuscripts have not been transcribed and in consequence this apparatus contains only a sample of the extant corpus.
@@ -782,6 +783,9 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             * Corrected witnesses are reconstructed automatically and **may display inaccuracies**. They are shown with a ? sign to reflect this uncertainty. A corrected witness is included in the apparatus if its text is present in at least another witness, ie, if it does not attest to a singular reading.
             
             * A witness is ignored if {int(fragmentary_threshold*100)}% or more of the words that it contains of the specific verse are uncertain.
+            
+            Generated at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} by Greek New Testament Collations (www.gntcollations.com)
+
             """
             
 
@@ -821,18 +825,15 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
             # The data table
             witness_counts_table = []
             
-            raise ValueError("Witness counts aren't working, see Matthew 1:15")
-
-            
             # Number of witnesses that are ignored due to including several instances of the verse that could not be merged
             num_omitted_witnesses_several_verse_instances = len(omit_these_witnesses_due_to_several_confusing_instances)
             
             # Number of transcribed manuscripts attesting this verse
-
+            
             witnesses_that_have_this_verse_includes_corrections = verse_attestation[
                 (verse_attestation["manuscript_id"] != "Byz")
             ]
-
+            
             witnesses_that_have_this_verse_not_includes_corrections = verse_attestation[
                 (
                     ~verse_attestation["manuscript_id"].apply(
@@ -842,11 +843,7 @@ for book_name in ["The Gospel of Matthew"]:  # manuscript_attestation.keys():
                 & (verse_attestation["manuscript_id"] != "Byz")
             ]
 
-            num_manuscripts_attesting_this_verse = sum(
-                witnesses_that_have_this_verse_not_includes_corrections[
-                    "manuscript_id"
-                ].apply(lambda x: False if "(" in x else True)
-            )  # We don't double count manuscripts that have several instances of the verse
+            num_manuscripts_attesting_this_verse = len(witnesses_that_have_this_verse_not_includes_corrections)
             
             num_manuscripts_attesting_this_verse = num_manuscripts_attesting_this_verse + num_omitted_witnesses_several_verse_instances
             
