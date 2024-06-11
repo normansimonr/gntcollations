@@ -45,7 +45,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 [δεσμευουσιν]{.greek-omitted} [δεσμευουσι]{.greek-added} γαρ φορτια βαρεα και δυσβαστακτα και επιτιθεασιν επι τους ωμους των [ανθρωπων]{.greek-abbr} [τω]{.greek-omitted} [τωι]{.greek-added} δε δακτυλω αυτων ου [θελουσιν]{.greek-omitted} [θελουσι]{.greek-added} κινησαι αυτα[23:4]{.aside}
 
-παντα δε τα εργα αυτων [ποιουσιν]{.greek-omitted} [ποιουσι]{.greek-added} προς το θεαθηναι τοις ανθρωποις [πλατυνουσιν]{.greek-omitted} [πλατυνουσι]{.greek-added} δε τα φυλακτηρια αυτων και [μεγαλυνουσιν]{.greek-omitted} [μεγαλυνουσι]{.greek-added} τα κρασπεδα των ιματιων αυτων[23:5]{.aside}
+παντα δε τα εργα αυτων [ποιουσιν]{.greek-omitted} [ποιουσι]{.greek-added} προς το θεαθηναι τοις ανθρωποις [πλατυνουσιν]{.greek-omitted} [δε]{.greek-omitted} [τα]{.greek-omitted} [φυλακτηρια]{.greek-omitted} [αυτων]{.greek-omitted} [και]{.greek-omitted} [μεγαλυνουσιν]{.greek-omitted} [τα]{.greek-omitted} [κρασπεδα]{.greek-omitted} [των]{.greek-omitted} [ιματιων]{.greek-omitted} [αυτων]{.greek-omitted}[23:5]{.aside}
+
+[παντα]{.greek-omitted} [δε]{.greek-omitted} [τα]{.greek-omitted} [εργα]{.greek-omitted} [αυτων]{.greek-omitted} [ποιουσιν]{.greek-omitted} [προς]{.greek-omitted} [το]{.greek-omitted} [θεαθηναι]{.greek-omitted} [τοις]{.greek-omitted} [ανθρωποις]{.greek-omitted} [πλατυνουσιν]{.greek-omitted} [πλατυνουσι]{.greek-added} δε τα φυλακτηρια αυτων και [μεγαλυνουσιν]{.greek-omitted} [μεγαλυνουσι]{.greek-added} τα κρασπεδα των ιματιων αυτων[23:5 | instance no. 2]{.aside}
 
 [φιλουσιν]{.greek-omitted} [φιλουσι]{.greek-added} [τε]{.greek-omitted} [δε]{.greek-added} την πρωτοκλισιαν εν τοις δειπνοις και τας πρωτοκαθεδριας εν ταις συναγωγαις[23:6]{.aside}
 
@@ -55,19 +57,23 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και [πατερα]{.greek-abbr} μη καλεσητε υμων επι της γης εις γαρ εστιν ο πατηρ υμων ο εν τοις [ουρανοις]{.greek-abbr}[23:9]{.aside}
 
-μηδε κληθητε καθηγηται εις γαρ υμων εστιν ο καθηγητης ο [χριστος]{.greek-abbr}[23:10]{.aside}
+μηδε κληθητε καθηγηται εις γαρ [υμων]{.greek-omitted} [εστιν]{.greek-omitted} [ο]{.greek-omitted} [καθηγητης]{.greek-omitted} [ο]{.greek-omitted} [χριστος]{.greek-omitted}[23:10]{.aside}
+
+[μηδε]{.greek-omitted} [κληθητε]{.greek-omitted} [καθηγηται]{.greek-omitted} [εις]{.greek-omitted} [γαρ]{.greek-omitted} υμων εστιν ο καθηγητης ο [χριστος]{.greek-abbr}[23:10 | instance no. 2]{.aside}
 
 ο δε μειζων υμων εσται υμων διακονος[23:11]{.aside}
 
 οστις [δε]{.greek-omitted} [γαρ]{.greek-added} υψωσει εαυτον ταπεινωθησεται και οστις ταπεινωσει εαυτον υψωθησεται[23:12]{.aside}
 
-ουαι [δε]{.greek-omitted} υμιν γραμματεις και φαρισαιοι υποκριται οτι [κατεσθιετε]{.greek-omitted} [τας]{.greek-omitted} [οικιας]{.greek-omitted} [κλειετε]{.greek-added} [την]{.greek-added} [βασιλειαν]{.greek-added} των [χηρων]{.greek-omitted} [και]{.greek-omitted} [προφασει]{.greek-omitted} [μακρα]{.greek-omitted} [προσευχομενοι]{.greek-omitted} [δια]{.greek-omitted} [τουτο]{.greek-omitted} [ληψεσθε]{.greek-omitted} [περισσοτερον]{.greek-omitted} [κριμα]{.greek-omitted} [[ουρανων]{.greek-abbr}]{.greek-added} [εμπροσθεν]{.greek-added} [των]{.greek-added} [[ανθρωπων]{.greek-abbr}]{.greek-added} [υμεις]{.greek-added} [γαρ]{.greek-added} [ουκ]{.greek-added} [εισερχεσθε]{.greek-added} [ουδε]{.greek-added} [τους]{.greek-added} [εισερχομενους]{.greek-added} [αφιετε]{.greek-added} [εισελθειν]{.greek-added}[23:13]{.aside}
+ουαι [δε]{.greek-omitted} υμιν γραμματεις και φαρισαιοι υποκριται οτι [κατεσθιετε]{.greek-omitted} [τας]{.greek-omitted} [οικιας]{.greek-omitted} [κλειετε]{.greek-added} [την]{.greek-added} [βασιλειαν]{.greek-added} των [χηρων]{.greek-omitted} [και]{.greek-omitted} [προφασει]{.greek-omitted} [μακρα]{.greek-omitted} [προσευχομενοι]{.greek-omitted} [δια]{.greek-omitted} [τουτο]{.greek-omitted} [ληψεσθε]{.greek-omitted} [περισσοτερον]{.greek-omitted} [κριμα]{.greek-omitted} [[ουρανων]{.greek-abbr}]{.greek-added} [εμπροσθεν]{.greek-added} [των]{.greek-added} [[ανθρωπων]{.greek-abbr}]{.greek-added} [υμεις]{.greek-added} [γαρ]{.greek-added} [ουκ]{.greek-added} [εισερχεσθε]{.greek-added} [ουδε]{.greek-added} [τους]{.greek-added} [εισερχομενους]{.greek-added} [αφιετε]{.greek-added} [εισελθειν]{.greek-added}[23:13 | instance no. 2]{.aside}
 
 ουαι [δε]{.greek-added} υμιν γραμματεις και φαρισαιοι υποκριται οτι [κλειετε]{.greek-omitted} [την]{.greek-omitted} [βασιλειαν]{.greek-omitted} [κατεσθιετε]{.greek-added} [τας]{.greek-added} [οικιας]{.greek-added} των [χηρων]{.greek-added} [και]{.greek-added} [προφασει]{.greek-added} [μακραν]{.greek-added} [προσευχομενοι]{.greek-added} [δια]{.greek-added} [τουτο]{.greek-added} [ληψεσθε]{.greek-added} [περισσοτερον]{.greek-added} [κριμα]{.greek-added} [ουρανων]{.greek-omitted} [εμπροσθεν]{.greek-omitted} [των]{.greek-omitted} [ανθρωπων]{.greek-omitted} [υμεις]{.greek-omitted} [γαρ]{.greek-omitted} [ουκ]{.greek-omitted} [εισερχεσθε]{.greek-omitted} [ουδε]{.greek-omitted} [τους]{.greek-omitted} [εισερχομενους]{.greek-omitted} [αφιετε]{.greek-omitted} [εισελθειν]{.greek-omitted}[23:14]{.aside}
 
 ουαι υμιν γραμματεις και φαρισαιοι υποκριται οτι περιαγετε την θαλασσαν και την ξηραν ποιησαι ενα προσηλυτον και οταν γενηται ποιειτε αυτον υιον γεεννης διπλοτερον υμων[23:15]{.aside}
 
-ουαι υμιν οδηγοι τυφλοι οι λεγοντες ος αν ομοση εν τω ναω ουδεν εστιν ος δ αν ομοση εν [τω]{.greek-omitted} [τωι]{.greek-added} [χρυσω]{.greek-omitted} [χρυσωι]{.greek-added} του ναου οφειλει[23:16]{.aside}
+ουαι υμιν οδηγοι τυφλοι οι λεγοντες [ος]{.greek-omitted} [αν]{.greek-omitted} [ομοση]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [ναω]{.greek-omitted} [ουδεν]{.greek-omitted} [εστιν]{.greek-omitted} [ος]{.greek-omitted} [δ]{.greek-omitted} [αν]{.greek-omitted} [ομοση]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [χρυσω]{.greek-omitted} [του]{.greek-omitted} [ναου]{.greek-omitted} [οφειλει]{.greek-omitted}[23:16]{.aside}
+
+[ουαι]{.greek-omitted} [υμιν]{.greek-omitted} [οδηγοι]{.greek-omitted} [τυφλοι]{.greek-omitted} [οι]{.greek-omitted} [λεγοντες]{.greek-omitted} ος αν ομοση εν τω ναω ουδεν εστιν ος δ αν ομοση εν [τω]{.greek-omitted} [τωι]{.greek-added} [χρυσω]{.greek-omitted} [χρυσωι]{.greek-added} του ναου οφειλει[23:16 | instance no. 2]{.aside}
 
 μωροι και τυφλοι τις γαρ μειζων εστιν ο χρυσος η ο ναος ο αγιαζων τον χρυσον[23:17]{.aside}
 
@@ -83,7 +89,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ουαι υμιν γραμματεις και φαρισαιοι υποκριται οτι αποδεκατουτε το ηδυοσμον και το ανηθον και το κυμινον και αφηκατε τα βαρυτερα του νομου την κρισιν και τον ελεον και την πιστιν ταυτα εδει ποιησαι κακεινα μη αφιεναι[23:23]{.aside}
 
-οδηγοι τυφλοι οι διυλιζοντες τον κωνωπα την δε καμηλον [κατα]{.greek-added} [καταπινοντες]{.greek-omitted} [πινοντες]{.greek-added}[23:24]{.aside}
+οδηγοι τυφλοι οι διυλιζοντες τον κωνωπα την δε καμηλον [καταπινοντες]{.greek-omitted} [κατα]{.greek-added}[23:24]{.aside}
+
+[οδηγοι]{.greek-omitted} [τυφλοι]{.greek-omitted} [οι]{.greek-omitted} [διυλιζοντες]{.greek-omitted} [τον]{.greek-omitted} [κωνωπα]{.greek-omitted} [την]{.greek-omitted} [δε]{.greek-omitted} [καμηλον]{.greek-omitted} [καταπινοντες]{.greek-omitted} [πινοντες]{.greek-added}[23:24 | instance no. 2]{.aside}
 
 ουαι υμιν γραμματεις και φαρισαιοι υποκριται οτι καθαριζετε το εξωθεν του ποτηριου και της παροψιδος εσωθεν δε γεμουσιν εξ αρπαγης και αδικιας[23:25]{.aside}
 
@@ -97,7 +105,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και λεγετε ει ημεν εν ταις ημεραις των πατερων ημων ουκ αν ημεν κοινωνοι αυτων εν τω αιματι των προφητων[23:30]{.aside}
 
-ωστε μαρτυρειτε εαυτοις οτι υιοι εστε των φονευσαντων τους προφητας[23:31]{.aside}
+ωστε μαρτυρειτε εαυτοις οτι υιοι εστε των [φονευσαντων]{.greek-omitted} [τους]{.greek-omitted} [προφητας]{.greek-omitted}[23:31]{.aside}
+
+[ωστε]{.greek-omitted} [μαρτυρειτε]{.greek-omitted} [εαυτοις]{.greek-omitted} [οτι]{.greek-omitted} [υιοι]{.greek-omitted} [εστε]{.greek-omitted} [των]{.greek-omitted} φονευσαντων τους προφητας[23:31 | instance no. 2]{.aside}
 
 και υμεις πληρωσατε [το]{.greek-omitted} [μετρον]{.greek-omitted} των πατερων υμων [το]{.greek-added} [μετρον]{.greek-added}[23:32]{.aside}
 
@@ -127,9 +137,13 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 πολλοι γαρ ελευσονται επι τω ονοματι μου λεγοντες [οτι]{.greek-added} εγω ειμι ο [χριστος]{.greek-abbr} και πολλους πλανησουσιν[24:5]{.aside}
 
-μελλησετε δε ακουειν πολεμους και ακοας πολεμων ορατε μη θροεισθε δει γαρ παντα γενεσθαι αλλ ουπω [εστιν]{.greek-omitted} το τελος[24:6]{.aside}
+μελλησετε δε ακουειν πολεμους και ακοας πολεμων [ορατε]{.greek-omitted} [μη]{.greek-omitted} [θροεισθε]{.greek-omitted} [δει]{.greek-omitted} [γαρ]{.greek-omitted} [παντα]{.greek-omitted} [γενεσθαι]{.greek-omitted} [αλλ]{.greek-omitted} [ουπω]{.greek-omitted} [εστιν]{.greek-omitted} [το]{.greek-omitted} [τελος]{.greek-omitted}[24:6]{.aside}
 
-εγερθησεται γαρ εθνος επι εθνος και βασιλεια επι βασιλειαν και εσονται λιμοι και λοιμοι και σεισμοι κατα τοπους[24:7]{.aside}
+[μελλησετε]{.greek-omitted} [δε]{.greek-omitted} [ακουειν]{.greek-omitted} [πολεμους]{.greek-omitted} [και]{.greek-omitted} [ακοας]{.greek-omitted} [πολεμων]{.greek-omitted} ορατε μη θροεισθε δει γαρ παντα γενεσθαι αλλ ουπω [εστιν]{.greek-omitted} το τελος[24:6 | instance no. 2]{.aside}
+
+εγερθησεται γαρ εθνος επι εθνος και βασιλεια επι βασιλειαν [και]{.greek-omitted} [εσονται]{.greek-omitted} [λιμοι]{.greek-omitted} [και]{.greek-omitted} [λοιμοι]{.greek-omitted} [και]{.greek-omitted} [σεισμοι]{.greek-omitted} [κατα]{.greek-omitted} [τοπους]{.greek-omitted}[24:7]{.aside}
+
+[εγερθησεται]{.greek-omitted} [γαρ]{.greek-omitted} [εθνος]{.greek-omitted} [επι]{.greek-omitted} [εθνος]{.greek-omitted} [και]{.greek-omitted} [βασιλεια]{.greek-omitted} [επι]{.greek-omitted} [βασιλειαν]{.greek-omitted} και εσονται λιμοι και λοιμοι και σεισμοι κατα τοπους[24:7 | instance no. 2]{.aside}
 
 παντα δε ταυτα αρχη ωδινων[24:8]{.aside}
 
@@ -175,9 +189,15 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ευθεως δε μετα την θλιψιν των ημερων εκεινων ο ηλιος σκοτισθησεται και η σεληνη ου δωσει το φεγγος αυτης και οι αστερες πεσουνται απο του [ουρανου]{.greek-abbr} και αι δυναμεις των [ουρανων]{.greek-abbr} σαλευθησονται[24:29]{.aside}
 
-και τοτε φανησεται το σημειον του υιου του [ανθρωπου]{.greek-abbr} εν τω [ουρανω]{.greek-abbr} και τοτε κοψονται πασαι αι φυλαι της γης και οψονται τον υιον του [ανθρωπου]{.greek-abbr} ερχομενον επι των [νεφελων]{.greek-omitted} [νεφε]{.greek-added} [λων]{.greek-added} του [ουρανου]{.greek-abbr} μετα δυναμεως και δοξης πολλης[24:30]{.aside}
+και τοτε φανησεται το σημειον του υιου του [ανθρωπου]{.greek-abbr} εν τω [ουρανω]{.greek-abbr} [και]{.greek-omitted} [τοτε]{.greek-omitted} [κοψονται]{.greek-omitted} [πασαι]{.greek-omitted} [αι]{.greek-omitted} [φυλαι]{.greek-omitted} [της]{.greek-omitted} [γης]{.greek-omitted} [και]{.greek-omitted} [οψονται]{.greek-omitted} [τον]{.greek-omitted} [υιον]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [ερχομενον]{.greek-omitted} [επι]{.greek-omitted} [των]{.greek-omitted} [νεφελων]{.greek-omitted} [του]{.greek-omitted} [ουρανου]{.greek-omitted} [μετα]{.greek-omitted} [δυναμεως]{.greek-omitted} [και]{.greek-omitted} [δοξης]{.greek-omitted} [πολλης]{.greek-omitted}[24:30]{.aside}
 
-και αποστελει τους αγγελους αυτου μετα σαλπιγγος φωνης μεγαλης και [επισυναξουσιν]{.greek-omitted} [επισυναξουσι]{.greek-added} τους εκλεκτους αυτου εκ των τεσσαρων ανεμων απ ακρων [ουρανων]{.greek-abbr} εως [των]{.greek-added} ακρων αυτων[24:31]{.aside}
+[και]{.greek-omitted} [τοτε]{.greek-omitted} [φανησεται]{.greek-omitted} [το]{.greek-omitted} [σημειον]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [ουρανω]{.greek-omitted} και τοτε κοψονται πασαι αι φυλαι της γης και οψονται τον υιον του [ανθρωπου]{.greek-abbr} ερχομενον επι των [νεφε]{.greek-added} [νεφελων]{.greek-omitted} [του]{.greek-omitted} [ουρανου]{.greek-omitted} [μετα]{.greek-omitted} [δυναμεως]{.greek-omitted} [και]{.greek-omitted} [δοξης]{.greek-omitted} [πολλης]{.greek-omitted}[24:30 | instance no. 2]{.aside}
+
+[λων]{.greek-added} [και]{.greek-omitted} [τοτε]{.greek-omitted} [φανησεται]{.greek-omitted} [το]{.greek-omitted} [σημειον]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [ουρανω]{.greek-omitted} [και]{.greek-omitted} [τοτε]{.greek-omitted} [κοψονται]{.greek-omitted} [πασαι]{.greek-omitted} [αι]{.greek-omitted} [φυλαι]{.greek-omitted} [της]{.greek-omitted} [γης]{.greek-omitted} [και]{.greek-omitted} [οψονται]{.greek-omitted} [τον]{.greek-omitted} [υιον]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [ερχομενον]{.greek-omitted} [επι]{.greek-omitted} [των]{.greek-omitted} [νεφελων]{.greek-omitted} του [ουρανου]{.greek-abbr} μετα δυναμεως και δοξης πολλης[24:30 | instance no. 3]{.aside}
+
+και αποστελει τους αγγελους [αυτου]{.greek-omitted} [μετα]{.greek-omitted} [σαλπιγγος]{.greek-omitted} [φωνης]{.greek-omitted} [μεγαλης]{.greek-omitted} [και]{.greek-omitted} [επισυναξουσιν]{.greek-omitted} [τους]{.greek-omitted} [εκλεκτους]{.greek-omitted} [αυτου]{.greek-omitted} [εκ]{.greek-omitted} [των]{.greek-omitted} [τεσσαρων]{.greek-omitted} [ανεμων]{.greek-omitted} [απ]{.greek-omitted} [ακρων]{.greek-omitted} [ουρανων]{.greek-omitted} [εως]{.greek-omitted} [ακρων]{.greek-omitted} [αυτων]{.greek-omitted}[24:31]{.aside}
+
+[και]{.greek-omitted} [αποστελει]{.greek-omitted} [τους]{.greek-omitted} [αγγελους]{.greek-omitted} αυτου μετα σαλπιγγος φωνης μεγαλης και [επισυναξουσιν]{.greek-omitted} [επισυναξουσι]{.greek-added} τους εκλεκτους αυτου εκ των τεσσαρων ανεμων απ ακρων [ουρανων]{.greek-abbr} εως [των]{.greek-added} ακρων αυτων[24:31 | instance no. 2]{.aside}
 
 απο δε της συκης μαθετε την παραβολην οταν ηδη ο κλαδος αυτης γενηται απαλος και τα φυλλα εκφυη γινωσκετε οτι εγγυς το θερος[24:32]{.aside}
 
@@ -197,11 +217,15 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε δυο εσονται εν τω αγρω ο εις παραλαμβανεται και ο εις αφιεται[24:40]{.aside}
 
-δυο αληθουσαι εν [τω]{.greek-omitted} [τωι]{.greek-added} [μυλωνι]{.greek-omitted} [μυλω]{.greek-added} μια παραλαμβανεται και μια αφιεται[24:41]{.aside}
+δυο αληθουσαι εν [τω]{.greek-omitted} [τωι]{.greek-added} [μυλωνι]{.greek-omitted} [μυλω]{.greek-added} μια παραλαμβανεται [και]{.greek-omitted} [μια]{.greek-omitted} [αφιεται]{.greek-omitted}[24:41]{.aside}
+
+[δυο]{.greek-omitted} [αληθουσαι]{.greek-omitted} [εν]{.greek-omitted} [τω]{.greek-omitted} [μυλωνι]{.greek-omitted} [μια]{.greek-omitted} [παραλαμβανεται]{.greek-omitted} και μια αφιεται[24:41 | instance no. 2]{.aside}
 
 γρηγορειτε ουν οτι ουκ οιδατε ποια ωρα ο [κυριος]{.greek-abbr} υμων ερχεται[24:42]{.aside}
 
-εκεινο δε γινωσκετε οτι ει ηδει ο οικοδεσποτης ποια φυλακη ο κλεπτης ερχεται εγρηγορησεν αν και ουκ αν [ειασεν]{.greek-omitted} [ειασε]{.greek-added} διορυγηναι την οικιαν αυτου[24:43]{.aside}
+εκεινο δε γινωσκετε οτι ει ηδει ο οικοδεσποτης ποια φυλακη ο κλεπτης ερχεται εγρηγορησεν αν [και]{.greek-omitted} [ουκ]{.greek-omitted} [αν]{.greek-omitted} [ειασεν]{.greek-omitted} [διορυγηναι]{.greek-omitted} [την]{.greek-omitted} [οικιαν]{.greek-omitted} [αυτου]{.greek-omitted}[24:43]{.aside}
+
+[εκεινο]{.greek-omitted} [δε]{.greek-omitted} [γινωσκετε]{.greek-omitted} [οτι]{.greek-omitted} [ει]{.greek-omitted} [ηδει]{.greek-omitted} [ο]{.greek-omitted} [οικοδεσποτης]{.greek-omitted} [ποια]{.greek-omitted} [φυλακη]{.greek-omitted} [ο]{.greek-omitted} [κλεπτης]{.greek-omitted} [ερχεται]{.greek-omitted} [εγρηγορησεν]{.greek-omitted} [αν]{.greek-omitted} και ουκ αν [ειασεν]{.greek-omitted} [ειασε]{.greek-added} διορυγηναι την οικιαν αυτου[24:43 | instance no. 2]{.aside}
 
 δια τουτο και υμεις γινεσθε ετοιμοι οτι [η]{.greek-omitted} [ηι]{.greek-added} ωρα ου δοκειτε ο υιος του [ανθρωπου]{.greek-abbr} ερχεται[24:44]{.aside}
 
@@ -223,7 +247,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε ομοιωθησεται η βασιλεια των [ουρανων]{.greek-abbr} δεκα παρθενοις αιτινες λαβουσαι τας λαμπαδας αυτων εξηλθον εις απαντησιν του νυμφιου[25:1]{.aside}
 
-πεντε δε ησαν εξ αυτων φρονιμοι και [αι]{.greek-omitted} πεντε μωραι[25:2]{.aside}
+πεντε δε ησαν εξ αυτων φρονιμοι και [αι]{.greek-omitted} πεντε [μωραι]{.greek-omitted}[25:2]{.aside}
+
+[πεντε]{.greek-omitted} [δε]{.greek-omitted} [ησαν]{.greek-omitted} [εξ]{.greek-omitted} [αυτων]{.greek-omitted} [φρονιμοι]{.greek-omitted} [και]{.greek-omitted} [αι]{.greek-omitted} [πεντε]{.greek-omitted} μωραι[25:2 | instance no. 2]{.aside}
 
 αιτινες μωραι λαβουσαι τας λαμπαδας αυτων ουκ ελαβον μεθ εαυτων ελαιον[25:3]{.aside}
 
@@ -237,7 +263,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 αι δε μωραι ταις φρονιμοις ειπον δοτε [ημιν]{.greek-omitted} [υμιν]{.greek-added} εκ του ελαιου υμων οτι αι λαμπαδες ημων σβεννυνται[25:8]{.aside}
 
-απεκριθησαν δε αι φρονιμοι λεγουσαι μηποτε [ουκ]{.greek-omitted} [ου]{.greek-added} [μη]{.greek-added} αρκεση ημιν και υμιν πορευεσθε δε μαλλον προς τους πωλουντας και αγορασατε εαυταις[25:9]{.aside}
+απεκριθησαν δε αι φρονιμοι λεγουσαι μηποτε [ουκ]{.greek-omitted} [ου]{.greek-added} [μη]{.greek-added} αρκεση ημιν και υμιν πορευεσθε δε μαλλον προς τους πωλουντας και αγορασατε [εαυταις]{.greek-omitted}[25:9]{.aside}
+
+[απεκριθησαν]{.greek-omitted} [δε]{.greek-omitted} [αι]{.greek-omitted} [φρονιμοι]{.greek-omitted} [λεγουσαι]{.greek-omitted} [μηποτε]{.greek-omitted} [ουκ]{.greek-omitted} [αρκεση]{.greek-omitted} [ημιν]{.greek-omitted} [και]{.greek-omitted} [υμιν]{.greek-omitted} [πορευεσθε]{.greek-omitted} [δε]{.greek-omitted} [μαλλον]{.greek-omitted} [προς]{.greek-omitted} [τους]{.greek-omitted} [πωλουντας]{.greek-omitted} [και]{.greek-omitted} [αγορασατε]{.greek-omitted} εαυταις[25:9 | instance no. 2]{.aside}
 
 απερχομενων δε αυτων αγορασαι ηλθεν ο νυμφιος και αι ετοιμοι εισηλθον μετ αυτου εις τους γαμους και εκλεισθη η θυρα[25:10]{.aside}
 
@@ -245,13 +273,17 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ο δε αποκριθεις ειπεν αμην λεγω υμιν ουκ οιδα υμας[25:12]{.aside}
 
-γρηγορειτε ουν οτι ουκ οιδατε την ημεραν ουδε την ωραν εν η ο υιος του [ανθρωπου]{.greek-abbr} ερχεται[25:13]{.aside}
+γρηγορειτε ουν οτι ουκ οιδατε [την]{.greek-omitted} [ημεραν]{.greek-omitted} [ουδε]{.greek-omitted} [την]{.greek-omitted} [ωραν]{.greek-omitted} [εν]{.greek-omitted} [η]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [ερχεται]{.greek-omitted}[25:13]{.aside}
+
+[γρηγορειτε]{.greek-omitted} [ουν]{.greek-omitted} [οτι]{.greek-omitted} [ουκ]{.greek-omitted} [οιδατε]{.greek-omitted} την ημεραν ουδε την ωραν εν η ο υιος του [ανθρωπου]{.greek-abbr} ερχεται[25:13 | instance no. 2]{.aside}
 
 ωσπερ γαρ [ανθρωπος]{.greek-abbr} αποδημων [εκαλεσεν]{.greek-omitted} [εκαλεσε]{.greek-added} τους ιδιους δουλους και παρεδωκεν αυτοις τα υπαρχοντα αυτου[25:14]{.aside}
 
 και ω μεν [εδωκεν]{.greek-omitted} [εδωκε]{.greek-added} πεντε ταλαντα [ω]{.greek-omitted} [ωι]{.greek-added} δε δυο ω δε εν [εκαστω]{.greek-omitted} [εκαστωι]{.greek-added} κατα την ιδιαν δυναμιν και απεδημησεν ευθεως[25:15]{.aside}
 
-πορευθεις δε ο τα πεντε [τα]{.greek-added} [ταλαντα]{.greek-omitted} [λαντα]{.greek-added} λαβων ειργασατο εν αυτοις και εποιησεν αλλα πεντε ταλαντα[25:16]{.aside}
+πορευθεις δε ο τα πεντε [τα]{.greek-added} [ταλαντα]{.greek-omitted} [λαβων]{.greek-omitted} [ειργασατο]{.greek-omitted} [εν]{.greek-omitted} [αυτοις]{.greek-omitted} [και]{.greek-omitted} [εποιησεν]{.greek-omitted} [αλλα]{.greek-omitted} [πεντε]{.greek-omitted} [ταλαντα]{.greek-omitted}[25:16]{.aside}
+
+[πορευθεις]{.greek-omitted} [δε]{.greek-omitted} [ο]{.greek-omitted} [τα]{.greek-omitted} [πεντε]{.greek-omitted} [ταλαντα]{.greek-omitted} [λαντα]{.greek-added} λαβων ειργασατο εν αυτοις και εποιησεν αλλα πεντε ταλαντα[25:16 | instance no. 2]{.aside}
 
 ωσαυτως και ο τα δυο [εκερδησεν]{.greek-omitted} [εκερδησε]{.greek-added} και αυτος αλλα δυο[25:17]{.aside}
 
@@ -263,7 +295,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εφη δε αυτω ο [κυριος]{.greek-abbr} αυτου ευ δουλε αγαθε και πιστε επι ολιγα ης πιστος επι πολλων σε καταστησω εισελθε εις την χαραν του [κυριου]{.greek-abbr} σου[25:21]{.aside}
 
-προσελθων δε και ο τα δυο ταλαντα λαβων [ειπεν]{.greek-omitted} [ειπε]{.greek-added} [κυριε]{.greek-abbr} δυο ταλαντα μοι παρεδωκας ιδε αλλα δυο ταλαντα εκερδησα επ αυτοις[25:22]{.aside}
+προσελθων δε [και]{.greek-omitted} [ο]{.greek-omitted} [τα]{.greek-omitted} [δυο]{.greek-omitted} [ταλαντα]{.greek-omitted} [λαβων]{.greek-omitted} [ειπεν]{.greek-omitted} [κυριε]{.greek-omitted} [δυο]{.greek-omitted} [ταλαντα]{.greek-omitted} [μοι]{.greek-omitted} [παρεδωκας]{.greek-omitted} [ιδε]{.greek-omitted} [αλλα]{.greek-omitted} [δυο]{.greek-omitted} [ταλαντα]{.greek-omitted} [εκερδησα]{.greek-omitted} [επ]{.greek-omitted} [αυτοις]{.greek-omitted}[25:22]{.aside}
+
+[προσελθων]{.greek-omitted} [δε]{.greek-omitted} και ο τα δυο ταλαντα λαβων [ειπεν]{.greek-omitted} [ειπε]{.greek-added} [κυριε]{.greek-abbr} δυο ταλαντα μοι παρεδωκας ιδε αλλα δυο ταλαντα εκερδησα επ αυτοις[25:22 | instance no. 2]{.aside}
 
 εφη [αυτω]{.greek-omitted} [αυτωι]{.greek-added} ο [κυριος]{.greek-abbr} αυτου ευ δουλε αγαθε και πιστε [επι]{.corr} [ολιγα]{.corr} [ης]{.corr} [πιστος]{.corr} επι πολλων σε καταστησω εισελθε εις την χαραν του [κυριου]{.greek-abbr} σου[25:23]{.aside}
 
@@ -273,7 +307,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 αποκριθεις δε ο [κυριος]{.greek-abbr} αυτου ειπεν αυτω πονηρε δουλε και οκνηρε ηδεις οτι θεριζω οπου ουκ εσπειρα και συναγω οθεν ου διεσκορπισα[25:26]{.aside}
 
-εδει [σε]{.greek-added} ουν [σε]{.greek-omitted} βαλειν το αργυριον μου τοις τραπεζιταις και ελθων εγω εκομισαμην αν το εμον συν τοκω[25:27]{.aside}
+εδει [σε]{.greek-added} ουν [σε]{.greek-omitted} βαλειν το αργυριον μου τοις τραπεζιταις και ελθων [εγω]{.greek-omitted} [εκομισαμην]{.greek-omitted} [αν]{.greek-omitted} [το]{.greek-omitted} [εμον]{.greek-omitted} [συν]{.greek-omitted} [τοκω]{.greek-omitted}[25:27]{.aside}
+
+[εδει]{.greek-omitted} [ουν]{.greek-omitted} [σε]{.greek-omitted} [βαλειν]{.greek-omitted} [το]{.greek-omitted} [αργυριον]{.greek-omitted} [μου]{.greek-omitted} [τοις]{.greek-omitted} [τραπεζιταις]{.greek-omitted} [και]{.greek-omitted} [ελθων]{.greek-omitted} εγω εκομισαμην αν το εμον συν τοκω[25:27 | instance no. 2]{.aside}
 
 αρατε ουν απ αυτου το ταλαντον και δοτε τω εχοντι τα [δεκα]{.greek-omitted} [πεντε]{.greek-added} ταλαντα[25:28]{.aside}
 
@@ -291,7 +327,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 επεινασα γαρ και εδωκατε μοι φαγειν εδιψησα και εποτισατε με [ξενος]{.greek-omitted} [ημην]{.greek-omitted} [και]{.greek-omitted} [συνηγαγετε]{.greek-omitted} [με]{.greek-omitted}[25:35]{.aside}
 
-γυμνος και περιεβαλετε με [ησθενησα]{.greek-omitted} [ξενος]{.greek-added} [ημην]{.greek-added} [και]{.greek-added} [συνηγαγετε]{.greek-added} [με]{.greek-added} [ησθε]{.greek-added} [νησα]{.greek-added} και επεσκεψασθε με εν φυλακη ημην και ηλθετε προς με[25:36]{.aside}
+γυμνος και περιεβαλετε με [ξενος]{.greek-added} [ησθενησα]{.greek-omitted} [και]{.greek-omitted} [επεσκεψασθε]{.greek-omitted} [με]{.greek-omitted} [εν]{.greek-omitted} [φυλακη]{.greek-omitted} ημην και [συνηγαγετε]{.greek-added} [ηλθετε]{.greek-omitted} [προς]{.greek-omitted} με [ησθε]{.greek-added}[25:36]{.aside}
+
+[νησα]{.greek-added} [γυμνος]{.greek-omitted} [και]{.greek-omitted} [περιεβαλετε]{.greek-omitted} [με]{.greek-omitted} [ησθενησα]{.greek-omitted} και επεσκεψασθε με εν φυλακη ημην και ηλθετε προς με[25:36 | instance no. 2]{.aside}
 
 τοτε αποκριθησονται αυτω οι δικαιοι λεγοντες [κυριε]{.greek-abbr} ποτε σε ειδομεν πεινωντα και εθρεψαμεν η διψωντα και εποτισαμεν[25:37]{.aside}
 
@@ -303,7 +341,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε ερει [και]{.greek-omitted} τοις εξ ευωνυμων πορευεσθε απ εμου οι κατηραμενοι εις το πυρ το αιωνιον το ητοιμασμενον τω διαβολω και τοις αγγελοις αυτου[25:41]{.aside}
 
-επεινασα γαρ και ουκ εδωκατε μοι φαγειν εδιψησα και ουκ εποτισατε με[25:42]{.aside}
+επεινασα γαρ [και]{.greek-omitted} [ουκ]{.greek-omitted} [εδωκατε]{.greek-omitted} [μοι]{.greek-omitted} [φαγειν]{.greek-omitted} [εδιψησα]{.greek-omitted} [και]{.greek-omitted} [ουκ]{.greek-omitted} [εποτισατε]{.greek-omitted} [με]{.greek-omitted}[25:42]{.aside}
+
+[επεινασα]{.greek-omitted} [γαρ]{.greek-omitted} και ουκ εδωκατε μοι φαγειν εδιψησα και ουκ εποτισατε με[25:42 | instance no. 2]{.aside}
 
 ξενος ημην και ου συνηγαγετε με γυμνος και ου περιεβαλετε με ασθενης και εν φυλακη και ουκ επεσκεψασθε με[25:43]{.aside}
 
@@ -317,7 +357,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και εγενετο οτε ετελεσεν ο [ιησους]{.greek-abbr} παντας τους λογους τουτους [ειπεν]{.greek-omitted} [ειπε]{.greek-added} τοις μαθηταις αυτου[26:1]{.aside}
 
-οιδατε οτι μετα δυο ημερας το πασχα γινεται και ο υιος του [ανθρωπου]{.greek-abbr} παραδιδοται εις το σταυρωθηναι[26:2]{.aside}
+οιδατε οτι μετα δυο ημερας το πασχα γινεται και ο υιος [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [παραδιδοται]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-omitted} [σταυρωθηναι]{.greek-omitted}[26:2]{.aside}
+
+[οιδατε]{.greek-omitted} [οτι]{.greek-omitted} [μετα]{.greek-omitted} [δυο]{.greek-omitted} [ημερας]{.greek-omitted} [το]{.greek-omitted} [πασχα]{.greek-omitted} [γινεται]{.greek-omitted} [και]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} του [ανθρωπου]{.greek-abbr} παραδιδοται εις το σταυρωθηναι[26:2 | instance no. 2]{.aside}
 
 τοτε συνηχθησαν οι αρχιερεις και οι γραμματεις και οι πρεσβυτεροι του λαου εις την αυλην του αρχιερεως του λεγομενου καιαφα[26:3]{.aside}
 
@@ -333,7 +375,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 [ηδυνατο]{.greek-omitted} [εδυνατο]{.greek-added} γαρ τουτο το μυρον πραθηναι πολλου και δοθηναι πτωχοις[26:9]{.aside}
 
-γνους δε ο [ιησους]{.greek-abbr} ειπεν αυτοις τι κοπους παρεχετε τη γυναικι εργον γαρ καλον ειργασατο εις εμε[26:10]{.aside}
+γνους δε ο [ιησους]{.greek-abbr} ειπεν αυτοις τι κοπους παρεχετε τη γυναικι εργον γαρ καλον ειργασατο εις [εμε]{.greek-omitted}[26:10]{.aside}
+
+[γνους]{.greek-omitted} [δε]{.greek-omitted} [ο]{.greek-omitted} [ιησους]{.greek-omitted} [ειπεν]{.greek-omitted} [αυτοις]{.greek-omitted} [τι]{.greek-omitted} [κοπους]{.greek-omitted} [παρεχετε]{.greek-omitted} [τη]{.greek-omitted} [γυναικι]{.greek-omitted} [εργον]{.greek-omitted} [γαρ]{.greek-omitted} [καλον]{.greek-omitted} [ειργασατο]{.greek-omitted} [εις]{.greek-omitted} εμε[26:10 | instance no. 2]{.aside}
 
 [παντοτε]{.greek-omitted} [γαρ]{.greek-omitted} τους πτωχους [γαρ]{.greek-added} [παντοτε]{.greek-added} εχετε μεθ εαυτων εμε δε ου παντοτε εχετε[26:11]{.aside}
 
@@ -343,7 +387,11 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε πορευθεις εις των δωδεκα ο λεγομενος ιουδας ισκαριωτης προς τους αρχιερεις[26:14]{.aside}
 
-[ειπεν]{.greek-omitted} [ειπε]{.greek-added} τι [θελετε]{.greek-added} [μοι]{.greek-added} [δουναι]{.greek-added} [και]{.greek-added} [εγω]{.greek-added} [υμιν]{.greek-added} [παραδωσω]{.greek-added} [αυτον]{.greek-added} [τι]{.greek-added} [μοι]{.greek-added} θελετε μοι δουναι καγω υμιν παραδωσω αυτον οι δε εστησαν [αυτω]{.greek-omitted} [αυτωι]{.greek-added} τριακοντα αργυρια[26:15]{.aside}
+[ειπεν]{.greek-omitted} [ειπε]{.greek-added} τι θελετε μοι δουναι [καγω]{.greek-omitted} [και]{.greek-added} [εγω]{.greek-added} υμιν παραδωσω αυτον [οι]{.greek-omitted} [δε]{.greek-omitted} [εστησαν]{.greek-omitted} [αυτω]{.greek-omitted} [τριακοντα]{.greek-omitted} [αργυρια]{.greek-omitted}[26:15]{.aside}
+
+[ειπεν]{.greek-omitted} τι [μοι]{.greek-added} θελετε μοι δουναι καγω υμιν παραδωσω αυτον οι δε εστησαν [αυτω]{.greek-omitted} [τριακοντα]{.greek-omitted} [αργυρια]{.greek-omitted}[26:15 | instance no. 2]{.aside}
+
+[ειπεν]{.greek-omitted} [τι]{.greek-omitted} [θελετε]{.greek-omitted} [μοι]{.greek-omitted} [δουναι]{.greek-omitted} [καγω]{.greek-omitted} [υμιν]{.greek-omitted} [παραδωσω]{.greek-omitted} [αυτον]{.greek-omitted} [οι]{.greek-omitted} [δε]{.greek-omitted} [εστησαν]{.greek-omitted} [αυτω]{.greek-omitted} [αυτωι]{.greek-added} τριακοντα αργυρια[26:15 | instance no. 3]{.aside}
 
 και απο τοτε εζητει ευκαιριαν ινα αυτον παραδω[26:16]{.aside}
 
@@ -365,7 +413,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εσθιοντων δε αυτων λαβων ο [ιησους]{.greek-abbr} τον αρτον και ευχαριστησας [εκλασεν]{.greek-omitted} [εκλασε]{.greek-added} και [εδιδου]{.greek-omitted} [εδωκε]{.greek-added} τοις μαθηταις και [ειπεν]{.greek-omitted} [ειπε]{.greek-added} λαβετε φαγετε τουτο [εστιν]{.greek-omitted} [εστι]{.greek-added} το σωμα μου[26:26]{.aside}
 
-και λαβων το ποτηριον και ευχαριστησας εδωκεν αυτοις λεγων πιετε εξ αυτου παντες[26:27]{.aside}
+και λαβων το ποτηριον και ευχαριστησας εδωκεν αυτοις λεγων πιετε [εξ]{.greek-omitted} [αυτου]{.greek-omitted} [παντες]{.greek-omitted}[26:27]{.aside}
+
+[και]{.greek-omitted} [λαβων]{.greek-omitted} [το]{.greek-omitted} [ποτηριον]{.greek-omitted} [και]{.greek-omitted} [ευχαριστησας]{.greek-omitted} [εδωκεν]{.greek-omitted} [αυτοις]{.greek-omitted} [λεγων]{.greek-omitted} [πιετε]{.greek-omitted} εξ αυτου παντες[26:27 | instance no. 2]{.aside}
 
 τουτο [γαρ]{.greek-omitted} [εστιν]{.greek-omitted} [εστι]{.greek-added} το αιμα μου το της καινης διαθηκης το περι πολλων [εκχυνομενον]{.greek-omitted} [εκχυννομενον]{.greek-added} εις αφεσιν αμαρτιων[26:28]{.aside}
 
@@ -373,7 +423,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και υμνησαντες εξηλθον εις το ορος των ελαιων[26:30]{.aside}
 
-τοτε λεγει αυτοις ο [ιησους]{.greek-abbr} παντες υμεις σκανδαλισθησεσθε [εν]{.greek-omitted} [εμοι]{.greek-omitted} εν τη νυκτι ταυτη γεγραπται γαρ παταξω τον ποιμενα και [διασκορπισθησεται]{.greek-omitted} [διασκορ]{.greek-added} [πισθησονται]{.greek-added} τα προβατα της ποιμνης[26:31]{.aside}
+τοτε λεγει αυτοις ο [ιησους]{.greek-abbr} παντες υμεις σκανδαλισθησεσθε [εν]{.greek-omitted} [εμοι]{.greek-omitted} εν τη νυκτι ταυτη γεγραπται γαρ παταξω τον ποιμενα και [διασκορ]{.greek-added} [διασκορπισθησεται]{.greek-omitted} [τα]{.greek-omitted} [προβατα]{.greek-omitted} [της]{.greek-omitted} [ποιμνης]{.greek-omitted}[26:31]{.aside}
+
+[πισθησονται]{.greek-added} [τοτε]{.greek-omitted} [λεγει]{.greek-omitted} [αυτοις]{.greek-omitted} [ο]{.greek-omitted} [ιησους]{.greek-omitted} [παντες]{.greek-omitted} [υμεις]{.greek-omitted} [σκανδαλισθησεσθε]{.greek-omitted} [εν]{.greek-omitted} [εμοι]{.greek-omitted} [εν]{.greek-omitted} [τη]{.greek-omitted} [νυκτι]{.greek-omitted} [ταυτη]{.greek-omitted} [γεγραπται]{.greek-omitted} [γαρ]{.greek-omitted} [παταξω]{.greek-omitted} [τον]{.greek-omitted} [ποιμενα]{.greek-omitted} [και]{.greek-omitted} [διασκορπισθησεται]{.greek-omitted} τα προβατα της ποιμνης[26:31 | instance no. 2]{.aside}
 
 μετα δε το εγερθηναι με [προαξω]{.greek-omitted} [προαξο]{.greek-added} υμας εις την γαλιλαιαν[26:32]{.aside}
 
@@ -385,13 +437,17 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε ερχεται μετ αυτων ο [ιησους]{.greek-abbr} εις χωριον λεγομενον γεθσημανη και λεγει τοις μαθηταις καθισατε αυτου εως ου απελθων [προσευξωμαι]{.greek-omitted} εκει [προσευξομαι]{.greek-added}[26:36]{.aside}
 
-και παραλαβων τον πετρον και τους δυο υιους ζεβεδαιου ηρξατο λυπεισθαι και αδημονειν[26:37]{.aside}
+και παραλαβων [τον]{.greek-omitted} [πετρον]{.greek-omitted} [και]{.greek-omitted} [τους]{.greek-omitted} [δυο]{.greek-omitted} [υιους]{.greek-omitted} [ζεβεδαιου]{.greek-omitted} [ηρξατο]{.greek-omitted} [λυπεισθαι]{.greek-omitted} [και]{.greek-omitted} [αδημονειν]{.greek-omitted}[26:37]{.aside}
+
+[και]{.greek-omitted} [παραλαβων]{.greek-omitted} τον πετρον και τους δυο υιους ζεβεδαιου ηρξατο λυπεισθαι και αδημονειν[26:37 | instance no. 2]{.aside}
 
 τοτε λεγει αυτοις ο [ιησους]{.greek-abbr} περιλυπος εστιν η ψυχη μου εως θανατου μεινατε ωδε και γρηγορειτε μετ εμου[26:38]{.aside}
 
 και προσελθων μικρον επεσεν επι προσωπον αυτου προσευχομενος και λεγων πατερ μου ει δυνατον [εστιν]{.greek-omitted} [εστι]{.greek-added} [παρελθετω]{.greek-omitted} [παρελθατω]{.greek-added} απ εμου το ποτηριον τουτο πλην ουχ ως εγω θελω αλλ ως συ[26:39]{.aside}
 
-και ερχεται προς τους μαθητας και ευρισκει αυτους καθευδοντας και λεγει [τω]{.greek-omitted} [τωι]{.greek-added} πετρω ουτως ουκ ισχυσατε μιαν ωραν γρηγορησαι μετ εμου[26:40]{.aside}
+και ερχεται προς τους μαθητας και ευρισκει αυτους καθευδοντας [και]{.greek-omitted} [λεγει]{.greek-omitted} [τω]{.greek-omitted} [πετρω]{.greek-omitted} [ουτως]{.greek-omitted} [ουκ]{.greek-omitted} [ισχυσατε]{.greek-omitted} [μιαν]{.greek-omitted} [ωραν]{.greek-omitted} [γρηγορησαι]{.greek-omitted} [μετ]{.greek-omitted} [εμου]{.greek-omitted}[26:40]{.aside}
+
+[και]{.greek-omitted} [ερχεται]{.greek-omitted} [προς]{.greek-omitted} [τους]{.greek-omitted} [μαθητας]{.greek-omitted} [και]{.greek-omitted} [ευρισκει]{.greek-omitted} [αυτους]{.greek-omitted} [καθευδοντας]{.greek-omitted} και λεγει [τω]{.greek-omitted} [τωι]{.greek-added} πετρω ουτως ουκ ισχυσατε μιαν ωραν γρηγορησαι μετ εμου[26:40 | instance no. 2]{.aside}
 
 γρηγορειτε και προσευχεσθε ινα μη εισελθητε εις πειρασμον [το]{.greek-omitted} [μεν]{.greek-omitted} [πνευμα]{.greek-omitted} [προθυμον]{.greek-omitted} [η]{.greek-omitted} [δε]{.greek-omitted} [σαρξ]{.greek-omitted} [ασθενης]{.greek-omitted}[26:41]{.aside}
 
@@ -401,7 +457,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και αφεις αυτους απελθων παλιν προσηυξατο εκ τ[ρ]{.unclear}ιτου τον αυτον λογον ειπων[26:44]{.aside}
 
-τοτε ερχεται προς τους μαθητας αυτου και λεγει αυτοις καθευδετε το λοιπον και αναπαυεσθε ιδου ηγγικεν η ωρα και ο υιος του [ανθρωπου]{.greek-abbr} παραδιδοται εις χειρας αμαρτωλων[26:45]{.aside}
+τοτε ερχεται προς τους μαθητας αυτου και λεγει αυτοις καθευδετε το λοιπον και αναπαυεσθε [ιδου]{.greek-omitted} [ηγγικεν]{.greek-omitted} [η]{.greek-omitted} [ωρα]{.greek-omitted} [και]{.greek-omitted} [ο]{.greek-omitted} [υιος]{.greek-omitted} [του]{.greek-omitted} [ανθρωπου]{.greek-omitted} [παραδιδοται]{.greek-omitted} [εις]{.greek-omitted} [χειρας]{.greek-omitted} [αμαρτωλων]{.greek-omitted}[26:45]{.aside}
+
+[τοτε]{.greek-omitted} [ερχεται]{.greek-omitted} [προς]{.greek-omitted} [τους]{.greek-omitted} [μαθητας]{.greek-omitted} [αυτου]{.greek-omitted} [και]{.greek-omitted} [λεγει]{.greek-omitted} [αυτοις]{.greek-omitted} [καθευδετε]{.greek-omitted} [το]{.greek-omitted} [λοιπον]{.greek-omitted} [και]{.greek-omitted} [αναπαυεσθε]{.greek-omitted} ιδου ηγγικεν η ωρα και ο υιος του [ανθρωπου]{.greek-abbr} παραδιδοται εις χειρας αμαρτωλων[26:45 | instance no. 2]{.aside}
 
 εγειρεσθε αγωμεν ιδου ηγγικεν ο παραδιδους με[26:46]{.aside}
 
@@ -423,11 +481,15 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εν εκεινη τη ωρα ειπεν ο [ιησους]{.greek-abbr} τοις οχλοις ως επι ληστην εξ[ηλ]{.unclear}θετε μετα μαχαιρων και ξυλων συλλαβειν με καθ ημεραν [προς]{.unclear} υμας εκαθεζομην διδασκων εν τω ιερω και ουκ εκρατησατε με[26:55]{.aside}
 
-τουτο δε ολον γεγονεν ινα πληρωθωσιν αι γραφαι των προφητων τοτε οι μαθηται παντες αφεντες αυτον εφυγον[26:56]{.aside}
+τουτο δε ολον γεγονεν ινα πληρωθωσιν αι γραφαι των προφητων [τοτε]{.greek-omitted} [οι]{.greek-omitted} [μαθηται]{.greek-omitted} [παντες]{.greek-omitted} [αφεντες]{.greek-omitted} [αυτον]{.greek-omitted} [εφυγον]{.greek-omitted}[26:56]{.aside}
+
+[τουτο]{.greek-omitted} [δε]{.greek-omitted} [ολον]{.greek-omitted} [γεγονεν]{.greek-omitted} [ινα]{.greek-omitted} [πληρωθωσιν]{.greek-omitted} [αι]{.greek-omitted} [γραφαι]{.greek-omitted} [των]{.greek-omitted} [προφητων]{.greek-omitted} τοτε οι μαθηται παντες αφεντες αυτον εφυγον[26:56 | instance no. 2]{.aside}
 
 οι δε κρατησαντες τον [ιησουν]{.greek-abbr} απηγαγον προς καιαφαν τον αρχιερεα οπου οι γραμματεις και οι πρεσβυτεροι συνηχθησαν[26:57]{.aside}
 
-ο δε πετρος ηκολουθει αυτω απο μακροθεν εως της αυλης του αρχιερεως και εισελθων εσω εκαθητο μετα των [υπηρετων]{.greek-omitted} [υπηρε]{.greek-added} [των]{.greek-added} ιδειν το τελος[26:58]{.aside}
+ο δε πετρος ηκολουθει αυτω απο μακροθεν εως της αυλης του αρχιερεως και εισελθων εσω εκαθητο μετα των [υπηρετων]{.greek-omitted} [υπηρε]{.greek-added} [ιδειν]{.greek-omitted} [το]{.greek-omitted} [τελος]{.greek-omitted}[26:58]{.aside}
+
+[ο]{.greek-omitted} [δε]{.greek-omitted} [πετρος]{.greek-omitted} [ηκολουθει]{.greek-omitted} [αυτω]{.greek-omitted} [απο]{.greek-omitted} [μακροθεν]{.greek-omitted} [εως]{.greek-omitted} [της]{.greek-omitted} [αυλης]{.greek-omitted} [του]{.greek-omitted} [αρχιερεως]{.greek-omitted} [και]{.greek-omitted} [εισελθων]{.greek-omitted} [εσω]{.greek-omitted} [εκαθητο]{.greek-omitted} [μετα]{.greek-omitted} των [υπηρετων]{.greek-omitted} ιδειν το τελος[26:58 | instance no. 2]{.aside}
 
 οι δε αρχιερεις [και]{.greek-omitted} [οι]{.greek-omitted} [πρεσβυτεροι]{.greek-omitted} και το συνεδριον ολον εζητουν ψευδομαρτυριαν κατα του [ιησου]{.greek-abbr} οπως θανατωσωσιν αυτον[26:59]{.aside}
 
@@ -441,7 +503,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 λεγει [αυτω]{.greek-omitted} [αυτωι]{.greek-added} [ο]{.greek-omitted} [ιησους]{.greek-omitted} συ ειπας πλην λεγω υμιν απ αρτι οψεσθε τον υιον του [ανθρωπου]{.greek-abbr} καθημενον εκ δεξιων της δυναμεως και ερχομενον επι των νεφελων του [ουρανου]{.greek-abbr}[26:64]{.aside}
 
-τοτε ο αρχιερευς [διερρηξεν]{.greek-omitted} [διερρηξε]{.greek-added} τα ιματια αυτου λεγων οτι [εβλασφημησεν]{.greek-omitted} [εβλασφημησε]{.greek-added} τι ετι χρειαν εχομεν μαρτυρων ιδε νυν ηκουσατε [την]{.greek-omitted} [της]{.greek-added} [βλασφημιαν]{.greek-omitted} [βλασφημιας]{.greek-added} αυτου[26:65]{.aside}
+τοτε [ο]{.greek-omitted} [αρχιερευς]{.greek-omitted} [διερρηξεν]{.greek-omitted} [τα]{.greek-omitted} [ιματια]{.greek-omitted} [αυτου]{.greek-omitted} [λεγων]{.greek-omitted} [οτι]{.greek-omitted} [εβλασφημησεν]{.greek-omitted} [τι]{.greek-omitted} [ετι]{.greek-omitted} [χρειαν]{.greek-omitted} [εχομεν]{.greek-omitted} [μαρτυρων]{.greek-omitted} [ιδε]{.greek-omitted} [νυν]{.greek-omitted} [ηκουσατε]{.greek-omitted} [την]{.greek-omitted} [βλασφημιαν]{.greek-omitted} [αυτου]{.greek-omitted}[26:65]{.aside}
+
+[τοτε]{.greek-omitted} ο αρχιερευς [διερρηξεν]{.greek-omitted} [διερρηξε]{.greek-added} τα ιματια αυτου λεγων οτι [εβλασφημησεν]{.greek-omitted} [εβλασφημησε]{.greek-added} τι ετι χρειαν εχομεν μαρτυρων ιδε νυν ηκουσατε [την]{.greek-omitted} [της]{.greek-added} [βλασφημιαν]{.greek-omitted} [βλασφημιας]{.greek-added} αυτου[26:65 | instance no. 2]{.aside}
 
 τι υμιν δοκει οι δε αποκριθεντες ειπον ενοχος θανατου [εστιν]{.greek-omitted} [εστι]{.greek-added}[26:66]{.aside}
 
@@ -457,7 +521,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και παλιν ηρνησατο μεθ ορκου οτι ουκ οιδα τον [ανθρωπον]{.greek-abbr}[26:72]{.aside}
 
-μετα μικρον [δε]{.greek-omitted} προσελθοντες οι εστωτες ειπον τω πετρω αληθως και συ εξ αυτων ει και γαρ η λαλια σου δηλον σε ποιει[26:73]{.aside}
+μετα μικρον [δε]{.greek-omitted} προσελθοντες οι εστωτες [ειπον]{.greek-omitted} [τω]{.greek-omitted} [πετρω]{.greek-omitted} [αληθως]{.greek-omitted} [και]{.greek-omitted} [συ]{.greek-omitted} [εξ]{.greek-omitted} [αυτων]{.greek-omitted} [ει]{.greek-omitted} [και]{.greek-omitted} [γαρ]{.greek-omitted} [η]{.greek-omitted} [λαλια]{.greek-omitted} [σου]{.greek-omitted} [δηλον]{.greek-omitted} [σε]{.greek-omitted} [ποιει]{.greek-omitted}[26:73]{.aside}
+
+[μετα]{.greek-omitted} [μικρον]{.greek-omitted} [δε]{.greek-omitted} [προσελθοντες]{.greek-omitted} [οι]{.greek-omitted} [εστωτες]{.greek-omitted} ειπον τω πετρω αληθως και συ εξ αυτων ει και γαρ η λαλια σου δηλον σε ποιει[26:73 | instance no. 2]{.aside}
 
 τοτε ηρξατο καταθεματιζειν και ομνυειν οτι ουκ οιδα τον [ανθρωπον]{.greek-abbr} και ευθεως αλεκτωρ [εφωνησεν]{.greek-omitted} [εφωνησε]{.greek-added}[26:74]{.aside}
 
@@ -477,7 +543,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 οι δε αρχιερεις λαβοντες τα αργυρια ειπον ουκ [εξεστιν]{.greek-omitted} [εξεστι]{.greek-added} βαλειν αυτα εις τον κορβαναν επει τιμη αιματος [εστιν]{.greek-omitted} [εστι]{.greek-added}[27:6]{.aside}
 
-συμβουλιον δε λαβοντες ηγορασαν εξ αυτων τον αγρον του κεραμεως εις ταφην τοις ξενοις[27:7]{.aside}
+συμβουλιον δε λαβοντες ηγορασαν εξ αυτων τον αγρον του κεραμεως εις ταφην [τοις]{.greek-omitted} [ξενοις]{.greek-omitted}[27:7]{.aside}
+
+[συμβουλιον]{.greek-omitted} [δε]{.greek-omitted} [λαβοντες]{.greek-omitted} [ηγορασαν]{.greek-omitted} [εξ]{.greek-omitted} [αυτων]{.greek-omitted} [τον]{.greek-omitted} [αγρον]{.greek-omitted} [του]{.greek-omitted} [κεραμεως]{.greek-omitted} [εις]{.greek-omitted} [ταφην]{.greek-omitted} τοις ξενοις[27:7 | instance no. 2]{.aside}
 
 διο εκληθη ο αγρος εκεινος αγρος αιματος εως της σημερον[27:8]{.aside}
 
@@ -489,7 +557,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και εν τω κατηγορεισθαι αυτον υπο των αρχιερεων και [των]{.greek-omitted} πρεσβυτερων ουδεν απεκρινατο[27:12]{.aside}
 
-τοτε λεγει αυτω ο πιλατος ουκ ακουεις ποσα σου [καταμαρτυρουσιν]{.greek-omitted} [καταμαρτυρουσι]{.greek-added}[27:13]{.aside}
+τοτε λεγει αυτω ο πιλατος ουκ ακουεις [ποσα]{.greek-omitted} [σου]{.greek-omitted} [καταμαρτυρουσιν]{.greek-omitted}[27:13]{.aside}
+
+[τοτε]{.greek-omitted} [λεγει]{.greek-omitted} [αυτω]{.greek-omitted} [ο]{.greek-omitted} [πιλατος]{.greek-omitted} [ουκ]{.greek-omitted} [ακουεις]{.greek-omitted} ποσα σου [καταμαρτυρουσιν]{.greek-omitted} [καταμαρτυρουσι]{.greek-added}[27:13 | instance no. 2]{.aside}
 
 και ουκ απεκριθη αυτω προς ουδε εν ρημα ωστε θαυμαζειν τον ηγεμονα λιαν[27:14]{.aside}
 
@@ -509,7 +579,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 λεγει αυτοις ο πιλατος τι ουν ποιησω [ιησουν]{.greek-abbr} τον λεγομενον [χριστον]{.greek-abbr} λεγουσιν αυτω παντες σταυρωθητω[27:22]{.aside}
 
-ο δε ηγεμων εφη τι γαρ κακον εποιησεν οι δε περισσως εκραζον λεγοντ[ες]{.unclear} σταυρωθητω[27:23]{.aside}
+ο δε ηγεμων εφη τι γαρ κακον εποιησεν οι δε περισσως εκραζον λεγοντ[ες]{.unclear} [σταυρωθητω]{.greek-omitted}[27:23]{.aside}
+
+[ο]{.greek-omitted} [δε]{.greek-omitted} [ηγεμων]{.greek-omitted} [εφη]{.greek-omitted} [τι]{.greek-omitted} [γαρ]{.greek-omitted} [κακον]{.greek-omitted} [εποιησεν]{.greek-omitted} [οι]{.greek-omitted} [δε]{.greek-omitted} [περισσως]{.greek-omitted} [εκραζον]{.greek-omitted} [λεγοντες]{.greek-omitted} σταυρωθητω[27:23 | instance no. 2]{.aside}
 
 ιδων δε ο πιλατος οτι ουδεν ωφελει αλλα μαλλον θορυβος γινεται λαβων υδωρ απενιψατο τας χειρας απεναντι του οχλου λεγων αθωος ειμι απο του αιματος του δικαιου τουτου υμεις οψεσθε[27:24]{.aside}
 
@@ -519,7 +591,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τοτε οι στρατιωται του ηγεμονος παραλαβοντες τον [ιησουν]{.greek-abbr} εις το πραιτωριον συνηγαγον επ αυτον ολην την σπειραν[27:27]{.aside}
 
-και εκδυσαντες αυτον περιεθηκαν [αυτω]{.greek-omitted} [αυτωι]{.greek-added} χλαμυδα κοκκινην[27:28]{.aside}
+και εκδυσαντες αυτον περιεθηκαν [αυτω]{.greek-omitted} [χλαμυδα]{.greek-omitted} [κοκκινην]{.greek-omitted}[27:28]{.aside}
+
+[και]{.greek-omitted} [εκδυσαντες]{.greek-omitted} [αυτον]{.greek-omitted} [περιεθηκαν]{.greek-omitted} [αυτω]{.greek-omitted} [αυτωι]{.greek-added} χλαμυδα κοκκινην[27:28 | instance no. 2]{.aside}
 
 και πλεξαντες στεφανον εξ ακανθων επεθηκαν επι την κεφαλην αυτου και καλαμον επι την δεξιαν αυτου και γονυπετησαντες εμπροσθεν αυτου ενεπαιζον [αυτω]{.greek-omitted} [αυτωι]{.greek-added} λεγοντες χαιρε ο βασιλευς των ιουδαι[ω]{.unclear}ν[27:29]{.aside}
 
@@ -547,7 +621,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ομοιως δε και οι αρχιερεις εμπαιζοντες μετα των γραμματεων και πρεσβυτερων και φαρισαιων ελεγον[27:41]{.aside}
 
-αλλους εσωσεν εαυτον ου δυναται σωσαι ει βασιλευς [ισραηλ]{.greek-abbr} [εστιν]{.greek-omitted} [εστι]{.greek-added} καταβατω νυν απο του σταυρου και πιστευσομεν επ [αυτω]{.greek-omitted} [αυτωι]{.greek-added}[27:42]{.aside}
+αλλους εσωσεν εαυτον ου [δυναται]{.greek-omitted} [σωσαι]{.greek-omitted} [ει]{.greek-omitted} [βασιλευς]{.greek-omitted} [ισραηλ]{.greek-omitted} [εστιν]{.greek-omitted} [καταβατω]{.greek-omitted} [νυν]{.greek-omitted} [απο]{.greek-omitted} [του]{.greek-omitted} [σταυρου]{.greek-omitted} [και]{.greek-omitted} [πιστευσομεν]{.greek-omitted} [επ]{.greek-omitted} [αυτω]{.greek-omitted}[27:42]{.aside}
+
+[αλλους]{.greek-omitted} [εσωσεν]{.greek-omitted} [εαυτον]{.greek-omitted} [ου]{.greek-omitted} δυναται σωσαι ει βασιλευς [ισραηλ]{.greek-abbr} [εστιν]{.greek-omitted} [εστι]{.greek-added} καταβατω νυν απο του σταυρου και πιστευσομεν επ [αυτω]{.greek-omitted} [αυτωι]{.greek-added}[27:42 | instance no. 2]{.aside}
 
 πεποιθεν επι τον [θεον]{.greek-abbr} ρυσασθω νυν αυτον ει θελει αυτον [ειπεν]{.greek-omitted} [ειπε]{.greek-added} γαρ οτι [θεου]{.greek-abbr} ειμι υιος[27:43]{.aside}
 
@@ -559,13 +635,17 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 τινες δε των εκει εστωτων ακουσαντες ελεγον οτι ηλιαν φωνει ουτος[27:47]{.aside}
 
-και ευθεως δραμων εις εξ αυτων και λαβων σπογγον πλησας τε οξους και περιθεις καλαμω εποτιζεν αυτον[27:48]{.aside}
+και ευθεως δραμων εις εξ αυτων και λαβων σπογγον πλησας τε [οξους]{.greek-omitted} [και]{.greek-omitted} [περιθεις]{.greek-omitted} [καλαμω]{.greek-omitted} [εποτιζεν]{.greek-omitted} [αυτον]{.greek-omitted}[27:48]{.aside}
+
+[και]{.greek-omitted} [ευθεως]{.greek-omitted} [δραμων]{.greek-omitted} [εις]{.greek-omitted} [εξ]{.greek-omitted} [αυτων]{.greek-omitted} [και]{.greek-omitted} [λαβων]{.greek-omitted} [σπογγον]{.greek-omitted} [πλησας]{.greek-omitted} [τε]{.greek-omitted} οξους και περιθεις καλαμω εποτιζεν αυτον[27:48 | instance no. 2]{.aside}
 
 οι δε λοιποι ελεγον αφες ιδωμεν ει ερχεται ηλιας σωσων αυτον[27:49]{.aside}
 
 ο δε [ιησους]{.greek-abbr} παλιν κραξας φωνη μεγαλη [αφηκεν]{.greek-omitted} [αφηκε]{.greek-added} το [πνευμα]{.greek-abbr}[27:50]{.aside}
 
-και ιδου το καταπετασμα του ναου εσχισθη εις δυο [απο]{.greek-omitted} [απ]{.greek-added} ανωθεν εως κατω και η γη εσεισθη και αι πετραι εσχισθησαν[27:51]{.aside}
+και ιδου το καταπετασμα του [ναου]{.greek-omitted} [εσχισθη]{.greek-omitted} [εις]{.greek-omitted} [δυο]{.greek-omitted} [απο]{.greek-omitted} [ανωθεν]{.greek-omitted} [εως]{.greek-omitted} [κατω]{.greek-omitted} [και]{.greek-omitted} [η]{.greek-omitted} [γη]{.greek-omitted} [εσεισθη]{.greek-omitted} [και]{.greek-omitted} [αι]{.greek-omitted} [πετραι]{.greek-omitted} [εσχισθησαν]{.greek-omitted}[27:51]{.aside}
+
+[και]{.greek-omitted} [ιδου]{.greek-omitted} [το]{.greek-omitted} [καταπετασμα]{.greek-omitted} [του]{.greek-omitted} ναου εσχισθη εις δυο [απο]{.greek-omitted} [απ]{.greek-added} ανωθεν εως κατω και η γη εσεισθη και αι πετραι εσχισθησαν[27:51 | instance no. 2]{.aside}
 
 και τα μνημεια ανεωχθησαν και πολλα σωματα των κεκοιμημενων αγιων ηγερθη[27:52]{.aside}
 
@@ -595,7 +675,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 εφη [δε]{.greek-omitted} αυτοις ο πιλατος εχετε κουστωδιαν υπαγετε ασφαλισασθε ως οιδατε[27:65]{.aside}
 
-οι δε πορευθεντες ησφαλισαντο τον ταφον σφραγισαντες τον λιθον μετα της κουστωδιας[27:66]{.aside}
+οι δε πορευθεντες ησφαλισαντο τον ταφον σφραγισαντες τον λιθον μετα της [κουστωδιας]{.greek-omitted}[27:66]{.aside}
+
+[οι]{.greek-omitted} [δε]{.greek-omitted} [πορευθεντες]{.greek-omitted} [ησφαλισαντο]{.greek-omitted} [τον]{.greek-omitted} [ταφον]{.greek-omitted} [σφραγισαντες]{.greek-omitted} [τον]{.greek-omitted} [λιθον]{.greek-omitted} [μετα]{.greek-omitted} [της]{.greek-omitted} κουστωδιας[27:66 | instance no. 2]{.aside}
 
 ### Chapter 28
 
@@ -611,11 +693,17 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 ουκ εστιν ωδε ηγερθη γαρ καθως [ειπεν]{.greek-omitted} [ειπε]{.greek-added} δευτε ιδετε τον τοπον οπου εκειτο ο [κυριος]{.greek-abbr}[28:6]{.aside}
 
-και ταχυ πορευθεισαι ειπατε τοις μαθηταις αυτου οτι ηγερθη απο των νεκρων και ιδου προαγει υμας εις την γαλιλαιαν εκει αυτον οψεσθε ιδου ειπον υμιν[28:7]{.aside}
+και ταχυ πορευθεισαι ειπατε τοις μαθηταις [αυτου]{.greek-omitted} [οτι]{.greek-omitted} [ηγερθη]{.greek-omitted} [απο]{.greek-omitted} [των]{.greek-omitted} [νεκρων]{.greek-omitted} [και]{.greek-omitted} [ιδου]{.greek-omitted} [προαγει]{.greek-omitted} [υμας]{.greek-omitted} [εις]{.greek-omitted} [την]{.greek-omitted} [γαλιλαιαν]{.greek-omitted} [εκει]{.greek-omitted} [αυτον]{.greek-omitted} [οψεσθε]{.greek-omitted} [ιδου]{.greek-omitted} [ειπον]{.greek-omitted} [υμιν]{.greek-omitted}[28:7]{.aside}
 
-και εξελθουσαι ταχυ απο του μνημειου μετα φοβου και χαρας μεγαλης εδραμον απαγγειλαι τοις μαθηταις αυτου[28:8]{.aside}
+[και]{.greek-omitted} [ταχυ]{.greek-omitted} [πορευθεισαι]{.greek-omitted} [ειπατε]{.greek-omitted} [τοις]{.greek-omitted} [μαθηταις]{.greek-omitted} αυτου οτι ηγερθη απο των νεκρων και ιδου προαγει υμας εις την γαλιλαιαν εκει αυτον οψεσθε ιδου ειπον υμιν[28:7 | instance no. 2]{.aside}
 
-ως δε επορευοντο απαγγειλαι τοις [μαθηταις]{.greek-omitted} [μαθητσις]{.greek-added} αυτου και ιδου [ιησους]{.greek-abbr} απηντησεν αυταις λεγων χαιρετε αι δε προσελθουσαι εκρατησαν αυτου τους ποδας και προσεκυνησαν αυτω[28:9]{.aside}
+και εξελθουσαι ταχυ απο του [μνημειου]{.greek-omitted} [μετα]{.greek-omitted} [φοβου]{.greek-omitted} [και]{.greek-omitted} [χαρας]{.greek-omitted} [μεγαλης]{.greek-omitted} [εδραμον]{.greek-omitted} [απαγγειλαι]{.greek-omitted} [τοις]{.greek-omitted} [μαθηταις]{.greek-omitted} [αυτου]{.greek-omitted}[28:8]{.aside}
+
+[και]{.greek-omitted} [εξελθουσαι]{.greek-omitted} [ταχυ]{.greek-omitted} [απο]{.greek-omitted} [του]{.greek-omitted} μνημειου μετα φοβου και χαρας μεγαλης εδραμον απαγγειλαι τοις μαθηταις αυτου[28:8 | instance no. 2]{.aside}
+
+ως δε επορευοντο απαγγειλαι τοις [μαθηταις]{.greek-omitted} [μαθητσις]{.greek-added} αυτου και ιδου [ιησους]{.greek-abbr} [απηντησεν]{.greek-omitted} [αυταις]{.greek-omitted} [λεγων]{.greek-omitted} [χαιρετε]{.greek-omitted} [αι]{.greek-omitted} [δε]{.greek-omitted} [προσελθουσαι]{.greek-omitted} [εκρατησαν]{.greek-omitted} [αυτου]{.greek-omitted} [τους]{.greek-omitted} [ποδας]{.greek-omitted} [και]{.greek-omitted} [προσεκυνησαν]{.greek-omitted} [αυτω]{.greek-omitted}[28:9]{.aside}
+
+[ως]{.greek-omitted} [δε]{.greek-omitted} [επορευοντο]{.greek-omitted} [απαγγειλαι]{.greek-omitted} [τοις]{.greek-omitted} [μαθηταις]{.greek-omitted} [αυτου]{.greek-omitted} [και]{.greek-omitted} [ιδου]{.greek-omitted} [ιησους]{.greek-omitted} απηντησεν αυταις λεγων χαιρετε αι δε προσελθουσαι εκρατησαν αυτου τους ποδας και προσεκυνησαν αυτω[28:9 | instance no. 2]{.aside}
 
 τοτε λεγει αυταις ο [ιησους]{.greek-abbr} μη φοβεισθε υπαγετε απαγγειλατε τοις αδελφοις μου ινα απελθωσιν εις την γαλιλαιαν και εκει με οψονται[28:10]{.aside}
 
@@ -625,7 +713,9 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 λεγοντες ειπατε οτι οι μαθηται αυτου νυκτος ελθοντες εκλεψαν αυτον ημων κοιμωμενων[28:13]{.aside}
 
-και εαν ακουσθη [τουτο]{.greek-omitted} [του]{.greek-added} [το]{.greek-added} επι του ηγεμονος ημεις πεισομεν αυτον και υμας αμεριμνους ποιησομεν[28:14]{.aside}
+και εαν ακουσθη [τουτο]{.greek-omitted} [επι]{.greek-omitted} του [ηγεμονος]{.greek-omitted} [ημεις]{.greek-omitted} [πεισομεν]{.greek-omitted} [αυτον]{.greek-omitted} [και]{.greek-omitted} [υμας]{.greek-omitted} [αμεριμνους]{.greek-omitted} [ποιησομεν]{.greek-omitted}[28:14]{.aside}
+
+[το]{.greek-added} [και]{.greek-omitted} [εαν]{.greek-omitted} [ακουσθη]{.greek-omitted} [τουτο]{.greek-omitted} επι του ηγεμονος ημεις πεισομεν αυτον και υμας αμεριμνους ποιησομεν[28:14 | instance no. 2]{.aside}
 
 οι δε λαβοντες τα αργυρια εποιησαν ως εδιδαχθησαν και διεφημισθη ο λογος ουτος παρα ιουδαιοις μεχρι της σημερον[28:15]{.aside}
 
@@ -635,7 +725,11 @@ Download the Robinson-Pierpont 2018 edition of the Byzantine textform [here](htt
 
 και προσελθων ο [ιησους]{.greek-abbr} ελαλησεν αυτοις λεγων εδοθη μοι πασα εξουσια εν [ουρανω]{.greek-abbr} και επι γης[28:18]{.aside}
 
-πορευθεντες μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του [πατρος]{.greek-abbr} και του υιου και του αγιου [πνευματος]{.greek-abbr}[28:19]{.aside}
+πορευθεντες μαθητευσατε παντα τα εθνη βαπτιζοντες [αυτους]{.greek-omitted} [εις]{.greek-omitted} [το]{.greek-omitted} [ονομα]{.greek-omitted} [του]{.greek-omitted} [πατρος]{.greek-omitted} [και]{.greek-omitted} [του]{.greek-omitted} [υιου]{.greek-omitted} [και]{.greek-omitted} [του]{.greek-omitted} [αγιου]{.greek-omitted} [πνευματος]{.greek-omitted}[28:19]{.aside}
 
-διδασκοντες αυτους τηρειν παντα οσα ενετειλαμην υμιν και ιδου εγω μεθ υμων ειμι πασας τας ημερας εως της συντελειας του αιωνος αμην[28:20]{.aside}
+[πορευθεντες]{.greek-omitted} [μαθητευσατε]{.greek-omitted} [παντα]{.greek-omitted} [τα]{.greek-omitted} [εθνη]{.greek-omitted} [βαπτιζοντες]{.greek-omitted} αυτους εις το ονομα του [πατρος]{.greek-abbr} και του υιου και του αγιου [πνευματος]{.greek-abbr}[28:19 | instance no. 2]{.aside}
+
+διδασκοντες αυτους τηρειν παντα οσα ενετειλαμην υμιν [και]{.greek-omitted} [ιδου]{.greek-omitted} [εγω]{.greek-omitted} [μεθ]{.greek-omitted} [υμων]{.greek-omitted} [ειμι]{.greek-omitted} [πασας]{.greek-omitted} [τας]{.greek-omitted} [ημερας]{.greek-omitted} [εως]{.greek-omitted} [της]{.greek-omitted} [συντελειας]{.greek-omitted} [του]{.greek-omitted} [αιωνος]{.greek-omitted} [αμην]{.greek-omitted}[28:20]{.aside}
+
+[διδασκοντες]{.greek-omitted} [αυτους]{.greek-omitted} [τηρειν]{.greek-omitted} [παντα]{.greek-omitted} [οσα]{.greek-omitted} [ενετειλαμην]{.greek-omitted} [υμιν]{.greek-omitted} και ιδου εγω μεθ υμων ειμι πασας τας ημερας εως της συντελειας του αιωνος αμην[28:20 | instance no. 2]{.aside}
 

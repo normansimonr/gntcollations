@@ -2,3 +2,8 @@ collatex
 pandas
 roman
 bs4
+html5lib
+lxml
+Levenshtein
+tabulate
+Pyarrow
