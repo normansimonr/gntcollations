@@ -18,7 +18,7 @@ for book_name, value in data_dict.items():
     files_for_this_book = []
     for chapter in value.keys():
         if int(chapter) != 0:
-            file_name = f"{book_name_prefix}/{book_name_prefix}_{chapter}.pdf"
+            file_name = f"{book_name_prefix}/{book_name_prefix}_{chapter}"
             files_for_this_book.append({chapter: file_name})
     file_names_dictionary[book_name] = files_for_this_book
 
